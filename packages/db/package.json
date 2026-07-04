@@ -1,0 +1,32 @@
+{
+  "name": "@grudgemap/db",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "prebuild": "pnpm --filter @grudgemap/shared build",
+    "build": "tsc -p tsconfig.json",
+    "pretypecheck": "pnpm --filter @grudgemap/shared build",
+    "dev": "tsc -p tsconfig.json --watch",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@grudgemap/shared": "workspace:*"
+  },
+  "peerDependencies": {
+    "pg": "*"
+  },
+  "peerDependenciesMeta": {
+    "pg": { "optional": true }
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}

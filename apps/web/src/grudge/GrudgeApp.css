@@ -1,0 +1,351 @@
+/* Old Haunts — screen styling (layers on top of styles.css primitives). */
+
+.gm-shell {
+  --gm-ink: #1a1622;
+  --gm-accent: #c8452f; /* pillar-box red, worn */
+  /* The map is full-bleed; the floating UI (top bar, card, tab bar) is capped
+     to this width and centered so it stays phone-sized on wide screens. */
+  --gm-ui-max: 460px;
+  position: relative;
+  padding: 0;
+}
+
+.gm-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  left: 50%;
+  right: auto;
+  transform: translateX(-50%);
+  width: min(var(--gm-ui-max), calc(100% - 32px));
+}
+.gm-brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  color: var(--gm-ink);
+}
+.gm-brand-mark { font-size: 18px; }
+.gm-brand-name { font-size: 16px; }
+
+.gm-ledger-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: none;
+  border-radius: 999px;
+  padding: 8px 14px;
+  font-weight: 700;
+  font-size: 13px;
+  color: #fff;
+  background: var(--gm-accent);
+  cursor: pointer;
+}
+.gm-ledger-count {
+  display: inline-grid;
+  place-items: center;
+  min-width: 20px;
+  height: 20px;
+  padding: 0 5px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.24);
+  font-size: 12px;
+}
+
+.gm-status-chip {
+  flex: 1;
+  min-width: 0;
+  margin-left: 12px;
+  padding: 7px 12px;
+  border-radius: 999px;
+  background: rgba(26, 22, 34, 0.06);
+  font-size: 12px;
+  line-height: 1.3;
+  color: rgba(26, 22, 34, 0.72);
+  text-align: right;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* The map fills the whole phone column (gm-shell padding is 0). */
+.gm-shell .map-stage { height: 100dvh; min-height: 100dvh; border: 0; border-radius: 0; }
+
+/* ── Pins ─────────────────────────────────────────────────────────────────── */
+.gm-pin {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.75);
+  box-shadow: 0 6px 16px rgba(30, 20, 40, 0.22);
+  cursor: pointer;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+.gm-pin:hover { transform: translate(-50%, -50%) scale(1.06); }
+.gm-pin.is-active { background: #fff; border-color: var(--gm-accent); }
+.gm-pin.is-selected { transform: translate(-50%, -50%) scale(1.14); box-shadow: 0 10px 22px rgba(200, 69, 47, 0.4); }
+.gm-pin-emoji { display: grid; place-items: center; color: var(--gm-ink); }
+.gm-pin.is-active .gm-pin-emoji,
+.gm-pin.is-selected .gm-pin-emoji { color: var(--gm-accent); }
+.gm-pin-order {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  min-width: 16px;
+  height: 16px;
+  padding: 0 3px;
+  border-radius: 999px;
+  background: var(--gm-ink);
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  display: grid;
+  place-items: center;
+}
+
+/* ── Bottom sheet ─────────────────────────────────────────────────────────── */
+/* Stacks dynamically directly above the nav: --gm-nav-h is measured at runtime. */
+.gm-sheet {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(var(--gm-ui-max), calc(100% - 32px));
+  bottom: calc(var(--gm-nav-h, 120px) + 18px);
+  padding: 18px 20px 20px;
+  border-radius: 22px;
+  z-index: 15;
+}
+.gm-sheet-head { display: flex; align-items: center; gap: 12px; }
+.gm-sheet-emoji {
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  background: rgba(200, 69, 47, 0.1);
+  color: var(--gm-accent);
+  flex: 0 0 auto;
+}
+.gm-sheet-title { display: flex; flex-direction: column; flex: 1; min-width: 0; }
+.gm-sheet-title strong { font-size: 17px; color: var(--gm-ink); }
+.gm-sheet-title span { font-size: 12px; color: rgba(26, 22, 34, 0.6); }
+.gm-sheet-order { font-size: 12px; font-weight: 700; color: var(--gm-accent); white-space: nowrap; }
+.gm-sheet-close {
+  flex: 0 0 auto;
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  margin: -4px -6px -4px 2px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(26, 22, 34, 0.06);
+  color: rgba(26, 22, 34, 0.55);
+  cursor: pointer;
+  transition: background 0.14s ease, color 0.14s ease;
+}
+.gm-sheet-close:hover { background: rgba(26, 22, 34, 0.12); color: var(--gm-ink); }
+.gm-sheet-blurb { margin: 10px 0 4px; font-size: 14px; line-height: 1.45; color: var(--gm-ink); }
+.gm-sheet-walk { margin: 0 0 12px; font-size: 12px; color: rgba(26, 22, 34, 0.6); display: flex; align-items: center; gap: 5px; }
+.gm-sheet-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.gm-btn--icon { display: inline-flex; align-items: center; justify-content: center; gap: 6px; }
+
+/* ── Buttons ──────────────────────────────────────────────────────────────── */
+.gm-btn {
+  flex: 1;
+  min-width: 92px;
+  border: none;
+  border-radius: 12px;
+  padding: 11px 12px;
+  font-weight: 700;
+  font-size: 13px;
+  cursor: pointer;
+  background: rgba(26, 22, 34, 0.08);
+  color: var(--gm-ink);
+}
+.gm-btn--primary { background: var(--gm-accent); color: #fff; }
+.gm-btn--ghost { background: transparent; box-shadow: inset 0 0 0 1.5px rgba(26, 22, 34, 0.18); }
+.gm-btn:disabled { opacity: 0.5; cursor: default; }
+
+/* ── Camera overlay ───────────────────────────────────────────────────────── */
+.gm-camera { position: fixed; inset: 0; z-index: 40; background: #000; }
+.gm-camera-feed { width: 100%; height: 100%; object-fit: cover; }
+.gm-camera-scrim {
+  position: absolute;
+  inset: auto 0 0 0;
+  padding: 20px 16px calc(20px + env(safe-area-inset-bottom));
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.72), transparent);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.gm-camera-hint { color: #fff; text-align: center; font-size: 14px; margin: 0; }
+.gm-camera-classes { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.gm-camera .gm-btn { background: rgba(255, 255, 255, 0.92); }
+.gm-camera .gm-btn--ghost { background: transparent; color: #fff; box-shadow: inset 0 0 0 1.5px rgba(255, 255, 255, 0.5); }
+
+/* ── Ledger ───────────────────────────────────────────────────────────────── */
+.gm-ledger {
+  position: fixed;
+  inset: 0;
+  z-index: 30;
+  display: grid;
+  place-items: end center;
+  background: rgba(10, 8, 16, 0.42);
+  padding: 0 12px 12px;
+}
+.gm-ledger-card {
+  width: 100%;
+  max-width: 520px;
+  padding: 16px 18px 18px;
+  border-radius: 22px 22px 16px 16px;
+  max-height: 72vh;
+  overflow-y: auto;
+}
+.gm-ledger-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
+.gm-ledger-head strong { font-size: 18px; color: var(--gm-ink); }
+.gm-ledger-head .gm-btn { flex: 0 0 auto; min-width: 0; }
+.gm-ledger-empty { color: rgba(26, 22, 34, 0.6); font-size: 14px; }
+.gm-ledger-list { margin: 4px 0 14px; padding-left: 20px; display: flex; flex-direction: column; gap: 10px; }
+.gm-ledger-list li { font-size: 14px; line-height: 1.4; color: var(--gm-ink); }
+.gm-ledger-share { width: 100%; }
+
+/* ── Floating two-layer nav ───────────────────────────────────────────────── */
+/* The nav itself is transparent so the map shows through; its two children —
+   floating lens chips and a detached rounded tab bar — carry their own surfaces. */
+.gm-nav {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(var(--gm-ui-max), calc(100% - 32px));
+  bottom: 0;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 0 4px calc(48px + env(safe-area-inset-bottom));
+  background: transparent;
+  pointer-events: none;
+}
+.gm-nav > * { pointer-events: auto; }
+
+/* Layer 1 — floating circular lens chips (white, expanding out) */
+.gm-lenses {
+  display: flex;
+  gap: 18px;
+  /* Centre the chips when they fit; fall back to scrollable start-aligned when
+     the row overflows (safe center avoids clipping the first chip). */
+  justify-content: safe center;
+  overflow-x: auto;
+  scrollbar-width: none;
+  padding: 6px 10px 4px;
+}
+.gm-lenses::-webkit-scrollbar { display: none; }
+.gm-lens {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+}
+.gm-lens-badge {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: #fff;
+  display: grid;
+  place-items: center;
+  color: var(--gm-ink);
+  box-shadow: 0 6px 16px rgba(30, 20, 40, 0.14);
+  transition: transform 0.14s ease, box-shadow 0.14s ease, color 0.14s ease;
+}
+.gm-lens-label {
+  position: relative;
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(26, 22, 34, 0.5);
+}
+.gm-lens.is-active .gm-lens-badge {
+  transform: translateY(-2px);
+  color: var(--gm-accent);
+  box-shadow: 0 10px 24px rgba(200, 69, 47, 0.28);
+}
+.gm-lens.is-active .gm-lens-label { color: var(--gm-ink); }
+.gm-lens.is-active .gm-lens-label::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+  width: 16px;
+  height: 2px;
+  border-radius: 2px;
+  background: var(--gm-ink);
+  transform: translateX(-50%);
+}
+
+/* Layer 2 — round floating tab bar */
+.gm-tabbar {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  width: fit-content;
+  margin-inline: auto;
+  padding: 6px;
+  background: #fff;
+  border-radius: 999px;
+  box-shadow: 0 10px 26px rgba(20, 14, 30, 0.16);
+}
+.gm-tab {
+  position: relative;
+  flex: 0 0 auto;
+  min-width: 62px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  border: none;
+  background: transparent;
+  border-radius: 999px;
+  padding: 8px 10px;
+  font-size: 11px;
+  font-weight: 600;
+  color: rgba(26, 22, 34, 0.5);
+  cursor: pointer;
+  transition: background 0.14s ease, color 0.14s ease;
+}
+.gm-tab:disabled { opacity: 0.4; }
+.gm-tab-ico { display: inline-flex; align-items: center; justify-content: center; }
+.gm-tab.is-active {
+  background: rgba(200, 69, 47, 0.1);
+  color: var(--gm-accent);
+}
+
+/* Three even tabs: Map · Camera · Memories */
+.gm-tabbar--3 { gap: 6px; }
+.gm-tab-badge {
+  position: absolute;
+  top: 2px;
+  right: 20%;
+  min-width: 16px;
+  height: 16px;
+  padding: 0 4px;
+  border-radius: 999px;
+  background: var(--gm-accent);
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  display: grid;
+  place-items: center;
+}

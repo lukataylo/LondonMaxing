@@ -1,0 +1,124 @@
+/* Memories — die-cut stickers on a real Dalston sky. */
+.mc-root {
+  position: fixed;
+  inset: 0;
+  z-index: 45;
+  overflow-y: auto;
+  background:
+    radial-gradient(ellipse at 78% 8%, rgba(255, 255, 255, 0.55) 0%, transparent 42%),
+    radial-gradient(ellipse at 18% 4%, rgba(255, 255, 255, 0.35) 0%, transparent 40%),
+    linear-gradient(180deg, #7ec8f0 0%, #93d2f2 22%, #aedcf5 48%, #cdeafb 74%, #e9f6ff 100%);
+  padding-bottom: 120px;
+}
+
+.mc-top {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: calc(14px + env(safe-area-inset-top)) 20px 12px;
+  background: linear-gradient(180deg, rgba(126, 200, 240, 0.92), rgba(126, 200, 240, 0));
+}
+.mc-title { display: flex; flex-direction: column; }
+.mc-title strong { font-size: 22px; color: #123a52; letter-spacing: -0.01em; }
+.mc-title span { font-size: 12.5px; color: rgba(18, 58, 82, 0.7); }
+.mc-x {
+  width: 36px; height: 36px; border: 0; border-radius: 50%;
+  background: rgba(255, 255, 255, 0.75); color: #123a52; font-size: 15px; cursor: pointer;
+  box-shadow: 0 4px 12px rgba(30, 70, 115, 0.2);
+}
+
+.mc-empty {
+  max-width: 320px;
+  margin: 22vh auto 0;
+  text-align: center;
+  color: #123a52;
+  padding: 0 24px;
+}
+.mc-empty-emoji { font-size: 40px; margin-bottom: 10px; }
+.mc-empty p { margin: 6px 0; font-size: 14px; line-height: 1.5; color: rgba(18, 58, 82, 0.82); }
+.mc-empty strong { font-size: 16px; }
+
+.mc-days { padding: 6px 16px 0; }
+.mc-day { margin-bottom: 22px; }
+.mc-day-label {
+  margin: 0 4px 10px;
+  font-size: 13px;
+  font-weight: 800;
+  color: #123a52;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+.mc-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px 14px;
+}
+
+/* Each sticker sits directly on the sky — the die-cut PNG lifts off with a soft shadow. */
+.mc-sticker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  width: 92px;
+  border: 0;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+}
+.mc-sticker img {
+  width: 84px;
+  height: 84px;
+  object-fit: contain;
+  filter: drop-shadow(0 6px 10px rgba(30, 70, 115, 0.28));
+  transition: transform 0.14s ease;
+}
+.mc-sticker:hover img { transform: translateY(-3px) scale(1.04); }
+.mc-sticker-name {
+  font-size: 11px;
+  font-weight: 700;
+  color: #123a52;
+  text-align: center;
+  line-height: 1.2;
+  max-width: 92px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Lightbox */
+.mc-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  display: grid;
+  place-items: center;
+  background: rgba(10, 30, 50, 0.55);
+  padding: 24px;
+}
+.mc-lightbox-card {
+  width: 100%;
+  max-width: 380px;
+  background: #fff;
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.4);
+}
+.mc-lightbox-img { width: 100%; display: block; aspect-ratio: 3 / 4; object-fit: cover; }
+.mc-lightbox-meta { padding: 14px 16px 4px; display: flex; flex-direction: column; }
+.mc-lightbox-meta strong { font-size: 17px; color: #1a1622; }
+.mc-lightbox-meta span { font-size: 12.5px; color: rgba(26, 22, 34, 0.6); }
+.mc-lightbox-x {
+  margin: 12px 16px 16px;
+  width: calc(100% - 32px);
+  border: 0;
+  border-radius: 12px;
+  padding: 12px;
+  font-weight: 800;
+  font-size: 13px;
+  background: rgba(26, 22, 34, 0.08);
+  color: #1a1622;
+  cursor: pointer;
+}

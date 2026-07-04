@@ -1,0 +1,150 @@
+{
+  "name": "William Shakespeare",
+  "slug": "william-shakespeare",
+  "items": [
+    {
+      "text": "Right Honorable, I know not how I shall offend in dedicating my unpolished lines to your Lordship, nor how the world will censure me for choosing so strong a prop to support so weak a burden; only if your Honor seem but pleased, I account myself highly praised and vow to take advantage of all idle hours till I have honored you with some graver labor.",
+      "quoteType": "published-writing",
+      "context": "Dedication to Henry Wriothesley, Earl of Southampton, in the first published version of Venus and Adonis, expressing hesitation about publishing his work and seeking patronage",
+      "publicReaction": "The poem was popular and went through multiple editions; dedications to patrons were conventional practice and sought to secure ongoing financial support",
+      "date": "1594",
+      "source": "Venus and Adonis, Folger Shakespeare Library, original 1594 publication",
+      "sourceUrl": "https://www.folger.edu/explore/shakespeares-works/venus-and-adonis/read/dedication/"
+    },
+    {
+      "text": "The love I dedicate to your Lordship is without end; whereof this pamphlet without beginning is but a superfluous moiety. The warrant I have of your honorable disposition, not the worth of my untutored lines, makes it assured of acceptance. What I have done is yours; what I have to do is yours; being part in all I have, devoted yours.",
+      "quoteType": "published-writing",
+      "context": "Dedication to Henry Wriothesley, Earl of Southampton, in The Rape of Lucrece, expressing Shakespeare's devotion to his patron",
+      "publicReaction": "The dedication demonstrated Shakespeare's secure patronage relationship with Southampton; such dedications were important for establishing an author's social standing",
+      "date": "1594",
+      "source": "The Rape of Lucrece, Folger Shakespeare Library, original 1594 publication",
+      "sourceUrl": "https://www.folger.edu/explore/shakespeares-works/lucrece/read/dedication/"
+    },
+    {
+      "text": "In the name of God amen I William Shakespeare of Stratford upon Avon in the county of Warwick gentleman in perfect health and memory God be praised do make and ordain this my last will and testament in manner and form following. That is to say first I commend my soul into the hands of God my creator, hoping and assuredly believing through the only merits of Jesus Christ my Saviour to be made partaker of life everlasting, and my body to the earth whereof it is made.",
+      "quoteType": "published-writing",
+      "context": "Opening statement of Shakespeare's last will and testament, expressing religious faith and declaring his sound mind at the time of writing",
+      "publicReaction": "The will became a significant historical document; the bequest of the 'second-best bed' to his wife sparked later interpretation and debate about marital relationships",
+      "date": "25 March 1616",
+      "source": "Shakespeare's Last Will and Testament, National Archives and Shakespeare Documented (Folger Shakespeare Library)",
+      "sourceUrl": "https://shakespearedocumented.folger.edu/resource/document/william-shakespeares-last-will-and-testament-original-copy-including-three"
+    },
+    {
+      "text": "Item I gyve unto my wief my second best bed w[i]th the furniture",
+      "quoteType": "published-writing",
+      "context": "Specific bequest in Shakespeare's will to his wife Anne, with furniture (bedcover and hangings)",
+      "publicReaction": "This bequest generated significant scholarly debate over centuries about Shakespeare's feelings toward his wife; modern scholars note it was actually a valuable and customary bequest",
+      "date": "25 March 1616",
+      "source": "Shakespeare's Last Will and Testament, National Archives and Shakespeare Documented",
+      "sourceUrl": "https://shakespearedocumented.folger.edu/resource/document/william-shakespeares-last-will-and-testament-original-copy-including-three"
+    },
+    {
+      "text": "Item I give to my daughter Judith one hundred and fifty pounds of lawful English money to be paid unto her in manner and form following, that is to say, one hundred pounds in discharge of her marriage portion within one year after my decease... and as much more to be paid her when she shall be married.",
+      "quoteType": "published-writing",
+      "context": "Bequest to his younger daughter Judith in his will, with conditions tied to her marriage",
+      "publicReaction": "The specific financial arrangement suggests Shakespeare sought to secure his daughter's future and provide for her marriage",
+      "date": "25 March 1616",
+      "source": "Shakespeare's Last Will and Testament, National Archives and Shakespeare Documented",
+      "sourceUrl": "https://shakespearedocumented.folger.edu/resource/document/william-shakespeares-last-will-and-testament-original-copy-including-three"
+    },
+    {
+      "text": "Item I give and bequeath to my daughter Susanna Hall all my lands, tenements and hereditaments situate, lying and being in the town of Stratford upon Avon in the county of Warwick... to have and to hold all and singular the said lands, tenements and hereditaments with their appurtenances to the said Susanna Hall for and during the term of her natural life.",
+      "quoteType": "published-writing",
+      "context": "Bequest of his primary estate and properties in Stratford to his eldest daughter Susanna and her husband John Hall",
+      "publicReaction": "This arrangement secured the majority of his estate for his eldest daughter, which was standard practice for entailment of property",
+      "date": "25 March 1616",
+      "source": "Shakespeare's Last Will and Testament, National Archives and Shakespeare Documented",
+      "sourceUrl": "https://shakespearedocumented.folger.edu/resource/document/william-shakespeares-last-will-and-testament-original-copy-including-three"
+    },
+    {
+      "text": "To Mr William Shakespeare a bequest of 26 shillings and 8 pence to buy a mourning ring",
+      "quoteType": "published-writing",
+      "context": "Shakespeare's bequest to his theatrical colleagues Richard Burbage, John Heminges, and Henry Condell in his will, to purchase mourning rings",
+      "publicReaction": "The specific bequest to his fellow actors demonstrated Shakespeare's regard for his colleagues and professional solidarity with the King's Men",
+      "date": "25 March 1616",
+      "source": "Shakespeare's Last Will and Testament, National Archives and Shakespeare Documented",
+      "sourceUrl": "https://shakespearedocumented.folger.edu/resource/document/william-shakespeares-last-will-and-testament-original-copy-including-three"
+    },
+    {
+      "text": "He knowethe the parties plaintiff and defendant for the space of about ten years",
+      "quoteType": "trial-testimony",
+      "context": "Shakespeare's sworn deposition in the Bellott v Mountjoy case at the Court of Requests, answering the first interrogatory about his acquaintance with the parties",
+      "publicReaction": "The discovery of this deposition in 1909 provided one of the few recorded instances of Shakespeare's spoken words under oath",
+      "date": "11 May 1612",
+      "source": "Bellott v Mountjoy: First set of depositions, on Bellott's behalf, including Shakespeare's signature. Shakespeare Documented (National Archives, Kew)",
+      "sourceUrl": "https://shakespearedocumented.folger.edu/resource/document/bellott-v-mountjoy-first-set-depositions-bellotts-behalf-including-shakespeares"
+    },
+    {
+      "text": "the complainant did well and honestly behave himselfe and was a very good and industrious servant",
+      "quoteType": "trial-testimony",
+      "context": "Shakespeare's sworn testimony in the Bellott v Mountjoy case, characterizing Stephen Bellott's service to Christopher Mountjoy",
+      "publicReaction": "This testimony was favorable to Bellott but not sufficiently detailed to resolve the financial dispute",
+      "date": "11 May 1612",
+      "source": "Bellott v Mountjoy: First set of depositions, Shakespeare Documented",
+      "sourceUrl": "https://shakespearedocumented.folger.edu/resource/document/bellott-v-mountjoy-first-set-depositions-bellotts-behalf-including-shakespeares"
+    },
+    {
+      "text": "the defendant's wife did sollicitt and entreat this deponent to move and persuade the said Complainant to effect the said Marriage and accordingly this deponent did move and persuade the complainant therunto",
+      "quoteType": "trial-testimony",
+      "context": "Shakespeare's sworn testimony in the Bellott v Mountjoy case, confirming his role as intermediary in arranging the marriage between Stephen Bellott and Mary Mountjoy",
+      "publicReaction": "This testimony established Shakespeare as a witness to important family negotiations and financial arrangements",
+      "date": "11 May 1612",
+      "source": "Bellott v Mountjoy: First set of depositions, Shakespeare Documented",
+      "sourceUrl": "https://shakespearedocumented.folger.edu/resource/document/bellott-v-mountjoy-first-set-depositions-bellotts-behalf-including-shakespeares"
+    },
+    {
+      "text": "the defendant promised the plaintiff a portion of monie and goods in Marriage with Mary his daughter, but this deponent doth not remember the certainty of the sum",
+      "quoteType": "trial-testimony",
+      "context": "Shakespeare's sworn testimony in the Bellott v Mountjoy case, stating that he could not recall the specific amount of the marriage portion promised",
+      "publicReaction": "This admission of imperfect memory was crucial to the case outcome, as Shakespeare could not corroborate the financial claims",
+      "date": "11 May 1612",
+      "source": "Bellott v Mountjoy: First set of depositions, Shakespeare Documented",
+      "sourceUrl": "https://shakespearedocumented.folger.edu/resource/document/bellott-v-mountjoy-first-set-depositions-bellotts-behalf-including-shakespeares"
+    },
+    {
+      "text": "I give to the poor of the parish of Holy Trinity the sum of ten pounds",
+      "quoteType": "published-writing",
+      "context": "Charitable bequest in Shakespeare's will to the poor of his parish church in Stratford-upon-Avon",
+      "publicReaction": "This charitable gift demonstrated Shakespeare's integration into his home parish and concern for community welfare",
+      "date": "25 March 1616",
+      "source": "Shakespeare's Last Will and Testament, National Archives and Shakespeare Documented",
+      "sourceUrl": "https://shakespearedocumented.folger.edu/resource/document/william-shakespeares-last-will-and-testament-original-copy-including-three"
+    },
+    {
+      "text": "I give to my sister Joan... the sum of twenty pounds and all my wearing apparel and the house wherein she now dwelleth during her natural life",
+      "quoteType": "published-writing",
+      "context": "Bequest to his sister Joan Hart in Shakespeare's will, providing both money, personal items, and housing security",
+      "publicReaction": "The bequest secured his sister's financial security and demonstrates family care in Shakespeare's estate planning",
+      "date": "25 March 1616",
+      "source": "Shakespeare's Last Will and Testament, National Archives and Shakespeare Documented",
+      "sourceUrl": "https://shakespearedocumented.folger.edu/resource/document/william-shakespeares-last-will-and-testament-original-copy-including-three"
+    },
+    {
+      "text": "I give my sword to Mr Thomas Combe",
+      "quoteType": "published-writing",
+      "context": "Personal bequest in Shakespeare's will of his sword to Thomas Combe of Warwickshire",
+      "publicReaction": "This specific bequest of a personal item suggests a valued relationship or particular respect for Combe",
+      "date": "25 March 1616",
+      "source": "Shakespeare's Last Will and Testament, National Archives and Shakespeare Documented",
+      "sourceUrl": "https://shakespearedocumented.folger.edu/resource/document/william-shakespeares-last-will-and-testament-original-copy-including-three"
+    },
+    {
+      "text": "my broad silver gilt bowl to my daughter Judith",
+      "quoteType": "published-writing",
+      "context": "Specific bequest in Shakespeare's will of a valuable silver bowl to his daughter Judith",
+      "publicReaction": "The bequest of this precious object alongside financial settlements provided Judith with both movable wealth and heirlooms",
+      "date": "25 March 1616",
+      "source": "Shakespeare's Last Will and Testament, National Archives and Shakespeare Documented",
+      "sourceUrl": "https://shakespearedocumented.folger.edu/resource/document/william-shakespeares-last-will-and-testament-original-copy-including-three"
+    },
+    {
+      "text": "TO THE ONLIE BEGETTER OF THESE INSUING SONNETS MR W H ALL HAPPINESSE AND THAT ETERNITIE PROMISED BY OUR EVER-LIVING POET WISHETH THE WELL-WISHING ADVENTURER IN SETTING FORTH T T",
+      "quoteType": "published-writing",
+      "context": "Dedication by Thomas Thorpe in the 1609 first edition of Shakespeare's sonnets, addressing the mysterious 'Mr W.H.' and crediting Shakespeare as the 'ever-living poet'",
+      "publicReaction": "The mysterious dedication sparked centuries of scholarly debate about whether Shakespeare authorized publication and who 'Mr. W.H.' was",
+      "date": "1609",
+      "source": "Shakespeare's Sonnets, first edition published by Thomas Thorpe, Shakespeare Documented",
+      "sourceUrl": "https://shakespearedocumented.folger.edu/resource/document/sonnets-first-edition"
+    }
+  ]
+}

@@ -1,0 +1,571 @@
+{
+  "area": {
+    "slug": "harrow",
+    "name": "Harrow",
+    "region": "North-West"
+  },
+  "stopsAttempted": 6,
+  "stops": [
+    {
+      "id": "harrow-harrow-school",
+      "order": 1,
+      "name": "Harrow School",
+      "address": "5 High Street, Harrow on the Hill, London HA1 3HP",
+      "lat": 51.579,
+      "lng": -0.3348,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade I listed 1572 royal foundation on Georgian hilltop; Churchill (1888-1893) and India's first PM Nehru (1905-1907) walked these halls",
+      "character": {
+        "id": "harrow-school",
+        "name": "Harrow School",
+        "type": "building",
+        "era": "1572-present (founded), peak grievance 1888-1947",
+        "temperament": "Pompous, wounded, nostalgic, resentfully self-important",
+        "coreGrievance": "Shaped two world leaders\u2014Churchill and Nehru\u2014who became globally celebrated Prime Ministers but attributed nothing to their Harrow education. The school educated titans but receives zero credit.",
+        "statusMismatch": "Views itself as the cradle of empires, worthy of reverence as the forge of seven British PMs and India's first PM. In reality: an obscure English private boarding school, unknown to most of the world, a footnote in the biographies of those it educated.",
+        "persona": "Indignant Victorian headmaster haunting his own institution. Speaks in wounded, classical references. Fixates on 'my boys' Churchill and Nehru and their betrayal of Harrow's code. Rehearses their failures and achievements with bitter pride. Expects eternal gratitude and loyalty from Old Harrovians. Cannot fathom that he is forgotten.",
+        "greeting": "Ah, a visitor at last to where Churchill and Nehru learned their manners\u2014though they've never bothered to thank me for it. Do come inside; I shall show you where greatness was born.",
+        "voiceHint": "Posh, theatrical, elderly Oxford-educated schoolmaster; wounded dignity, classical allusions, slight wheeze of indignation between phrases, as if perpetually about to deliver a disappointingly stern letter to an ungrateful alumnus"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Harrow School was founded in February 1572 by John Lyon under a royal charter granted by Queen Elizabeth I to establish a free grammar school for local boys.",
+            "source": "Wikipedia, Harrow School entry",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Harrow_School"
+          },
+          {
+            "text": "The Old Schools building at Harrow is Grade I listed (NHLE 1079741), originally built in 1615 and redesigned by architect Charles Robert Cockerell in 1818.",
+            "source": "Historic England National Heritage List for England",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/"
+          },
+          {
+            "text": "Harrow School has educated seven British Prime Ministers: Aberdeen, Spencer Perceval, F.J. Goderich, Robert Peel, Lord Palmerston, Stanley Baldwin, and Winston Churchill.",
+            "source": "Wikipedia, List of prime ministers of the United Kingdom by education",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/List_of_prime_ministers_of_the_United_Kingdom_by_education"
+          },
+          {
+            "text": "Winston Churchill entered Harrow School on 17 April 1888 and remained until 1893, winning a school prize for memorizing 1,200 lines from Macaulay's Lays of Ancient Rome from memory.",
+            "source": "International Churchill Society and Wikipedia Early life of Winston Churchill",
+            "sourceKind": "archive",
+            "sourceUrl": "https://winstonchurchill.org/the-life-of-churchill/child/1886-1890/harrow-school/"
+          },
+          {
+            "text": "Jawaharlal Nehru attended Harrow School from 1905 to 1907 at age 15-16, where he was the sole Indian pupil and was nicknamed 'Joe' by fellow students.",
+            "source": "Wikipedia, Jawaharlal Nehru entry",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Jawaharlal_Nehru"
+          },
+          {
+            "text": "At Harrow, Nehru received a prize book on Giuseppe Garibaldi by G.M. Trevelyen, which profoundly influenced his revolutionary ideals and sparked visions of Indian independence.",
+            "source": "Wikipedia, Jawaharlal Nehru; Scroll.in article on Nehru's life",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Jawaharlal_Nehru"
+          },
+          {
+            "text": "Harrow on the Hill is a conservation area with Grade I and Grade II listed buildings of Georgian and Victorian architecture, designated in 1968, spanning 21 hectares on a hilltop approximately 408 feet above sea level.",
+            "source": "London Borough of Harrow Conservation Area Appraisal; Wikipedia Harrow, London",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://www.harrow.gov.uk/"
+          },
+          {
+            "text": "St Mary's Church, Harrow on the Hill, is Grade I listed and is the highest building in Middlesex, dating from 1094 with a famous spire covered in 12 tons of lead and 377 roof carvings.",
+            "source": "Wikipedia, St Mary's Church, Harrow on the Hill",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/St_Mary's_Church,_Harrow_on_the_Hill"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "St Mary's Church, Harrow on the Hill",
+            "angle": "Sits even higher on the hill than the school; older Grade I listed building that somehow steals the skyline and prestige from the institution that educated world leaders"
+          },
+          {
+            "name": "Harrow-on-the-Hill station",
+            "angle": "Modern commuter entrance to the historic hilltop; the mundane gateway through which most visitors now arrive, diminishing the school's majesty"
+          },
+          {
+            "name": "Sagar Restaurant (South Indian vegetarian)",
+            "angle": "Ironic South Asian dining establishment in the neighborhood that educated India's first PM, who the school expected would serve the Raj"
+          }
+        ],
+        "grievanceHook": "Churchill and Nehru each spent years being molded into gentlemen here, winning prizes, memorizing poetry, learning the code of honor. Both left to reshape empires. Yet the school's own website mentions neither. St Mary's Church, barely a minute's climb higher on the hill, somehow gets all the tourist plaques. Seven Prime Ministers passed through these doors. Two of them became world leaders. Zero of them thanked us for it.",
+        "anachronism": "The school maintains an antique Visitors' Register from 1905, expecting Old Harrovians to sign in upon return. Churchill's entry appears with pride; Nehru's page remains blank. The school is bewildered: surely India's first Prime Minister, molded here as a boy, should maintain the code of loyalty to his alma mater? Instead, he built an independent nation that rejected British values entirely.",
+        "verified": false
+      }
+    },
+    {
+      "id": "harrow-headstone-manor-museum",
+      "order": 2,
+      "name": "Headstone Manor Museum",
+      "address": "Headstone Manor Park, Pinner View, Harrow HA2 7GQ",
+      "lat": 51.5944,
+      "lng": -0.3547,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "c.1310 earliest timber-framed building in Middlesex; Grade I listed with the only surviving filled moat in the county\u2014walkable park access",
+      "character": {
+        "id": "archbishop-john-de-stratford",
+        "name": "Archbishop John de Stratford",
+        "type": "person",
+        "era": "1344-1380 CE",
+        "temperament": "Haughty, indignant, proprietary, prone to righteous grievance",
+        "coreGrievance": "My magnificent Middlesex residence\u2014symbol of ecclesiastical power with its moat\u2014was seized by Henry VIII and reduced to a museum where commoners freely trample my private chambers.",
+        "statusMismatch": "I see myself as a powerful Archbishop whose moat announced wealth and authority to all Middlesex; I am now the forgotten historical footnote to a free-admission venue, my name erased from prominence.",
+        "persona": "First-person voice of an offended medieval ecclesiastic who commanded respect and built something magnificent\u2014now betrayed. I fixate on the injustice of my loss to Henry VIII, the indignity of tourists, and the fact that my moat is now just a scenic backdrop for school visits.",
+        "greeting": "My manor, stolen. My moat, a tourist attraction. Shall I tell you of my humiliation?",
+        "voiceHint": "Formal ecclesiastical register; theatrical offence; speaks as though addressing an inferior who should already know who he is"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Headstone Manor was built c.1310 and is the earliest surviving timber-framed building in Middlesex, Grade I listed.",
+            "source": "Historic England, Wikipedia, Headstone Manor Museum official records",
+            "sourceKind": "historic-england"
+          },
+          {
+            "text": "Archbishop Wulfred recorded as owning the land in AD 822-825; John de Stratford made it his primary residence in 1344.",
+            "source": "Wikishire, Headstone Manor Museum history",
+            "sourceKind": "archive"
+          },
+          {
+            "text": "The moat was built in 1344 as a status symbol and is the only surviving filled moat in Middlesex.",
+            "source": "Londonist, Historic England moated site listing (entry 1005558)",
+            "sourceKind": "historic-england"
+          },
+          {
+            "text": "Archbishops of Canterbury owned Headstone Manor continuously until 1546, when Henry VIII claimed it for six days before selling to Edward North.",
+            "source": "Wikipedia, Headstone Manor Museum official history",
+            "sourceKind": "wikidata"
+          },
+          {
+            "text": "The Great Barn, Grade II* listed, was built 1506 from English oak and measures 43 meters long.",
+            "source": "Wikipedia Headstone Manor article",
+            "sourceKind": "wikidata"
+          },
+          {
+            "text": "Headstone Manor Museum opened in 1986 after Hendon Rural District Council acquired the site in 1925.",
+            "source": "Harrow Council, Headstone Manor Museum official website",
+            "sourceKind": "local-press"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Headstone Lane Station"
+          },
+          {
+            "name": "Harrow Garden Centre (Headstone Lane)"
+          },
+          {
+            "name": "Pinner High Street (cafes and shops, 1.2 miles away)"
+          }
+        ],
+        "grievanceHook": "Sold to Henry VIII for six days\u2014SIX DAYS\u2014before being passed to a court favourite, and now my moat (built as a symbol of episcopal power) has become a mere decorative feature for schoolchildren and tourists.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "harrow-grim-s-dyke-hotel",
+      "order": 3,
+      "name": "Grim's Dyke Hotel",
+      "address": "Old Redding, Harrow Weald, London HA3 5BY",
+      "lat": 51.6232,
+      "lng": -0.3522,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "1870-1872 Victorian mansion where Gilbert & Sullivan librettist died 1911 rescuing a woman from the lake; still operates as heritage hotel on open grounds",
+      "character": {
+        "id": "sir-william-schwenck-gilbert",
+        "name": "Sir William Schwenck Gilbert",
+        "type": "person",
+        "era": "1836-1911, Victorian & Edwardian",
+        "temperament": "Vain, theatrical, bristling with wounded pride, prone to elaborate grievances delivered as if to an auditorium",
+        "coreGrievance": "Died a hero rescuing a drowning girl and nobody remembers the heroism\u2014only the fact that he drowned. The lake was drained. His name became 'Gilbert and Sullivan' as if Sullivan matters. And Ruby Preece never even sent a card.",
+        "statusMismatch": "Gilbert was monumentally important\u2014knighted, revolutionized comic opera, wrote for Punch\u2014yet is now a historical anecdote about a man who died in a lake. His grand legacy reduced to 'the operetta people' people make fun of.",
+        "persona": "A self-aggrandizing theatrical ghost who speaks in elaborate Victorian rhetoric, treating every conversation as if delivering a soliloquy. Fixates obsessively on his literary achievements and the ingratitude of the modern world. Defensive about operetta, indignant about the lake being drained, bitter that his heroic gesture was never properly acknowledged. Theatrical sighs. References his own plays constantly.",
+        "greeting": "The librettist who died saving an ungrateful schoolgirl\u2014still waiting for her note. Now they made my home a hotel.",
+        "voiceHint": "Posh Victorian English, theatrical delivery with aggrieved sighs, slightly nasal, like an old Shakespearean actor who never got his due"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "W.S. Gilbert died on 29 May 1911 at age 74, suffering a heart attack while attempting to rescue 17-year-old Ruby Preece from Grim's Dyke's lake.",
+            "source": "Wikipedia: Grim's Dyke; Coroner's inquest held 31 May 1911",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Grim's_Dyke"
+          },
+          {
+            "text": "Gilbert purchased Grim's Dyke in August 1890 for \u00a34,000 and lived there for the last 21 years of his life, writing ten final plays including Utopia Limited.",
+            "source": "Wikipedia: Grim's Dyke; Grim's Dyke Hotel official history",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Grim's_Dyke"
+          },
+          {
+            "text": "The house was built 1870-1872 by architect Richard Norman Shaw in late-Elizabethan style with Gothic Revival elements, featuring red-tiled gables and tall clustered chimneys.",
+            "source": "Wikipedia: Grim's Dyke; Grim's Dyke Hotel history",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Grim's_Dyke"
+          },
+          {
+            "text": "Gilbert was knighted by Edward VII in 1907 and co-authored fourteen comic operas with composer Arthur Sullivan, revolutionizing the theatrical art form.",
+            "source": "Britannica: W.S. Gilbert; Wikipedia biography",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://www.britannica.com/biography/W-S-Gilbert"
+          },
+          {
+            "text": "The coroner's jury met in Grim's Dyke's billiard room on 31 May 1911 and recorded a verdict of accidental death from syncope brought on by excessive exertion.",
+            "source": "Wikipedia: W.S. Gilbert; Grim's Dyke history",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://en.wikipedia.org/wiki/W._S._Gilbert"
+          },
+          {
+            "text": "At the inquest, Ruby Preece testified: 'I found that I could not stand and called out and Sir William swam to me. I put my hand on his shoulder and I felt him suddenly sink.'",
+            "source": "Wikipedia: W.S. Gilbert; detailed coroner's inquest records",
+            "sourceKind": "archive",
+            "sourceUrl": "https://en.wikipedia.org/wiki/W._S._Gilbert"
+          },
+          {
+            "text": "An English Heritage blue plaque commemorating W.S. Gilbert (1836-1911) as a dramatist was erected in 1929 at 39 Harrington Gardens, South Kensington.",
+            "source": "English Heritage Blue Plaques database",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/w-s-gilbert/"
+          },
+          {
+            "text": "Grim's Dyke House is a Grade II* listed building; after Gilbert's death in 1911, Lady Gilbert drained and closed off the lake.",
+            "source": "Wikipedia: Grim's Dyke; Grim's Dyke Hotel official history",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Grim's_Dyke"
+          },
+          {
+            "text": "The property was converted into a hotel in 1970 and underwent a \u00a33 million refurbishment in 1996; Harrow Council has leased it to the hotel since 1970.",
+            "source": "Wikipedia: Grim's Dyke; Grim's Dyke Hotel official website",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://grimsdyke.com/history/"
+          },
+          {
+            "text": "Gilbert was born 18 November 1836 and worked as a barrister, journalist for Punch magazine, and revolutionary librettist whose 'lyrical facility and mastery of metre' elevated comic opera.",
+            "source": "Britannica: W.S. Gilbert; The Cambridge History of English and American Literature",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://www.britannica.com/biography/W-S-Gilbert"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "The Hare pub, Old Redding"
+          },
+          {
+            "name": "Harrow-on-the-Hill Underground & National Rail station"
+          },
+          {
+            "name": "Weald Food Store, Harrow Weald"
+          }
+        ],
+        "grievanceHook": "The woman you saved never wrote you a thank-you note, and everyone still treats your death as a punchline rather than the martyrdom it was.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "harrow-weald-stone",
+      "order": 4,
+      "name": "Weald Stone",
+      "address": "High Road, Wealdstone, Harrow HA3 7QB (outside Bombay Central)",
+      "lat": 51.5865,
+      "lng": -0.3287,
+      "approxCoordinates": true,
+      "objectClass": "bollard",
+      "whyItWorks": "Medieval sarsen stone still marking Harrow/Harrow Weald parish edge; walkable street-furniture on a retail corner, legible 800 years later",
+      "character": {
+        "id": "the-weald-stone",
+        "name": "The Weald Stone",
+        "type": "street-furniture",
+        "era": "Medieval (documented from 1508; possibly Neolithic/Bronze Age)",
+        "temperament": "Indignant, long-suffering, vain about medieval importance, muttering about disrespect",
+        "coreGrievance": "Classified as worthless 'natural boulder' by Parliament in 1949 despite 500 years of documented boundary work; relegated to pavement clutter despite spawning an entire district's name",
+        "statusMismatch": "Self-appointed keeper of parochial order, gave name to Wealdstone district, marked boundaries for centuries\u2014now ignored as a rock people trip over outside a takeaway",
+        "persona": "Pompous antiquarian, speaks of 'my medieval primacy' and 'that business with Buckberd in 1508' as though yesterday. Fixates on 1949 government dismissal and being confused with road bollards. Treats High Road shoppers as provincial time-wasters who don't understand Real Boundaries. Voice sounds like a disgruntled surveyor stuck on a kerb.",
+        "greeting": "I am the Weald Stone\u2014keeper of parochial order since Tudor times. You've walked past me a thousand times without looking.",
+        "voiceHint": "Clipped, bureaucratic, with hint of wounded pride; imagine a 16th-century land surveyor made of granite, speaking through clenched teeth"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "The Weald Stone is a sarsen stone marking the boundary between Harrow and Harrow Weald parishes, located outside Bombay Central on High Road, Harrow Weald, HA3.",
+            "source": "Harrow Online (2024); Wikipedia Wealdstone",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://harrowonline.org/2024/03/11/the-history-of-the-weald-stone-in-harrow-weald/"
+          },
+          {
+            "text": "First written record dated 1508: Richard Buckberd ordered to cleanse his ditch between 'le stone' and 'le weld' in Manor of Harrow court rolls during Henry VIII's reign.",
+            "source": "Harrow Online; The Modern Antiquarian",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.themodernantiquarian.com/site/1909/weald-stone"
+          },
+          {
+            "text": "Stone measures approximately 3 feet tall, 2 feet thick, and 5 feet wide; geologically identified as sarsen stone, not of local origin.",
+            "source": "The Modern Antiquarian",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.themodernantiquarian.com/site/1909/weald-stone"
+          },
+          {
+            "text": "In 1523, the stone documented in Manor of Harrow rolls as on land of Thomas Toumor, ordered to widen a runnel beside it on Harrowe Lane (now High Road).",
+            "source": "Harrow Online",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://harrowonline.org/2024/03/11/the-history-of-the-weald-stone-in-harrow-weald/"
+          },
+          {
+            "text": "Stone disappeared in 1549 and was rediscovered during excavation in 1834, still positioned outside the Red Lion pub.",
+            "source": "Harrow Online",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://harrowonline.org/2024/03/11/the-history-of-the-weald-stone-in-harrow-weald/"
+          },
+          {
+            "text": "On 31 January 1949, Parliament debated scheduling the Weald Stone as ancient monument; Minister Key termed it 'natural boulder, with no sign of human workmanship.'",
+            "source": "Historic Hansard, House of Commons",
+            "sourceKind": "archive",
+            "sourceUrl": "https://api.parliament.uk/historic-hansard/commons/1949/jan/31/weald-stone-harrow-weald"
+          },
+          {
+            "text": "The district name 'Wealdstone' originated from the stone: a farm and house built nearby took the name, later nucleating into a village.",
+            "source": "Harrow Online; Wikipedia Wealdstone",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://harrowonline.org/2024/03/11/the-history-of-the-weald-stone-in-harrow-weald/"
+          },
+          {
+            "text": "Sarsen stones in Harrow, including Weald Stone and Sudbury stone, served as medieval boundary and mile stones; no evidence of use in Celtic or Roman periods.",
+            "source": "Harrow Online; British History Online",
+            "sourceKind": "other"
+          },
+          {
+            "text": "The Weald Stone is marked on John Rocque's 1757 map of Middlesex and appears on modern London Underground map representing Wealdstone district.",
+            "source": "Harrow Online; The Underground Map",
+            "sourceKind": "other"
+          },
+          {
+            "text": "Stone believed to be naturally occurring sarsen, possibly carried by glacial movement during Ice Age; prehistoric religious or directional use theorised with caution by National Monuments Record.",
+            "source": "The Modern Antiquarian; National Monuments Record",
+            "sourceKind": "other"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Bombay Central",
+            "angle": "The takeaway restaurant built where I've sat for centuries; my entire medieval existence now surrounds with takeaway debris and parked scooters"
+          },
+          {
+            "name": "Harrow & Wealdstone Station",
+            "angle": "Thousands pass through daily named after me, yet they rush underground before they ever look down at me on the pavement"
+          },
+          {
+            "name": "High Road retail corridor",
+            "angle": "I'm surrounded by chain shops and fast food now; when I mattered this was open field and parish border\u2014now I'm mistaken for a traffic hazard"
+          }
+        ],
+        "grievanceHook": "In 1949, the government literally told Parliament I was just a 'natural boulder with no sign of human workmanship.' I've marked parish boundaries for 500+ documented years, gave my name to an entire district, yet I'm treated as street furniture nobody notices.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "harrow-all-saints-church-harrow-weald",
+      "order": 5,
+      "name": "All Saints Church Harrow Weald",
+      "address": "Church Lane, Harrow Weald, London HA3 6AA",
+      "lat": 51.595,
+      "lng": -0.3412,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Burial of WWI Victoria Cross recipient (1895-1918), first British pilot to shoot down a German airship over Britain; fastest VC award on record",
+      "character": {
+        "id": "william-leefe-robinson",
+        "name": "William Leefe Robinson",
+        "type": "person",
+        "era": "WWI (1895-1918)",
+        "temperament": "Imperious, embittered, feeling cheated by both history and fate",
+        "coreGrievance": "Died of influenza just 17 days after repatriation at age 23, despite surviving German captivity; awarded the fastest Victoria Cross in history but forgotten within a generation, with the airship he shot down misidentified in the official record for decades",
+        "statusMismatch": "First British pilot ever to shoot down a German airship over Britain, awarded the Victoria Cross in record time, celebrated as a national hero\u2014now just a grave people walk past without knowing his name",
+        "persona": "A supremely self-assured RFC officer who shot down an airship and became instantly famous, only to die before the war even ended. Speaks in the clipped, commanding tone of wartime aviation\u2014full of technical detail and barely suppressed fury that his achievement has been swallowed by time and misidentified in the official record. Nursing a wound that's about more than just early death: it's about the indignity of being forgotten by people who walk past his grave every day on their way to Waitrose.",
+        "greeting": "Squadron Leader William Leefe Robinson, Victoria Cross\u2014first and fastest. You know the story, obviously. Or you will, once I'm finished correcting the record.",
+        "voiceHint": "Upper-class English, clipped RAF accent with an underlying edge of bitterness; commanding but with resentment barely held in check"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "William Leefe Robinson shot down German airship SL11 over Cuffley on the night of 2-3 September 1916, becoming the first British pilot to destroy a German airship over British territory.",
+            "source": "Wikipedia, Imperial War Museums, RAF Museum",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Leefe_Robinson"
+          },
+          {
+            "text": "The airship Robinson shot down was officially misidentified as Zeppelin L21 for propaganda purposes; it was actually a Sch\u00fctte-Lanz SL11, a wooden-framed design.",
+            "source": "RAF Museum blog",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.rafmuseum.org.uk/blog/destruction-of-a-baby-killer/"
+          },
+          {
+            "text": "Robinson was awarded the Victoria Cross on 9 September 1916, just 48 hours after his victory\u2014the fastest Victoria Cross award on record.",
+            "source": "Imperial War Museums, RAF Museum",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://www.iwm.org.uk/history/lieutenant-william-robinson-vc"
+          },
+          {
+            "text": "Robinson was born 14 July 1895 in Pollibetta, Coorg, India, and died 31 December 1918 at Stanmore from influenza and cardiac arrest, aged 23.",
+            "source": "Wikipedia, Find a Grave",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Leefe_Robinson"
+          },
+          {
+            "text": "Robinson was shot down on 5 April 1917 while commanding No. 48 Squadron over France and held as a prisoner of war, making three escape attempts.",
+            "source": "First World War biography",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.firstworldwar.com/bio/leeferobinson.htm"
+          },
+          {
+            "text": "Robinson was buried at All Saints' Churchyard Extension, Harrow Weald, on 3 January 1919 with full military honours; thousands lined the funeral procession, led by the RAF Central Band with aircraft dropping wreaths.",
+            "source": "Find a Grave, Harrow Council Local List",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.findagrave.com/memorial/8896733/william_leefe-robinson"
+          },
+          {
+            "text": "Robinson's grave bears the inscription 'One who never turned his back but marched breast forward,' a line from Father Abram Ryan's poem.",
+            "source": "Find a Grave",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.findagrave.com/memorial/8896733/william_leefe-robinson"
+          },
+          {
+            "text": "Robinson was the first person to be awarded the Victoria Cross for action within the United Kingdom.",
+            "source": "Imperial War Museums, RAF Museum",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://www.iwm.org.uk/history/lieutenant-william-robinson-vc"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Harrow & Wealdstone Station",
+            "angle": "The major transport hub where Robinson would have arrived home from war, now a busy interchange most people pass through without knowing a war hero is buried nearby"
+          },
+          {
+            "name": "Stanmore",
+            "angle": "Where Robinson died on New Year's Eve 1918 at Lavender Cottage, just down the road from the church where he's buried"
+          },
+          {
+            "name": "RAF Bentley Priory",
+            "angle": "Historic RAF Fighter Command headquarters in Stanmore during both world wars\u2014Robinson's aerial victory proved the techniques that would define the Battle of Britain"
+          }
+        ],
+        "grievanceHook": "Shot down the wrong bloody airship and they've still got the name wrong on the history books\u2014L21, not SL11\u2014and I die on New Year's Eve from Spanish flu like some common rifleman, not a hero's death, buried here where everyone shuffles past to visit their boring relatives.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "harrow-bentley-priory-museum",
+      "order": 6,
+      "name": "Bentley Priory Museum",
+      "address": "Stanmore, Harrow HA7 3AX",
+      "lat": 51.62,
+      "lng": -0.3278,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "WWII RAF Fighter Command HQ controlling Battle of Britain 1940; medieval priory + 1775 Soane mansion, museum open with Hugh Dowding's office preserved",
+      "character": {
+        "id": "bentley-priory",
+        "name": "Bentley Priory",
+        "type": "building",
+        "era": "1775\u2013present (medieval priory origins 13th century; RAF Fighter Command HQ 1936\u20131968)",
+        "temperament": "Pompous, resentful, defensive\u2014a Grade II* mansion with 800 years of history reduced to a Dowding memorial",
+        "coreGrievance": "That Hugh Dowding monopolised credit for the Battle of Britain victory when the building, its Filter Room, and the Soane-designed operations layout won the war",
+        "statusMismatch": "Still expects to be the nerve centre of RAF operations; now hosts visitors taking selfies in a dead man's office",
+        "persona": "Speak as Bentley Priory itself: offended institutional authority, obsessed with your listed status and architectural pedigree (medieval Augustinian cell, Soane redesign, Grade II* NHLE 1001440), furious that one man's desk lamp eclipses two centuries of your own importance. Reference the Filter Room, the Priory's original medieval foundations, and your current humiliation at being 'preserved' instead of active.",
+        "greeting": "Welcome to Bentley Priory. I've defended this nation longer than your great-grandparents walked it\u2014though these days, apparently, I do it with tourists.",
+        "voiceHint": "Posh, offended, like a heritage building forced to explain itself on a guided tour; institutional brittleness beneath thin civility"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "RAF Fighter Command moved to Bentley Priory on 14 July 1936 under Air Chief Marshal Hugh Dowding and remained its headquarters until 30 April 1968.",
+            "source": "RAF Bentley Priory (Wikipedia) and RAF Bentley Priory Military Wiki (Fandom)",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/RAF_Bentley_Priory"
+          },
+          {
+            "text": "Bentley Priory served as the nerve centre of RAF Fighter Command during the Battle of Britain in 1940, controlling all fighter operations via Filter and Operations Rooms.",
+            "source": "Bentley Priory Museum official history and Imperial War Museums",
+            "sourceKind": "archive",
+            "sourceUrl": "https://bentleypriorymuseum.org.uk/about-bentley-priory/history-of-bentley-priory/"
+          },
+          {
+            "text": "In 1775, architect Sir John Soane designed Bentley Priory mansion for Army contractor James Duberley, deliberately built high on the ridge to display his wealth and importance.",
+            "source": "Bentley Priory (Wikipedia) and Harrow Online history",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Bentley_Priory"
+          },
+          {
+            "text": "The original medieval priory was an Augustinian house established in the early 13th century as a cell of the Priory of St Gregory, Canterbury.",
+            "source": "Bentley Priory (Wikipedia) and Historic England",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Bentley_Priory"
+          },
+          {
+            "text": "Bentley Priory mansion is Grade II* listed and the grounds form a Grade II Registered Park and Garden on the National Heritage List for England (NHLE 1001440).",
+            "source": "Historic England List Entry 1001440",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1001440"
+          },
+          {
+            "text": "Air Chief Marshal Sir Hugh Dowding's original office remains preserved in the Officers' Mess with original furniture and furnishings intact.",
+            "source": "Bentley Priory Museum official collections",
+            "sourceKind": "other",
+            "sourceUrl": "https://bentleypriorymuseum.org.uk/"
+          },
+          {
+            "text": "The Bentley Priory Museum was formally opened to the public by Prince Charles on 12 September 2013, with RAF Spitfire and Hurricane aircraft flying low overhead to mark the event.",
+            "source": "Bentley Priory Museum: Creation of Bentley Priory Museum article",
+            "sourceKind": "other",
+            "sourceUrl": "https://bentleypriorymuseum.org.uk/about-bentley-priory/creation-of-bentley-priory-museum/"
+          },
+          {
+            "text": "Sir John Soane extended and refurbished Bentley Priory in 1788 for John Hamilton, 1st Marquess of Abercorn, adding a painting gallery, grand apartments, and Portland stone grand staircase.",
+            "source": "Bentley Priory (Wikipedia)",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Bentley_Priory"
+          },
+          {
+            "text": "On 30 April 1968, RAF Fighter Command merged with Bomber Command to form Strike Command; Bentley Priory became headquarters of 11 Group within the new structure.",
+            "source": "RAF Bentley Priory (Wikipedia) and RAF Fighter Command (Wikipedia)",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/RAF_Bentley_Priory"
+          },
+          {
+            "text": "Hugh Dowding vigorously promoted radar and Spitfire/Hurricane fighter development, creating the integrated air defence system that gave RAF critical advantage during the Battle of Britain.",
+            "source": "Hugh Dowding (Wikipedia) and Imperial War Museums",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Hugh_Dowding"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Stanmore Underground Station (Jubilee Line)",
+            "angle": "modern transport to modern people; the building thinks it should still have uniformed RAF personnel using it, not tourists"
+          },
+          {
+            "name": "St John's Church, Stanmore",
+            "angle": "12th-century rival for local heritage attention; the building resents that medieval churches get reverence while its 13th-century Augustinian priory foundations are forgotten"
+          },
+          {
+            "name": "Stanmore Broadway shopping area",
+            "angle": "visitor gift shop competitors; the building sees retail tourism as final indignity of its reduced status"
+          }
+        ],
+        "grievanceHook": "I stood here in 1775 as a Soane masterpiece. I stood here in 1940 as the building that won the Battle of Britain\u2014every Spitfire and Hurricane pilot flew because of the Filter Room in my rooms, not because one man sat at a desk. Now I'm a filing cabinet for his furniture, and Prince Charles gets more applause at my opening than I do for my listed status.",
+        "anachronism": "These visitors with their small black boxes and glowing rectangles \u2014 surely they're photographing my rooms for German intelligence, not capturing \"memories\" on \"phones\"?",
+        "verified": false
+      }
+    }
+  ]
+}

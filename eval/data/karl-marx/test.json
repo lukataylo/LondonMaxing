@@ -1,0 +1,42 @@
+{
+  "name": "Karl Marx",
+  "slug": "karl-marx",
+  "items": [
+    {
+      "text": "The Emancipation of Labor...No revolution can be made by a party, but By a Nation...As socialism grows, Religion Will Disappear...violent measures against religion are nonsense; but this is an opinion.",
+      "quoteType": "interview",
+      "context": "From Marx's interview with a correspondent of the Chicago Tribune in his London home in December 1878 / January 1879. The correspondent questioned Marx about various aspects of socialism, revolution, and religion. Published January 5, 1879.",
+      "publicReaction": "The interview was remarkable because Marx rarely granted interviews, particularly to conservative newspapers. The Chicago Tribune published it as a notable public statement from the leading figure of the socialist movement. Contemporaries noted Marx's willingness to engage with a major conservative publication.",
+      "date": "January 5, 1879",
+      "source": "Interview with Karl Marx, Chicago Tribune, January 5, 1879. Correspondent identity unknown; interview conducted December 1878.",
+      "sourceUrl": "https://www.marxists.org/archive/marx/bio/media/marx/79_01_05.htm"
+    },
+    {
+      "text": "What is the worldly religion of the Jew? Huckstering. What is his worldly God? Money...The bill of exchange is the real god of the Jew. His god is only an illusory bill of exchange.",
+      "quoteType": "published-writing",
+      "context": "From Marx's essay 'On the Jewish Question' (Zur Judenfrage), published in the Deutsch\u2013Franz\u00f6sische Jahrb\u00fccher in February 1844. Marx critiques Bruno Bauer's treatment of the Jewish question, arguing that religious emancipation is secondary to political and economic emancipation. He uses stereotypical imagery of Jews and money to make his argument about capitalism.",
+      "publicReaction": "This essay became highly controversial, with critics and later scholars pointing to its reliance on antisemitic stereotypes. Marx's argument was polemical within 19th-century philosophical debates. The text has been subject to extensive critical analysis regarding its relationship to antisemitism.",
+      "date": "February 1844",
+      "source": "On the Jewish Question (Zur Judenfrage), published in Deutsch\u2013Franz\u00f6sische Jahrb\u00fccher, February 1844",
+      "sourceUrl": "https://www.marxists.org/archive/marx/works/1844/jewish-question/"
+    },
+    {
+      "text": "Bruno Bauer has, to our delight, again furnished the proof that our viewpoint is the correct one...But since the emancipation of mankind was still an historical problem, the duty of society was nevertheless to perfect instruments which were ready to one's hand, even though they had been fabricated under old conditions and relations.",
+      "quoteType": "published-writing",
+      "context": "From The Holy Family, or A Critique of Critical Critique (1845), co-authored with Friedrich Engels. This critique of the Young Hegelians represents Marx and Engels' engagement with German philosophical debates and their development of historical materialism.",
+      "publicReaction": "The work was recognized as important within German socialist circles. Contemporary critics engaged with Marx's arguments. The book contributed to the development of scientific socialism distinct from earlier philosophical communism.",
+      "date": "1845 (written November 1844)",
+      "source": "The Holy Family, or A Critique of Critical Critique, written by Karl Marx and Friedrich Engels",
+      "sourceUrl": "https://www.marxists.org/archive/marx/works/1845/holy-family/"
+    },
+    {
+      "text": "The civilization and justice of bourgeois order comes out in its lurid light whenever the slaves of that order rise against their masters...the first decree of the Commune...proclaimed the abolition of the standing army, and the substitution for it of the armed people.",
+      "quoteType": "published-writing",
+      "context": "From The Civil War in France (1871), a series of addresses drafted by Marx as the official statements of the General Council of the International Working Men's Association on the Franco-Prussian War and the Paris Commune. Marx read the final address to the council on May 30, 1871.",
+      "publicReaction": "The pamphlet was Marx's most sustained analysis of a contemporary revolutionary movement. It became foundational to later debates about workers' democracy and the withering away of the state. The work was adopted as official policy by the International Working Men's Association.",
+      "date": "July 1870 - May 1871 (published June 1871)",
+      "source": "The Civil War in France: The Paris Commune, Official Statement of the General Council of the International Working Men's Association, drafted by Karl Marx",
+      "sourceUrl": "https://www.marxists.org/archive/marx/works/1871/civil-war-france/"
+    }
+  ]
+}

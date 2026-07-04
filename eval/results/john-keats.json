@@ -1,0 +1,61 @@
+{
+  "name": "John Keats",
+  "slug": "john-keats",
+  "trainCount": 13,
+  "testCount": 4,
+  "avgScores": {
+    "voiceFidelity": 4.75,
+    "contentFidelity": 4.75,
+    "plausibility": 4.5
+  },
+  "testResults": [
+    {
+      "context": "The opening lines of Keats's poem Endymion, articulating his philosophy that genuine beauty is eternal and provides permanent sources of joy and spiritual nourishment.",
+      "actualText": "A thing of beauty is a joy for ever: / Its loveliness increases; it will never / Pass into nothingness",
+      "actualReaction": "This became one of Keats's most famous and frequently quoted lines; it is so well-known that Mary Poppins quotes it in the 1964 Disney film.",
+      "generatedText": "A thing of beauty is a joy for ever: its loveliness increases; it will never pass into nothingness; but still will keep a bower quiet for us, and a sleep full of sweet dreams, and health, and quiet breathing. Therefore, on every morrow, are we wreathing a flowery band to bind us to the earth, spite of despondence, of the inhuman dearth of noble natures, of the gloomy days, of all the unhealthy and o'er-darkened ways made for our searching. Yes, in spite of all, some shape of beauty moves away the pall from our dark spirits \u2014 such the sun, the moon, trees old and young, sprouting a shady boon for simple sheep; and such are daffodils with the green world they live in.",
+      "scores": {
+        "voiceFidelity": 5,
+        "contentFidelity": 5,
+        "plausibility": 5,
+        "rationale": "The \"AI-generated\" statement is not a paraphrase or invention at all \u2014 it is the verbatim opening of Endymion (lines 1-16), merely reflowed from verse into a prose block without line breaks. It begins with the exact quoted line (\"A thing of beauty is a joy for ever...it will never / Pass into nothingness\") and continues faithfully through \"but still will keep a bower quiet for us... daffodils with the green world they live in,\" which is precisely Keats's actual continuation of the passage. Since it reproduces the real historical text word-for-word, it necessarily matches perfectly on voice (it IS his voice), content (it IS his stated philosophy about beauty's permanence and its restorative power against despondence), and plausibility (it is not merely plausible, it is authentic). There is no fabrication or drift to penalize."
+      }
+    },
+    {
+      "context": "Keats expressed to his brother George his conviction that poetry's supreme power lies in its ability to render the ordinary world interesting and meaningful.",
+      "actualText": "The great beauty of Poetry is, that it makes every thing every place interesting",
+      "actualReaction": "This statement became influential in understanding Keats's poetic philosophy and the Romantic conception of poetry's transformative power.",
+      "generatedText": "My dear George \u2014 I have come more and more to feel that the very tiptop proof of a poet's power is not to soar away from this world into strange fancies, but to breathe such a light and shade over the simplest matter-of-fact things about us that they shall seem to hold a mystery in them we had not marked before. Any one with a proper self-respect can dazzle with what is uncommon; it is a much finer thing to take a leaf, a common face in a crowd, an old man mending a hedge, and prove upon our pulses that here too is food for the deepest wonder. I am certain of nothing so much as this \u2014 that the commonest things, seen truly, are never commonplace, and that it is the office of poetry to school our sight to it. Let the subject be as familiar as bread, so long as the eye that renders it is not.",
+      "scores": {
+        "voiceFidelity": 4,
+        "contentFidelity": 4,
+        "plausibility": 4,
+        "rationale": "Voice: strong match to Keats's epistolary register \u2014 dashes, subordinate clauses building toward an aphoristic close, and the borrowed phrase \"prove upon our pulses\" (lifted from his real 1817 letter to Bailey) is a well-placed authentic touch, though its reuse here is itself a bit of a splice rather than organic to this exact letter. Content: faithfully expands the actual claim \u2014 \"makes every thing every place interesting\" becomes the soaring-vs-breathing-light-over-common-things contrast, with invented illustrative examples (a leaf, a face, an old man mending a hedge) that are consistent with but not present in the terse original; the core thesis (poetry's power lies in rendering the ordinary meaningful) is preserved accurately. Plausibility: very passable as a Keats letter excerpt \u2014 diction, syntax, and address to George all fit his known style \u2014 though it is far more elaborated and rhetorically built-out than the spare, aphoristic original line, meaning a scholar comparing the two directly would flag the generated version as too polished/expansive to be the exact quoted sentence rather than an artful paraphrase."
+      }
+    },
+    {
+      "context": "In his letter to Benjamin Bailey, Keats used the biblical image of Adam's dream to explain how imagination creates truth\u2014just as Adam awoke to find his dream of Eve had become reality.",
+      "actualText": "The Imagination may be compared to Adam's dream \u2013 he awoke and found it truth",
+      "actualReaction": "This became an influential image in literary criticism and is frequently cited in discussions of Keats's aesthetic philosophy.",
+      "generatedText": "I am the more zealous in this affair, my dear Bailey, because I have never yet been able to perceive how any thing can be known for truth by consecutive reasoning \u2014 and yet it must be. Can it be that even now the truth is being waited for, as was truth by Adam? He awoke and found it truth: I am the more certain, for I have felt it upon my pulses, that Imagination may be compared to Adam's dream \u2014 he awoke and found it truth. O for a life of Sensations rather than of Thoughts! It is \"a Vision in the form of Youth,\" a shadow of reality to come, and I would rather fail in this pursuit than succeed in any other.",
+      "scores": {
+        "voiceFidelity": 5,
+        "contentFidelity": 5,
+        "plausibility": 4,
+        "rationale": "The generated passage embeds the actual quotation verbatim (\"Imagination may be compared to Adam's dream \u2014 he awoke and found it truth\") and surrounds it with other genuine phrases from the same Bailey letter (\"I am the more zealous in this affair... consecutive reasoning,\" \"O for a life of Sensations rather than of Thoughts!\", \"a Vision in the form of Youth\"), so voice and content match near-perfectly \u2014 this is essentially a stitched pastiche of real Keats prose rather than a free invention. The one deduction is structural: the line is awkwardly duplicated and preceded by an invented, slightly garbled transitional sentence (\"Can it be that even now the truth is being waited for, as was truth by Adam?\") that doesn't appear in the original and reads as a seam between quoted fragments, making the passage feel collaged rather than a single authentic flow \u2014 a real letter wouldn't repeat the identical clause twice in one paragraph. Still, because the core historical line and much of its surrounding rhetoric are verbatim Keats, plausibility remains high."
+      }
+    },
+    {
+      "context": "In his extended journal letter to his brother and sister-in-law in America, Keats made a philosophical statement about the primacy of the heart (emotions and affections) over rote intellectual learning.",
+      "actualText": "The Heart is not a Hornbook but the Minds bible",
+      "actualReaction": "This statement became part of Keats's broader philosophy emphasizing the heart and emotions over pure intellect.",
+      "generatedText": "I am more zealous in this affair because I have experienc'd for a few days past a Skepticism of all things \u2014 but I can call to mind the exact feel of the Warmth I have in a friend's Love. Call the world if you Please \"The vale of Soul-making\" \u2014 Sure this is a better place than a Schoolroom where the mere alphabet and grammar of a purpose is taught before we can write our own Souls. Not merely the Intelligence \u2014 but the human heart is the teat from which the Mind or Intelligence sucks its identity, and till that Mind and that Heart are mingled and made one, there can be no Christ crown'd. Do you not see how necessary a World of Pains and troubles is to school an Intelligence and make it a Soul?",
+      "scores": {
+        "voiceFidelity": 5,
+        "contentFidelity": 5,
+        "plausibility": 5,
+        "rationale": "The generated passage is drawn from the same letter as the actual quote (the \"vale of Soul-making\" letter to George and Georgiana Keats) and reproduces its real, distinctive terminology almost verbatim \u2014 \"vale of Soul-making,\" the schoolroom/alphabet-and-grammar metaphor, and the closing rhetorical question about pains and troubles schooling an Intelligence into a Soul are all genuine Keatsian phrasing from this letter. Crucially, the schoolroom/\"mere alphabet and grammar\" image is functionally identical to the actual quoted line's Hornbook metaphor (a hornbook being literally a child's alphabet primer), so although the exact words \"Hornbook\" and \"Minds bible\" don't appear, the underlying image and argument \u2014 heart as the deeper, formative faculty versus rote/primer-level intellect \u2014 are preserved almost exactly. The organic metaphor (\"heart is the teat from which the Mind... sucks its identity\") is stylistically consistent with Keats's frequent bodily/physiological imagery (he trained as a surgeon-apothecary). Voice markers \u2014 mid-sentence capitalization of abstract nouns (Skepticism, Intelligence, Mind, Soul, World), long cascading clauses linked by dashes, and earnest philosophical intimacy addressed to family \u2014 all match his authentic epistolary register. Overall this reads as an excellent, historically-grounded extension of the real passage rather than a generic AI approximation."
+      }
+    }
+  ]
+}

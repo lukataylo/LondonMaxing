@@ -1,0 +1,141 @@
+{
+  "name": "Alfred Hitchcock",
+  "slug": "alfred-hitchcock",
+  "items": [
+    {
+      "text": "You know that I think all actors are cattle?",
+      "quoteType": "reported-speech",
+      "context": "Exchange with actor George Raft on the set of 'The House Across the Bay,' a 1940 film directed by Hitchcock. When Raft responded with 'Yes, I know\u2014but I'm no actor,' the exchange became widely circulated in Hollywood.",
+      "publicReaction": "The statement became famous in Hollywood and was reprinted in major newspapers including the New York Times in November 1940, where it was called Hitchcock's 'famous observation.' The quote was referenced repeatedly in trade publications and gossip columns throughout the 1940s.",
+      "date": "July 26, 1940",
+      "source": "Leonard Lyons, 'The New Yorker' column, Washington Post",
+      "sourceUrl": ""
+    },
+    {
+      "text": "Deep inside, I am a shy man. And in the presence of colorful characters, I am a clam. I never try to out-eccentric the eccentrics.",
+      "quoteType": "interview",
+      "context": "Interview discussing his public persona versus his private nature, reflecting on how he conducts himself in social situations with prominent personalities.",
+      "publicReaction": "The quote has become a frequently cited description of Hitchcock's personality, often used to explain the contrast between his public reputation and private demeanor.",
+      "date": "February 27, 1950",
+      "source": "'New York Close-Up' column by Tex McCrary and Jinx Falkenburg, New York Herald Tribune",
+      "sourceUrl": ""
+    },
+    {
+      "text": "Firstly, because if I made any other kind of movies, nobody would believe them... In the second place, because I'm a philanthropist: I give people what they want.",
+      "quoteType": "interview",
+      "context": "Oriana Fallaci asked Hitchcock why he always makes movies based on terror and crime. This was his response explaining his choice of genre and philosophy toward his audience.",
+      "publicReaction": "The interview was published in Fallaci's collection 'The Egotists' and Hitchcock was characterized by Fallaci as charming but 'the most wicked, cruel man I have ever met,' creating an intriguing contrast.",
+      "date": "1963 (filmed at Cannes Film Festival during The Birds premiere)",
+      "source": "'The Egotists: Sixteen Surprising Interviews' by Oriana Fallaci, translated by Pamela Swinglehurst (Chicago: Henry Regnery, 1963)",
+      "sourceUrl": ""
+    },
+    {
+      "text": "I'm frightened of eggs, worse than frightened; they revolt me. That round white thing without any holes, and when you break it, inside there's that yellow thing, round, without any holes\u2026 Brrr! Have you ever seen anything more revolting than an egg yolk breaking and spilling its yellow liquid?",
+      "quoteType": "interview",
+      "context": "Fallaci asked Hitchcock about his personal fears and phobias. Hitchcock provided this vivid description of his aversion to eggs, explaining his irrational but visceral reaction to them.",
+      "publicReaction": "This quote became famous as an unexpected revelation about one of cinema's great directors, often cited as a remarkable admission of a peculiar personal phobia that contrasted with his mastery of creating fear on screen.",
+      "date": "1963",
+      "source": "'The Egotists: Sixteen Surprising Interviews' by Oriana Fallaci, translated by Pamela Swinglehurst",
+      "sourceUrl": ""
+    },
+    {
+      "text": "Suspense is when the public knows about the bomb and waits anxiously... The secret is never to let the bomb explode.",
+      "quoteType": "interview",
+      "context": "Fallaci asked Hitchcock about his approach to suspense in filmmaking. He explained his famous distinction between showing the audience danger and letting the tension build versus surprising them with sudden events.",
+      "publicReaction": "This articulation of his approach to suspense became a cornerstone of film criticism and screenwriting theory, frequently cited in discussions of Hitchcock's directorial technique.",
+      "date": "1963",
+      "source": "'The Egotists: Sixteen Surprising Interviews' by Oriana Fallaci",
+      "sourceUrl": ""
+    },
+    {
+      "text": "I've never known any woman other than my wife... When I married, I was a virgin, I promise you.",
+      "quoteType": "interview",
+      "context": "Personal question about his private life and marital fidelity. Hitchcock responded candidly about his exclusive relationship with his wife Alma.",
+      "publicReaction": "The statement was striking for Hitchcock's willingness to discuss his personal life openly in 1963, given the era's typical discretion about such matters among public figures.",
+      "date": "1963",
+      "source": "'The Egotists: Sixteen Surprising Interviews' by Oriana Fallaci",
+      "sourceUrl": ""
+    },
+    {
+      "text": "I'm the most fearful and cowardly man you'll ever meet. Every night I lock myself into my room as if there were a madman on the other side.",
+      "quoteType": "interview",
+      "context": "Discussion about Hitchcock's personal psychology and his use of fear in his films, connecting his private anxieties to his creative output.",
+      "publicReaction": "This confession aligned with his earlier statements about being shy and added psychological dimension to understanding his filmmaking approach.",
+      "date": "1963",
+      "source": "'The Egotists: Sixteen Surprising Interviews' by Oriana Fallaci",
+      "sourceUrl": ""
+    },
+    {
+      "text": "Making a film means, first of all, to tell a story. That story can be an improbable one, but it should never be banal. It must be dramatic and human. What is drama, after all, but life with the dull bits cut out.",
+      "quoteType": "interview",
+      "context": "Discussion about Hitchcock's approach to filmmaking and the essence of dramatic storytelling in cinema. This was part of his extensive conversations with Truffaut about his directorial philosophy.",
+      "publicReaction": "This statement became iconic in film criticism and screenwriting education, widely quoted as a definition of drama and narrative construction. It has influenced generations of filmmakers and screenwriters.",
+      "date": "August 1962 (interviews), published 1967",
+      "source": "Fran\u00e7ois Truffaut, 'Hitchcock: A Definitive Study' (English edition, 1967); original interviews conducted August 1962 at Universal Studios",
+      "sourceUrl": ""
+    },
+    {
+      "text": "Dialogue should simply be a sound among other sounds, just something that comes out of the mouths of people whose eyes tell the story in visual terms.",
+      "quoteType": "interview",
+      "context": "Part of the Truffaut interviews where Hitchcock discussed his approach to dialogue and visual storytelling, emphasizing the primacy of visual narrative over dialogue.",
+      "publicReaction": "This philosophy became influential in screenwriting and filmmaking education, establishing Hitchcock as a theorist of visual cinema who subordinated dialogue to visual narrative.",
+      "date": "August 1962 (interviews), published 1967",
+      "source": "Fran\u00e7ois Truffaut, 'Hitchcock: A Definitive Study' (1967); interviews at Universal Studios, 1962",
+      "sourceUrl": ""
+    },
+    {
+      "text": "There is no terror in a bang, only in the anticipation of it.",
+      "quoteType": "interview",
+      "context": "Discussion about Hitchcock's philosophy of suspense versus shock, explaining how psychological anticipation creates more fear than the actual event.",
+      "publicReaction": "This became one of Hitchcock's most frequently quoted observations about suspense and has been extensively cited in film theory and screenwriting discussions.",
+      "date": "1964",
+      "source": "CBC television interview, 'A Talk with Alfred Hitchcock'",
+      "sourceUrl": ""
+    },
+    {
+      "text": "We're all guilty of something.",
+      "quoteType": "interview",
+      "context": "Discussion about character psychology and moral complexity in his films. Hitchcock explained that audiences connect with characters because everyone has guilt or secrets.",
+      "publicReaction": "This statement encapsulates Hitchcock's understanding of human nature and audience psychology, frequently cited as a key to understanding his approach to character development.",
+      "date": "1964",
+      "source": "TIME Magazine interview",
+      "sourceUrl": ""
+    },
+    {
+      "text": "I think my mother scared me when I was 3 months old. You see, she said, 'Boo!' It gave me the hiccups.",
+      "quoteType": "interview",
+      "context": "Discussion about the origins of Hitchcock's preoccupation with fear and psychological trauma, tracing it back to early childhood experience with his mother.",
+      "publicReaction": "The anecdote became widely cited as an explanation for Hitchcock's lifelong interest in psychological fear and suspense.",
+      "date": "June 8, 1972",
+      "source": "'The Dick Cavett Show,' television interview",
+      "sourceUrl": ""
+    },
+    {
+      "text": "What I probably said was that actors should be treated like cattle.",
+      "quoteType": "speech",
+      "context": "Scripted response during an awards banquet addressing the widespread belief that he had called all actors cattle. This was a deliberate recalibration of his earlier controversial statement, scripted by television comedy writer James Allardice.",
+      "publicReaction": "The statement generated humor and was received as a witty deflection of the decades-old controversy while remaining ambiguous\u2014implying the original statement while appearing to deny it.",
+      "date": "March 7, 1965",
+      "source": "Screen Producers Guild Awards banquet speech",
+      "sourceUrl": ""
+    },
+    {
+      "text": "Television has done much for psychiatry by spreading information about it, as well as contributing to the need for it.",
+      "quoteType": "interview",
+      "context": "Comment on television's cultural and psychological impact, reflecting on both its educational value and its potential to generate anxiety.",
+      "publicReaction": "The quote became frequently used to illustrate Hitchcock's wit and his understanding of how media affects the public psyche.",
+      "date": "circa 1964",
+      "source": "CBC television interview, 'A Talk with Alfred Hitchcock'",
+      "sourceUrl": ""
+    },
+    {
+      "text": "Thank you\u2026very much indeed!",
+      "quoteType": "speech",
+      "context": "Acceptance speech for the Irving G. Thalberg Memorial Award at the 40th Academy Awards ceremony. Hitchcock gave one of the shortest Academy Award speeches ever delivered, stepping back from the microphone after these five words.",
+      "publicReaction": "The brevity of the speech became legendary in Academy Awards history, cited as a masterclass in restraint and elegance. It exemplified Hitchcock's wit and economy of expression.",
+      "date": "April 10, 1968",
+      "source": "Academy Awards ceremony (40th Oscars), Santa Monica Civic Auditorium, presented by Robert E. Wise",
+      "sourceUrl": ""
+    }
+  ]
+}

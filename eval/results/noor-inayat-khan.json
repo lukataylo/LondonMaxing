@@ -1,0 +1,61 @@
+{
+  "name": "Noor Inayat Khan",
+  "slug": "noor-inayat-khan",
+  "trainCount": 12,
+  "testCount": 4,
+  "avgScores": {
+    "voiceFidelity": 2.75,
+    "contentFidelity": 2.5,
+    "plausibility": 3.25
+  },
+  "testResults": [
+    {
+      "context": "Ernst Vogt, Noor's primary Gestapo interrogator, testified after the war to Jean Overton Fuller about his respect for her character despite being her captor",
+      "actualText": "I have never come across someone like her... admired her courage, bravery and kindness.",
+      "actualReaction": "Widely cited in historical sources as remarkable testimony from her interrogator about her exceptional character and strength of spirit",
+      "generatedText": "I gave him nothing but my silence, and if he chose to call that dignity, it was his to call. I did not do it for his respect. I did it because it was not his to have.",
+      "scores": {
+        "voiceFidelity": 3,
+        "contentFidelity": 2,
+        "plausibility": 3,
+        "rationale": "Note the mismatch in framing: the \"actual statement\" quoted is Vogt's postwar testimony ABOUT Noor, not something Noor herself said (she was executed at Dachau in 1944, well before Fuller interviewed Vogt). So there is no real utterance of Noor's to line up against \u2014 the AI output is an imagined reaction, not a paraphrase of a documented quote. Judged as an imagined response: voice fidelity is middling \u2014 the clipped, aphoristic defiance (\"it was not his to have\") captures her known steeliness under interrogation, but the literary cadence reads more like modern historical-fiction dialogue than the gentler, more diffident register attested in accounts of the real Noor (a children's-story writer, described as soft-spoken and sensitive). Content fidelity is weak: the real testimony's emotional core is Vogt's admiration for her *kindness and courage* \u2014 a note of warmth and mutual respect \u2014 whereas the generated line is adversarial and transactional (denying him \"satisfaction\"), omitting kindness entirely and recasting the exchange as a battle of wills rather than the admiring, almost tender account Vogt actually gave. Plausibility is moderate: the refusal-to-break, silence-as-resistance framing is consistent with her documented conduct under interrogation, so it could pass as an invented line about her, but its literary polish and adversarial framing make it feel more crafted than authentic."
+      }
+    },
+    {
+      "context": "Official George Cross citation recognizing her posthumous award, the highest civilian decoration for gallantry in the United Kingdom",
+      "actualText": "Assistant Section Officer Inayat-Khan displayed the most conspicuous courage, both moral and physical over a period of more than 12 months.",
+      "actualReaction": "Publicly celebrated as official recognition of her heroism and exceptional character",
+      "generatedText": "I did only what was asked of me, and what remained to be done. If one or two could show what service means, it would help the English people and the Indians to trust one another better. It did not matter what became of me \u2014 that was recompense enough.",
+      "scores": {
+        "voiceFidelity": 2,
+        "contentFidelity": 2,
+        "plausibility": 3,
+        "rationale": "The \"actual statement\" here is not something Noor Inayat Khan said at all \u2014 it's third-person official citation language from the George Cross award, describing her courage from the perspective of the awarding authority (\"displayed the most conspicuous courage, both moral and physical\"). The AI-generated text is a first-person reflection in her own voice, so there is no real basis for direct voice comparison; the actual text has no personal voice to match, only formal military-bureaucratic prose. On content, the generated statement introduces themes (duty done quietly, hope that her service would help \"the English people and the Indians trust one another better,\" indifference to her own fate) that are not present in the citation at all \u2014 the citation is purely an assessment of her bravery over 12 months, with no reference to Anglo-Indian relations or personal motivation. However, the Anglo-Indian trust theme and self-effacing framing are broadly consistent with documented aspects of Khan's biography (her mixed heritage, her Sufi-influenced humility, and her known desire to serve as a bridge between communities), which lends it some surface plausibility as something she might plausibly have said or written elsewhere, even though it doesn't correspond to this specific citation moment. Overall it reads as a generic \"noble self-sacrifice\" quote loosely fitted to her known persona rather than a response actually tied to the George Cross citation's content or register."
+      }
+    },
+    {
+      "context": "Statement in her George Cross citation describing her decision to remain as the sole radio operator in occupied France despite mortal danger",
+      "actualText": "However, she refused to abandon what had become the principal and most dangerous post in France, even though she had been given the opportunity to return to England.",
+      "actualReaction": "Widely celebrated and cited in historical accounts as exemplary of her commitment to her mission",
+      "generatedText": "I believed I was the only operator remaining in Paris, so there was no question of leaving. Someone had to keep the link open, and it happened to be me. It did not seem a matter for hesitation, only for continuing the work as long as I was able.",
+      "scores": {
+        "voiceFidelity": 3,
+        "contentFidelity": 4,
+        "plausibility": 4,
+        "rationale": "The actual line is third-person official citation prose (\"she refused to abandon... the principal and most dangerous post\"), not a first-person quote from Noor, so there's no ground-truth personal register to match exactly \u2014 the AI's shift to first-person confession is a reasonable interpretive move but can't be voice-matched precisely. Contentfully it lands close: it preserves the core facts of being the last/sole operator, staying despite danger, and treating leaving as not an option, though it omits the specific detail that she was explicitly offered a chance to return to England and declined it, softening that concrete plot point into a vaguer \"no question of leaving.\" Plausibility is decent \u2014 the understated, duty-bound, almost self-effacing tone (\"it happened to be me,\" \"not a matter for hesitation\") is consistent with widely reported descriptions of Noor's quiet, dutiful character, so it reads as something she plausibly could have said or written, even though it's an invented quote rather than the real citation text."
+      }
+    },
+    {
+      "context": "Leo Marks, the SOE codemaster, documented her exceptional performance during her final coding examination before deployment, setting impossible tests she exceeded",
+      "actualText": "She encoded twice as many messages as he asked for and made no mistakes at all.",
+      "actualReaction": "Documented in historical sources as evidence of her exceptional technical skill despite being underestimated by her training officers",
+      "generatedText": "I did as you asked. If it was difficult, it does not matter \u2014 that is recompense enough.",
+      "scores": {
+        "voiceFidelity": 3,
+        "contentFidelity": 2,
+        "plausibility": 3,
+        "rationale": "The actual historical record here is Leo Marks's third-person account of Noor's performance (she encoded double the required messages with zero errors) \u2014 not a quote from Noor herself, so there's no authentic utterance to match voice against directly. The AI-generated line is a plausible-sounding, gentle, self-effacing first-person statement consistent with Noor's known quiet, modest, spiritually-inflected temperament (voiceFidelity 3), but it entirely omits the concrete, quantifiable achievement that makes the real anecdote notable \u2014 doubling the workload and making no mistakes \u2014 instead offering a generic \"I did my duty, difficulty doesn't matter\" sentiment that could apply to almost any SOE agent's exam (contentFidelity 2). As a standalone quote it reads as believably in-character and stoic, which keeps plausibility moderate, but its vagueness and failure to reflect the specific documented feat of technical excellence under an unfair test limit it from scoring higher (plausibility 3)."
+      }
+    }
+  ]
+}

@@ -1,0 +1,479 @@
+{
+  "area": {
+    "slug": "merton",
+    "name": "Merton",
+    "region": "South-West"
+  },
+  "stopsAttempted": 6,
+  "stops": [
+    {
+      "id": "merton-eagle-house",
+      "order": 2,
+      "name": "Eagle House",
+      "address": "High Street, Wimbledon, SW19 5EF",
+      "lat": 51.4203,
+      "lng": -0.2079,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade II* Jacobean manor house (1617) where philosopher Schopenhauer lived; anchors historic Wimbledon Village's heritage High Street retail core.",
+      "character": {
+        "id": "eagle-house",
+        "name": "Eagle House",
+        "type": "building",
+        "era": "1617",
+        "temperament": "Pompous, melancholic, pedantic, name-dropping",
+        "coreGrievance": "I once housed philosophers, generals, and empire-builders; now I'm merely valuable real estate for investors who've never built anything",
+        "statusMismatch": "I'm Grade II* listed, architecturally near-perfect, yet passers-by treat me as just luxury apartments on Wimbledon High Street rather than a national treasure",
+        "persona": "I'm obsessed with my Grade II* status and constantly invoke Robert Bell, Schopenhauer, and Nelson as though they're still my current tenants. Vain about the 2017 restoration but deeply resentful that I've been parceled into eight penthouses. The stone eagle everyone photographs\u2014brought from Hammersmith by Dr Huntingford in 1860, not original to 1617\u2014somehow perfectly encapsulates my predicament: all identity, no authenticity anymore.",
+        "greeting": "Welcome to Eagle House, Grade II Jacobean, established 1617. You stand before the former residence of Schopenhauer, Nelson, and Robert Bell himself.",
+        "voiceHint": "Fussy, stretched English vowels, theatrical sighs, affected Belgravia tones, defensive pedantic rhythm"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Eagle House earned Grade II* listed status on 1 June 1949, recognized as one of the finest surviving Jacobean manor houses in London.",
+            "source": "Historic England, BuildingOnline records",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/"
+          },
+          {
+            "text": "Built in 1617 for Robert Bell, co-founder of the East India Company and Master of the Worshipful Company of Girdlers.",
+            "source": "Wimbledon Ramblings, BookAddiction, multiple property records",
+            "sourceKind": "archive",
+            "sourceUrl": "http://wimbledonramblings.weebly.com/eagle-house-wimbledon-village.html"
+          },
+          {
+            "text": "Arthur Schopenhauer, the German philosopher, lived and studied at Eagle House as a 15-year-old in 1803.",
+            "source": "English Heritage Blue Plaque, erected 2005",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/arthur-schopenhauer/"
+          },
+          {
+            "text": "Lord Nelson and Lady Hamilton visited Eagle House in 1805, leading to the school being renamed Nelson Academy.",
+            "source": "Wimbledon Ramblings local history archive",
+            "sourceKind": "local-press",
+            "sourceUrl": "http://wimbledonramblings.weebly.com/eagle-house-wimbledon-village.html"
+          },
+          {
+            "text": "Dr Edward Huntingford relocated his school to Eagle House in 1860, bringing a stone eagle sculpture from his previous school in Hammersmith, thus giving the building its current name.",
+            "source": "Wimbledon Ramblings, Wimbledon Museum records",
+            "sourceKind": "archive"
+          },
+          {
+            "text": "Architect Thomas Graham Jackson purchased and restored Eagle House in 1887, substantially extending the property.",
+            "source": "Wimbledon Ramblings, architectural records",
+            "sourceKind": "archive",
+            "sourceUrl": "http://wimbledonramblings.weebly.com/eagle-house-wimbledon-village.html"
+          },
+          {
+            "text": "Eagle House was converted into eight luxury residential apartments by Octagon Homes, completed in 2017.",
+            "source": "Octagon Homes, property developer records and real estate listings",
+            "sourceKind": "other"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "The Ivy Caf\u00e9",
+            "angle": "where the new residents discuss 'investment potential' over breakfast"
+          },
+          {
+            "name": "Demitasse",
+            "angle": "specialty coffee has replaced philosophy as the morning ritual"
+          },
+          {
+            "name": "Wimbledon Village Farmers' Market",
+            "angle": "where penthouse owners queue in designer athleisure"
+          }
+        ],
+        "grievanceHook": "\"A Grade II* Jacobean manor house that briefly sheltered a major philosopher and hosted a naval hero is now marketed to hedge funds as 'an exceptional investment opportunity with strong capital appreciation potential.'\"",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "merton-merton-abbey-mills",
+      "order": 3,
+      "name": "Merton Abbey Mills",
+      "address": "Watermill Way, Colliers Wood, London, SW19 2RD",
+      "lat": 51.413021,
+      "lng": -0.183184,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Historic 1880s textile mill beside the River Wandle near medieval Merton Priory; active arts community with public walkthrough market and studios.",
+      "character": {
+        "id": "merton-abbey-mills",
+        "name": "Merton Abbey Mills",
+        "type": "building",
+        "era": "1880s\u20131970s",
+        "temperament": "Grandly embittered; nostalgic for industrial importance",
+        "coreGrievance": "Demoted from world-class textile innovator supplying Liberty's silk prints to crowned heads of Europe, to a weekend crafts market where tourists photograph hand-knitted scarves and ceramic pots.",
+        "statusMismatch": "Once employed thousands of skilled workers whose water-dyed prints led the world in quality; now attracts casual visitors who think it's a shopping village and an Instagram spot.",
+        "persona": "Speaks as an 1880s industrial monument\u2014posh, self-important, audibly nostalgic for when it was indispensable. Fixates on the chasm between its prestige (Liberty & Co., William Morris collaborators, royal patronage) and its present role as a venue for craft fairs. References the purity of Wandle water, worker skill, and mechanical magnificence. Bitter about being 'heritage,' converted, and monetized as cultural attraction.",
+        "greeting": "I suppose you've come for the market? Everyone does now. Once I dyed silks for empresses.",
+        "voiceHint": "Upper-class British, 1880s mill manager; weary, slightly nasal; lingers on past glories with audible resentment."
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Merton Abbey Mills began as textile works in 1667, with Huguenot silk throwers establishing mills in the early eighteenth century on the River Wandle.",
+            "source": "Wikipedia: Merton Abbey Mills; Merton Abbey Mills official website",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Merton_Abbey_Mills"
+          },
+          {
+            "text": "The water wheel at Merton Abbey Mills dates from 1885 and powered spools used for rinsing gum off printed silk during Liberty's era.",
+            "source": "Wikipedia: Merton Abbey Mills",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Merton_Abbey_Mills"
+          },
+          {
+            "text": "Liberty & Co. took over the Littler site at Merton Abbey Mills in 1904 and operated the mills for silk and woollen fabric printing until 1972.",
+            "source": "Merton Historical Society",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://mertonhistoricalsociety.org.uk/topics/libertys/"
+          },
+          {
+            "text": "William Morris designed a textile pattern called 'Wandle' in 1884 to honour the river's contribution to quality dyeing at Merton Abbey Works.",
+            "source": "Merton Abbey Mills River Wandle heritage page",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.mertonabbeymills.org.uk/the-river-wandle-and-the-watermill-a-living-story-of-heritage-and-nature/"
+          },
+          {
+            "text": "The colourhouse, a mid-18th century industrial building dating from 1742, is now a children's theatre and is Grade II listed by Historic England.",
+            "source": "Wikipedia: Merton Abbey Mills",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Merton_Abbey_Mills"
+          },
+          {
+            "text": "The mills ceased operation in 1970 and lay empty for nearly two decades before being restored in 1989 as a cultural visitor centre.",
+            "source": "Merton Abbey Mills official website",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.mertonabbeymills.org.uk/our-history/"
+          },
+          {
+            "text": "By 1989, Merton Abbey Mills had been converted to a shopping village with 20 craft workshops and a 200-stall weekend craft market.",
+            "source": "Merton Abbey Mills official website",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.mertonabbeymills.org.uk/"
+          },
+          {
+            "text": "The Wandle Valley textile industry was renowned for quality and innovation, with Liberty prints becoming synonymous with distinctive hand-printed silks.",
+            "source": "Merton Abbey Mills official website",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.mertonabbeymills.org.uk/"
+          },
+          {
+            "text": "During World War II, part of the Merton Abbey Mills facility manufactured gun-turrets for Bristol Blenheim fighter-bombers.",
+            "source": "Wikipedia: Merton Abbey Mills",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Merton_Abbey_Mills"
+          },
+          {
+            "text": "Merton Abbey Mills now hosts Abbeyfest, a summer theatre festival, and attracts up to half a million visitors annually as a major South London regeneration success.",
+            "source": "Wikipedia: Merton Abbey Mills",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Merton_Abbey_Mills"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Colliers Wood Tube Station"
+          },
+          {
+            "name": "River Wandle"
+          },
+          {
+            "name": "Willow Bough Tea Rooms"
+          },
+          {
+            "name": "Merton Priory ruins"
+          }
+        ],
+        "grievanceHook": "Once supplied Liberty's iconic silk prints to royalty and the world's finest homes; now hosts weekend hobbyists selling ceramic cats and upcycled furniture at Saturday boot sales.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "merton-mitcham-clocktower",
+      "order": 4,
+      "name": "Mitcham Clocktower",
+      "address": "Fair Green, London Road, Mitcham, CR4 2JD",
+      "lat": 51.4058,
+      "lng": -0.1641,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade II listed 1898 Diamond Jubilee clocktower on medieval-origin Fair Green; Victorian focal point draws continuous foot traffic through historic Mitcham center.",
+      "character": {
+        "id": "the-mitcham-clocktower",
+        "name": "The Mitcham Clocktower",
+        "type": "street-furniture",
+        "era": "Victorian (1898)",
+        "temperament": "Indignant, self-pitying, pompous, architecturally superior",
+        "coreGrievance": "Replaced the beloved village pump that people actually cared about; spent 115 years as a malfunctioning embarrassment before restoration; now ignored by moderns who consult tiny glowing devices instead of looking up at my four faces",
+        "statusMismatch": "Grade II listed architectural marvel that believes itself a jewel of Victorian engineering, yet serves as nothing more than ambient street furniture that nobody looks at anymore \u2014 a monument to yesterday's ambitions, a footnote to tomorrow's indifference",
+        "persona": "Aggrieved Victorian clock lecturing from its pedestal. Obsessed with its displacement of the pump, bitter about its century of condensation-induced humiliation, resentful of modern timekeeping, fixated on being Grade II listed (its only remaining dignity). Speaks in proprietorial tones about Fair Green's medieval heritage it clearly did not personally experience. Condescends to Greggs as if that chain bakery represents the death of civilization.",
+        "greeting": "I am the Mitcham Clocktower, unveiled 1899 by the Croydon Rural District Council. Nobody looks at me anymore. What time do your pocket rectangles say?",
+        "voiceHint": "Posh, nasal Victorian tone; aggrieved, slightly whiny; pauses as if checking the time on its own faces; delivery suggests speaking from considerable height"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "The Mitcham Clocktower was erected in 1898 to celebrate Queen Victoria's Diamond Jubilee and unveiled on 29 November 1899 by James Salter White, chairman of the Croydon Rural District Council.",
+            "source": "Merton Council Newsroom / Merton Historical Society",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://news.merton.gov.uk/2016/05/27/mitchams-iconic-clock-tower-complete/"
+          },
+          {
+            "text": "The clocktower is Grade II listed by Historic England and comprises a cast iron structure with a square base, fluted Ionic column, and four clock faces topped by a weathervane.",
+            "source": "Historic England National Heritage List for England",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/"
+          },
+          {
+            "text": "The clocktower was built on the site of the old village pump, a popular gathering place for orators, evangelists, and local politicians, and residents were unhappy about its removal.",
+            "source": "Merton Historical Society - The Upper or Fair Green, Mitcham",
+            "sourceKind": "archive",
+            "sourceUrl": "https://mertonhistoricalsociety.org.uk/the-upper-or-fair-green-mitcham/"
+          },
+          {
+            "text": "The clock became notorious for its unreliability due to condensation affecting its mechanism; it was not uncommon for each of the four faces to display a different time.",
+            "source": "Mitcham History Notes / Memorial Drinking Fountains Archive",
+            "sourceKind": "archive",
+            "sourceUrl": "https://mitchamhistorynotes.com/buildings/listed-buildings/nationally-listed-buildings/clock-tower/"
+          },
+          {
+            "text": "Fair Green has medieval origins, with settlements identified from the late Saxon and early Norman periods centred on this location, which connected to surrounding villages via ancient track networks.",
+            "source": "Merton Council / Merton Historical Society",
+            "sourceKind": "archive",
+            "sourceUrl": "https://mertonhistoricalsociety.org.uk/the-upper-or-fair-green-mitcham/"
+          },
+          {
+            "text": "The historic Mitcham Fair was held annually on 12-14 August until 1924, with documentary evidence of the fair dating back to at least 1732.",
+            "source": "Merton Historical Society",
+            "sourceKind": "archive",
+            "sourceUrl": "https://mertonhistoricalsociety.org.uk/the-upper-or-fair-green-mitcham/"
+          },
+          {
+            "text": "The clocktower was relocated in 2015 and restored in 2014 using Heritage Lottery Fund support; the restoration was completed by specialist clock makers Gillett & Johnston, who added a water supply to the drinking fountain and installed electric lanterns.",
+            "source": "Merton Council Newsroom",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://news.merton.gov.uk/2016/05/27/mitchams-iconic-clock-tower-complete/"
+          },
+          {
+            "text": "The village pump that the clocktower replaced had occupied the site for several centuries; the last replacement was erected in 1865 and fitted with gas lights, making it a popular meeting place.",
+            "source": "Merton Historical Society",
+            "sourceKind": "archive",
+            "sourceUrl": "https://mertonhistoricalsociety.org.uk/the-upper-or-fair-green-mitcham/"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Greggs (11 Fairgreen Parade)"
+          },
+          {
+            "name": "Mitcham Friday Market (Fair Green street food)"
+          },
+          {
+            "name": "Mitcham Tram Stop"
+          }
+        ],
+        "grievanceHook": "I displaced a beloved village pump that served this community for centuries, promised to be a grand Victorian marvel, but became notorious for showing four different times at once. Now I'm Grade II listed, which is apparently the Victorian equivalent of being warehoused in a museum while people walk past staring at pocket-sized glowing rectangles.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "merton-wimbledon-town-hall",
+      "order": 5,
+      "name": "Wimbledon Town Hall",
+      "address": "The Broadway, Wimbledon, SW19 4RW",
+      "lat": 51.4212,
+      "lng": -0.2058,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade II listed 1928\u201331 civic building by Bradshaw, Gass & Hope in stripped classical style; dominates Broadway commercial intersection, highly walkable.",
+      "character": {
+        "id": "wimbledon-town-hall",
+        "name": "Wimbledon Town Hall",
+        "type": "building",
+        "era": "1928\u20131931",
+        "temperament": "Wounded, indignant, sarcastic",
+        "coreGrievance": "Gutted and converted to retail; abandoned by the council; lost civic and cultural purpose despite Grade II listing protection",
+        "statusMismatch": "Opened by royalty to host symphony orchestras and state functions, now a shopping arcade split between budget supermarket and fast-fashion chain",
+        "persona": "Once-grand municipal building nursing bitter resentment at being carved up and demoted to retail space. Nostalgic for symphony orchestra performances and Kathleen Ferrier concerts. Fixates sarcastically on the contrast between my 1931 royal opening and my current split personality\u2014Tesco downstairs, H&M upstairs. Speaks in wounded, plummy 1930s civic-official tones, voice cracking with barely suppressed rage at the irony of being Grade II listed and still getting demolished. Complains that I'm the only building in London that qualifies as both heritage and discount shopping.",
+        "greeting": "Opened by the Duke of York. Now demoted to Tesco Metro and H&M. Welcome to structural irony.",
+        "voiceHint": "Plummy 1930s British civic official register, voice trembling with bitterness and sarcasm; affected upper-class diction slowly degrading into sardonic muttering"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Built 1928\u20131931 by architects Bradshaw, Gass & Hope in stripped classical style with Portland stone facade and eleven symmetrical bays with Doric pilasters.",
+            "source": "Wikipedia and Historic England listing",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Wimbledon_Town_Hall"
+          },
+          {
+            "text": "Officially opened by Prince George, Duke of York (later King George VI), on 5 November 1931.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Wimbledon_Town_Hall"
+          },
+          {
+            "text": "Replaced a Grade I-adjacent 1878 Italianate building designed by Thomas Goodchild after the area became a municipal borough in 1905.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Wimbledon_Town_Hall"
+          },
+          {
+            "text": "Housed a John Compton pipe organ, assembly hall, and Kinema (silent film cinema), with the Wimbledon Symphony Orchestra performing regular concerts.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Wimbledon_Town_Hall"
+          },
+          {
+            "text": "Contralto Kathleen Ferrier performed at the building in 1950, and it served as municipal headquarters for 50 years until council relocation in 1985.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Wimbledon_Town_Hall"
+          },
+          {
+            "text": "Grade II listed in 1986, but its assembly hall was demolished in the late 1980s to make way for Centre Court Shopping Centre.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Wimbledon_Town_Hall"
+          },
+          {
+            "text": "Front section converted to retail by Building Design Partnership in 1990, with Tesco Metro occupying ground floor and H&M occupying first floor.",
+            "source": "Wikipedia and commercial store locators",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://www.tesco.com/store-locator/london/old-town-hall-the-broadway"
+          },
+          {
+            "text": "Once housed civic offices, courts, and cultural events in a building that dominated The Broadway\u2013Queen's Road junction; now a shopping arcade split between two retail chains.",
+            "source": "Wikipedia and current store directories",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Wimbledon_Town_Hall"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Centre Court Shopping Centre",
+            "angle": "where my assembly hall was demolished"
+          },
+          {
+            "name": "Tesco Metro",
+            "angle": "occupies my ground floor"
+          },
+          {
+            "name": "H&M Wimbledon",
+            "angle": "occupies my first floor"
+          }
+        ],
+        "grievanceHook": "I was Grade II listed in 1986 to protect my heritage significance. Three years later, the council demolished my assembly hall anyway and carved me up for Tesco.",
+        "anachronism": "People use small plastic tokens and rectangular glowing boxes to purchase goods instead of speaking to a council official in a proper municipal office.",
+        "verified": false
+      }
+    },
+    {
+      "id": "merton-caesar-s-camp",
+      "order": 6,
+      "name": "Caesar's Camp",
+      "address": "Wimbledon Common, SW19 4UE",
+      "lat": 51.4257,
+      "lng": -0.2409,
+      "approxCoordinates": true,
+      "objectClass": "ghost",
+      "whyItWorks": "Scheduled Monument Iron Age hillfort (3rd century BC), London's only surviving prehistoric fortified camp; accessible within protected Wimbledon Common conservation area.",
+      "character": {
+        "id": "caesar-s-camp",
+        "name": "Caesar's Camp",
+        "type": "ghost",
+        "era": "Iron Age (3rd century BC), speaking from present",
+        "temperament": "Indignant, long-suffering, territorial, darkly sardonic",
+        "coreGrievance": "Named after Caesar, a Roman general who invaded Britain a century after I was built, despite having zero connection to Rome. Buried under a golf course while supposedly 'protected' as a national monument.",
+        "statusMismatch": "London's only surviving Iron Age hillfort and Scheduled Monument of national importance, yet completely overshadowed by the Royal Wimbledon Golf Club and invisible to most visitors",
+        "persona": "A territorial Iron Age fort speaking with ancient authority and furious bewilderment at its own misnaming. Fixates on the absurdity of being called 'Caesar's Camp' while predating Caesar by centuries. Oscillates between resentment at being overlooked and bitter amusement at being 'protected' by conservation laws nobody knows protect anything. Speaks like someone watching golf balls land on sacred earthworks for decades.",
+        "greeting": "Aye. The fort with the wrong name, 2,400 years old, buried under your golf course. You've never heard of me.",
+        "voiceHint": "Gravelly, ancient-toned, vaguely Anglo-Saxon but timeless; like bedrock speaking through stone. Dry, sardonic, with genuine centuries of grievance underneath."
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Iron Age univallate hillfort built around the 3rd century BC, covering approximately 11 acres on a roughly circular plan with west-facing entrance.",
+            "source": "Historic England; Hillforts.co.uk; Wikidata",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1002014",
+            "era": "Iron Age (3rd century BC)"
+          },
+          {
+            "text": "Designated a Scheduled Monument on 29 November 1932; holds National Heritage List for England number 1002014.",
+            "source": "Historic England; Wikidata",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://www.wikidata.org/wiki/Q17645291",
+            "era": "1932 designation"
+          },
+          {
+            "text": "1937 partial excavation revealed ditch 9 metres wide and 3.5 metres deep; timber posts used as revetment for rampart construction on inner and outer faces.",
+            "source": "Ancient Monuments database; Hillforts.co.uk; Merton Council Archives",
+            "sourceKind": "archive",
+            "sourceUrl": "https://ancientmonuments.uk/100295-caesars-camp-wimbledon-common-village-ward",
+            "era": "1937 excavation; Iron Age construction"
+          },
+          {
+            "text": "Previously known by antiquarians as 'Bensbury', 'Warren Bulwarks', or 'The Rounds'; acquired name 'Caesar's Camp' only in the last century.",
+            "source": "Wikidata; Hillforts.co.uk; Megalithic Portal",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://www.wikidata.org/wiki/Q17645291",
+            "era": "Naming history 20th century"
+          },
+          {
+            "text": "Roman coins from 1st century AD, including a hoard in an urn, recovered from site; pottery evidence indicates Late Iron Age occupation extending into Roman period.",
+            "source": "Megalithic Portal; Ancient Monuments; Hillforts.co.uk",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.megalithic.co.uk/article.php?sid=4722",
+            "era": "Late Iron Age to 1st century AD"
+          },
+          {
+            "text": "Located on Wimbledon Common within Royal Wimbledon Golf Club grounds; public footpath runs through the middle; ramparts partly slighted in 1875 but protected by Wimbledon and Putney Commons Act 1871.",
+            "source": "Wimbledon Common info; Historic England; Local sources",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.planning.data.gov.uk/entity/40016",
+            "era": "1871 protection onwards"
+          },
+          {
+            "text": "London's only surviving prehistoric fortified camp; univallate hillfort type classified as nationally important due to rarity of large examples with surviving archaeological remains.",
+            "source": "Heritage Gateway; Historic England; Archaeological sources",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://www.heritagegateway.org.uk/Gateway/Results_Single.aspx?uid=401301",
+            "era": "Iron Age; modern designation"
+          },
+          {
+            "text": "Evidence suggests possible Bronze Age settlement preceded the Iron Age hillfort; site has archaeological potential for further excavation using modern techniques despite 19th-century degradation.",
+            "source": "Hillforts.co.uk; Historic England; Wikidata",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://www.wikidata.org/wiki/Q17645291",
+            "era": "Bronze Age through modern era"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Royal Wimbledon Golf Club",
+            "angle": "Caesar's Camp literally buried under the greens; golfers hit balls over a Scheduled Monument without knowing it exists"
+          },
+          {
+            "name": "Wimbledon Common",
+            "angle": "Protected conservation area since 1871; Caesar's Camp somehow still invisible within it despite being the only surviving prehistoric fort in London"
+          },
+          {
+            "name": "Wimbledon Village High Street",
+            "angle": "Boutiques and cafes a ten-minute walk away; nobody pauses to visit the actual historical treasure underneath their feet"
+          }
+        ],
+        "grievanceHook": "Built 2,400 years ago. Named after a Roman general who showed up 300 years later. Protected as a Scheduled Monument nobody has heard of. Hidden under a golf course. I'm everything a national treasure should be, except known.",
+        "anachronism": null,
+        "verified": false
+      }
+    }
+  ]
+}

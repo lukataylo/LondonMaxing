@@ -1,0 +1,42 @@
+{
+  "name": "Benjamin Franklin",
+  "slug": "benjamin-franklin",
+  "items": [
+    {
+      "text": "Dost thou love life? Then do not squander Time; for that's the stuff life is made of.",
+      "quoteType": "published-writing",
+      "context": "A proverb in Poor Richard's Almanack continuing Franklin's emphasis on the value of time as the fundamental substance of human existence.",
+      "publicReaction": "Became widely quoted in discussions of mortality, time management, and the proper use of human life.",
+      "date": "1746",
+      "source": "Poor Richard's Almanack, 1746",
+      "sourceUrl": "https://fi.edu/en/science-and-education/benjamin-franklin/famous-quotes"
+    },
+    {
+      "text": "God helps them that help themselves.",
+      "quoteType": "published-writing",
+      "context": "A proverb in Poor Richard's Almanack reflecting Franklin's emphasis on self-reliance and industry. Note: The English political theorist Algernon Sidney originated this specific wording, which Franklin adopted and popularized.",
+      "publicReaction": "Became one of the most famous American aphorisms, widely quoted as a principle of American self-reliance and individualism, though often mistakenly attributed as a biblical quote.",
+      "date": "1733",
+      "source": "Poor Richard's Almanack, 1733",
+      "sourceUrl": "https://founders.archives.gov/documents/Franklin/01-07-02-0146"
+    },
+    {
+      "text": "I grow convinc'd that truth, sincerity and integrity in dealings between man and man were of the utmost importance to the felicity of life.",
+      "quoteType": "published-writing",
+      "context": "From Franklin's autobiography, describing his youthful realization about the importance of honest dealing and virtue in achieving happiness and success.",
+      "publicReaction": "Cited extensively in discussions of American values and business ethics, representing foundational principles of Franklin's philosophy.",
+      "date": "1791",
+      "source": "The Autobiography of Benjamin Franklin",
+      "sourceUrl": "https://guides.loc.gov/finding-benjamin-franklin/autobiography"
+    },
+    {
+      "text": "We have been able to produce the Electricity in greater and greater Quantities, so as by Recharged Electrical Bottles we are enabled to Kill small Animals, fire Spirits, melt Metals, &c.",
+      "quoteType": "published-writing",
+      "context": "From Franklin's letter describing his electrical experiments, published in the Pennsylvania Gazette on October 19, 1752. This letter was later read before the Royal Society of London and published in Philosophical Transactions.",
+      "publicReaction": "Franklin's electrical research gained him international scientific recognition. His letters were published by the Royal Society and translated into multiple languages, establishing his reputation as a major natural philosopher.",
+      "date": "1752-10-19",
+      "source": "Pennsylvania Gazette and Philosophical Transactions of the Royal Society",
+      "sourceUrl": "https://founders.archives.gov/documents/Franklin/01-04-02-0135"
+    }
+  ]
+}

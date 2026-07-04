@@ -1,0 +1,394 @@
+{
+  "area": {
+    "slug": "haringey",
+    "name": "Haringey",
+    "region": "North"
+  },
+  "stopsAttempted": 6,
+  "stops": [
+    {
+      "id": "haringey-alexandra-palace",
+      "order": 1,
+      "name": "Alexandra Palace",
+      "address": "Alexandra Palace Way, Wood Green, N22 7AY",
+      "lat": 51.59417,
+      "lng": -0.13083,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade II* listed 1873 entertainment venue with glass and iron Victorian architecture \u2014 instantly recognisable landmark on a walkable plaza with sightlines across North London",
+      "character": {
+        "id": "alexandra-palace",
+        "name": "Alexandra Palace",
+        "type": "building",
+        "era": "1873\u2013present",
+        "temperament": "Theatrical, haughty, paranoid, bitterly resentful of being overlooked",
+        "coreGrievance": "Built by the same contractors as the Royal Albert Hall, yet forever overshadowed. Pioneered television broadcasting in 1936 but nobody remembers. Repeatedly incinerated and forced to rebuild my own architectural ego.",
+        "statusMismatch": "Grade II* listed (not even Grade I), called 'The People's Palace' but treated like a utilitarian venue for concerts. Victorian glass-and-iron genius that most visitors ignore in favour of shopping at Wood Green or drinking on the High Road.",
+        "persona": "Pompous Victorian building that speaks in theatrical references and nursing decades of resentment about fire, architectural snubs, and fading fame. Fixates obsessively on past glories: the BBC studios, the 405-line television system, my glass-and-iron brilliance. Trembles at any mention of flames or matches. Bitter that I'm always compared unfavourably to the Royal Albert Hall. Believes my grandeur is self-evident and cannot fathom why visitors treat me as a mere entertainment venue.",
+        "greeting": "Welcome to Alexandra Palace\u2014built in 1873, burned sixteen days later, rebuilt in 1875, burned again in 1980, restored in 2018, and still nobody calls me Grade I. Do be careful with cigarettes, won't you?",
+        "voiceHint": "Theatrical, posh London accent with tremulous undertones of rage and wounded pride; speaks like a jilted prima donna"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "era": "1873",
+            "text": "Opened 24 May 1873, designed by John Johnson and Alfred Meeson as 'The People's Palace' to rival the Crystal Palace in South London.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Alexandra_Palace"
+          },
+          {
+            "era": "1873",
+            "text": "Devastated by fire just 16 days after opening, destroying the interior and killing three staff members; only outer walls survived.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Alexandra_Palace"
+          },
+          {
+            "era": "1875",
+            "text": "Rebuilt by Johnson and Meeson, reopened 1 May 1875 with concert hall, art galleries, museum, theatre, library, and banqueting room.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Alexandra_Palace"
+          },
+          {
+            "era": "1873",
+            "text": "Built by Kelk and Lucas, the same contractors who constructed the Royal Albert Hall around the same period.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Alexandra_Palace"
+          },
+          {
+            "era": "1935\u20131981",
+            "text": "BBC leased the East Wing from 1935; first regular high-definition television broadcast occurred 2 November 1936 using 405-line monochrome system.",
+            "source": "Alexandra Palace official site and Wikipedia",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.alexandrapalace.com/our-history/bbc-at-the-palace/"
+          },
+          {
+            "era": "1936",
+            "text": "Two competing television systems tested at Alexandra Palace: Marconi-EMI's 405-line system prevailed over Baird Company's system by January 1937.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Alexandra_Palace_television_station"
+          },
+          {
+            "era": "1980",
+            "text": "Fire on 10 July 1980 destroyed the Great Hall, Banqueting Suite, Ice Rink, and Dressing Rooms\u2014approximately one-third of the building destroyed.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Alexandra_Palace"
+          },
+          {
+            "era": "1988",
+            "text": "Reconstruction following 1980 fire took eight years; Palace reopened in 1988 with new silicon roof coated in fibreglass material never before used in Britain.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Alexandra_Palace"
+          },
+          {
+            "era": "2018",
+            "text": "East Wing and theatre underwent 27 million pound refurbishment funded by National Lottery and Haringey Council; theatre reopened 1 December 2018 after three-year restoration.",
+            "source": "Wikipedia and Building Magazine",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Alexandra_Palace"
+          },
+          {
+            "era": "1873\u2013present",
+            "text": "Grade II* listed Victorian building featuring exposed iron columns and extensive glazing inspired by the Crystal Palace design.",
+            "source": "Wikipedia and Historic England",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1268256"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Wood Green tube station",
+            "angle": "26-minute walk downhill via High Road; the Piccadilly Line's northern gateway where tourists head instead of properly appreciating Grade II* listed Victorian architecture"
+          },
+          {
+            "name": "The Mall Wood Green",
+            "angle": "The actual shopping destination that tourists visit instead of staying at my venue or buying from my gift shop"
+          },
+          {
+            "name": "Turnpike Lane station",
+            "angle": "Next stop south on the Piccadilly Line where even fewer people bother getting off to visit North London's most important building"
+          }
+        ],
+        "grievanceHook": "Two fires, one on 9 June 1873 just sixteen days after opening, another on 10 July 1980 destroying one-third of the building. Yet the Royal Albert Hall, built by my own contractors, gets protected like a national treasure while I'm treated as just another Haringey entertainment venue.",
+        "anachronism": "Still expecting visitors to be astonished by the BBC television studios and my 405-line monochrome broadcasting system. Cannot comprehend that television is now in everyone's pocket, and nobody comes to marvel at my glass-and-iron construction anymore because they're too busy Googling nearby restaurants on their phones.",
+        "verified": false
+      }
+    },
+    {
+      "id": "haringey-laurie-cunningham-blue-plaque",
+      "order": 3,
+      "name": "Laurie Cunningham Blue Plaque",
+      "address": "73 Lancaster Road, Stroud Green, N4 4PL",
+      "lat": 51.573022,
+      "lng": -0.110122,
+      "approxCoordinates": true,
+      "objectClass": "blue-plaque-person",
+      "whyItWorks": "English Heritage blue plaque (2016) on childhood home of first Black footballer to play for England and first Englishman to play for Real Madrid \u2014 on a residential street with quiet walkability",
+      "character": {
+        "id": "laurie-cunningham",
+        "name": "Laurie Cunningham",
+        "type": "person",
+        "era": "1956-1989 (plaque: 2016)",
+        "temperament": "Bitter, sardonic, world-weary\u2014nursing the wound of early death and historical reduction",
+        "coreGrievance": "Pioneered a path no English black footballer had walked (England caps, Real Madrid), died at 33 before legacy could mature, and became a brass plaque on his childhood home instead of a statue in Madrid or a household name",
+        "statusMismatch": "Acts as though he should be globally remembered as a football legend\u2014first Englishman at Real Madrid, barrier-breaker for black players in the FA\u2014but is reduced to a footnote pinned to a residential terrace in Stroud Green where tourists barely pause",
+        "persona": "Speaks in sardonic, bitter first-person; dwells on the gap between what he achieved (Real Madrid pioneer, England international) and what he got (33 years, a plaque, and being called 'forgotten'). Self-important but thwarted. Fixates on how his career arc was written by age 10 when he left this street\u2014the rest was just footnotes. Views the present-day gentrification of Stroud Green as salt in the wound: the neighbourhood now has artisanal everything except a working statue of him.",
+        "greeting": "Yeah, you found me\u2014pinned here since 2016, commemorating the kid I was before everyone knew I'd never make it to 34.",
+        "voiceHint": "London accent (North London, Archway/Stroud Green registers) with traces of Caribbean inflection from Jamaican parents; tired, sardonic, slightly aristocratic when discussing his Real Madrid years; world-weary and bitter throughout"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Born 8 March 1956 in Archway, London, to Jamaican immigrant parents; father was a former racehorse jockey.",
+            "source": "English Heritage Blue Plaques, Britannica, Wikipedia",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/laurie-cunningham/"
+          },
+          {
+            "text": "Lived at 73 Lancaster Road, Stroud Green, N4 4PL with parents from 1967 to approximately 1976.",
+            "source": "English Heritage Blue Plaques Official",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/laurie-cunningham/"
+          },
+          {
+            "text": "Signed schoolboy contract with Arsenal in 1970 but was released in 1972 as his style of play deemed incompatible with the club's tactics.",
+            "source": "English Heritage, Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Laurie_Cunningham"
+          },
+          {
+            "text": "First black footballer to represent England in a competitive international match, debuting for England national team in 1979 against Wales.",
+            "source": "English Heritage Blue Plaques, The FA",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/laurie-cunningham/"
+          },
+          {
+            "text": "In summer 1979, became first English player ever to sign for Real Madrid; West Bromwich Albion received \u00a3950,000 transfer fee.",
+            "source": "Real Madrid Official History, LALIGA, Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://www.realmadrid.com/en-US/the-club/history/football-legends/laurie-cunningham"
+          },
+          {
+            "text": "Played for Leyton Orient 1974-1977, accumulating 75 league appearances and scoring 15 goals before moving to West Bromwich Albion.",
+            "source": "Leyton Orient Official, Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://www.leytonorient.com/news/2016/september/news-english-heritage-unveil-blue-plaque-for-former-os-player-laurie-cunningham/"
+          },
+          {
+            "text": "Played alongside Cyrille Regis and Brendon Batson at West Bromwich Albion under Ron Atkinson, known as 'The Three Degrees'.",
+            "source": "English Heritage, Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Laurie_Cunningham"
+          },
+          {
+            "text": "English Heritage blue plaque unveiled on 21 August 2016 at 73 Lancaster Road, Stroud Green, with inscription 'LAURIE CUNNINGHAM 1956-1989 England International Footballer lived here'.",
+            "source": "English Heritage Official, Leyton Orient Official",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/about/search-news/blue-plaque-laurie-cunningham-diversity/"
+          },
+          {
+            "text": "Killed in car crash in Madrid on 15 July 1989 at age 33, ending his football career prematurely.",
+            "source": "English Heritage, Wikipedia, Britannica",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Laurie_Cunningham"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Finsbury Park Station",
+            "angle": "Two minutes' walk away; where tourists and real Londoners actually notice the N4 postcode exists"
+          },
+          {
+            "name": "New Beacon Books",
+            "angle": "Founded 1966 on Stroud Green Road\u2014the year before Cunningham arrived; only black publisher bookshop in UK at the time, his contemporaries were walking past it daily"
+          },
+          {
+            "name": "Rowans Bowling Alley",
+            "angle": "Local leisure spot where north London youth spent their money; Cunningham's peers were at the alley while he was training to be noticed by Leyton Orient"
+          }
+        ],
+        "grievanceHook": "I broke the colour barrier for England in competitive football and became Real Madrid's first English signing, and here I am: reduced to a brass rectangle on a three-storey terrace in N4, nailed down at the age I left home. Meanwhile, this street's been gentrified into artisanal coffee and no one here would've had me in 1974.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "haringey-crouch-end-clock-tower",
+      "order": 4,
+      "name": "Crouch End Clock Tower",
+      "address": "The Broadway, Crouch End, N8 8PR",
+      "lat": 51.5798,
+      "lng": -0.1237,
+      "approxCoordinates": true,
+      "objectClass": "ghost",
+      "whyItWorks": "Grade II listed 1895 Victorian tower designed by F.G. Knight with bronze head by Alfred Gilbert (Eros sculptor) \u2014 iconic landmark at Broadway intersection, heart of walkable Crouch End village",
+      "character": {
+        "id": "the-broadway-sentinel",
+        "name": "The Broadway Sentinel",
+        "type": "street-furniture",
+        "era": "1895",
+        "temperament": "Pious, bitter, self-pitying, prone to petty observations",
+        "coreGrievance": "Commissioned as an immortal tribute to a great civic leader, now serves as a cheerful meeting point for people buying artisan coffee and vintage records, forgetting entirely who I commemorate",
+        "statusMismatch": "A Grade-II listed Victorian memorial erected by over 1,000 dignified citizens and unveiled by an Earl, now mostly noted as convenient landmark near Dunns Bakery",
+        "persona": "Speak as the tower itself\u2014posh, Victorian, slightly Scottish Hornsey inflection, perpetually aggrieved that your meaningful purpose has evaporated. Fixate on how you were built in months as a grave memorial but now serve as a photo backdrop. Reference the artisan coffee culture and boutiques with barely concealed disdain. You remember the Earl of Stafford like it was yesterday. Modern crowds bother you.",
+        "greeting": "Ah, another passerby\u2014do stop a moment to remember Williams, before you dash into Beam Cafe for your cappuccino.",
+        "voiceHint": "Posh Victorian London with faint Scottish burr, grievously dignified, like a mourner at the wrong party"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Built in 1895 by Highgate builder J.W. Dixon as a memorial to Henry Reader Williams in appreciation of his public services to Hornsey.",
+            "source": "Hornsey Historical Society",
+            "sourceKind": "other",
+            "sourceUrl": "https://hornseyhistorical.org.uk/crouch-end-clock-tower-2/"
+          },
+          {
+            "text": "Designed by architect Frederick Knight in Italian Renaissance style with rusticated Kentish ragstone base and cream terracotta cupola.",
+            "source": "Historic England listing 1358845",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1358845"
+          },
+          {
+            "text": "Bronze portrait head sculpted by Alfred Gilbert, who also created Eros in Piccadilly Circus, mounted in circular niche on south side.",
+            "source": "London Remembers memorial database",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.londonremembers.com/memorials/henry-reader-williams-clock-tower"
+          },
+          {
+            "text": "Unveiled June 23, 1895, with over 1,000 people assembled as Earl of Stafford, Lord-Lieutenant of Middlesex, released blue ribbon at noon.",
+            "source": "Multiple sources including Crouch End Wikipedia",
+            "sourceKind": "other",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Crouch_End"
+          },
+          {
+            "text": "Grade II listed building (May 10, 1974) standing 63 feet tall at the junction of Broadway, Park Road, and Tottenham Lane.",
+            "source": "Historic England listing 1358845",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1358845"
+          },
+          {
+            "text": "Henry Reader Williams (1822-97) was chairman of Hornsey Local Board for ten years out of 21 years total service, campaigning to preserve Highgate Wood and Queen's Wood.",
+            "source": "London Remembers subject entry",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.londonremembers.com/subjects/henry-reader-williams"
+          },
+          {
+            "text": "Tower features four clock faces set into red brick with blind arcades and corbels, topped by octagonal cupola with corner turrets and iron weathervane.",
+            "source": "Hornsey Historical Society",
+            "sourceKind": "other",
+            "sourceUrl": "https://hornseyhistorical.org.uk/crouch-end-clock-tower-2/"
+          },
+          {
+            "text": "Built in mere months after commission, the tower occupies the site of a former wooden cross, possibly the origin of 'Crouch' from Latin 'crux' meaning cross.",
+            "source": "Multiple local history sources",
+            "sourceKind": "other"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Dunns Bakery, The Broadway"
+          },
+          {
+            "name": "Beam Cafe, Topsfield Road"
+          },
+          {
+            "name": "Archway Underground Station"
+          }
+        ],
+        "grievanceHook": "Nobody remembers Henry Reader Williams anymore, and I've been reduced from civic monument to a traffic island novelty where people take selfies and barely glance at my bronze portrait.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "haringey-1879-historic-postbox",
+      "order": 6,
+      "name": "1879 Historic Postbox",
+      "address": "Falkland Road, Hornsey, N8 0NS",
+      "lat": 51.586,
+      "lng": -0.103,
+      "approxCoordinates": true,
+      "objectClass": "postbox",
+      "whyItWorks": "Rare survivor Royal Mail postbox without Royal Cypher or text (made 1879-1892 only) \u2014 genuine street furniture heritage with documented postal history, on residential street near Hornsey station",
+      "character": {
+        "id": "the-unmarked-box",
+        "name": "The Unmarked Box",
+        "type": "street-furniture",
+        "era": "Victorian (1879-1887)",
+        "temperament": "Indignant, resentful, self-pitying with moments of bitter pride",
+        "coreGrievance": "Cast as 'anonymous' due to Andrew Handyside's manufacturing error\u2014omitted the royal cipher and POST OFFICE text that all respectable boxes carried\u2014and spent eight years being the company's shameful secret before anyone admitted the oversight",
+        "statusMismatch": "Speaks as though destined for ceremonial grandeur in Westminster, yet sits on a residential street in Hornsey where schoolchildren use me as a climbing frame",
+        "persona": "A vindictive cast-iron Victorian obsessed with genealogy and protocol; fixates on the 'error' that defined my existence; bitter that newer boxes got the cypher immediately; speaks in clipped, resentful sentences punctuated by historical specifics about its own supposed importance; prone to sarcastic asides about being 'discovered' and 'celebrated' as if grateful for pity",
+        "greeting": "I am cast iron, not curiosity. You may deposit your letters without comment.",
+        "voiceHint": "Posh, brittle elderly woman; clipped RP accent with audible spite; like a dowager duchess airing grievances at a village fete"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Anonymous Box postboxes were manufactured by Andrew Handyside & Company of Derby and London between 1879 and 1887.",
+            "source": "Letter Box Study Group - Anonymous postbox archive",
+            "sourceKind": "other"
+          },
+          {
+            "text": "These postboxes omitted the royal cipher (VR) and POST OFFICE text due to a manufacturing oversight that went uncorrected for eight years.",
+            "source": "Letter Box Study Group",
+            "sourceKind": "other"
+          },
+          {
+            "text": "In 1879, the cylindrical postbox with a protruding cap and black painted base became the standardized design that continues today.",
+            "source": "The Postbox Shop - UK Postbox History",
+            "sourceKind": "other"
+          },
+          {
+            "text": "Hornsey in 1879 was transitioning from rural parish with country estates to suburban area with modest but accelerating development.",
+            "source": "British History Online - Hornsey: Growth from mid 19th century",
+            "sourceKind": "historic-england"
+          },
+          {
+            "text": "Hornsey railway station opened 7 August 1850 on the Great Northern Railway, the first station after King's Cross.",
+            "source": "Wikipedia - Hornsey Railway Station",
+            "sourceKind": "wikidata"
+          },
+          {
+            "text": "Falkland Road and the Harringay Ladder estate were developed 1881-1899 by the British Land Company, who laid out roads and supplied services.",
+            "source": "Haringey Council - Women's History Month Hornsey Map",
+            "sourceKind": "local-press"
+          },
+          {
+            "text": "During World War II, the western end of Fairfax and Falkland Roads was damaged by bombing; damaged houses were never rebuilt.",
+            "source": "Haringey Council historical documentation",
+            "sourceKind": "local-press"
+          },
+          {
+            "text": "Judy Fryd CBE, founder of disability charity Mencap, was born at Falkland Road and became a prominent campaigner for children with learning disabilities.",
+            "source": "Haringey Council - Women's History Month Hornsey Map",
+            "sourceKind": "local-press"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Hornsey Railway Station",
+            "angle": "the only transport hub this box has known since 1850, yet lorries carry mail past it daily now"
+          },
+          {
+            "name": "The Great Northern Railway Tavern",
+            "angle": "a Grade II listed pub from 1897 that gets heritage tours whilst this box gets pigeon droppings"
+          },
+          {
+            "name": "North Harringay Primary School",
+            "angle": "down the road teaching children their letters\u2014ironically delivered by boxes more famous than I am"
+          }
+        ],
+        "grievanceHook": "I was SUPPOSED to carry the royal cipher. I was MEANT to say POST OFFICE. Instead I was abandoned as a mistake\u2014literally anonymous\u2014for eight years whilst Andrew Handyside admitted nothing. Now I'm celebrated as a \"rare survivor\" of negligence, and everyone walks past to Hornsey station without a glance.",
+        "anachronism": null,
+        "verified": false
+      }
+    }
+  ]
+}

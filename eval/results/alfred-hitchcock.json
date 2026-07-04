@@ -1,0 +1,61 @@
+{
+  "name": "Alfred Hitchcock",
+  "slug": "alfred-hitchcock",
+  "trainCount": 15,
+  "testCount": 4,
+  "avgScores": {
+    "voiceFidelity": 3.75,
+    "contentFidelity": 2.5,
+    "plausibility": 3.5
+  },
+  "testResults": [
+    {
+      "context": "Opening remarks in which Hitchcock humorously acknowledged the honors being bestowed upon him while maintaining his characteristic wit about human psychology and fear.",
+      "actualText": "Man does not live by murder alone... he needs affection, approval, encouragement and, occasionally, a hearty meal. Tonight, you have provided me with three... out of four. Anxiety strangled my appetite!",
+      "actualReaction": "The speech was well-received for its blend of humor, self-deprecation, and gratitude, with the closing tribute to his wife becoming the most memorable part.",
+      "generatedText": "Good evening. I am told this evening is in my honor, which places me in a position of some suspense \u2014 for I have built an entire career on the principle that anticipation is more terrible than the event itself, and now I must sit through both. I am, as you may know, a fearful man \u2014 afraid of eggs, of policemen, and now, apparently, of gratitude. Still, I shall try to bear it with the quiet dignity of a man watching someone else's bomb tick under the table. Thank you \u2014 and do forgive me if I look for the nearest exit.",
+      "scores": {
+        "voiceFidelity": 4,
+        "contentFidelity": 2,
+        "plausibility": 4,
+        "rationale": "Voice: strong match\u2014deploys Hitchcock's real trademarks (fear of eggs and policemen, the \"bomb under the table\" suspense-theory analogy, deadpan self-deprecation, mock-morbid humor) in his droll, precisely-cadenced register. Content: diverges from the actual speech\u2014the real quip built a specific \"affection/approval/encouragement/meal\" checklist with a punchline about anxiety killing his appetite, whereas the AI version takes a different angle (suspense/anticipation about the honor itself) and omits the famous closing tribute to his wife that made the actual speech memorable; thematically both are wry acknowledgments of an honor paired with fear/anxiety, but the specific content and structure don't align. Plausibility: high\u2014the borrowed biographical details and rhythm make it very believable as an authentic Hitchcock quip, even though it isn't the real one."
+      }
+    },
+    {
+      "context": "Hitchcock discussing how his personal brand and reputation shaped audience expectations for any film he made, regardless of genre.",
+      "actualText": "I am a typed director. If I made Cinderella, the audience would immediately be looking for a body in the coach.",
+      "actualReaction": "This statement became widely cited to explain Hitchcock's recognition as an auteur and how public perception of a director's style influences audience reception.",
+      "generatedText": "My name above the title is a guarantee, like a label on a tin \u2014 the public knows precisely what unpleasantness they are about to digest before they've paid the cashier. I could film a bowl of fruit and the audience would sit rigid, waiting for it to bite them. That is not vanity, it is merely good packaging. Once you have taught people to be afraid of you, they will supply the fear themselves; you need only stand there looking respectable, which I do rather well.",
+      "scores": {
+        "voiceFidelity": 3,
+        "contentFidelity": 4,
+        "plausibility": 3,
+        "rationale": "Content fidelity is strong: the generated line lands on the exact same point as the real quote \u2014 that Hitchcock's name/brand pre-programs audience expectations regardless of actual genre or content \u2014 and even mirrors the real quote's structural device of an incongruous, wholesome image (a \"bowl of fruit\" standing in for \"Cinderella\") that the audience perversely expects menace from. That's a good structural echo of the \"body in the coach\" joke.\n\nVoice fidelity is middling. Hitchcock's actual public wit tends to be compact, single-image, deadpan one-liners delivered almost as a punchline (the Cinderella quote is one sentence plus one clause). The AI version stacks several extended metaphors in a row (label on a tin, bowl of fruit, teaching people fear, \"standing there looking respectable\") \u2014 more ornate and essayistic than his terse interview style, though the dry self-mockery (\"that is not vanity, it is merely good packaging\") and the wry closing brag are tonally in the right neighborhood.\n\nPlausibility is moderate: individual lines (\"my name above the title is a guarantee,\" \"good packaging\") sound plausibly like something he'd say in an interview, but the passage as a whole is longer and more literary than his typical spoken quips, making it read slightly more like pastiche than a verbatim transcript excerpt."
+      }
+    },
+    {
+      "context": "Distinction between documentary and narrative filmmaking, reflecting on the director's role and responsibility in creating fictional worlds.",
+      "actualText": "In the documentary the basic material has been created by God, whereas in the fiction film the director is a God; he must create life.",
+      "actualReaction": "This statement became influential in film theory and philosophy, establishing Hitchcock as a theorist of the director's creative power.",
+      "generatedText": "The documentary man photographs what is there. I photograph what isn't there and try to make you believe it is. A newsreel cameraman shows you a fire; I show you a woman lighting a match and let your own mind burn the house down. Responsibility, you ask? Mine is only to the truth of the emotion \u2014 the facts I'm quite happy to invent.",
+      "scores": {
+        "voiceFidelity": 4,
+        "contentFidelity": 2,
+        "plausibility": 4,
+        "rationale": "Voice fidelity is strong: the epigrammatic contrast structure, the wry deflection of a serious question (\"Responsibility, you ask?\"), and the concrete, tactile imagery (a match, a burning house) all match Hitchcock's known interview cadence (e.g., Truffaut interviews) and his fondness for illustrating abstract ideas with homely, menacing objects. Content fidelity is weaker: the actual quote's core idea is a specific theological metaphor \u2014 documentary material is \"created by God\" while the fiction director \"is a God\" who \"must create life\" \u2014 a claim about authorship/ontological power. The generated line instead pivots to a different (though related) Hitchcock theme \u2014 suggestion vs. depiction, the audience's imagination doing the work (pure cinema, Kuleshov-style editing) \u2014 which is authentically Hitchcockian but is not the same argument as the God/creation-of-life claim; it never engages the \"director as God\" framing at all. Plausibility is high since the invented line is stylistically indistinguishable from real Hitchcock aphorisms about suggestion and audience complicity (matches, fires, \"logic of a nightmare\"), and could easily be mistaken for a genuine quote in a different interview about the same documentary/fiction distinction."
+      }
+    },
+    {
+      "context": "Complaint made during the release of Frenzy in 1972, expressing Hitchcock's observation about contemporary culture and sensibilities.",
+      "actualText": "Nobody has a sense of humor anymore.",
+      "actualReaction": "The statement generated discussion about cultural changes and generational differences in humor appreciation.",
+      "generatedText": "I have been accused, since Frenzy, of a certain vulgarity \u2014 of showing rather more than the audience's grandmother might wish. Firstly, I would point out that the world has become considerably franker than my grandmother's, and I merely photograph it. In the second place, I have always found nudity a good deal less alarming than a necktie in the wrong hands. What shocks people is never the body; it is the calm with which I ask them to look at it.",
+      "scores": {
+        "voiceFidelity": 4,
+        "contentFidelity": 2,
+        "plausibility": 3,
+        "rationale": "Voice: strong Hitchcockian register \u2014 dry, aphoristic wit, the grandmother conceit, and the \"necktie in the wrong hands\" joke (a sly nod to Frenzy's necktie strangler) all sound like his interview persona, so voiceFidelity is high (4). Content: the actual complaint was a terse generational gripe \u2014 \"Nobody has a sense of humor anymore\" \u2014 about audiences/critics losing their ability to laugh, whereas the generated text is an entirely different argument defending Frenzy's nudity/vulgarity against prudishness. There's no overlap in subject or claim, so contentFidelity is low (2). Plausibility: it's a believable thing Hitchcock could have said somewhere in a Frenzy press interview (in fact he did make similar remarks elsewhere about frankness and photographing the world as it is), but it answers a different question than the one actually posed, so it's only moderately plausible as a stand-in for this specific quote (3)."
+      }
+    }
+  ]
+}

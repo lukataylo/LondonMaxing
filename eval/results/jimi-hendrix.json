@@ -1,0 +1,61 @@
+{
+  "name": "Jimi Hendrix",
+  "slug": "jimi-hendrix",
+  "trainCount": 14,
+  "testCount": 4,
+  "avgScores": {
+    "voiceFidelity": 3.75,
+    "contentFidelity": 3,
+    "plausibility": 3.75
+  },
+  "testResults": [
+    {
+      "context": "Hendrix explaining the spiritual dimension and religious significance of his music to a Canadian broadcaster.",
+      "actualText": "We call our music 'electric church music,' because it's like a religion to us.",
+      "actualReaction": "This statement was embraced by the counterculture and music critics as evidence of music's spiritual role in the 1960s. It became a defining statement about Hendrix's artistic philosophy.",
+      "generatedText": "Well, music, if it's really pure, it's like a kind of church, man \u2014 a place where you don't have to be told what to believe, you just feel it move through you. I try to reach into the soul of the audience, awaken some little thing in their minds that they maybe forgot was there, 'cause a lot of people are gonna be needing that soon, when the words of the preachers don't reach 'em no more. I'm not trying to preach nothing, I'm no prophet or nothing like that \u2014 I just believe a note can do what a sermon can't, if you let it.",
+      "scores": {
+        "voiceFidelity": 4,
+        "contentFidelity": 4,
+        "plausibility": 4,
+        "rationale": "The generated line converges on the same core metaphor as the real quote \u2014 music as \"church\"/religion \u2014 which is a strong hit for content fidelity, capturing the \"electric church\" idea almost exactly (\"a kind of church, man\"). It extends into related Hendrix themes (reaching the \"soul\" of the audience, notes doing what sermons/preachers can't, disclaiming being a \"prophet\") that are consistent with things Hendrix said elsewhere about music and spirituality, so it doesn't feel fabricated out of nowhere, but it is considerably more elaborated and sermon-like than the terse, quotable original, which was a single crisp sentence. Voice-wise, the loose, rambling, \"man\"-inflected, half-mystical cadence is very true to Hendrix's actual interview style (long, drifting, sincere, imagistic), though the actual quote is far more compact and quotably tight than this rendition. Plausibility is high \u2014 this reads like something Hendrix could plausibly have said in a meandering interview riff \u2014 but it invents specific imagery (preachers \"not reaching 'em soon,\" notes vs. sermons) that goes beyond the sourced statement, so it's a strong stylistic match rather than a near-verbatim echo."
+      }
+    },
+    {
+      "context": "Hendrix's explanation for his controversial rendition of the National Anthem at Woodstock, addressing the criticism and controversy it generated.",
+      "actualText": "All I did was play it. I'm American, so I played it. I used to sing it in school, they made me sing it in school so \u2014 it was a flashback, you know.",
+      "actualReaction": "This explanation was widely reported and discussed in the press. It reframed his performance as patriotic rather than anti-American, though the controversy persisted in some circles.",
+      "generatedText": "We're all Americans, man \u2014 well, it was like, unorthodox. But we thought it was beautiful, you know. I didn't think of it as something unpatriotic, man, I thought it was beautiful, the way we did it. It's not a mockery \u2014 I'm a musician, and I just tried to play it the way the air felt that morning, the way the whole scene felt, so I just played it how the times are, and let it go where it wanted to go.",
+      "scores": {
+        "voiceFidelity": 3,
+        "contentFidelity": 2,
+        "plausibility": 3,
+        "rationale": "The AI version keeps some of Hendrix's loose, digressive cadence (\"man,\" \"you know,\" trailing off into imagery) but overdoes it into polished, quasi-mystical phrasing (\"the way the air felt that morning,\" \"let it go where it wanted to go\") that reads more like a rock-journalism pastiche of Hendrix than his actual clipped, almost brusque deflection in this exchange. The real line is terse and matter-of-fact \u2014 \"All I did was play it. I'm American, so I played it\" \u2014 offering a blunt, almost bored non-defense, whereas the AI version is expansive and aesthetically self-justifying (\"we thought it was beautiful,\" \"not a mockery,\" \"I'm a musician\"). Content-wise the AI statement misses the two concrete, distinctive anchors of the real quote \u2014 being made to sing the anthem in school, and calling the performance a \"flashback\" \u2014 substituting instead a generic artist's-intent defense about capturing \"the times\" and \"the whole scene,\" which is a different (though thematically adjacent) justification. Both statements share the underlying move of denying unpatriotic intent by appealing to being American, so there's partial thematic overlap. On plausibility, the fabricated statement is in the right neighborhood of what Hendrix said elsewhere (he did use \"beautiful\" and \"we're all Americans\" language in the actual Dick Cavett interview on this topic), so it could pass as something he said in that general conversation, even though it diverges from this specific exact quote's content and clipped tone."
+      }
+    },
+    {
+      "context": "Hendrix's artistic philosophy about the relationship between fantasy and reality in his songwriting and creative process, expressed during his final week of life.",
+      "actualText": "I listen to some of the things I've written and think 'damn.' Most of my writing was a clash between fantasy and reality and I felt you had to use fantasy to illuminate some aspects of reality.",
+      "actualReaction": "This sophisticated articulation of his artistic method was recognized by critics as demonstrating Hendrix's intellectual approach to songwriting and his use of surrealism to convey deeper truths.",
+      "generatedText": "I always figured a song is like a dream you get to keep a little longer than sleep gives you. People say I live in a fantasy world, but man, the fantasy is just reality wearing a looser coat \u2014 it's still trying to tell you something true, only it whispers it instead of hollering. I don't run from the real world, I just go around the back way, through the clouds and the castles, and come out the other side with something you can feel in your chest. Everything's got a purpose, even the daydreams \u2014 especially the daydreams.",
+      "scores": {
+        "voiceFidelity": 4,
+        "contentFidelity": 4,
+        "plausibility": 4,
+        "rationale": "Content: both statements land on the same core thesis \u2014 fantasy isn't escapism but a vehicle for illuminating/telling truth about reality (\"fantasy is just reality wearing a looser coat\" vs \"use fantasy to illuminate some aspects of reality\"). Strong conceptual match, though the actual quote's specific self-critical framing (\"I listen to some of the things I've written and think 'damn'\") and the explicit \"clash\" framing (tension/conflict between the two) aren't captured \u2014 the AI version leans more toward harmony/continuity between fantasy and reality than an actual \"clash,\" a subtle but real divergence.\n\nVoice: Hendrix's real quote is terse, understated, almost analytical in its brevity \u2014 a musician reflecting plainly. The AI version is far more ornate and metaphor-dense (dream/sleep, \"whispers instead of hollering,\" \"clouds and castles,\" \"something you can feel in your chest\"), which reads more like a poetic pastiche of \"Hendrix-as-mystic-poet\" than his actual clipped, plainspoken interview register. It captures his known fondness for cosmic/dreamlike imagery (consistent with lyrics and other interview moments) but overshoots the sparseness of this particular real quote.\n\nPlausibility: Very plausible as something Hendrix could have said in a interview about his songwriting philosophy \u2014 the imagery and sentiment are consistent with his broader public persona and lyrical concerns (Axis: Bold as Love, dreamscapes, cosmic themes), even if this specific phrasing is more elaborate than his documented style in this instance."
+      }
+    },
+    {
+      "context": "Hendrix's statement immediately after being acquitted of drug possession charges in Toronto, expressing gratitude for the court's decision.",
+      "actualText": "Canada has given me the best Christmas present I ever had.",
+      "actualReaction": "This optimistic statement was reported in music and news media. It demonstrated Hendrix's resilience and maintained public image despite legal troubles that could have derailed his career.",
+      "generatedText": "Man, I'm just glad they could see it the way it really was, you know. I never wanted any part of that stuff, and it feels good that the truth got a chance to breathe in there. It's been heavy, this whole thing, but now I can get back to the only thing that ever made sense to me \u2014 the music, digging into it, feeling it out. I just want to say thank you, and now let me be about my business, man.",
+      "scores": {
+        "voiceFidelity": 4,
+        "contentFidelity": 2,
+        "plausibility": 4,
+        "rationale": "Voice: The generated statement captures Hendrix's loose, informal cadence well (\"Man,\" \"you know,\" \"heavy,\" \"digging into it, feeling it out\") and his tendency toward soft-spoken humility and deflection (\"let me be about my business, man\"), which matches his known interview style. Content: It diverges substantially from the actual quote in structure and tone. The real statement was a single, vivid, quotable image (\"the best Christmas present I ever had\") \u2014 compact, upbeat, almost playful, and instantly memorable/headline-ready. The AI version is diffuse, earnest, and explanatory, spending time on relief/vindication (\"the truth got a chance to breathe\") and pivoting to music-as-refuge, none of which appears in the actual line. It misses the specific gratitude-to-Canada framing and the holiday-gift metaphor entirely, so thematically it's only loosely aligned (relief/gratitude at acquittal) without capturing the actual rhetorical device used. Plausibility: Standalone, it reads as a believable thing a musician might say after an acquittal \u2014 humble, grounded, not overwrought \u2014 and doesn't contain anachronisms or false notes, so it could pass as a real Hendrix quote even though it doesn't match the real one."
+      }
+    }
+  ]
+}

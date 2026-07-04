@@ -1,0 +1,42 @@
+{
+  "name": "George Orwell",
+  "slug": "george-orwell",
+  "items": [
+    {
+      "text": "Writing a book is a horrible, exhausting struggle, like a long bout of some painful illness.",
+      "quoteType": "published-writing",
+      "context": "Orwell describing the physical and mental ordeal of writing in his essay on the motivations for prose writing",
+      "publicReaction": "Widely quoted by writers and scholars as an honest assessment of the writing process",
+      "date": "1946",
+      "source": "Why I Write, Gangrel magazine, Summer 1946",
+      "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/why-i-write/"
+    },
+    {
+      "text": "It was in Burma, a sodden morning of the rains. A sickly light, like yellow tinfoil, was slanting over the high walls into the jail yard.",
+      "quoteType": "published-writing",
+      "context": "Opening of Orwell's essay describing the sensory experience of witnessing an execution in colonial Burma",
+      "publicReaction": "The passage became famous for its vivid imagery and emotional precision in conveying the atmosphere of capital punishment",
+      "date": "1931",
+      "source": "A Hanging, The Adelphi magazine, August 1931",
+      "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/a-hanging/"
+    },
+    {
+      "text": "Within certain limits, it is actually true that the less money you have, the less you worry.",
+      "quoteType": "published-writing",
+      "context": "Orwell reflecting on poverty from his personal experience living as a vagrant and in workhouses",
+      "publicReaction": "Sociologists and historians cited this as Orwell's paradoxical insight from his time living in poverty",
+      "date": "1933",
+      "source": "Down and Out in Paris and London, Chapter 3",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Down_and_Out_in_Paris_and_London"
+    },
+    {
+      "text": "good prose is like a windowpane",
+      "quoteType": "published-writing",
+      "context": "Orwell's metaphor for clear writing\u2014prose should be transparent and not call attention to itself",
+      "publicReaction": "Became a foundational principle in writing education and literary criticism",
+      "date": "1946",
+      "source": "Why I Write, Gangrel magazine, Summer 1946",
+      "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/why-i-write/"
+    }
+  ]
+}

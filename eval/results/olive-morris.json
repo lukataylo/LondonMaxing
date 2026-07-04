@@ -1,0 +1,61 @@
+{
+  "name": "Olive Morris",
+  "slug": "olive-morris",
+  "trainCount": 14,
+  "testCount": 4,
+  "avgScores": {
+    "voiceFidelity": 3,
+    "contentFidelity": 4.25,
+    "plausibility": 3.5
+  },
+  "testResults": [
+    {
+      "context": "Summary of her political philosophy as articulated through Brixton Black Women's Group organizing; reflected her anticipation of academic intersectionality framework by nearly a decade",
+      "actualText": "The collective utilizes intersectional understanding: racism cannot be confronted without acknowledging its intertwinement with colonialism, sexism and class oppression.",
+      "actualReaction": "Recognized retrospectively as precursor to formal intersectionality theory; cited in academic work on history of Black feminist theory and practice",
+      "generatedText": "We didn't sit down one day and decide to add gender to a list that already had race and class on it. Black women in Brixton are not suffering three separate problems that happen to overlap \u2014 we are dealing with one system that organises capitalism, racism and the oppression of women together, each one holding the others in place. You cannot fight the landlord and stay quiet about the husband, and you cannot fight the husband and stay quiet about the state. Any group that asks us to rank our oppressions, or leave one at the door to be welcome in their meeting, has not understood the analysis \u2014 it is not enough to be for women, or for Black people, or for workers, separately. The Brixton Black Women's Group exists because none of the existing organisations were built to hold all of what we are.",
+      "scores": {
+        "voiceFidelity": 3,
+        "contentFidelity": 5,
+        "plausibility": 4,
+        "rationale": "The \"actual\" text given is not a first-person quote but a scholarly paraphrase describing the collective's analysis in academic third-person register (\"The collective utilizes intersectional understanding...\"), so there's no genuine first-person voice to benchmark against \u2014 voiceFidelity is necessarily a judgment call about plausibility of register rather than a direct match, hence a middling 3. On content, the AI version hits every substantive beat of the source with more specificity: it names the same three axes (race/class/gender, folded into \"capitalism, racism and the oppression of women\"), explicitly rejects the \"list\" and \"separate problems\" framing (mirroring the source's \"intertwinement\" claim), and dramatizes the non-hierarchy/non-separability point (\"cannot fight the landlord and stay quiet about the husband\") \u2014 this is a faithful and even richer rendering of the intersectionality argument, warranting a 5. Plausibility is high (4): the rhetorical structure \u2014 direct address, concrete household/state imagery, refusal to rank oppressions, insistence the group exists because no other organization \"held all of what we are\" \u2014 is consistent with known Brixton Black Women's Group / OWAAD-era organizing rhetoric and the retrospective framing of Morris/BBWG as proto-intersectional theorists, though the polished, aphoristic phrasing (\"holding the others in place\") reads slightly more literary than a rougher contemporaneous transcript might, keeping it just short of a 5."
+      }
+    },
+    {
+      "context": "Foundational rationale for establishing Brixton Black Women's Group in 1973; reflected her analysis that Black women's liberation required autonomous organizing space distinct from both white feminist and male-dominated Black nationalist movements",
+      "actualText": "Black women must organize separately and build political power to address issues specific to our experience.",
+      "actualReaction": "Influenced formation of multiple Black women's groups across UK in 1970s; foundational to development of Black feminist organizing tradition in Britain",
+      "generatedText": "Black women in this country face a triple oppression \u2014 of race, of class, and of sex \u2014 and neither the white women's movement nor the Black liberation movement as currently organised is built to fight all three at once. The women's movement is dominated by white middle-class women whose experience of the family, the state and work is not ours; the Black movement, dominated by men, has not taken the oppression of women seriously as a political question at all. It is not enough to be absorbed into either. We need our own organisation, controlled by us, so that our situation is defined by us and not left out or spoken for by somebody else's analysis.",
+      "scores": {
+        "voiceFidelity": 3,
+        "contentFidelity": 4,
+        "plausibility": 4,
+        "rationale": "Content: The AI version captures the actual statement's core thesis precisely \u2014 separate autonomous organizing distinct from both white feminism and male-led Black nationalism \u2014 and even correctly elaborates the reasoning (white women's movement doesn't address race/class realities; Black movement doesn't take gender seriously) that the terse real quote only implies. The \"triple oppression\" (race/class/sex) framing is historically apt for this milieu, though it's more commonly associated with the slightly later OWAAD (1978) articulation than the 1973 BBWG founding \u2014 a minor anachronistic flavor rather than a substantive error. Voice: Morris's real rhetorical style (from letters, speeches, and squatting-campaign writing) tends toward blunt, punchy, action-first phrasing rather than the more essayistic, clause-heavy analytical register here (\"is not built to fight all three at once,\" \"not left out or spoken for by somebody else's analysis\") \u2014 competent political prose but reads more like a committee position paper than her personal voice. Plausibility: Very plausible as a line from a founding statement or pamphlet of the period; the logic and vocabulary match known Black British feminist discourse of the mid-to-late 1970s closely enough that it could pass as genuine archival text."
+      }
+    },
+    {
+      "context": "Foundational articulation of her housing justice philosophy; expressed her belief that adequate shelter was fundamental human right, not commodity, shaping her squatting activism",
+      "actualText": "A roof over your head is not a privilege\u2014it is a right.",
+      "actualReaction": "Became rallying cry for squatters' rights movements and housing justice advocates; cited as expression of her moral framework in multiple activist histories",
+      "generatedText": "Housing is not a commodity to be bought and sold on the market while people sleep in the street. It is a right, and the state has a responsibility to provide it \u2014 not as charity, but as a basic condition of survival. Where the council leaves buildings empty and families homeless, that is not neglect, it is policy, and we are not obliged to respect it. Squatting is not theft. It is people taking what should never have been withheld from them in the first place.",
+      "scores": {
+        "voiceFidelity": 3,
+        "contentFidelity": 4,
+        "plausibility": 3,
+        "rationale": "The generated statement correctly reproduces the core proposition \u2014 housing as a right rather than a privilege/commodity \u2014 which is the heart of the actual quote (\"A roof over your head is not a privilege\u2014it is a right\"), and extends it in ways consistent with her squatting activism (state responsibility, empty council buildings vs. homeless families, squatting as reclamation not theft). This gives it strong content fidelity: 4/5, since it's a faithful elaboration of her documented philosophy even if it adds specifics not in the terse original.\n\nVoice fidelity is more mixed. The real quote is a compressed, aphoristic rallying cry \u2014 one clean antithesis (privilege/right) built for chanting and citation, which is exactly why it became a movement slogan. The AI version instead unfolds into a multi-sentence argument with parallel rhetorical structures (\"not X, it is Y\" repeated three times) \u2014 more like a speech excerpt or manifesto passage than the single memorable line she actually produced. It captures her militancy and moral bluntness but loses the epigrammatic economy that made the real line quotable: 3/5.\n\nPlausibility is moderate-to-good: the ideas and tone (defiant, structurally focused on \"the state\"/\"the council,\" framing squatting as justified reclamation) are very much in keeping with 1970s Black British squatters'-rights rhetoric and her known positions, so it reads as something she could have said in a longer speech or pamphlet. It's less plausible as a single standalone \"statement\" given its length and layered argumentation compared to her actual terse style: 3/5."
+      }
+    },
+    {
+      "context": "Expression of her practical, creative approach to housing activism; describing how systematic squatting campaigns could serve as direct solution to homelessness",
+      "actualText": "We must turn squatting into an art form to ensure homeless families and people can have a roof over their heads.",
+      "actualReaction": "Described by contemporary activists as turning 'squatting into an art form'; became characterization of her innovative direct action approach to housing justice",
+      "generatedText": "Housing is not a gift the council hands down when it feels generous \u2014 it is a right, and where the state fails to provide it, we take what is standing empty and put people into it. Squatting is not a stopgap or a stunt, it is organised direct action: identify the empty properties, move in systematically, defend the building collectively. Not a single family should sit on a waiting list while a landlord or a council lets a block rot for profit or convenience. This is not about one house or one family \u2014 it is about proving, in practice, that homelessness is a policy choice, not a shortage.",
+      "scores": {
+        "voiceFidelity": 3,
+        "contentFidelity": 4,
+        "plausibility": 3,
+        "rationale": "Content overlaps well: both frame squatting as systematic, organised direct action (not opportunistic) aimed at solving homelessness by using empty properties, and both implicitly indict the state/council/landlords for failing to house people. The \"policy choice, not a shortage\" framing and \"identify, move in, defend collectively\" steps are consistent in spirit with Morris's known organizing methods with Squatters' Union activism.\n\nHowever, voice fidelity is only middling. The actual quote is compact, vivid, and almost poetic \u2014 \"turn squatting into an art form\" is a memorable, condensed metaphor that became its own quotable phrase. The AI version is much longer, more discursive and rhetorical, reading like a modern activist manifesto or op-ed with parallel clauses (\"not a stopgap... it is organised direct action\") \u2014 a register more common in contemporary organizing rhetoric than in the terse, aphoristic style attributed to Morris. It never uses or gestures toward the \"art form\" language or any comparably striking, quotable phrase, missing the specific creative/aesthetic framing that made the real line memorable and distinct.\n\nPlausibility is moderate: the ideas are true to her activism and could plausibly be paraphrased from something she said, but the length, cadence, and slightly sloganeering tone (e.g., \"not a single family,\" \"prove in practice\") feel more like an AI-generated composite of generic housing-activist rhetoric than a direct utterance from a 1970s British Black radical squatting organizer. It lacks the specific historical texture (era-specific references, the concrete \"art form\" phrasing) that would make it convincingly her actual words rather than a plausible thematic gloss."
+      }
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "name": "Samuel Johnson",
+  "slug": "samuel-johnson",
+  "items": [
+    {
+      "text": "Every other authour may aspire to praise; the lexicographer can only hope to escape reproach",
+      "quoteType": "published-writing",
+      "context": "From the Preface to A Dictionary of the English Language, reflecting on the thankless task of dictionary compilation",
+      "publicReaction": "The preface was widely read and established Johnson's authority on language; it became one of the most influential linguistic works of the century",
+      "date": "1755",
+      "source": "Samuel Johnson, Preface to A Dictionary of the English Language (London, 1755)",
+      "sourceUrl": "https://jacklynch.net/Texts/preface.html"
+    },
+    {
+      "text": "the English Dictionary was written with little assistance of the learned, and without any patronage of the great; not in the soft obscurities of retirement, or under the shelter of academick bowers, but amidst inconvenience and distraction, in sickness and in sorrow",
+      "quoteType": "published-writing",
+      "context": "From the Dictionary Preface, explaining the difficult circumstances under which he completed his monumental work while his wife was dying",
+      "publicReaction": "Contemporaries recognized both the achievement and Johnson's personal sacrifice; the preface was celebrated for its honesty and eloquence",
+      "date": "1755",
+      "source": "Samuel Johnson, Preface to A Dictionary of the English Language (London, 1755)",
+      "sourceUrl": "http://www.ourcivilisation.com/smartboard/shop/johnsons/dictnry.htm"
+    },
+    {
+      "text": "Is not a patron...one who looks with unconcern on a man struggling for life in the water, and, when he has reached ground, encumbers him with help?",
+      "quoteType": "letter",
+      "context": "Letter to Lord Chesterfield, whom Johnson had sought patronage from years earlier without success; written just as his Dictionary was being published",
+      "publicReaction": "The letter became famous as a statement of independence and a critique of aristocratic patronage; it severely damaged Johnson's relationship with Chesterfield and established Johnson's reputation for dignity",
+      "date": "1755-02-07",
+      "source": "Samuel Johnson, Letter to the Earl of Chesterfield (7 February 1755)",
+      "sourceUrl": "https://www.ourcivilisation.com/smartboard/shop/johnsons/patron.htm"
+    },
+    {
+      "text": "I hope not much to tire those I shall not happen to please, and if I am not commended for the beauty of my works, to be at least pardoned for their brevity",
+      "quoteType": "published-writing",
+      "context": "Opening statement of The Rambler, first issue, where Johnson explains his approach to the new periodical essay",
+      "publicReaction": "The essay series became influential despite initial modest sales; the essays were later republished in collected form in 1753 with great success",
+      "date": "1750-03-20",
+      "source": "Samuel Johnson, The Rambler, No. 1 (20 March 1750)",
+      "sourceUrl": "https://www.johnsonessays.com/the-rambler/no-1-difficulty-of-the-first-address-practice-of-the-epick-poets-convenience-of-periodical-performances/"
+    },
+    {
+      "text": "no species of writing seems more worthy of cultivation than biography, since none can be more delightful or more useful",
+      "quoteType": "published-writing",
+      "context": "From Rambler No. 60, Johnson's essay on biography as a literary form and moral instruction",
+      "publicReaction": "This essay became influential in establishing the critical importance of biographical writing; Johnson's own preference for intimate biographical detail over grand narratives shaped literary criticism",
+      "date": "1750-10-13",
+      "source": "Samuel Johnson, The Rambler, No. 60 (13 October 1750)",
+      "sourceUrl": "https://www.samueljohnson.com/ram60.html"
+    },
+    {
+      "text": "more knowledge may be gained of a man's real character, by a short conversation with one of his servants, than from a formal and studied narrative",
+      "quoteType": "published-writing",
+      "context": "From Rambler No. 60, arguing that intimate domestic details reveal character more truthfully than official accounts",
+      "publicReaction": "This statement influenced biographical practice and theory for generations, supporting the value of anecdotal evidence",
+      "date": "1750-10-13",
+      "source": "Samuel Johnson, The Rambler, No. 60 (13 October 1750)",
+      "sourceUrl": "https://www.samueljohnson.com/ram60.html"
+    },
+    {
+      "text": "Those who attempt periodical essays seem to be often stopped in the beginning, by the difficulty of finding a proper title...Every man is, or hopes to be, an Idler",
+      "quoteType": "published-writing",
+      "context": "Opening of The Idler, No. 1, Johnson's second major essay periodical, where he explains his pen name",
+      "publicReaction": "The Idler essays were well-received and published regularly; Johnson's exploration of idleness as a universal human trait became characteristic of his philosophical approach",
+      "date": "1758-04-15",
+      "source": "Samuel Johnson, The Idler, No. 1 (15 April 1758)",
+      "sourceUrl": "http://essays.quotidiana.org/johnson/idler_no_1/"
+    },
+    {
+      "text": "Every man in the journey of life takes the same advantage of the ignorance of his fellow travellers, disguises himself in counterfeited merit",
+      "quoteType": "published-writing",
+      "context": "From Adventurer No. 84, Johnson's essay about social pretense, illustrated through the example of stage-coach travelers assuming false personas",
+      "publicReaction": "The observation became widely recognized as a characteristic Johnsonian insight into human vanity and self-deception",
+      "date": "1753-08-25",
+      "source": "Samuel Johnson, The Adventurer, No. 84 (25 August 1753)",
+      "sourceUrl": "https://victorianweb.org/previctorian/johnson/adventurer84.html"
+    },
+    {
+      "text": "Sir, a woman's preaching is like a dog's walking on his hinder legs. It is not done well; but you are surprised to find it done at all",
+      "quoteType": "reported-speech",
+      "context": "Johnson's witty remark to Boswell after Boswell attended a Quaker meeting where a woman preached",
+      "publicReaction": "The quote became famous as an example of Johnson's satirical wit on gender and propriety; it has been quoted frequently in discussions of Johnson's views on women",
+      "date": "1763-07-26",
+      "source": "James Boswell, The Life of Samuel Johnson, LL.D. (London, 1791), recording a conversation of 26 July 1763",
+      "sourceUrl": "https://www.samueljohnson.com/dogwalk.html"
+    },
+    {
+      "text": "No man but a blockhead ever wrote, except for money",
+      "quoteType": "reported-speech",
+      "context": "Johnson's blunt statement to Boswell about the economic motives for writing",
+      "publicReaction": "Boswell disagreed with this statement but recorded it as characteristic of Johnson's direct speech; the quote became famous as representing Johnson's pragmatic view of authorship",
+      "date": "1776-04-05",
+      "source": "James Boswell, The Life of Samuel Johnson, LL.D. (London, 1791), recording a conversation of 5 April 1776",
+      "sourceUrl": "https://www.thisdayinquotes.com/2019/04/no-man-but-a-blockhead-ever-wrote-except-for-money/"
+    },
+    {
+      "text": "Why, Sir, you find no man, at all intellectual, who is willing to leave London. No, Sir, when a man is tired of London, he is tired of life; for there is in London all that life can afford",
+      "quoteType": "reported-speech",
+      "context": "Johnson's response to Boswell's question about whether his love of London would diminish if he lived there permanently rather than visiting from Scotland",
+      "publicReaction": "This statement became one of Johnson's most famous and frequently quoted remarks about the city; it encapsulates his appreciation for urban society and variety",
+      "date": "1777-09-20",
+      "source": "James Boswell, The Life of Samuel Johnson, LL.D. (London, 1791), recording a conversation of 20 September 1777",
+      "sourceUrl": "https://www.samueljohnson.com/tiredlon.html"
+    },
+    {
+      "text": "My dear friend, clear your mind of cant. You may talk as other people do. You may say to a man, 'Sir, I am your most humble servant.' You are not his most humble servant. You may say, 'These are sad times; it is a melancholy thing to be reserved to such times.' You don't mind the times. You tell a man, 'I am sorry you had such bad weather the last day of your journey, and were so much wet.' You don't care six-pence whether he was wet or dry. You may talk in this manner; it is a mode of talking in Society: but don't think foolishly",
+      "quoteType": "reported-speech",
+      "context": "Johnson's extended remark to Boswell, cautioning against insincere or sanctimonious speech while acknowledging social conventions",
+      "publicReaction": "This statement became recognized as Johnson's most explicit statement on the distinction between social convention and genuine thought; it has been widely quoted as representing his philosophy",
+      "date": "1783-05-15",
+      "source": "James Boswell, The Life of Samuel Johnson, LL.D. (London, 1791), Volume 2, pp. 454-455, recording a conversation of 15 May 1783",
+      "sourceUrl": "https://quoteinvestigator.com/2016/05/01/cant/"
+    },
+    {
+      "text": "There is in this world no real delight (excepting those of sensuality), but exchange of ideas in conversation",
+      "quoteType": "published-writing",
+      "context": "From Johnson's observations on the value of conversation, found in Hester Piozzi's Anecdotes of the Late Samuel Johnson",
+      "publicReaction": "The statement became influential in eighteenth-century philosophy emphasizing social intercourse and intellectual exchange",
+      "date": "circa 1780s",
+      "source": "Samuel Johnson, quoted in Hester Lynch Piozzi, Anecdotes of the Late Samuel Johnson, LL.D. (London, 1786)",
+      "sourceUrl": "https://www.samueljohnson.com/conversa.html"
+    },
+    {
+      "text": "Questioning is not the mode of conversation among gentlemen. It is assuming a superiority",
+      "quoteType": "reported-speech",
+      "context": "Johnson's observation on proper conversational etiquette among educated men",
+      "publicReaction": "This statement influenced eighteenth-century understanding of polite conversation and social hierarchy",
+      "date": "circa 1770s",
+      "source": "James Boswell, The Life of Samuel Johnson, LL.D. (London, 1791)",
+      "sourceUrl": "https://www.samueljohnson.com/conversa.html"
+    },
+    {
+      "text": "When two Englishmen meet, their first talk is of the weather",
+      "quoteType": "published-writing",
+      "context": "From Johnson's essay The Idler, No. 11, observing the English national habit of discussing meteorological conditions",
+      "publicReaction": "The observation became famous as a characterization of English conversational habits and has been quoted for centuries",
+      "date": "1758-06-24",
+      "source": "Samuel Johnson, The Idler, No. 11 (24 June 1758)",
+      "sourceUrl": "https://www.samueljohnson.com/conversa.html"
+    },
+    {
+      "text": "The happiest conversation is that of which nothing is distinctly remembered but a general effect of pleasing impression",
+      "quoteType": "reported-speech",
+      "context": "Johnson's reflective observation on the nature of truly satisfying social interaction",
+      "publicReaction": "The statement became recognized as expressing Johnson's understanding of conversation's value beyond specific memorable content",
+      "date": "circa 1770s",
+      "source": "James Boswell, The Life of Samuel Johnson, LL.D. (London, 1791)",
+      "sourceUrl": "https://www.samueljohnson.com/conversa.html"
+    },
+    {
+      "text": "It is scarcely possible to pass an hour in honest conversation, without being able...to please ourselves with having given or received some advantages",
+      "quoteType": "published-writing",
+      "context": "From Rambler No. 80, Johnson's reflection on the mutual benefits of genuine conversation",
+      "publicReaction": "The essay contributed to eighteenth-century valorization of social intercourse as morally and intellectually beneficial",
+      "date": "1750-12-22",
+      "source": "Samuel Johnson, The Rambler, No. 80 (22 December 1750)",
+      "sourceUrl": "https://www.samueljohnson.com/conversa.html"
+    },
+    {
+      "text": "No style of conversation is more extensively acceptable than the narrative",
+      "quoteType": "published-writing",
+      "context": "From Rambler No. 188, Johnson's analysis of effective conversational styles",
+      "publicReaction": "The observation influenced understanding of rhetoric and oral tradition in the eighteenth century",
+      "date": "1752-01-04",
+      "source": "Samuel Johnson, The Rambler, No. 188 (4 January 1752)",
+      "sourceUrl": "https://www.samueljohnson.com/conversa.html"
+    }
+  ]
+}

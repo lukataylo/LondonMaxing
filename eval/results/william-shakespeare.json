@@ -1,0 +1,61 @@
+{
+  "name": "William Shakespeare",
+  "slug": "william-shakespeare",
+  "trainCount": 12,
+  "testCount": 4,
+  "avgScores": {
+    "voiceFidelity": 3.75,
+    "contentFidelity": 3.75,
+    "plausibility": 3.75
+  },
+  "testResults": [
+    {
+      "context": "Bequest to his sister Joan Hart in Shakespeare's will, providing both money, personal items, and housing security",
+      "actualText": "I give to my sister Joan... the sum of twenty pounds and all my wearing apparel and the house wherein she now dwelleth during her natural life",
+      "actualReaction": "The bequest secured his sister's financial security and demonstrates family care in Shakespeare's estate planning",
+      "generatedText": "Item, I give and bequeath unto my sister Joan Hart twenty pounds and all my wearing apparel, to be paid and delivered within one year after my decease; and I do will and devise unto her the house with th'appurtenances in Stratford wherein she dwelleth, for her natural life, under and yielding the yearly rent of twelve pence. Also I give and bequeath unto her three sons, William Hart, Hart, and Michael Hart, five pounds apiece, to be paid within one year after my decease. This I set down as her sure and certain dwelling, that she be not put forth nor troubled therein so long as she shall live.",
+      "scores": {
+        "voiceFidelity": 5,
+        "contentFidelity": 5,
+        "plausibility": 5,
+        "rationale": "The generated text uses authentic legal-testamentary diction matching Shakespeare's actual will (\"Item, I give and bequeath,\" \"wearing apparel,\" \"th'appurtenances,\" \"natural life,\" \"within one year after my decease\") \u2014 this is the genuine formulaic idiom of Elizabethan wills, likely drawn from period legal templates and the real document itself. Content-wise it captures the two core actual provisions exactly: twenty pounds plus wearing apparel, and lifetime tenancy in the house she dwelleth in \u2014 matching the actual quote almost verbatim in substance and even close in phrasing (\"the house wherein she now dwelleth during her natural life\" vs. generated's near-identical clause). It adds plausible historically-attested extra details (the twelve-pence peppercorn rent, bequests to her three sons including William and Michael Hart) which are accurate to the real will's additional clauses, showing strong grounding rather than invention. The closing sentence about her \"sure and certain dwelling\" that she \"be not put forth nor troubled\" nicely dramatizes the housing-security theme highlighted in the actual public reaction. Overall this reads as a highly faithful, plausible reconstruction of the actual legal bequest, both in voice and content, with no anachronism or fabricated tone."
+      }
+    },
+    {
+      "context": "Personal bequest in Shakespeare's will of his sword to Thomas Combe of Warwickshire",
+      "actualText": "I give my sword to Mr Thomas Combe",
+      "actualReaction": "This specific bequest of a personal item suggests a valued relationship or particular respect for Combe",
+      "generatedText": "Item, I give and bequeath unto Thomas Combe my sword, in token of the love I bear him, to have and to hold the same to him and his assigns forever. I do this in sound mind and good remembrance, God be thanked, as one item amongst the several bequests hereinafter set down. Let it be delivered unto him within a convenient time after my decease, without further condition or delay.",
+      "scores": {
+        "voiceFidelity": 3,
+        "contentFidelity": 3,
+        "plausibility": 3,
+        "rationale": "The actual bequest is a terse single clause: \"I give my sword to Mr Thomas Combe\" \u2014 typical of the clipped, itemized style of Shakespeare's will. The AI version preserves the core fact (sword to Thomas Combe) but pads it heavily with generic legal-will boilerplate (\"to have and to hold... to him and his assigns forever,\" \"God be thanked,\" \"convenient time after my decease, without further condition or delay\") that is invented rather than drawn from the actual document. It also adds an emotional motive \u2014 \"in token of the love I bear him\" \u2014 not present in the real bequest, which is purely factual with no stated sentiment (the actual affection is only inferred by later commentators, not stated by Shakespeare himself). The register broadly evokes period legal phrasing (plausible pastiche of a will clause), but it's far more ornate and expansive than the spare original, and it invents a first-person emotional justification the actual text never gives."
+      }
+    },
+    {
+      "context": "Specific bequest in Shakespeare's will of a valuable silver bowl to his daughter Judith",
+      "actualText": "my broad silver gilt bowl to my daughter Judith",
+      "actualReaction": "The bequest of this precious object alongside financial settlements provided Judith with both movable wealth and heirlooms",
+      "generatedText": "Item, I give and bequeath unto my daughter Judith my silver and gilt bowl, to have and to hold to her own use, in manner and form following. This I do give her over and above the sums already appointed unto her by this my will, in token of my fatherly love and good will towards her. And it is my mind and will that the same bowl remain hers absolutely, without condition or delay of any person whatsoever.",
+      "scores": {
+        "voiceFidelity": 4,
+        "contentFidelity": 5,
+        "plausibility": 4,
+        "rationale": "The generated text accurately captures the core bequest \u2014 \"my silver and gilt bowl\" to \"my daughter Judith\" \u2014 matching the actual will's \"my broad silver gilt bowl to my daughter Judith\" almost verbatim in substance, and correctly notes it is \"over and above the sums already appointed unto her,\" reflecting the historical fact that Judith received both the heirloom bowl and financial settlements. This gives it strong content fidelity. Voice-wise, it opens with the authentic legal formula \"Item, I give and bequeath unto...\" used throughout Shakespeare's actual will, and uses period-appropriate legalese (\"to have and to hold,\" \"without condition or delay\"). However, it drifts from the terse, formulaic register of the real document by adding flourishes not typical of Elizabethan probate language \u2014 \"in token of my fatherly love and good will towards her\" and \"absolutely, without condition or delay of any person whatsoever\" are more elaborate/sentimental than the actual will's clipped, formulaic bequests, which rarely editorialize on affection. This makes it plausible as a will-style document but slightly over-written compared to the spare original, hence not a perfect voice match."
+      }
+    },
+    {
+      "context": "Dedication by Thomas Thorpe in the 1609 first edition of Shakespeare's sonnets, addressing the mysterious 'Mr W.H.' and crediting Shakespeare as the 'ever-living poet'",
+      "actualText": "TO THE ONLIE BEGETTER OF THESE INSUING SONNETS MR W H ALL HAPPINESSE AND THAT ETERNITIE PROMISED BY OUR EVER-LIVING POET WISHETH THE WELL-WISHING ADVENTURER IN SETTING FORTH T T",
+      "actualReaction": "The mysterious dedication sparked centuries of scholarly debate about whether Shakespeare authorized publication and who 'Mr. W.H.' was",
+      "generatedText": "I have not set eyes on Master Thorpe's dedication, nor gave I my hand to it, and what he calls me \u2014 \"ever-living\" \u2014 sits stranger upon me than any title I have sought for myself. Yet I know not how I shall answer for words another man has printed in my name, being no party to his purpose nor privy to whom \"Mr. W.H.\" should be. What is mine own is the unpolished verse; what is his is the wrapping he has set about it, and I will not claim credit nor blame beyond that line. Let the sonnets speak, as they were made to, and let the dedication belong to the man who penned it.",
+      "scores": {
+        "voiceFidelity": 3,
+        "contentFidelity": 2,
+        "plausibility": 3,
+        "rationale": "The actual text is not something Shakespeare said at all \u2014 it is Thorpe's florid printer's dedication (\"TO THE ONLIE BEGETTER... ALL HAPPINESSE AND THAT ETERNITIE PROMISED BY OUR EVER-LIVING POET\"), a third-party wish/tribute with no discernible stance from Shakespeare himself. The AI-generated statement instead invents a first-person Shakespearean reaction \u2014 disclaiming authorization, distancing himself from the \"ever-living\" epithet, and refusing responsibility for \"Mr. W.H.\" This tracks the real historical controversy (debate over whether Shakespeare authorized publication) reasonably well in theme, but it has essentially no content overlap with Thorpe's actual words, which contain no disclaimer, no discomfort, and no disavowal \u2014 they are celebratory, not defensive. So contentFidelity is low: same topic/controversy, but a fabricated stance rather than an echo of the source text. Voice-wise, the archaic diction (\"gave I my hand,\" \"sits stranger upon me,\" \"privy to\") is a competent period pastiche, giving moderate voiceFidelity, though it reads as generic invented-Bard prose rather than anything traceable to Shakespeare's actual sparse, non-autobiographical public record. Plausibility is middling: since no genuine personal commentary from Shakespeare on the Sonnets' publication survives, the statement is pure speculation, but it plausibly engages with the real ambiguity scholars still debate, so it doesn't feel absurd even if unverifiable."
+      }
+    }
+  ]
+}

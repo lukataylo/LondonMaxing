@@ -1,0 +1,256 @@
+{
+  "areasAttempted": 33,
+  "areasWritten": 33,
+  "totalStopsAttempted": 198,
+  "totalStopsWritten": 172,
+  "objectClassCounts": {
+    "building": 101,
+    "blue-plaque-person": 47,
+    "bollard": 5,
+    "postbox": 4,
+    "ghost-sign": 6,
+    "shopfront": 7,
+    "ghost": 2
+  },
+  "sourceKindCounts": {
+    "wikidata": 574,
+    "historic-england": 233,
+    "archive": 177,
+    "other": 276,
+    "blue-plaque": 120,
+    "local-press": 136
+  },
+  "areas": [
+    {
+      "slug": "city-of-london",
+      "name": "City of London",
+      "region": "Central",
+      "stopsAttempted": 6,
+      "stopsWritten": 6
+    },
+    {
+      "slug": "camden",
+      "name": "Camden",
+      "region": "Central/North",
+      "stopsAttempted": 6,
+      "stopsWritten": 5
+    },
+    {
+      "slug": "greenwich",
+      "name": "Greenwich",
+      "region": "South-East",
+      "stopsAttempted": 6,
+      "stopsWritten": 6
+    },
+    {
+      "slug": "hackney",
+      "name": "Hackney",
+      "region": "East",
+      "stopsAttempted": 6,
+      "stopsWritten": 6
+    },
+    {
+      "slug": "hammersmith-and-fulham",
+      "name": "Hammersmith and Fulham",
+      "region": "West",
+      "stopsAttempted": 6,
+      "stopsWritten": 5
+    },
+    {
+      "slug": "islington",
+      "name": "Islington",
+      "region": "North",
+      "stopsAttempted": 6,
+      "stopsWritten": 4
+    },
+    {
+      "slug": "kensington-and-chelsea",
+      "name": "Kensington and Chelsea",
+      "region": "West",
+      "stopsAttempted": 6,
+      "stopsWritten": 5
+    },
+    {
+      "slug": "lambeth",
+      "name": "Lambeth",
+      "region": "South",
+      "stopsAttempted": 6,
+      "stopsWritten": 5
+    },
+    {
+      "slug": "lewisham",
+      "name": "Lewisham",
+      "region": "South-East",
+      "stopsAttempted": 6,
+      "stopsWritten": 6
+    },
+    {
+      "slug": "southwark",
+      "name": "Southwark",
+      "region": "South",
+      "stopsAttempted": 6,
+      "stopsWritten": 6
+    },
+    {
+      "slug": "tower-hamlets",
+      "name": "Tower Hamlets",
+      "region": "East",
+      "stopsAttempted": 6,
+      "stopsWritten": 6
+    },
+    {
+      "slug": "wandsworth",
+      "name": "Wandsworth",
+      "region": "South-West",
+      "stopsAttempted": 6,
+      "stopsWritten": 5
+    },
+    {
+      "slug": "westminster",
+      "name": "Westminster",
+      "region": "Central",
+      "stopsAttempted": 6,
+      "stopsWritten": 6
+    },
+    {
+      "slug": "barking-and-dagenham",
+      "name": "Barking and Dagenham",
+      "region": "East",
+      "stopsAttempted": 6,
+      "stopsWritten": 6
+    },
+    {
+      "slug": "barnet",
+      "name": "Barnet",
+      "region": "North",
+      "stopsAttempted": 6,
+      "stopsWritten": 5
+    },
+    {
+      "slug": "bexley",
+      "name": "Bexley",
+      "region": "South-East",
+      "stopsAttempted": 6,
+      "stopsWritten": 4
+    },
+    {
+      "slug": "brent",
+      "name": "Brent",
+      "region": "North-West",
+      "stopsAttempted": 6,
+      "stopsWritten": 6
+    },
+    {
+      "slug": "bromley",
+      "name": "Bromley",
+      "region": "South-East",
+      "stopsAttempted": 6,
+      "stopsWritten": 5
+    },
+    {
+      "slug": "croydon",
+      "name": "Croydon",
+      "region": "South",
+      "stopsAttempted": 6,
+      "stopsWritten": 5
+    },
+    {
+      "slug": "ealing",
+      "name": "Ealing",
+      "region": "West",
+      "stopsAttempted": 6,
+      "stopsWritten": 6
+    },
+    {
+      "slug": "enfield",
+      "name": "Enfield",
+      "region": "North",
+      "stopsAttempted": 6,
+      "stopsWritten": 5
+    },
+    {
+      "slug": "haringey",
+      "name": "Haringey",
+      "region": "North",
+      "stopsAttempted": 6,
+      "stopsWritten": 4
+    },
+    {
+      "slug": "harrow",
+      "name": "Harrow",
+      "region": "North-West",
+      "stopsAttempted": 6,
+      "stopsWritten": 6
+    },
+    {
+      "slug": "havering",
+      "name": "Havering",
+      "region": "East",
+      "stopsAttempted": 6,
+      "stopsWritten": 4
+    },
+    {
+      "slug": "hillingdon",
+      "name": "Hillingdon",
+      "region": "West",
+      "stopsAttempted": 6,
+      "stopsWritten": 5
+    },
+    {
+      "slug": "hounslow",
+      "name": "Hounslow",
+      "region": "West",
+      "stopsAttempted": 6,
+      "stopsWritten": 6
+    },
+    {
+      "slug": "kingston-upon-thames",
+      "name": "Kingston upon Thames",
+      "region": "South-West",
+      "stopsAttempted": 6,
+      "stopsWritten": 6
+    },
+    {
+      "slug": "merton",
+      "name": "Merton",
+      "region": "South-West",
+      "stopsAttempted": 6,
+      "stopsWritten": 5
+    },
+    {
+      "slug": "newham",
+      "name": "Newham",
+      "region": "East",
+      "stopsAttempted": 6,
+      "stopsWritten": 3
+    },
+    {
+      "slug": "redbridge",
+      "name": "Redbridge",
+      "region": "North-East",
+      "stopsAttempted": 6,
+      "stopsWritten": 6
+    },
+    {
+      "slug": "richmond-upon-thames",
+      "name": "Richmond upon Thames",
+      "region": "South-West",
+      "stopsAttempted": 6,
+      "stopsWritten": 6
+    },
+    {
+      "slug": "sutton",
+      "name": "Sutton",
+      "region": "South",
+      "stopsAttempted": 6,
+      "stopsWritten": 5
+    },
+    {
+      "slug": "waltham-forest",
+      "name": "Waltham Forest",
+      "region": "North-East",
+      "stopsAttempted": 6,
+      "stopsWritten": 3
+    }
+  ]
+}

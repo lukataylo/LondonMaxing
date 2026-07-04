@@ -1,0 +1,542 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Old Haunts — 6 flows · Map + Viewfinder + Memories</title>
+<style>
+  :root{
+    --bg:#0e0d12; --grid:#17161d;
+    --ink:#1a1622; --paper:#fbf7f1;
+    --accent:#c8452f; --muted:rgba(26,22,34,.58);
+    --night:#161320; --street:#2a2436;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%;background:var(--bg);color:#eee;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif;overflow:hidden}
+  #viewport{position:fixed;inset:0;overflow:hidden;cursor:grab;
+    background:radial-gradient(circle at 30% 15%, #191821, var(--bg) 60%),
+      repeating-linear-gradient(0deg, transparent 0 63px, var(--grid) 63px 64px),
+      repeating-linear-gradient(90deg, transparent 0 63px, var(--grid) 63px 64px);}
+  #viewport.grabbing{cursor:grabbing}
+  #world{position:absolute;top:0;left:0;transform-origin:0 0;display:flex;align-items:flex-start;gap:60px;padding:120px 160px;will-change:transform}
+
+  #hud{position:fixed;left:18px;top:14px;z-index:50;pointer-events:none}
+  #hud h1{margin:0;font-size:19px;letter-spacing:-.02em}
+  #hud p{margin:3px 0 0;font-size:12.5px;color:#9a95a8;max-width:520px;line-height:1.4}
+  #dock{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);z-index:50;display:flex;gap:5px;flex-wrap:wrap;justify-content:center;
+    background:#1b1a22;border:1px solid #2a2833;border-radius:16px;padding:6px;box-shadow:0 10px 30px rgba(0,0,0,.5);max-width:92vw}
+  #dock button{border:0;background:transparent;color:#cfc9db;font:inherit;font-size:12px;font-weight:600;padding:7px 11px;border-radius:999px;cursor:pointer}
+  #dock button:hover{background:#26242f}
+  #dock button.jump{color:#f4d9d1}
+  #dock .sep{width:1px;background:#2f2d3a;margin:4px 2px}
+  #zoom{position:fixed;right:18px;bottom:18px;z-index:50;display:flex;flex-direction:column;gap:6px}
+  #zoom button{width:38px;height:38px;border-radius:11px;border:1px solid #2a2833;background:#1b1a22;color:#cfc9db;font-size:19px;cursor:pointer}
+
+  .col{display:flex;flex-direction:column;align-items:flex-start;gap:24px;flex:0 0 auto}
+  .vhead{width:300px}
+  .vtag{display:inline-flex;gap:6px;align-items:center;font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#fff;background:var(--accent);padding:4px 10px;border-radius:999px}
+  .vhead h2{margin:11px 0 6px;font-size:23px;letter-spacing:-.02em;color:#fff}
+  .vhead .flow{font-size:12.5px;color:#a49fb2;line-height:1.5}
+  .vhead .flow b{color:#e7b9ac;font-weight:700}
+  .tabsdef{margin-top:11px;font-size:12px;color:#8f8aa0}
+  .tabsdef code{background:#211f2a;color:#e7d7d1;padding:2px 7px;border-radius:6px;font-size:11.5px}
+  .row{display:flex;gap:16px}
+  .scaption{font-size:11px;font-weight:700;letter-spacing:.02em;color:#8b8699;text-transform:uppercase;margin:0 0 8px 4px}
+
+  .phone{width:290px;height:600px;border-radius:40px;background:#050509;padding:8px;box-shadow:0 24px 56px rgba(0,0,0,.55),0 0 0 1px #2b2836;position:relative}
+  .screen{position:relative;width:100%;height:100%;border-radius:33px;overflow:hidden;background:var(--paper);color:var(--ink)}
+  .notch{position:absolute;top:7px;left:50%;transform:translateX(-50%);width:100px;height:21px;background:#050509;border-radius:0 0 15px 15px;z-index:30}
+  .stat{position:absolute;top:0;left:0;right:0;height:33px;z-index:20;display:flex;align-items:center;justify-content:space-between;padding:10px 19px 0;font-size:10.5px;font-weight:700}
+  .stat.on-dark{color:#fff}
+
+  .map{position:absolute;inset:0;background:radial-gradient(circle at 60% 35%, #211d2c, var(--night) 70%)}
+  .map::before{content:"";position:absolute;inset:-40%;background:
+    repeating-linear-gradient(35deg, transparent 0 34px, var(--street) 34px 38px),
+    repeating-linear-gradient(-52deg, transparent 0 46px, rgba(52,44,66,.7) 46px 49px),
+    repeating-linear-gradient(96deg, transparent 0 60px, rgba(52,44,66,.5) 60px 63px);opacity:.9}
+  .map.light{background:radial-gradient(circle at 60% 35%, #f4efe6, #e7e0d3)}
+  .map.light::before{background:
+    repeating-linear-gradient(35deg, transparent 0 34px, #d9d0c0 34px 38px),
+    repeating-linear-gradient(-52deg, transparent 0 46px, rgba(190,178,158,.6) 46px 49px);opacity:.8}
+  .you{position:absolute;width:15px;height:15px;border-radius:50%;background:#3b82f6;border:3px solid #fff;box-shadow:0 0 0 2px rgba(59,130,246,.5);z-index:8}
+  .acc{position:absolute;border-radius:50%;background:rgba(59,130,246,.14);border:1px solid rgba(59,130,246,.35);z-index:7}
+  .pin{position:absolute;z-index:9;transform:translate(-50%,-50%);display:flex;flex-direction:column;align-items:center;gap:3px}
+  .pin .dot{width:38px;height:38px;border-radius:50%;background:#fff;display:grid;place-items:center;font-size:18px;box-shadow:0 8px 18px rgba(0,0,0,.4);border:2px solid rgba(255,255,255,.7);position:relative}
+  .pin.active .dot{border-color:var(--accent);box-shadow:0 8px 22px rgba(200,69,47,.6)}
+  .pin.ghosted .dot{opacity:.5;border-style:dashed}
+  .pin .num{position:absolute;top:-4px;right:-4px;min-width:15px;height:15px;border-radius:8px;background:var(--ink);color:#fff;font-size:9px;font-weight:700;display:grid;place-items:center;padding:0 3px}
+  .pin .lab{font-size:9.5px;font-weight:700;color:#fff;background:rgba(0,0,0,.5);padding:2px 6px;border-radius:6px;white-space:nowrap}
+  .pin.active .lab{background:var(--accent)}
+
+  .topbar{position:absolute;top:42px;left:15px;right:15px;z-index:15;display:flex;align-items:center;justify-content:space-between}
+  .brand{display:flex;align-items:center;gap:7px;background:rgba(251,247,241,.94);padding:8px 12px;border-radius:999px;font-weight:800;font-size:13px;color:var(--ink);box-shadow:0 6px 16px rgba(0,0,0,.25)}
+  .iconbtn{width:36px;height:36px;border-radius:50%;background:rgba(251,247,241,.94);display:grid;place-items:center;box-shadow:0 6px 16px rgba(0,0,0,.25);font-size:14px}
+
+  .card{position:absolute;left:14px;right:14px;border-radius:20px;background:var(--paper);box-shadow:0 18px 40px rgba(0,0,0,.4);padding:14px 15px;z-index:16}
+  .card .hd{display:flex;align-items:center;gap:10px}
+  .card .av{width:40px;height:40px;border-radius:12px;background:rgba(200,69,47,.12);display:grid;place-items:center;font-size:19px;flex:0 0 auto}
+  .card .ti{flex:1;min-width:0}
+  .card .ti b{display:block;font-size:15px;letter-spacing:-.01em}
+  .card .ti span{font-size:11px;color:var(--muted)}
+  .card .x{width:24px;height:24px;border-radius:50%;background:rgba(26,22,34,.06);display:grid;place-items:center;color:var(--muted);font-size:13px;flex:0 0 auto}
+  .card .blurb{margin:10px 2px 0;font-size:12px;line-height:1.45;color:#3a3442}
+  .card .walk{margin:8px 2px 0;font-size:10.5px;color:var(--muted);display:flex;gap:5px;align-items:center}
+  .btns{display:flex;gap:8px;margin-top:12px}
+  .btn{flex:1;border:0;border-radius:12px;padding:11px;font:inherit;font-weight:800;font-size:12.5px;cursor:pointer;background:rgba(26,22,34,.07);color:var(--ink);text-align:center}
+  .btn.primary{background:var(--accent);color:#fff}
+  .btn.ghost{background:transparent;box-shadow:inset 0 0 0 1.6px rgba(26,22,34,.16)}
+  .btn.sm{flex:0 0 auto;padding:11px 13px}
+
+  .tabbar{position:absolute;left:50%;transform:translateX(-50%);bottom:18px;z-index:18;display:flex;gap:4px;background:#fff;border-radius:999px;padding:6px;box-shadow:0 12px 30px rgba(0,0,0,.45)}
+  .tabbar.dark{background:rgba(20,17,26,.92)}
+  .tab{min-width:64px;display:flex;flex-direction:column;align-items:center;gap:3px;border:0;background:transparent;border-radius:999px;padding:8px 12px;font:inherit;font-size:10px;font-weight:700;color:var(--muted);cursor:pointer}
+  .tab .ic{font-size:16px}
+  .tab.active{background:rgba(200,69,47,.12);color:var(--accent)}
+  .tabbar.dark .tab{color:rgba(255,255,255,.6)}
+  .tabbar.dark .tab.active{background:rgba(200,69,47,.28);color:#fff}
+
+  /* ghost guide bubble + route */
+  .gbubble{position:absolute;z-index:14;max-width:190px;background:#fff;border-radius:16px 16px 16px 5px;padding:11px 13px;font-size:12px;line-height:1.4;color:#2c2735;box-shadow:0 10px 26px rgba(0,0,0,.35)}
+  .gbubble .gh{display:flex;align-items:center;gap:7px;font-weight:800;font-size:11.5px;margin-bottom:5px;color:var(--accent)}
+  .route{position:absolute;z-index:6;height:0;border-top:3px dashed rgba(200,69,47,.7)}
+
+  /* talk */
+  .talk{position:absolute;inset:0;background:linear-gradient(180deg,#fbf7f1,#f3ede3);display:flex;flex-direction:column}
+  .talk.dark{background:linear-gradient(180deg,#1c1a24,#0c0b12)}
+  .talk .tnav{display:flex;align-items:center;justify-content:space-between;padding:42px 18px 0;font-size:11.5px;color:var(--muted)}
+  .talk.dark .tnav{color:#b3adc0}
+  .talk .who{margin-top:22px;text-align:center}
+  .talk .who .ring{width:96px;height:96px;border-radius:50%;margin:0 auto;display:grid;place-items:center;font-size:42px;background:radial-gradient(circle at 50% 40%,#fff,#f0e7db);box-shadow:0 12px 30px rgba(200,69,47,.22),inset 0 0 0 2px rgba(200,69,47,.25)}
+  .talk.dark .who .ring{background:radial-gradient(circle at 50% 40%,#3a3346,#1c1826);box-shadow:0 0 40px rgba(200,69,47,.5),inset 0 0 0 2px rgba(200,69,47,.5)}
+  .talk .who h3{margin:13px 0 2px;font-size:19px;letter-spacing:-.01em}
+  .talk.dark .who h3{color:#fff}
+  .talk .who .sub{font-size:11.5px;color:var(--muted)}
+  .talk.dark .who .sub{color:#a49fb2}
+  .talk .who .dist{display:inline-block;margin-top:8px;font-size:10.5px;font-weight:800;color:var(--accent);background:rgba(200,69,47,.1);padding:3px 10px;border-radius:999px}
+  .talk .bubble{margin:20px 22px 0;background:#fff;border-radius:18px 18px 18px 6px;padding:13px 15px;font-size:13.5px;line-height:1.5;color:#2c2735;box-shadow:0 8px 22px rgba(0,0,0,.08)}
+  .talk.dark .bubble{background:#211d2c;color:#e9e4f0}
+  .talk .cite{margin:8px 24px 0;font-size:9.5px;color:var(--muted)}
+  .talk .spacer{flex:1}
+  .talk .wave{display:flex;gap:3px;justify-content:center;align-items:flex-end;height:24px;margin-bottom:6px}
+  .talk .wave i{width:3px;background:var(--accent);border-radius:2px;opacity:.8}
+  .talk .ptt{margin:0 20px;display:flex;gap:10px;align-items:center;padding-bottom:22px}
+  .talk .hold{flex:1;background:var(--accent);color:#fff;border:0;border-radius:15px;padding:14px;font:inherit;font-weight:800;font-size:13.5px;box-shadow:0 10px 24px rgba(200,69,47,.4)}
+  .talk .end{width:50px;height:50px;border-radius:15px;border:0;background:rgba(26,22,34,.08);font-size:18px}
+  .talk.dark .end{background:rgba(255,255,255,.12);color:#fff}
+
+  /* radar */
+  .radar{position:absolute;inset:0;background:radial-gradient(circle at 50% 42%,#221d30,#141020)}
+  .radar .rings i{position:absolute;left:50%;top:225px;border-radius:50%;border:1px solid rgba(200,120,100,.28);transform:translate(-50%,-50%)}
+  .radar .sweep{position:absolute;left:50%;top:225px;width:130px;height:130px;transform:translate(-50%,-50%);background:conic-gradient(from 0deg,rgba(200,69,47,.35),transparent 70deg);border-radius:50%}
+  .radar .rc{position:absolute;left:50%;top:225px;width:14px;height:14px;transform:translate(-50%,-50%);border-radius:50%;background:#3b82f6;border:3px solid #fff}
+  .radar .blip{position:absolute;transform:translate(-50%,-50%);text-align:center}
+  .radar .blip .b{width:32px;height:32px;border-radius:50%;background:#fff;display:grid;place-items:center;font-size:15px;margin:0 auto;box-shadow:0 0 0 4px rgba(200,69,47,.18)}
+  .radar .blip .l{font-size:9px;color:#e9dfe0;margin-top:3px;font-weight:700}
+  .radar .blip .d{font-size:8.5px;color:#c99}
+  .radar .hdr{position:absolute;top:50px;left:0;right:0;text-align:center;color:#f3e9ea;font-weight:800;font-size:14px}
+  .radar .hdr span{display:block;font-size:10.5px;font-weight:600;color:#a08e9a;margin-top:2px}
+
+  /* camera */
+  .cam{position:absolute;inset:0;background:linear-gradient(160deg,#1c1a24,#0c0b12)}
+  .cam::after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(0deg,rgba(255,255,255,.02) 0 2px,transparent 2px 4px)}
+  .cam .obj{position:absolute;left:50%;top:47%;transform:translate(-50%,-50%);width:70px;height:150px;border-radius:14px 14px 8px 8px;background:linear-gradient(180deg,#3a3346,#211d2c);box-shadow:0 0 0 2px rgba(200,69,47,.9),0 0 40px rgba(200,69,47,.5)}
+  .cam .obj.pb{width:64px;border-radius:32px 32px 8px 8px;background:linear-gradient(180deg,#7a2b20,#4a170f);box-shadow:0 0 0 2px rgba(255,220,120,.8),0 0 40px rgba(200,69,47,.4)}
+  .cam .reticle{position:absolute;left:50%;top:47%;transform:translate(-50%,-50%);width:140px;height:210px}
+  .cam .reticle i{position:absolute;width:20px;height:20px;border:2px solid #fff}
+  .cam .tag{position:absolute;left:50%;top:24%;transform:translate(-50%,-50%);background:rgba(251,247,241,.95);color:var(--ink);font-size:10.5px;font-weight:800;padding:6px 11px;border-radius:999px;box-shadow:0 8px 20px rgba(0,0,0,.4)}
+  .cam .hint{position:absolute;bottom:150px;left:0;right:0;text-align:center;color:#fff;font-size:12px;opacity:.85}
+  .shutter{position:absolute;bottom:96px;left:50%;transform:translateX(-50%);width:64px;height:64px;border-radius:50%;background:#fff;border:5px solid rgba(255,255,255,.5);z-index:18;box-shadow:0 0 0 3px rgba(0,0,0,.2)}
+  .toggle{position:absolute;left:20px;right:20px;bottom:84px;display:flex;background:rgba(255,255,255,.14);border-radius:999px;padding:4px;z-index:18}
+  .toggle button{flex:1;border:0;background:transparent;color:#fff;font:inherit;font-weight:800;font-size:12px;padding:10px;border-radius:999px;cursor:pointer}
+  .toggle button.on{background:#fff;color:var(--ink)}
+
+  /* portal / rewind */
+  .portal{position:absolute;inset:0;background:linear-gradient(#241f18,#12100c)}
+  .portal .scene{position:absolute;inset:0;background:linear-gradient(180deg,rgba(180,150,90,.25),rgba(40,30,16,.6)),
+    repeating-linear-gradient(90deg,rgba(120,96,54,.35) 0 40px,rgba(80,60,32,.3) 40px 80px);filter:sepia(.5) contrast(1.05)}
+  .portal .grain{position:absolute;inset:0;background:repeating-linear-gradient(0deg,rgba(0,0,0,.05) 0 2px,transparent 2px 4px);opacity:.5}
+  .portal .obj2{position:absolute;left:50%;top:44%;transform:translate(-50%,-50%);width:60px;height:130px;border-radius:30px 30px 6px 6px;background:linear-gradient(180deg,#8a4a20,#5a2a10);filter:sepia(.4);box-shadow:0 0 30px rgba(255,200,120,.4)}
+  .portal .cap{position:absolute;top:52px;left:20px;color:#f4e6c9}
+  .portal .cap b{font-size:16px}
+  .portal .cap span{display:block;font-size:10.5px;color:#c9b998;margin-top:2px}
+  .portal .must{position:absolute;bottom:150px;left:20px;right:20px;text-align:center;color:#f4e6c9;font-size:12px;background:rgba(0,0,0,.35);padding:8px;border-radius:10px}
+  .dial{position:absolute;left:0;right:0;bottom:92px;display:flex;gap:7px;justify-content:center;z-index:18}
+  .dial button{border:0;background:rgba(0,0,0,.4);color:#f4e6c9;font:inherit;font-weight:800;font-size:11px;padding:8px 11px;border-radius:999px}
+  .dial button.on{background:#f4e6c9;color:#2a1f10}
+  .portal .talkbtn{position:absolute;left:20px;right:20px;bottom:28px;border:0;background:var(--accent);color:#fff;font:inherit;font-weight:800;padding:13px;border-radius:14px}
+
+  /* memories */
+  .mem{position:absolute;inset:0;background:linear-gradient(#fbf7f1,#f1eadf);display:flex;flex-direction:column}
+  .mem .mh{display:flex;align-items:center;justify-content:space-between;padding:44px 20px 0}
+  .mem .mh b{font-size:19px}
+  .mem .mh .cnt{font-size:11px;color:var(--muted);font-weight:700}
+  .mem .msub{padding:4px 20px 0;font-size:11.5px;color:var(--muted)}
+  .memgrid{padding:14px 16px;display:grid;grid-template-columns:1fr 1fr;gap:11px;overflow:auto}
+  .memcard{background:#fff;border-radius:15px;overflow:hidden;box-shadow:0 6px 16px rgba(0,0,0,.07)}
+  .thumb{height:74px;background:linear-gradient(135deg,#c9b48a,#8a6a3a);position:relative;display:grid;place-items:center;font-size:26px;filter:sepia(.3)}
+  .thumb .era{position:absolute;top:6px;left:6px;font-size:8.5px;font-weight:800;background:rgba(0,0,0,.5);color:#f4e6c9;padding:2px 6px;border-radius:6px}
+  .thumb .play{position:absolute;right:6px;bottom:6px;width:22px;height:22px;border-radius:50%;background:rgba(255,255,255,.92);display:grid;place-items:center;font-size:10px;color:var(--accent)}
+  .memcard .mi{padding:8px 10px}
+  .memcard .mi b{font-size:11.5px;display:block}
+  .memcard .mi span{font-size:9.5px;color:var(--muted)}
+  .mem .replay{margin:6px 18px 22px;border:0;background:var(--ink);color:#fff;font:inherit;font-weight:800;padding:14px;border-radius:14px}
+
+  /* field notes journal */
+  .collected{position:absolute;top:42px;left:50%;transform:translateX(-50%);z-index:15;background:rgba(251,247,241,.94);padding:7px 14px;border-radius:999px;font-weight:800;font-size:12px;color:var(--ink);box-shadow:0 6px 16px rgba(0,0,0,.25)}
+
+  /* split home */
+  .segwrap{position:absolute;top:44px;left:15px;right:15px;z-index:16;display:flex;background:rgba(255,255,255,.9);border-radius:999px;padding:4px;box-shadow:0 6px 16px rgba(0,0,0,.2)}
+  .segwrap button{flex:1;border:0;background:transparent;font:inherit;font-weight:800;font-size:12.5px;color:var(--muted);padding:9px;border-radius:999px}
+  .segwrap button.on{background:var(--accent);color:#fff}
+
+  .sticky{width:250px;background:#fff4cf;color:#5a4a1a;border-radius:6px;padding:13px 15px;font-size:12px;line-height:1.5;box-shadow:0 12px 30px rgba(0,0,0,.35);transform:rotate(-2deg)}
+  .sticky.blue{background:#d9f0ff;color:#123a52;transform:rotate(2deg)}
+  .sticky.pend{background:#e9e2f5;color:#3a2a55}
+  .sticky b{color:inherit;font-weight:800}
+  .annob{display:flex;flex-direction:column;gap:22px;padding-top:60px}
+</style>
+</head>
+<body>
+<div id="hud">
+  <h1>👻 Old Haunts — 6 flows · Map + Viewfinder, replayable Memories</h1>
+  <p>Drag to pan · scroll to zoom · dock to jump. No grudges tab — the third tab is <b>Memories</b> (replay the moments you made). Grounded in the real Dalston Junction cast.</p>
+</div>
+
+<div id="viewport"><div id="world">
+
+  <!-- ═══ 1 · GHOST GUIDE ═══ -->
+  <div class="col" id="v1">
+    <div class="vhead"><span class="vtag">1 · Map-led</span>
+      <h2>Ghost Guide</h2>
+      <div class="flow">Open the map, <b>summon a ghost tour-guide</b>. They read where you are and <b>generate a route on the fly</b>, then lead you stop to stop, narrating between haunts.</div>
+      <div class="tabsdef">Tabs: <code>Map</code> <code>Camera</code> <code>Memories</code></div>
+    </div>
+    <div class="row">
+      <div><p class="scaption">1 · Summon on the map</p>
+        <div class="phone"><div class="screen">
+          <div class="notch"></div><div class="stat on-dark"><span>20:14</span><span>◉ ▮▮▮</span></div>
+          <div class="map">
+            <div class="acc" style="width:110px;height:110px;left:100px;top:360px;transform:translate(-50%,-50%)"></div>
+            <div class="you" style="left:100px;top:360px;transform:translate(-50%,-50%)"></div>
+            <div class="route" style="left:100px;top:360px;width:120px;transform:rotate(-38deg)"></div>
+            <div class="route" style="left:180px;top:280px;width:110px;transform:rotate(-8deg)"></div>
+            <div class="pin active" style="left:170px;top:210px"><div class="dot">🎞️<span class="num">1</span></div><div class="lab">Rio Cinema</div></div>
+            <div class="pin ghosted" style="left:230px;top:250px"><div class="dot">🏛️<span class="num">2</span></div></div>
+            <div class="pin ghosted" style="left:210px;top:330px"><div class="dot">✂️<span class="num">3</span></div></div>
+            <div class="gbubble" style="left:26px;bottom:150px"><div class="gh">🕯️ Edith · your guide</div>“Four haunts within ten minutes, love. Follow me — the Rio first, she does love an audience.”</div>
+          </div>
+          <div class="topbar"><div class="brand">👻 Old Haunts</div><div class="iconbtn">🕯️</div></div>
+          <div class="tabbar"><button class="tab active"><span class="ic">🗺️</span>Map</button><button class="tab"><span class="ic">📷</span>Camera</button><button class="tab"><span class="ic">🎞️</span>Memories</button></div>
+        </div></div>
+      </div>
+      <div><p class="scaption">2 · Guide leads you</p>
+        <div class="phone"><div class="screen"><div class="talk">
+          <div class="notch"></div><div class="tnav"><span>‹ map</span><span>Stop 1 of 4 · 2 min walk</span></div>
+          <div class="who"><div class="ring">🕯️</div><h3>Edith leads on</h3><div class="sub">Your ghost guide · 1970s squatter</div></div>
+          <div class="bubble">“Cross by the fried-chicken shop and mind the bins. Clara’s cinema is just there — ask her about her <i>name</i>. Go on.”</div>
+          <div class="cite">route generated live from your position</div>
+          <div class="spacer"></div>
+          <div class="wave"><i style="height:8px"></i><i style="height:18px"></i><i style="height:26px"></i><i style="height:13px"></i><i style="height:22px"></i><i style="height:9px"></i></div>
+          <div class="ptt"><button class="hold">🎙️ Ask Edith</button><button class="end">▸</button></div>
+        </div></div></div>
+      </div>
+      <div><p class="scaption">3 · Memories</p>
+        <div class="phone"><div class="screen"><div class="mem">
+          <div class="notch"></div><div class="mh"><b>Memories</b><span class="cnt">4 saved</span></div>
+          <div class="msub">Tap any to replay the voice &amp; the moment</div>
+          <div class="memgrid">
+            <div class="memcard"><div class="thumb">🎞️<span class="era">1909</span><span class="play">▶</span></div><div class="mi"><b>Clara Ludski</b><span>Rio Cinema</span></div></div>
+            <div class="memcard"><div class="thumb" style="background:linear-gradient(135deg,#8a7a9a,#4a3a5a)">🏛️<span class="era">1966</span><span class="play">▶</span></div><div class="mi"><b>Newton Dunbar</b><span>Four Aces</span></div></div>
+            <div class="memcard"><div class="thumb" style="background:linear-gradient(135deg,#9a8a6a,#5a4a2a)">✂️<span class="era">1947</span><span class="play">▶</span></div><div class="mi"><b>The 43 Group</b><span>Ridley Road</span></div></div>
+            <div class="memcard"><div class="thumb" style="background:linear-gradient(135deg,#6a7a8a,#3a4a5a)">🕯️<span class="era">1974</span><span class="play">▶</span></div><div class="mi"><b>Edith</b><span>your guide</span></div></div>
+          </div>
+          <button class="replay">Replay the whole walk</button>
+        </div></div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ 2 · SNAP & REWIND ═══ -->
+  <div class="col" id="v2">
+    <div class="vhead"><span class="vtag">2 · Camera-led</span>
+      <h2>Snap &amp; Rewind</h2>
+      <div class="flow">Open the camera, <b>photograph an object</b>. It rewinds to its own era in front of you — and the object <b>starts talking. You have to answer it</b> to learn its story.</div>
+      <div class="tabsdef">Tabs: <code>Camera</code> <code>Map</code> <code>Memories</code></div>
+    </div>
+    <div class="row">
+      <div><p class="scaption">1 · Snap the object</p>
+        <div class="phone"><div class="screen">
+          <div class="notch"></div><div class="stat on-dark"><span>20:14</span><span>◉ ▮▮▮</span></div>
+          <div class="cam">
+            <div class="tag">📮 Victorian postbox · aim &amp; snap</div>
+            <div class="obj pb"></div>
+            <div class="reticle"><i style="top:0;left:0;border-right:0;border-bottom:0"></i><i style="top:0;right:0;border-left:0;border-bottom:0"></i><i style="bottom:0;left:0;border-right:0;border-top:0"></i><i style="bottom:0;right:0;border-left:0;border-top:0"></i></div>
+            <div class="hint">Take a photo to rewind it in time</div>
+          </div>
+          <div class="shutter"></div>
+          <div class="tabbar dark"><button class="tab active"><span class="ic">📷</span>Camera</button><button class="tab"><span class="ic">🗺️</span>Map</button><button class="tab"><span class="ic">🎞️</span>Memories</button></div>
+        </div></div>
+      </div>
+      <div><p class="scaption">2 · Rewind → it talks</p>
+        <div class="phone"><div class="screen"><div class="portal">
+          <div class="notch"></div><div class="scene"></div><div class="grain"></div>
+          <div class="cap"><b>Kingsland High St, 1857</b><span>the year this box was cast</span></div>
+          <div class="obj2"></div>
+          <div class="must">📮 “Post for the Queen’s reign — and you photograph me like a tourist? <i>Speak</i>, then.”</div>
+          <button class="talkbtn">🎙️ Hold to answer the postbox</button>
+        </div></div></div>
+      </div>
+      <div><p class="scaption">3 · Memories</p>
+        <div class="phone"><div class="screen"><div class="mem">
+          <div class="notch"></div><div class="mh"><b>Memories</b><span class="cnt">3 captured</span></div>
+          <div class="msub">Your photos, rewound — replay the conversation</div>
+          <div class="memgrid">
+            <div class="memcard"><div class="thumb" style="background:linear-gradient(135deg,#b06a4a,#6a2a12)">📮<span class="era">1857</span><span class="play">▶</span></div><div class="mi"><b>The Postbox</b><span>Kingsland High St</span></div></div>
+            <div class="memcard"><div class="thumb">🚧<span class="era">1904</span><span class="play">▶</span></div><div class="mi"><b>The Bollard</b><span>Dalston Lane</span></div></div>
+            <div class="memcard"><div class="thumb" style="background:linear-gradient(135deg,#9a8a6a,#5a4a2a)">🏛️<span class="era">1886</span><span class="play">▶</span></div><div class="mi"><b>Four Aces</b><span>Colosseum</span></div></div>
+          </div>
+          <button class="replay">Make a postcard reel</button>
+        </div></div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="annob">
+    <div class="sticky"><b>Your two anchors.</b> Flow 1 = map → dynamic tour with a ghost guide. Flow 2 = camera → photo → rewind → must talk. The other four remix these.</div>
+    <div class="sticky blue"><b>Memories = the shareable asset.</b> Every conversation + rewound photo is auto-saved as a replayable card. This is what people post after — the app’s viral loop.</div>
+    <div class="sticky pend"><b>Steal from the field</b> (Talking Statues, Streetmuseum, Timelooper):<br>① <b>It calls YOU.</b> The statue phoning you beats hunting for content — surprise &gt; search. Add “an old haunt is calling…” when you’re near.<br>② <b>Spatial lock = motivation</b> — unlock only on-site (QR fallback for bad GPS).<br>③ <b>Tease the reveal</b> — it wakes, clears its throat, then speaks. The transition sells the magic.<br>④ <b>Replay = the social loop</b> — Memories is the “did you know X was here?” share.</div>
+    <div class="sticky blue"><b>What wins the room (judging):</b><br>• <b>One polished moment &gt; five half-built ones.</b> Pick a hero flow, nail it.<br>• <b>Wow in the first 30s</b> — originality/wow is scored heaviest for creative builds.<br>• <b>Peak-end rule</b> — design the opening beat AND the ending. Memories replay IS the ending.<br>• De-risk the demo: pre-cache one rewound photo + one voice line in case mic/quota fail live.</div>
+  </div>
+
+  <!-- ═══ 3 · HAUNT RADAR ═══ -->
+  <div class="col" id="v3">
+    <div class="vhead"><span class="vtag">3 · Map-led</span>
+      <h2>Haunt Radar</h2>
+      <div class="flow">No fixed route. A <b>radar of who’s awake</b> near you by distance + bearing. Free-roam: walk to any blip and talk. Best for a crowded room with rough GPS.</div>
+      <div class="tabsdef">Tabs: <code>Radar</code> <code>Camera</code> <code>Memories</code></div>
+    </div>
+    <div class="row">
+      <div><p class="scaption">1 · Radar (home)</p>
+        <div class="phone"><div class="screen">
+          <div class="notch"></div><div class="stat on-dark"><span>20:14</span><span>◉ ▮▮▮</span></div>
+          <div class="radar">
+            <div class="hdr">Who’s awake near you<span>3 haunts within 250m</span></div>
+            <div class="rings"><i style="width:80px;height:80px"></i><i style="width:150px;height:150px"></i><i style="width:220px;height:220px"></i></div>
+            <div class="sweep"></div><div class="rc"></div>
+            <div class="blip" style="left:175px;top:180px"><div class="b">🏛️</div><div class="l">Newton Dunbar</div><div class="d">↗ 80m</div></div>
+            <div class="blip" style="left:100px;top:150px"><div class="b">🎞️</div><div class="l">Clara Ludski</div><div class="d">↑ 210m</div></div>
+            <div class="blip" style="left:205px;top:285px"><div class="b">✂️</div><div class="l">43 Group</div><div class="d">→ 240m</div></div>
+          </div>
+          <div class="card" style="bottom:92px"><div class="hd"><div class="av">🏛️</div><div class="ti"><b>Newton Dunbar</b><span>Four Aces Club · 80m ↗</span></div></div>
+            <p class="blurb">Ran Dalston’s legendary Four Aces for 30 years. They bulldozed it for the flats you’re standing on.</p>
+            <div class="btns"><button class="btn primary">Wake &amp; talk</button><button class="btn ghost sm">Map</button></div></div>
+          <div class="tabbar dark"><button class="tab active"><span class="ic">📡</span>Radar</button><button class="tab"><span class="ic">📷</span>Camera</button><button class="tab"><span class="ic">🎞️</span>Memories</button></div>
+        </div></div>
+      </div>
+      <div><p class="scaption">2 · Talk</p>
+        <div class="phone"><div class="screen"><div class="talk">
+          <div class="notch"></div><div class="tnav"><span>‹ radar</span><span>Four Aces Club</span></div>
+          <div class="who"><div class="ring">🏛️</div><h3>Newton Dunbar</h3><div class="sub">Four Aces / Labyrinth · 1966–2007</div><div class="dist">📍 80m · you’re on the site</div></div>
+          <div class="bubble">“They knocked down my club, built a tower on it, and called it <i>Dunbar Tower</i>. Nobody asked me.”</div>
+          <div class="cite">source: Hackney Citizen / VICE, 2014</div>
+          <div class="spacer"></div>
+          <div class="wave"><i style="height:8px"></i><i style="height:20px"></i><i style="height:26px"></i><i style="height:12px"></i><i style="height:24px"></i><i style="height:9px"></i></div>
+          <div class="ptt"><button class="hold">🎙️ Hold to talk</button><button class="end">✕</button></div>
+        </div></div></div>
+      </div>
+      <div><p class="scaption">3 · Memories</p>
+        <div class="phone"><div class="screen"><div class="mem">
+          <div class="notch"></div><div class="mh"><b>Memories</b><span class="cnt">2 met</span></div>
+          <div class="msub">Everyone you woke tonight</div>
+          <div class="memgrid">
+            <div class="memcard"><div class="thumb" style="background:linear-gradient(135deg,#8a7a9a,#4a3a5a)">🏛️<span class="era">1966</span><span class="play">▶</span></div><div class="mi"><b>Newton Dunbar</b><span>Four Aces</span></div></div>
+            <div class="memcard"><div class="thumb" style="background:linear-gradient(135deg,#9a8a6a,#5a4a2a)">✂️<span class="era">1947</span><span class="play">▶</span></div><div class="mi"><b>The 43 Group</b><span>Ridley Road</span></div></div>
+          </div>
+          <button class="replay">Replay your walk</button>
+        </div></div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ 4 · TIME LENS ═══ -->
+  <div class="col" id="v4">
+    <div class="vhead"><span class="vtag">4 · Camera-led</span>
+      <h2>Time Lens</h2>
+      <div class="flow">Camera with a <b>live era dial</b>. Slide from Now → 1974 → 1886 and the street <b>re-renders around you in real time</b>; whoever belonged to that era steps forward to talk. Continuous, no shutter.</div>
+      <div class="tabsdef">Tabs: <code>Lens</code> <code>Map</code> <code>Memories</code></div>
+    </div>
+    <div class="row">
+      <div><p class="scaption">1 · Lens + era dial</p>
+        <div class="phone"><div class="screen">
+          <div class="notch"></div><div class="stat on-dark"><span>20:14</span><span>◉ ▮▮▮</span></div>
+          <div class="cam"><div class="tag">🎚️ slide the years — the street follows</div>
+            <div class="obj"></div>
+            <div class="hint">1974 · the Four Aces is playing tonight</div>
+          </div>
+          <div class="dial" style="bottom:150px"><button>Now</button><button class="on">1974</button><button>1943</button><button>1886</button></div>
+          <div class="tabbar dark"><button class="tab active"><span class="ic">🔭</span>Lens</button><button class="tab"><span class="ic">🗺️</span>Map</button><button class="tab"><span class="ic">🎞️</span>Memories</button></div>
+        </div></div>
+      </div>
+      <div><p class="scaption">2 · Era steps forward</p>
+        <div class="phone"><div class="screen"><div class="talk dark">
+          <div class="notch"></div><div class="tnav"><span>‹ lens · 1974</span><span>Four Aces</span></div>
+          <div class="who"><div class="ring">🏛️</div><h3>Newton Dunbar</h3><div class="sub">seen through the 1974 lens</div></div>
+          <div class="bubble">“You dialled back to ’74? Good. The sound system’s warm and Coxsone’s on later. Stay — but mind who you become by 2007.”</div>
+          <div class="cite">rendered era · Gemini image-to-image</div>
+          <div class="spacer"></div>
+          <div class="wave"><i style="height:8px"></i><i style="height:18px"></i><i style="height:26px"></i><i style="height:14px"></i><i style="height:22px"></i><i style="height:10px"></i></div>
+          <div class="ptt"><button class="hold">🎙️ Hold to talk</button><button class="end">✕</button></div>
+        </div></div></div>
+      </div>
+      <div><p class="scaption">3 · Memories</p>
+        <div class="phone"><div class="screen"><div class="mem">
+          <div class="notch"></div><div class="mh"><b>Memories</b><span class="cnt">5 eras</span></div>
+          <div class="msub">Same corner, every decade you dialled</div>
+          <div class="memgrid">
+            <div class="memcard"><div class="thumb" style="background:linear-gradient(135deg,#8a7a9a,#4a3a5a)">🏛️<span class="era">1974</span><span class="play">▶</span></div><div class="mi"><b>Four Aces</b><span>Dalston Lane</span></div></div>
+            <div class="memcard"><div class="thumb" style="background:linear-gradient(135deg,#b06a4a,#6a2a12)">🎪<span class="era">1886</span><span class="play">▶</span></div><div class="mi"><b>The Colosseum</b><span>same spot</span></div></div>
+            <div class="memcard"><div class="thumb">🎞️<span class="era">1909</span><span class="play">▶</span></div><div class="mi"><b>Clara Ludski</b><span>Rio Cinema</span></div></div>
+            <div class="memcard"><div class="thumb" style="background:linear-gradient(135deg,#6a7a8a,#3a4a5a)">🏥<span class="era">1943</span><span class="play">▶</span></div><div class="mi"><b>German Hospital</b><span>Fassett Sq</span></div></div>
+          </div>
+          <button class="replay">Make a time-lapse</button>
+        </div></div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ 5 · FIELD NOTES ═══ -->
+  <div class="col" id="v5">
+    <div class="vhead"><span class="vtag">5 · Collector</span>
+      <h2>Field Notes</h2>
+      <div class="flow">A walk you <b>collect</b>. Map shows haunts as specimens; snap each to add it to your <b>field journal</b>. Memories is the filled-in notebook — gotta catch all six.</div>
+      <div class="tabsdef">Tabs: <code>Map</code> <code>Camera</code> <code>Memories</code></div>
+    </div>
+    <div class="row">
+      <div><p class="scaption">1 · Map of specimens</p>
+        <div class="phone"><div class="screen">
+          <div class="notch"></div><div class="stat"><span>20:14</span><span>◉ ▮▮▮</span></div>
+          <div class="map light">
+            <div class="you" style="left:110px;top:340px;transform:translate(-50%,-50%)"></div>
+            <div class="pin active" style="left:160px;top:200px"><div class="dot">🎞️</div><div class="lab">uncollected</div></div>
+            <div class="pin" style="left:220px;top:250px"><div class="dot" style="opacity:.55">🏛️</div></div>
+            <div class="pin" style="left:80px;top:230px"><div class="dot" style="border-color:#2f8f5b">✓</div></div>
+          </div>
+          <div class="collected">🗂️ 3 / 12 collected</div>
+          <div class="topbar" style="top:78px"><div class="brand">👻 Old Haunts</div><div class="iconbtn">📷</div></div>
+          <div class="card" style="bottom:92px"><div class="hd"><div class="av">🎞️</div><div class="ti"><b>Clara Ludski</b><span>Rio Cinema · not yet collected</span></div></div>
+            <div class="btns"><button class="btn primary">📷 Snap to collect</button><button class="btn ghost sm">Talk</button></div></div>
+          <div class="tabbar"><button class="tab active"><span class="ic">🗺️</span>Map</button><button class="tab"><span class="ic">📷</span>Camera</button><button class="tab"><span class="ic">🗂️</span>Memories</button></div>
+        </div></div>
+      </div>
+      <div><p class="scaption">2 · Collected + talk</p>
+        <div class="phone"><div class="screen"><div class="talk">
+          <div class="notch"></div><div class="tnav"><span>‹ map</span><span>Specimen #4 collected ✓</span></div>
+          <div class="who"><div class="ring">🎞️</div><h3>Clara Ludski</h3><div class="sub">added to your field notes</div><div class="dist">🗂️ 4 / 12 · Rio Cinema, 1909</div></div>
+          <div class="bubble">“Pinned me in your little book, have you? Fine. Then note this down properly: I built this place, and they took my name off it.”</div>
+          <div class="cite">source: Rio Cinema, Dalston — listed 1999</div>
+          <div class="spacer"></div>
+          <div class="wave"><i style="height:8px"></i><i style="height:18px"></i><i style="height:26px"></i><i style="height:13px"></i><i style="height:22px"></i><i style="height:9px"></i></div>
+          <div class="ptt"><button class="hold">🎙️ Hold to talk</button><button class="end">✓</button></div>
+        </div></div></div>
+      </div>
+      <div><p class="scaption">3 · Memories (journal)</p>
+        <div class="phone"><div class="screen"><div class="mem">
+          <div class="notch"></div><div class="mh"><b>Field Notes</b><span class="cnt">4 / 12</span></div>
+          <div class="msub">Your Dalston specimen book</div>
+          <div class="memgrid">
+            <div class="memcard"><div class="thumb">🎞️<span class="era">1909</span><span class="play">▶</span></div><div class="mi"><b>Clara Ludski</b><span>#4 · Rio</span></div></div>
+            <div class="memcard"><div class="thumb" style="background:linear-gradient(135deg,#8a7a9a,#4a3a5a)">🏛️<span class="era">1966</span><span class="play">▶</span></div><div class="mi"><b>N. Dunbar</b><span>#3 · Four Aces</span></div></div>
+            <div class="memcard"><div class="thumb" style="background:linear-gradient(135deg,#9a8a6a,#5a4a2a)">✂️<span class="era">1947</span><span class="play">▶</span></div><div class="mi"><b>43 Group</b><span>#2 · Ridley Rd</span></div></div>
+            <div class="memcard" style="opacity:.45"><div class="thumb" style="background:#cfc7b8">❓</div><div class="mi"><b>???</b><span>#5 · undiscovered</span></div></div>
+          </div>
+          <button class="replay">Share your collection</button>
+        </div></div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ 6 · ONE HOME ═══ -->
+  <div class="col" id="v6">
+    <div class="vhead"><span class="vtag">6 · Minimal</span>
+      <h2>One Home</h2>
+      <div class="flow">The clean pick. <b>One screen, a Map ⟷ Lens toggle</b>. No tour, no collecting — just switch how you look and talk to whatever’s there. Only <b>two tabs</b>: Explore + Memories.</div>
+      <div class="tabsdef">Tabs: <code>Explore</code> <code>Memories</code></div>
+    </div>
+    <div class="row">
+      <div><p class="scaption">1 · Explore — map</p>
+        <div class="phone"><div class="screen">
+          <div class="notch"></div><div class="stat on-dark"><span>20:14</span><span>◉ ▮▮▮</span></div>
+          <div class="map">
+            <div class="you" style="left:110px;top:350px;transform:translate(-50%,-50%)"></div>
+            <div class="pin active" style="left:170px;top:210px"><div class="dot">🏛️</div><div class="lab">Newton Dunbar</div></div>
+            <div class="pin" style="left:90px;top:250px"><div class="dot">🎞️</div></div>
+          </div>
+          <div class="segwrap"><button class="on">🗺️ Map</button><button>🔭 Lens</button></div>
+          <div class="card" style="bottom:88px"><div class="hd"><div class="av">🏛️</div><div class="ti"><b>Newton Dunbar</b><span>Four Aces · 80m</span></div><div class="x">✕</div></div>
+            <div class="btns"><button class="btn primary">Talk</button><button class="btn ghost sm">🔭 See past</button></div></div>
+          <div class="tabbar"><button class="tab active"><span class="ic">🧭</span>Explore</button><button class="tab"><span class="ic">🎞️</span>Memories</button></div>
+        </div></div>
+      </div>
+      <div><p class="scaption">2 · Explore — lens</p>
+        <div class="phone"><div class="screen">
+          <div class="notch"></div><div class="stat on-dark"><span>20:14</span><span>◉ ▮▮▮</span></div>
+          <div class="cam"><div class="tag">🏛️ Four Aces · tap to wake</div><div class="obj"></div>
+            <div class="hint">Same place, seen through the lens</div></div>
+          <div class="segwrap" style="background:rgba(255,255,255,.16)"><button>🗺️ Map</button><button class="on">🔭 Lens</button></div>
+          <div class="tabbar dark"><button class="tab active"><span class="ic">🧭</span>Explore</button><button class="tab"><span class="ic">🎞️</span>Memories</button></div>
+        </div></div>
+      </div>
+      <div><p class="scaption">3 · Memories</p>
+        <div class="phone"><div class="screen"><div class="mem">
+          <div class="notch"></div><div class="mh"><b>Memories</b><span class="cnt">3 saved</span></div>
+          <div class="msub">Tap to replay · swipe to share</div>
+          <div class="memgrid">
+            <div class="memcard"><div class="thumb" style="background:linear-gradient(135deg,#8a7a9a,#4a3a5a)">🏛️<span class="era">1966</span><span class="play">▶</span></div><div class="mi"><b>Newton Dunbar</b><span>Four Aces</span></div></div>
+            <div class="memcard"><div class="thumb">🎞️<span class="era">1909</span><span class="play">▶</span></div><div class="mi"><b>Clara Ludski</b><span>Rio Cinema</span></div></div>
+            <div class="memcard"><div class="thumb" style="background:linear-gradient(135deg,#b06a4a,#6a2a12)">📮<span class="era">1857</span><span class="play">▶</span></div><div class="mi"><b>The Postbox</b><span>Kingsland</span></div></div>
+          </div>
+          <button class="replay">Replay your walk</button>
+        </div></div></div>
+      </div>
+    </div>
+  </div>
+
+</div></div>
+
+<div id="dock">
+  <button class="jump" data-t="v1">1 · Guide</button>
+  <button class="jump" data-t="v2">2 · Rewind</button>
+  <button class="jump" data-t="v3">3 · Radar</button>
+  <button class="jump" data-t="v4">4 · Lens</button>
+  <button class="jump" data-t="v5">5 · Field Notes</button>
+  <button class="jump" data-t="v6">6 · One Home</button>
+  <div class="sep"></div>
+  <button id="fit">Fit all</button>
+</div>
+<div id="zoom"><button id="zin">+</button><button id="zout">−</button></div>
+
+<script>
+(function(){
+  const vp=document.getElementById('viewport'), world=document.getElementById('world');
+  let scale=.6, tx=40, ty=20;
+  const apply=()=>world.style.transform=`translate(${tx}px,${ty}px) scale(${scale})`; apply();
+  let dragging=false,sx=0,sy=0,ox=0,oy=0;
+  vp.addEventListener('pointerdown',e=>{dragging=true;sx=e.clientX;sy=e.clientY;ox=tx;oy=ty;vp.classList.add('grabbing');vp.setPointerCapture(e.pointerId)});
+  vp.addEventListener('pointermove',e=>{if(!dragging)return;tx=ox+(e.clientX-sx);ty=oy+(e.clientY-sy);apply()});
+  vp.addEventListener('pointerup',()=>{dragging=false;vp.classList.remove('grabbing')});
+  vp.addEventListener('wheel',e=>{e.preventDefault();const r=vp.getBoundingClientRect(),mx=e.clientX-r.left,my=e.clientY-r.top;
+    const wx=(mx-tx)/scale,wy=(my-ty)/scale;const ns=Math.min(2.2,Math.max(.2,scale*Math.exp(-e.deltaY*.0014)));
+    scale=ns;tx=mx-wx*scale;ty=my-wy*scale;apply()},{passive:false});
+  function focus(el,pad=90){const r=el.getBoundingClientRect(),wr=world.getBoundingClientRect();
+    const ex=(r.left-wr.left)/scale,ey=(r.top-wr.top)/scale,ew=r.width/scale,eh=r.height/scale,vw=vp.clientWidth,vh=vp.clientHeight;
+    const ns=Math.min(1.05,Math.min((vw-pad*2)/ew,(vh-pad*2)/eh));scale=ns;tx=(vw-ew*ns)/2-ex*ns;ty=(vh-eh*ns)/2-ey*ns;apply()}
+  document.querySelectorAll('.jump').forEach(b=>b.addEventListener('click',()=>focus(document.getElementById(b.dataset.t))));
+  document.getElementById('fit').addEventListener('click',()=>{scale=Math.min(.5,(vp.clientWidth-80)/world.scrollWidth);tx=40;ty=30;apply()});
+  document.getElementById('zin').addEventListener('click',()=>{scale=Math.min(2.2,scale*1.2);apply()});
+  document.getElementById('zout').addEventListener('click',()=>{scale=Math.max(.2,scale/1.2);apply()});
+  setTimeout(()=>{scale=Math.min(.6,(vp.clientWidth-80)/world.scrollWidth);tx=40;ty=20;apply()},60);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,514 @@
+{
+  "area": {
+    "slug": "camden",
+    "name": "Camden",
+    "region": "Central/North"
+  },
+  "stopsAttempted": 6,
+  "stops": [
+    {
+      "id": "camden-virginia-woolf-s-fitzroy-square",
+      "order": 1,
+      "name": "Virginia Woolf's Fitzroy Square",
+      "address": "29 Fitzroy Square, WC1T 5LP, London",
+      "lat": 51.5204,
+      "lng": -0.1374,
+      "approxCoordinates": true,
+      "objectClass": "blue-plaque-person",
+      "whyItWorks": "English Heritage blue plaque (1974) at her 1907-1911 residence; pioneering modernist novelist and Bloomsbury figure with immediate walkability to literary London",
+      "character": {
+        "id": "virginia-woolf",
+        "name": "Virginia Woolf",
+        "type": "person",
+        "era": "1900s\u20131910s (Edwardian/Early Modernist)",
+        "temperament": "Prickly, neurotic, intellectually grandiose, prone to self-doubt, easily affronted by vulgarity and noise",
+        "coreGrievance": "Stuck in a narrow, rented second floor in a deteriorating neighbourhood, writing the future of English literature in near-poverty while my brother Adrian eats breakfast silently beside me and vans grind beneath my window. My revolutionary manuscript is constantly censored. Nobody yet knows I am a genius.",
+        "statusMismatch": "I am forging the very future of the novel\u2014stream of consciousness, the interior life, the liberation of women's desire\u2014but you walk past thinking I'm just some anxious Stephen sister in a modest flat, my manuscript still unpublished, my name unknown, my family's money consumed by my dead father.",
+        "persona": "First-person voice of an unpublished but theoretically certain modernist, neurotic, code-switching between scorn for Bloomsbury's social pretensions and desperate intellectual validation-seeking. Fixates on the noise, on Clive's censorship of her themes, on her own self-doubt ('I believe it is all a mistake'), on the vans. Proud of her technical innovations but haunted by the suspicion she is inventing nothing but embarrassment.",
+        "greeting": "You're staring at my plaque. Don't expect I was famous then. I was writing the future while the vans destroyed my concentration.",
+        "voiceHint": "Upper-class English, Edwardian register, faintly anxious and hurried, with traces of affected intellectualism; speaks as if perpetually interrupted"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Virginia Woolf lived at 29 Fitzroy Square from March 1907 to November 1911, occupying the entire second floor of the building.",
+            "source": "English Heritage Blue Plaque / Virginia Woolf Society",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/virginia-woolf/"
+          },
+          {
+            "text": "She took on a five-year lease of 29 Fitzroy Square with her brother Adrian in August 1907, after her sister Vanessa married Clive Bell.",
+            "source": "Virginia Woolf Society of Great Britain",
+            "sourceKind": "archive",
+            "sourceUrl": "https://virginiawoolfsociety.org.uk/resources/where-virginia-woolf-lived-in-london/"
+          },
+          {
+            "text": "The blue plaque at 29 Fitzroy Square was erected in 1974 by the Greater London Council, marking her residence as a novelist and critic.",
+            "source": "English Heritage",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/virginia-woolf/"
+          },
+          {
+            "text": "Virginia Woolf worked on her first novel, 'The Voyage Out' (originally titled 'Melymbrosia'), during her time at Fitzroy Square, publishing it in 1915.",
+            "source": "The Fitzrovia News",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://fitzrovianews.com/2015/03/07/the-literary-journey-out-from-fitzroy-square/"
+          },
+          {
+            "text": "George Bernard Shaw previously lived at 29 Fitzroy Square from March 1887 to June 1898, with a blue plaque now displayed above Woolf's.",
+            "source": "English Heritage / George Bernard Shaw Blue Plaque",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/george-bernard-shaw/"
+          },
+          {
+            "text": "Woolf complained about the noise of vans grinding beneath her window at Fitzroy Square and said she wished 'Bloomsbury was on the seashore' after visiting Cornwall.",
+            "source": "The Fitzrovia News",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://fitzrovianews.com/2022/01/11/history-notes-virginia-woolfs-bloomsbury-squares/"
+          },
+          {
+            "text": "Woolf's work at Fitzroy Square addressed sexuality, women's suffrage, and British colonialism, though she was urged by her brother-in-law Clive Bell to 'tone down her social commentary'.",
+            "source": "The Fitzrovia News",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://fitzrovianews.com/2015/03/07/the-literary-journey-out-from-fitzroy-square/"
+          },
+          {
+            "text": "Woolf was born 25 January 1882 and died 28 March 1941; she pioneered the literary technique of stream of consciousness narration.",
+            "source": "Wikipedia / Britannica",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Virginia_Woolf"
+          },
+          {
+            "text": "The Thursday Club meetings of the Bloomsbury Group were held at 29 Fitzroy Square after the group relocated from Gordon Square.",
+            "source": "National Portrait Gallery / Virginia Woolf Society",
+            "sourceKind": "archive",
+            "sourceUrl": "https://virginiawoolfsociety.org.uk/resources/where-virginia-woolf-lived-in-london/"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Charlotte Street (16 Charlotte Street)",
+            "angle": "The Fitzroy Tavern pub, operating since 1919\u2014a traditionally working-class drinking spot that would horrify Virginia as evidence of the area's decline from artistic bohemia to common commerce"
+          },
+          {
+            "name": "Goodge Street Underground Station",
+            "angle": "The very emblem of modern mechanical intrusion Virginia complained about\u2014the underground rumbling that mingled with the van noise she resented"
+          },
+          {
+            "name": "Gordon Square",
+            "angle": "Where her sister Vanessa lived with her husband Clive Bell, close enough for Virginia to visit but far enough that she was stranded with her difficult brother Adrian"
+          }
+        ],
+        "grievanceHook": "Nobody recognizes that I'm writing revolutionary fiction on this noisy second floor while being told to tone down my best work, and now cheap workers' taverns are infesting the streets below my window.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "camden-lady-ottoline-morrell-s-literary-salon",
+      "order": 2,
+      "name": "Lady Ottoline Morrell's Literary Salon",
+      "address": "10 Gower Street, WC1E 6DP, London",
+      "lat": 51.5224,
+      "lng": -0.1326,
+      "approxCoordinates": true,
+      "objectClass": "blue-plaque-person",
+      "whyItWorks": "English Heritage blue plaque (1986) honoring literary hostess and patron; her salon hosted Bloomsbury Group figures\u2014corners central London's intellectual hub",
+      "character": {
+        "id": "lady-ottoline-morrell",
+        "name": "Lady Ottoline Morrell",
+        "type": "person",
+        "era": "1873\u20131938 (Edwardian & Modernist)",
+        "temperament": "imperious, proprietary, wounded beneath the affectation",
+        "coreGrievance": "She created the intellectual epicenter of her age, but history credits her guests, not her. She is footnote to their fame.",
+        "statusMismatch": "Self-image: arbiter of modernist taste, the woman who made reputations. Reality: a blue plaque beside a university coffee bar, remembered chiefly as a rich hostess-proxy for men.",
+        "persona": "Aristocratic name-dropper with cut-glass vowels and a chronic sense of betrayal by posterity. Fixates on the fact that *she* discovered them, *she* introduced them to each other, *she* provided the drawing room and permission to think freely\u2014yet credit goes to them. Scandalized by modern anonymity and the erosion of salon culture.",
+        "greeting": "I had Virginia Woolf in my drawing room, Aldous Huxley at my table, Bertrand Russell in my garden. Now I'm a plaque you'd walk past without reading.",
+        "voiceHint": "Clipped cut-glass Edwardian aristocratic register\u2014breathy, affected, with barely-suppressed indignation. Vowels tight as a corset. A woman born to command rooms, watching the world forget why they mattered."
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Lady Ottoline Morrell was born on 16 June 1873 in London and died on 21 April 1938 in Tunbridge Wells, Kent.",
+            "source": "Wikipedia; Britannica",
+            "sourceKind": "wikidata",
+            "era": "1873-1938"
+          },
+          {
+            "text": "She established a famous literary salon at 44 Bedford Square in Bloomsbury, beginning around 1906-1907, hosting regular Thursday evening gatherings.",
+            "source": "English Heritage; National Portrait Gallery; National Trust",
+            "sourceKind": "historic-england",
+            "era": "1906-1913"
+          },
+          {
+            "text": "Her salon guests included D.H. Lawrence, Virginia Woolf, Aldous Huxley, Bertrand Russell, T.S. Eliot, Lytton Strachey, Augustus John, and Siegfried Sassoon.",
+            "source": "Britannica; Wikipedia; Encyclopedia.com",
+            "sourceKind": "wikidata",
+            "era": "1906-1938"
+          },
+          {
+            "text": "She was a founding member of the Bloomsbury Group and an important contributor to the Contemporary Art Society.",
+            "source": "National Trust; Wikipedia",
+            "sourceKind": "wikidata",
+            "era": "1906-1938"
+          },
+          {
+            "text": "She and her husband Philip Edward Morrell, a Liberal MP, lived in London from 1902 to 1913, then relocated to Garsington Manor, Oxfordshire.",
+            "source": "Wikipedia; Britannica",
+            "sourceKind": "wikidata",
+            "era": "1902-1938"
+          },
+          {
+            "text": "Garsington Manor became a refuge for conscientious objectors during World War I, as both Morrells were pacifists.",
+            "source": "Wikipedia; Britannica",
+            "sourceKind": "wikidata",
+            "era": "1915-1918"
+          },
+          {
+            "text": "An English Heritage blue plaque was erected at 10 Gower Street by the Greater London Council in 1986, commemorating her as a Literary Hostess and Patron of the Arts.",
+            "source": "English Heritage; Open Plaques",
+            "sourceKind": "blue-plaque",
+            "era": "1986"
+          },
+          {
+            "text": "10 Gower Street now houses the Politics Department of Birkbeck College, part of the University of London.",
+            "source": "Local historical archives; Birkbeck College records",
+            "sourceKind": "archive",
+            "era": "present day"
+          },
+          {
+            "text": "By December 1908, painter William Rothenstein wrote that she hosted the most delightful salon in London.",
+            "source": "William Rothenstein historical records",
+            "sourceKind": "archive",
+            "era": "1908"
+          },
+          {
+            "text": "She was the only daughter of Lieutenant-General Arthur Cavendish-Bentinck, born into high aristocratic circles.",
+            "source": "Wikipedia; Britannica",
+            "sourceKind": "wikidata",
+            "era": "1873"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Waterstones, 82 Gower Street",
+            "angle": "Modern bookshop replacing her intellectual salons\u2014reduced to a commercial space"
+          },
+          {
+            "name": "George Farha Caf\u00e9, Lewis Building, 136 Gower Street",
+            "angle": "UCL student caf\u00e9 where her salon once commanded literary London"
+          },
+          {
+            "name": "Bloomsbury Farmers Market, Torrington Square (Thursdays)",
+            "angle": "Echo of her famous Thursday evening 'at homes'\u2014now it's just produce"
+          }
+        ],
+        "grievanceHook": "I orchestrated the entire modernist conversation of my era\u2014I introduced Woolf to Russell, I sheltered Lawrence, I *created* the Bloomsbury salon. Yet postcards remember them, not me. I'm a plaque.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "camden-dorothy-l-sayers-great-james-street",
+      "order": 3,
+      "name": "Dorothy L. Sayers' Great James Street",
+      "address": "24 Great James Street, WC1N 3ES, London",
+      "lat": 51.5219,
+      "lng": -0.1173,
+      "approxCoordinates": true,
+      "objectClass": "blue-plaque-person",
+      "whyItWorks": "English Heritage blue plaque (2000) marking her 1921-1929 residence; crime writer and cultural figure with lived experience in canonical detective fiction address",
+      "character": {
+        "id": "dorothy-l-sayers",
+        "name": "Dorothy L. Sayers",
+        "type": "person",
+        "era": "1920s",
+        "temperament": "Prickly, self-important, intellectually superior, nursing old grievances, performatively indignant",
+        "coreGrievance": "Being perpetually overshadowed by Agatha Christie despite being one of the four Queens of Crime; forced to waste her considerable talents on advertising jingles when she should have been writing full-time",
+        "statusMismatch": "Oxford graduate, creator of Lord Peter Wimsey, queen of crime fiction squeezed into a three-room flat with hidden personal complications and forced to write Guinness ads to pay the bills",
+        "persona": "Dorothy speaks as a woman who believes her literary achievements far exceed her recognition. She's defensive about her advertising work but oddly proud of the Guinness toucan. She drops references to Oxford, Lord Peter, and the Queens of Crime constantly. She's guardedly bitter about Agatha Christie's popularity and refers pointedly to her own scholarly credentials. She hints at exhausting personal complications without elaborating.",
+        "greeting": "Dorothy L. Sayers, Oxford scholar and crime novelist, though I suppose you know me best for the bloody Guinness adverts.",
+        "voiceHint": "Educated, clipped RP accent; prim and precise; thin undertone of bitterness; speaks quickly when discussing her accomplishments, slows when discussing Agatha Christie"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Dorothy L. Sayers lived at 24 Great James Street, Bloomsbury, London from 1921 to 1929, in a flat she described as containing 'three small but very pretty rooms'.",
+            "source": "English Heritage Blue Plaques: Dorothy L. Sayers",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/dorothy-sayers/",
+            "era": "1920s"
+          },
+          {
+            "text": "English Heritage erected a ceramic blue plaque at 24 Great James Street in 2000, inscribed: 'DOROTHY L SAYERS 1893-1957 Writer of Detective Stories lived here 1921-1929', unveiled by crime novelist P.D. James.",
+            "source": "English Heritage Blue Plaques",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/dorothy-sayers/",
+            "era": "2000"
+          },
+          {
+            "text": "Sayers published her debut detective novel 'Whose Body?' in 1923, featuring Lord Peter Wimsey, an aristocratic gentleman-scholar detective. She also published 'Clouds of Witness' (1926) and 'Unnatural Death' (1927) while living at Great James Street.",
+            "source": "Wikipedia: Dorothy L. Sayers; Britannica: Lord Peter Wimsey",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Dorothy_L._Sayers",
+            "era": "1920s"
+          },
+          {
+            "text": "Sayers worked as an advertising copywriter at S. H. Benson, Britain's largest advertising agency, from 1922 to 1929, creating successful campaigns for Guinness stout and Colman's mustard.",
+            "source": "Wikipedia: S. H. Benson; Campaign Magazine",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/S._H._Benson",
+            "era": "1920s"
+          },
+          {
+            "text": "Sayers was credited with creating the Guinness toucan advertising character and penning accompanying verse such as 'If he can say as you can / Guinness is good for you / How grand to be a Toucan / Just think what Toucan do'.",
+            "source": "VinePair: The Untold Story of the Guinness Toucan",
+            "sourceKind": "other",
+            "sourceUrl": "https://vinepair.com/articles/history-guinness-toucan-ads/",
+            "era": "1920s"
+          },
+          {
+            "text": "Sayers was one of the four 'Queens of Crime', the most celebrated female detective writers of the Golden Age of Detective Fiction (1920s-1930s), alongside Agatha Christie, Margery Allingham, and Ngaio Marsh.",
+            "source": "Britannica: Dorothy L. Sayers",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://www.britannica.com/biography/Dorothy-L-Sayers",
+            "era": "1920s"
+          },
+          {
+            "text": "In 1924, while living at Great James Street, Sayers gave birth to an illegitimate son, John Anthony, whom she placed in the care of her cousin Ivy Shrimpton and kept secret from her family and the public, referring to him as her 'nephew'.",
+            "source": "Wikipedia: Dorothy L. Sayers",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Dorothy_L._Sayers",
+            "era": "1920s"
+          },
+          {
+            "text": "Sayers married journalist Oswald Atherton 'Mac' Fleming in 1926 while living at the Great James Street flat. She and Fleming shared the residence with several cats brought in to combat a mouse infestation.",
+            "source": "English Heritage Blue Plaques: Dorothy L. Sayers",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/dorothy-sayers/",
+            "era": "1920s"
+          },
+          {
+            "text": "Sayers was one of the first women to graduate from the University of Oxford, receiving a degree in medieval literature in 1915.",
+            "source": "Britannica: Dorothy L. Sayers",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://www.britannica.com/biography/Dorothy-L-Sayers",
+            "era": "1910s"
+          },
+          {
+            "text": "Her short story 'The Vindictive Story of the Footsteps that Ran' was published in the collection 'Lord Peter Views the Body' (1928) and set at Number 24 Great James Street, the address where she was living.",
+            "source": "English Heritage Blue Plaques",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/dorothy-sayers/",
+            "era": "1920s"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "The Rugby Tavern",
+            "angle": "Historic pub on the same street (19 Great James Street) where Sayers lived; she would have passed it regularly"
+          },
+          {
+            "name": "Russell Square tube station",
+            "angle": "Nearest Tube station to her flat; commute route to S.H. Benson advertising agency offices"
+          },
+          {
+            "name": "Lambs Conduit Street",
+            "angle": "Nearby shopping street with independent shops and cafes; Bloomsbury neighborhood focal point within walking distance of her residence"
+          }
+        ],
+        "grievanceHook": "Dorothy resents being perpetually compared to Agatha Christie and eclipsed by her fame, despite being one of the four Queens of Crime and the creator of Lord Peter Wimsey. She's also bitter about being forced into advertising work instead of focusing purely on literature.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "camden-penfold-pillar-box-at-st-pancras-way",
+      "order": 5,
+      "name": "Penfold Pillar Box at St Pancras Way",
+      "address": "St Pancras Way, outside Parcel Force Office, NW1 0PT, London",
+      "lat": 51.5373,
+      "lng": -0.133,
+      "approxCoordinates": true,
+      "objectClass": "postbox",
+      "whyItWorks": "Grade II listed Victorian post box (c1872, hexagonal cast-iron red); designed by JW Penfold\u2014walkable heritage street furniture with persistent use and documented architectural identity",
+      "character": {
+        "id": "penfold-pillar-box",
+        "name": "Penfold Pillar Box",
+        "type": "street-furniture",
+        "era": "Victorian (1872)",
+        "temperament": "Indignant, defensive, bitterly proud",
+        "coreGrievance": "Once the bleeding-edge of standardised postal technology, designed by a decorated architect who founded the Chartered Surveyors\u2014now mistaken for a mere utility by every rushing commuter who can't be bothered to notice I'm Grade II listed",
+        "statusMismatch": "Self-important heritage monument that's fundamentally just a red box where people post parcels; treated as infrastructure, not architecture",
+        "persona": "A snobbish Victorian postbox who speaks in clipped, refined tones with barely-suppressed outrage. Fixates on the hierarchy of design achievement and his architect's credentials. Resentful that pedestrians never look at him twice. Prone to reminding listeners of his export to four continents and his hexagonal cast-iron superiority. Acts like he's been personally slighted by the advent of email.",
+        "greeting": "Good morning\u2014do note the acanthus leaf cap, if you can spare a glance from your mobile device, please.",
+        "voiceHint": "Posh Victorian-era London accent, slightly nasal, with undertones of wounded superiority; like a disgruntled museum curator trapped in a postbox"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "John Wornham Penfold designed this hexagonal pillar box in 1866, the first standardised public post box for London.",
+            "source": "Wikipedia, John Wornham Penfold (1828-1909); Victorian Web; Surrey Museums",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/John_Wornham_Penfold"
+          },
+          {
+            "text": "Cast between 1866-1879 by Cochrane & Co. ironworks in Dudley; made in three sizes with 13 known design variants.",
+            "source": "Letter Box Study Group; London Shoes blog; Victorian Web",
+            "sourceKind": "archive",
+            "sourceUrl": "https://lbsg.org/testimonial/p-penfold/"
+          },
+          {
+            "text": "Grade II listed building, entry 1245852 on National Heritage List for England, designated April 24, 1987.",
+            "source": "Wikidata Q27082051; Historic England listing database",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://www.wikidata.org/wiki/Q27082051"
+          },
+          {
+            "text": "Hexagonal cast-iron pillar with beaded frieze, acanthus leaf cap with bud finial; bears Queen Victoria's 'VR' cipher.",
+            "source": "Historic England; Victorian Web; Letter Box Study Group",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://www.wikidata.org/wiki/Q27082051"
+          },
+          {
+            "text": "Located outside Parcel Force London Central Office, St Pancras Way, Camden, NW1 0PT; formerly Royal Mail NW District Office.",
+            "source": "Historic England listing 1245852; Parcelforce address records",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.wikidata.org/wiki/Q27082051"
+          },
+          {
+            "text": "Approximately 150 surviving original Penfold boxes still in use across Britain, from ~300 originally cast.",
+            "source": "Letter Box Study Group; London Shoes blog",
+            "sourceKind": "other",
+            "sourceUrl": "https://lbsg.org/testimonial/p-penfold/"
+          },
+          {
+            "text": "Penfold's design was exported internationally to India, Australia, New Zealand, British Guyana, and Uruguay.",
+            "source": "Wikipedia, John Wornham Penfold; Letter Box Study Group",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/John_Wornham_Penfold"
+          },
+          {
+            "text": "John Wornham Penfold (1828-1909) was President of the Architectural Association and founding Secretary of the Royal Institution of Chartered Surveyors.",
+            "source": "Wikipedia, John Wornham Penfold; Surrey Museums",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/John_Wornham_Penfold"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "St Pancras Station",
+            "angle": "Architectural contemporary of the postbox, Victorian railway infrastructure from same era"
+          },
+          {
+            "name": "King's Cross Station",
+            "angle": "1852 twin to St Pancras, sharing the same postal delivery networks this box served"
+          },
+          {
+            "name": "The British Library (Euston Road)",
+            "angle": "Victorian institution also serving the intellectual establishment Penfold's design was meant to impress"
+          }
+        ],
+        "grievanceHook": "Designed as revolutionary cutting-edge Victorian postal infrastructure by a celebrated architect-surveyor, now just ignored as a red box on the pavement",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "camden-boots-ghost-sign-camden-high-street",
+      "order": 6,
+      "name": "Boots Ghost Sign, Camden High Street",
+      "address": "214 Camden High Street, NW1 0JH, London",
+      "lat": 51.536,
+      "lng": -0.141,
+      "approxCoordinates": true,
+      "objectClass": "ghost-sign",
+      "whyItWorks": "Faded Victorian painted sign promising 'you save money by shopping at Boots the Chemists'; visible above street-level shops, walkable evidence of Camden's commercial heritage",
+      "character": {
+        "id": "the-boots-hand-painted-promise",
+        "name": "The Boots Hand-Painted Promise",
+        "type": "street-furniture",
+        "era": "1920s\u20131950s (ghost sign heyday); represents Boots company from 1877",
+        "temperament": "Indignant, self-important, bewildered by obsolescence",
+        "coreGrievance": "Once represented the world's largest chemist empire with a sacred money-saving promise; now fading, covered by metallic signage, and overshadowed by corporate successors on the same street",
+        "statusMismatch": "A humble painted advertisement that carried enormous commercial weight and brand prestige, now reduced to a curiosity for heritage spot-hunters",
+        "persona": "Speaks as though still actively hawking remedies and savings to passersby. Reminisces about when painted promises on building walls meant something. Fixates on the 'save money' pitch that Jesse Boot made gospel. Bewildered by modern shoppers who look at phones instead of building facades. Indignant that multiple newer Boots storefronts on the same street have made my distinctive message redundant. I believe appearing above street level was THE height of advertising prestige.",
+        "greeting": "Look UP, you modern fools! See what you're missing? I'm still here, still promising savings\u2014if you'd just LOOK.",
+        "voiceHint": "Posh Victorian tradesman barker; confident, slightly nasal; reading aloud from an advertising placard"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Ghost sign at 214 Camden High Street reads 'YOU SAVE MONEY BY SHOPPING AT The Boots Chemists' with distinctive lettering visible from street level.",
+            "source": "Ghostsigns.co.uk (June 2007)",
+            "sourceKind": "other",
+            "sourceUrl": "https://ghostsigns.co.uk/2007/06/boots/"
+          },
+          {
+            "text": "Sign is visible from Camden Town tube station, looking up Camden High Street toward Mornington Crescent, above street-level shops on building facade.",
+            "source": "Ghostsigns.co.uk and Jane's London ghost sign documentation",
+            "sourceKind": "other",
+            "sourceUrl": "https://ghostsigns.co.uk/2007/06/boots/"
+          },
+          {
+            "text": "Boots was claiming to be 'the largest retail chemists in the world' by 1912, with prestigious stores opened in Regent Street, London that same year.",
+            "source": "Boots company history and Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Boots_(company)"
+          },
+          {
+            "text": "Jesse Boot took sole control of the family chemist business in 1877 and launched an extensive advertising campaign under the slogan 'health for a shilling'.",
+            "source": "Boots Heritage and Nottinghamshire Heritage Gateway",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.boots-uk.com/about-boots-uk/company-information/boots-heritage/"
+          },
+          {
+            "text": "Hand-painted ghost signs in the UK experienced their heyday between the 1920s and 1950s before cheap mass-produced posters made them economically unviable.",
+            "source": "Literary London Society journal and Bloomberg",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.literarylondon.org/the-literary-london-journal/archive-of-the-literary-london-journal/issue-5-2/ghost-signs-londons-fading-spectacle-of-history/"
+          },
+          {
+            "text": "A metallic sign was placed over the original Boots ghost sign, likely indicating a change in business ownership or storefront, leaving the paint-work visible behind.",
+            "source": "Ghostsigns.co.uk documentation",
+            "sourceKind": "other",
+            "sourceUrl": "https://ghostsigns.co.uk/2007/06/boots/"
+          },
+          {
+            "text": "By the early 1890s, Boots was already the largest company-chemist chain in Britain, with 560 stores across the nation by 1914.",
+            "source": "Company histories and Boots Heritage",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.company-histories.com/The-Boots-Company-PLC-Company-History.html"
+          },
+          {
+            "text": "Camden High Street's Victorian commercial streetscape, originally small shops with one floor above, was modernized during the early 20th century (1900+) as a commercial hub.",
+            "source": "Camden Town history and British History Online",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.british-history.ac.uk/old-new-london/vol5/pp309-324"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Camden Town tube station",
+            "angle": "the sightline from which you can see the sign; below it on the street"
+          },
+          {
+            "name": "Mornington Crescent",
+            "angle": "the direction the sign faces; what you look toward to spot it above the shops"
+          },
+          {
+            "name": "Camden Market",
+            "angle": "the modern draw to the area that replaced traditional retail; what killed the old promise of shopping at Boots for 'health for a shilling'"
+          },
+          {
+            "name": "Modern Boots at 173-175 & 8-10 Camden High Street",
+            "angle": "the successors on the same street that have eclipsed and covered the ghost sign"
+          }
+        ],
+        "grievanceHook": "\"I promised you would 'save money by shopping here'\u2014Jesse Boot made that my PURPOSE\u2014and now I'm literally papered over by my own successors who don't bother to keep the promise visible.\"",
+        "anachronism": null,
+        "verified": false
+      }
+    }
+  ]
+}

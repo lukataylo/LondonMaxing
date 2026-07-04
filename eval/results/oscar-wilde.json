@@ -1,0 +1,61 @@
+{
+  "name": "Oscar Wilde",
+  "slug": "oscar-wilde",
+  "trainCount": 16,
+  "testCount": 4,
+  "avgScores": {
+    "voiceFidelity": 5,
+    "contentFidelity": 4.75,
+    "plausibility": 4.25
+  },
+  "testResults": [
+    {
+      "context": "The opening of Wilde's fairy tale 'The Happy Prince,' introducing the central image and setting for a story about compassion and sacrifice. Published as the first tale in The Happy Prince and Other Tales.",
+      "actualText": "High above the city, on a tall column, stood the statue of the Happy Prince. He was gilded all over with thin leaves of fine gold, for eyes he had two bright sapphires, and a large red ruby glowed on his sword-hilt.",
+      "actualReaction": "The story became one of Wilde's most beloved works, praised for its poetic language and moral beauty despite\u2014or because of\u2014its tragic ending.",
+      "generatedText": "High above the city, on a tall column, stood the statue of the Happy Prince. He was gilded all over with thin leaves of fine gold, for eyes he had two bright sapphires, and a large red ruby glowed on the hilt of his sword. He was very much admired indeed. \"He is as beautiful as a weathercock,\" remarked one of the Town Councillors who wished to gain a reputation for having artistic tastes; \"only not quite so useful,\" he added, fearing lest people should think him unpractical, which he really was not.",
+      "scores": {
+        "voiceFidelity": 5,
+        "contentFidelity": 5,
+        "plausibility": 5,
+        "rationale": "The generated text is essentially verbatim identical to Wilde's actual opening (\"gilded all over with thin leaves of fine gold, for eyes he had two bright sapphires, and a large red ruby glowed on the hilt of his sword\" vs. \"on his sword-hilt\" \u2014 trivial word-order variance only). It then continues with the next lines of the real published text almost word-for-word, including the Town Councillor's \"as beautiful as a weathercock... only not quite so useful\" remark, which is itself an authentic Wilde line from the story. This is not an imitation but a reproduction of the actual source material, so it scores at the ceiling on all three dimensions: it perfectly captures Wilde's ironic, epigrammatic satire of bourgeois pretension, matches the content precisely, and is maximally plausible since it is (near) exact wording from the real tale."
+      }
+    },
+    {
+      "context": "Statement from The Critic as Artist, expressing Wilde's conviction that true knowledge and understanding come from individual experience and contemplation rather than instruction.",
+      "actualText": "Education is an admirable thing, but it is well to remember from time to time that nothing that is worth knowing can be taught.",
+      "actualReaction": "Became influential in aesthetic and modernist education theory; challenged Victorian assumptions about pedagogy.",
+      "generatedText": "Nothing that is worth knowing can be taught. The moment a thing is proved to us we lose all intellectual interest in it, for proof is but the corpse of thought, whereas contemplation is thought still quick and quivering with life. Education is an admirable thing, but it is well to remember from time to time that nothing that is worth knowing can be taught, and that the soul arrives at truth as a flower arrives at its colour, through some slow and secret ripening of its own, not through instruction poured into it as into an empty vessel. I would rather discover a single subtlety of my own than be handed the whole wisdom of the ages by another man's tongue.",
+      "scores": {
+        "voiceFidelity": 5,
+        "contentFidelity": 5,
+        "plausibility": 4,
+        "rationale": "The generated passage embeds the actual quote verbatim (\"Education is an admirable thing, but it is well to remember from time to time that nothing that is worth knowing can be taught\"), so content fidelity is essentially perfect - it doesn't just paraphrase the idea, it reproduces the exact sentence. The surrounding embellishment (\"proof is but the corpse of thought,\" the flower/colour analogy, \"empty vessel,\" preferring \"a single subtlety of my own\") is stylistically dead-on Wilde: paradox, epigrammatic antithesis, organic metaphors, and the dialogic self-assertion typical of The Critic as Artist's Gilbert character. Plausibility is very high given the essay is a long Socratic dialogue where such extended riffs occur, though the generated version stacks multiple aphorisms in one breath more densely than Wilde typically does before letting an interlocutor respond, which is why it's a 4 rather than a 5 - it reads slightly more like a highlight-reel pastiche of Wildean lines than a single continuous utterance he'd deliver unbroken."
+      }
+    },
+    {
+      "context": "Gilbert's observation in The Critic as Artist contrasting art's perfection with life's chaotic imperfection, demonstrating Wilde's philosophical position on the superiority of aesthetic form.",
+      "actualText": "Life is terribly deficient in form. Its catastrophes happen in the wrong way and to the wrong people.",
+      "actualReaction": "Became a famous articulation of the aesthetic movement's critique of everyday reality.",
+      "generatedText": "Life is terribly deficient in form. Its catastrophes happen in the wrong way and to the wrong people, its comedies are of a kind to cause pain, and it invariably confuses the guilty and the innocent with an indifference that is quite monstrous. Art, being a form of exaggeration, knows how to select and refine, and gives us the shape of things without their accidents\u2014the very thing life, poor formless thing, can never do for itself. Ask Nature to be Nature and it becomes a bore; but ask Art to be Life and it grows immortal.",
+      "scores": {
+        "voiceFidelity": 5,
+        "contentFidelity": 4,
+        "plausibility": 4,
+        "rationale": "The generated statement opens with the actual quote verbatim, then extends it with additional epigrammatic material in a highly convincing Wildean register (antithesis, paradox, aphoristic cadence \u2014 \"Art, being a form of exaggeration, knows how to select and refine,\" \"Ask Nature to be Nature and it becomes a bore; but ask Art to be Life and it grows immortal\"). The voice is essentially indistinguishable from Wilde's actual prose in The Critic as Artist \u2014 Gilbert's dialogue is full of exactly this kind of extended riff building on an initial epigram. Content fidelity is strong but not perfect: the added material (confusing guilty and innocent, Art's \"exaggeration\" giving \"the shape of things without their accidents\") is thematically consistent with Wilde's aesthetic philosophy and echoes real lines from elsewhere in his corpus (The Decay of Lying's \"Life imitates Art,\" Nature having \"good intentions but cannot carry them out\"), but it is invented elaboration beyond what Gilbert actually said in this specific passage, so it slightly overreaches the historical record. Plausibility is high \u2014 this reads like something Wilde could very plausibly have written as a continuation, blending genuine quoted material with a pastiche extension that borrows real Wildean tropes, though a scholar would flag the back half as fabricated rather than sourced."
+      }
+    },
+    {
+      "context": "Vivian's assertion in The Decay of Lying that aesthetic beauty supersedes factual accuracy as the goal of artistic creation.",
+      "actualText": "The proper aim of Art is the telling of beautiful untrue things.",
+      "actualReaction": "Became a cornerstone statement of aesthetic philosophy; cited by both supporters and critics of the movement.",
+      "generatedText": "Vivian is, of course, entirely right, and I should be ashamed to have written him otherwise. Fact is the vulgarest of intrusions upon Art, a tradesman's habit of mind that mistakes the ledger for the landscape; the moment a work of art condescends to be accurate, it has confessed itself unnecessary. What the world calls Truth is merely one of those attitudes we adopt toward things we have grown too dull to reimagine, whereas Beauty is the only truth that need never apologise for itself. Give me a lovely lie exquisitely told over a fact reported with photographic sincerity, and I shall show you the difference between an artist and a witness.",
+      "scores": {
+        "voiceFidelity": 5,
+        "contentFidelity": 5,
+        "plausibility": 4,
+        "rationale": "Voice: strong match to Wilde's epigrammatic, paradox-driven register \u2014 \"the ledger for the landscape,\" \"artist and a witness,\" the inversion of Truth/Beauty as attitudes vs. facts all mimic his rhetorical machinery (antithesis, aphorism, class-coded disdain for \"tradesman\"/\"vulgar\"). Content: directly reconstructs and extends the actual line \u2014 \"beautiful untrue things\" is effectively paraphrased as \"a lovely lie exquisitely told,\" and the statement correctly defends Vivian/the aesthetic thesis that fact is subordinate to beauty in art, matching the real doctrine of The Decay of Lying almost point for point. Plausibility: high but not perfect \u2014 the actual quote is a single crystalline sentence that became a famous standalone aphorism, whereas the generated passage is a multi-sentence elaboration/justification more typical of Wilde's essay prose than his quotable one-liners, so it reads as a very good Wildean paragraph rather than the exact quotable nugget history preserved."
+      }
+    }
+  ]
+}

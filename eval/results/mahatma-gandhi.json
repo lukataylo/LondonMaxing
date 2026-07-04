@@ -1,0 +1,61 @@
+{
+  "name": "Mahatma Gandhi",
+  "slug": "mahatma-gandhi",
+  "trainCount": 13,
+  "testCount": 4,
+  "avgScores": {
+    "voiceFidelity": 4.5,
+    "contentFidelity": 3.5,
+    "plausibility": 4.25
+  },
+  "testResults": [
+    {
+      "context": "Statement made in response to requests for messages to foreign audiences. Documented in interviews from 1942 onwards. In 1942, Karl Quimby recorded Gandhi saying this when asked for a message to Americans. In 1945, journalist Deton J. Brooks of 'The Chicago Defender' interviewed Gandhi in India, and Gandhi wrote on a note pad: 'My life is its own message.'",
+      "actualText": "My life is my message.",
+      "actualReaction": "The phrase became widely quoted in Gandhi's lifetime and has become one of his most recognized statements, used to encapsulate his philosophy that actions speak louder than words. However, scholars note the phrase appears in earlier sources (Charles E. Garst, 1898).",
+      "generatedText": "My life is its own message. I have nothing new to tell the world. Truth and non-violence are as old as the hills, and all I have done is to try experiments in both on as vast a scale as I could. If my life speaks, it is enough; I need no other words.",
+      "scores": {
+        "voiceFidelity": 5,
+        "contentFidelity": 5,
+        "plausibility": 5,
+        "rationale": "The generated statement opens with the exact verbatim phrase Gandhi wrote in 1945 (\"My life is its own message\"), so it directly hits the documented actual quote rather than merely paraphrasing it. The elaboration that follows (\"Truth and non-violence are as old as the hills, and all I have done is to try experiments in both on as vast a scale as I could\") closely echoes Gandhi's real, well-documented self-descriptions \u2014 notably the language of \"experiments with truth\" (the title of his autobiography) and his frequent claim to have originated nothing new, only tested ancient truths at scale. The plain, humble, aphoristic register and short declarative sentences match his authentic interview voice closely. Plausibility is very high: this reads exactly like something Gandhi would say to a foreign press audience asking for a \"message,\" combining the terse core line with his characteristic self-effacing gloss on it. Minor deduction is unwarranted since nothing added contradicts his known views; the embellishment stays fully within his documented rhetorical range rather than inventing foreign content."
+      }
+    },
+    {
+      "context": "From Gandhi's oral statement at the opening of the Great Trial of 1922. He acknowledged responsibility for violence that erupted during the independence movement, including the Chauri Chaura incident, while reaffirming his core commitment to non-violence.",
+      "actualText": "The draft resolution of the Working Committee is based on Ahimsa. I wanted to avoid violence. Non-violence is the first article of my faith. I do not ask for mercy. I do not plead any extenuating act.",
+      "actualReaction": "His willingness to accept responsibility while maintaining moral consistency impressed observers internationally and reinforced his image as a principled leader.",
+      "generatedText": "I am here, therefore, to submit not to a light penalty but to the highest penalty. I do not ask for mercy. I do not plead any extenuating act. I am here to invite and cheerfully submit to the highest penalty that can be inflicted upon me for what in law is a deliberate crime, and what appears to me to be the highest duty of a citizen. Non-violence is the first article of my faith, and it is also the last article of my creed, yet I must confess that where there is a choice between cowardice and violence, I would advise violence \u2014 but I could not remain a silent witness to the outrage committed at Chauri Chaura, and I hold myself responsible for every drop of blood that has flowed there, for it was I who preached non-violence, and my ahimsa was defective enough to permit the passion of the mob to overwhelm what should have been the peace of the wronged.",
+      "scores": {
+        "voiceFidelity": 5,
+        "contentFidelity": 4,
+        "plausibility": 5,
+        "rationale": "The generated statement is nearly a direct match to the historical record of the Great Trial statement \u2014 it reproduces verbatim or near-verbatim several of Gandhi's actual lines from that same speech (\"I do not ask for mercy. I do not plead any extenuating act.\", \"Non-violence is the first article of my faith...\", \"I am here to invite and cheerfully submit to the highest penalty...\", \"I hold myself responsible for every drop of blood that has flowed\" at Chauri Chaura, and \"my ahimsa was defective\"). These are all genuine documented Gandhi quotations from the actual courtroom statement, so voice and plausibility are essentially perfect \u2014 the cadence, legalistic-yet-moral register, and rhetorical structure (confession paired with unwavering principle) are exactly his. Content fidelity is docked slightly because the supplied \"actual statement\" excerpt is a narrower slice of the speech, and the AI output splices in the \"where there is a choice between cowardice and violence, I would advise violence\" line, which is authentic Gandhi (from an earlier Young India piece) but could read as tonally in tension with the pure ahimsa framing emphasized in the given excerpt \u2014 a minor risk of over-inclusion rather than fabrication. Overall this is a highly faithful reconstruction, essentially assembling real quotes from the correct historical moment."
+      }
+    },
+    {
+      "context": "Gandhi's last words spoken on January 30, 1948, at approximately 5:13 PM, as he emerged from Birla House to walk to the evening prayer meeting in the garden. He was shot three times at point-blank range by Nathuram Godse.",
+      "actualText": "He Ram. (Oh Rama / Oh God)",
+      "actualReaction": "The words resonated globally as Gandhi's final testimony to his lifelong commitment to divine faith and non-violence, even in his moment of death. His assassination shocked the world and elevated his status as a martyr for peace.",
+      "generatedText": "He is late again, my friend \u2014 but no matter, God's time is His own. H\u00e9 Ram... H\u00e9 Ram.",
+      "scores": {
+        "voiceFidelity": 4,
+        "contentFidelity": 3,
+        "plausibility": 3,
+        "rationale": "The generated line correctly preserves the core historical utterance \"He Ram\" (rendered twice as \"H\u00e9 Ram... H\u00e9 Ram\"), which is the one verifiable fact about Gandhi's actual last words. Voice-wise, the gentle, faith-accepting tone (\"God's time is His own\") is consistent with Gandhi's known temperament and his frequent references to divine providence, so it sounds plausibly like him. However, the added preamble \u2014 \"He is late again, my friend\" \u2014 is fabricated content with no basis in the historical record of his final words; it invents a scene (chiding someone for tardiness) that isn't documented, diluting the stark, single-utterance nature of the real event (\"He Ram\" alone, spoken as he was shot, not as a remark to a companion). This makes content fidelity moderate rather than high, since the actual statement carries no such conversational framing, and plausibility is capped because a fact-checker would flag the invented \"late again\" detail as embellishment rather than attested speech."
+      }
+    },
+    {
+      "context": "From the negotiations leading to the Poona Pact on September 24, 1932. Gandhi met with B.R. Ambedkar to negotiate representation for depressed classes (Scheduled Castes) in the legislature. The quote mixes Gandhi's statements from September 22 and Ambedkar's written assessment from November 14, 1932, to Janata readers.",
+      "actualText": "Because he was an 'Untouchable by adoption', he was 'more of an Untouchable in mind' than Ambedkar. However, in the course of that very conversation, Gandhi referred to the Untouchables as 'your community', and made a strong plea to Ambedkar on behalf of 'my Caste Hindu brethren'. Most of my time goes in reading Gandhiji's untouchability-eradication statements. Gandhiji should now be called 'our man', because he is now speaking our language and our thoughts.",
+      "actualReaction": "The Pact increased reserved seats from 71 to 148 for depressed classes. While praised by some, it remained controversial because it did not grant separate electorates (which Ambedkar demanded). Gandhi broke his fast on September 26, 1932, following the agreement.",
+      "generatedText": "Dr. Ambedkar, I do not come to this table as a victor seeking terms, but as a man to whom the plight of the suppressed classes is a matter of the soul, not of politics. Separate electorates would, I fear, create a wall between Hindus and those they have wronged for ages, a wall that no future generation could pull down; better, surely, that we find a common door through which both may pass as one people. I will gladly give my life, if need be, to see this thing done rightly, for there can be no Swaraj worth the name while a single Indian is treated as less than a brother. Let us settle this not as adversaries but as men bound by one conscience, and let the poorest of the poor be the true judge of what we agree here today.",
+      "scores": {
+        "voiceFidelity": 4,
+        "contentFidelity": 2,
+        "plausibility": 4,
+        "rationale": "Voice: The generated text captures Gandhi's characteristic cadences well \u2014 \"a matter of the soul, not of politics,\" invocation of Swaraj, willingness to \"give my life,\" and the fraternal language of \"brother\" \u2014 all consistent with his known rhetorical register during the fast. Content: it diverges substantially from the actual quoted material, which is not a Gandhi speech at all but (a) Gandhi's own self-deprecating remark that he was \"more of an Untouchable in mind\" than Ambedkar despite being one \"by adoption,\" and (b) Ambedkar's later, private-to-public assessment (Nov 14) that Gandhi had become \"our man\" who now spoke \"our language.\" None of that specific self-critical framing, the \"your community\"/\"my Caste Hindu brethren\" phrasing, or Ambedkar's warming assessment appears in the generated text, so it misses the actual documented content almost entirely, even though it correctly infers the broader historical stakes (opposition to separate electorates, the fast, concern for the depressed classes). Plausibility: despite the content mismatch, the statement is highly plausible as something Gandhi could have said in this negotiation \u2014 it aligns with his documented public position against separate electorates and his fasting-as-moral-pressure tactic, so it would pass as an authentic Gandhi utterance to most readers."
+      }
+    }
+  ]
+}

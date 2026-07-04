@@ -1,0 +1,132 @@
+{
+  "name": "George Orwell",
+  "slug": "george-orwell",
+  "items": [
+    {
+      "text": "Every line of serious work that I have written since 1936 has been written, directly or indirectly, against totalitarianism and for democratic socialism, as I understand it.",
+      "quoteType": "published-writing",
+      "context": "Orwell reflecting on his writing career and the Spanish Civil War as the defining event that shaped his political direction",
+      "publicReaction": "The essay became widely cited as a foundational statement of Orwell's political philosophy and artistic mission",
+      "date": "1946",
+      "source": "Why I Write, Gangrel magazine, Summer 1946",
+      "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/why-i-write/"
+    },
+    {
+      "text": "If liberty means anything at all, it means the right to tell people what they do not want to hear.",
+      "quoteType": "published-writing",
+      "context": "Orwell defending intellectual freedom and the right to publish unpopular ideas, specifically his anti-Soviet views during wartime when the USSR was an ally",
+      "publicReaction": "The statement became one of Orwell's most famous pronouncements on free speech and intellectual liberty",
+      "date": "1945",
+      "source": "Proposed Preface to Animal Farm, first published in The Times Literary Supplement, September 15, 1972",
+      "sourceUrl": "https://www.marxists.org/archive/orwell/1945/preface.htm"
+    },
+    {
+      "text": "the slovenliness of our language makes it easier for us to have foolish thoughts",
+      "quoteType": "published-writing",
+      "context": "Orwell arguing that language degradation and political deception are reciprocally reinforcing processes",
+      "publicReaction": "The essay became widely taught in schools and universities; scholars cite it as one of the greatest essays on writing ever published",
+      "date": "1946",
+      "source": "Politics and the English Language, Horizon magazine, April 1946",
+      "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-and-the-english-language/"
+    },
+    {
+      "text": "Never use the passive where you can use the active.",
+      "quoteType": "published-writing",
+      "context": "One of six writing rules Orwell proposed for clear prose at the end of his essay on political language",
+      "publicReaction": "The six rules became canonical principles taught in writing classes and widely referenced by journalists and authors",
+      "date": "1946",
+      "source": "Politics and the English Language, Horizon magazine, April 1946",
+      "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-and-the-english-language/"
+    },
+    {
+      "text": "It is curious, but till that moment I had never realized what it means to destroy a healthy, conscious man.",
+      "quoteType": "published-writing",
+      "context": "Orwell's realization upon witnessing an execution in Burma, witnessing the moment before a man's death",
+      "publicReaction": "The essay became a classic anti-capital punishment statement and is widely anthologized as a powerful meditation on human life",
+      "date": "1931",
+      "source": "A Hanging, The Adelphi magazine, August 1931",
+      "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/a-hanging/"
+    },
+    {
+      "text": "An enormous relief had come upon us now that the job was done. One felt an impulse to sing, to break into a run, to snigger.",
+      "quoteType": "published-writing",
+      "context": "Orwell observing the psychological response of those who witnessed the execution, how they distanced themselves from its moral weight",
+      "publicReaction": "Critics cited this passage as powerful evidence of capital punishment's dehumanizing effects on all parties",
+      "date": "1931",
+      "source": "A Hanging, The Adelphi magazine, August 1931",
+      "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/a-hanging/"
+    },
+    {
+      "text": "By 'patriotism' I mean devotion to a particular place and a particular way of life, which one believes to be the best in the world but has no wish to force on other people. By 'nationalism' I mean the habit of identifying oneself with a single nation or other unit, placing it beyond good and evil.",
+      "quoteType": "published-writing",
+      "context": "Orwell distinguishing between patriotism and nationalism, arguing nationalism is dangerous because it removes moral judgment",
+      "publicReaction": "Political theorists like Gregory Claeys cited this essay as key to understanding Orwell's later novel 1984",
+      "date": "1945",
+      "source": "Notes on Nationalism, Polemic magazine, October 1945",
+      "sourceUrl": "https://orwell.ru/library/essays/nationalism/english/e_nat"
+    },
+    {
+      "text": "Nationalism is power-hunger tempered by self-deception. Every nationalist is capable of the most flagrant dishonesty.",
+      "quoteType": "published-writing",
+      "context": "Orwell defining the psychological nature of nationalism and its connection to deception",
+      "publicReaction": "Cited by scholars analyzing totalitarianism and nationalist ideology",
+      "date": "1945",
+      "source": "Notes on Nationalism, Polemic magazine, October 1945",
+      "sourceUrl": "https://orwell.ru/library/essays/nationalism/english/e_nat"
+    },
+    {
+      "text": "the imagination, like certain wild animals, will not breed in captivity",
+      "quoteType": "published-writing",
+      "context": "Orwell arguing that totalitarianism is fundamentally incompatible with literature and creative thought",
+      "publicReaction": "Literary scholars cited this as central to understanding Orwell's vision of totalitarianism's threat",
+      "date": "1946",
+      "source": "The Prevention of Literature, Polemic magazine, January 1946",
+      "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/the-prevention-of-literature/"
+    },
+    {
+      "text": "This is not a critical age. It is an age of partisanship and not of detachment. Politics\u2014politics in the most general sense\u2014have invaded literature, to an extent that does not normally happen.",
+      "quoteType": "published-writing",
+      "context": "Orwell reflecting on the impossibility of separating literature from politics in the 1940s",
+      "publicReaction": "Scholars cite this as Orwell's justification for his own politically engaged writing",
+      "date": "1941",
+      "source": "Literature and Totalitarianism, BBC broadcast",
+      "sourceUrl": "https://orwell.ru/library/articles/totalitarianism/english/e_lat"
+    },
+    {
+      "text": "whoever feels the value of literature, whoever sees the central part it plays in the development of human history, must also see the life and death necessity of resisting totalitarianism, whether it is imposed on us from without or from within.",
+      "quoteType": "published-writing",
+      "context": "Orwell stating the moral imperative for writers and intellectuals to resist totalitarianism",
+      "publicReaction": "Became a foundational statement for intellectuals defending freedom of expression against totalitarian regimes",
+      "date": "1941",
+      "source": "Literature and Totalitarianism, BBC broadcast",
+      "sourceUrl": "https://orwell.ru/library/articles/totalitarianism/english/e_lat"
+    },
+    {
+      "text": "NOT intended as an attack on Socialism or on the British Labour Party (of which I am a supporter) but as a show up of the perversions to which a centralized economy is liable and which have already been partly realized in Communism and Fascism",
+      "quoteType": "letter",
+      "context": "Orwell clarifying the political intent of his novel 1984 to a labor union official, six months before his death",
+      "publicReaction": "The statement contradicted many conservatives who cited 1984 as an anti-socialist tract; it clarified Orwell's commitment to democratic socialism",
+      "date": "1949",
+      "source": "Letter from George Orwell to Francis A. Henson of the United Auto Workers, July 1949",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four"
+    },
+    {
+      "text": "I was sometimes unfaithful to Eileen, and I also treated her badly, and I think she treated me badly, too, at times, but it was a real marriage, in the sense that we had been through awful struggles together and she understood all about my work.",
+      "quoteType": "letter",
+      "context": "Orwell reflecting on his first marriage to Eileen O'Shaughnessy after her death in 1945",
+      "publicReaction": "Archivists and biographers cited this as important evidence of Orwell's emotional complexity and his wife's role in his development as a writer",
+      "date": "1946-1948",
+      "source": "Letter from George Orwell to Ann Popham, George Orwell Archive, University College London",
+      "sourceUrl": "https://www.ucl.ac.uk/library/digital-collections/collections/orwell"
+    },
+    {
+      "text": "the sinister fact about literary censorship in England is that it is largely voluntary",
+      "quoteType": "published-writing",
+      "context": "Orwell explaining why Animal Farm was rejected by multiple publishers: self-censorship driven by fear of public opinion rather than government coercion",
+      "publicReaction": "Cited by scholars as a key analysis of how totalitarianism operates through intellectual cowardice rather than force alone",
+      "date": "1945",
+      "source": "Proposed Preface to Animal Farm (The Freedom of the Press), first published in The Times Literary Supplement, September 15, 1972",
+      "sourceUrl": "https://www.marxists.org/archive/orwell/1945/preface.htm"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Harry Beck",
+  "slug": "harry-beck",
+  "trainCount": 5,
+  "testCount": 2,
+  "avgScores": {
+    "voiceFidelity": 3,
+    "contentFidelity": 3.5,
+    "plausibility": 3
+  },
+  "testResults": [
+    {
+      "context": "Beck's humorous term for the curved, winding lines of the previous geographically-accurate Underground map that he replaced with straight lines and geometric angles.",
+      "actualText": "vermicelli",
+      "actualReaction": "The characterization demonstrates Beck's wit and clear aesthetic judgment regarding the inadequacies of the existing design.",
+      "generatedText": "I always thought of the old map as a plate of spaghetti. All those lines wandering about, following the actual curve of the tunnels, as if a passenger standing in a station needed to know that the railway bent this way and that under some street or other. It seemed to me that nobody riding a train underground could see any of that anyway, so there was no sense preserving it. I set about straightening the spaghetti out.",
+      "scores": {
+        "voiceFidelity": 3,
+        "contentFidelity": 4,
+        "plausibility": 3,
+        "rationale": "The actual historical statement was a single, terse witty word \u2014 \"vermicelli\" \u2014 capturing Beck's dry humor in one stroke. The AI-generated version reaches for the same core image (pasta-like winding lines vs. the passenger's irrelevant need to know actual tunnel curvature) and lands on essentially the right concept, substituting \"spaghetti\" for \"vermicelli\" \u2014 close but not the actual word, and elaborated into several explanatory sentences rather than Beck's characteristic economy. Content fidelity is strong: it correctly conveys the aesthetic judgment that geographic accuracy was pointless for underground passengers, matching the \"wit and clear aesthetic judgment\" reaction described. But voice fidelity suffers because Beck's real wit was in the compression of a single evocative noun, whereas the generated statement over-explains the joke, undercutting the terseness that made the original land as witty. Plausibility is moderate: the sentiment and reasoning are very much in keeping with Beck's known design philosophy, but the verbose, self-narrating style reads more like a modern paraphrase than an actual period quote, and the wrong pasta word is a specific, checkable mismatch."
+      }
+    },
+    {
+      "context": "Official attribution statement that began appearing on every London Underground map from 1997 onwards, 23 years after Beck's death, formally acknowledging his fundamental contribution.",
+      "actualText": "This diagram is an evolution of the original design conceived in 1931 by Harry Beck.",
+      "actualReaction": "This posthumous recognition by London Transport provided long-overdue official acknowledgment of Beck's pioneering work, though it came decades after his struggles with the organization.",
+      "generatedText": "I never asked for my name to appear on the thing. I made a diagram to help people find their way, and if it did that, the credit seemed beside the point. Still, it's a tidy sort of gesture, coming after so long \u2014 the sort of detail you'd add once you were satisfied it was accurate. I should have thought it a fair way to leave it.",
+      "scores": {
+        "voiceFidelity": 3,
+        "contentFidelity": 3,
+        "plausibility": 3,
+        "rationale": "The actual \"statement\" is not Beck's own words at all \u2014 it's London Transport's terse 1997 attribution line (\"an evolution of the original design conceived in 1931 by Harry Beck\"), issued 23 years posthumously. There is no real Beck quote to match against, so this is inherently a speculative exercise, and the AI statement is judged mainly on plausibility of tone and stance rather than fidelity to actual wording.\n\nContent: the generated line does capture the key facts embedded in the context \u2014 the lateness (\"coming after so long\"), the posthumous nature, and Beck's documented practical/functional orientation (\"I made a diagram to help people find their way\"). That much tracks the real reaction described (overdue official acknowledgment). But it overshoots into a resigned, magnanimous acceptance (\"I should have thought it a fair way to leave it\") that sits oddly against the well-documented historical record of Beck's real bitterness \u2014 he felt sidelined and under-credited by London Transport in his lifetime, was dropped from revising his own map in the 1960s, and reportedly resented this. A statement more consistent with the historical Beck might carry some edge or irony rather than serene equanimity, so contentFidelity is only moderate.\n\nVoice: the flat, practical framing (\"if it did that, the credit seemed beside the point\") is plausible for an engineer-diagrammatist who prized clarity over ego, but the closing clauses (\"the sort of detail you'd add once you were satisfied it was accurate... a fair way to leave it\") read as more literary and rhetorically polished than Beck's known plain, technical register, so it feels slightly performed rather than authentically his voice.\n\nPlausibility: as an invented deathbed-adjacent reflection it reads coherently and could pass as a generous, publicity-friendly gloss, but its untroubled serenity about credit is the least defensible part given what's actually known about how Beck felt about being overlooked."
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "name": "Benjamin Franklin",
+  "slug": "benjamin-franklin",
+  "trainCount": 16,
+  "testCount": 4,
+  "avgScores": {
+    "voiceFidelity": 4.5,
+    "contentFidelity": 4.5,
+    "plausibility": 4.25
+  },
+  "testResults": [
+    {
+      "context": "A proverb in Poor Richard's Almanack continuing Franklin's emphasis on the value of time as the fundamental substance of human existence.",
+      "actualText": "Dost thou love life? Then do not squander Time; for that's the stuff life is made of.",
+      "actualReaction": "Became widely quoted in discussions of mortality, time management, and the proper use of human life.",
+      "generatedText": "Dost thou love Life? then do not squander Time, for that's the Stuff Life is made of. The Sun will set whether thou hast used the day or lost it, and no Purse of Gold will buy back a single Hour once spent. He that idles away one Day dies rich in Nothing but Regret; but he that hoards his Minutes as a Miser hoards his Coin shall find, at the Year's End, a fair Estate of Deeds well done.",
+      "scores": {
+        "voiceFidelity": 5,
+        "contentFidelity": 5,
+        "plausibility": 4,
+        "rationale": "The AI statement opens by reproducing the actual quotation verbatim (\"Dost thou love Life? then do not squander Time, for that's the Stuff Life is made of\"), so voice and content match perfectly for that portion \u2014 same archaic diction (\"Dost thou\"), same aphoristic economy, same core thesis that time is the substance of life. The added material extends in a consistent Franklin register: mercantile/financial metaphors (Purse of Gold, hoards his Minutes as a Miser hoards his Coin, a fair Estate of Deeds), which is very true to Poor Richard's characteristic conflation of thrift-of-money with thrift-of-time (cf. \"Time is Money,\" \"lost time is never found again\"). This keeps voiceFidelity and contentFidelity high. Plausibility is docked slightly to 4 because the real Poor Richard's proverb is a single terse epigram \u2014 Franklin's almanac maxims were typically one-liners, not the extended, multi-clause elaboration given here (three additional sentences with parallel miser/estate imagery). That expansiveness, while stylistically consistent, is somewhat longer and more elaborated than the clipped aphoristic form Franklin actually used, making it slightly less likely as a verbatim historical passage even though it reads convincingly as \"Franklin-esque.\""
+      }
+    },
+    {
+      "context": "A proverb in Poor Richard's Almanack reflecting Franklin's emphasis on self-reliance and industry. Note: The English political theorist Algernon Sidney originated this specific wording, which Franklin adopted and popularized.",
+      "actualText": "God helps them that help themselves.",
+      "actualReaction": "Became one of the most famous American aphorisms, widely quoted as a principle of American self-reliance and individualism, though often mistakenly attributed as a biblical quote.",
+      "generatedText": "God helps them that help themselves. Sit still, and wish, ye have no other harvest; the sleeping fox catches no poultry. He that would rise in the world must not lie snoring in it, for diligence is the mother of good luck, and industry pays debts while despair increaseth them.",
+      "scores": {
+        "voiceFidelity": 5,
+        "contentFidelity": 5,
+        "plausibility": 5,
+        "rationale": "The generated statement opens with the exact actual quote verbatim (\"God helps them that help themselves\") and extends it with a string of authentic-sounding Poor Richard's Almanack aphorisms on the same theme of industry and self-reliance (\"the sleeping fox catches no poultry,\" \"diligence is the mother of good luck,\" \"he that would rise in the world must not lie snoring in it\"). These phrasings closely mirror real Franklin proverbs (e.g., \"Plough deep while sluggards sleep,\" \"diligence is the mother of good luck\" is an actual Franklin line), so the voice\u2014terse, moralizing, agrarian-metaphor-laden aphorism\u2014is a near-perfect match. Content fidelity is essentially exact since it reproduces the target quote itself and reinforces the identical self-reliance/industry theme without contradiction. Plausibility is very high: this reads exactly like a compiled excerpt from Poor Richard's Almanack, where such maxims were strung together in sequence, making it easily mistakable for a genuine period text."
+      }
+    },
+    {
+      "context": "From Franklin's autobiography, describing his youthful realization about the importance of honest dealing and virtue in achieving happiness and success.",
+      "actualText": "I grow convinc'd that truth, sincerity and integrity in dealings between man and man were of the utmost importance to the felicity of life.",
+      "actualReaction": "Cited extensively in discussions of American values and business ethics, representing foundational principles of Franklin's philosophy.",
+      "generatedText": "I early perceived that Honesty was not less necessary to my Advancement in the World than to the Peace of my own Mind, and I resolv'd to practice it, not merely as the safest Policy, but as the surest Foundation of a good Name. For I observ'd that Vice, however gilded, was but a Counterfeit Coin that would in time be discover'd and refus'd in the Currency of Life, while Virtue, tho' slow of Circulation, was ever receiv'd at full Value. I therefore drew up a little Scheme of Conduct, judging that he who would be trusted with much, must first shew himself faithful in little; and I found, upon Tryal, that Probity and Diligence, join'd together, open more Doors than either Wit or Fortune alone.",
+      "scores": {
+        "voiceFidelity": 3,
+        "contentFidelity": 4,
+        "plausibility": 3,
+        "rationale": "The actual line is a single, plain, almost offhand clause \u2014 \"I grow convinc'd that truth, sincerity and integrity... were of the utmost importance to the felicity of life\" \u2014 characteristic of the Autobiography's understated retrospective tone. The AI version instead produces an elaborate, multi-sentence set-piece stacked with extended metaphors (counterfeit coin vs. currency of life, doors opened by probity and diligence, a biblical paraphrase about being \"faithful in little\"). That aphoristic, proverb-forging register is more evocative of Poor Richard's Almanack than of this specific autobiographical passage, so it overshoots the actual voice even though it uses period spelling and syntax competently \u2014 hence a middling voiceFidelity. Content-wise it lands well: it preserves the core idea that honesty serves both worldly advancement and inner peace, echoing \"felicity of life\" and the dealing-between-man-and-man theme, plus adds the authentic-to-Franklin detail of drawing up \"a little Scheme of Conduct\" (paralleling his real virtue project), so contentFidelity is high. Plausibility is middling: individual turns of phrase feel like invented maxims rather than something lifted from his actual prose in this passage, so while it's recognizably Franklin-adjacent, it reads as more ornate and moralistic than the terse, matter-of-fact original."
+      }
+    },
+    {
+      "context": "From Franklin's letter describing his electrical experiments, published in the Pennsylvania Gazette on October 19, 1752. This letter was later read before the Royal Society of London and published in Philosophical Transactions.",
+      "actualText": "We have been able to produce the Electricity in greater and greater Quantities, so as by Recharged Electrical Bottles we are enabled to Kill small Animals, fire Spirits, melt Metals, &c.",
+      "actualReaction": "Franklin's electrical research gained him international scientific recognition. His letters were published by the Royal Society and translated into multiple languages, establishing his reputation as a major natural philosopher.",
+      "generatedText": "As soon as any of the thunder clouds come over the kite, the pointed wire will draw the electric fire from them, and the kite, with all the twine, will be electrified, and the loose filaments of the twine will stand out every way, and be attracted by an approaching finger. And when the rain has wetted the kite and twine, so that it can conduct the electric fire freely, you will find it stream out plentifully from the key on the approach of your knuckle. At this key the phial may be charged; and from electric fire thus obtained, spirits may be kindled, and all the other electric experiments performed, which are usually done by the help of a rubbed glass globe or tube, and thereby the sameness of the electric matter with that of lightning completely demonstrated.",
+      "scores": {
+        "voiceFidelity": 5,
+        "contentFidelity": 4,
+        "plausibility": 5,
+        "rationale": "The generated text is essentially Franklin's own real prose (near-verbatim from his famous kite-experiment account in the letter to Peter Collinson, part of the same 1752 electrical correspondence), so voice and plausibility are near-perfect matches to his actual diction, syntax, and self-demonstrating style ('the electric fire,' 'phial may be charged,' experimental itemizing). Content overlaps substantially with the cited actual quote \u2014 both describe charging a bottle/phial and using the stored charge to kindle/'fire' spirits, and both serve Franklin's core argument that electricity from the bottle is identical to lightning \u2014 but the AI passage centers on the kite-drawing-fire-from-clouds narrative rather than the specific 'Kill small Animals... melt Metals' list in the target quote, so it's a closely related but not identical passage from the same broader letter/experiment cycle."
+      }
+    }
+  ]
+}

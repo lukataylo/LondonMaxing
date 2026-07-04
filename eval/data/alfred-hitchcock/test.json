@@ -1,0 +1,42 @@
+{
+  "name": "Alfred Hitchcock",
+  "slug": "alfred-hitchcock",
+  "items": [
+    {
+      "text": "Man does not live by murder alone... he needs affection, approval, encouragement and, occasionally, a hearty meal. Tonight, you have provided me with three... out of four. Anxiety strangled my appetite!",
+      "quoteType": "speech",
+      "context": "Opening remarks in which Hitchcock humorously acknowledged the honors being bestowed upon him while maintaining his characteristic wit about human psychology and fear.",
+      "publicReaction": "The speech was well-received for its blend of humor, self-deprecation, and gratitude, with the closing tribute to his wife becoming the most memorable part.",
+      "date": "March 7, 1979",
+      "source": "AFI Life Achievement Award (Irving G. Thalberg Memorial Award) ceremony, American Film Institute",
+      "sourceUrl": ""
+    },
+    {
+      "text": "I am a typed director. If I made Cinderella, the audience would immediately be looking for a body in the coach.",
+      "quoteType": "interview",
+      "context": "Hitchcock discussing how his personal brand and reputation shaped audience expectations for any film he made, regardless of genre.",
+      "publicReaction": "This statement became widely cited to explain Hitchcock's recognition as an auteur and how public perception of a director's style influences audience reception.",
+      "date": "1960s",
+      "source": "Wikiquote sources indicate publication in multiple interviews and writings, though original source requires verification",
+      "sourceUrl": ""
+    },
+    {
+      "text": "In the documentary the basic material has been created by God, whereas in the fiction film the director is a God; he must create life.",
+      "quoteType": "interview",
+      "context": "Distinction between documentary and narrative filmmaking, reflecting on the director's role and responsibility in creating fictional worlds.",
+      "publicReaction": "This statement became influential in film theory and philosophy, establishing Hitchcock as a theorist of the director's creative power.",
+      "date": "1960s",
+      "source": "Attributed to Hitchcock interviews and writings on film theory",
+      "sourceUrl": ""
+    },
+    {
+      "text": "Nobody has a sense of humor anymore.",
+      "quoteType": "interview",
+      "context": "Complaint made during the release of Frenzy in 1972, expressing Hitchcock's observation about contemporary culture and sensibilities.",
+      "publicReaction": "The statement generated discussion about cultural changes and generational differences in humor appreciation.",
+      "date": "1972",
+      "source": "TIME Magazine interview (Frenzy release)",
+      "sourceUrl": ""
+    }
+  ]
+}

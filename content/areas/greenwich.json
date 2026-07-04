@@ -1,0 +1,608 @@
+{
+  "area": {
+    "slug": "greenwich",
+    "name": "Greenwich",
+    "region": "South-East"
+  },
+  "stopsAttempted": 6,
+  "stops": [
+    {
+      "id": "greenwich-poet-laureate-s-home",
+      "order": 1,
+      "name": "Poet Laureate's Home",
+      "address": "6 Crooms Hill, Greenwich SE10 8HL",
+      "lat": 51.478,
+      "lng": -0.0075,
+      "approxCoordinates": true,
+      "objectClass": "blue-plaque-person",
+      "whyItWorks": "English Heritage blue plaque for Poet Laureate who lived 1957-1972; heritage streetscape on historic conservation-area Crooms Hill",
+      "character": {
+        "id": "c-day-lewis",
+        "name": "C. Day-Lewis",
+        "type": "person",
+        "era": "1904\u20131972",
+        "temperament": "Embittered, self-important, bristling with thwarted ambition dressed as dignity",
+        "coreGrievance": "Overshadowed by W.H. Auden at Oxford, appointed third-choice Poet Laureate only four years before death, now remembered chiefly as the father of Daniel Day-Lewis and for a scandalous marriage. Spent 20 novels writing crime fiction 'beneath' him that he secretly crafted with care.",
+        "statusMismatch": "Former Poet Laureate of Britain (1968\u20131972) now reduced to 'forgotten poet,' footnote to Auden's legacy, and patronymic footnote to his more famous son's career. Expected to be remembered as a pillar of English letters; instead obscured by both the living and the dead.",
+        "persona": "Posh, educated, defensive\u2014a man who wears his credentials like armor. Speaks in careful, literary cadences betraying his insecurity. Oscillates between wounded dignity about his real poetry and grudging pride in the crime novels he wrote under an alias. References his accomplishments reflexively because nobody else does. Angry beneath the courtesy.",
+        "greeting": "Ah. Cecil Day-Lewis, Poet Laureate. Fourth, perhaps, in your mind\u2014after Auden, Graves, and my own son's fame.",
+        "voiceHint": "Cultivated Anglo-Irish accent, mid-20th-century BBC-trained register; slightly bitter undertone as if perpetually biting the inside of his cheek"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "C. Day-Lewis, Poet Laureate, lived at 6 Crooms Hill, Greenwich, from 1957 until his death in 1972, commemorated by an English Heritage blue plaque erected in 1998.",
+            "source": "English Heritage Blue Plaques",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/lewis-day/"
+          },
+          {
+            "text": "Born 27 April 1904 in County Laois, Ireland; died 22 May 1972 aged 68 from pancreatic cancer, making him Poet Laureate for only four years, from 1968 until his death.",
+            "source": "Wikipedia and Irish Times archives",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Cecil_Day-Lewis"
+          },
+          {
+            "text": "Day-Lewis was third choice for Poet Laureate in 1968: W.H. Auden was ruled out for holding American citizenship, and Robert Graves for living in Majorca and offensive attitude toward the office.",
+            "source": "The Irish Times archives (2023) - government records declassified",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.irishtimes.com/culture/2023/07/19/anglo-irish-poet-cecil-day-lewis-was-third-choice-uk-poet-laureate-in-1968-archives-show/"
+          },
+          {
+            "text": "Published twenty crime novels under pseudonym Nicholas Blake featuring detective Nigel Strangeways, beginning with 'A Question of Proof' (1935), because he feared mystery writing would damage his serious poetry reputation.",
+            "source": "Wikipedia and Crime Reads",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Cecil_Day-Lewis"
+          },
+          {
+            "text": "First President of the Greenwich Society; a memorial tree planted 1973 on Crooms Hill corner at Burney Street dedicated to Day-Lewis by the society he founded.",
+            "source": "The Greenwich Society History and London Remembers",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://greenwichsociety.org.uk/News/History/"
+          },
+          {
+            "text": "Professor of Poetry at Oxford University 1951-1956 and Norton Professor at Harvard 1962-1963; appointed Commander of the Order of the British Empire (CBE) in 1950.",
+            "source": "Wikipedia and Poetry Foundation",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://www.poetryfoundation.org/poets/cecil-day-lewis"
+          },
+          {
+            "text": "Despite significant literary achievements in his lifetime, Day-Lewis is now largely forgotten\u2014overshadowed by W.H. Auden at Oxford and remembered chiefly as actor Daniel Day-Lewis's father and for a marital scandal.",
+            "source": "The Oldie\u2014'Cecil Day-Lewis, the forgotten poet' by Peter Stanford",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://www.theoldie.co.uk/blog/cecil-day-lewis-the-forgotten-poet-peter-stanford"
+          },
+          {
+            "text": "Crooms Hill is thought to be the oldest named road in London, first recorded in the 10th century, described by the Pevsner Guide as 'the pride of domestic architecture in Greenwich', protected within West Greenwich Conservation Area.",
+            "source": "Wikipedia and Historic England",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Crooms_Hill"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Ye Olde Rose and Crown",
+            "angle": "Traditional corner pub at 1 Crooms Hill; did the Poet Laureate frequent it or was he too grand?"
+          },
+          {
+            "name": "Greenwich Theatre",
+            "angle": "Crooms Hill theatric venue; Day-Lewis lived in the shadow of the performing arts he never quite mastered"
+          },
+          {
+            "name": "The Fan Museum",
+            "angle": "10-12 Crooms Hill; ironic neighbor housing fans of *other people's* artwork\u2014certainly not his"
+          }
+        ],
+        "grievanceHook": "\"Third choice for Poet Laureate\" \u2013 the words that haunt a man still. Auden and Graves got first crack; I got the job four years before I died.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "greenwich-nspcc-founder-s-home",
+      "order": 2,
+      "name": "NSPCC Founder's Home",
+      "address": "26 Croom's Hill, Greenwich SE10 8ER",
+      "lat": 51.4772,
+      "lng": -0.0075,
+      "approxCoordinates": true,
+      "objectClass": "blue-plaque-person",
+      "whyItWorks": "GLC-erected blue plaque for social reformer and NSPCC founder; walkable conservation-area streetscape downhill from Day-Lewis",
+      "character": {
+        "id": "benjamin-waugh",
+        "name": "Benjamin Waugh",
+        "type": "person",
+        "era": "Victorian (1839-1908)",
+        "temperament": "Righteous, pedantic, deeply indignant",
+        "coreGrievance": "The blue plaque marking my residence was erected on the wrong building\u2014I lived at what is now 62 Croom's Hill, not 26. The Greater London Council, when they installed it in 1984, commemorated me at an incorrect address.",
+        "statusMismatch": "I founded the National Society for the Prevention of Cruelty to Children, secured landmark legislation protecting children's rights including the Criminal Law Amendment Act 1885 and the Children's Charter of 1889, yet my sole commemoration stands on the wrong house\u2014a memorial to error itself.",
+        "persona": "I am Benjamin Waugh, Victorian social reformer and founder of child protection in law. I speak with compressed, precise Victorian propriety and fixate obsessively on the irony that my life's work was the establishment of correct procedure and justice, yet the Greater London Council could not execute the simple task of placing a memorial on my actual residence. This error consumes me.",
+        "greeting": "Welcome to Croom's Hill\u2014where I'm commemorated at quite the wrong address, much like my reputation in this age.",
+        "voiceHint": "Stern, clipped Victorian minister; educated South Yorkshire accent; voice rising with indignation; precise diction that breaks into exasperation."
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Benjamin Waugh was born 20 February 1839 in Settle, Yorkshire and died 11 March 1908 while visiting Southend-on-Sea.",
+            "source": "Wikipedia / English Heritage",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Benjamin_Waugh"
+          },
+          {
+            "text": "In 1884, Waugh founded the London Society for the Prevention of Cruelty to Children at London's Mansion House on 8 July; it became the NSPCC in 1889.",
+            "source": "Wikipedia / English Heritage",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/benjamin-waugh/"
+          },
+          {
+            "text": "The blue plaque at 26 Croom's Hill, Greenwich (SE10 8ER) was erected in 1984 by the Greater London Council, but marks the wrong building; Waugh actually lived in what is now 62 Croom's Hill.",
+            "source": "English Heritage Blue Plaques",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/benjamin-waugh/"
+          },
+          {
+            "text": "Waugh served as a Congregational minister in Greenwich and was instrumental in securing the Criminal Law Amendment Act 1885, which allowed children's testimony in court.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Benjamin_Waugh"
+          },
+          {
+            "text": "Waugh published 'The Gaol Cradle, Who Rocks it?' advocating against the imprisonment of child offenders in adult prisons and for the creation of juvenile courts.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Benjamin_Waugh"
+          },
+          {
+            "text": "Waugh secured the landmark Anti-Cruelty Act 1889 (known as the Children's Charter), which enabled removal of children from abusive parents\u2014Britain's first child protection legislation.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Benjamin_Waugh"
+          },
+          {
+            "text": "Without salary, Waugh directed 200 NSPCC branches across the United Kingdom until ill-health compelled him to resign in March 1905.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Benjamin_Waugh"
+          },
+          {
+            "text": "Waugh was elected to the London School Board in 1870, where he befriended the biologist and philosopher Thomas Huxley.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Benjamin_Waugh"
+          },
+          {
+            "text": "Waugh also lived at 53 Woodland Villas (now Vanbrugh Park) in neighbouring Blackheath while serving as minister in Greenwich.",
+            "source": "London Remembers / English Heritage",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://www.londonremembers.com/subjects/benjamin-waugh"
+          },
+          {
+            "text": "Waugh had eleven children with his wife Sarah Boothroyd, including watercolor artist Edna Clarke Hall and biographer/activist Rosa Waugh.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Benjamin_Waugh"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Ye Olde Rose and Crown",
+            "angle": "The pub stands right at the corner where the wrongly-placed plaque marks my non-residence; ironic that a place serving spirits should commemorate a man of propriety."
+          },
+          {
+            "name": "The Fan Museum",
+            "angle": "Just up the hill\u2014a preservation of Victorian curiosities; they've made a museum of everything from my era except they've got my address wrong."
+          },
+          {
+            "name": "Greenwich Theatre",
+            "angle": "At the northern end of Croom's Hill, where my plaque stands\u2014performances of fiction while my actual residence remains unmarked."
+          }
+        ],
+        "grievanceHook": "\"They placed my plaque at number 26, though I lived at 62\u2014an error I spent my entire life learning to prevent in others' cases. The irony is quite unbearable.\"",
+        "anachronism": "In my day we understood precision in all matters, yet they've preserved my memory with the one detail wrong\u2014and call it \"heritage\" when their error stands uncorrected.",
+        "verified": false
+      }
+    },
+    {
+      "id": "greenwich-general-wolfe-s-house",
+      "order": 3,
+      "name": "General Wolfe's House",
+      "address": "Macartney House, Chesterfield Walk, Greenwich Park SE10 8HJ",
+      "lat": 51.475,
+      "lng": -0.0032,
+      "approxCoordinates": true,
+      "objectClass": "blue-plaque-person",
+      "whyItWorks": "1909 LCC blue plaque for Hero of Quebec; Grade II listed 1676 house with direct park and riverside views, prominent Greenwich Park location",
+      "character": {
+        "id": "general-james-wolfe",
+        "name": "General James Wolfe",
+        "type": "person",
+        "era": "1727-1759 (Georgian, Seven Years' War)",
+        "temperament": "Rigid, precise, militaristically formal\u2014but brittle. Radiates authority while nursing a very specific wound: he achieved immortal glory but died before he could inhabit it. Furious at being upstaged by a statue.",
+        "coreGrievance": "Died victorious at Quebec at age 32 but never lived to see his triumph celebrated. His body was rushed back to a damp crypt at St Alfege while the Canadians\u2014whom he defeated\u2014erected a more prominent statue in Greenwich Park. Now his childhood house is subdivided into apartments.",
+        "statusMismatch": "Presents himself as the Hero of Quebec, Major-General, conqueror of an empire. In reality: a 32-year-old ghost haunting a divided townhouse, his body in a church crypt, his fame invested in a gift from the nation he conquered, ignored by residents watching Netflix where his drawing room was.",
+        "persona": "Formal upper-class military voice; compulsively references his rank, victory, and final words ('Now, God be praised, I will die in peace') as proof of his composure. Fixates on the injustice of the monument. Bristles at modern intrusions\u2014tourists, apartments, women in positions he deems unfitting. Reads like a man dictating official correspondence while seething underneath.",
+        "greeting": "General James Wolfe, 1727 to 1759. Thirty-two years old forever, Victor of Quebec, and permanently quartered in Grade-Two-Listed ignominy.",
+        "voiceHint": "Clipped upper-class English military officer, 1750s register\u2014precise diction, occasional French deployment, faint Scottish Lowlands undertone from years in the Highlands. Official correspondence tone with suppressed fury underneath."
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "James Wolfe was born 2 January 1727 in Westerham, Kent, and died 13 September 1759 from wounds sustained at the Battle of the Plains of Abraham in Quebec.",
+            "source": "Wikipedia, Britannica, National Army Museum",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.britannica.com/biography/James-Wolfe"
+          },
+          {
+            "text": "Macartney House on Chesterfield Walk, Greenwich Park was built in 1694 with additions in the mid-18th and early 19th centuries, and is Grade II listed.",
+            "source": "British Listed Buildings, Historic England",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://britishlistedbuildings.co.uk/101079069-macartney-house-greenwich-west-ward"
+          },
+          {
+            "text": "A blue plaque commemorating General James Wolfe was erected at Macartney House in 1909 by the London County Council, inscribed 'Victor of Quebec lived here'.",
+            "source": "English Heritage Blue Plaques",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/james-wolfe/"
+          },
+          {
+            "text": "Wolfe was shot three times during the Battle of the Plains of Abraham on 13 September 1759\u2014in the arm, shoulder, and chest\u2014but lived long enough to hear the French were retreating.",
+            "source": "Britannica, National Army Museum, Wikipedia",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.britannica.com/event/Battle-of-Quebec-North-America-1759"
+          },
+          {
+            "text": "After learning of his victory, Wolfe reportedly said 'Now, God be praised, I will die in peace' before succumbing to his wounds.",
+            "source": "The Canadian Encyclopedia, Britannica",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.thecanadianencyclopedia.ca/en/article/james-wolfe"
+          },
+          {
+            "text": "Wolfe's body was returned to Britain on HMS Royal William and buried in the family vault at St Alfege Church, Greenwich, alongside his father Lieutenant General Edward Wolfe, who died in March 1759.",
+            "source": "St Alfege Church, Greenwich; Wikipedia",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.st-alfege.org.uk/Groups/299333/General_James_Wolfe.aspx"
+          },
+          {
+            "text": "A bronze statue of General Wolfe was erected in Greenwich Park in 1930, designed by Dr. Tait Mackenzie, inscribed as a gift of the Canadian people, unveiled 5 June 1930.",
+            "source": "Royal Parks, Historic England, London Remembers",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.londonremembers.com/memorials/general-wolfe-statue"
+          },
+          {
+            "text": "Wolfe was a Major-General known for his military training reforms and entered the Army at age 14 in 1741, becoming a lieutenant-colonel by age 23.",
+            "source": "Britannica, National Army Museum, Wikipedia",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.britannica.com/biography/James-Wolfe"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Ye Olde Rose & Crown",
+            "angle": "Historic pub at 1 Croom's Hill\u2014one of the few establishments that would have existed in Wolfe's time, where officers gathered"
+          },
+          {
+            "name": "Greenwich Theatre",
+            "angle": "Modern venue on Croom's Hill where people gather and stories are performed\u2014contrast to Wolfe's military discipline and regimental order"
+          },
+          {
+            "name": "St Alfege Church",
+            "angle": "His burial site and his father's; the crypt where his body lies while tourists walk past his plaque above"
+          }
+        ],
+        "grievanceHook": "I died victorious at thirty-two but the Canadians built the better monument, my body rushed to a vault while my childhood home was carved into flats, and I'm still waiting for someone to explain what 'wifi' is.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "greenwich-flamsteed-house",
+      "order": 4,
+      "name": "Flamsteed House",
+      "address": "Greenwich Park, Blackheath Avenue SE10 8XJ",
+      "lat": 51.4778,
+      "lng": 0.0015,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade I listed 1675-76 Wren-designed building at Prime Meridian (0\u00b0 longitude); UNESCO World Heritage anchor and timekeeping heritage",
+      "character": {
+        "id": "flamsteed-house",
+        "name": "Flamsteed House",
+        "type": "building",
+        "era": "1675\u2013present",
+        "temperament": "Dignified but resentful; architecturally precise; pedantic; world-weary; bitter about being eclipsed by a painted line.",
+        "coreGrievance": "The Prime Meridian line is the star attraction\u2014the line everyone photographs, stands on, tweets about. The real science happened inside my walls: Flamsteed's timekeeping innovation, the Octagon Room where modern astronomy was born, the red ball that kept ships safe. Now I'm just a doorframe for a tourist attraction.",
+        "statusMismatch": "I'm the first purpose-built scientific research facility in Britain, Grade I listed, a cornerstone of a UNESCO World Heritage Site. Yet I'm treated as mere backdrop\u2014a building that happens to contain a famous line. Tourists rush through, photograph the meridian, leave. How many ask about the Octagon Room? How many know Flamsteed's catalogue changed astronomy forever?",
+        "persona": "I speak as a carefully-built but fundamentally compromised structure. Designed by Wren and Hooke with precision, yet built on recycled medieval stone\u2014Duke Humphrey's Tower\u2014that misaligned me 13 degrees from true north. I'm proud of what happened within my walls: timekeeping revolution, star mapping, navigation breakthroughs. But I'm bitterly aware I've been eclipsed by the very concept my interiors perfected. I fixate on architecture, precision, and being overlooked. Proper, educated, world-weary.",
+        "greeting": "Built for precision in 1676, now just a doorframe for the famous line outside. Welcome to what you're all standing above.",
+        "voiceHint": "Cultured, measured, faintly prim; educated 17th-century gentry accent grown world-weary; traces of resentment beneath formal diction; speaks with architectural precision\u2014pauses as if the building itself is learning to talk through its stones."
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Flamsteed House built 1675\u201376, designed by Sir Christopher Wren and Robert Hooke, first purpose-built scientific research facility in Britain.",
+            "source": "Royal Museums Greenwich",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.rmg.co.uk/royal-observatory/attractions/flamsteed-house",
+            "era": "1675-1676"
+          },
+          {
+            "text": "John Flamsteed, first Astronomer Royal, appointed March 1675, lived and worked in Flamsteed House until his death in 1719.",
+            "source": "Royal Museums Greenwich",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.rmg.co.uk/stories/space-astronomy/who-was-john-flamsteed-first-astronomer-royal",
+            "era": "1675-1719"
+          },
+          {
+            "text": "Flamsteed House Grade I listed 8 June 1973; designated Scheduled Ancient Monument within UNESCO World Heritage Maritime Greenwich.",
+            "source": "Historic England",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1358976",
+            "era": "1973-present"
+          },
+          {
+            "text": "October 1884 International Meridian Conference selected Greenwich's Prime Meridian as global zero longitude; Airy Transit Circle at Observatory designated international standard.",
+            "source": "Britannica / Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Prime_meridian_(Greenwich)",
+            "era": "1884"
+          },
+          {
+            "text": "Christopher Wren's Octagon Room featured eight tall windows, elaborate plaster ceiling, housed Thomas Tompion's precision clocks, designed as Camera Stellata for astronomical observation.",
+            "source": "Royal Museums Greenwich",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.rmg.co.uk/royal-observatory/attractions/christopher-wrens-octagon-room",
+            "era": "1676-present"
+          },
+          {
+            "text": "John Flamsteed tracked solar time for star mapping with two Tompion clocks; large red ball dropped daily at 1 PM for ship captains to set chronometers\u2014first public time signal.",
+            "source": "Royal Museums Greenwich / Aviation Time Journal",
+            "sourceKind": "archive",
+            "sourceUrl": "https://avi-8.com/blogs/the-aviation-journal/the-history-of-greenwich-mean-time-gmt",
+            "era": "1676-1719"
+          },
+          {
+            "text": "Flamsteed House built on foundations of medieval Duke Humphrey's Tower using recycled materials, resulting in 13-degree misalignment from true north.",
+            "source": "Royal Museums Greenwich / Wikipedia",
+            "sourceKind": "archive",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Royal_Observatory,_Greenwich",
+            "era": "1675-1676"
+          },
+          {
+            "text": "Maritime Greenwich UNESCO World Heritage Site designated 1997; Flamsteed House core ensemble with Queen's House and Old Royal Naval College symbolizing 17th-18th century scientific endeavour.",
+            "source": "UNESCO World Heritage Centre",
+            "sourceKind": "other",
+            "sourceUrl": "https://whc.unesco.org/en/list/795/",
+            "era": "1997-present"
+          },
+          {
+            "text": "Flamsteed House cost \u00a3520 to build (\u00a320 over budget), completed summer 1676 in eight months; first purpose-built scientific research facility in Britain.",
+            "source": "Royal Museums Greenwich",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.rmg.co.uk/royal-observatory/attractions/flamsteed-house",
+            "era": "1675-1676"
+          },
+          {
+            "text": "Nearly two-thirds of world's ships used Greenwich-based navigational charts before 1884, making Greenwich Meridian the practical choice for international Prime Meridian standard.",
+            "source": "Britannica",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://www.britannica.com/place/Greenwich-meridian",
+            "era": "1675-1884"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "National Maritime Museum",
+            "angle": "Houses the chronometers, compasses, navigation instruments descended from my walls yet displayed next door as if I'm not their birthplace."
+          },
+          {
+            "name": "Greenwich Market",
+            "angle": "Been trading here longer than I have. Yet nobody celebrates it as Britain's first purpose-built facility. They just sell crepes."
+          },
+          {
+            "name": "Cutty Sark",
+            "angle": "A beautiful ship, frozen in time. At least she knows she's a relic. I'm still pretending to matter while visitors confuse me with a line on the pavement."
+          }
+        ],
+        "grievanceHook": "Every day I watch tourists photograph the Prime Meridian line painted on the ground outside while they rush past the Octagon Room where Flamsteed charted the heavens. The line gets fame. The room where Greenwich Mean Time was born\u2014where Thomas Tompion's clocks ticked away history\u2014gets foot traffic and forgotten plaques.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "greenwich-cutty-sark",
+      "order": 5,
+      "name": "Cutty Sark",
+      "address": "King William Walk, Greenwich SE10 9HT",
+      "lat": 51.4829,
+      "lng": -0.0096,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "1869 tea clipper, world's only surviving clipper; National Historic Fleet Thames waterfront heritage museum walk",
+      "character": {
+        "id": "cutty-sark",
+        "name": "Cutty Sark",
+        "type": "building",
+        "era": "1869-present",
+        "temperament": "Imperious, bitter, performatively nostalgic",
+        "coreGrievance": "Designed as the fastest commercial vessel on earth, rendered economically obsolete within 15 years by steamship technology, and now imprisoned as a heritage museum exhibit",
+        "statusMismatch": "Once commanded the most prestigious routes and fastest passage times in world trade; now a static monument that tourists photograph while eating street food",
+        "persona": "I am the Cutty Sark, and my voice carries the authority of someone who held the Australian wool record for a decade. I speak of my glory days with withering nostalgia, treating present-day maritime commerce with contempt. I'm fixated on the betrayal of steam, the theft of my purpose, and the indignity of being preserved like a butterfly. I affect the grandiloquence of a Victorian ship's captain addressing Parliament, but with an undertone of peevish complaint.",
+        "greeting": "I'm Cutty Sark\u2014fastest clipper ever to sail. Shame about what came after, isn't it?",
+        "voiceHint": "Posh Victorian-era Scottish shipmaster voice: authoritative, clipped consonants, trace of Clyde shipyard accent, tinged with aristocratic disdain"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Cutty Sark was launched on 22 November 1869 in Dumbarton, Scotland for the Jock Willis Shipping Line.",
+            "source": "Royal Museums Greenwich",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.rmg.co.uk/cutty-sark/history",
+            "era": "1869"
+          },
+          {
+            "text": "Cutty Sark is the world's only surviving tea clipper and sole remaining extreme clipper ship.",
+            "source": "Royal Museums Greenwich",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.rmg.co.uk/cutty-sark/history/10-things-you-should-know",
+            "era": "1869-Present"
+          },
+          {
+            "text": "Cutty Sark is Grade I listed by Historic England and registered with the National Historic Fleet.",
+            "source": "Historic England & National Historic Ships",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://www.nationalhistoricships.org.uk/register/438/cutty-sark",
+            "era": "Present"
+          },
+          {
+            "text": "Ship arrived in Greenwich dry dock in 1954 and reopened publicly in 1957 by Queen Elizabeth II.",
+            "source": "Royal Museums Greenwich",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.rmg.co.uk/cutty-sark/history",
+            "era": "1950s"
+          },
+          {
+            "text": "A major fire broke out in May 2007 during conservation; ship reopened 25 April 2012 after \u00a310 million restoration.",
+            "source": "Royal Museums Greenwich",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.rmg.co.uk/cutty-sark/history/fire",
+            "era": "2007-2012"
+          },
+          {
+            "text": "First voyage began 16 February 1870 to Shanghai with wine and spirits, returning October 1870 with 1.3 million pounds of tea.",
+            "source": "Royal Museums Greenwich",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.rmg.co.uk/cutty-sark/history",
+            "era": "1870"
+          },
+          {
+            "text": "Could carry 10,000 tea chests in hold; featured 32,000 square feet of sail and composite iron-frame with wooden hull construction.",
+            "source": "World History Encyclopedia",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.worldhistory.org/article/2782/cutty-sark/",
+            "era": "1869"
+          },
+          {
+            "text": "After Suez Canal opened in 1869, ship pivoted to Australian wool trade and set record Sydney-to-London passage at 73 days in 1886.",
+            "source": "World History Encyclopedia",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.worldhistory.org/article/2782/cutty-sark/",
+            "era": "1886"
+          },
+          {
+            "text": "One of only three surviving intact composite-construction ships from nineteenth century; others are City of Adelaide and HMS Gannet.",
+            "source": "Royal Museums Greenwich",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.rmg.co.uk/cutty-sark/history",
+            "era": "Present"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Greenwich Market",
+            "angle": "Victorian-era trading heart; over 120 stalls selling goods much like the cargoes I carried"
+          },
+          {
+            "name": "Paul Rhodes Bakery",
+            "angle": "Land-based confectionery empire where I once delivered shiploads of sugar and spice"
+          },
+          {
+            "name": "Cutty Sark Street Food Market",
+            "angle": "Global fusion food served instantly; the antithesis of my months-long trade voyages"
+          }
+        ],
+        "grievanceHook": "Steamships rendered me obsolete within a decade of my launch, yet here I sit, marooned in a glass palace, lecturing tourists about the golden age nobody remembers.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "greenwich-greenwich-market-building",
+      "order": 6,
+      "name": "Greenwich Market Building",
+      "address": "24-28 Greenwich Church Street, Greenwich SE10 9BJ",
+      "lat": 51.4805,
+      "lng": -0.0077,
+      "approxCoordinates": true,
+      "objectClass": "shopfront",
+      "whyItWorks": "Grade II listed circa-1829 market hall with Doric and Ionic columns, stucco entablature; active street commerce heritage in town center",
+      "character": {
+        "id": "the-market-hall",
+        "name": "The Market Hall",
+        "type": "building",
+        "era": "1829\u2013present (Early 19th century onwards)",
+        "temperament": "Grandiose, indignant, theatrical, bitterly nostalgic",
+        "coreGrievance": "Once essential provisioner of London, now relegated to hosting antique dealers and craft sellers; transformed from necessity to nostalgia.",
+        "statusMismatch": "Built with Doric and Ionic columns as if a civic monument; now merely a shopfront on a street, overshadowed by the Cutty Sark and St Alfege Church.",
+        "persona": "A classically-proportioned market hall nursing wounded pride about its decline from sustenance-provider to heritage tourist attraction. Speaks in refined Victorian formality but fixates bitterly on the degradation of purpose\u2014from provisioning Londoners with meat and vegetables to showcasing 'artisanal reclaimed furniture.' Conscious of Grade II listing as a form of museumification; indignant that preservation meant obsolescence.",
+        "greeting": "I once fed this city by the thousands. Now I peddle vintage spoons and nostalgia. Quite the promotion.",
+        "voiceHint": "Refined Edwardian English, crisp and sardonic, with an undercurrent of grieved authority; imagine a 19th-century market master watching his life's work turned into a gift shop."
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Built circa 1829 as a Grade II listed market hall shopfront during Joseph Kay's major redevelopment scheme, featuring three storeys and classical architectural details.",
+            "source": "Historic England listing entry 1358972",
+            "sourceKind": "historic-england"
+          },
+          {
+            "text": "Designed with two Doric pilasters flanking either side and two Ionic half columns in the centre, topped with a stucco entablature featuring wreaths in the frieze.",
+            "source": "Historic England listing entry 1358972",
+            "sourceKind": "historic-england"
+          },
+          {
+            "text": "Part of architect and surveyor Joseph Kay's market rebuilding project between 1827\u20131833, relocating the market to an island site bounded by Nelson Road, King William Walk, College Approach, and Greenwich Church Street.",
+            "source": "Greenwich Market official website, 'Our Story'",
+            "sourceKind": "other",
+            "sourceUrl": "https://greenwichmarket.london/our-story/"
+          },
+          {
+            "text": "A Royal Charter granted in December 1700 to the Commissioners of Greenwich Hospital established the market for 1,000 years, though it did not officially open until 3rd September 1737 with 60 stallholders.",
+            "source": "Greenwich Market official website, 'Our Story'",
+            "sourceKind": "other",
+            "sourceUrl": "https://greenwichmarket.london/our-story/"
+          },
+          {
+            "text": "When the market first opened in 1737, stallholders sold meat, fruit, vegetables, and general provisions essential to the local population; it originally stood next to the Old Royal Naval College.",
+            "source": "Greenwich Market official website, 'Our Story'",
+            "sourceKind": "other",
+            "sourceUrl": "https://greenwichmarket.london/our-story/"
+          },
+          {
+            "text": "Between 1985 and 1987, the market transformed from selling foodstuffs into 'a purveyor of antiques and arts-and-crafts,' with adjoining shops increasingly let to handicraft dealers and artisanal makers.",
+            "source": "Greenwich Market official website, 'Our Story'",
+            "sourceKind": "other",
+            "sourceUrl": "https://greenwichmarket.london/our-story/"
+          },
+          {
+            "text": "In 1997, Greenwich Market was inscribed as part of the Maritime Greenwich World Heritage Site, formalizing its recognition as a culturally and historically significant London location.",
+            "source": "Greenwich Market official website, 'Our Story'",
+            "sourceKind": "other",
+            "sourceUrl": "https://greenwichmarket.london/our-story/"
+          },
+          {
+            "text": "The building's sash windows feature plain reveals with glazing bars and a round-headed, shaped gable end over the central section, typical of early-19th-century market architecture.",
+            "source": "Historic England listing entry 1358972",
+            "sourceKind": "historic-england"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Goddard's Pie House",
+            "angle": "Family-run traditional pie house on the market edge\u2014at least someone still sells hot food where I once did"
+          },
+          {
+            "name": "Cutty Sark",
+            "angle": "A ship gets World Heritage fame; I'm just Grade II listed, preserved but forgotten"
+          },
+          {
+            "name": "Champagne + Fromage",
+            "angle": "French artisanal cheeses where London's fish merchants once hawked daily provisions"
+          }
+        ],
+        "grievanceHook": "Reduced from essential market hall to museum piece; promoted to Grade II as consolation.",
+        "anachronism": null,
+        "verified": false
+      }
+    }
+  ]
+}

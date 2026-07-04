@@ -1,0 +1,42 @@
+{
+  "name": "Bob Marley",
+  "slug": "bob-marley",
+  "items": [
+    {
+      "text": "On your way up, take me up. On your way down, don't let me down. Money can't buy life.",
+      "quoteType": "reported-speech",
+      "context": "Final words spoken to his son Ziggy Marley while hospitalized in Miami, close to death from cancer",
+      "publicReaction": "Widely cited as Marley's final testament and philosophical statement about life values and family loyalty",
+      "date": "May 1981",
+      "source": "TODAY Show and Ziggy Marley interviews about his father's death; documented in biographical materials about Bob Marley's final days",
+      "sourceUrl": "https://www.today.com/popculture/movies/bob-marley-one-love-movie-rcna138356"
+    },
+    {
+      "text": "Leave you, go where? What are you crying for? Forget crying, Rita! Just keep singing. Sing! Sing!",
+      "quoteType": "reported-speech",
+      "context": "Response to Rita Marley at his hospital bed in Miami as she broke down crying, urging her to continue singing instead of crying",
+      "publicReaction": "Cited as demonstrating Marley's commitment to music and spirituality even in the face of death; reflects his character and priorities",
+      "date": "May 1981",
+      "source": "Rita Marley's book 'No Woman, No Cry: My Life with Bob Marley' and biographical documentation of his final days",
+      "sourceUrl": "https://www.grunge.com/1508080/bob-marley-tragic-final-words/"
+    },
+    {
+      "text": "Emancipate yourself from mental slavery. None but ourselves can free our minds.",
+      "quoteType": "published-writing",
+      "context": "Opening lyrics of 'Redemption Song,' the final track on his 1980 album Uprising; based on a 1937 speech by Marcus Garvey at Menelik Hall in Sydney, Nova Scotia",
+      "publicReaction": "Became one of Marley's most iconic and quoted statements; represents the philosophical core of his spiritual and political message; widely adopted as a mantra for liberation movements",
+      "date": "1980",
+      "source": "Bob Marley and the Wailers album Uprising; originally from Marcus Garvey's 1937 speech published in Black Man magazine",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Redemption_Song"
+    },
+    {
+      "text": "Viva Zimbabwe!",
+      "quoteType": "speech",
+      "context": "Repeated exclamation during his performance at Zimbabwe's independence celebration concert at Rufaro Stadium in Harare, calling out between songs",
+      "publicReaction": "Widely documented as the only outside performer invited to Zimbabwe's independence ceremony; his appearance and statements were celebrated as a symbolic gesture of Pan-African solidarity",
+      "date": "April 17-18, 1980",
+      "source": "Multiple historical sources including Al Jazeera, Forbes, and Africa.com documentation of Zimbabwe independence celebrations",
+      "sourceUrl": "https://www.aljazeera.com/features/2020/4/17/when-bob-marley-serenaded-zimbabweans-celebrating-independence"
+    }
+  ]
+}

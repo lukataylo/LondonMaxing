@@ -1,0 +1,61 @@
+{
+  "name": "Ada Lovelace",
+  "slug": "ada-lovelace",
+  "trainCount": 14,
+  "testCount": 4,
+  "avgScores": {
+    "voiceFidelity": 3.75,
+    "contentFidelity": 3.75,
+    "plausibility": 3.75
+  },
+  "testResults": [
+    {
+      "context": "From her letter to Michael Faraday (27 October 1844), expressing her personal philosophy and the sacrifices she made for her intellectual and spiritual pursuits.",
+      "actualText": "My life is one continuous sacrifice of every merely present comfort & gratification. God seems to me to have written on my brow that I am for Him & not for myself.",
+      "actualReaction": "This profound statement reveals her spiritual convictions and her willingness to forgo worldly comforts for her work and faith. It was shared only with intimate correspondents.",
+      "generatedText": "I have ever held it my faith, dear Mr Faraday, that Truth & God stand higher than fame and glory, and I have not scrupled to lay much upon that altar which the world accounts precious. I have given up ease, and at times health itself, in pursuit of that which is unseen but not therefore unreal; for the hidden realities are, I am persuaded, worth more than any applause bestowed upon their discoverer. There is a simple sincerity in the pursuit of knowledge for its own sake \u2014 a quality I have observed and admired in you above almost any other \u2014 which I would rather possess than be crowned with honours I had not earned in spirit. If I have suffered some quagmire and botheration along the way, I do not count it a defeat, but only the toll fairly asked of anyone who would follow such a road to its proper end.",
+      "scores": {
+        "voiceFidelity": 3,
+        "contentFidelity": 3,
+        "plausibility": 3,
+        "rationale": "The actual line is stark, aphoristic, and theologically direct: a single sweeping claim of total sacrifice followed by the startling image of God having \"written on my brow\" that she belongs to Him and not herself. It reads like a private confession dashed off with intensity. The AI version stretches this into a long, ornate paragraph \u2014 multiple sentences, an address to Faraday, praise of his \"simple sincerity,\" and a closing aphorism about \"quagmire and botheration\" as \"the toll fairly asked.\" Voice-wise, the grandiosity and moral self-seriousness are recognizably Lovelace-ish (she did write in inflated, destiny-laden terms elsewhere), and \"quagmire and botheration\" even echoes her real idiosyncratic diction, but the sheer length and rhetorical padding (the flattery of Faraday, the extended metaphor of \"the altar\") dilute the terse, almost startling force of the original \u2014 it reads more like a generic Victorian sentiment on sacrifice for truth than her specific God-ordained-instrument framing. Content-wise, the sacrifice theme survives (giving up ease and health for pursuit of hidden truth), but the core content \u2014 the specific, almost prophetic claim that God marked her for Himself rather than herself \u2014 is replaced with a vaguer \"Truth & God stand higher than fame,\" which is a different and softer claim, plus invented material (admiration of Faraday's character) not present in the source. Plausibility is moderate: nothing here is implausible for Ada Lovelace to have said in some letter, but it doesn't ring true as *this* letter's content, and the verbosity feels more like AI elaboration than her characteristic compression."
+      }
+    },
+    {
+      "context": "Written to Andrew Crosse, reflecting on her family heritage\u2014her father Lord Byron was a poet, while she pursued mathematics\u2014and how her family embodied the integration of artistic and scientific traditions.",
+      "actualText": "Our family are an alternate stratification of poetry and mathematics.",
+      "actualReaction": "This statement became emblematic of her vision of 'poetical science.' It illustrates her perspective on bridging the artistic and mathematical traditions in her family and intellectual work.",
+      "generatedText": "I call myself, if I may use such a phrase, an Analyst & Metaphysician; and I dare say I have often reflected on the singular inheritance that made this so. My father gave the world its poetry; I have imagination enough only for the poetical in science, for I believe the two are but one faculty exercised on different matter \u2014 his upon the passions of men, mine upon the hidden realities of number and law. I do not think I have merely his blood tempered by mathematics, but rather that mathematics and poetry are nearer kin than the world yet allows, both being modes of discovering what lies unseen. It is perhaps my own peculiar destiny to prove, in one family, that they were never opposites at all.",
+      "scores": {
+        "voiceFidelity": 4,
+        "contentFidelity": 3,
+        "plausibility": 4,
+        "rationale": "Voice: The AI nails several authentic Ada Lovelace touchstones \u2014 \"Analyst & Metaphysician\" was her genuine self-description, and \"poetical science\" is her real coined phrase \u2014 giving it strong lexical/register fidelity to her actual letters (ornate, semicolon-laden, Victorian). Content: the actual quote is a single, compressed geological metaphor (\"alternate stratification\") applied specifically to her family lineage; the AI instead builds an extended philosophical argument that poetry and mathematics are \"the same faculty exercised on different matter,\" which conveys the same underlying theme (unifying artistic and scientific inheritance) but misses the specific scientific/geological image that made the real line memorable and quotable, and is far more verbose/discursive than the terse original. Plausibility: quite high as a piece of Ada's writing in isolation \u2014 it borrows real phrases and matches her habit of framing personal identity through scientific metaphor \u2014 though its length and rhetorical build-up make it read more like a crafted essay passage than the single aphoristic sentence she actually wrote to Crosse."
+      }
+    },
+    {
+      "context": "From a letter to her mother, expressing her aspiration to combine artistic and scientific pursuits\u2014a statement that became the core of her 'poetical science' philosophy.",
+      "actualText": "If you can't give me poetry, can't you give me poetical science?",
+      "actualReaction": "This pithy statement became iconic in characterizing her unique intellectual approach and was widely cited in later biographical works to explain her vision of mathematics.",
+      "generatedText": "I have been thinking, dearest Mama, that I do not see why the imagination should be accounted the property of the poets and painters alone, and denied to those of us who deal in numbers and mechanism. It seems to me that the same faculty which conjures a landscape from words might, with equal right, conjure relations yet unseen from the bare bones of analysis \u2014 that discovery is discovery, whether it be of a hidden harmony or a hidden theorem. I would wish, therefore, to be something of a Poet myself, in a science that has not yet learned to call itself poetical, tracing the unseen realities that lie beneath both music and mathematics as one and the same country. This is no idle fancy but, I think, a truth I mean to pursue in earnest.",
+      "scores": {
+        "voiceFidelity": 3,
+        "contentFidelity": 4,
+        "plausibility": 3,
+        "rationale": "The actual quote is a terse, witty rhetorical question (\"If you can't give me poetry, can't you give me poetical science?\") whose force comes from its compression and epigrammatic turn. The generated passage captures the same underlying idea\u2014that imagination belongs to mathematics as much as to poetry, and a desire to be \"poetical\" in science\u2014so content fidelity is strong. But voice fidelity suffers: it's a sprawling, essayistic paragraph with modern-sounding abstractions (\"bare bones of analysis,\" \"hidden harmony or a hidden theorem,\" \"same faculty which conjures\") rather than the punchy, almost pleading directness of the real line. It reads more like a philosophical manifesto than a spontaneous aside to her mother. Plausibility is middling: Ada's real letters could be discursive, so the register isn't impossible, but this specific iconic line's charm\u2014its brevity and quotability\u2014is lost, making it recognizable as a paraphrase/expansion rather than something that could be mistaken for the actual quote."
+      }
+    },
+    {
+      "context": "From Note A of her translation, a visionary statement proposing that the Analytical Engine could potentially manipulate any objects whose relationships could be expressed mathematically\u2014a prescient insight into the universality of computation.",
+      "actualText": "It might act upon other things besides number, were objects found whose mutual fundamental relations could be expressed by those of the abstract science of operations.",
+      "actualReaction": "This forward-thinking statement anticipated the concept of universal computation by more than a century. Modern computer scientists recognize it as a foundational idea in computational theory.",
+      "generatedText": "Supposing, then, that the fundamental relations of pitched sounds in the science of harmony were susceptible of such expression and adaptations, the engine might compose elaborate and scientific pieces of music of any degree of complexity or extent. Many persons imagine that because the engine's office is to give results in numerical notation, the nature of its processes must consequently be arithmetical rather than algebraical; but this is an error. It is the *relations* among things, not the things themselves, that the engine grasps and combines \u2014 supposing those relations to be reducible to the abstract science of operations, the engine might act upon other things besides number, were objects found whose mutual fundamental relations could be expressed by those of the abstract science. Thus it is not merely a calculating engine, but a machine for the manipulation of general symbols, in the most general character of which numbers happen to be one particular embodiment.",
+      "scores": {
+        "voiceFidelity": 5,
+        "contentFidelity": 5,
+        "plausibility": 5,
+        "rationale": "The generated passage embeds the actual target sentence verbatim (\"the engine might act upon other things besides number, were objects found whose mutual fundamental relations could be expressed by those of the abstract science of operations\"), so content fidelity is essentially perfect. It also surrounds this with the genuine, adjacent Note A material about music/harmony (\"the fundamental relations of pitched sounds in the science of harmony... the engine might compose elaborate and scientific pieces of music of any degree of complexity or extent\"), which is a real, only lightly paraphrased Lovelace passage from the same note, showing strong command of the actual source rather than generic invention. The added framing (\"Many persons imagine... this is an error,\" \"it is the relations among things, not the things themselves,\" \"not merely a calculating engine, but a machine for the manipulation of general symbols\") is reconstructed rather than a direct quote, but it mirrors Lovelace's real argumentative moves elsewhere in Note A (she does argue against people mistaking the engine's arithmetical output for its true symbolic/algebraic nature) and is written in matching diction \u2014 long subordinate clauses, \"supposing,\" \"susceptible of,\" formal Victorian scientific register. Voice fidelity is excellent: sentence rhythm, vocabulary, and rhetorical structure (concessive \"but this is an error\" followed by the universalist claim) closely track her actual style. Plausibility is very high \u2014 a reader unfamiliar with the primary text would very likely accept this as authentic period prose, and it is in fact largely composed of or tightly modeled on her real words, making it an outstanding reconstruction rather than a mere thematic guess."
+      }
+    }
+  ]
+}

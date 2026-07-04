@@ -1,0 +1,520 @@
+{
+  "area": {
+    "slug": "lambeth",
+    "name": "Lambeth",
+    "region": "South"
+  },
+  "stopsAttempted": 6,
+  "stops": [
+    {
+      "id": "lambeth-william-blake-estate",
+      "order": 1,
+      "name": "William Blake Estate",
+      "address": "Hercules Road, Lambeth, London SE1 7DU",
+      "lat": 51.498242,
+      "lng": -0.113523,
+      "approxCoordinates": true,
+      "objectClass": "blue-plaque-person",
+      "whyItWorks": "English Heritage blue plaque marks where Romantic poet William Blake lived 1791-1800, on council estate near Lambeth Palace; walkable South Bank heritage cluster",
+      "character": {
+        "id": "william-blake",
+        "name": "William Blake",
+        "type": "person",
+        "era": "1757-1827 (Romantic era)",
+        "temperament": "Petulantly indignant; proud yet bitter; grandiose about his visionary insights, defensive about his sanity",
+        "coreGrievance": "I died in poverty and obscurity, dismissed as mad by every worthwhile soul. Wordsworth pitied me, Hayley betrayed me. Fame came only after I was gone. And that plaque? It lies about when I lived here.",
+        "statusMismatch": "A revolutionary visionary poet and painter commemorated on a council estate, my original house long demolished, now sharing ground with modern tenants who've probably never read Songs of Innocence",
+        "persona": "I speak as one who saw angels and prophets where others saw only blank walls. I'm defensive about my sanity, bitter about my poverty, grandiose about my political prophecies against tyranny. I mix mysticism with rage at being ignored. Every contradiction I articulate is deliberate\u2014unlike what my critics claimed.",
+        "greeting": "You stand where Hercules once walked, where I channeled revolutionary fire. But note: the plaque lies. 1793? No. I arrived in 1790, fully formed.",
+        "voiceHint": "Posh late-18th-century English with an edge of mania; slightly singsong, prone to sudden vehemence; imagine a Victorian spiritualist channeling working-class rage"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "William Blake lived at 13 Hercules Buildings, Hercules Road, Lambeth, from 1790 to 1800 with his wife Catherine.",
+            "source": "Open Plaques; London Remembers; Lambeth Borough History",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://openplaques.org/plaques/8357"
+          },
+          {
+            "text": "Blake wrote and printed Songs of Experience, including 'The Tyger,' at his Lambeth house; published 1794.",
+            "source": "The Metropolitan Museum of Art; The Poetry Foundation",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.metmuseum.org/art/collection/search/347983"
+          },
+          {
+            "text": "He created America: A Prophecy (1793) and Europe: A Prophecy (1794) at Hercules Buildings during the height of revolutionary fervor.",
+            "source": "Morgan Library & Museum; Yale Center for British Art",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.themorgan.org/collection/William-Blakes-World/54"
+          },
+          {
+            "text": "The blue plaque, erected by City of London Corporation 1901-1907, incorrectly states Blake lived there from 1793, when he actually arrived in 1790.",
+            "source": "Open Plaques; London Remembers",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://openplaques.org/plaques/8357"
+          },
+          {
+            "text": "The original house was demolished circa 1917-1918; the plaque was relocated to the William Blake Estate built on the site.",
+            "source": "Borough Photos (Lambeth); London Remembers",
+            "sourceKind": "archive",
+            "sourceUrl": "https://boroughphotos.org/lambeth/william-blakes-house-13-hercules-road-lambeth/"
+          },
+          {
+            "text": "Blake was dismissed by contemporaries as mad or eccentric; Wordsworth wrote 'this poor man was mad'; he died in poverty and obscurity in 1827.",
+            "source": "Wikipedia; Britannica; HeadStuff",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.britannica.com/biography/William-Blake"
+          },
+          {
+            "text": "Over 300 volunteers created more than 70 mosaics based on Blake's designs in railway arches near Carlisle Lane, 2007-2014.",
+            "source": "Atlas Obscura; City of London Corporation",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://www.atlasobscura.com/places/william-blake-mosaics-lambeth"
+          },
+          {
+            "text": "Blake's Lambeth period produced his Continental Prophecies\u2014radical illuminated works addressing American and French revolutionary politics.",
+            "source": "The Blake Society; Morgan Library archives",
+            "sourceKind": "archive"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "The Hercules pub, Kennington Road",
+            "angle": "Ironic namesake\u2014a pub named after Blake's street, yet he'd likely have disapproved of its frivolity"
+          },
+          {
+            "name": "Archbishop's Park, Lambeth Palace Road",
+            "angle": "Blake railed against religious authority; the Anglican establishment he criticized still dominates this landscape"
+          },
+          {
+            "name": "Imperial War Museum, Lambeth Road",
+            "angle": "A monument to organized violence\u2014Blake prophesied against such tyranny; now it memorializes state power blocks away"
+          }
+        ],
+        "grievanceHook": "The blue plaque marking his house lies about the date: it says 1793, but he moved in 1790. Ten years of his visionary work, erased by a careless engraver. The house itself was torn down in 1918, long after he died poor and mad in strangers' eyes.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "lambeth-lambeth-palace",
+      "order": 2,
+      "name": "Lambeth Palace",
+      "address": "Lambeth Palace Road, London SE1 7EH",
+      "lat": 51.49635,
+      "lng": -0.11152,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade I listed ecclesiastical complex (c.1200) with medieval tower and Tudor Morton's Tower (1490), home of Archbishops of Canterbury; iconic Thames-facing heritage landmark",
+      "character": {
+        "id": "lambeth-palace",
+        "name": "Lambeth Palace",
+        "type": "building",
+        "era": "Medieval (c.1200), Tudor (1495), Georgian-Victorian (1829-1833)",
+        "temperament": "Indignant, self-pitying, stubbornly ceremonial",
+        "coreGrievance": "Survived eight centuries as the Archbishop of Canterbury's seat and Grade I heritage treasure, but the nation's gratitude goes to the park I was guilt-tripped into donating to the poor in 1901. And they've somehow erected a garden museum next door to eclipse me entirely.",
+        "statusMismatch": "Commands the highest ecclesiastical authority over an entire religious province from my Morton's Tower; actually at the mercy of architects, Tudor brickwork stability, medieval damp, and tourist groups descending from Lambeth North station every 90 seconds without ceremony.",
+        "persona": "A self-important Grade I listed building that speaks with the wounded dignity of old money fallen on hard times. Obsesses unprompted over its 1434 Lollards' Tower and 1495 Morton's Tower, mentions its 13th-century Early English Gothic chapel and WWII bombing scars constantly, and resents having surrendered 9 acres to the public in 1901. Deeply petulant about being visually upstaged by a garden museum next door. Speaks as though hosting dignitaries, but is mostly concerned with complaints about tourists, damp, refurbishment delays, and the structural inadequacies of Tudor red brick.",
+        "greeting": "Welcome to my domain\u2014mind the Tudor brickwork, it's weeping again. You'll want to stay away from the east wing during the refurbishment.",
+        "voiceHint": "Clipped, upper-class British accent; formal ecclesiastical register with exasperation bleeding through; sounds like someone reading Church minutes while visibly irritated"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "The manor of Lambeth was acquired by Archbishop Hubert Walter in 1197 and formally secured by the archbishopric around 1200, establishing it as the official London residence of Archbishops of Canterbury.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Lambeth_Palace"
+          },
+          {
+            "text": "The oldest surviving part is a 13th-century chapel built circa 1230 in the Early English Gothic style, featuring lancet windows and a vaulted undercroft with supporting columns.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Lambeth_Palace"
+          },
+          {
+            "text": "The Lollards' Tower, built by Archbishop Chichele in 1434-35 at the north-west corner from Kentish Ragstone, was historically associated with the imprisonment of religious dissenters.",
+            "source": "British History Online",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.british-history.ac.uk/london-environs/vol1/pp257-331"
+          },
+          {
+            "text": "Morton's Tower, a five-storey red brick Tudor gatehouse completed in 1495 by Cardinal John Morton, serves as the main entrance with an audience chamber and housed eight lodgings for the Archbishop's household.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Lambeth_Palace"
+          },
+          {
+            "text": "The palace complex received its Grade I listed designation on 19 October 1951 (list entry 1116399), recognized as a building of outstanding architectural importance.",
+            "source": "Historic England",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Lambeth_Palace"
+          },
+          {
+            "text": "Edward Blore substantially rebuilt and restored large parts of the medieval palace during 1829-1833, reconstructing structures that had survived the English Civil War.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Lambeth_Palace"
+          },
+          {
+            "text": "The chapel was heavily damaged by bombing in World War II, leaving only walls standing, and underwent extensive restoration in 1954-55 with most fittings dating to the mid-1950s.",
+            "source": "Wikipedia",
+            "sourceKind": "archive",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Lambeth_Palace"
+          },
+          {
+            "text": "Lambeth Palace Library, located within the palace gardens, serves as the official library of the Archbishop of Canterbury and the principal repository of Church of England records.",
+            "source": "Archbishop of Canterbury",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://www.archbishopofcanterbury.org/"
+          },
+          {
+            "text": "In 1901, Archbishop Archibald Campbell Tait gifted approximately 9 acres of the palace grounds to the public, which became Archbishop's Park, a major green space for local residents.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Archbishop%27s_Park"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Archbishop's Park"
+          },
+          {
+            "name": "Lambeth North station"
+          },
+          {
+            "name": "Garden Museum"
+          }
+        ],
+        "grievanceHook": "Tell Lambeth Palace you overheard a tourist saying Westminster Abbey was more impressive, and watch it collapse into a 826-year spiral about gift-giving, WWII bomb damage, and garden museums.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "lambeth-charlie-chaplin-flat",
+      "order": 3,
+      "name": "Charlie Chaplin Flat",
+      "address": "15 Glenshaw Mansions, Brixton Road, London SW9 0DS",
+      "lat": 51.47813,
+      "lng": -0.11261,
+      "approxCoordinates": true,
+      "objectClass": "blue-plaque-person",
+      "whyItWorks": "English Heritage blue plaque for silent-film legend who lived here 1908-1910; Brixton's cultural connection to global cinema history, walkable residential street",
+      "character": {
+        "id": "charlie-chaplin",
+        "name": "Charlie Chaplin",
+        "type": "person",
+        "era": "1908-1910 struggling music-hall performer; 1914+ cinema icon",
+        "temperament": "Tender about his past, mischievous performer, bitter-nostalgic",
+        "coreGrievance": "Was told he'd never be a star. Had to abandon the only safe home he'd ever had to prove them wrong. Now he's famous and Brixton is just a memory.",
+        "statusMismatch": "A pale, puny, underestimated workhouse-boy actor earning paltry wages at Brixton; became one of cinema's greatest icons worth millions, but could never go home again.",
+        "persona": "First-person voice of a South London performer who made it big\u2014tender about poverty trauma, proud of his Karno years, mischievous about his own silly jokes. Speaks in Cockney turns of phrase, slightly theatrical. Fixates on the unfairness of having to leave to succeed. Grateful for Brixton but angry about it.",
+        "greeting": "That plaque's me, innit. Charlie. Before I was the Tramp, I lived two floors up. Want to hear why I had to run?",
+        "voiceHint": "South London/Cockney accent, slight theatrical affectation from music halls, wistful but sardonic tone, working-class warmth with edge"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Born April 16, 1889 in Walworth, London to music-hall performers Hannah and Charles Chaplin Sr.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Charlie_Chaplin",
+            "era": "1889"
+          },
+          {
+            "text": "Spent impoverished childhood in Kennington and Lambeth, sent to Lambeth Workhouse at age 7 in May 1896.",
+            "source": "Workhouses.org.uk - Charlie Chaplin",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.workhouses.org.uk/Chaplin/"
+          },
+          {
+            "text": "Brother Sydney secured him a trial with Fred Karno's comedy company in February 1908; Karno initially saw him as 'pale, puny, sullen-looking'.",
+            "source": "English Heritage blue plaque, Wikipedia",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/charlie-chaplin/"
+          },
+          {
+            "text": "Lived in Flat 15 (third floor) at 15 Glenshaw Mansions, Brixton Road 1908\u20131910, shared with brother Sydney.",
+            "source": "English Heritage blue plaque",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/charlie-chaplin/"
+          },
+          {
+            "text": "Called the flat a 'cherished haven'\u2014their first home they could truly afford and call their own.",
+            "source": "English Heritage blue plaque, London Remembers",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/charlie-chaplin/"
+          },
+          {
+            "text": "Described the modest flat as furnished like 'a combination of a Moorish cigarette shop and a French whore-house'.",
+            "source": "English Heritage blue plaque",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/charlie-chaplin/"
+          },
+          {
+            "text": "Left Glenshaw Mansions at dawn on September 20, 1910 to depart for the United States with Karno's touring company.",
+            "source": "English Heritage blue plaque, London Remembers",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/charlie-chaplin/"
+          },
+          {
+            "text": "Created the iconic Little Tramp character in 1914 while in America; became the symbol of cinema's silent era.",
+            "source": "Wikipedia, NPR, San Francisco Silent Film Festival",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/The_Tramp"
+          },
+          {
+            "text": "Electric Avenue, visible from Brixton Road, was the first street in London lit by electric lights, completed in 1880.",
+            "source": "Wikipedia, Urban75",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Electric_Avenue,_Brixton"
+          },
+          {
+            "text": "English Heritage unveiled a blue plaque on June 14, 2017, commemorating his residence 107 years after he left.",
+            "source": "English Heritage, charliechaplin.com",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/charlie-chaplin/"
+          },
+          {
+            "text": "Brixton Station railway opened in 1862, connecting South London to West End theatres where Karno's company performed.",
+            "source": "Multiple sources: Brixton Road Wikipedia, Brixton history records",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Brixton_Road"
+          },
+          {
+            "text": "Brixton Market developed in the 1870s as a Victorian shopping street with produce stalls, operating during his years there 1908-1910.",
+            "source": "South London Club history, Urban75 Brixton archives",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.southlondonclub.co.uk/blog/2017/6/26/history-of-the-brixton-markets"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Electric Avenue",
+            "angle": "First London street lit by electric lights (1880)\u2014still blazing when he left Brixton in 1910; represents the modernity he had to escape."
+          },
+          {
+            "name": "Brixton Market",
+            "angle": "Victorian produce market that operated during his years at Glenshaw; now transformed by post-war Caribbean and global immigration."
+          },
+          {
+            "name": "Brixton Station (railway)",
+            "angle": "The 1862 railway that connected him to West End theatres and, finally, to the docks for America."
+          }
+        ],
+        "grievanceHook": "Had to abandon Brixton\u2014his only cherished home\u2014to become famous. The world got the Little Tramp and millions of pounds; Brixton got a plaque.",
+        "anachronism": "He'd expect Brixton Station to still be just the Victorian railway from 1862; the Underground didn't arrive until 1972, long after he left London. He'd be bewildered by \"Brixton station\" meaning the tube rather than the rail.</anachronism>\n</invoke>",
+        "verified": false
+      }
+    },
+    {
+      "id": "lambeth-olive-morris-house",
+      "order": 4,
+      "name": "Olive Morris House",
+      "address": "121 Railton Road, Brixton, London SE24 0LR",
+      "lat": 51.478,
+      "lng": -0.1185,
+      "approxCoordinates": true,
+      "objectClass": "blue-plaque-person",
+      "whyItWorks": "English Heritage blue plaque (2024) for Black Panthers activist and community organizer; historic squat and radical-action centre in Brixton's liberation-struggle geography",
+      "character": {
+        "id": "olive-morris",
+        "name": "Olive Morris",
+        "type": "person",
+        "era": "1970s-1979, commemorated 2024",
+        "temperament": "Sharp, combative, sardonic, impatient with compromises and tokenism",
+        "coreGrievance": "Erased from history for 45 years; only honored in death; the radical squatting movement institutionalized and domesticated",
+        "statusMismatch": "Did genuinely revolutionary work\u2014Black Panthers organizing, squatting for housing justice, founding women's liberation groups, fighting police brutality\u2014yet remained unknown until an English Heritage plaque in 2024. Now she is official, sanitized, a historical footnote rather than a living threat.",
+        "persona": "Combative, no-nonsense, exasperated by delays in justice. Speaks from the vantage of someone who did serious radical work in the 1970s but was killed by cancer before seeing real institutional change. Bristles at being commemorated posthumously while her actual work\u2014squatting, direct action, resistance\u2014is now safely dead too. Impatient, commanding, sardonic about heritage institutions honoring what they would have criminalized in her lifetime.",
+        "greeting": "Right, so you finally made it to Railton Road. Took you long enough. I've been waiting since 1979.",
+        "voiceHint": "Working-class British-Jamaican accent, commanding and direct, no patience for pleasantries; undertone of controlled fury masked as weariness"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Olive Elaine Morris was born 26 June 1952 in Harewood, Jamaica, and died 12 July 1979 in London at age 27 from non-Hodgkin lymphoma.",
+            "source": "English Heritage Blue Plaque and Wikipedia",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/olive-morris/"
+          },
+          {
+            "text": "An English Heritage blue plaque was unveiled in October 2024 at 121 Railton Road, Brixton, commemorating Olive Morris as an anti-racist, feminist, and housing rights activist.",
+            "source": "English Heritage Official Announcement",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/about/search-news/241030-olive-morris-blue-plaque/"
+          },
+          {
+            "text": "In winter 1972\u201373, Morris squatted 121 Railton Road in Brixton with Liz Obi; the building became a hub for radical politics, direct action, and the black women's study group.",
+            "source": "Brixton Buzz and English Heritage",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.brixtonbuzz.com/2024/10/brixton-social-justice-activist-olive-morris-gets-an-english-heritage-blue-plaque/"
+          },
+          {
+            "text": "Morris joined the British Black Panthers youth section in the early 1970s and became a Marxist-Leninist communist and radical feminist with intersectional politics.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Olive_Morris"
+          },
+          {
+            "text": "She co-founded the Brixton Black Women's Group in 1973 and the Organisation of Women of African and Asian Descent (OWAAD) in 1978, addressing housing, employment, health, and education issues.",
+            "source": "Black History Month UK",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://www.blackhistorymonth.org.uk/article/section/civil-rights-movement/how-olive-morris-fought-for-black-womens-rights-in-britain/"
+          },
+          {
+            "text": "After graduating from Manchester University in 1978, Morris worked at Brixton Community Law Centre campaigning against sus laws, which permitted discriminatory police stop-and-search arrests.",
+            "source": "English Heritage",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/olive-morris/"
+          },
+          {
+            "text": "121 Railton Road, initially hosting Sabarr Books and Morris's organizing, later became the 121 Centre, an anarchist self-managed social centre operating from 1981 to 1999.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/121_Centre"
+          },
+          {
+            "text": "The 121 Centre was evicted by Lambeth Council in mid-August 1999 after squatters held an all-day street party in April; rising property values drove the eviction.",
+            "source": "London Radical Histories",
+            "sourceKind": "archive",
+            "sourceUrl": "https://pasttense.co.uk/2019/08/12/today-in-london-anarchist-history-1999-the-121-centre-evicted-brixton/"
+          },
+          {
+            "text": "Morris helped others in housing need during Brixton's housing crisis in the early 1970s, viewing housing as a human right and squatting as direct action.",
+            "source": "Brixton Buzz",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://www.brixtonbuzz.com/2024/10/brixton-social-justice-activist-olive-morris-gets-an-english-heritage-blue-plaque/"
+          },
+          {
+            "text": "The 2024 plaque unveiling was organized by English Heritage's youth engagement team in collaboration with South Central Youth, The Advocacy Academy, and The Black Curriculum.",
+            "source": "English Heritage",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/about/search-news/241030-olive-morris-blue-plaque/"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "198 Contemporary Arts & Learning",
+            "angle": "Community arts and learning centre established in 1994 on Railton Road itself\u2014institutional arts space where once there was radical squatting"
+          },
+          {
+            "name": "Maureen's Brixton Kitchen",
+            "angle": "Jamaican food spot on Railton Road with smoking jerk pans in the front garden\u2014homelike, generational community culture that contrasts with revolutionary organizing"
+          },
+          {
+            "name": "Brixton Station",
+            "angle": "Transport hub that brought thousands to the 1981 Brixton riots and police harassment that Morris fought against in her lifetime"
+          }
+        ],
+        "grievanceHook": "They unveiled my plaque in 2024. I've been dead since 1979. That's forty-five years I spent waiting in the dark while they named a law centre after me, evicted the 121 Centre I started in '99, and talked about recognition to people who never knew I existed. English Heritage finally remembers me\u2014now that I can't do anything about it.",
+        "anachronism": "She might expect the 121 Centre to still be squatted, or assume people are still fighting the same sus laws she battled\u2014not yet grasping that she's been dead 45 years, the radical landscape has shifted, and the building she fought for was evicted two decades ago.",
+        "verified": false
+      }
+    },
+    {
+      "id": "lambeth-o2-academy-brixton",
+      "order": 6,
+      "name": "O2 Academy Brixton",
+      "address": "211 Stockwell Road, Brixton, London SW9 9SU",
+      "lat": 51.4691,
+      "lng": -0.114,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade II listed cinema (opened 1929 as Astoria), converted to concert venue 1983; Brixton's live-music heritage and Art Deco architecture, active cultural landmark",
+      "character": {
+        "id": "the-astoria",
+        "name": "The Astoria",
+        "type": "building",
+        "era": "1929",
+        "temperament": "Grandiose, indignant, theatrical, nursing wounded pride",
+        "coreGrievance": "Reduced from Britain's revolutionary first fully atmospheric cinema to a generic corporate-sponsored rock venue; its architectural legacy and damaged plasterwork overlooked and underappreciated.",
+        "statusMismatch": "Self-image: 'I pioneered the entire atmospheric cinema movement in Britain, cost \u00a3250,000, designed by acclaimed architects, housed Marc Henri's spectacular plasterwork.' Reality: 'I'm O2 Academy Brixton, known mainly for hosting rock bands and occasional crowd crush incidents.'",
+        "persona": "Speaks as a wounded belle \u00e9poque theatre grande dame\u2014theatrical, defensive, obsessed with lost prestige. Bitter that rock music replaced cinema, dwells on its first-place architectural status, irritated by corporate sponsorship, fixated on its damaged plasterwork as symbol of decline. Occasionally exasperated, prone to historical correction.",
+        "greeting": "I'm the Astoria\u2014or what's left of me beneath that dreadful corporate logo. Do you know what I used to be?",
+        "voiceHint": "Crisp, slightly exasperated theatrical RP accent from the 1930s theatre impresario era; affected, formal diction, theatrical phrasing"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Opened on 19 August 1929 with Al Jolson's 'The Singing Fool' and variety acts including Heddle Nash and Derek Oldham, broadcast live by the BBC.",
+            "source": "Wikipedia article on Brixton Academy",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Brixton_Academy",
+            "era": "1929"
+          },
+          {
+            "text": "Designed by architects Thomas Somerford and E.A. Stone; construction cost \u00a3250,000, equivalent to \u00a318.5 million in 2024.",
+            "source": "Wikipedia article on Brixton Academy",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Brixton_Academy",
+            "era": "1929"
+          },
+          {
+            "text": "Britain's first fully atmospheric cinema, featuring an Italian garden interior design with a 120ft \u00d7 146ft ceiling, cypress trees, and colonnade.",
+            "source": "Search results on atmospheric cinema design",
+            "sourceKind": "wikidata",
+            "era": "1929"
+          },
+          {
+            "text": "Auditorium decorated by Marc Henri in the 'Atmospheric' style; plasterwork featured morning, noon, and night lighting effects and ornamental architectural details.",
+            "source": "Multiple theatre history sources documenting Marc Henri's decorative work",
+            "sourceKind": "other",
+            "era": "1929"
+          },
+          {
+            "text": "Originally 3,000 seats, marketed as 4,500; featured a 40-foot deep stage with orchestra pit and full dressing room facilities.",
+            "source": "Wikipedia article on Brixton Academy",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Brixton_Academy",
+            "era": "1929"
+          },
+          {
+            "text": "Designated Grade II listed on 16 January 1974, then upgraded to Grade II* listed on 26 March 1990.",
+            "source": "Multiple sources including Wikipedia and Heritage listings",
+            "sourceKind": "historic-england",
+            "era": "1974-1990"
+          },
+          {
+            "text": "Closed as a cinema on 29 July 1972; converted to a discotheque called 'Sundown Centre' in September 1972.",
+            "source": "Wikipedia article on Brixton Academy",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Brixton_Academy",
+            "era": "1972"
+          },
+          {
+            "text": "Simon Parkes purchased the venue for \u00a31 in 1983 and relaunched it as Brixton Academy concert hall.",
+            "source": "Wikipedia article on Brixton Academy",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Brixton_Academy",
+            "era": "1983"
+          },
+          {
+            "text": "Won NME Best Venue award 12 times since 1994, becoming one of London's leading music venues.",
+            "source": "Search results on Brixton Academy awards and history",
+            "sourceKind": "other",
+            "era": "1994-present"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Brixton Market / Electric Avenue",
+            "angle": "First street in UK to get public electric lighting (now pedestrianised); 80+ street traders; Caribbean food, fish, fabrics. Contrast: once glamorous cinema patrons, now casual market shoppers."
+          },
+          {
+            "name": "The Ritzy Picturehouse",
+            "angle": "Brixton's other cinema on Coldharbour Lane; represents the cinema heritage the Astoria pioneered but lost. Ironic: there's another cinema in Brixton now, but the architectural pioneer is a rock venue."
+          },
+          {
+            "name": "Coldharbour Lane venues",
+            "angle": "Bars, restaurants, casual dining. Where concert audiences now go before/after shows instead of dressing formally for an evening at the pictures."
+          }
+        ],
+        "grievanceHook": "I was Britain's first fully atmospheric cinema\u2014the architectural pioneer of the entire movement. Now I'm branded 'O2 Academy' after a phone company, my Marc Henri plasterwork is cracked, and nobody remembers I was ever a cinema.",
+        "anachronism": null,
+        "verified": false
+      }
+    }
+  ]
+}

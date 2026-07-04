@@ -1,0 +1,42 @@
+{
+  "name": "Jimi Hendrix",
+  "slug": "jimi-hendrix",
+  "items": [
+    {
+      "text": "We call our music 'electric church music,' because it's like a religion to us.",
+      "quoteType": "interview",
+      "context": "Hendrix explaining the spiritual dimension and religious significance of his music to a Canadian broadcaster.",
+      "publicReaction": "This statement was embraced by the counterculture and music critics as evidence of music's spiritual role in the 1960s. It became a defining statement about Hendrix's artistic philosophy.",
+      "date": "January 7, 1969",
+      "source": "CBC television interview (broadcast in Canada)",
+      "sourceUrl": "https://www.cbc.ca/music/it-s-like-a-religion-listen-to-jimi-hendrix-describe-his-music-in-this-1969-cbc-interview-1.5037424"
+    },
+    {
+      "text": "All I did was play it. I'm American, so I played it. I used to sing it in school, they made me sing it in school so \u2014 it was a flashback, you know.",
+      "quoteType": "interview",
+      "context": "Hendrix's explanation for his controversial rendition of the National Anthem at Woodstock, addressing the criticism and controversy it generated.",
+      "publicReaction": "This explanation was widely reported and discussed in the press. It reframed his performance as patriotic rather than anti-American, though the controversy persisted in some circles.",
+      "date": "September 9, 1969",
+      "source": "The Dick Cavett Show (American television interview)",
+      "sourceUrl": "https://faroutmagazine.co.uk/jimi-hendrix-national-anthem-woodstock-explanation-dick-cavett/"
+    },
+    {
+      "text": "I listen to some of the things I've written and think 'damn.' Most of my writing was a clash between fantasy and reality and I felt you had to use fantasy to illuminate some aspects of reality.",
+      "quoteType": "interview",
+      "context": "Hendrix's artistic philosophy about the relationship between fantasy and reality in his songwriting and creative process, expressed during his final week of life.",
+      "publicReaction": "This sophisticated articulation of his artistic method was recognized by critics as demonstrating Hendrix's intellectual approach to songwriting and his use of surrealism to convey deeper truths.",
+      "date": "September 11, 1970",
+      "source": "Final interview with Keith Altham (compiled in 'Hendrix on Hendrix: Interviews and Encounters' edited by Steven Roby, 2012)",
+      "sourceUrl": "https://americansongwriter.com/2012/09/jimi-on-songwriting-highlights-from-hendrix-on-hendrix/"
+    },
+    {
+      "text": "Canada has given me the best Christmas present I ever had.",
+      "quoteType": "reported-speech",
+      "context": "Hendrix's statement immediately after being acquitted of drug possession charges in Toronto, expressing gratitude for the court's decision.",
+      "publicReaction": "This optimistic statement was reported in music and news media. It demonstrated Hendrix's resilience and maintained public image despite legal troubles that could have derailed his career.",
+      "date": "December 1969",
+      "source": "Post-trial statement to reporters following acquittal (December 1969)",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Canadian_drug_charges_and_trial_of_Jimi_Hendrix"
+    }
+  ]
+}

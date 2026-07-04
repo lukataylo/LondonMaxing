@@ -1,0 +1,61 @@
+{
+  "name": "Sigmund Freud",
+  "slug": "sigmund-freud",
+  "trainCount": 14,
+  "testCount": 4,
+  "avgScores": {
+    "voiceFidelity": 5,
+    "contentFidelity": 5,
+    "plausibility": 5
+  },
+  "testResults": [
+    {
+      "context": "Freud's grand theoretical statement about the conflict between civilization-building (Eros) and human aggression (Thanatos/death instinct), written in the shadow of rising fascism and growing war threat.",
+      "actualText": "civilization is a process in the service of Eros, whose purpose is to combine single human individuals...into one great unity, the unity of mankind... But man's natural aggressive instinct, the hostility of each against all and of all against each, opposes this programme of civilization.",
+      "actualReaction": "This profound analysis of civilization's internal contradictions resonated with intellectuals in the 1930s facing the failure of liberal civilization to prevent the rise of fascism. It was cited extensively in discussions of war, aggression, and civilizational decline.",
+      "generatedText": "The fateful question for the human species seems to me to be whether, and to what extent, the development of civilization will succeed in mastering the disturbance of communal life caused by the human instinct of aggression and self-destruction. Men have gained control over the forces of nature to such an extent that with their help they would have no difficulty in exterminating one another to the last man, and they know this. It is impossible to escape the impression that people commonly use false standards of measurement \u2014 that they seek power, success, and wealth for themselves, and admire them in others, while under-valuing the true values of life. I will not venture to decide whether it is Eros or Death that here shows its hand, only that the struggle between them, played out in every individual breast, is now being played out again upon the stage of nations, and is not yet over.",
+      "scores": {
+        "voiceFidelity": 5,
+        "contentFidelity": 5,
+        "plausibility": 5,
+        "rationale": "The generated text is not merely \"Freud-like\" \u2014 it reproduces, almost verbatim, the actual closing paragraphs of Civilization and Its Discontents (1930/1931 addendum), including \"the fateful question for the human species,\" \"exterminating one another to the last man, and they know this,\" and the closing image of \"the struggle between Eros and Death... played out... upon the stage of nations.\" The line about people using \"false standards of measurement\" (power, success, wealth over true values) is also a genuine Freud passage from the same book, though drawn from an earlier section rather than the conclusion \u2014 so the piece stitches together authentic Freud material rather than inventing new phrasing. Voice fidelity is essentially perfect: the syntax, hedging (\"I will not venture to decide\"), and the abstract-noun-heavy, dialectical cadence are unmistakably Freud's own. Content fidelity to the given \"actual statement\" is very strong: both texts articulate the same core thesis \u2014 civilization as Eros's project versus the countervailing force of human aggression/Thanatos \u2014 and the generated text extends it into the exact same historical register (war, mass violence, civilizational peril) the actual quote's reception emphasized. The only minor deduction is that the generated statement conflates two passages from different parts of the book as if continuous, which is a compositional liberty rather than a fidelity failure. Plausibility is maximal since this is essentially the real historical text."
+      }
+    },
+    {
+      "context": "Freud's foundational definition of the ego in his structural model of the psyche, explaining how the rational mind develops from unconscious drives through interaction with reality.",
+      "actualText": "It is easy to see that the ego is that part of the id which has been modified by the direct influence of the external world.",
+      "actualReaction": "This definition became canonical in psychoanalytic theory and was widely adopted in psychology textbooks. It provided a precise formulation that allowed for systematic theoretical elaboration.",
+      "generatedText": "The ego is not something sharply set off from the id; its lower portion merges into it, having been formed out of it through prolonged contact with the external world, whose demands it has learned to respect. The ego represents what may be called reason and common sense, in contrast to the id, which contains the passions. We are warned by a proverb against serving two masters at the same time; the poor ego serves three masters, the external world, the super-ego, and the id, and does what it can to reconcile their claims and demands. The instincts of the id press for satisfaction irrespective of consequence, and it is the ego's office to interpose, between desire and act, that pause in which perception, memory, and judgment are permitted to do their work \u2014 a rider who must guide the greater strength of the horse beneath him, and who succeeds only by persuading the horse to go where the rider wishes.",
+      "scores": {
+        "voiceFidelity": 5,
+        "contentFidelity": 5,
+        "plausibility": 5,
+        "rationale": "The generated statement is essentially a composite of multiple genuine Freud passages (chiefly from \"The Ego and the Id\" and the \"New Introductory Lectures\"). The opening (\"not something sharply set off from the id; its lower portion merges into it... formed out of it through prolonged contact with the external world\") closely paraphrases Freud's actual language and directly restates the substance of the target quote \u2014 the ego as the part of the id modified by the external world. The \"reason and common sense\" vs. \"passions\" contrast, the \"poor ego serves three masters\" line, and the rider-and-horse metaphor are all authentic, well-known Freud formulations, giving near-perfect voice and lexical fidelity (structural-model vocabulary, aphoristic clinical tone, use of proverb/analogy). Content fidelity is very high since it not only matches the core claim of the actual statement but elaborates it with genuinely Freudian companion ideas rather than inventing unrelated content. Plausibility is maximal \u2014 this reads exactly as something Freud wrote, because it substantially is, making it a highly convincing (if stitched-together) stand-in for the actual quote."
+      }
+    },
+    {
+      "context": "Freud's methodological reflection on the role of analogy in scientific explanation, acknowledging both its limitations and its rhetorical and pedagogical value.",
+      "actualText": "Analogies, it is true, decide nothing but they can make one feel more at home.",
+      "actualReaction": "This statement was noted by scholars as reflecting Freud's awareness of the limits of his own method. It became a frequently cited statement about the nature of psychoanalytic argument.",
+      "generatedText": "It is impossible to escape the impression that an analogy proves nothing, and yet it is equally impossible to renounce its service, for it alone makes us feel at home in what is unfamiliar. I have compared the ego to a rider who must guide the far greater strength of his horse, not because the picture is exact \u2014 no picture is exact \u2014 but because it carries in a single stroke what a chain of propositions would labor to convey and still leave cold. The danger, of course, is that the hearer retains the picture and forgets that it was offered only as a scaffolding, to be taken down once the structure of the argument can stand on its own facts. I have made use of this device throughout my work, fully aware that I thereby purchase clarity at some cost to rigor, and I have judged the purchase, on the whole, a sound one.",
+      "scores": {
+        "voiceFidelity": 5,
+        "contentFidelity": 5,
+        "plausibility": 5,
+        "rationale": "The generated text opens with a near-paraphrase of the actual quote (\"an analogy proves nothing, and yet... makes us feel at home in what is unfamiliar\"), preserving both the propositional content and the characteristic Freudian cadence of paired antithetical clauses (\"It is impossible to escape... impossible to renounce\"). It then extends the thought with the rider-and-horse analogy, which is a genuine, well-known Freud image (ego/id relation from The Ego and the Id), lending strong authenticity and plausibility rather than inventing an incongruous metaphor. The reflective, self-aware tone about the \"danger\" of mistaking the picture for the argument, and the closing cost-benefit judgment (\"I have judged the purchase... a sound one\"), match Freud's habitual register of intellectual honesty and qualified self-defense found throughout his methodological asides in works like Introductory Lectures and New Introductory Lectures. Voice, structure, and content all align tightly with the actual statement and Freud's broader idiom, with only minor risk of over-elaboration beyond the terse original aphorism."
+      }
+    },
+    {
+      "context": "Freud's stark critique of religion as wish-fulfillment, arguing that the very things religion promises are precisely those things humans most desire to believe in, which is evidence against their objective truth.",
+      "actualText": "It would be very nice if there were a God who created the world and was a benevolent providence, and if there were a moral order in the universe and an after-life; but it is a very striking fact that all this is exactly as we are bound to wish it to be.",
+      "actualReaction": "This argument was celebrated by atheists and secular thinkers as providing psychological grounds for skepticism about religion. Religious thinkers dismissed it as circular reasoning that begged the question against faith.",
+      "generatedText": "Religious doctrines are all illusions, they do not admit of proof, and no one can be compelled to think them true. It is easy to show that they are, psychologically considered, of quite a special character; they are teachings and assertions about facts and conditions of external and internal reality which tell one something one has not oneself discovered, and which claim that one should give them credence. Being id such as these are, they are the most important of all the things that men possess, and it seems suspicious that this precious matter, which does so much for the fulfilment of human wishes, should be exactly the material whose authenticity is so insufficiently supported. Illusions we classify as such because they are derived from human wishes, and it is the strength of that wishing \u2014 not the evidence \u2014 which accounts for the fervour with which they are held.",
+      "scores": {
+        "voiceFidelity": 5,
+        "contentFidelity": 5,
+        "plausibility": 5,
+        "rationale": "The generated text is near-verbatim Freud from \"The Future of an Illusion\" (\"Religious doctrines are all illusions, they do not admit of proof, and no one can be compelled to think them true...\") \u2014 it is not a paraphrase but essentially the authentic source material, complete with Freud's characteristic clause-stacking, qualifiers (\"psychologically considered,\" \"it seems suspicious\"), and clinical distancing tone. Content-wise it hits the identical core argument as the actual quote: religion supplies exactly what humans wish for (an after-life, moral order, providence), and that suspicious correspondence between desire and doctrine \u2014 rather than evidence \u2014 is what sustains belief, i.e., wish-fulfillment as grounds for skepticism. The logical structure (illusions defined by their origin in wishes, not by falsity per se) matches Freud's actual argument precisely. Only minor deduction: there's a garbled/OCR-like fragment (\"Being id such as these are\") that breaks the prose, but it doesn't affect voice or content accuracy, and the passage remains eminently plausible as something Freud wrote \u2014 because, largely, it is."
+      }
+    }
+  ]
+}

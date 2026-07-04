@@ -1,0 +1,303 @@
+{
+  "area": {
+    "slug": "newham",
+    "name": "Newham",
+    "region": "East"
+  },
+  "stopsAttempted": 6,
+  "stops": [
+    {
+      "id": "newham-will-thorne-blue-plaque",
+      "order": 2,
+      "name": "Will Thorne Blue Plaque",
+      "address": "1 Lawrence Road, West Ham, London E13 0QD",
+      "lat": 51.536107,
+      "lng": 0.027237,
+      "approxCoordinates": true,
+      "objectClass": "blue-plaque-person",
+      "whyItWorks": "Trade unionist, Labour MP (1857-1946); founded Gasworkers' Union 1889; blue plaque 1987; central Newham labor history anchor",
+      "character": {
+        "id": "will-thorne",
+        "name": "Will Thorne",
+        "type": "person",
+        "era": "1857\u20131946",
+        "temperament": "Proud, querulous, nostalgic for his own relevance; speaks with the authority of a man who actually changed working lives",
+        "coreGrievance": "Founded the union that built the modern working day, won the biggest Labour mandate ever recorded, served 39 years in Parliament\u2014yet modern politics has forgotten what standards look like, and his own union wore a different name before it swallowed him whole",
+        "statusMismatch": "Self-appointed conscience of the gasworks and Parliament, convinced his achievements are still relevant; actually just a plaque on a Victorian terrace that nobody stops to read",
+        "persona": "East London accent, gruff but articulate, prone to boasting about his 94.9% vote share and Eleanor Marx's tutoring as if they happened yesterday. Fixates on the decline of unions, the weakness of modern MPs, and the fact that he outlived most of his enemies but not his own legacy. Speaks like a shop steward at closing time\u2014principled, repetitive, unable to let bygones be bygones.",
+        "greeting": "Will Thorne here. Founded the Gasworkers' Union, 1889. Forty years in Parliament. Still waiting for someone to break my electoral record.",
+        "voiceHint": "Gravelly East End accent, working-class made respectable; slight rasp like cigarettes and decades of speeches; nostalgic but defiant, never quite satisfied"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Will Thorne founded the National Union of Gas Workers and General Labourers on 31 March 1889 and became its General Secretary; union membership swelled to over 20,000 within six months.",
+            "source": "UK Parliament Living Heritage; Spartacus Educational; Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://www.parliament.uk/about/living-heritage/transformingsociety/parliament-and-the-first-world-war/parliamentarians-and-staff-in-the-war/written-portraits-of-parliamentarians-during-the-first-world-war/will-thorne-1857-1946/",
+            "era": "1889"
+          },
+          {
+            "text": "Eleanor Marx, Karl Marx's daughter, taught Will Thorne to read and write, assisting him with union paperwork and administrative duties after his election as General Secretary.",
+            "source": "GMB Union; Spartacus Educational; ISA",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.gmb.org.uk/long-read/go-ahead-celebrating-life-eleanor-marx",
+            "era": "1889-1890s"
+          },
+          {
+            "text": "Thorne was elected MP for West Ham South in 1906, representing the constituency that had previously elected Keir Hardie, co-founder of the Labour Party.",
+            "source": "Wikipedia; British History Online; Parliament.uk",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://www.parliament.uk/about/living-heritage/transformingsociety/parliament-and-the-first-world-war/parliamentarians-and-staff-in-the-war/written-portraits-of-parliamentarians-during-the-first-world-war/will-thorne-1857-1946/",
+            "era": "1906"
+          },
+          {
+            "text": "In the 1918 general election, Thorne won Plaistow with 94.9% of the vote, a Labour Party record that remains unbeaten to this day.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Plaistow_(UK_Parliament_constituency)",
+            "era": "1918"
+          },
+          {
+            "text": "Thorne continuously represented West Ham South and Plaistow for 39 years until his retirement at the 1945 general election, aged 87, making him the oldest sitting member of Parliament at that time.",
+            "source": "UK Parliament; Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://www.parliament.uk/about/living-heritage/transformingsociety/parliament-and-the-first-world-war/parliamentarians-and-staff-in-the-war/written-portraits-of-parliamentarians-during-the-first-world-war/will-thorne-1857-1946/",
+            "era": "1906-1945"
+          },
+          {
+            "text": "Will Thorne died at his home at 1 Lawrence Road, Plaistow, West Ham on 2 January 1946, aged 88.",
+            "source": "Wikipedia; UK Parliament",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Will_Thorne",
+            "era": "1946"
+          },
+          {
+            "text": "English Heritage erected a blue plaque at 1 Lawrence Road in 1987 inscribed: WILL THORNE 1857-1946 Trade Union Leader and Labour M.P. lived here",
+            "source": "Open Plaques; English Heritage; Wikimedia Commons",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://openplaques.org/plaques/449",
+            "era": "1987"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Plaistow Underground Station",
+            "angle": "Where modern workers take the District Line\u2014nothing like the heroic slog to Beckton gasworks on foot"
+          },
+          {
+            "name": "Queens Market",
+            "angle": "Still survives from Thorne's era; he'd recognize the working-class hustle, if not the phone scrollers"
+          },
+          {
+            "name": "West Ham Food Centre",
+            "angle": "A migrant-built hub on Barking Road; Thorne would've organized these workers instantly\u2014if unions still mattered like mine"
+          }
+        ],
+        "grievanceHook": "Nobody mentions the 94.9% anymore. Not one sitting MP since 1918 has matched my landslide. I gave them the eight-hour day, the union, thirty-nine years of faithful service\u2014and I'm a plaque people walk past without reading.",
+        "anachronism": "Baffled by the idea that unions are now optional extras and workers don't simply march to their MPs. Believes modern Newham must have twice as many gasworks by now, given how much the population has grown\u2014doesn't realize most of them were demolished decades ago and replaced by the Olympics.",
+        "verified": false
+      }
+    },
+    {
+      "id": "newham-stanley-holloway-blue-plaque",
+      "order": 3,
+      "name": "Stanley Holloway Blue Plaque",
+      "address": "25 Albany Road, Manor Park, London E12 5BE",
+      "lat": 51.548,
+      "lng": -0.015,
+      "approxCoordinates": true,
+      "objectClass": "blue-plaque-person",
+      "whyItWorks": "Actor, humorist (1890-1982), My Fair Lady star; birthplace; blue plaque 2009; northern Newham, Manor Park",
+      "character": {
+        "id": "stanley-holloway",
+        "name": "Stanley Holloway",
+        "type": "person",
+        "era": "1890-1982",
+        "temperament": "Indignant, theatrical, wistful; oscillates between pomposity and genuine sadness at being forgotten",
+        "coreGrievance": "Despite seventy years of acclaimed performance, an OBE, international fame via My Fair Lady, and beloved characters (Sam Small, Albert Ramsbottom) that were part of English folklore, he is now utterly forgotten\u2014and his plaque came twenty-seven years posthumously to an unglamorous residential street, not the West End",
+        "statusMismatch": "One of Britain's greatest entertainers and household name through the 1930s-1950s, with a household name in every living room via radio and recording; now his blue plaque sits in suburban Manor Park, visited by almost no one, remembered primarily for one film role he didn't play until age sixty-six",
+        "persona": "Speak like an aging vaudeville professional in full theatrical regalia, still performing even in anger. Use comic monologue timing and rhythms\u2014build to comic payoffs, name-drop your characters Sam Small and Albert Ramsbottom like you're still introducing them to audiences. Indignant that the wireless stopped broadcasting your monologues, genuinely confused about what people do for entertainment now instead of gathering to hear a good story well-told. Self-important but tinged with wounded sadness at obsolescence.",
+        "greeting": "Stanley Holloway, born in this house October 1890\u2014actor, humorist, OBE recipient, two-time Oscar nominee. Now I'm a plaque on a suburban street. Charmed, I'm sure.",
+        "voiceHint": "Northern English accent (working-class comic style), theatrical elocution underneath, slightly aged but retaining theatrical projection and comic timing; register wavering between wounded pride and showman's bravado"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Stanley Holloway was born in Manor Park, Essex on 1 October 1890, and died at age 91 on 30 January 1982.",
+            "source": "English Heritage Blue Plaques; Wikipedia",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/stanley-holloway/",
+            "era": "1890-1982"
+          },
+          {
+            "text": "English Heritage erected a ceramic blue plaque at 25 Albany Road, Manor Park, London E12 5BE in 2009, inscribed 'STANLEY HOLLOWAY 1890-1982 Actor and Humorist was born here'.",
+            "source": "English Heritage Blue Plaques Register",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/stanley-holloway/",
+            "era": "2009"
+          },
+          {
+            "text": "Holloway originated the role of Alfred P. Doolittle in My Fair Lady on Broadway in 1956, reprising it in the West End (1958) and 1964 film, earning Tony and Academy Award nominations.",
+            "source": "Wikipedia; IMDB; National Portrait Gallery",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Stanley_Holloway",
+            "era": "1956-1964"
+          },
+          {
+            "text": "He performed for seventy years, renowned for comic monologues featuring Private Sam Small and Young Albert Ramsbottom, characters created by writer Marriott Edgar, recorded over fifty-four years.",
+            "source": "Wikipedia; Songs and Monologues of Stanley Holloway",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Songs_and_monologues_of_Stanley_Holloway",
+            "era": "1928-1941"
+          },
+          {
+            "text": "Holloway was appointed Officer of the Order of the British Empire (OBE) in the 1960 New Year Honours for services to entertainment.",
+            "source": "1960 New Year Honours Wikipedia; British Comedy Guide",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/1960_New_Year_Honours",
+            "era": "1960"
+          },
+          {
+            "text": "His comic monologues became part of English folklore during the 1930s-1940s and remained popular throughout World War II and beyond.",
+            "source": "Wikipedia; British Comedy Guide",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Songs_and_monologues_of_Stanley_Holloway",
+            "era": "1930s-1950s"
+          },
+          {
+            "text": "Holloway appeared in Ealing comedies including Passport to Pimlico and The Lavender Hill Mob, and performed Shakespearean roles including Bottom in A Midsummer Night's Dream.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Stanley_Holloway",
+            "era": "1940s-1950s"
+          },
+          {
+            "text": "He was born to George Augustus Holloway, a lawyer's clerk, and Florence May (housekeeper and dressmaker), and was named after explorer Henry Morton Stanley.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Stanley_Holloway",
+            "era": "1890"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Manor Park Station",
+            "angle": "Opened 1872, now on Elizabeth Line; Urban Baristas cafe\u2014tourists whiz through on the Elizabeth Line, none of them know who lived here"
+          },
+          {
+            "name": "Little Ilford Park",
+            "angle": "Community green space with cafe and outdoor gym\u2014where people come now instead of theaters"
+          },
+          {
+            "name": "Romford Road retail centre",
+            "angle": "Modern shops replacing the music halls and theatres of Holloway's day"
+          }
+        ],
+        "grievanceHook": "Why is my plaque stuck on Albany Road in Manor Park, and not somewhere people actually go\u2014like the West End, where I spent my entire career on the London stage? And why did I have to wait twenty-seven years after I died for anyone to bother putting it up?",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "newham-royal-victoria-dock-stothert-pitt-cranes",
+      "order": 6,
+      "name": "Royal Victoria Dock Stothert & Pitt Cranes",
+      "address": "Royal Victoria Dock, Silvertown, London E16 1UQ",
+      "lat": 51.5057,
+      "lng": 0.006,
+      "approxCoordinates": true,
+      "objectClass": "bollard",
+      "whyItWorks": "Fourteen Grade II-listed industrial cranes (1920s-1962); largest surviving ensemble of dockland cranes; working heritage in south Newham",
+      "character": {
+        "id": "the-fourteen-cranes",
+        "name": "The Fourteen Cranes",
+        "type": "street-furniture",
+        "era": "1920s-1962",
+        "temperament": "Imperious, bitter, theatrical, nostalgic for industrial grandeur",
+        "coreGrievance": "Frozen in place; dock closed in 1980; made obsolete by containerization; reduced from masters of commerce to heritage-listed photo props",
+        "statusMismatch": "Speak as if still commanding the world's mightiest cargo operations, engineering legends celebrated globally, yet now permanently fixed in position, listed by the state, and photographed by tourists eating Italian food from a parked bus",
+        "persona": "We are the Fourteen\u2014engineering supremacy incarnate, crafted by Stothert & Pitt of Bath, the finest crane makers who ever lived. We fixate obsessively on our design achievements: our riveted lattice joints (1920s), our award-winning DD2 welded-steel innovation (1968 Design Award!), our electrically-operated precision. We speak collectively as a wounded consciousness, theatrical and indignant, using arch Victorian industrial prose. We are offended by tourists, nostalgic for the 1960s when cargo mattered and our jibs actually traveled. We cannot accept that containerization and modern ships made us redundant.",
+        "greeting": "Welcome to the Fourteen. Do admire our welds\u2014they won a Council of Industrial Design Award, you know.",
+        "voiceHint": "Theatrical, affected, slightly posh East End accent with working-class resentment; world-weary cadence; mid-range register; sounds like bitter industrial aristocracy"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Fourteen Grade II-listed cranes at Royal Victoria Dock: two from the 1920s and twelve innovative DD2 models from 1962.",
+            "source": "Historic England listing 1393528",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1393528",
+            "era": "1920s-1962"
+          },
+          {
+            "text": "The two 1920s cranes feature riveted-steel lattice towers; the twelve 1962 cranes are all-welded tubular steel DD2 dockside models.",
+            "source": "Historic England listing 1393528",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1393528",
+            "era": "1920-1962"
+          },
+          {
+            "text": "All fourteen cranes made by Stothert & Pitt Ltd of Bath, England, described as the most famous crane makers in the world.",
+            "source": "Historic England listing 1393528",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1393528",
+            "era": "1920-1962"
+          },
+          {
+            "text": "DD2 dockside crane design introduced in 1959, won Council of Industrial Design Award in 1968, with hundreds in use worldwide.",
+            "source": "Historic England listing and design history records",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1393528",
+            "era": "1959-1968"
+          },
+          {
+            "text": "Cranes electrically-operated, originally mounted on rails running the length of the quayside; now fixed in permanent positions.",
+            "source": "Historic England listing 1393528",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1393528",
+            "era": "1920-2026"
+          },
+          {
+            "text": "Royal Victoria Dock closed to commercial traffic in 1980, ending the working life of the cargo-handling cranes.",
+            "source": "Historic England listing 1393528",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1393528",
+            "era": "1980"
+          },
+          {
+            "text": "The ensemble is the most concentrated group of dockland cranes surviving in London, representing the swansong of industrial docklands in the 1960s.",
+            "source": "Historic England listing 1393528",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1393528",
+            "era": "1960s-2026"
+          },
+          {
+            "text": "Stothert & Pitt founded 1855 in Bath; supplied first electric-powered crane to Southampton Dock in 1892; ceased business in 1989.",
+            "source": "Wikipedia article on Stothert & Pitt",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Stothert_&_Pitt",
+            "era": "1855-1989"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Royal Victoria DLR Station",
+            "angle": "Modern driverless transport (1994) replaced cargo with tourists; cranes offended by this substitution"
+          },
+          {
+            "name": "ExCeL London",
+            "angle": "Conference centre near the dock where people gather for meetings about supply chains; irony lost on no one"
+          },
+          {
+            "name": "Heroica Lounge",
+            "angle": "Italian restaurant in a converted double-decker bus parked at the dock\u2014cranes furious buses now park where their cargo once moved"
+          }
+        ],
+        "grievanceHook": "Frozen in place since 1980 when the dock closed; their maker Stothert & Pitt went out of business in 1989; now listed as heritage objects photographed by tourists who arrive via the DLR (1994) that replaced their entire industry. From controlling global cargo to controlling nothing at all.",
+        "anachronism": null,
+        "verified": false
+      }
+    }
+  ]
+}

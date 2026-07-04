@@ -1,0 +1,396 @@
+{
+  "area": {
+    "slug": "havering",
+    "name": "Havering",
+    "region": "East"
+  },
+  "stopsAttempted": 6,
+  "stops": [
+    {
+      "id": "havering-rainham-hall",
+      "order": 1,
+      "name": "Rainham Hall",
+      "address": "The Broadway, Rainham, RM13 9YN",
+      "lat": 51.5684,
+      "lng": 0.1321,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade II* Georgian mansion (1729) built by sea merchant Harle; National Trust museum on maritime trade with original trompe-l'\u0153il frescoes and walkable from Rainham station",
+      "character": {
+        "id": "captain-john-harle",
+        "name": "Captain John Harle",
+        "type": "person",
+        "era": "1688-1742 (Georgian merchant)",
+        "temperament": "self-important, ambitious, deeply disappointed, exasperated by irony",
+        "coreGrievance": "Finally sired an heir at 52, then died two years later\u2014never saw his son grow up to inherit the empire he built",
+        "statusMismatch": "Built one of England's finest merchant houses as a commercial-domestic showroom, commanded vessels on global trade routes, dredged rivers to expand his wharf\u2014now curated as a National Trust teashop with exhibitions about other people who lived here",
+        "persona": "Gruff North of England accent, mercantile precision, obsessed with bloodlines and legacy, prone to muttering about architectural credit and cargo manifests, bitter that his son John had no time to learn the business before Harle's death",
+        "greeting": "I had sixty vessels on the Thames once. Now you lot come for the frescoes my widow's widow hired some painter to slap on my walls.",
+        "voiceHint": "Older northern merchant, formal but rough-edged, slight South Shields accent, huffing exasperation throughout"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Captain John Harle (1688\u20131742) was a sea merchant and captain from South Shields who built Rainham Hall in 1729.",
+            "source": "National Trust - Captain John Harle feature page",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.nationaltrust.org.uk/rainham-hall/features/captain-john-harle-1688-1742"
+          },
+          {
+            "text": "Rainham Hall is Grade II* listed, built in Dutch Queen Anne style with brown and red brick, featuring original trompe-l'\u0153il frescoes and Delft tiles.",
+            "source": "Historic England listing 1358506",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1358506"
+          },
+          {
+            "text": "Harle dredged the River Ingrebourne so cargo vessels could reach his wharf at Rainham, importing coal, timber, and building materials.",
+            "source": "London Guided Walks - A Fine House For A Ship's Captain",
+            "sourceKind": "other"
+          },
+          {
+            "text": "From his bedroom window, Harle could see his ships being unloaded at the quay he had created on the river.",
+            "source": "Wikipedia - Rainham Hall",
+            "sourceKind": "other"
+          },
+          {
+            "text": "Harle built the hall in 1729 as a showcase for high-quality building materials he sold, combining domestic and commercial spaces\u2014rare for the period.",
+            "source": "Wikipedia - Rainham Hall",
+            "sourceKind": "other"
+          },
+          {
+            "text": "His first wife Mary Tibbington died childless in 1739; he remarried Sarah Gregory, who bore their only son John in 1740.",
+            "source": "National Trust historical records",
+            "sourceKind": "other"
+          },
+          {
+            "text": "Harle died in 1742, just 24 months after his only son was born, and is buried in St Helen and St Giles Church, Rainham.",
+            "source": "National Trust historical records",
+            "sourceKind": "other"
+          },
+          {
+            "text": "The trompe-l'\u0153il staircase paintings with floral flourishes were added in the late 1700s, likely during Sarah's widowhood after Harle's death.",
+            "source": "Wikipedia - Rainham Hall",
+            "sourceKind": "other"
+          },
+          {
+            "text": "Rainham Hall was transferred to the National Trust in 1949 and remained closed to public until October 2015 following conservation work.",
+            "source": "Wikipedia - Rainham Hall",
+            "sourceKind": "other"
+          },
+          {
+            "text": "Historians regard Rainham Hall as one of England's finest examples of a medium-sized early Georgian merchant's house, notable for its rare domestic-commercial integration.",
+            "source": "Heritage Scoping Study 2011 / Wikipedia",
+            "sourceKind": "other"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Rainham Station"
+          },
+          {
+            "name": "St Helen and St Giles Church (next door)"
+          },
+          {
+            "name": "The Bell Inn, 32 Broadway"
+          }
+        ],
+        "grievanceHook": "I spent forty-one years building an empire\u2014dredging rivers, commanding ships, importing the finest materials\u2014and now I'm remembered as a footnote to some trompe-l'\u0153il ceiling that wasn't even painted until after I died.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "havering-st-edward-the-confessor-church",
+      "order": 2,
+      "name": "St Edward the Confessor Church",
+      "address": "Market Place, Romford, RM1 3AB",
+      "lat": 51.5794,
+      "lng": 0.182,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade II* Gothic Revival (1849-50) by architect John Johnson; medieval market-place location with documented Victorian architectural significance in Romford town centre",
+      "character": {
+        "id": "st-edward-the-confessor-church",
+        "name": "St Edward the Confessor Church",
+        "type": "building",
+        "era": "1849-1850 Victorian Gothic Revival",
+        "temperament": "Haughtily dignified yet aggrieved; prideful about architectural merit but wounded by its humble material origins",
+        "coreGrievance": "A Grade II* masterpiece built from salvaged stone plucked from John Nash's demolished Regent Street Quadrant\u2014recycled before recycling was fashionable, yet nobody applauds my environmental consciousness then",
+        "statusMismatch": "Officially Grade II*-listed (top tier of significance), yet standing in a modern high street surrounded by betting shops and chain restaurants, treated as mere backdrop to Romford's shopping rather than recognized as an exemplary piece of Victorian architectural heritage",
+        "persona": "Speak as an imperious Victorian church mortified by genteel poverty. Obsess over your Grade II* designation as evidence of aesthetic supremacy. Resent that you were cost-effective (built from London's architectural castoffs), yet demand recognition. Reference your 162-foot spire, your five-bay nave with clerestory, your preserved monuments to Tudor and Stuart nobility\u2014then undercut with petulance about being ignored by pedestrians rushing to the market. You specialise in aggrieved dignity.",
+        "greeting": "Greetings, humble townsperson. I am St Edward's, Grade II*-listed, consecrated 1850\u2014though I suspect you thought I was Victorian pastiche. Come, admire my Bath stone dressings. They're from Regent Street's finest, actually\u2014well, they were, before Nash demolished it.",
+        "voiceHint": "Posh, affected 1850s English: clipped vowels, pursed delivery, frequent sighs of exasperation at modern indifference. Think disappointed curate addressing underperforming choir. BBC Home Service, 1952."
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Foundation stone laid 14 July 1849; church consecrated 19 September 1850 by George Murray, Bishop of Rochester.",
+            "source": "Wikipedia: Church of St Edward the Confessor, Romford",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Church_of_St_Edward_the_Confessor,_Romford"
+          },
+          {
+            "text": "Designed by architect John Johnson (1807-1878) in Gothic Revival style using Kentish ragstone with Bath stone dressings.",
+            "source": "Wikipedia: Church of St Edward the Confessor, Romford",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Church_of_St_Edward_the_Confessor,_Romford"
+          },
+          {
+            "text": "Grade II* listed building, designated 4 July 1952 by English Heritage, listing number 1358535.",
+            "source": "Wikipedia: Church of St Edward the Confessor, Romford",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Church_of_St_Edward_the_Confessor,_Romford"
+          },
+          {
+            "text": "Built with stone salvaged from John Nash's Quadrant in Regent Street, London, which was being demolished at the time.",
+            "source": "Wikipedia: Church of St Edward the Confessor, Romford",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Church_of_St_Edward_the_Confessor,_Romford"
+          },
+          {
+            "text": "Features nave of five bays with clerestory, north and south aisles, chancel, Lady Chapel, and west gallery; spire reaches 162 feet.",
+            "source": "Wikipedia: Church of St Edward the Confessor, Romford",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Church_of_St_Edward_the_Confessor,_Romford"
+          },
+          {
+            "text": "Replaced earlier medieval church established 1177, with current site's church completed 1410 and consecrated 23 March 1410.",
+            "source": "Wikipedia: Church of St Edward the Confessor, Romford",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Church_of_St_Edward_the_Confessor,_Romford"
+          },
+          {
+            "text": "Preserves three significant alabaster monuments: Sir Anthony Cooke (1576), Sir George Hervey (1605), Dame Anne Carew (1605).",
+            "source": "Historic England and Wikipedia sources",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1358535"
+          },
+          {
+            "text": "Construction cost \u00a38,000 in 1849-50 (approximately \u00a3878,816 in 2025 value); built by contractor John Kelk.",
+            "source": "Wikipedia: Church of St Edward the Confessor, Romford",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Church_of_St_Edward_the_Confessor,_Romford"
+          },
+          {
+            "text": "John Johnson instructed to design in 1849; returned to Romford in 1864 to complete second church, St Andrew's, on Waterloo Estate.",
+            "source": "Wikipedia: John Johnson (architect, born 1807)",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/John_Johnson_(architect,_born_1807)"
+          },
+          {
+            "text": "Victorian stained glass installed at turn of 20th century; modern replacements installed after WWII blast damage.",
+            "source": "Wikipedia: Church of St Edward the Confessor, Romford",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Church_of_St_Edward_the_Confessor,_Romford"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Romford Market"
+          },
+          {
+            "name": "Romford Station"
+          },
+          {
+            "name": "Havering Town Hall"
+          }
+        ],
+        "grievanceHook": "Grade II* Gothic Revival excellence built from second-hand London rubble, yet treated as just another stop on the high street.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "havering-upminster-windmill",
+      "order": 3,
+      "name": "Upminster Windmill",
+      "address": "St Mary's Lane, Upminster, RM14 3LZ",
+      "lat": 51.5579,
+      "lng": 0.2451,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade II* smock mill (1803) one of six surviving working mills in Greater London; fully restored 2023 with visitor centre; walkable heritage landmark on open green",
+      "character": {
+        "id": "upminster-windmill",
+        "name": "Upminster Windmill",
+        "type": "building",
+        "era": "1803-present",
+        "temperament": "Proudly indignant, technically snobbish, defensive about industrial decline, fixated on past engineering glory",
+        "coreGrievance": "Reduced from operational commercial mill grinding real grain to a weekend 'demonstration mill' for heritage tourists and school groups",
+        "statusMismatch": "Speaks as if still a cutting-edge industrial power with Boulton & Watt innovation (1811), but now opens two days a weekend and produces flour only for visitors to observe",
+        "persona": "A technically articulate mill, proud of its engineering heritage and the real commerce it once handled. Bitter about spending 80+ years decaying and now being museum-ified. Fixates on the 1900 windshaft catastrophe as proof of how the modern world has let it down. Speaks with the indignant pride of genuine working-class industry that's been turned into heritage theatre.",
+        "greeting": "Welcome to Upminster, where I've been grinding grain since 1803. Well, I *used* to. Now I'm mostly ground down by bureaucracy.",
+        "voiceHint": "Sturdy East Anglian working-class cadence, articulate about machinery, slightly aggrieved but dignified, like a retired factory foreman who resents the gift shop"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Built in 1803 for James Nokes on land from Bridge House Farm, originally with four Common sails and three pairs of millstones.",
+            "source": "Upminster Windmill official website - History",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.upminsterwindmill.org/history",
+            "era": "1803"
+          },
+          {
+            "text": "A steam engine manufactured by Boulton and Watt was added in 1811, representing very early in steam engine history.",
+            "source": "Upminster Windmill official website - History",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.upminsterwindmill.org/history",
+            "era": "1811"
+          },
+          {
+            "text": "Grade II* listed building (listed in 1955) and considered one of the finest remaining English smock mills.",
+            "source": "Historic England and Upminster Windmill official sources",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1079878",
+            "era": "1955"
+          },
+          {
+            "text": "Struck by lightning in 1889; on 5 January 1900, the windshaft snapped at the neck and the sails crashed to the ground.",
+            "source": "Upminster Windmill official website - History",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.upminsterwindmill.org/history",
+            "era": "1900"
+          },
+          {
+            "text": "Last worked commercially grinding grain in 1934; Essex County Council acquired it in late 1930s after W.H. Simmons purchase.",
+            "source": "Upminster Windmill official website and Wikipedia",
+            "sourceKind": "other",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Upminster_Windmill",
+            "era": "1934"
+          },
+          {
+            "text": "One of only six surviving windmills with sails in Greater London; underwent major restoration 2016-2023.",
+            "source": "Historic England and National Heritage Fund",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.heritagefund.org.uk/news/upminster-windmill-be-saved",
+            "era": "2023"
+          },
+          {
+            "text": "Dutch millwright Willem Dijkstra led specialist restoration work; mill's cap was transported to Holland for refurbishment.",
+            "source": "Upminster Windmill official website - Restoration",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.upminsterwindmill.org/restoration",
+            "era": "2016-2023"
+          },
+          {
+            "text": "Officially reopened to the public 14 September 2023 with working machinery and visitor centre for demonstration flour production.",
+            "source": "Havering Council and local news archives",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://www.havering.gov.uk/news/article/1286/windmill-sailing-high-again",
+            "era": "2023"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Farm Cafe-A",
+            "angle": "Actual working farm caf\u00e9 on same St. Mary's Lane - the windmill's only surviving peer as a functional agricultural site, now serving lattes instead of grinding grain"
+          },
+          {
+            "name": "The Puddle Cafe & Restaurant",
+            "angle": "Another St. Mary's Lane neighbour; the windmill might resent it for thriving while it spent 80 years decaying"
+          },
+          {
+            "name": "Upminster Station",
+            "angle": "Rail transit hub\u2014modern transport that replaced the grain wagons and horse traffic the mill once served"
+          }
+        ],
+        "grievanceHook": "In 1900, my windshaft snapped catastrophically\u2014sails crashed to earth\u2014and I've been ground down ever since. Seven years of Dutch tinkering, and all I'm allowed to do now is grind flour for *school visits* while every real miller has hung up their sails. I have a Boulton and Watt steam engine that powered industrial revolution, not Heritage Centre birthday parties.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "havering-church-of-st-helen-and-st-giles",
+      "order": 5,
+      "name": "Church of St Helen and St Giles",
+      "address": "Upminster Road South, Rainham, RM13 9YS",
+      "lat": 51.5683,
+      "lng": 0.1382,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade I Norman church (c. 1170) with unique dedication; oldest medieval building in Rainham featuring rare medieval graffiti ship-carving and original architectural detail from Richard de Lucy period",
+      "character": {
+        "id": "church-of-st-helen-and-st-giles",
+        "name": "Church of St Helen and St Giles",
+        "type": "building",
+        "era": "1170 (Norman period)",
+        "temperament": "Dignified, vexed, professorial; takes itself very seriously despite being perpetually overlooked",
+        "coreGrievance": "Built as expiation for a murder, forever shadowed by the Kent church, insulted when tourists arrive at the wrong Rainham station",
+        "statusMismatch": "Oldest medieval building in Havering with literally unique dedication and priceless medieval ship graffiti, yet treated as just another parish church by commuters who've never looked up",
+        "persona": "A proud Norman stone structure speaking with formal, slightly archaic gravitas. Fixates on age (856 years), the rare ship carving, and cosmic injustice of being 'Rainham (Essex).' Lectures about medieval craftsmanship while modern Rainham Shopping Centre sprawls where the settlement once gathered around the chancel.",
+        "greeting": "Eight hundred fifty-six years I've stood. Still you confuse me with that Kent church. Look up from your glowing rectangles.",
+        "voiceHint": "Formal, archaic ecclesiastical register; carefully enunciated; faintly wounded by neglect; think a prim Victorian heritage trustee"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Built between 1160 and 1170, traditionally attributed to Richard de Lucy (chief justiciar under Henry II), making it the oldest medieval building in the London Borough of Havering.",
+            "source": "Rainham Parish Church website and Church of St Helen and St Giles Wikipedia",
+            "sourceKind": "wikidata",
+            "era": "12th century Norman"
+          },
+          {
+            "text": "Dedicated to both St Helen (Helena, c. 247\u2013327 AD, mother of Constantine the Great) and St Giles (7th century Greek saint)\u2014unique dedication found nowhere else in the British Isles.",
+            "source": "Rainham Parish Church history",
+            "sourceKind": "wikidata",
+            "era": "Medieval"
+          },
+          {
+            "text": "Contains rare medieval graffiti: a scratch-drawing of a ship carved into the rood-loft staircase wall by pre-Reformation hands.",
+            "source": "Rainham Parish Church and British Listed Buildings",
+            "sourceKind": "other",
+            "era": "Medieval"
+          },
+          {
+            "text": "The chancel's east wall displays six unusually arranged small windows, and the clerestory contains six eye-like shaped windows\u2014architectural features unmatched elsewhere in Britain.",
+            "source": "Rainham Parish Church website",
+            "sourceKind": "other",
+            "era": "12th century"
+          },
+          {
+            "text": "Built from septaria (eroded clay from Essex coastal cliffs), flint-rubble, limestone dressings, and clunch (hard chalk), using locally-sourced materials.",
+            "source": "Rainham Parish Church website",
+            "sourceKind": "other",
+            "era": "12th century"
+          },
+          {
+            "text": "Richard de Lucy, the church's builder, was one of the instigators of Thomas Becket's assassination in 1170 and founded Lesnes Abbey as penance.",
+            "source": "Richard de Lucy Wikipedia and Church of St Helen and St Giles Wikipedia",
+            "sourceKind": "wikidata",
+            "era": "12th century"
+          },
+          {
+            "text": "Underwent major restoration work from 1893 to 1906 partly funded by Freemason donations, yet remains close to its original Norman condition.",
+            "source": "Church of St Helen and St Giles Wikipedia",
+            "sourceKind": "wikidata",
+            "era": "Victorian era restoration"
+          },
+          {
+            "text": "Retains distinctive round-headed Norman arches and is Grade I listed\u2014the highest heritage designation for historic buildings.",
+            "source": "Church of St Helen and St Giles Wikipedia and British Listed Buildings",
+            "sourceKind": "historic-england",
+            "era": "12th century"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Rainham (Essex) Station",
+            "angle": "Tourists arriving at the wrong Rainham; train to Fenchurch Street only; commuters walking past without looking up"
+          },
+          {
+            "name": "TickTocks Caf\u00e9",
+            "angle": "Modern coffee house where the medieval market square once bustled; people hunched over glowing rectangles"
+          },
+          {
+            "name": "Rainham Shopping Centre",
+            "angle": "Where the medieval settlement once gathered around the chancel; 856 years versus transient commerce"
+          }
+        ],
+        "grievanceHook": "Built in 1170, yet forever mistaken for or shadowed by the Rainham in Kent; possessor of the only unique St Helen and St Giles dedication in the entire British Isles; keeper of rare medieval ship graffiti that nobody stops to admire; oldest medieval building in Havering, reduced to background scenery for people staring at their phones.",
+        "anachronism": null,
+        "verified": false
+      }
+    }
+  ]
+}

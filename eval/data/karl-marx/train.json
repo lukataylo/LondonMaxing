@@ -1,0 +1,114 @@
+{
+  "name": "Karl Marx",
+  "slug": "karl-marx",
+  "items": [
+    {
+      "text": "A spectre is haunting Europe \u2014 the spectre of communism. All the powers of old Europe have entered into a holy alliance to exorcise this spectre: Pope and Tsar, Metternich and Guizot, French Radicals and German police-spies.",
+      "quoteType": "published-writing",
+      "context": "Opening of The Communist Manifesto, written as a declaration of communist principles and platform. Marx and Engels were commissioned by the Communist League to write this foundational document during the revolutionary ferment of 1848.",
+      "publicReaction": "The Manifesto became one of the most influential political documents in history. Contemporary authorities seized copies; it was banned in most European states. By the late 19th century it was recognized as a seminal work by both supporters and critics of socialism.",
+      "date": "February 1848",
+      "source": "The Manifesto of the Communist Party (Manifesto of the Communist League), written by Karl Marx and Friedrich Engels, published February 1848",
+      "sourceUrl": "https://www.marxists.org/archive/marx/works/1848/communist-manifesto/ch01.htm"
+    },
+    {
+      "text": "The proletarians have nothing to lose but their chains. They have a world to win. Working Men of All Countries, Unite!",
+      "quoteType": "published-writing",
+      "context": "Closing call to action of The Communist Manifesto. Marx and Engels conclude their indictment of capitalism and exhortation to revolutionary action with this famous rallying cry for international worker solidarity.",
+      "publicReaction": "This phrase became the iconic slogan of socialist and communist movements worldwide. It was translated into dozens of languages and became a battle cry for working-class movements throughout the 19th and 20th centuries.",
+      "date": "February 1848",
+      "source": "The Manifesto of the Communist Party, Chapter IV, written by Karl Marx and Friedrich Engels",
+      "sourceUrl": "https://www.marxists.org/archive/marx/works/1848/communist-manifesto/ch04.htm"
+    },
+    {
+      "text": "Philosophers have hitherto only interpreted the world in various ways; the point is to change it.",
+      "quoteType": "published-writing",
+      "context": "The 11th and final thesis of Marx's Theses on Feuerbach, written as preparatory notes for The German Ideology. This statement encapsulates Marx's shift from philosophical interpretation to revolutionary praxis as the proper aim of thought.",
+      "publicReaction": "The statement became foundational to Marxist theory. It was engraved on Marx's tomb in Highgate Cemetery. The phrase is cited repeatedly in 20th-century Marxist, critical theory, and philosophical literature as defining Marx's philosophical method.",
+      "date": "Spring 1845",
+      "source": "Theses on Feuerbach, Thesis 11, written by Karl Marx",
+      "sourceUrl": "https://www.marxists.org/archive/marx/works/1845/theses/theses.htm"
+    },
+    {
+      "text": "Religious suffering is, at one and the same time, the expression of real suffering and a protest against real suffering. Religion is the sigh of the oppressed creature, the heart of a heartless world, and the soul of soulless conditions. It is the opium of the people.",
+      "quoteType": "published-writing",
+      "context": "From Marx's Introduction to the Critique of Hegel's Philosophy of Right, published in the Deutsch\u2013Franz\u00f6sische Jahrb\u00fccher in February 1844. Marx argues that religious critique is preliminary to material and political critique of the conditions producing religious consciousness.",
+      "publicReaction": "The 'opium of the people' phrase became Marx's most famous statement on religion and was cited by both supporters and critics. Religious leaders condemned it as atheistic; later Marxists adopted it as proof of scientific socialism's materialist analysis. The phrase remained controversial and widely quoted throughout the 20th century.",
+      "date": "February 1844 (written 1843)",
+      "source": "A Contribution to the Critique of Hegel's Philosophy of Right. Introduction, published in Deutsch\u2013Franz\u00f6sische Jahrb\u00fccher, February 1844",
+      "sourceUrl": "https://www.marxists.org/archive/marx/works/1843/critique-hpr/intro.htm"
+    },
+    {
+      "text": "The critics of religion are already aware that, in replacing the clouds, which rest upon religion, with real relations arising from the existing mode of production, ruthless criticism of all that exists, ruthless both in the sense of not being afraid of the results it arrives at and in the sense of being just as little afraid of conflict with the powers that be.",
+      "quoteType": "letter",
+      "context": "From Marx's letter to Arnold Ruge from Kreuznach, dated September 1843. Marx outlines his methodological approach to social criticism, emphasizing fearless analysis regardless of political consequences. The letter was later published in the Deutsch\u2013Franz\u00f6sische Jahrb\u00fccher in February 1844.",
+      "publicReaction": "The concept of 'ruthless criticism' became central to Marxist epistemology and methodology. It influenced debates about the relationship between theory and revolution among later socialists. The phrase characterized Marx as uncompromising in intellectual rigor and political commitment.",
+      "date": "September 1843",
+      "source": "Letter to Arnold Ruge, September 1843, later published in Deutsch\u2013Franz\u00f6sische Jahrb\u00fccher, February 1844",
+      "sourceUrl": "https://www.marxists.org/archive/marx/works/1843/letters/43_09.htm"
+    },
+    {
+      "text": "The ideas of the ruling class are in every epoch the ruling ideas, i.e. the class which is the ruling material force of society, is at the same time its ruling intellectual force. The class which has the means of material production at its disposal, has control at the same time over the means of mental production.",
+      "quoteType": "published-writing",
+      "context": "From The German Ideology (written 1845-46, published posthumously), co-authored with Friedrich Engels. This passage presents one of Marx's most systematic formulations of historical materialism regarding the relationship between economic power and ideological dominance.",
+      "publicReaction": "This became one of the most cited passages in Marxist theory and social science. It influenced 20th-century cultural criticism, media studies, and sociology. Both Marxists and non-Marxists engaged deeply with this theory of ideology.",
+      "date": "1845-1846 (published 1932)",
+      "source": "The German Ideology, Chapter 1, Section B, written by Karl Marx and Friedrich Engels",
+      "sourceUrl": "https://www.marxists.org/archive/marx/works/1845/german-ideology/ch01b.htm"
+    },
+    {
+      "text": "From the moment labor begins to be divided, each man has an exclusive and definite sphere of activity which is imposed on him and which he cannot leave; he is a hunter, a fisherman, a shepherd, or a critic...whereas in the communist society, where each man does not have an exclusive sphere of activity, but can perfect himself in whatever field he likes, society regulates general production, thereby making it possible for me to do one thing today and another thing tomorrow, to hunt in the morning, fish in the afternoon, raise sheep in the evening, and practice criticism after dinner according to my whim.",
+      "quoteType": "published-writing",
+      "context": "From The German Ideology (1845-46), illustrating Marx's critique of the division of labor under capitalism and his vision of liberated human activity under communism. The passage contrasts the rigidity of capitalist specialization with communist flexibility.",
+      "publicReaction": "The passage became famous as a utopian vision of communist society and was widely quoted by both supporters and critics of Marx. It has been analyzed extensively in discussions of work, alienation, and human potential in Marxist theory and beyond.",
+      "date": "1845-1846",
+      "source": "The German Ideology, Chapter 1, Section A, written by Karl Marx and Friedrich Engels",
+      "sourceUrl": "https://www.marxists.org/archive/marx/works/1845/german-ideology/ch01a.htm"
+    },
+    {
+      "text": "Hegel remarks somewhere that all great world-historic facts and personages appear, so to speak, twice. He forgot to add: the first time as tragedy, the second time as farce...Men make their own history, but they do not make it as they please; they do not make it under self-selected circumstances, but under circumstances existing already, given and transmitted from the past. The tradition of all dead generations weighs like a nightmare on the brains of the living.",
+      "quoteType": "published-writing",
+      "context": "Opening of The Eighteenth Brumaire of Louis Bonaparte (1852), Marx's analysis of Napoleon's nephew's rise to power in France in 1851. Marx uses this famous formulation to explain how historical actors are constrained by inherited conditions even as they create history.",
+      "publicReaction": "The 'men make their own history' passage became foundational to Marxist theory of historical agency and structure. It was extensively cited by later Marxist theorists engaging with questions of historical determinism versus agency. The phrase is regularly quoted in historical and sociological analysis.",
+      "date": "December 1851 - March 1852",
+      "source": "The Eighteenth Brumaire of Louis Bonaparte, Chapter 1, written by Karl Marx",
+      "sourceUrl": "https://www.marxists.org/archive/marx/works/1852/18th-brumaire/ch01.htm"
+    },
+    {
+      "text": "It is our interest and our task to make the revolution permanent until all the more or less propertied classes have been driven from their ruling positions...The proletariat would lose all its hard-won independent position and be reduced once more to a mere appendage of official bourgeois democracy...The whole proletariat must be armed at once with muskets, rifles, cannon and ammunition...Our concern cannot simply be to modify private property, but to abolish it, not to hush up class antagonisms but to abolish classes. The Permanent Revolution.",
+      "quoteType": "speech",
+      "context": "From the Address of the Central Committee to the Communist League, delivered by Marx and Engels in March 1850 in London. This address outlined the League's strategy after the failure of the 1848-49 revolutions, advocating for permanent revolution and independent proletarian organization.",
+      "publicReaction": "The doctrine of 'permanent revolution' became influential in later socialist theory, particularly among those arguing for continuous revolutionary transformation. The speech was published in Communist Review in 1926. It shaped debates about revolutionary strategy among socialists throughout the 20th century.",
+      "date": "March 1850",
+      "source": "Address of the Central Committee to the Communist League, delivered March 1850, published in Communist Review Vol. 6, No. 10, February 1926",
+      "sourceUrl": "https://www.marxists.org/archive/marx/works/1847/communist-league/1850-ad1.htm"
+    },
+    {
+      "text": "Workingmen: It is a great fact that the misery of the working masses has not diminished from 1848 to 1864, notwithstanding the development of industry and the increase of capital...the Ten Hours' Bill proved that a reduction of the working day is possible.",
+      "quoteType": "speech",
+      "context": "From Marx's Inaugural Address of the International Working Men's Association, delivered at a public meeting at St. Martin's Hall in London on September 28, 1864, at the founding of the First International. The address surveyed recent labor history and achievements.",
+      "publicReaction": "The speech established the First International as a serious organization committed to labor emancipation. It was published as an official document alongside the International's provisional rules. The founding and Marx's leadership became subjects of intense debate and controversy among European socialist and labor movements.",
+      "date": "September 28, 1864",
+      "source": "Inaugural Address of the International Working Men's Association, delivered September 28, 1864 at St. Martin's Hall, London",
+      "sourceUrl": "https://www.marxists.org/archive/marx/works/1864/10/27.htm"
+    },
+    {
+      "text": "A commodity appears, at first sight, a very trivial thing, and easily understood. Its analysis shows that it is, in reality, a very queer thing, abounding in metaphysical subtleties and theological niceties.",
+      "quoteType": "published-writing",
+      "context": "From Capital, Volume I, Chapter 1, Section 4 (The Fetishism of Commodities). Marx begins his analysis of how commodities mystify the social relations of production, a key concept for understanding how capitalism obscures its own nature.",
+      "publicReaction": "This passage became central to Marxist economic theory and influenced 20th-century cultural criticism, aesthetics, and media studies. The concept of commodity fetishism has been extensively analyzed and debated in academic literature.",
+      "date": "September 1867",
+      "source": "Capital: A Critique of Political Economy, Volume I, Chapter 1, Section 4, written by Karl Marx",
+      "sourceUrl": "https://www.marxists.org/archive/marx/works/1867-c1/ch01.htm"
+    },
+    {
+      "text": "Capital is dead labour, that, vampire-like, only lives by sucking living labour, and lives the more, the more labour it sucks.",
+      "quoteType": "published-writing",
+      "context": "From Capital, Volume I, Chapter 10 (The Working Day). Marx uses vivid metaphorical language to describe how capital accumulates by exploiting living labor. This famous passage illustrates Marx's rhetorical power in economic analysis.",
+      "publicReaction": "The vampire metaphor became iconic in Marxist and anti-capitalist discourse. It is frequently quoted in both academic and popular discussions of capitalism and exploitation. The vivid imagery made it one of Marx's most memorable formulations.",
+      "date": "September 1867",
+      "source": "Capital: A Critique of Political Economy, Volume I, Chapter 10, Section 1, written by Karl Marx",
+      "sourceUrl": "https://www.marxists.org/archive/marx/works/1867-c1/ch10.htm"
+    }
+  ]
+}

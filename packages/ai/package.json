@@ -1,0 +1,36 @@
+{
+  "name": "@grudgemap/ai",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "prebuild": "pnpm --filter @grudgemap/shared build",
+    "build": "tsc -p tsconfig.json",
+    "pretypecheck": "pnpm --filter @grudgemap/shared build",
+    "dev": "tsc -p tsconfig.json --watch",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@grudgemap/shared": "workspace:*"
+  },
+  "peerDependencies": {
+    "@google/genai": "*",
+    "@elevenlabs/elevenlabs-js": "*",
+    "@imgly/background-removal-node": "*"
+  },
+  "peerDependenciesMeta": {
+    "@google/genai": { "optional": true },
+    "@elevenlabs/elevenlabs-js": { "optional": true },
+    "@imgly/background-removal-node": { "optional": true }
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}

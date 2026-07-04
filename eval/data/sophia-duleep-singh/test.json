@@ -1,0 +1,33 @@
+{
+  "name": "Sophia Duleep Singh",
+  "slug": "sophia-duleep-singh",
+  "items": [
+    {
+      "text": "Dear Mr Montagu, the great rise in prices, taxes and rates, and the ever increasing difficulty of making two ends meet, leave me no choice but to write to you to ask for assistance.",
+      "quoteType": "letter",
+      "context": "Letter to the Secretary of State for India requesting financial assistance due to economic hardship and inability to cover living expenses.",
+      "publicReaction": "Not widely publicized at the time; this letter represents her personal struggles after years of financial sacrifices made through tax resistance and financial support to suffragette causes.",
+      "date": "March 1920",
+      "source": "Letter to Secretary of State for India",
+      "sourceUrl": "https://www.nationalarchives.gov.uk/explore-the-collection/stories/sophia-duleep-singh/"
+    },
+    {
+      "text": "I have received your letter of October 18 with regard to the reduction of the allowance from \u00a3200 to \u00a3130.68 a year. As it was not sufficiently adequate in the first place to cover expenses, it will be much less so when reduced... I am again obliged to use capital, which will further reduce my income.",
+      "quoteType": "letter",
+      "context": "Letter expressing concern about a significant reduction in her annual allowance from Queen Victoria's estate, which was already insufficient to cover her living expenses.",
+      "publicReaction": "Not widely publicized; the letter reflects her financial struggles in her later years as the value of her allowance diminished with inflation and economic changes following World War I.",
+      "date": "1923",
+      "source": "Correspondence, National Archives records",
+      "sourceUrl": "https://www.nationalarchives.gov.uk/explore-the-collection/stories/sophia-duleep-singh/"
+    },
+    {
+      "text": "I want a solemn promise from you. You are never, ever not to vote. You don't realise how far we've come.",
+      "quoteType": "reported-speech",
+      "context": "Statement made near the end of her life, after World War II, to Drovna (her housekeeper's daughter), emphasizing the importance of exercising voting rights that women had fought so hard to obtain.",
+      "publicReaction": "Recorded in Anita Anand's biography 'Sophia: Princess, Suffragette, Revolutionary' and represents her final public message about the value of women's suffrage rights.",
+      "date": "late 1940s",
+      "source": "Anita Anand's 'Sophia: Princess, Suffragette, Revolutionary'; also referenced in New Statesman article review",
+      "sourceUrl": "https://www.newstatesman.com/culture/2015/01/womans-will-power-dramatic-life-forgotten-suffragette"
+    }
+  ]
+}

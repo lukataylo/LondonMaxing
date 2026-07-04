@@ -1,0 +1,105 @@
+{
+  "name": "Mary Seacole",
+  "slug": "mary-seacole",
+  "items": [
+    {
+      "text": "I am a Creole, and have good Scotch blood coursing in my veins.",
+      "quoteType": "published-writing",
+      "context": "Opening statement in the first chapter of her autobiography where Seacole establishes her mixed heritage and personal identity.",
+      "publicReaction": "The autobiography became a bestseller and established her fame. Readers recognized her as a woman of mixed Scottish and Jamaican Creole heritage, which she used to explain her active disposition.",
+      "date": "July 1857",
+      "source": "Wonderful Adventures of Mrs. Seacole in Many Lands, Chapter I (My Birth and Parentage), published by James Blackwood, London",
+      "sourceUrl": "https://digital.library.upenn.edu/women/seacole/adventures/adventures.html"
+    },
+    {
+      "text": "My father was a soldier, of an old Scotch family; and to him I often trace my affection for a camp-life, and my sympathy with what I have heard my friends call 'the pomp, pride, and circumstance of glorious war.'",
+      "quoteType": "published-writing",
+      "context": "In the opening chapter of her autobiography, explaining her lifelong attraction to military life and adventure, which she attributed to her Scottish father's influence.",
+      "publicReaction": "This statement helped Victorian readers understand her motivation for traveling to the Crimean War, and it explained her unconventional lifestyle for a woman of her era.",
+      "date": "July 1857",
+      "source": "Wonderful Adventures of Mrs. Seacole in Many Lands, Chapter I (My Birth and Parentage), published by James Blackwood, London",
+      "sourceUrl": "https://digital.library.upenn.edu/women/seacole/adventures/adventures.html"
+    },
+    {
+      "text": "Unless I am allowed to tell the story of my life in my own way, I cannot tell it at all.",
+      "quoteType": "published-writing",
+      "context": "A declaration of narrative authority near the beginning of her autobiography, asserting her determination to maintain her own voice and perspective in telling her life story.",
+      "publicReaction": "This quote became emblematic of Seacole's determination for self-representation and agency. It resonated with later readers as a statement about the importance of telling one's own story.",
+      "date": "July 1857",
+      "source": "Wonderful Adventures of Mrs. Seacole in Many Lands, published by James Blackwood, London",
+      "sourceUrl": "https://www.goodreads.com/quotes/10234738-unless-i-am-allowed-to-tell-the-story-of-my"
+    },
+    {
+      "text": "All my life long I have followed the impulse which led me to be up and doing; and so far from resting idle anywhere, I have never wanted inclination to rove, nor will powerful enough to find a way to carry out my wishes.",
+      "quoteType": "published-writing",
+      "context": "A statement about her character and lifelong pursuit of action and travel, explicitly contradicting Victorian stereotypes about 'lazy Creoles' by asserting her personal energy and determination.",
+      "publicReaction": "Readers found this statement characteristic of Seacole's spirited personality. It became central to biographies portraying her as an exceptional woman who refused to accept limitations.",
+      "date": "July 1857",
+      "source": "Wonderful Adventures of Mrs. Seacole in Many Lands, Chapter I (My Birth and Parentage), published by James Blackwood, London",
+      "sourceUrl": "https://www.goodreads.com/author/quotes/378321.Mary_Seacole"
+    },
+    {
+      "text": "Time is a great restorer, and changes surely the greatest sorrow into a pleasing memory.",
+      "quoteType": "published-writing",
+      "context": "A philosophical reflection on the passage of time and emotional healing, appearing in her autobiography as she reflects on past difficulties and losses.",
+      "publicReaction": "This poignant statement resonated with Victorian readers' understanding of emotional resilience and the consolations of time. It became one of her most quoted observations.",
+      "date": "July 1857",
+      "source": "Wonderful Adventures of Mrs. Seacole in Many Lands, published by James Blackwood, London",
+      "sourceUrl": "https://www.goodreads.com/quotes/10234818-time-is-a-great-restorer-and-changes-surely-the-greatest"
+    },
+    {
+      "text": "Was it possible that American prejudices against colour had some root here? Did these ladies shrink from accepting my aid because my blood flowed beneath a somewhat duskier skin than theirs? Tears streamed down my foolish cheeks, as I stood in the fast thinning streets; tears of grief that any should doubt my motives\u2014that Heaven should deny me the opportunity that I sought.",
+      "quoteType": "published-writing",
+      "context": "In Chapter VIII of her autobiography, Seacole reflects on her rejection by Florence Nightingale's nursing committee and other British institutions, questioning whether racial prejudice played a role in her exclusion from official service in the Crimean War.",
+      "publicReaction": "This passage was striking to contemporary and later readers as it explicitly addressed racial discrimination. It presented Seacole's emotional response to institutional racism, making her autobiography a document of this experience.",
+      "date": "July 1857",
+      "source": "Wonderful Adventures of Mrs. Seacole in Many Lands, Chapter VIII, published by James Blackwood, London",
+      "sourceUrl": "https://standardebooks.org/ebooks/mary-seacole/wonderful-adventures-of-mrs-seacole-in-many-lands/text/chapter-8"
+    },
+    {
+      "text": "Death is always terrible\u2014no one need be ashamed to fear it. How we bear it depends much upon our constitutions. I have seen some brave men, who have smiled at the cruelest amputation, die trembling like children; while others, whose lives have been spent in avoidance of the least danger or trouble, have drawn to their last painful breath like heroes, striking at their foe to the last, robbing him of his victory, and making their death a triumph.",
+      "quoteType": "published-writing",
+      "context": "A philosophical and clinical observation from her autobiography on human mortality and courage, based on her firsthand experience nursing wounded soldiers in the Crimean War.",
+      "publicReaction": "Victorian readers found this passage powerful and realistic. It demonstrated Seacole's medical knowledge and psychological insight into human behavior under extreme circumstances.",
+      "date": "July 1857",
+      "source": "Wonderful Adventures of Mrs. Seacole in Many Lands, Chapter VII, published by James Blackwood, London",
+      "sourceUrl": "https://www.goodreads.com/author/quotes/378321.Mary_Seacole"
+    },
+    {
+      "text": "The public had been presented with several portrait-sketches of Seacole, and there was an effort to obtain a more accurate sketch of her in the dress she wore in one of 'the corridors of the sick.' Among the visitors was Mrs Seacole, whose appearance awakened the most rapturous enthusiasm. The soldiers not only cheered her, but chaired her around the gardens, and she smiled most graciously and seemed highly gratified.",
+      "quoteType": "reported-speech",
+      "context": "A contemporary newspaper account of the Royal Guards Regimental Dinner held at Royal Surrey Gardens in Kennington, where Seacole appeared as a guest of honor after returning from the Crimea. The soldiers' response demonstrated the depth of her popularity among the troops.",
+      "publicReaction": "The Times and other newspapers reported extensively on this event, emphasizing the enthusiastic reception she received from soldiers. This public recognition helped establish her as a national figure and raised her profile for the upcoming publication of her autobiography.",
+      "date": "26 August 1856",
+      "source": "The Times newspaper, report on Royal Guards Regimental Dinner",
+      "sourceUrl": "https://www.goodreads.com/author/quotes/378321.Mary_Seacole"
+    },
+    {
+      "text": "Mrs Seacole is a lady of colour and has been honoured with four Government medals for her kindness to the British soldiery. She was present in person and attracted much attention, the gaily coloured decorations on her breast being in perfect harmony with the rest of her attire.",
+      "quoteType": "reported-speech",
+      "context": "A description of Seacole's appearance at the Bankruptcy Court on Basinghall Street, where she was declared bankrupt on 7 November 1856. She wore medals to her court appearance, presumably to attract sympathy for her financial situation.",
+      "publicReaction": "The Times published this account on 7 November 1856. The public description emphasized her status as a decorated woman and her international recognition, presenting her bankruptcy as a contrast to her service and public reputation.",
+      "date": "7 November 1856",
+      "source": "The Times newspaper, bankruptcy court report",
+      "sourceUrl": "https://www.goodreads.com/author/quotes/378321.Mary_Seacole"
+    },
+    {
+      "text": "Inter alia, we are to have an hotel at Balaclava. It is to be conducted by 'Mrs. Seacole, late of Jamaica.'",
+      "quoteType": "published-writing",
+      "context": "William Howard Russell, special correspondent for the London Times covering the Crimean War, reported on the establishment of Seacole's British Hotel near Balaclava in his dispatch from the front.",
+      "publicReaction": "This brief announcement in the Times was one of the first public notices of Seacole's intention to establish a catering establishment near the battlefield. It helped publicize her presence and services to the British troops.",
+      "date": "9 March 1855",
+      "source": "The Times newspaper, dispatch from William Howard Russell",
+      "sourceUrl": "https://www.smithsonianmag.com/history/a-historians-quest-to-unravel-the-secrets-of-mary-seacole-an-innovative-long-overlooked-black-nurse-180980527/"
+    },
+    {
+      "text": "A more tender or skilful hand about a wound or a broken limb could not be found among our best surgeons...she was a warm and successful physician, who doctors and cures all manner of men with extraordinary success. She is always in attendance near the battlefield to aid the wounded and has earned many a poor fellow's blessing.",
+      "quoteType": "published-writing",
+      "context": "William Howard Russell's testimony to Seacole's medical skills and battlefield presence, from his dispatches as special correspondent for the Times during the Crimean War. Written on 14 September 1855.",
+      "publicReaction": "Russell's powerful endorsement gave Seacole credibility and prestige among the British public. His descriptions of her skill and dedication helped establish her reputation as a legitimate medical practitioner.",
+      "date": "14 September 1855",
+      "source": "The Times newspaper, dispatch from William Howard Russell",
+      "sourceUrl": "https://www.victorianweb.org/history/crimea/seacole.html"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "John Keats",
+  "slug": "john-keats",
+  "items": [
+    {
+      "text": "A thing of beauty is a joy for ever: / Its loveliness increases; it will never / Pass into nothingness",
+      "quoteType": "published-writing",
+      "context": "The opening lines of Keats's poem Endymion, articulating his philosophy that genuine beauty is eternal and provides permanent sources of joy and spiritual nourishment.",
+      "publicReaction": "This became one of Keats's most famous and frequently quoted lines; it is so well-known that Mary Poppins quotes it in the 1964 Disney film.",
+      "date": "1818",
+      "source": "Project Gutenberg; American Literature",
+      "sourceUrl": "https://www.gutenberg.org/files/24280/24280-h/24280-h.htm"
+    },
+    {
+      "text": "The great beauty of Poetry is, that it makes every thing every place interesting",
+      "quoteType": "letter",
+      "context": "Keats expressed to his brother George his conviction that poetry's supreme power lies in its ability to render the ordinary world interesting and meaningful.",
+      "publicReaction": "This statement became influential in understanding Keats's poetic philosophy and the Romantic conception of poetry's transformative power.",
+      "date": "1819",
+      "source": "John Keats Quotes; The Poetry Foundation",
+      "sourceUrl": "https://www.poetryfoundation.org/articles/69384/selections-from-keatss-letters"
+    },
+    {
+      "text": "The Imagination may be compared to Adam's dream \u2013 he awoke and found it truth",
+      "quoteType": "letter",
+      "context": "In his letter to Benjamin Bailey, Keats used the biblical image of Adam's dream to explain how imagination creates truth\u2014just as Adam awoke to find his dream of Eve had become reality.",
+      "publicReaction": "This became an influential image in literary criticism and is frequently cited in discussions of Keats's aesthetic philosophy.",
+      "date": "November 22, 1817",
+      "source": "The Keats Letters Project; British Literature Wiki",
+      "sourceUrl": "https://keatslettersproject.com/letters/letter-35-to-benjamin-bailey-22-november-1817/"
+    },
+    {
+      "text": "The Heart is not a Hornbook but the Minds bible",
+      "quoteType": "letter",
+      "context": "In his extended journal letter to his brother and sister-in-law in America, Keats made a philosophical statement about the primacy of the heart (emotions and affections) over rote intellectual learning.",
+      "publicReaction": "This statement became part of Keats's broader philosophy emphasizing the heart and emotions over pure intellect.",
+      "date": "December 16, 1818\u2013January 4, 1819",
+      "source": "The Keats Letters Project",
+      "sourceUrl": "https://keatslettersproject.com/letters/letter-113-to-george-and-georgiana-keats-16-december-1818-4-january-1819/"
+    }
+  ]
+}

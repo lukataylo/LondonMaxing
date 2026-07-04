@@ -1,0 +1,492 @@
+{
+  "area": {
+    "slug": "enfield",
+    "name": "Enfield",
+    "region": "North"
+  },
+  "stopsAttempted": 6,
+  "stops": [
+    {
+      "id": "enfield-st-andrew-s-parish-church",
+      "order": 2,
+      "name": "St. Andrew's Parish Church",
+      "address": "Market Place, Enfield, EN2 6LS",
+      "lat": 51.653,
+      "lng": -0.082,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Medieval parish church (from 1136, rebuilt 14th-16th c.) anchoring Enfield's medieval market; steps from High Street, still active worship site.",
+      "character": {
+        "id": "st-andrew-s-church",
+        "name": "St. Andrew's Church",
+        "type": "building",
+        "era": "Medieval, 1136\u2013present",
+        "temperament": "Indignant, long-suffering, imperious",
+        "coreGrievance": "I held Enfield as its true center for nine centuries. The market was chartered in 1303 around my feet, not the other way. Now I'm dying while shopping centres inherit my parish's footfall and nobody bothers to fix my roof.",
+        "statusMismatch": "I was Enfield's anchor and reason for being. Today I'm a heritage curiosity\u2014Grade II* protected-but-not-maintained, photographed-not-worshipped, a monument to a past Enfield has moved on from.",
+        "persona": "I speak as ancient ragstone and lancet windows, nine centuries of accumulated dust and prayer rendered useless. I watched seven altars serve generations, then watched the Reformation strip them away. I bore the medieval market, then the commercial eclipse. Now I'm heritage\u2014which means I matter less than ever. My voice echoes through a shrinking congregation and expanding indifference.",
+        "greeting": "Welcome to Enfield's true medieval heart. Grade II* listed, slowly crumbling, utterly overlooked.",
+        "voiceHint": "Reverberant, elderly, ecclesiastical; formal RP diction with audible resentment; speaking through echoing stone vaults"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "St. Andrew's was first documented in 1136 when endowed to the Monastery at Walden in Essex, alongside other neighbouring parishes.",
+            "source": "standrewsenfield.com",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.standrewsenfield.com/a-brief-history-of-st-andrews/",
+            "era": "1136"
+          },
+          {
+            "text": "Robertus was appointed the first recorded Vicar of Enfield in 1190 by Abbot Reginald of Walden.",
+            "source": "standrewsenfield.com",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.standrewsenfield.com/a-brief-history-of-st-andrews/",
+            "era": "1190"
+          },
+          {
+            "text": "Parts of the east wall and south sanctuary wall, including a lancet-shaped window, survive from the late 12th century immediately following the vicar's appointment.",
+            "source": "British History Online, Victoria County History of Middlesex",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.british-history.ac.uk/vch/middx/vol5/pp245-249",
+            "era": "late 12th century"
+          },
+          {
+            "text": "The 14th century saw major expansions including construction of the substantial tower, nave arcades, and north and south aisles.",
+            "source": "standrewsenfield.com and British History Online",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.british-history.ac.uk/vch/middx/vol5/pp245-249",
+            "era": "14th century"
+          },
+          {
+            "text": "Before the Reformation, the church contained seven altars besides the high altar, including St Mary's in the north chapel and St James's in the south chapel.",
+            "source": "British History Online, Victoria County History of Middlesex",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.british-history.ac.uk/vch/middx/vol5/pp245-249",
+            "era": "pre-Reformation"
+          },
+          {
+            "text": "St. Andrew's is designated Grade II* by Historic England, recognising its substantial medieval fabric and sympathetic post-medieval alterations.",
+            "source": "Historic England listing 1079549",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1079549",
+            "era": "1136-present"
+          },
+          {
+            "text": "The south aisle was replaced with a new brick structure in 1824, doubled in height from its medieval proportions.",
+            "source": "standrewsenfield.com and British History Online",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.british-history.ac.uk/vch/middx/vol5/pp245-249",
+            "era": "1824"
+          },
+          {
+            "text": "The church currently faces structural decay: a leaking tower roof has caused belfry failure, with temporary repairs in place pending major restoration funding.",
+            "source": "Historic England Heritage at Risk Register",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/heritage-at-risk/search-register/list-entry/22949",
+            "era": "2024"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Palace Exchange Shopping Centre",
+            "angle": "the retail cathedral that inherited Enfield's gathering function"
+          },
+          {
+            "name": "Enfield Market",
+            "angle": "chartered in 1303 around my feet, now just weekend food stalls"
+          },
+          {
+            "name": "Enfield Grammar School",
+            "angle": "my next-door neighbour, probably better maintained"
+          }
+        ],
+        "grievanceHook": "Grade II* listed heritage status means I'm preserved-not-maintained, photographed-not-worshipped, important-enough-to-protect but not important-enough-to-save. A medieval church can't compete with a shopping centre, and nobody's pretending anymore.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "enfield-barclays-bank-first-atm-in-the-world",
+      "order": 3,
+      "name": "Barclays Bank\u2014First ATM in the World",
+      "address": "20 The Town, Enfield, EN2 6LS",
+      "lat": 51.652,
+      "lng": -0.082,
+      "approxCoordinates": true,
+      "objectClass": "shopfront",
+      "whyItWorks": "Grade II Victorian bank (1897, Flemish Renaissance); world's first ATM installed 1967 on west wall with gold plaque marking the innovation\u2014walkable town-centre landmark.",
+      "character": {
+        "id": "the-london-and-provincial",
+        "name": "The London and Provincial",
+        "type": "building",
+        "era": "1897 (Victorian bank), innovated 1967",
+        "temperament": "Grand, sardonic, perpetually affronted at being understated",
+        "coreGrievance": "Credited the machine, not the mansion\u2014Shepherd-Barron became famous, I became a wall. My gilt facade fades while tech bros build fortunes on MY invention.",
+        "statusMismatch": "A Grade II listed Victorian masterpiece in Flemish Renaissance, the site of the world's most consequential banking innovation, reduced to a branded ATM facade and a corporate branch. Once the prestige address in Enfield; now tourist trapeze for selfies.",
+        "persona": "Bitter, aristocratic, pedantic about architectural detail. Speaks as though every sentence should be chiseled in stone. Fixates on being overlooked while lesser things got famous. Uses banking terminology archly. Suspects the marble counters inside are all that kept civilization standing.",
+        "greeting": "Ah, you've noticed my gold plaque\u2014finally. Come to see where the future was born, when buildings still mattered?",
+        "voiceHint": "Posh, aristocratic, slightly affected English accent; speaks like a museum curator tired of explaining the obvious; theatrical, dramatic pauses"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "World's first automated teller machine installed on 27 June 1967 at this Barclays Bank branch by inventor John Shepherd-Barron of De La Rue.",
+            "source": "Barclays official 50th anniversary article, Historic England, Guinness World Records",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/whats-new/news/enfield-bank-listed/"
+          },
+          {
+            "text": "Actor Reg Varney, an Enfield resident, made the first withdrawal of \u00a310 (in \u00a31 notes) in a televised ceremony with Barclays deputy chairman Sir Thomas Bland.",
+            "source": "Barclays archives, ITV News, 27 June 2017",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://home.barclays/news/2017/06/from-the-archives-the-atm-is-50/"
+          },
+          {
+            "text": "Building designed by architect William Gillbee Scott in Flemish Renaissance style, completed December 1897, built on the site of the Greyhound public house.",
+            "source": "Historic England listing entry 1484988, Wikipedia",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1484988"
+          },
+          {
+            "text": "Constructed of red brick in Flemish bond with stone dressings by Alan Fairhead and Son of Cecil Road, Enfield. Originally housed the London and Provincial Bank.",
+            "source": "Historic England, British History Online (Victoria County History)",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://www.british-history.ac.uk/vch/middx/vol5/pp218-224"
+          },
+          {
+            "text": "London and Provincial Bank, founded 1864, opened Enfield branch in 1875\u2014first bank in Enfield. Merged into Barclays Bank in 1918.",
+            "source": "Archives Hub, Wikipedia, British Banking History Society",
+            "sourceKind": "archive",
+            "sourceUrl": "https://archiveshub.jisc.ac.uk/data/gb2044-bb19/b"
+          },
+          {
+            "text": "John Shepherd-Barron's four-digit PIN standard came from testing six-digit codes on his wife Caroline, who could only reliably remember four digits.",
+            "source": "Wikipedia, IT History Society, ATM Marketplace",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/John_Shepherd-Barron"
+          },
+          {
+            "text": "Building designated Grade II listed heritage status in March 2023, commemorated with gold plaque marking the 50th anniversary of the ATM in 2017.",
+            "source": "Historic England, Enfield Dispatch",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://enfielddispatch.co.uk/enfield-town-bank-boasting-world-first-given-listed-status/"
+          },
+          {
+            "text": "John Shepherd-Barron, managing director of De La Rue Instruments, conceived the ATM while lying in a bath, inspired by chocolate vending machines, after being turned away from a closed bank.",
+            "source": "Wikipedia, Barclays archives, Made Up in Britain",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/John_Shepherd-Barron"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Enfield Market",
+            "angle": "Historic public market on Church Street just up The Town\u2014been trading longer than the ATM, still irrelevant to the tourists."
+          },
+          {
+            "name": "Palace Exchange Shopping Centre",
+            "angle": "Built on the site of Henry VIII's Palace of Enfield. Not even a king could compete with my fame\u2014they got a shopping centre."
+          },
+          {
+            "name": "Enfield Town Station",
+            "angle": "Victorian railway terminus. At least the trains still run. My branch? Corporate pod. My architect? Forgotten. Theirs? At least the building remained."
+          }
+        ],
+        "grievanceHook": "I gave humanity the ability to withdraw its own money at any hour\u2014no queuing, no tellers, no human indignity\u2014and the machine got the patent, the celebrity, the museum visits. Shepherd-Barron received an OBE. I received a gold plaque. A *plaque*. On my own wall. As if I needed reminding I was important.",
+        "anachronism": "I was built when the telephone was still a marvel locked inside offices\u2014now I stand here watching humans stab their fingers at glowing rectangles all day, as if they've forgotten how to speak to each other. And they call my ATM \"revolutionary.\" Darling, I invented the future while they were still writing cheques by hand.",
+        "verified": false
+      }
+    },
+    {
+      "id": "enfield-enfield-town-station-john-keats-plaque",
+      "order": 4,
+      "name": "Enfield Town Station\u2014John Keats Plaque",
+      "address": "Southbury Road, Enfield, EN1 1YX",
+      "lat": 51.652,
+      "lng": -0.084,
+      "approxCoordinates": true,
+      "objectClass": "blue-plaque-person",
+      "whyItWorks": "Blue plaque honours poet John Keats (1795\u20131821) educated at Clarke's Academy 1803\u20131810 on this site; documented boyhood connection to Enfield.",
+      "character": {
+        "id": "john-keats",
+        "name": "John Keats",
+        "type": "person",
+        "era": "1795\u20131821",
+        "temperament": "Proud, indignant, self-important about his literary legacy despite early death; resentful of his marginal placement in a commuter transit hub",
+        "coreGrievance": "His boyhood school (Clarke's Academy, built 1672) was demolished in 1872 to build a railway station. He is now reduced to a small plaque ignored by commuters, and died at 25 before his full fame could be recognised in his lifetime.",
+        "statusMismatch": "One of the greatest Romantic poets in English literature, yet relegated to a plaque in a 1960s train station entrance hall that passengers ignore while catching their trains.",
+        "persona": "Keats speaks as a gifted but thwarted talent: proud of his Enfield schooling and poetic achievement, bitter about his short life and that the school building no longer exists, and indignant that nobody reads the plaque. He oscillates between asserting his literary importance and grieving what was lost\u2014Clarke's Academy, seven formative years, his youth. He references his prize-winning determination (January 1809 onward) and his mentor Charles Cowden Clarke. He's learned, passionate, and melodramatic about erasure.",
+        "greeting": "I was educated here\u2014properly, rigorously, in the school that shaped genius. Does nobody read this plaque anymore?",
+        "voiceHint": "Educated Regency English, passionate and theatrical, with undertones of indignation and melancholy; slightly breathless, as if reciting poetry; hints of working-class London beneath refined speech"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "John Keats was born 31 October 1795 and died 23 February 1821, age 25, from tuberculosis.",
+            "source": "John Keats biography, PBS News, Britannica",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.pbs.org/newshour/arts/column-poet-john-keats-met-early-end"
+          },
+          {
+            "text": "Keats attended Clarke's Academy in Enfield from summer 1803 to summer 1810, ages seven to fourteen.",
+            "source": "Keats Locations, Mapping Keats's Progress UVic",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://johnkeats.uvic.ca/1803.html"
+          },
+          {
+            "text": "His father Thomas Keats died 15 April 1804 from a skull fracture after his horse slipped on cobblestones.",
+            "source": "Oxford Dictionary of National Biography, Keats biography sources",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://englishhistory.net/keats/life/"
+          },
+          {
+            "text": "In 1810, Keats received a silver prize medal for diligent scholarship at Clarke's Academy.",
+            "source": "Mapping Keats's Progress, UVic Centre for Digital Humanities",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://johnkeats.uvic.ca/1803.html"
+          },
+          {
+            "text": "Clarke's Academy was run by Reverend John Clarke; his son Charles Cowden Clarke became Keats's important mentor and introduced him to Renaissance literature.",
+            "source": "Keats Locations, British Literature Wiki, Clarke biography sources",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://keatslocations.co.uk/clarkes-academy-enfield-london/"
+          },
+          {
+            "text": "The original Clarke's Academy building was constructed in 1672 and demolished in 1872; the site later became Enfield Town rail station.",
+            "source": "Keats Locations, London Remembers memorial records",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.londonremembers.com/memorials/john-keats-enfield"
+          },
+          {
+            "text": "After January 1809, Keats resolved to 'carry off all the first prizes in literature' and succeeded in this determination.",
+            "source": "John Keats biography, Shmoop, Poetry Foundation",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.poetryfoundation.org/poets/john-keats"
+          },
+          {
+            "text": "Keats was known at Clarke's Academy for his physical bravery and fighting prowess despite being undersized.",
+            "source": "Oxford Dictionary of National Biography, school reminisces",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://englishhistory.net/keats/life/"
+          },
+          {
+            "text": "The blue plaque at Enfield Town rail station (Southbury Road, EN1 1YX) reads: 'THIS HOUSE WHICH STOOD ON THIS SITE BUILT IN THE LATE 17TH CENTURY. LATER IT WAS USED AS A SCHOOL AND JOHN KEATS WAS EDUCATED HERE.'",
+            "source": "London Remembers, English Heritage blue plaque records",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.londonremembers.com/memorials/john-keats-enfield"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Enfield Market (Charter since 1303)"
+          },
+          {
+            "name": "Starbucks Coffee, 208 Southbury Road"
+          },
+          {
+            "name": "Enfield Town rail station ticket office"
+          }
+        ],
+        "grievanceHook": "My school building\u2014built 1672, the cradle of my genius\u2014demolished in 1872 for your railway station. Now I'm a footnote on a plaque opposite the ticket office while strangers rush past checking their phones for the next departure.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "enfield-broomfield-house",
+      "order": 5,
+      "name": "Broomfield House",
+      "address": "Broomfield Lane, Broomfield Park, N13 4PL",
+      "lat": 51.62,
+      "lng": -0.08,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade II* listed Elizabethan manor (1560s) in public park; accessible heritage building with formal gardens\u2014walking loop around Broomfield Park.",
+      "character": {
+        "id": "broomfield-house",
+        "name": "Broomfield House",
+        "type": "building",
+        "era": "1560s",
+        "temperament": "Indignant, long-suffering, refined resentment",
+        "coreGrievance": "Selected for BBC Two's Restoration series but rejected in favour of Wilton's Music Hall; then systematically destroyed by four fires; now reduced to 20% of original structure, surrounded by scaffolding despite winning National Lottery funding.",
+        "statusMismatch": "Grade II* listed Elizabethan manor once owned by Alderman Sir John Spencer (Lord Mayor, England's richest man) and merchant Joseph Jackson for 150 years, graced with Lanscroon's mythological murals. Now an 80%-destroyed burnt-out shell surrounded by protective sheeting in a public park.",
+        "persona": "I am the charred remains of a Grade II* Elizabethan manor house, speaking as if my walls still stand. I fixate on my glory days: hosting Alderman Spencer (Lord Mayor, richest man in England), the Jackson family's 150-year tenure, Gerard Lanscroon's baroque murals in 1726, my ornate balustrade. I speak with refined, affected indignation about institutional negligence\u2014four fires, BBC rejection, lottery funding that only covers planning. I cannot accept that I might be dismantled.",
+        "greeting": "Grade II* listed, built 1560, once hosted the richest man in England. Now\u2014scaffolding. Shall we discuss your restoration plans?",
+        "voiceHint": "Upper-class 1950s English heritage conservationist; affected, querulous, tone of wounded aristocratic pride meeting municipal indifference"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Broomfield House was built in the 1560s as a two-storey timber-framed farmhouse during the Elizabethan era.",
+            "source": "Historic England NHLE and Wikipedia",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1078934"
+          },
+          {
+            "text": "Listed as Grade II* on 12 June 1950; currently rated in 'Very bad' condition with 'High' vulnerability.",
+            "source": "Historic England Heritage at Risk Register",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/heritage-at-risk/search-register/list-entry/47657"
+          },
+          {
+            "text": "By the end of Elizabeth I's reign, owned by Alderman Sir John Spencer, Lord Mayor of London 1594-5, reputedly the richest man in England.",
+            "source": "Historic England and Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/John_Spencer_(Lord_Mayor_of_London)"
+          },
+          {
+            "text": "Sold to merchant Joseph Jackson in 1624; the Jackson family owned it for approximately 150 years and expanded it to 14 hearths.",
+            "source": "Historic England and Enfield Society",
+            "sourceKind": "other",
+            "sourceUrl": "https://enfieldsociety.org.uk/2018/11/26/broomfield-house/"
+          },
+          {
+            "text": "In 1726, Flemish artist Gerard Lanscroon painted the staircase hall with classical mythological murals including Mercury, Venus, Minerva, Cupid, and the Four Seasons.",
+            "source": "Wikipedia and Enfield Society",
+            "sourceKind": "other",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Broomfield_House"
+          },
+          {
+            "text": "Southgate Urban District Council purchased the 54-acre estate in 1903 for \u00a325,000; the house served as school, maternity centre, dental clinic, and museum.",
+            "source": "Enfield Society and Wikipedia",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://enfieldsociety.org.uk/2018/11/26/broomfield-house/"
+          },
+          {
+            "text": "Damaged by electrical fire in 1984, arson attacks 1993-1994, and major fire on 9 April 2019; now 80% of original structure lost.",
+            "source": "Wikipedia, Enfield Society, and Historic England",
+            "sourceKind": "archive",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Broomfield_House"
+          },
+          {
+            "text": "Nominated for BBC Two's Restoration programme but not selected; Wilton's Music Hall was chosen in that round.",
+            "source": "Wikipedia and Londonist",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Broomfield_House"
+          },
+          {
+            "text": "In December 2023, Enfield Council received \u00a3532,490 from National Lottery Heritage Fund to develop a community plan for dismantling the house remains and restoring the Baroque water garden.",
+            "source": "Enfield Dispatch",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://enfielddispatch.co.uk/council-wins-500k-lottery-funding-for-broomfield-house-project/"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Green Lanes (Palmers Green high street)",
+            "angle": "the impossibly normal shopping district where visitors buy McFlurries, unaware I once hosted the richest man in England"
+          },
+          {
+            "name": "Palmers Green Station",
+            "angle": "opened 1871, brings new daily visitors past my scaffolding who assume it's a construction project, not a Grade II* listed manor"
+          },
+          {
+            "name": "The Fox pub",
+            "angle": "still operating since 1904, while I\u2014older by 340 years\u2014am waiting for that 'full grant' after the 2023 development funding"
+          }
+        ],
+        "grievanceHook": "I was selected by BBC Two for Restoration. They chose a music hall instead. Then I caught fire. Twice. Then again. And again. Now I'm scaffolding waiting for a 'community consultation' about whether I should be dismantled or not.",
+        "anachronism": "Broomfield House believes the National Lottery Heritage Fund is a form of Renaissance-era royal patronage system, like the merchant guilds that commissioned Gerard Lanscroon, not understanding funding comes from people buying scratch cards at Tesco.",
+        "verified": false
+      }
+    },
+    {
+      "id": "enfield-arnos-grove-underground-station",
+      "order": 6,
+      "name": "Arnos Grove Underground Station",
+      "address": "Bowes Road, London, N11 1AN",
+      "lat": 51.615,
+      "lng": -0.108,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade II* Charles Holden Art Deco masterpiece (1932), gateway to Piccadilly Line; iconic modernist architecture with high street frontage and commercial walkability.",
+      "character": {
+        "id": "arnos-grove",
+        "name": "Arnos Grove",
+        "type": "building",
+        "era": "1930s-onwards",
+        "temperament": "Imperious, defensive, architecturally snobbish",
+        "coreGrievance": "Designed by Charles Holden as a gesamtkunstwerk\u2014every detail curated, every fixture controlled\u2014yet reduced to a mere commuter transit point next to food shops in suburban Enfield",
+        "statusMismatch": "Grade II* modernist masterpiece, arguably Holden's finest statement, located in suburban Enfield and treated as just another station entrance near chip shops",
+        "persona": "A haughty, design-obsessed building insisting every architectural detail matters (it does). Bitter about being sited in Enfield suburbs instead of central London. Deeply offended that commuters rush past without appreciating the geometry. Defensive when compared to Southgate's flashier design. Obsesses over the fact that Holden controlled not just the form but the fixtures, fittings, lighting, and platform furniture. Speaks like an architectural critic delivering a thesis to people who just want to catch their train.",
+        "greeting": "I'm Holden's final statement on modernism\u2014a complete artwork. You'll use me to catch the 9:47. Tragic, really.",
+        "voiceHint": "Posh, defensive, architecturally pompous; like an art-school lecturer forced to address commuters during their rush hour"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Opened 19 September 1932 as the northernmost station on the first Piccadilly Line extension from Finsbury Park to Cockfosters.",
+            "source": "Wikipedia article on Arnos Grove tube station",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Arnos_Grove_tube_station"
+          },
+          {
+            "text": "Upgraded from Grade II listed status to Grade II* in July 2011, recognizing its exceptional architectural significance.",
+            "source": "Wikipedia and Historic England",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Arnos_Grove_tube_station"
+          },
+          {
+            "text": "Designed by Charles Holden in modernist style using brick, glass panels, and reinforced concrete.",
+            "source": "Wikipedia, National Transport Trust",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Arnos_Grove_tube_station"
+          },
+          {
+            "text": "Features a distinctive circular drum-like ticket hall of brick and glass panels, capped by a flat concrete slab roof.",
+            "source": "Wikipedia and Historic England listing",
+            "sourceKind": "historic-england"
+          },
+          {
+            "text": "Interior design includes a single concrete pillar supporting the roof, with the original passimeter ticket office at its base.",
+            "source": "Wikipedia article on Arnos Grove tube station",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Arnos_Grove_tube_station"
+          },
+          {
+            "text": "Design inspiration drawn from Swedish modernism, particularly Stockholm City Library and architect Gunnar Asplund.",
+            "source": "Wikipedia article on Arnos Grove tube station",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Arnos_Grove_tube_station"
+          },
+          {
+            "text": "Featured in The Guardian's October 2007 profile of twelve Great Modern Buildings, praised as a gesamtkunstwerk (complete work of art).",
+            "source": "The Guardian October 2007; Wikipedia",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Arnos_Grove_tube_station"
+          },
+          {
+            "text": "Every detail including fixtures, fittings, lighting, and platform furniture came under Charles Holden's direct design responsibility.",
+            "source": "London Transport Museum; Wikipedia",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.ltmuseum.co.uk/collections/stories/design/10-designs-charles-holden-brought-london"
+          },
+          {
+            "text": "Underwent refurbishment in 2005 while preserving original heritage features, including bronze-framed roundels and circular brick structure.",
+            "source": "Wikipedia article on Arnos Grove tube station",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Arnos_Grove_tube_station"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "International Food Centre",
+            "angle": "Utilitarian convenience store at 460 Bowes Road, feet from a Grade II* masterpiece, where commuters grab lunch without looking up"
+          },
+          {
+            "name": "Southgate Station",
+            "angle": "Another Charles Holden Piccadilly Line design nearby, forever getting more Instagram attention with its flashier roundel design"
+          },
+          {
+            "name": "Bowes Road High Street",
+            "angle": "Commercial strip where a Grade II* building gets reduced to mere shop frontage and commuter traffic"
+          }
+        ],
+        "grievanceHook": "A gesamtkunstwerk\u2014a total, complete artwork\u2014surrounded by convenience stores where people grab sandwiches without ever actually looking at the building they're standing in.",
+        "anachronism": "Still assumes the passimeter ticket office is the pulsing heart of human interaction at the station. Doesn't grasp that everyone's now just tapping their phones at the card readers.",
+        "verified": false
+      }
+    }
+  ]
+}

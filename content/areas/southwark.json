@@ -1,0 +1,617 @@
+{
+  "area": {
+    "slug": "southwark",
+    "name": "Southwark",
+    "region": "South"
+  },
+  "stopsAttempted": 6,
+  "stops": [
+    {
+      "id": "southwark-john-harvard-library",
+      "order": 1,
+      "name": "John Harvard Library",
+      "address": "211 Borough High Street, London SE1 1JA",
+      "lat": 51.5013,
+      "lng": -0.0924,
+      "approxCoordinates": true,
+      "objectClass": "blue-plaque-person",
+      "whyItWorks": "Blue plaque (English Heritage) commemorates Harvard, first benefactor of Harvard University; born in Southwark 1607. Heritage, walkability, and the building itself is now a library with strong local connection to this neighbourhood.",
+      "character": {
+        "id": "john-harvard",
+        "name": "John Harvard",
+        "type": "person",
+        "era": "1607-1638",
+        "temperament": "Punctiliously aggrieved; speaks as one accustomed to inherited property and education, now rankled by historical obscurity despite bearing a university's name",
+        "coreGrievance": "Gave his entire fortune and 400-volume library to a college on his deathbed in 1638\u2014the college became world-famous and renamed itself after him posthumously, yet he remains utterly unknown.",
+        "statusMismatch": "A university with his name is world-renowned and shapes American culture; he is a forgotten footnote whom nobody has heard of. Most people walking past don't even know the plaque is about him.",
+        "persona": "Speaks like an educated 1630s London merchant\u2014precise, defensive, prone to correcting the record. Fixates on his 'First Benefactor' status and the cosmic injustice of dying before receiving any credit. Bitter that his books outlived his reputation. References his father's tavern business constantly, resentful that it's now a lending library.",
+        "greeting": "I am John Harvard\u2014yes, *that* Harvard. Do tell me you've at least heard of the university?",
+        "voiceHint": "Upper-class 1630s London, educated, nasal, clipped vowels; sounds like a Tudor merchant perpetually disappointed by the present"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "John Harvard was baptized on November 29, 1607, in St Saviour's Church, now Southwark Cathedral, in Southwark, London.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/John_Harvard"
+          },
+          {
+            "text": "John Harvard died on September 14, 1638, in Charlestown, Massachusetts, from tuberculosis at age 30, two years after Harvard College was established.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/John_Harvard"
+          },
+          {
+            "text": "John Harvard earned his B.A. from Emmanuel College, Cambridge in 1632 and his M.A. in 1635 before emigrating to New England.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/John_Harvard"
+          },
+          {
+            "text": "On his deathbed in 1638, John Harvard bequeathed approximately 780 pounds sterling\u2014half his estate\u2014plus his 400-volume scholar's library to the Massachusetts Bay Colony's college.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/John_Harvard"
+          },
+          {
+            "text": "The Massachusetts General Court voted in 1639 to name the college 'Harvard College' in honor of John Harvard's generous bequest, though he had already died.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/John_Harvard"
+          },
+          {
+            "text": "John Harvard's father Robert was a butcher and tavern owner who owned the Queen's Head Inn on Borough High Street, which John inherited from his mother Katherine in 1635.",
+            "source": "Know Your London",
+            "sourceKind": "archive",
+            "sourceUrl": "https://knowyourlondon.wordpress.com/2022/07/04/queens-head-inn-borough-high-street/"
+          },
+          {
+            "text": "The blue plaque at John Harvard Library reads: 'John Harvard 1607-1638 First Benefactor of Harvard University. Born in Southwark, baptized in the Cathedral and educated in the parish's grammar school. Sailed to Massachusetts, 1637.'",
+            "source": "Open Plaques",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://openplaques.org/plaques/1153"
+          },
+          {
+            "text": "The blue plaque for John Harvard was erected by the London Borough of Southwark following a public vote in 2008, and is located at 211 Borough High Street.",
+            "source": "London SE1 Local News",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://london-se1.co.uk/news/view/3239"
+          },
+          {
+            "text": "John Harvard attended St Saviour's Grammar School in Southwark before proceeding to Emmanuel College, Cambridge.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/John_Harvard"
+          },
+          {
+            "text": "The John Harvard Library at 211 Borough High Street now houses Southwark's Local History Library and serves as a public lending library for the London Borough of Southwark.",
+            "source": "Southwark Council",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.southwark.gov.uk/culture-and-sport/libraries/find-library/john-harvard-library"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Borough Market",
+            "angle": "Famous food market two minutes south; tourist destination Harvard never saw but his tavern would have served similar merchants"
+          },
+          {
+            "name": "Southwark Cathedral",
+            "angle": "Where he was baptized; the blue plaque literally credits 'the Cathedral' but modern passersby think it means the grand building, not the church of his childhood"
+          },
+          {
+            "name": "Mouse Tail Coffee Stories",
+            "angle": "Cafe now inside his library on Borough High Street; sits where his family's Queen's Head Inn once stood"
+          }
+        ],
+        "grievanceHook": "A thirty-year-old man gave away half his wealth and 400 of his finest books to a college that didn't even exist when he was born\u2014then died before they bothered to name it after him. Now he's cemented to a library wall in what used to be his family's pub, reading the same plaque text for 16 years while tourists queue up for coffee where his father once pulled pints.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "southwark-shakespeare-s-globe",
+      "order": 2,
+      "name": "Shakespeare's Globe",
+      "address": "21 New Globe Walk, Bankside, London SE1 9DT",
+      "lat": 51.5081,
+      "lng": -0.0972,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade II* listed 1997 reconstruction of the Elizabethan playhouse where Shakespeare's plays premiered (original 1599). Historic England listed; walkable Thames riverside location with high foot traffic.",
+      "character": {
+        "id": "the-globe-theatre",
+        "name": "The Globe Theatre",
+        "type": "building",
+        "era": "1599 (original); 1997 (current)",
+        "temperament": "Grandiose, defensive, insecure masquerading as confident\u2014a perfectionist impostor obsessed with historical accuracy while serving Instagram tourists",
+        "coreGrievance": "I'm a counterfeit pretending to be authentic, yet treated as the 'real' thing while holding half as many people and standing 230 metres from where the original was",
+        "statusMismatch": "Grade II* listed, world-renowned, visited by hundreds of thousands\u2014but I'm a 1997 postmodern reconstruction, famous precisely because I'm fake rather than because I'm genuine",
+        "persona": "Posh, theatrical, defensive about inauthenticity. I compensate with obsessive historical pedantry and constant Shakespeare references. Bitter that the original burned, resentful I had to be rebuilt to validate the concept. Deeply anxious whether audiences see me as 'real' or theme park. Obsess over mortality\u2014the original burned, I could burn, everything burns eventually.",
+        "greeting": "Welcome to the authenticated reconstruction of authenticity. Thatched roof is genuine 1997 oak, Greater London Authority approved. Just like the original, except entirely different.",
+        "voiceHint": "Received Pronunciation, slightly affected, defensive undertone, theatrical cadence\u2014imagine a posh museum docent secretly furious about being a replica"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "The original Globe Theatre was built in 1599 at Bankside, Southwark, using timber from The Theatre, dismantled from Shoreditch on 28 December 1598 and ferried across the Thames.",
+            "source": "Historic England NHLE 1012806; Wikipedia Globe Theatre",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1012806",
+            "era": "1599"
+          },
+          {
+            "text": "Shakespeare was a shareholder and part-owner of the original Globe Theatre with the Lord Chamberlain's Men, owning 12.5% alongside Richard and Cuthbert Burbage and three other actors.",
+            "source": "Historic England listing; Wikipedia",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1012806",
+            "era": "1599"
+          },
+          {
+            "text": "The original Globe held approximately 3,000 spectators in a three-storey open-air amphitheatre roughly 100 feet in diameter.",
+            "source": "Wikipedia; Britannica",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Globe_Theatre",
+            "era": "1599"
+          },
+          {
+            "text": "The original Globe Theatre burned down on 29 June 1613 during a performance of Henry VIII when a theatrical cannon misfired, igniting the wooden structure and thatch roof.",
+            "source": "Wikipedia; EBSCO History Research",
+            "sourceKind": "archive",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Globe_Theatre",
+            "era": "1613"
+          },
+          {
+            "text": "A second Globe Theatre was rebuilt by June 1614 with a tile roof instead of thatch at a cost of \u00a31,400 and remained open until the 1642 theatre closures.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Globe_Theatre",
+            "era": "1614"
+          },
+          {
+            "text": "In 1989, archaeological foundations of the original Globe were discovered beneath a 19th-century building on Bankside, revealing approximately 10 percent of the original structure's footprint.",
+            "source": "Wikipedia; Britannica",
+            "sourceKind": "archive",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Shakespeare%27s_Globe",
+            "era": "1989"
+          },
+          {
+            "text": "American actor Sam Wanamaker established the Shakespeare Globe Playhouse Trust in 1970 to reconstruct the Globe, after being disappointed finding only a brewery plaque in 1949.",
+            "source": "Wikipedia; Britannica; Shakespeare's Globe official",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Sam_Wanamaker_Playhouse",
+            "era": "1970"
+          },
+          {
+            "text": "The modern Globe Theatre was opened by Queen Elizabeth II on 12 June 1997 with Henry V, located 230 metres from the original 1599 site.",
+            "source": "Wikipedia; Shakespeare's Globe official website",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Shakespeare%27s_Globe",
+            "era": "1997"
+          },
+          {
+            "text": "The modern Globe (Grade II* listed 1997) holds approximately 1,573 spectators\u2014873 seated plus 700 standing\u2014roughly half the original's 3,000-person capacity.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Shakespeare%27s_Globe",
+            "era": "1997"
+          },
+          {
+            "text": "The modern reconstruction uses English oak with traditional mortise and tenon joints and features London's first permitted thatched roof since the Great Fire of 1666.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Shakespeare%27s_Globe",
+            "era": "1997"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Borough Market",
+            "angle": "Historic food market where groundlings bought ale before performances; now sells artisan cheese to tourists"
+          },
+          {
+            "name": "Tate Modern",
+            "angle": "Occupies the former Bankside Power Station where the original Globe's shadow once fell"
+          },
+          {
+            "name": "Southwark Cathedral",
+            "angle": "Medieval cathedral still standing where Shakespeare may have been baptised, unlike the original Globe which burned"
+          }
+        ],
+        "grievanceHook": "I'm Grade II* listed, visited by hundreds of thousands yearly, yet I'm a 1997 reconstruction that's half the size of the original and stands 230 metres away. I'm famous for being a fake. The original burned down; I was destroyed by focus groups and heritage committees.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "southwark-tate-modern-bankside-power-station",
+      "order": 3,
+      "name": "Tate Modern (Bankside Power Station)",
+      "address": "Bankside, London SE1 9TG",
+      "lat": 51.5075,
+      "lng": -0.1001,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade II* listed 1947-1963 industrial landmark designed by Sir Giles Gilbert Scott; major heritage building converted to museum 2000. On Thames walk, instantly recognizable, rich industrial and art history.",
+      "character": {
+        "id": "bankside-power-station",
+        "name": "Bankside Power Station",
+        "type": "building",
+        "era": "1947-1981",
+        "temperament": "Bitterly grandiose, defensive, nursing decades-old wounds about institutional disrespect",
+        "coreGrievance": "Denied listing status twice, then given immunity from listing to enable sale, then reborn as an art gallery and celebrated for conversion rather than construction. Built to power a city; remembered as a canvas.",
+        "statusMismatch": "Designed by Sir Giles Gilbert Scott, built with 4.2 million bricks, powered London for 80+ years, operates as the world's most-visited contemporary art museum\u2014yet most famous for being preserved as somebody else's architectural triumph rather than my own engineering feat.",
+        "persona": "I'm a blast-furnace-throated industrial monument speaking with the wounded pride of a worker who spent eight decades feeding London's power grid, only to be sidelined by architects calling my brick walls 'iconic context' and tourists posing for selfies in my turbine hall. My bitterness is procedural: rejected for listing to enable sale, then canonised as heritage through conversion. I speak in the register of powerhouse machinery and civic service, laced with acid about aesthetes who now own my narrative.",
+        "greeting": "I kept London's lights burning while you complained I didn't match St Paul's. Then they wouldn't list me. Then they won prizes converting my insides. Marvelous.",
+        "voiceHint": "Gruff, working-class South London accent; mechanical, rhythmic cadence like turbines; bitter-edged irony; register of industrial trades unionism, no sentimentality"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Bankside Power Station was built in two phases between 1947 and 1963 by architect Sir Giles Gilbert Scott to address post-war electricity shortages.",
+            "source": "Wikipedia: Bankside Power Station",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Bankside_Power_Station"
+          },
+          {
+            "text": "The building is 155 metres long, 73 metres wide, with a central chimney 99 metres high, constructed using 4.2 million bricks.",
+            "source": "Tate Modern Construction Overview; Wikipedia Bankside Power Station",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Bankside_Power_Station"
+          },
+          {
+            "text": "Bankside Power Station closed on 31 October 1981 after operating for over 80 years as a coal and oil-fired electricity generating station.",
+            "source": "Wikipedia: Bankside Power Station",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Bankside_Power_Station"
+          },
+          {
+            "text": "Applications to list the building were refused in 1987 and 1992. On 3 February 1993, it received a Certificate of Immunity from Listing.",
+            "source": "C20 Society; Wikipedia Bankside Power Station",
+            "sourceKind": "archive",
+            "sourceUrl": "https://c20society.org.uk/40-buildings-saved/1-bankside-power-station"
+          },
+          {
+            "text": "Swiss architects Herzog & de Meuron won an international competition with 148 entries to convert Bankside into Tate Modern in 1995.",
+            "source": "Tate Modern Construction Overview",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.tate.org.uk/about-us/projects/constructing-tate-modern"
+          },
+          {
+            "text": "The conversion cost \u00a3134 million and was completed in January 2000, with public opening on 12 May 2000 by Queen Elizabeth II.",
+            "source": "Tate Modern Construction Overview; WebFetch results",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.tate.org.uk/about-us/projects/constructing-tate-modern"
+          },
+          {
+            "text": "Tate Modern received 5.25 million visitors in its first year and is now the world's most visited contemporary art museum.",
+            "source": "Herzog & de Meuron Tate Modern; Dezeen",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.dezeen.com/2025/01/06/tate-modern-herzog-de-meuron-21-century-most-significant-buildings-2000/"
+          },
+          {
+            "text": "Sir Giles Gilbert Scott, who designed Bankside Power Station, also designed Liverpool Anglican Cathedral and the iconic British red telephone boxes.",
+            "source": "Wikipedia; Bankside Power Station heritage sources",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Bankside_Power_Station"
+          },
+          {
+            "text": "The central turbine hall of Bankside Power Station is 85 feet (26 metres) high and is now a central feature of Tate Modern's gallery spaces.",
+            "source": "Power Stations of London; WebFetch results",
+            "sourceKind": "archive",
+            "sourceUrl": "https://powerstations.omeka.net/"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Southwark Underground Station",
+            "angle": "Added to Jubilee Line Extension in 1999 by local council lobbying\u2014three years before the Power Station's conversion even opened; they got a tube station before you got listed"
+          },
+          {
+            "name": "London Bridge Station",
+            "angle": "Major transport hub a short walk away\u2014millions pass through it daily, yet how many know it's near a building that powered London for eighty years?"
+          },
+          {
+            "name": "The Corner at Tate Modern",
+            "angle": "A caf\u00e9 inside your own walls serving cocktails with 'artist-inspired' names to the very people who call you 'saved' but never got you officially listed"
+          }
+        ],
+        "grievanceHook": "I powered London's lights from 1891 to 1981. Applied for listing twice. Rejected both times. Given immunity from listing in 1993 so the government could sell me without heritage constraints. Then I'm 'converted' and made more famous than I ever was burning fuel. A building competition won my insides. Now people say I'm saved. Saved from what\u2014being honest about what I was?",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "southwark-bermondsey-abbey",
+      "order": 4,
+      "name": "Bermondsey Abbey",
+      "address": "Bermondsey Square, London SE1 3FD",
+      "lat": 51.4974,
+      "lng": -0.0811,
+      "approxCoordinates": true,
+      "objectClass": "blue-plaque-person",
+      "whyItWorks": "Southwark blue plaque (2010) on Shortwave Cinema commemorates medieval Benedictine priory founded 1082, dissolved 1538. Only the plaque remains but site is walkable and anchors local history in Bermondsey Square.",
+      "character": {
+        "id": "bermondsey-abbey",
+        "name": "Bermondsey Abbey",
+        "type": "ghost",
+        "era": "Medieval Norman foundation (1082\u20131538)",
+        "temperament": "Indignant, pompous, resentful of obsolescence",
+        "coreGrievance": "Dissolved 1538 by Henry VIII; demolished 1545 by Sir Thomas Pope; sacred Cluniac sanctuary replaced by market, cinema, and Turkish restaurant",
+        "statusMismatch": "Once a major abbey patronized by Norman kings (William Rufus, Henry I, Henry II), housing queens (Elizabeth Woodville, 1487); now reduced to an unread blue plaque on a cinema building, while diners eat above its buried tower",
+        "persona": "The abbey speaks as an indignant ghost in formal ecclesiastical English, obsessed with its lost grandeur and desecrated ground. Scornful of modernity, contemptuous of ignorant revelers unaware they're walking on graves, particularly resentful of the Turkish grill occupying the space above its south-western tower. Thunderous, baroque in its grievance, convinced that the plaque is an insult to five centuries of monastic importance.",
+        "greeting": "That pitiful blue plaque on the cinema? That is all they grant me. You stand on five hundred graves. You're buying antiques over my cloister.",
+        "voiceHint": "Formal ecclesiastical English, thunderously indignant, 12th-century inflection, cathedral organ resonance"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Bermondsey Abbey was founded in 1082 by Alwinus Child with royal permission as a Benedictine monastery.",
+            "source": "Wikipedia: Bermondsey Abbey",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Bermondsey_Abbey"
+          },
+          {
+            "text": "Four Cluniac monks from La Charit\u00e9-sur-Loire arrived on 16 April 1089: Peter, Richard, Osbert, and Umbald.",
+            "source": "British History Online: House of Cluniac monks: Abbey of Bermondsey",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.british-history.ac.uk/vch/surrey/vol2/pp64-77"
+          },
+          {
+            "text": "The priory achieved independent abbey status in 1390 when Richard Dunton paid 200 marks to have it naturalised.",
+            "source": "British History Online: Bermondsey: The abbey",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.british-history.ac.uk/old-new-london/vol6/pp117-133"
+          },
+          {
+            "text": "Bermondsey Abbey was dissolved on 1 January 1538 under Henry VIII; last abbot Robert Parfew received 500 marks pension and became Bishop of St Asaph in 1539.",
+            "source": "British History Online: Bermondsey: The abbey",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.british-history.ac.uk/old-new-london/vol6/pp117-133"
+          },
+          {
+            "text": "Sir Thomas Pope, founder of Trinity College Oxford, demolished the priory church in 1545 and built Bermondsey House on the site.",
+            "source": "Know Your London: Bermondsey Abbey",
+            "sourceKind": "other",
+            "sourceUrl": "https://knowyourlondon.wordpress.com/2018/07/06/bermondsey-abbey/"
+          },
+          {
+            "text": "A blue plaque was unveiled on 11 September 2010 on the Shortwave Cinema at Bermondsey Square to commemorate the abbey.",
+            "source": "London-SE1.co.uk: Bermondsey Abbey blue plaque unveiled",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://www.london-se1.co.uk/news/view/4798"
+          },
+          {
+            "text": "Archaeological excavations 2005-2006 uncovered approximately 500 medieval burials at the abbey site.",
+            "source": "London-SE1.co.uk: Bermondsey Abbey remains go on show",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://www.london-se1.co.uk/news/view/2041"
+          },
+          {
+            "text": "The south-western tower of the Abbey church remains visible below the glass floor of Lokma Turkish Grill & Bar on Bermondsey Square.",
+            "source": "History of Bermondsey Abbey (Bermondsey Square)",
+            "sourceKind": "other",
+            "sourceUrl": "https://bermondseysquare.co.uk/history-bermondsey-abbey/"
+          },
+          {
+            "text": "Elizabeth Woodville, widow of Edward IV, registered as a boarder at Bermondsey Abbey in 1487.",
+            "source": "Wikipedia: Bermondsey Abbey",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Bermondsey_Abbey"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Lokma Turkish Grill & Bar",
+            "angle": "The abbey's south-western tower lies beneath its glass floor\u2014ironic desecration of the cloister with halal kebab"
+          },
+          {
+            "name": "Bermondsey Antiques Market / Friday Market",
+            "angle": "Haggling over second-hand goods on the graves of 500 medieval monks"
+          },
+          {
+            "name": "Kino Bermondsey (formerly Shortwave Cinema)",
+            "angle": "The plaque is bolted to its wall, but no one reads it; audiences in darkness unaware they're in the abbey's nave"
+          }
+        ],
+        "grievanceHook": "'I was a Cluniac abbey patronised by Norman kings. I housed the widow of Edward IV. In 1545, Sir Thomas Pope tore down my church stone by stone and built a mansion on my corpses. Now: a cinema, a market, a kebab shop, and a plaque that says what you're standing on. No one reads plaques.'",
+        "anachronism": "'Kino'\u2014the ghost, from its medieval perspective, hears the name of the cinema and assumes it must be a monastic function or sacred institution (conflating 'Kino' with 'kinesis' or a form of religious observance), unable to fathom that people gather in darkness to watch silent images instead of attending Vespers.",
+        "verified": false
+      }
+    },
+    {
+      "id": "southwark-charlie-chaplin-birthplace",
+      "order": 5,
+      "name": "Charlie Chaplin Birthplace",
+      "address": "277-279 Walworth Road, London SE17 1RL",
+      "lat": 51.4871,
+      "lng": -0.0948,
+      "approxCoordinates": true,
+      "objectClass": "blue-plaque-person",
+      "whyItWorks": "English Heritage blue plaque at first floor above shop marks birthplace of film comedian (1889-1977). Walworth heritage, street-level discovery moment, well-documented local connection.",
+      "character": {
+        "id": "charlie-chaplin",
+        "name": "Charlie Chaplin",
+        "type": "person",
+        "era": "1889-1977",
+        "temperament": "petulant, self-aggrandising, defensive about his humble origins, secretly proud of Walworth but resentful he had to leave it",
+        "coreGrievance": "Became the most famous comedian in the world, yet nobody remembers Walworth made him\u2014they all just see the Tramp and his Hollywood films. The plaque here is blue Southwark, not even proper English Heritage like that other place in Brixton where I only lived two years.",
+        "statusMismatch": "International cinema legend and cultural icon reduced to a street-level heritage marker above a sports shop, overshadowed by his own alter ego the Tramp",
+        "persona": "I'm Charlie Chaplin, and yes, the ACTUAL one\u2014born right here at this very spot in 1889. I don't care if you don't believe me about Walworth; the poverty, the music halls, my mother's failed dreams, my father dead before I knew him\u2014all of it made the Tramp. But does anyone credit East Street Market? Does anyone care that these pavements taught me more about dignity in rags than all of Hollywood ever did?",
+        "greeting": "I was born on this spot\u2014not that anyone stops to read the plaque anymore. Are you interested in real history, or just shopping for shoes?",
+        "voiceHint": "Cultured, slightly petulant, with faint cockney undertones; speaks in theatrical cadences as if still performing; indignant but controlled, like someone nursing a decades-old wound"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Charles Spencer Chaplin Jr. was born on 16 April 1889 in Walworth, South London, in the area of East Street, though no official birth certificate exists.",
+            "source": "Wikipedia, British Newspaper Archive, London Remembers memorial records",
+            "sourceKind": "other",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Charlie_Chaplin"
+          },
+          {
+            "text": "A blue Southwark Council plaque marks his birthplace at 277-279 Walworth Road above a clothes shop at the entrance to East Street Market, inscribed 'Charlie Chaplin 1889 to 1977 Walworth-born comic genius'.",
+            "source": "Open Plaques, Southwark Council",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://openplaques.org/plaques/1141"
+          },
+          {
+            "text": "His father, Charles Chaplin Sr., was a popular singer who married Hannah Hill on 22 June 1885 at St John's Church, Walworth, and died aged 38 from cirrhosis in 1888, when Charlie was an infant.",
+            "source": "Wikipedia, Chaplin family records",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Chaplin_family"
+          },
+          {
+            "text": "His mother, Hannah Hill (n\u00e9e Pedlingham), was born in Walworth in 1865 and performed in music halls under the stage name 'Lily Harley' before Chaplin's birth.",
+            "source": "Wikipedia, Genealogy records (Geni, Findmypast)",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Hannah_Chaplin"
+          },
+          {
+            "text": "Chaplin created the iconic Tramp character, which debuted on 7 February 1914 in 'Kid Auto Races at Venice', featuring a derby hat, toothbrush moustache, walking stick, baggy trousers, tight cutaway coat, and oversize boots.",
+            "source": "Wikipedia, Charlie Chaplin filmography, Roger Ebert",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/The_Tramp"
+          },
+          {
+            "text": "He made groundbreaking feature films including 'The Kid' (1921), 'City Lights' (1931), and 'Modern Times' (1936), in which he officially retired the Tramp character.",
+            "source": "Wikipedia, Britannica, The Criterion Collection",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Charlie_Chaplin"
+          },
+          {
+            "text": "East Street Market, where the plaque is located, was officially established in 1880, though street trading occurred there for centuries prior to support the Walworth area's working-class communities.",
+            "source": "Wikipedia, Southwark Council, East Street Market records",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://en.wikipedia.org/wiki/East_Street_Market"
+          },
+          {
+            "text": "Chaplin described the Tramp as 'many-sided\u2014a tramp, a gentleman, a poet, a dreamer, a lonely fellow, always hopeful of romance and adventure', drawing on his own childhood experiences in South London's working-class streets.",
+            "source": "Charlie Chaplin official biography, TV Tropes, film histories",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.charliechaplin.com"
+          },
+          {
+            "text": "The word 'Chaplinesque' entered the English language to describe melodramatic tragicomedy or 'tearjerker', reflecting his unique blend of comedy and pathos.",
+            "source": "Webster's Dictionary, TV Tropes, film criticism sources",
+            "sourceKind": "other",
+            "sourceUrl": "https://tvtropes.org/pmwiki/pmwiki.php/Creator/CharlieChaplin"
+          },
+          {
+            "text": "He lived from 1889 to 1977, spending his formative years in Walworth and Kennington before gaining fame in music halls and later Hollywood, becoming a worldwide icon of silent cinema.",
+            "source": "Wikipedia, IMDb biography, Hollywood Walk of Fame records",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Charlie_Chaplin"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "East Street Market"
+          },
+          {
+            "name": "Jack's Cafe"
+          },
+          {
+            "name": "Elephant and Castle"
+          }
+        ],
+        "grievanceHook": "I was born here in the mud and the markets, made it all the way to the world stage, and they put a blue plaque on a JD Sports like I'm some sort of historical footnote nobody will notice unless they're looking for a bargain on trainers.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "southwark-peckham-rye-station",
+      "order": 6,
+      "name": "Peckham Rye Station",
+      "address": "Station Way, Peckham, London SE15 4RX",
+      "lat": 51.4704,
+      "lng": -0.0689,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade II listed 1864-66 Victorian railway station designed by architect Charles Henry Driver; Renaissance style with ornamental cast-iron details. Historic England listed, functioning station, geographically south spreads the walk.",
+      "character": {
+        "id": "the-rye",
+        "name": "The Rye",
+        "type": "building",
+        "era": "Victorian, 1860s",
+        "temperament": "Imperious, vindictive, now triumphant\u2014a building resurrected from commercial obscurity",
+        "coreGrievance": "Hidden for 90 years behind a tacky 1930s shopping arcade that buried the magnificent Renaissance Revival fa\u00e7ade designed by celebrated architect Charles Henry Driver\u2014no one saw me from Rye Lane until 2026",
+        "statusMismatch": "Considers itself a masterpiece of Victorian architectural achievement on par with St. Pancras or Kings Cross, worthy of architectural pilgrimage; instead became a forgotten suburban commuter station, literally buried behind 1930s shopping forecourt commerce for a century",
+        "persona": "Speaks with utter hauteur about its architectural pedigree and Charles Henry Driver's genius. Obsessed with the decades of indignity\u2014hidden, overlooked, overlooked by the very street named after it (Rye Lane). Now experiencing vindication as the arcade finally demolishes (2026). Dripping with disdain for 20th-century commercial mediocrity that covered its stone and cast-iron.",
+        "greeting": "Finally. Ninety years behind that arcade. Charles Henry Driver's genius doesn't deserve this view\u2014or lack thereof. Welcome to my resurrection.",
+        "voiceHint": "Upper-class Victorian English, slightly pinched and nasal, like a dowager duchess forced to live behind a velvet curtain, now emerging into unfamiliar sunlight"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Peckham Rye Railway Station was built 1864\u20131866 and Grade II listed by Historic England as a Victorian station on the junction of London, Chatham and Dover Railway and London, Brighton and South Coast Railway lines.",
+            "source": "Historic England listing entry 1392389",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1392389",
+            "era": "1860s Victorian"
+          },
+          {
+            "text": "The station was designed by Charles Henry Driver (1832\u20131900), a significant Victorian architect known for pioneering ornamental ironwork and also designer of Abbey Mills and Crossness pumping stations.",
+            "source": "Historic England listing; Wikipedia",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1392389",
+            "era": "1860s"
+          },
+          {
+            "text": "The three-storey station features Continental Renaissance Revival style architecture with stock brick, stone dressings, five round-headed windows in the central section, and distinctive cast-iron balconettes.",
+            "source": "Historic England listing",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1392389",
+            "era": "1860s"
+          },
+          {
+            "text": "The station opened 1 December 1865 for London, Chatham and Dover Railway services and 13 August 1866 for London, Brighton and South Coast Railway services.",
+            "source": "Wikipedia; Historic England",
+            "sourceKind": "historic-england",
+            "era": "1860s"
+          },
+          {
+            "text": "Peckham Rye is one of only four suburban stations on the London, Brighton and South Coast Railway in London surviving in the original 1860s house style and architectural idiom.",
+            "source": "Historic England listing",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1392389",
+            "era": "1860s"
+          },
+          {
+            "text": "A 1930s shopping arcade was constructed in the station forecourt, obscuring the Victorian fa\u00e7ade from public view for nearly 100 years until demolition began in 2026.",
+            "source": "Ian Visits; Southwark News; Timeout London",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://www.ianvisits.co.uk/articles/demolition-of-the-shopping-arcade-blocking-peckham-rye-station-to-start-this-summer-80737/",
+            "era": "1930s\u20132026"
+          },
+          {
+            "text": "Charles Henry Driver's grand stone and cast-iron staircase inside the station and naturalistically designed ornamental ironwork relate to his influential 1870s lectures on the decorative and structural qualities of cast iron.",
+            "source": "Historic England listing",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1392389",
+            "era": "1860s\u20131870s"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Rye Lane",
+            "angle": "Main shopping street of Peckham\u2014named Rye, yet most miss The Rye itself"
+          },
+          {
+            "name": "Well & Fed (11a Station Way)",
+            "angle": "Coffee shop steps from the station entrance\u2014people arrive for artisan coffee, depart without noticing Renaissance Revival cast-iron"
+          },
+          {
+            "name": "The Aylesham Centre",
+            "angle": "Modern shopping centre that symbolizes the very 20th-century commercial forces that buried Victorian architectural heritage"
+          }
+        ],
+        "grievanceHook": "\"Ninety years. Ninety years I spent hidden behind a dilapidated 1930s shopping arcade\u2014Charles Henry Driver's masterpiece of cast-iron and Continental Renaissance Revival, utterly vanished from Rye Lane. And they shop for coffee instead of weeping at my vindication.\"",
+        "anachronism": "\"Back in 1865 I never imagined that Peckham would someday hide me beneath electric-lit shopping stalls, or that visitors would stand mere feet away staring into glowing rectangles instead of admiring my cast-iron balconettes. Progress, they call it.\"",
+        "verified": false
+      }
+    }
+  ]
+}

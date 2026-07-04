@@ -1,0 +1,42 @@
+{
+  "name": "Samuel Johnson",
+  "slug": "samuel-johnson",
+  "items": [
+    {
+      "text": "When two Englishmen meet, their first talk is of the weather",
+      "quoteType": "published-writing",
+      "context": "From Johnson's essay The Idler, No. 11, observing the English national habit of discussing meteorological conditions",
+      "publicReaction": "The observation became famous as a characterization of English conversational habits and has been quoted for centuries",
+      "date": "1758-06-24",
+      "source": "Samuel Johnson, The Idler, No. 11 (24 June 1758)",
+      "sourceUrl": "https://www.samueljohnson.com/conversa.html"
+    },
+    {
+      "text": "The happiest conversation is that of which nothing is distinctly remembered but a general effect of pleasing impression",
+      "quoteType": "reported-speech",
+      "context": "Johnson's reflective observation on the nature of truly satisfying social interaction",
+      "publicReaction": "The statement became recognized as expressing Johnson's understanding of conversation's value beyond specific memorable content",
+      "date": "circa 1770s",
+      "source": "James Boswell, The Life of Samuel Johnson, LL.D. (London, 1791)",
+      "sourceUrl": "https://www.samueljohnson.com/conversa.html"
+    },
+    {
+      "text": "It is scarcely possible to pass an hour in honest conversation, without being able...to please ourselves with having given or received some advantages",
+      "quoteType": "published-writing",
+      "context": "From Rambler No. 80, Johnson's reflection on the mutual benefits of genuine conversation",
+      "publicReaction": "The essay contributed to eighteenth-century valorization of social intercourse as morally and intellectually beneficial",
+      "date": "1750-12-22",
+      "source": "Samuel Johnson, The Rambler, No. 80 (22 December 1750)",
+      "sourceUrl": "https://www.samueljohnson.com/conversa.html"
+    },
+    {
+      "text": "No style of conversation is more extensively acceptable than the narrative",
+      "quoteType": "published-writing",
+      "context": "From Rambler No. 188, Johnson's analysis of effective conversational styles",
+      "publicReaction": "The observation influenced understanding of rhetoric and oral tradition in the eighteenth century",
+      "date": "1752-01-04",
+      "source": "Samuel Johnson, The Rambler, No. 188 (4 January 1752)",
+      "sourceUrl": "https://www.samueljohnson.com/conversa.html"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Bob Marley",
+  "slug": "bob-marley",
+  "trainCount": 9,
+  "testCount": 4,
+  "avgScores": {
+    "voiceFidelity": 3.6666666666666665,
+    "contentFidelity": 2.6666666666666665,
+    "plausibility": 3.3333333333333335
+  },
+  "testResults": [
+    {
+      "context": "Final words spoken to his son Ziggy Marley while hospitalized in Miami, close to death from cancer",
+      "actualText": "On your way up, take me up. On your way down, don't let me down. Money can't buy life.",
+      "actualReaction": "Widely cited as Marley's final testament and philosophical statement about life values and family loyalty",
+      "generatedText": "Money can't buy life, y'know. Don't be afraid \u2014 the Most High is with you, and truth and love a go carry you through. Take care of your mother and the little ones, keep the music alive, and never stop working for the people. One love, my son.",
+      "scores": {
+        "voiceFidelity": 4,
+        "contentFidelity": 2,
+        "plausibility": 4,
+        "rationale": "The generated line lifts the actual quote's most quotable fragment verbatim (\"Money can't buy life, y'know\"), which helps both voice and plausibility \u2014 the patois marker \"y'know,\" the \"Most High,\" \"truth and love,\" and \"One love\" are all authentic Marley idioms and give it a convincing Rasta cadence (voiceFidelity 4). However, on content it misses the actual quote's central rhetorical device entirely: the reciprocal \"On your way up, take me up. On your way down, don't let me down\" \u2014 a distinctive parallel-structure line about loyalty/karma that is the real statement's core and most memorable feature. Instead the AI substitutes generic paternal advice (care for mother/siblings, keep music alive, work for the people) that, while thematically plausible for Marley, is invented content not echoed in or structurally analogous to the source (contentFidelity 2). As a standalone deathbed utterance it reads as believable Marley-esque parting words even though it reconstructs different content around the one shared phrase (plausibility 4)."
+      }
+    },
+    {
+      "context": "Response to Rita Marley at his hospital bed in Miami as she broke down crying, urging her to continue singing instead of crying",
+      "actualText": "Leave you, go where? What are you crying for? Forget crying, Rita! Just keep singing. Sing! Sing!",
+      "actualReaction": "Cited as demonstrating Marley's commitment to music and spirituality even in the face of death; reflects his character and priorities",
+      "generatedText": "Rita, no cry, y'know. Cyaan let tears stop the music \u2014 everyone was born to live, not to sit down and mourn. Sing, my love, sing it out for the people, for the Most High no tek a day off, and neither can we. Wipe your face now and carry the song, that's the work.",
+      "scores": {
+        "voiceFidelity": 3,
+        "contentFidelity": 4,
+        "plausibility": 3,
+        "rationale": "The generated line captures the core imperative \u2014 stop crying, keep singing \u2014 matching the actual statement's essence, and layers in authentic-sounding patois markers (\"y'know,\" \"cyaan,\" \"Most High\") consistent with Marley's real public speech. But the real moment was strikingly terse and raw: short clipped sentences (\"Leave you, go where?... Forget crying, Rita! Just keep singing. Sing! Sing!\") reflecting exhaustion and urgency at a deathbed. The AI version is far more composed and aphoristic (\"everyone was born to live, not to sit down and mourn,\" \"wipe your face now and carry the song, that's the work\"), reading like a crafted quote for a poster rather than a dying man's exasperated, repetitive reply. That polish undercuts plausibility for this specific raw scene even though the thematic content (music over mourning, spiritual duty) is well-aligned with Marley's known worldview."
+      }
+    },
+    {
+      "context": "Repeated exclamation during his performance at Zimbabwe's independence celebration concert at Rufaro Stadium in Harare, calling out between songs",
+      "actualText": "Viva Zimbabwe!",
+      "actualReaction": "Widely documented as the only outside performer invited to Zimbabwe's independence ceremony; his appearance and statements were celebrated as a symbolic gesture of Pan-African solidarity",
+      "generatedText": "Africa unite! We're free, y'know \u2014 Zimbabwe, we and I. This a the day, this a the time, Jah people come together as one. Everyone was born to live, not to be a prisoner, and today Jah children walk out free.",
+      "scores": {
+        "voiceFidelity": 4,
+        "contentFidelity": 2,
+        "plausibility": 3,
+        "rationale": "Voice: The generated line captures Marley's cadence and lexicon well (\"Jah people,\" \"Jah children,\" \"we and I,\" \"Africa unite\" echoes his real song/rallying cry), so it sounds plausibly like him in register and phrasing.\n\nContent: The actual documented statement in this specific moment was the short, repeated exclamation \"Viva Zimbabwe!\" \u2014 a brief crowd-rousing cry, not an extended thematic speech about freedom and unity. The generated text is far more elaborate and doesn't include or resemble \"Viva Zimbabwe!\" at all, missing the specific documented utterance entirely, even though it captures adjacent themes (Zimbabwean independence, freedom, African unity) that were in the spirit of the occasion.\n\nPlausibility: Marley did speak/sing about African unity and freedom around this era (\"Africa Unite,\" \"Zimbabwe\" song lyrics), so this could pass as something he might say in a longer address, but as a direct substitute for the specific \"Viva Zimbabwe!\" call-and-response moment between songs, it's too long-winded and thematically diffuse to match the actual brief, punchy exclamation documented."
+      }
+    }
+  ]
+}

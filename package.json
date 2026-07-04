@@ -1,0 +1,21 @@
+{
+  "name": "grudge-map",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Grudge Map — London's street furniture and dead locals talk to you as you walk. PWA + Expo.",
+  "scripts": {
+    "build:shared": "pnpm --filter @grudgemap/shared build",
+    "build:ai": "pnpm --filter @grudgemap/ai build",
+    "build:db": "pnpm --filter @grudgemap/db build",
+    "build:packages": "pnpm --filter './packages/*' -r build",
+    "dev:server": "pnpm --filter @grudgemap/server dev",
+    "dev:web": "pnpm --filter @grudgemap/web dev",
+    "dev:mobile": "pnpm --filter @grudgemap/mobile start",
+    "dev": "pnpm build:packages && pnpm -r --parallel --filter './apps/*' dev",
+    "typecheck": "pnpm build:shared && pnpm -r typecheck"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "pnpm@10.25.0"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Harry Beck",
+  "slug": "harry-beck",
+  "items": [
+    {
+      "text": "vermicelli",
+      "quoteType": "reported-speech",
+      "context": "Beck's humorous term for the curved, winding lines of the previous geographically-accurate Underground map that he replaced with straight lines and geometric angles.",
+      "publicReaction": "The characterization demonstrates Beck's wit and clear aesthetic judgment regarding the inadequacies of the existing design.",
+      "date": "circa 1931-1933",
+      "source": "Multiple sources including City Monitor and biographical accounts",
+      "sourceUrl": "https://citymonitor.ai/transport/harry-beck-man-who-drew-london-2364"
+    },
+    {
+      "text": "This diagram is an evolution of the original design conceived in 1931 by Harry Beck.",
+      "quoteType": "published-writing",
+      "context": "Official attribution statement that began appearing on every London Underground map from 1997 onwards, 23 years after Beck's death, formally acknowledging his fundamental contribution.",
+      "publicReaction": "This posthumous recognition by London Transport provided long-overdue official acknowledgment of Beck's pioneering work, though it came decades after his struggles with the organization.",
+      "date": "1997 onwards",
+      "source": "London Underground official maps; English Heritage Blue Plaque material",
+      "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/harry-beck/"
+    }
+  ]
+}

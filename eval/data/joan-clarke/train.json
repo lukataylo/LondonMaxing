@@ -1,0 +1,60 @@
+{
+  "name": "Joan Clarke",
+  "slug": "joan-clarke",
+  "items": [
+    {
+      "text": "We did do some things together, perhaps went to the cinema and so on, but certainly, it was a surprise to me when he said... 'Would you consider marrying me?'",
+      "quoteType": "interview",
+      "context": "Recalling Alan Turing's marriage proposal to her in 1941 at Bletchley Park",
+      "publicReaction": "The 1992 BBC interview was widely cited in later biographical and historical accounts; generated renewed public interest in Clarke's personal relationship with Turing",
+      "date": "1992",
+      "source": "BBC Horizon documentary episode 'The Strange Life and Death of Dr. Turing'",
+      "sourceUrl": "https://www.youtube.com/watch?v=MB2e9R7bXCk"
+    },
+    {
+      "text": "Now the next day, I suppose we went for a bit of a walk together, after lunch. He told me that he had this homosexual tendency.",
+      "quoteType": "interview",
+      "context": "Describing the day after Turing's marriage proposal when he disclosed his homosexuality to her",
+      "publicReaction": "This statement became key evidence in discussions about Turing's sexuality and his personal struggles; cited in multiple biographies",
+      "date": "1992",
+      "source": "BBC Horizon documentary episode 'The Strange Life and Death of Dr. Turing'",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Joan_Clarke"
+    },
+    {
+      "text": "Naturally, that worried me a bit, because I did know that was something which was almost certainly permanent, but we carried on.",
+      "quoteType": "interview",
+      "context": "Response to learning about Turing's homosexuality and their decision to continue their engagement despite this revelation",
+      "publicReaction": "Widely quoted in biographies and articles about both Clarke and Turing; demonstrates her pragmatic and progressive attitude for the 1940s",
+      "date": "1992",
+      "source": "BBC Horizon documentary episode 'The Strange Life and Death of Dr. Turing'; also cited in Wikipedia and IBTimes articles",
+      "sourceUrl": "https://www.ibtimes.co.uk/imitation-game-who-was-real-joan-clarke-1474909"
+    },
+    {
+      "text": "His mother wrote to me, and she said that although it was a verdict of suicide, she believed it an accident, and of course, his method was chosen to make it possible for some at least to believe that.",
+      "quoteType": "interview",
+      "context": "Discussing Alan Turing's death in 1954 and his mother's letter to Clarke about the circumstances",
+      "publicReaction": "This quote was cited in Historical vs. Hollywood and other sources examining the true nature of Turing's death",
+      "date": "1992",
+      "source": "BBC Horizon documentary episode 'The Strange Life and Death of Dr. Turing'",
+      "sourceUrl": "https://www.historyvshollywood.com/reelfaces/imitation-game/"
+    },
+    {
+      "text": "Grade: Linguist, Languages: none!",
+      "quoteType": "other",
+      "context": "Clarke's humorous response written on official forms, after being promoted to the grade of Linguist at Bletchley Park to increase her pay, despite not speaking additional languages",
+      "publicReaction": "This anecdote became widely cited in biographical accounts as an illustration of her wit and the absurdity of wartime bureaucracy at Bletchley Park",
+      "date": "circa 1940-1944",
+      "source": "Multiple biographical sources including MacTutor History of Mathematics Archive and Spartacus Educational",
+      "sourceUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Clarke_Joan/"
+    },
+    {
+      "text": "I can remember Alan Turing coming in as usual for a day's leave, doing his own mathematical research at night, in the warmth and light of the office, without interrupting the routine of daytime sleep.",
+      "quoteType": "reported-speech",
+      "context": "Recollection of Alan Turing's working habits and dedication at Hut 8 during World War II",
+      "publicReaction": "Cited in biographical accounts as evidence of Turing's exceptional work ethic and commitment to the cryptanalytic effort",
+      "date": "no specific date given; retrospective recollection",
+      "source": "Spartacus Educational biography of Joan Clarke",
+      "sourceUrl": "https://spartacus-educational.com/Joan_Clarke.htm"
+    }
+  ]
+}

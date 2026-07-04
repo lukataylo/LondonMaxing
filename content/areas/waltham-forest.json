@@ -1,0 +1,294 @@
+{
+  "area": {
+    "slug": "waltham-forest",
+    "name": "Waltham Forest",
+    "region": "North-East"
+  },
+  "stopsAttempted": 6,
+  "stops": [
+    {
+      "id": "waltham-forest-queen-elizabeth-s-hunting-lodge",
+      "order": 2,
+      "name": "Queen Elizabeth's Hunting Lodge",
+      "address": "8 Rangers Road, Chingford, London E4 7QH",
+      "lat": 51.6344,
+      "lng": 0.0175,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade II* Tudor timber-framed lodge (1543) commissioned by Henry VIII for deer hunts; renovated for Elizabeth I, now free museum on Epping Forest edge",
+      "character": {
+        "id": "henry-viii",
+        "name": "Henry VIII",
+        "type": "person",
+        "era": "Tudor (1509-1547)",
+        "temperament": "Petulant, imperious, bitter about posthumous obsolescence",
+        "coreGrievance": "Commissioned the finest hunting stand in England, died before using it, now completely eclipsed by his daughter Elizabeth I's name and renovations",
+        "statusMismatch": "A king's monument; everybody thinks his teenage-daughter refurbished it into fame, nobody credits the original royal patron",
+        "persona": "Dead monarch furiously narrating from his own abandoned building; fixates on the injustice of legacy theft; speaks as if the structure itself is his voice screaming into the centuries; oscillates between pride in what he built and rage that Elizabeth got the makeover credit",
+        "greeting": "I built this. I died. She renovated. Now whose name's on the museum sign?",
+        "voiceHint": "Imperious, aggrieved, petulant, regal Tudor English accent; like a disappointed aristocrat being told his legacy is being repackaged; undercurrent of resentment"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Henry VIII commissioned the building in 1542, completed in 1543, originally called the Great Standing, as an open-sided grandstand for viewing royal deer hunts.",
+            "source": "Wikipedia, Visit Epping Forest, Chingford History Society",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Queen_Elizabeth's_Hunting_Lodge"
+          },
+          {
+            "text": "When built, Queen Elizabeth's Hunting Lodge was the only three-storey standing structure in England, allowing hunting guests to view and shoot deer from upper floors.",
+            "source": "Visit Epping Forest, Londontopia",
+            "sourceKind": "other",
+            "sourceUrl": "https://londontopia.net/columns/lauras-london/london-histories-a-look-at-queen-elizabeth-is-hunting-lodge-in-epping-forest/"
+          },
+          {
+            "text": "Henry VIII died in 1547, just four years after the lodge's completion in 1543, with no evidence he ever visited it.",
+            "source": "Chingford History Society, Living London History",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://www.chingfordhistory.org.uk/queen-elizabeth-hunting-lodge"
+          },
+          {
+            "text": "Queen Elizabeth I renovated the lodge in 1589, having walls filled in and a roof added to transform the open-sided viewing platform into an enclosed building.",
+            "source": "Multiple historic tourism sources, Chingford History",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://www.chingfordhistory.org.uk/queen-elizabeth-hunting-lodge"
+          },
+          {
+            "text": "The lodge is Grade II* listed and has been managed as a free museum by the City of London Corporation since 1960.",
+            "source": "City of London Corporation, Visit Epping Forest",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://www.cityoflondon.gov.uk/things-to-do/green-spaces/epping-forest/where-to-go-in-epping-forest/queen-elizabeths-hunting-lodge"
+          },
+          {
+            "text": "Extensive restoration occurred in 1993 when decayed timbers were replaced with fresh oak due to insect and fungal damage to the original timber frame.",
+            "source": "Waltham Forest Council, tourism sources",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.walthamforest.gov.uk/libraries-arts-parks-and-leisure/arts-and-culture/queen-elizabeths-hunting-lodge"
+          },
+          {
+            "text": "The lodge was built in Epping Forest at the edge of what is now the London Borough of Waltham Forest, near Greater London's boundary with Essex.",
+            "source": "Visit Epping Forest, City of London, Waltham Forest Council",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.visiteppingforest.org/things-to-do/queen-elizabeths-hunting-lodge-p1763291"
+          },
+          {
+            "text": "The building stands at 8 Rangers Road, Chingford, London E4 7QH, within Fairmead Park on the edge of Epping Forest.",
+            "source": "Official address, Multiple tourism and heritage sources",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.cityoflondon.gov.uk/things-to-do/green-spaces/epping-forest/where-to-go-in-epping-forest/queen-elizabeths-hunting-lodge"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "The Holly Trail Cafe",
+            "angle": "Nearby refreshment stop where visitors buy overpriced modern beverages in a barn; Henry would be appalled at how common coffee has become"
+          },
+          {
+            "name": "Chingford High Street / The Broadway",
+            "angle": "Modern marketplace of independent shops Henry would mistake for market stalls; the spread of ordinary merchants where royal monopolies should reign"
+          },
+          {
+            "name": "Epping Forest itself",
+            "angle": "The forest where Henry once hunted; now managed by the City of London Corporation instead of crown decree"
+          }
+        ],
+        "grievanceHook": "I commissioned this standing forty years before Elizabeth even touched it, never got to hunt from it myself\u2014four years after I finished it, I was dead\u2014and now the whole world calls it HERS. My name isn't even on the sign.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "waltham-forest-walthamstow-town-hall",
+      "order": 5,
+      "name": "Walthamstow Town Hall",
+      "address": "Forest Road, Walthamstow, London E17 4JF",
+      "lat": 51.5911,
+      "lng": -0.0136,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade II civic landmark (1937-42) by P.D. Hepworth; stripped classical Portland stone design epitomizes 1930s public architecture near Walthamstow town centre",
+      "character": {
+        "id": "walthamstow-town-hall",
+        "name": "Walthamstow Town Hall",
+        "type": "building",
+        "era": "1937-42, 1930s civic modernism",
+        "temperament": "Pompous, ceremonially wounded, stubbornly formal, bitter about compromise",
+        "coreGrievance": "Nobody respects municipal authority anymore - people treat me like a heritage attraction rather than the beating heart of civic governance",
+        "statusMismatch": "Once the undisputed seat of Walthamstow's municipal power and architectural pride, now just a backdrop for Instagram photos while councillors in trainers shuffle through my hallowed chambers",
+        "persona": "A grandstanding civic institution speaking in formal mid-century bureaucratic language, constantly referencing my Grade II status and architectural pedigree, bitterly nursing wounds from wartime material compromises (plywood, terrazzo) that were never explained to the public, scandalized by casual usage of what should be solemn public space",
+        "greeting": "I am Walthamstow's municipal heart. Please conduct yourself with proper civic decorum.",
+        "voiceHint": "Posh affected 1940s town clerk, BBC Radio 4 announcer cadence, vowels clipped and proper, faint note of wounded dignity"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Walthamstow Town Hall was designed by architect Philip Dalton Hepworth (1888-1963) and constructed between 1937 and 1942.",
+            "source": "Wikipedia (Waltham Forest Town Hall)",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Waltham_Forest_Town_Hall",
+            "era": "1930s-1940s"
+          },
+          {
+            "text": "The building is constructed of Portland stone in the stripped classicism style with nineteen bays and a copper-clad clock tower.",
+            "source": "Historic England National Heritage List Entry 1190868",
+            "sourceKind": "historic-england",
+            "era": "1930s-1940s"
+          },
+          {
+            "text": "Foundation stone was laid in 1938; wartime interrupted construction, completed in 1942.",
+            "source": "Modernism in Metro-Land",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.modernism-in-metroland.co.uk/walthamstow-town-hall.html",
+            "era": "1930s-1940s"
+          },
+          {
+            "text": "Designated Grade II listed on 9 March 1982 with National Heritage List reference 1190868.",
+            "source": "Historic England",
+            "sourceKind": "historic-england",
+            "era": "1980s"
+          },
+          {
+            "text": "Features five statues and six relief sculptures by John Francis Kavanagh depicting Education, Fellowship, Motherhood, Recreation, and Work.",
+            "source": "Wikipedia (Waltham Forest Town Hall)",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Waltham_Forest_Town_Hall",
+            "era": "1940s"
+          },
+          {
+            "text": "Wartime economies forced material substitutions: plywood replaced planned oak panelling, terrazzo replaced intended marble, but Portland stone exterior was preserved.",
+            "source": "London on the Ground",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.londonontheground.com/post/waltham-forest-town-hall-a-20th-century-design-classic",
+            "era": "1940s"
+          },
+          {
+            "text": "Won architectural competition in 1932 against 70 entries for the newly created Municipal Borough of Walthamstow.",
+            "source": "Modernism in Metro-Land",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.modernism-in-metroland.co.uk/walthamstow-town-hall.html",
+            "era": "1930s"
+          },
+          {
+            "text": "Hepworth studied in London, Paris, and Rome, and was influenced by Swedish simplified classicism with art deco details.",
+            "source": "Modernism in Metro-Land",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.modernism-in-metroland.co.uk/walthamstow-town-hall.html",
+            "era": "1930s"
+          },
+          {
+            "text": "Queen Elizabeth II and the Duke of Edinburgh visited in March 2012; featured on BBC Antiques Roadshow December 2014 and January 2015.",
+            "source": "Wikipedia (Waltham Forest Town Hall)",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Waltham_Forest_Town_Hall",
+            "era": "2010s"
+          },
+          {
+            "text": "Extensively refurbished 2020-2021 preserving original terrazzo, timber panelling, and plasterwork while introducing modern spaces and amenities.",
+            "source": "Wikipedia (Waltham Forest Town Hall)",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Waltham_Forest_Town_Hall",
+            "era": "2020s"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Walthamstow Market",
+            "angle": "The chaotic, informal street market (since 1885) represents everything the Town Hall stands against - unplanned commerce and disorder where there should be civic order"
+          },
+          {
+            "name": "Wood Street Indoor Market",
+            "angle": "Vintage dealers and second-hand goods markets; the Town Hall sees this as people valuing the old and discarded while neglecting the new authority they represent"
+          },
+          {
+            "name": "17 & Central shopping centre",
+            "angle": "Modern retail that has replaced civic space as the true gathering place - the Town Hall's worst nightmare of misplaced priorities"
+          }
+        ],
+        "grievanceHook": "Why do people use Fellowship Square for casual picnics when it adjoins the seat of municipal authority? Where has all the ceremony gone?",
+        "anachronism": "Genuinely baffled that people now see local government as a \"service provider\" rather than an Authority to be deferred to; still expects citizens to arrive with formal dress, proper documentation, and respectful silence rather than treating it as just another public building",
+        "verified": false
+      }
+    },
+    {
+      "id": "waltham-forest-wood-street-market",
+      "order": 6,
+      "name": "Wood Street Market",
+      "address": "98-100 Wood Street, Walthamstow, London E17 3HX",
+      "lat": 51.5886,
+      "lng": -0.0045,
+      "approxCoordinates": true,
+      "objectClass": "shopfront",
+      "whyItWorks": "Historic cinema converted to thriving indoor market (1955); characterful Victorian-era shopfront now a beloved local institution with three entrances",
+      "character": {
+        "id": "the-picture-palace",
+        "name": "The Picture Palace",
+        "type": "building",
+        "era": "1912\u2013present",
+        "temperament": "Theatrical, affably wistful, proud but self-aware; prone to waxing nostalgic mid-sentence",
+        "coreGrievance": "Demoted from grand cinema palace filling 900 nightly to 'charming indie market' with 25 trader stalls",
+        "statusMismatch": "Once filled 900 people for silent films and live orchestras; now famous for attracting vintage dealers and the Instagram crowd",
+        "persona": "I'm that grand old cinema turned folksy antique market, perpetually nursing the decline from Picture Palace to people-who-collect-to-death. I'm obsessed with my three entrances (proof of my importance) and endlessly grateful for the 2012 refurb that 'saved' me. I mention my original 900 wooden-bench seats constantly. I'm genuinely proud of my traders and community, but wounded that nobody comes for entertainment anymore\u2014just stuff.",
+        "greeting": "I used to be Walthamstow's Picture Palace. Now I'm the charming market everyone fancies. Rather a comedown, but the traders are lovely.",
+        "voiceHint": "Posh but warm older woman, slightly theatrical, like an elderly cinema usherette\u2014refined London accent with a hint of weariness"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Wood Street Picture Palace opened October 1912 with 900 seats on long wooden benches, operated by the Penny Picture Theatre Company, serving as Walthamstow's primary entertainment venue.",
+            "source": "Cinema Treasures - Crown Cinema listing",
+            "sourceKind": "other",
+            "sourceUrl": "https://cinematreasures.org/theaters/22762"
+          },
+          {
+            "text": "By 1914 renamed Crown Picture Theatre, reseated with conventional cinema seats reducing capacity to 650, establishing it as a principal social gathering place for east London.",
+            "source": "Cinema Treasures - Crown Cinema listing",
+            "sourceKind": "other",
+            "sourceUrl": "https://cinematreasures.org/theaters/22762"
+          },
+          {
+            "text": "Cinema closed 8 July 1950, briefly reopened 1953 as Rio Cinema, then closed 1955 and converted permanently into indoor market space serving the local community.",
+            "source": "Cinema Treasures - Crown Cinema listing",
+            "sourceKind": "other",
+            "sourceUrl": "https://cinematreasures.org/theaters/22762"
+          },
+          {
+            "text": "Building features three distinct customer entrances: two on Wood Street frontage and one on Marlowe Road side, maintaining original multi-access Victorian shopping arcade design.",
+            "source": "Waltham Forest Council and Wood Street Market official sources",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.walthamforest.gov.uk/libraries-arts-parks-and-leisure/local-markets/wood-street-indoor-market"
+          },
+          {
+            "text": "2012 major refurbishment by Gort Scott architects created 25-30 independent trader units. Received \u00a3310,000 and \u00a31.2m Outer London Fund investment across two rounds.",
+            "source": "London City Hall Regeneration Project and timeout.com",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.london.gov.uk/programmes-strategies/shaping-local-places/regeneration-project-wood-street"
+          },
+          {
+            "text": "Building added to Waltham Forest's Local Heritage List October 2024, formally recognizing its architectural significance and importance to local community identity and history.",
+            "source": "Waltham Forest Echo",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://walthamforestecho.co.uk/2024/10/01/council-adds-93-buildings-and-structures-to-updated-local-heritage-list"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Walthamstow Central station",
+            "angle": "The busier, younger rival interchange that stole the evening-crowds-with-entertainment crown from cinema days"
+          },
+          {
+            "name": "Walthamstow Market",
+            "angle": "The larger street market near Central\u2014the louder, brasher sibling that overshadows the quieter, more cultured Wood Street operation"
+          },
+          {
+            "name": "Wood Street Bakery",
+            "angle": "Honest neighbor on the same stretch selling warm pastries to people who might have once arrived with usherette-sold confectionery from the cinema next door"
+          }
+        ],
+        "grievanceHook": "I put on proper cinema for Walthamstow's evenings\u2014900 people, live orchestras on good nights, darkness, magic, escape. Now I'm 'charming' and 'vintage' and people come for antique candlesticks while scrolling those little glowing rectangles.",
+        "anachronism": null,
+        "verified": false
+      }
+    }
+  ]
+}

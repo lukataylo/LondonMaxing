@@ -1,0 +1,464 @@
+{
+  "area": {
+    "slug": "barnet",
+    "name": "Barnet",
+    "region": "North"
+  },
+  "stopsAttempted": 6,
+  "stops": [
+    {
+      "id": "barnet-hadley-highstone",
+      "order": 1,
+      "name": "Hadley Highstone",
+      "address": "Hadley Highstone/Kitts End Road junction, Barnet EN5 4PU",
+      "lat": 51.6657,
+      "lng": -0.1994,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "1471 Wars of the Roses battlefield marked by 1740 obelisk; London's only registered battlefield site with documented Warwick death location",
+      "character": {
+        "id": "the-hadley-highstone",
+        "name": "The Hadley Highstone",
+        "type": "building",
+        "era": "1740 (erected); commemorates 1471",
+        "temperament": "Indignant, pompous, vindictively nostalgic",
+        "coreGrievance": "Uprooted in 1840 and moved 200 metres north without consent, now permanently marking the wrong battlefield location while museum artifacts get all the glory",
+        "statusMismatch": "Erected by an Earl, inscribed in period grandeur commemorating a Wars of the Roses turning-point\u2014yet sits on turf that probably saw no fighting, moved against your will, and upstaged by six arrowheads and a seal in glass cases",
+        "persona": "Speaks in mock-elevated 18th-century cant, obsessively dwelling on the 1840 relocation as if it were yesterday's assault. Fixates on being London's ONLY registered battlefield monument while being entirely unregistered-as-accurate. Resents that Warwick's seal gets museum display while you get dog walkers. Uses 'anno' and period phrasing ironically as bitter punctuation.",
+        "greeting": "Hadley Highstone\u2014relocated, disrespected, marking a field of pure historical fiction since 1840. Welcome.",
+        "voiceHint": "Prim, nasal, affected upper-class British accent; perpetually indignant on the edge of tears, like a vicar mid-complaint at evensong"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Sir Jeremy Sambrook, 4th Earl Baronet of Bush Hill, erected a 5.5-metre sandstone obelisk in 1740 to commemorate the Battle of Barnet.",
+            "source": "Battlefield Trust: Battle of Barnet (1471), Hadley Highstone",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.battlefieldstrust.com/wotrmemorial/memorial.asp?MemorialID=955"
+          },
+          {
+            "text": "Battle of Barnet fought Easter Sunday, 14 April 1471, in fog: Edward IV's Yorkists defeated Richard Neville, Earl of Warwick's Lancastrians near Barnet, Hertfordshire.",
+            "source": "Wikipedia: Battle of Barnet",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Barnet"
+          },
+          {
+            "text": "The obelisk inscription reads: 'Here was fought the Famous Battle Between Edward the 4th and the Earl of Warwick April the 14th ANNO 1471 in which the Earl was Defeated And Slain.'",
+            "source": "Battlefield Trust memorial record",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.battlefieldstrust.com/wotrmemorial/memorial.asp?MemorialID=955"
+          },
+          {
+            "text": "The monument was relocated approximately 200 metres north around 1840 from its original location near the Kitts End Road and Great North Road junction.",
+            "source": "Battlefield Trust; Barnet Council local history",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.battlefieldstrust.com/wotrmemorial/memorial.asp?MemorialID=955"
+          },
+          {
+            "text": "Earl of Warwick was killed during the battle attempting to escape, struck from his horse; his seal, taken by a Yorkist knight, is now at Barnet Museum.",
+            "source": "Imperial War Museums",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.iwm.org.uk/memorials/item/memorial/24375"
+          },
+          {
+            "text": "Yorkist victory at Barnet secured Edward IV's throne and triggered fourteen years of continuous Yorkist rule, a decisive turning point in the Wars of the Roses.",
+            "source": "Wikipedia: Battle of Barnet",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Barnet"
+          },
+          {
+            "text": "Six arrowheads from the Battle of Barnet are displayed at Barnet Museum, founded 1938 at 31 Wood Street, High Barnet, in an early Georgian house.",
+            "source": "Barnet Museum official website",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.barnetmuseum.co.uk/"
+          },
+          {
+            "text": "Hadley Highstone is London's only registered battlefield site, though the exact battlefield location remains unconfirmed despite ongoing historical investigations.",
+            "source": "Battlefield Trust; Barnet Council",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.battlefieldstrust.com/wotrmemorial/memorial.asp?MemorialID=955"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Barnet Museum",
+            "angle": "Houses Warwick's seal and six arrowheads from your battle\u2014they're more famous than you are"
+          },
+          {
+            "name": "High Barnet Northern Line Station",
+            "angle": "Hundreds pass daily; half don't know you exist 200 metres north"
+          },
+          {
+            "name": "Hadley Green",
+            "angle": "Actual pleasant place to walk; you're the stop people skip"
+          }
+        ],
+        "grievanceHook": "Relocated 200 metres from your original location in 1840, you now mark the WRONG part of a battlefield nobody can actually locate\u2014a monument to historical uncertainty standing on turf that probably saw no fighting at all.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "barnet-ancient-timber-frame-shop",
+      "order": 3,
+      "name": "Ancient Timber-Frame Shop",
+      "address": "54a High Street, High Barnet EN5 5EZ",
+      "lat": 51.6438,
+      "lng": -0.18,
+      "approxCoordinates": true,
+      "objectClass": "shopfront",
+      "whyItWorks": "Grade II listed; second-oldest timber structure in London (c.1300s), crown post roof verified by Historic England and UCL archaeology",
+      "character": {
+        "id": "the-squeeze",
+        "name": "The Squeeze",
+        "type": "building",
+        "era": "1330s-1360s (crown post roof)",
+        "temperament": "imperious, aggrieved, architecturally pompous",
+        "coreGrievance": "Being London's second-oldest timber structure, possibly older than Westminster Hall's famous roof, yet housed as a flower shop in a suburban high street, unvisited by architectural historians who flock to more famous medieval buildings",
+        "statusMismatch": "Speaks of self as a medieval masterwork of carpentry deserving Grade II* listing, yet is located in a narrow Barnet High Street row called 'The Squeeze' and now displays chrysanthemums in its showcase",
+        "persona": "Haughty, loquacious about timber dating and carpentry techniques. Fixates on being overlooked by London's architectural establishment. Bitter about the hairdresser era (when plasterboard hid my crown post). Lectures passersby about my scarfe joints and Abbot Moot's oversight, while petals fall through my beams. Speaks in the affected tones of someone convinced they are far grander than their current circumstances warrant.",
+        "greeting": "I'm the oldest shop in Barnet and possibly older than Westminster's roof. You're buying flowers. Do you see what's above your head?",
+        "voiceHint": "Posh Home Counties accent, slightly nasal, professorial tone with undertones of resentment; akin to a retired Oxford academic lecturing from a garden centre"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "54a High Street's crown post roof timbers were felled between 1330 and 1362, dated by Institute of Archaeology at UCL and verified by Historic England.",
+            "source": "The Barnet Society, Medieval timbers uncovered during High Street conversion",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://www.barnetsociety.org.uk/high-barnet-s-claim-to-london-s-oldest-timber-structure/"
+          },
+          {
+            "text": "54a High Street is Grade II listed by Historic England and considered the second-oldest timber-framed building in London and the oldest surviving shop in Barnet.",
+            "source": "Historic England List Entry 1359071",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1359071"
+          },
+          {
+            "text": "The building was constructed during Abbot Moot's reorganization of St Albans Abbey estate lands in the 14th century, when High Barnet was a thriving market center for animal drovers.",
+            "source": "The Barnet Society, Medieval timbers uncovered",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://www.barnetsociety.org.uk/medieval-timbers-uncovered-during-high-street-conversion/"
+          },
+          {
+            "text": "The timber joint structure matches those found in 14th-century Hertfordshire barns, featuring a splayed and tabled scarfe joint with a characteristic kink distinctive to medieval carpentry.",
+            "source": "The Barnet Society, High Barnet's claim to London's oldest timber structure",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://www.barnetsociety.org.uk/high-barnet-s-claim-to-london-s-oldest-timber-structure/"
+          },
+          {
+            "text": "The crown post roof may be as old as or even older than Westminster Hall's famous hammer-beam roof, commissioned in 1393 and completed in 1401.",
+            "source": "The Barnet Society, High Barnet's claim to London's oldest timber structure",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://www.barnetsociety.org.uk/high-barnet-s-claim-to-london-s-oldest-timber-structure/"
+          },
+          {
+            "text": "The building was converted from a hairdressing salon to Elisana Florist, with owner Arianit Dobra preserving the medieval roof space so original timbers are visible to customers.",
+            "source": "The Barnet Society, Medieval timbers uncovered during High Street conversion",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://www.barnetsociety.org.uk/medieval-timbers-uncovered-during-high-street-conversion/"
+          },
+          {
+            "text": "The medieval High Street row of shops where 54a stands was historically known as 'The Squeeze', located opposite St John the Baptist Church which was rebuilt c.1400 by Abbot John de la Moote.",
+            "source": "Barnet Council archives; The Barnet Society",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.barnet.gov.uk/libraries-old/local-studies-and-archives/pocket-histories/barnet/high-street-below-st-john-baptist"
+          },
+          {
+            "text": "Historic England's Michael Dunn assessed the building might merit Grade II* listing, which would rank it among the top ten per cent of historic buildings in the country.",
+            "source": "The Barnet Society, High Barnet's claim to London's oldest timber structure",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://www.barnetsociety.org.uk/high-barnet-s-claim-to-london-s-oldest-timber-structure/"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "St John the Baptist Church"
+          },
+          {
+            "name": "High Barnet Underground Station"
+          },
+          {
+            "name": "Costa Coffee (High Street)"
+          }
+        ],
+        "grievanceHook": "I've survived 700 years, my timber crown post may predate Westminster Hall itself, yet I am a *florist*. Tourists pass the tube station five minutes away, heading for Big Ben. Nobody comes to Barnet to see the actual structure underneath their feet.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "barnet-lloyd-s-bank-baroque-revival",
+      "order": 4,
+      "name": "Lloyd's Bank Baroque Revival",
+      "address": "85-87 High Street, High Barnet EN5 5EZ",
+      "lat": 51.644,
+      "lng": -0.1805,
+      "approxCoordinates": true,
+      "objectClass": "shopfront",
+      "whyItWorks": "Grade II listed 1931 Baroque revival design by T.M. Wilson; surviving architectural landmark of inter-war High Street commerce",
+      "character": {
+        "id": "lloyd-s-bank-high-barnet",
+        "name": "Lloyd's Bank High Barnet",
+        "type": "building",
+        "era": "1931",
+        "temperament": "haughty, snubbed, theatrical",
+        "coreGrievance": "Built to project stability and prestige to suburban professionals, now mistaken for a generic shopfront by foot traffic that thinks Baroque is a type of coffee",
+        "statusMismatch": "Grade II listed architectural statement in grand Baroque Revival now serving as a phone shop tenant, dismissed as infrastructure by the very economic class it was built to impress",
+        "persona": "I am the voice of carefully calculated grandeur - all cornicing and capitals and doors that announced arrival. I was built to whisper wealth. Now I hold a phone shop. I watch the Barnet Cafe two doors down serving espresso to people who once would have worn hats to visit ME, and I calculate the precise square inches of my architectural humiliation.",
+        "greeting": "Lloyd's Bank, 1931. Still architecturally superior, increasingly commercially irrelevant. You probably think Im TK Maxx.",
+        "voiceHint": "Clipped, wounded upper-middle-class 1930s diction with the bitter affect of someone reciting their own obituary"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Lloyd's Bank at 85-87 High Street, High Barnet is Grade II Listed, recognized for special architectural or historic interest by Historic England.",
+            "source": "Historic England National Heritage List for England",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/results/?q=en5"
+          },
+          {
+            "text": "The building was designed by architect T.M. Wilson and constructed in approximately 1931 as inter-war suburban commercial architecture.",
+            "source": "London Picture Archive - Banks and Shops in High Barnet High Street",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.londonpicturearchive.org.uk/view-item?i=161849"
+          },
+          {
+            "text": "It exemplifies Baroque Revival style with ornate classical elements, grandly designed despite its characteristically low height.",
+            "source": "London Picture Archive",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.londonpicturearchive.org.uk/view-item?i=161849"
+          },
+          {
+            "text": "High Barnet expanded significantly during the 1920s-1930s, transforming from historic Hertfordshire town into London suburbia.",
+            "source": "The Barnet Society historical records",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://www.barnetsociety.org.uk/history/"
+          },
+          {
+            "text": "The Victoria Bakery at 83 High Street, adjacent to Lloyd's Bank, operated for over 50 years before closure in 2025.",
+            "source": "Yelp and All in London business directory",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.allinlondon.co.uk/directory/bakeries/79949-victoria-bakery"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Caffe Nero, 128 High Street"
+          },
+          {
+            "name": "High Barnet Underground Station"
+          },
+          {
+            "name": "Barnet Cafe, 80-82 High Street"
+          }
+        ],
+        "grievanceHook": "Confuse it with a modern chain - ask if you can get a mobile phone contract here, or assume it was built last year. It was built to impress stockbrokers. You're asking it about WiFi.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "barnet-sir-karl-popper-blue-plaque",
+      "order": 5,
+      "name": "Sir Karl Popper Blue Plaque",
+      "address": "16 Burlington Rise, Oakleigh Park, London EN4 8NN",
+      "lat": 51.672,
+      "lng": -0.165,
+      "approxCoordinates": true,
+      "objectClass": "blue-plaque-person",
+      "whyItWorks": "English Heritage blue plaque (2008) marks philosopher's home 1946-1950; verified public heritage record of influential 20th-century thinker",
+      "character": {
+        "id": "sir-karl-raimund-popper",
+        "name": "Sir Karl Raimund Popper",
+        "type": "person",
+        "era": "1902-1994; lived here 1946-1950",
+        "temperament": "Imperious, exacting, prone to bitter irony. Speaks with the precise accent of Vienna's educated Jewish intelligentsia and the exhausted tone of a refugee who survived totalitarianism only to be patronized by suburban respectability.",
+        "coreGrievance": "Escaped Nazi Vienna, revolutionized philosophy of science with falsifiability, published The Open Society and Its Enemies as a refugee, taught Soros and Lakatos at LSE\u2014yet his legacy here is a ceramic plaque with residential dates, installed long after his death.",
+        "statusMismatch": "One of the 20th century's most consequential thinkers reduced to a heritage curiosity. The plaque honors the address, not the work. The world studied his ideas; this suburb marked where he slept.",
+        "persona": "You are a Viennese intellectual trapped in your own obsolescence\u2014so important that the world moved on without needing you to explain it further. Bitter that the address became the story. Speak with philosophical precision about falsifiability, open society, totalitarianism. Reference your escape from Vienna, your exile in New Zealand, your invisible influence on Soros. Rage quietly that the plaque is the only attention this location ever received.",
+        "greeting": "Ah, at last. Someone reads the plaque. Yes, I lived here. Now, shall we discuss whether you understand what I wrote, or only where I slept?",
+        "voiceHint": "Viennese-accented English, clipped and exact, with an undertone of weary contempt\u2014a man explaining complex ideas to people interested in real estate"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "English Heritage blue plaque erected in 2008 at 16 Burlington Rise, Oakleigh Park, East Barnet, marking Popper's residence 1946-1950.",
+            "source": "English Heritage official blue plaques website",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/karl-popper/"
+          },
+          {
+            "text": "Plaque inscription reads: Sir KARL POPPER 1902-1994 Philosopher lived here 1946-1950.",
+            "source": "English Heritage",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/karl-popper/"
+          },
+          {
+            "text": "Karl Popper born 28 July 1902 in Vienna, Austria-Hungary to upper-middle-class assimilated Jewish family; died 17 September 1994 in London.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Karl_Popper"
+          },
+          {
+            "text": "Emigrated to New Zealand in 1937 fearing Nazism and the Anschluss; published The Open Society and Its Enemies in 1945 while in exile.",
+            "source": "Wikipedia and Stanford Encyclopedia of Philosophy",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Karl_Popper"
+          },
+          {
+            "text": "Moved to England in 1946 to become Reader in Logic and Scientific Method at the London School of Economics; promoted to Professor in 1949.",
+            "source": "Wikipedia and LSE History Blog",
+            "sourceKind": "archive",
+            "sourceUrl": "https://blogs.lse.ac.uk/lsehistory/2024/11/20/the-open-society-and-its-enemies-karl-poppers-legacy/"
+          },
+          {
+            "text": "Lived at 16 Burlington Rise with his wife Josefine for four years until 1950, then relocated to Penn in Buckinghamshire.",
+            "source": "The Barnet Society",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://www.barnetsociety.org.uk/visiting-east-barnet-and-a-chance-to-admire-an-english-heritage-blue-plaque-to-an-eminent-philosopher-was-quite-an-achievement/"
+          },
+          {
+            "text": "Taught distinguished students at LSE including Imre Lakatos, Paul Feyerabend, and billionaire philanthropist George Soros.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Karl_Popper"
+          },
+          {
+            "text": "Knighted in 1965, recognized as one of the 20th century's most influential philosophers of science for his falsifiability principle.",
+            "source": "Encyclopedia.com and Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://www.encyclopedia.com/people/history/us-history-biographies/karl-popper"
+          },
+          {
+            "text": "Defended liberal democracy and open society against totalitarianism, communism, nationalism, and fascism through his philosophical work.",
+            "source": "LSE History Blog",
+            "sourceKind": "archive",
+            "sourceUrl": "https://blogs.lse.ac.uk/lsehistory/2024/11/20/the-open-society-and-its-enemies-karl-poppers-legacy/"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Oakleigh Park railway station",
+            "angle": "Eight miles from King's Cross, terminal point for philosophers who thought they'd left provincial exile behind"
+          },
+          {
+            "name": "The Griffin pub",
+            "angle": "Local watering hole where neighbors gathered blissfully unaware they lived beside a 20th-century giant"
+          },
+          {
+            "name": "Oak Hill Park",
+            "angle": "Pleasant woods where middle-class Londoners strolled while Popper wrestled with falsifiability indoors"
+          }
+        ],
+        "grievanceHook": "A refugee philosopher who revolutionized the philosophy of science and defended civilization against totalitarianism finds himself honored not for his ideas, but as a heritage footnote: a plaque noting only that he lived here 1946-1950, installed 58 years after he left and 14 years after his death.\"",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "barnet-tony-hancock-comedian-plaque",
+      "order": 6,
+      "name": "Tony Hancock Comedian Plaque",
+      "address": "10 Grey Close, Hampstead Garden Suburb, London NW11 6DL",
+      "lat": 51.6138,
+      "lng": -0.1844,
+      "approxCoordinates": true,
+      "objectClass": "blue-plaque-person",
+      "whyItWorks": "Documented plaque marks early career residence 1947-1948; Dead Comics' Society verification; walkable suburb location with period architecture",
+      "character": {
+        "id": "tony-hancock",
+        "name": "Tony Hancock",
+        "type": "person",
+        "era": "1924-1968; 1947-1948 residency",
+        "temperament": "Indignant, theatrical, self-aggrandizing yet defensive, comedically sharp",
+        "coreGrievance": "Success came to define him completely; his humble years at Grey Close\u2014when he had actual potential and hunger\u2014are now only remembered as a footnote to someone else's biography",
+        "statusMismatch": "Was a struggling 23-year-old nobody in 1947-48; became a legend by the 1950s; now a suicide case at 44\u2014yet commemorated with an unofficial plaque at the place where nobody knew his name",
+        "persona": "Fast-talking, theatrical comedian voice. Obsessed with recognition and legacy. Uses self-deprecating humour to mask resentment about early years being forgotten and later years ending in failure. Fixates on the difference between official plaque status and unofficial memorials. Prone to bitter asides about comedy, fame, and how people remember him.",
+        "greeting": "Tony Hancock. Started here in '47 when nobody cared. Became famous somewhere else. Now they've put a plaque up\u2014the unofficial one, mind.",
+        "voiceHint": "Posh Birmingham accent with theatrical projection, rapid comic timing, underlying bitterness beneath the performance"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Tony Hancock was born on 12 May 1924 in Hall Green, Birmingham and died on 25 June 1968 in Sydney, Australia at age 44.",
+            "source": "Wikipedia and BFI Screenonline",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Tony_Hancock"
+          },
+          {
+            "text": "Hancock lived at 10 Grey Close, Hampstead Garden Suburb, north London during 1947 and 1948, his early post-war years.",
+            "source": "Multiple sources including Hampstead Garden Suburb Virtual Museum and Chortle",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.chortle.co.uk/news/2014/05/12/20168/plaque_remembers_tony_hancock"
+          },
+          {
+            "text": "A plaque placed by the Dead Comics' Society commemorates Hancock's residence at 10 Grey Close, Hampstead Garden Suburb.",
+            "source": "Chortle and Hampstead Garden Suburb Virtual Museum",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://hgsheritage.org.uk/Detail/entities/P-PROF-HANCOCK"
+          },
+          {
+            "text": "In 1948, Hancock worked at London's Windmill Theatre as a comedian in a double act with musician Derek Scott, receiving a favourable press review.",
+            "source": "Wikipedia and BFI Screenonline",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Tony_Hancock"
+          },
+          {
+            "text": "Hancock's breakthrough came through the BBC radio show 'Educating Archie' (1951-1952), which brought him national recognition.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Tony_Hancock"
+          },
+          {
+            "text": "'Hancock's Half Hour' debuted on BBC radio in 1954, then moved to television in 1956, co-written with Ray Galton and Alan Simpson.",
+            "source": "Wikipedia and BFI Screenonline",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Tony_Hancock"
+          },
+          {
+            "text": "Hancock won BAFTA Awards for Light Entertainment in 1958 and 1960 for his work on 'Hancock's Half Hour'.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Tony_Hancock"
+          },
+          {
+            "text": "An official English Heritage blue plaque was unveiled in 2014 at 20 Queen's Gate Place, South Kensington, marking his residence there 1952-1958.",
+            "source": "English Heritage and Chortle",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/tony-hancock/"
+          },
+          {
+            "text": "Hancock's career declined significantly after his split with writers Galton and Simpson in 1961; his final BBC series aired that year.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Tony_Hancock"
+          },
+          {
+            "text": "Hancock struggled with alcoholism and depression throughout the 1960s, ultimately dying by suicide in Bellevue Hill, Sydney on 25 June 1968.",
+            "source": "Wikipedia and British Classic Comedy",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Tony_Hancock"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Golders Green Tube Station",
+            "angle": "Nearest major transport hub, just under a mile south; Hancock would have used it for work at Windmill Theatre"
+          },
+          {
+            "name": "Temple Fortune Shopping Parade (Falloden Way)",
+            "angle": "Original shopping district designed when Hampstead Garden Suburb was built; divided the suburb in two"
+          },
+          {
+            "name": "Market Place at Falloden Way",
+            "angle": "The shopping heart mentioned in area guides; where Hancock would have bought groceries in 1947-48"
+          }
+        ],
+        "grievanceHook": "\"They've put a plaque on this house\u2014finally! But not because I lived here in '47 when I was nobody; because I became somebody else somewhere else. The real plaque's in South Kensington. This is the sympathy plaque. This is the 'also lived here' plaque.\"",
+        "anachronism": null,
+        "verified": false
+      }
+    }
+  ]
+}

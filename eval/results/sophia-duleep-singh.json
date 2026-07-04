@@ -1,0 +1,49 @@
+{
+  "name": "Sophia Duleep Singh",
+  "slug": "sophia-duleep-singh",
+  "trainCount": 7,
+  "testCount": 3,
+  "avgScores": {
+    "voiceFidelity": 2.3333333333333335,
+    "contentFidelity": 2.6666666666666665,
+    "plausibility": 2.6666666666666665
+  },
+  "testResults": [
+    {
+      "context": "Letter to the Secretary of State for India requesting financial assistance due to economic hardship and inability to cover living expenses.",
+      "actualText": "Dear Mr Montagu, the great rise in prices, taxes and rates, and the ever increasing difficulty of making two ends meet, leave me no choice but to write to you to ask for assistance.",
+      "actualReaction": "Not widely publicized at the time; this letter represents her personal struggles after years of financial sacrifices made through tax resistance and financial support to suffragette causes.",
+      "generatedText": "I write to request that provision be made for my maintenance, my present income being insufficient to meet the ordinary expenses of my household. I would remind the Secretary of State that this difficulty arises not from any extravagance on my part, but from an allowance settled upon me without reference to my own wishes or circumstances, in the same manner as so much else concerning my family's affairs has been determined without our consent. I do not ask this as a favour but as a matter due to me, and I trust the request will be examined promptly and without the delay that has attended similar applications in the past.",
+      "scores": {
+        "voiceFidelity": 3,
+        "contentFidelity": 2,
+        "plausibility": 3,
+        "rationale": "The real letter is brief, plain, and almost apologetic: it cites concrete external economic pressures (\"the great rise in prices, taxes and rates\") and frames the request simply as being left \"no choice\" but to ask for assistance. The generated version is far more formal, legalistic, and assertive \u2014 it drops the economic-hardship framing entirely and instead invents a grievance narrative about an allowance \"settled upon me without reference to my own wishes,\" echoing family/political disputes with the Crown, and insists the money is \"due to me\" rather than \"a favour,\" while also referencing unspecified past delays. That entitled, rights-based register is consistent with Sophia Duleep Singh's known suffragette-era assertiveness in other contexts, which keeps voiceFidelity moderate, but it substantially misrepresents the actual content and tone of this specific, humbler letter (contentFidelity low). As a standalone quote it is plausible as something she might have written in a different, more adversarial context, but it reads as a different, more combative letter than the one she actually sent."
+      }
+    },
+    {
+      "context": "Letter expressing concern about a significant reduction in her annual allowance from Queen Victoria's estate, which was already insufficient to cover her living expenses.",
+      "actualText": "I have received your letter of October 18 with regard to the reduction of the allowance from \u00a3200 to \u00a3130.68 a year. As it was not sufficiently adequate in the first place to cover expenses, it will be much less so when reduced... I am again obliged to use capital, which will further reduce my income.",
+      "actualReaction": "Not widely publicized; the letter reflects her financial struggles in her later years as the value of her allowance diminished with inflation and economic changes following World War I.",
+      "generatedText": "I write to state, with all respect, that the reduction now proposed to my allowance cannot be reconciled with the expenses it is intended to meet, these having been calculated upon a sum already insufficient to my establishment. I am unable conscientiously to arrange my affairs upon a lesser provision without incurring debts I have no means to discharge, and I should be glad to know upon what grounds so material a diminution has been thought proper. If the late Queen's intention was that her goddaughters should be maintained in a manner suitable to their station, I confess I do not understand how that intention is served by curtailing the means to do so. I must ask, therefore, that the matter be reconsidered before the reduction takes effect.",
+      "scores": {
+        "voiceFidelity": 2,
+        "contentFidelity": 3,
+        "plausibility": 3,
+        "rationale": "The actual letter is terse, businesslike, and grounded in concrete figures (\u00a3200 to \u00a3130.68) plus a specific practical consequence (having to draw on capital). The AI version abandons all of that specificity, replacing it with an elaborate, rhetorically embellished Victorian-legalistic register (\"I confess I do not understand,\" \"so material a diminution\") that reads more ornate and indignant than her plain, matter-of-fact original \u2014 a voice mismatch. Content-wise it correctly captures the core grievance (the allowance was already inadequate and a reduction worsens things, request for reconsideration) but invents unverified specifics not in the source (the \"late Queen's intention\" that goddaughters be maintained \"suitable to their station\") and omits the actual documented details (exact sums, the capital-depletion point). It could plausibly pass as a period letter of grievance in form, but its heightened rhetorical flourish and invented justificatory framing make it less faithful to how she actually wrote about this issue."
+      }
+    },
+    {
+      "context": "Statement made near the end of her life, after World War II, to Drovna (her housekeeper's daughter), emphasizing the importance of exercising voting rights that women had fought so hard to obtain.",
+      "actualText": "I want a solemn promise from you. You are never, ever not to vote. You don't realise how far we've come.",
+      "actualReaction": "Recorded in Anita Anand's biography 'Sophia: Princess, Suffragette, Revolutionary' and represents her final public message about the value of women's suffrage rights.",
+      "generatedText": "Drovna, you must always use your vote. We fought and were fined and imprisoned so that you would not have to ask anyone's permission to have your say \u2014 see that it was not for nothing. It is a small thing to walk to the polling station, and yet it was the whole of our struggle. Never let anyone tell you it does not matter; we counted the cost of that indifference in years.",
+      "scores": {
+        "voiceFidelity": 2,
+        "contentFidelity": 3,
+        "plausibility": 2,
+        "rationale": "The actual quote is strikingly terse and intimate: a direct personal charge (\"I want a solemn promise from you\"), a blunt imperative repeated for emphasis (\"never, ever\"), and a spare closing line (\"You don't realise how far we've come\") that lets the weight of unstated history do the work. The AI version inverts this register entirely \u2014 it's expansive, oratorical, and self-explaining, spelling out \"we fought and were fined and imprisoned,\" \"it was the whole of our struggle,\" \"we counted the cost of that indifference in years.\" That's a speechwriter's cadence, not the clipped, almost curt address of an elderly woman making a final private demand of a young girl. Voice fidelity is weak on those grounds. Content fidelity is middling: it preserves the core idea (vote-as-hard-won-duty, don't take it for granted) but adds unearned specificity \u2014 \"imprisoned\" overstates her personal history, since Sophia's suffrage resistance is chiefly documented as fines/tax refusal and property seizure, not imprisonment, making the embellishment a factual overreach rather than a paraphrase. Plausibility suffers for the same reason as voice: it reads as composed rhetoric retrofitted to sound historical, whereas the real line's power is precisely its lack of elaboration \u2014 it doesn't argue the case, it simply demands the promise and leaves the \"how far we've come\" unexplained."
+      }
+    }
+  ]
+}

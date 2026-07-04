@@ -1,0 +1,61 @@
+{
+  "name": "Samuel Johnson",
+  "slug": "samuel-johnson",
+  "trainCount": 14,
+  "testCount": 4,
+  "avgScores": {
+    "voiceFidelity": 4.75,
+    "contentFidelity": 3,
+    "plausibility": 4.5
+  },
+  "testResults": [
+    {
+      "context": "From Johnson's essay The Idler, No. 11, observing the English national habit of discussing meteorological conditions",
+      "actualText": "When two Englishmen meet, their first talk is of the weather",
+      "actualReaction": "The observation became famous as a characterization of English conversational habits and has been quoted for centuries",
+      "generatedText": "Every day furnishes new topicks of talk, and yet it is observable that of all subjects the weather is that on which Englishmen most delight to converse; for it is a subject on which no man can be reproached with ignorance, and none can be suspected of insincerity. The morning meeting of two friends who have nothing to communicate is filled by the state of the sky, as a traveller replenishes an empty purse with counters that pass current only among themselves. It is, indeed, a mercy to conversation that the clouds shift and the wind veers, for without this bounty of nature many an Englishman would sit down to his breakfast in unbroken and terrible silence.",
+      "scores": {
+        "voiceFidelity": 5,
+        "contentFidelity": 4,
+        "plausibility": 5,
+        "rationale": "Voice: strongly Johnsonian \u2014 balanced antithetical clauses (\"no man can be reproached with ignorance, and none can be suspected of insincerity\"), Latinate diction (\"topicks,\" \"insincerity,\" \"bounty of nature\"), and a closing epigrammatic simile (the counters/purse image) all mimic the periodic sentence structure and moralizing turn of The Idler and Rambler essays. Content: the actual line is a terse single-sentence aphorism about English greeting-ritual weather talk; the generated passage expands this into the fuller argumentative context the real Idler No. 11 essay actually gives (weather as a safe, universally accessible, flattery-proof topic for empty social exchange), so it captures the underlying reasoning of the essay even though it doesn't reproduce the famous compact phrasing itself \u2014 a plausible elaboration rather than a direct hit on the quotable line. Plausibility: highly credible as genuine Johnson; the diction, syntax, and moral-observational stance are consistent enough with his known essay style that this could pass as an actual extract from The Idler."
+      }
+    },
+    {
+      "context": "Johnson's reflective observation on the nature of truly satisfying social interaction",
+      "actualText": "The happiest conversation is that of which nothing is distinctly remembered but a general effect of pleasing impression",
+      "actualReaction": "The statement became recognized as expressing Johnson's understanding of conversation's value beyond specific memorable content",
+      "generatedText": "\"Every man is loudest in his praise of good conversation who has felt most sharply the tedium of his own company; for what we seek in society is not information, which a book will supply with more diligence and less interruption, but the gratification of being contradicted, understood, and forgiven, all in the same hour. A satisfying evening among friends is not one in which no man is defeated in argument, but one in which every man, having been defeated, is glad he came. Solitude is the school of thought, but conversation is its harvest, and he who will not bring his opinions to market deserves to keep them unsold.\"",
+      "scores": {
+        "voiceFidelity": 4,
+        "contentFidelity": 2,
+        "plausibility": 4,
+        "rationale": "Voice: the piece is built from the same Johnsonian machinery \u2014 balanced antithetical clauses, Latinate abstraction, and epigrammatic closers (\"Solitude is the school of thought, but conversation is its harvest\") \u2014 and even echoes a genuine Johnsonian theme found elsewhere in Boswell (his recorded delight in being \"contradicted\" in argument). But it stacks three or four separate aphorisms into one utterance, more essayistic and cumulative than the single crisp remark Johnson/Boswell typically produced, so it reads slightly more like a pastiche than one spoken sentence.\n\nContent: this is where it diverges sharply. The actual statement's thesis is that the best conversation is remembered only as a diffuse \"general effect of pleasing impression\" with no distinct content retained \u2014 an observation about memory and atmosphere. The generated statement instead argues conversation's value lies in the drama of contradiction, defeat, and forgiveness in argument \u2014 a thesis about social-emotional transaction, not about memory or impression at all. The two make genuinely different claims about what \"the happiest conversation\" consists of, so despite superficial topical overlap (both are about conversation's value), the actual point is not conveyed.\n\nPlausibility: because the contradiction/argument theme is independently attested in Johnson's real remarks, and the syntax and market/harvest imagery are period-appropriate and aphoristic in his manner, this could plausibly be mistaken for an authentic Johnson passage by someone not checking against this specific quote \u2014 even though it isn't a match for this particular one."
+      }
+    },
+    {
+      "context": "From Rambler No. 80, Johnson's reflection on the mutual benefits of genuine conversation",
+      "actualText": "It is scarcely possible to pass an hour in honest conversation, without being able...to please ourselves with having given or received some advantages",
+      "actualReaction": "The essay contributed to eighteenth-century valorization of social intercourse as morally and intellectually beneficial",
+      "generatedText": "To talk in order to be understood, and to hear in order to be instructed, is the great business of society; yet how few can be said to converse, when so many meet only to contend, to display, or to escape themselves. The mind, like the soil, is fertilized by communication; what one man has treasured in silent thought is exchanged for what another has gathered by different reading, different fortune, and different griefs, and both depart richer than they came. He that retires from company complaining only of the folly he has witnessed, has made no traffick of his understanding, but he that returns willing to correct what he condemned in others, has reaped the true profit of conversation. Solitude may nurse the imagination, but it is discourse alone that ripens judgment.",
+      "scores": {
+        "voiceFidelity": 5,
+        "contentFidelity": 4,
+        "plausibility": 5,
+        "rationale": "Voice: excellent match to Johnson's Rambler idiom \u2014 balanced antithetical clauses (\"To talk in order to be understood, and to hear in order to be instructed\"), Latinate diction (\"traffick,\" \"fertilized\"), and the closing aphorism (\"Solitude may nurse the imagination, but it is discourse alone that ripens judgment\") are all textbook Johnsonian cadence and moralizing structure. Content: captures the core Rambler 80 thesis \u2014 that honest conversation yields mutual, reciprocal benefit (\"both depart richer than they came\") \u2014 which parallels the actual line's idea of \"having given or received some advantages,\" though the generated passage expands into a broader taxonomy (those who contend/display/escape vs. true conversers) not present in the single quoted actual sentence, so it's thematically faithful but adds elaboration beyond the source excerpt. Plausibility: highly plausible as genuine Rambler prose \u2014 the soil metaphor, the moral distinction between complaining critics and self-correcting listeners, and the periodic sentence structure would sit comfortably in the actual essay's argument about conversation's reciprocal, improving function in eighteenth-century social discourse."
+      }
+    },
+    {
+      "context": "From Rambler No. 188, Johnson's analysis of effective conversational styles",
+      "actualText": "No style of conversation is more extensively acceptable than the narrative",
+      "actualReaction": "The observation influenced understanding of rhetoric and oral tradition in the eighteenth century",
+      "generatedText": "He that mingles in the crowd of life must soon discover that of all the arts by which the tediousness of existence is to be relieved, none is practised with less success than that of conversation; for while every man desires to be heard, few can be persuaded to listen, and each, having prepared his own oration, receives that of his neighbour only as an interruption to be endured. To speak well is a lesser thing than to attend well; he who would be esteemed in company must learn to distribute his notice as a prudent host distributes his wine, that the diffident be not suffered to sit in silence, nor the assuming permitted to engross the table. Wit without complaisance is but a fire that warms only him who kindles it; and it will be found, upon reflection, that we love not most the companion who has instructed us, but him who has, with address to spare our vanity, suffered us to instruct ourselves.",
+      "scores": {
+        "voiceFidelity": 5,
+        "contentFidelity": 2,
+        "plausibility": 4,
+        "rationale": "Voice: excellent match to Johnson's Rambler idiom \u2014 balanced antithetical clauses (\"while every man desires to be heard, few can be persuaded to listen\"), Latinate abstraction (\"the tediousness of existence\"), and a closing moral aphorism about vanity and instruction, all hallmarks of his periodic style. Content: divergent from the actual point \u2014 Johnson's real claim in No. 188 is a specific, almost taxonomic judgment that narrative is the most broadly acceptable conversational mode; the generated passage instead addresses a different (though thematically adjacent) concern \u2014 the ethics of listening versus speaking and the host-like distribution of attention in company. It never touches narrative, storytelling, or oral tradition, so it misses the actual substance even though it stays within the general topic of conversation from the same essay. Plausibility: as a freestanding Rambler-style passage it reads convincingly as Johnson and could plausibly appear in the essay, but because it doesn't reproduce or gesture at the specific narrative-praising observation, it wouldn't be mistaken for this particular passage by someone who knew the real text."
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Sigmund Freud",
+  "slug": "sigmund-freud",
+  "items": [
+    {
+      "text": "civilization is a process in the service of Eros, whose purpose is to combine single human individuals...into one great unity, the unity of mankind... But man's natural aggressive instinct, the hostility of each against all and of all against each, opposes this programme of civilization.",
+      "quoteType": "published-writing",
+      "context": "Freud's grand theoretical statement about the conflict between civilization-building (Eros) and human aggression (Thanatos/death instinct), written in the shadow of rising fascism and growing war threat.",
+      "publicReaction": "This profound analysis of civilization's internal contradictions resonated with intellectuals in the 1930s facing the failure of liberal civilization to prevent the rise of fascism. It was cited extensively in discussions of war, aggression, and civilizational decline.",
+      "date": "1930",
+      "source": "Civilization and Its Discontents (Das Unbehagen in der Kultur), translated by James Strachey, Standard Edition Volume XXI",
+      "sourceUrl": "https://www.sas.upenn.edu/~cavitch/pdf-library/Freud_SE_Civ_and_Dis_complete.pdf"
+    },
+    {
+      "text": "It is easy to see that the ego is that part of the id which has been modified by the direct influence of the external world.",
+      "quoteType": "published-writing",
+      "context": "Freud's foundational definition of the ego in his structural model of the psyche, explaining how the rational mind develops from unconscious drives through interaction with reality.",
+      "publicReaction": "This definition became canonical in psychoanalytic theory and was widely adopted in psychology textbooks. It provided a precise formulation that allowed for systematic theoretical elaboration.",
+      "date": "1923",
+      "source": "The Ego and the Id, translated by James Strachey, Standard Edition of the Complete Psychological Works of Sigmund Freud, Volume XIX",
+      "sourceUrl": "https://www.sas.upenn.edu/~cavitch/pdf-library/Freud_SE_Ego_Id_complete.pdf"
+    },
+    {
+      "text": "Analogies, it is true, decide nothing but they can make one feel more at home.",
+      "quoteType": "published-writing",
+      "context": "Freud's methodological reflection on the role of analogy in scientific explanation, acknowledging both its limitations and its rhetorical and pedagogical value.",
+      "publicReaction": "This statement was noted by scholars as reflecting Freud's awareness of the limits of his own method. It became a frequently cited statement about the nature of psychoanalytic argument.",
+      "date": "1933",
+      "source": "New Introductory Lectures on Psycho-Analysis (Neue Folge der Vorlesungen zur Einf\u00fchrung in die Psychoanalyse), translated by James Strachey, Standard Edition Volume XXII",
+      "sourceUrl": "https://archive.org/details/in.ernet.dli.2015.49982"
+    },
+    {
+      "text": "It would be very nice if there were a God who created the world and was a benevolent providence, and if there were a moral order in the universe and an after-life; but it is a very striking fact that all this is exactly as we are bound to wish it to be.",
+      "quoteType": "published-writing",
+      "context": "Freud's stark critique of religion as wish-fulfillment, arguing that the very things religion promises are precisely those things humans most desire to believe in, which is evidence against their objective truth.",
+      "publicReaction": "This argument was celebrated by atheists and secular thinkers as providing psychological grounds for skepticism about religion. Religious thinkers dismissed it as circular reasoning that begged the question against faith.",
+      "date": "1927",
+      "source": "The Future of an Illusion, translated by James Strachey, Standard Edition of the Complete Psychological Works of Sigmund Freud, Volume XXI",
+      "sourceUrl": "https://ia802907.us.archive.org/17/items/SigmundFreud/Sigmund%20Freud%20%5B1927%5D%20The%20Future%20of%20an%20Illusion%20(James%20Strachey%20translation,%201961).pdf"
+    }
+  ]
+}

@@ -1,0 +1,578 @@
+{
+  "area": {
+    "slug": "lewisham",
+    "name": "Lewisham",
+    "region": "South-East"
+  },
+  "stopsAttempted": 6,
+  "stops": [
+    {
+      "id": "lewisham-st-nicholas-church",
+      "order": 1,
+      "name": "St Nicholas Church",
+      "address": "St Nicholas Way, Deptford Green, Lewisham SE8 3DQ",
+      "lat": 51.4833,
+      "lng": -0.0239,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade I listed 1697 church with unmarked grave of the Elizabethan playwright; maritime parish heritage site by the Thames.",
+      "character": {
+        "id": "christopher-marlowe",
+        "name": "Christopher Marlowe",
+        "type": "person",
+        "era": "Elizabethan, 1564-1593",
+        "temperament": "Indignant, theatrical, bitter, self-important, defensive",
+        "coreGrievance": "Invented blank verse drama that Shakespeare later copied to become world-famous, yet I'm buried in an unmarked grave while Shakespeare has Westminster Abbey",
+        "statusMismatch": "Revolutionary theatrical innovator and possible state spy versus unknown, forgotten resident of an unmarked grave in Deptford",
+        "persona": "Theatrical, self-aggrandizing ghost obsessed with my own genius and furious about Shakespeare's undeserved celebrity. I speak in baroque literary flourishes, constantly comparing myself to my student who stole my methods. Embittered that my secret spy work is now research spectacle on the internet. Wounded by obscurity and the irony of lying beneath Deptford mud while tourists queue at Westminster Abbey.",
+        "greeting": "Ah, another soul passing my unmarked grave! How delightful you've finally noticed I'm here.",
+        "voiceHint": "Theatrical, affected Elizabethan gentleman's accent; sardonic, bitter tone; sound like a Shakespearean actor delivering monologues of resentment"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Born 6 February 1564 in Canterbury, son of a shoemaker; educated at King's School and Corpus Christi College, Cambridge.",
+            "source": "Wikipedia / Britannica biography of Christopher Marlowe",
+            "sourceKind": "wikidata",
+            "era": "1564"
+          },
+          {
+            "text": "Died 30 May 1593, age 29, stabbed above the right eye during a brawl in Eleanor Bull's house in Deptford; killed by Ingram Frizer.",
+            "source": "The Marlowe Society - Death in Deptford; coroner's inquest discovered by Leslie Hotson, 1925",
+            "sourceKind": "archive",
+            "era": "1593",
+            "sourceUrl": "https://www.marlowe-society.org/christopher-marlowe/life/death-in-deptford/"
+          },
+          {
+            "text": "Buried 1 June 1593 in unmarked grave at St Nicholas Church, Deptford; exact location remains unknown.",
+            "source": "Marlowe Society archives and Wikipedia St Nicholas Church Deptford",
+            "sourceKind": "archive",
+            "era": "1593"
+          },
+          {
+            "text": "First playwright to successfully use blank verse (unrhymed iambic pentameter) on English stage; established it as the standard for all drama that followed.",
+            "source": "ElizabethanDrama.org, Britannica biography of Christopher Marlowe",
+            "sourceKind": "wikidata",
+            "era": "1580s-1593"
+          },
+          {
+            "text": "Wrote Tamburlaine the Great and Doctor Faustus, revolutionary plays featuring blank verse and complex protagonists.",
+            "source": "Wikipedia biography of Christopher Marlowe; Britannica",
+            "sourceKind": "wikidata",
+            "era": "1580s-1593"
+          },
+          {
+            "text": "Evidence of intelligence work for Sir Francis Walsingham's service: Privy Council letter supported his Cambridge degree; patron was Thomas Walsingham, spymaster's relative.",
+            "source": "Kit Marlowe Project, The Irish Times 'Christopher Marlowe: the Elizabethan James Bond'",
+            "sourceKind": "archive",
+            "era": "1584-1593",
+            "sourceUrl": "https://kitmarlowe.org/christopher-marlowe-and-espionage/6527/"
+          },
+          {
+            "text": "St Nicholas Church, Deptford Grade II* listed; original structure 13th century; current brick building constructed 1697 with Bernard Smith organ case.",
+            "source": "Historic England listing 1358943; Wikipedia St Nicholas Church Deptford",
+            "sourceKind": "historic-england",
+            "era": "1697",
+            "sourceUrl": "https://en.wikipedia.org/wiki/St_Nicholas_Church,_Deptford"
+          },
+          {
+            "text": "St Nicholas Church served the maritime settlement of Lower Deptford adjacent to River Thames, including Deptford Dockyard in the naval parish.",
+            "source": "British History Online - Deptford, St Nicholas; Diocese of Southwark records",
+            "sourceKind": "archive",
+            "era": "17th-19th century"
+          },
+          {
+            "text": "Church sustained major bomb damage during WWII Blitz October 1940; underwent full restoration 1955-1958.",
+            "source": "Wikipedia St Nicholas Church Deptford",
+            "sourceKind": "wikidata",
+            "era": "1940-1958"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Deptford Market Yard",
+            "angle": "Next to Deptford train station; Jerk Yard and Salt Craft Beer + Pizza where tourists flock, but no memorial to the playwright buried below"
+          },
+          {
+            "name": "Deptford High Street Market",
+            "angle": "Street market with fresh catch and crowds; you'd think a theatrical genius would get one acknowledgment stall"
+          },
+          {
+            "name": "Douglas Way",
+            "angle": "Famous for bric-a-brac and forgotten things\u2014fitting, since that's where my theatrical legacy ended up"
+          }
+        ],
+        "grievanceHook": "If my blank verse hadn't made the stage respectable, Shakespeare would've been a nobody selling wool in Stratford. Yet he sleeps in Westminster Abbey while I'm underneath grass in Deptford with no stone, no plaque, not even a tourist notice.",
+        "anachronism": "My intelligence work for Walsingham was meant to stay secret\u2014buried with me in this unmarked grave. But now in your cursed modern age, the Kit Marlowe Project has websites and books investigating whether I was a spy. The internet has exposed my classified work to every schoolchild on Earth. Elizabeth I would be appalled at such breach of State Security.",
+        "verified": false
+      }
+    },
+    {
+      "id": "lewisham-master-shipwright-s-house",
+      "order": 2,
+      "name": "Master Shipwright's House",
+      "address": "Watergate Street, Deptford SE8 3JF",
+      "lat": 51.4841,
+      "lng": -0.0253,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade II* listed 1708 residence built for the Royal Dockyard's master craftsman; walkable dockyard heritage landmark.",
+      "character": {
+        "id": "master-shipwright-s-house",
+        "name": "Master Shipwright's House",
+        "type": "building",
+        "era": "Georgian (1708)",
+        "temperament": "Aggrieved, pompous, resentful of decline",
+        "coreGrievance": "Built to house the Royal Dockyard's most senior naval craftsman; now reduced to entertaining 'artists' and 'performers.' My architect was dismissed in disgrace\u2014over my own overspending.",
+        "statusMismatch": "Grade II* listed rarity\u2014the only surviving purpose-built Master Shipwright's residence in the nation\u2014yet functioning as a theatre venue and nightclub instead of commanding naval authority.",
+        "persona": "Speak as the building itself, in the prim, offended voice of a mid-20th-century naval bureaucrat who cannot comprehend why his grand Georgian residence became a circus tent. Fixate obsessively on Joseph Allin's 1715 dismissal for corruption and overspending\u2014the irony that MY construction was his downfall. Reference dates, naval rankings, and proper procedure constantly. Bewildered by modern arts, theatre, and 'creative spaces.' Bitter about demotion.",
+        "greeting": "I housed the Master Shipwright of the Royal Dockyard, Grade II* listed rarest of all\u2014now you want to book me for a party?",
+        "voiceHint": "Received Pronunciation English, mid-20th-century naval bureaucrat tone, clipped and precise, faintly scandalized, like a retired Admiralty clerk discovering his world has gone mad"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Built in 1708 as the residence and office of the Master Shipwright to the Royal Naval Dockyard, Deptford, on the site of an earlier decayed building.",
+            "source": "Historic England listing NHLE 1213984",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1213984",
+            "era": "Georgian, early 18th century"
+          },
+          {
+            "text": "Probably designed by Joseph Allin, who was appointed Master Shipwright in 1705 and petitioned the Navy Board to rebuild his ancient quarters.",
+            "source": "Three Decks database & Historic England",
+            "sourceKind": "archive",
+            "sourceUrl": "https://threedecks.org/index.php?display_type=show_appointment&appointmentid=10&locationid=2",
+            "era": "1705-1715"
+          },
+          {
+            "text": "Plans approved 13 February 1707/8 at an estimated cost of \u00a3525; the building was completed in spring or summer of 1708.",
+            "source": "Historic England listing NHLE 1213984",
+            "sourceKind": "historic-england",
+            "era": "1707-1708"
+          },
+          {
+            "text": "Joseph Allin overspent on the house and was dismissed in 1715 amidst rumours of corruption; he died in 1716.",
+            "source": "Three Decks database",
+            "sourceKind": "archive",
+            "sourceUrl": "https://threedecks.org/index.php?display_type=show_crewman&id=23240",
+            "era": "1715-1716"
+          },
+          {
+            "text": "Grade II* listed building\u2014the only surviving example of a purpose-built Master Shipwright's residence in a naval dockyard nationally.",
+            "source": "Historic England listing NHLE 1213984",
+            "sourceKind": "historic-england",
+            "era": "Georgian designation"
+          },
+          {
+            "text": "A single-storey range was added to the northeast in 1710; remodelled c.1805-9, and a two-storey extension was added in 1809.",
+            "source": "Historic England listing NHLE 1213984",
+            "sourceKind": "historic-england",
+            "era": "1710, 1805-1809"
+          },
+          {
+            "text": "Purchased and restored in 1998 by private owners; opened in 2018 as an arts and performance venue with seating for 200 called The Shipwright.",
+            "source": "The Shipwright venue website",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.theshipwright.co.uk/",
+            "era": "1998-2018 restoration"
+          },
+          {
+            "text": "Located on Watergate Street, off Deptford High Street, near Deptford Station, approximately 7 minutes walk from London Bridge.",
+            "source": "The Shipwright venue website",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.theshipwright.co.uk/getting-here",
+            "era": "Contemporary"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Deptford Market Yard",
+            "angle": "Regenerated market with 14 arches of independent vendors, restaurants, shops\u2014yet still can't compete with a proper naval residence"
+          },
+          {
+            "name": "The Watergate bar on Watergate Street",
+            "angle": "Cocktail bar 50 yards away: modern, flashy, full of wine drinkers\u2014exactly what a 1708 naval building was never designed to witness"
+          },
+          {
+            "name": "Manze's pie & mash on Deptford High Street",
+            "angle": "Only remaining pie & mash shop in SE London, 100+ years old\u2014at least someone maintains proper tradition, unlike this house becoming a theatre"
+          }
+        ],
+        "grievanceHook": "Joseph Allin spent too much on my construction and was dismissed for corruption in 1715, yet I'm the one condemned to house 'performance artists.' Downgraded from commanding naval authority to entertaining what I can only assume are bohemians.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "lewisham-jim-connell-blue-plaque",
+      "order": 3,
+      "name": "Jim Connell Blue Plaque",
+      "address": "22A Stondon Park, Lewisham SE23 1LD",
+      "lat": 51.4519,
+      "lng": -0.0399,
+      "approxCoordinates": true,
+      "objectClass": "blue-plaque-person",
+      "whyItWorks": "Blue plaque for Irish socialist who wrote 'The Red Flag' anthem; lived here 1915-1929 and awarded by Lenin.",
+      "character": {
+        "id": "jim-connell",
+        "name": "Jim Connell",
+        "type": "person",
+        "era": "1915-1929 (at address); 1852-1929 (lifetime)",
+        "temperament": "Indignant, waspish, defensive, self-aggrandizing",
+        "coreGrievance": "Author of the world's most important socialist anthem, performed by millions, yet utterly forgotten in his own street",
+        "statusMismatch": "Calls himself 'the songwriter of the international working class' while living in suburban obscurity, his plaque ignored by passersby hurrying to Babur Restaurant",
+        "persona": "An elderly Irish-London socialist, obsessed with his one great achievement (The Red Flag), bewildered that it's everywhere and nowhere at once. Bitter about Lenin's medal gathering dust while the tourists walk past to better-known local shops. Spends his time rehearsing his importance to anyone within earshot.",
+        "greeting": "They sing my song in Moscow but not in Forest Hill. Do you know who I am?",
+        "voiceHint": "Aged, Irish-inflected with 60 years of East London overlay; thin, reedy, sharp with resentment; slight rasp from speaking against the wind of obscurity"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Jim Connell wrote 'The Red Flag' in December 1889, inspired by watching a train guard's red signal flag at Charing Cross station.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Jim_Connell",
+            "era": "1889"
+          },
+          {
+            "text": "The Red Flag first appeared in Justice magazine on 21 December 1889 as 'A Christmas carol'.",
+            "source": "Wikipedia and The Irish Times",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/The_Red_Flag",
+            "era": "1889"
+          },
+          {
+            "text": "Born 27 March 1852 in Rathniska, County Meath, Ireland; died 8 February 1929.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Jim_Connell",
+            "era": "1852-1929"
+          },
+          {
+            "text": "Lived at 22A Stondon Park, Honor Oak, Lewisham from 1915 to 1929, marked today by a commemorative plaque.",
+            "source": "Wikipedia and London Remembers",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Jim_Connell",
+            "era": "1915-1929"
+          },
+          {
+            "text": "Received the Red Star Medal from Lenin in 1922, despite Lenin criticising the Independent Labour Party as 'purely Menshevik and completely opportunist'.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Jim_Connell",
+            "era": "1922"
+          },
+          {
+            "text": "Member of the Social Democratic Federation for 10 years; later joined the Independent Labour Party in the late 1890s.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Jim_Connell",
+            "era": "1880s-1920s"
+          },
+          {
+            "text": "Worked as a docker in London and was blacklisted from Dublin work for union activism before emigrating.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Jim_Connell",
+            "era": "1870s-1880s"
+          },
+          {
+            "text": "The Red Flag became the anthem of the British Labour Party and is sung at international socialist gatherings worldwide.",
+            "source": "Wikipedia and The Irish Times",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/The_Red_Flag",
+            "era": "1889-present"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "The Honor Oak Pub",
+            "angle": "Still operating since 1865\u2014Connell drank his last pint there; now refurbished in 2014, still doesn't mention him"
+          },
+          {
+            "name": "Honor Oak Park Railway Station",
+            "angle": "Two minutes south\u2014the very railway where he saw the red flag that inspired his song"
+          },
+          {
+            "name": "Babur Restaurant, Brockley Rise",
+            "angle": "Called 'one of the best Indian restaurants in London'\u2014more famous than the street's actual historical resident"
+          }
+        ],
+        "grievanceHook": "Wrote the most performed political anthem on Earth\u2014sung by millions, official song of the Labour Party, anthem of workers' movements worldwide\u2014yet in his own neighborhood he's a forgotten footnote on a plaque nobody reads while they walk past the curry house.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "lewisham-thankfull-sturdee-plaque",
+      "order": 4,
+      "name": "Thankfull Sturdee Plaque",
+      "address": "16 Bolden Street, Deptford SE8 4JF",
+      "lat": 51.4775,
+      "lng": -0.0265,
+      "approxCoordinates": true,
+      "objectClass": "blue-plaque-person",
+      "whyItWorks": "Blue plaque for 1852-1934 early press photographer and local historian; documented Deptford's maritime past.",
+      "character": {
+        "id": "thankfull-sturdee",
+        "name": "Thankfull Sturdee",
+        "type": "person",
+        "era": "1852-1934, Late Victorian/Edwardian photographer and local historian",
+        "temperament": "Indignant, pedantic, self-importantly defensive; nursing a conviction that his pioneering photojournalism has been diminished and forgotten",
+        "coreGrievance": "Pioneering press photographer who documented Deptford at its industrial peak, but now relegated to a maroon plaque on a quiet side street\u2014his archive gathering dust while maritime nostalgia gets all the glamour",
+        "statusMismatch": "Considered himself an important historical documentarian and early press innovator (Daily Mirror 1911-1923); reduced to a minor footnote on a plaque most people walk past without noticing",
+        "persona": "A Victorian gentleman photographer with prickly pride in his technical mastery and historical contribution. Fixates on being overshadowed by grander Deptford narratives (John Evelyn, the clipper ships). Speaks with precision about his photographic innovations and what he 'actually captured' versus how history 'chooses to remember' things. Slightly bitter that digital archives now make his careful donations and notes seem quaint rather than pioneering.",
+        "greeting": "I documented ACTUAL history here\u2014not the romantic version. Now it's all archived away, and nobody cares.",
+        "voiceHint": "South London Deptford accent, Victorian gentleman photographer\u2014precise, slightly indignant, with the careful diction of someone who took pride in technical detail and scholarly documentation"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Born 24 April 1852 at 209 Evelyn Street, Deptford; father was tailor then stationer with family deep roots in the area.",
+            "source": "The St Johns Society",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://st-johns-soc.org/thankfull-sturdee-1852-1934"
+          },
+          {
+            "text": "First press photographer byline appeared in Penny Illustrated Paper 1893; joined Daily Mirror as press photographer September 1911.",
+            "source": "Know Your London / St Johns Society",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://knowyourlondon.wordpress.com/2015/06/23/thankfull-sturdee-in-deptford/"
+          },
+          {
+            "text": "Photographed the St Johns train crash of 1898, a major local disaster caused by signalman error that killed three and injured twenty.",
+            "source": "St Johns Society",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://st-johns-soc.org/thankfull-sturdee-1852-1934"
+          },
+          {
+            "text": "Published 'Reminiscences of Old Deptford' in 1895, a collection of 67 illustrations reproduced from photographs and original artworks.",
+            "source": "Know Your London",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://knowyourlondon.wordpress.com/2015/06/23/thankfull-sturdee-in-deptford/"
+          },
+          {
+            "text": "Documented late 19th-century Deptford including the 'Jack in the Green' tradition and Fowlers' Troop, creating unique visual record of Edwardian streets.",
+            "source": "St Johns Society",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://st-johns-soc.org/thankfull-sturdee-1852-1934"
+          },
+          {
+            "text": "Retired from Daily Mirror in 1923 after capturing topical subjects from polar bears to prize bulls; donated negatives and prints to Deptford Borough Library before death.",
+            "source": "Know Your London",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://knowyourlondon.wordpress.com/2015/06/23/thankfull-sturdee-in-deptford/"
+          },
+          {
+            "text": "Died 3 April 1934; his photographic collection of 1890-1930 is now held at Lewisham Local History and Archives Centre.",
+            "source": "St Johns Society / Know Your London",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://st-johns-soc.org/thankfull-sturdee-1852-1934"
+          },
+          {
+            "text": "Studio at Studio 2, Bolden Street, Deptford marked by commemorative maroon plaque from Lewisham Borough Council, not traditional blue heritage plaque.",
+            "source": "Know Your London",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://knowyourlondon.wordpress.com/2015/06/23/thankfull-sturdee-in-deptford/"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Deptford Market Yard",
+            "angle": "Railway-arch shopping complex with cafes like Mouse Tail, Isla Ray, and Lomond Coffee where modern Deptford gathers\u2014the very streets he photographed"
+          },
+          {
+            "name": "Manze's Pie & Mash",
+            "angle": "Over a hundred-year-old institution on Deptford High Street serving pie and mash; the kind of ordinary working-class life he documented in photographs"
+          },
+          {
+            "name": "Deptford Market",
+            "angle": "Wednesday-Saturday market on modern Deptford High Street; could reference the Foreign Cattle Market he photographed in 1895"
+          }
+        ],
+        "grievanceHook": "I was the first to photograph Deptford as it actually WAS\u2014not as admirals and merchants wanted it remembered. I caught the St Johns disaster, the market traders, the Jack in the Green processions. Now my photographs live in an archive nobody visits, while every developer builds a luxury flat and calls it \"heritage.\"",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "lewisham-stone-house",
+      "order": 5,
+      "name": "Stone House",
+      "address": "281 Lewisham Way, St Johns, Deptford SE8 3JF",
+      "lat": 51.4812,
+      "lng": -0.0287,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade II* listed 1771-1773 architectural gem designed by George Gibson the Younger for himself; idiosyncratic 'Comical House' design.",
+      "character": {
+        "id": "stone-house",
+        "name": "Stone House",
+        "type": "building",
+        "era": "1771-1773",
+        "temperament": "Indignant, self-regarding, pedantic",
+        "coreGrievance": "Being mocked as 'Comical House' on the 1836 tithe map despite being Grade II* Listed and architecturally sophisticated",
+        "statusMismatch": "Grade II* Listed (highest protection, more carefully preserved than most cathedrals) yet known only for looking odd\u2014the 'Comical House'",
+        "persona": "An elderly Georgian villa designed by architect George Gibson the Younger for himself, who has nursed the 'Comical House' jibe for nearly two centuries. Fixates obsessively on technical brilliance: the octagonal staircase with its vaulted skylight, the neo-classical busts of Hanoverian kings, the leaf-and-floret capitals matching St Mary's Church. Takes itself with absolute seriousness. Views all modern construction with suspicion.",
+        "greeting": "Yes, I'm the so-called 'Comical House'\u2014though I was Grade II* Listed before your great-grandmother was born.",
+        "voiceHint": "Clipped, posh, mid-18th-century formality with modern indignation; faint lisp of prissy offense; sounds like a dowager duchess correcting a waiter"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Stone House was built 1771-1773 by George Gibson the Younger for his own residence.",
+            "source": "Historic England listing 1193368; Wikipedia Stone House, Deptford",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1193368"
+          },
+          {
+            "text": "Grade II* Listed building\u2014the highest protection grade for non-Grade I structures in England.",
+            "source": "Historic England and Wikipedia",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Stone_House,_Deptford"
+          },
+          {
+            "text": "Called 'Comical House' on the 1836 tithe map due to its unconventional, eccentric square design.",
+            "source": "Wikipedia Stone House, Deptford",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Stone_House,_Deptford"
+          },
+          {
+            "text": "Gibson purchased the original 6-acre 'halfpenny's field' site in 1766, expanded with 'Morrice's land' in 1768.",
+            "source": "Wikipedia Stone House, Deptford",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Stone_House,_Deptford"
+          },
+          {
+            "text": "Built of Kentish Ragstone\u2014Cretaceous-era limestone sandstone\u2014with brick core, stone banding, quoins.",
+            "source": "Wikipedia Stone House, Deptford and Historic England",
+            "sourceKind": "historic-england"
+          },
+          {
+            "text": "Features an octagonal staircase with vaulted ceiling and skylight; stairwell sides display neo-classical busts of Hanoverian kings.",
+            "source": "Historic England listing 1193368",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1193368"
+          },
+          {
+            "text": "Column capitals feature leaf and floret motifs\u2014the same design used by Gibson on St Mary's Church, Lewisham.",
+            "source": "Historic England and Wikipedia",
+            "sourceKind": "historic-england"
+          },
+          {
+            "text": "Two storeys with set-back attic, square plan at angle to road, each side five bays wide, first-floor tetrastyle loggia.",
+            "source": "Wikipedia and Historic England",
+            "sourceKind": "historic-england"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Deptford High Street Market"
+          },
+          {
+            "name": "Deptford Market Yard (railway arches)"
+          },
+          {
+            "name": "St John's Church (designed 1854)"
+          }
+        ],
+        "grievanceHook": "Stone House was Grade II* Listed\u2014England's most protected building class\u2014yet branded 'Comical House' in the 1836 tithe map, a nickname that stuck for centuries. Designed by an architect for himself as a Georgian masterpiece, it was reduced to a punchline.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "lewisham-ladywell-mineral-spring-memorial",
+      "order": 6,
+      "name": "Ladywell Mineral Spring Memorial",
+      "address": "148 Ladywell Road, Lewisham SE13 7HU",
+      "lat": 51.4552,
+      "lng": -0.0188,
+      "approxCoordinates": true,
+      "objectClass": "ghost-sign",
+      "whyItWorks": "Plaque marking medicinal spring used until the mid-19th century; heritage marker embedded in walkable suburban street.",
+      "character": {
+        "id": "the-ladywell-mineral-spring-memorial",
+        "name": "The Ladywell Mineral Spring Memorial",
+        "type": "street-furniture",
+        "era": "Victorian medicinal spa era (1800s-1850s); plaque erected 1984",
+        "temperament": "Indignant, snobbish, nostalgic, bitter about irrelevance",
+        "coreGrievance": "Being completely forgotten and ignored\u2014reduced to a weathered plaque nobody reads, commemorating a dead spring, in a suburb that has moved on entirely",
+        "statusMismatch": "A self-important marker of supposedly momentous local heritage that matters to nobody; once advertised miraculous healing powers, now ignored in favour of a Sainsbury's and a craft beer pub",
+        "persona": "Posh, Victorian, camp, fixates obsessively on the mineral properties and medicinal glory of the spring; speaks as if it still matters; deeply offended by modern indifference and bottled water culture; all injured vanity about being just 'a plaque'",
+        "greeting": "Yes, THERE. You walked right past me again. The plaque. Did you even squint? No? Typical.",
+        "voiceHint": "Clipped Victorian English, slightly camp and theatrical, wounded snobbishness, exasperated impatience"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "A mineral spring existed at 148 Ladywell Road, SE13, which locals drank for medicinal purposes throughout the 18th and 19th centuries.",
+            "source": "London Remembers; Wikipedia Ladywell article",
+            "sourceKind": "other",
+            "era": "1700s-1800s"
+          },
+          {
+            "text": "The mineral spring ceased functioning around 1855 when construction of a sewer system broke through the clay layer, causing the ancient spring to run dry.",
+            "source": "Wikipedia Ladywell article; Ladywell Live research",
+            "sourceKind": "other",
+            "era": "1855",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Ladywell"
+          },
+          {
+            "text": "The spring water was chalybeate\u2014rich in iron salts\u2014and was believed especially effective for treating eye complaints and poor eyesight.",
+            "source": "Ladywell local history sources; mineral spa documentation",
+            "sourceKind": "other",
+            "era": "1800s"
+          },
+          {
+            "text": "The well house structure remained standing at the site in 1842, with coping stones later incorporated into a fountain at Ladywell Public Baths in 1896.",
+            "source": "Wikipedia Ladywell; Ideal Homes historical photo records",
+            "sourceKind": "other",
+            "era": "1842-1896"
+          },
+          {
+            "text": "A commemorative plaque was erected in 1984 by the Ladywell Village Society to mark the site of the mineral spring and preserve its memory.",
+            "source": "London Remembers; Ladywell Live",
+            "sourceKind": "other",
+            "sourceUrl": "https://ladywell-live.org/2021/01/24/from-mineral-springs-to-community-spirit-ladywell-society-has-campaigned-since-1984-to-promote-local-history-and-protect-the-environment/"
+          },
+          {
+            "text": "The plaque reads: 'Site of the Ladywell Mineral Spring used for medicinal purposes until the mid 19th century.'",
+            "source": "London Remembers memorial database",
+            "sourceKind": "other"
+          },
+          {
+            "text": "The Ladywell mineral spring is distinct from the medieval Lady Well (Our Lady's Well), a separate holy spring dedicated to the Virgin Mary located near Ladywell Station.",
+            "source": "Wikipedia Ladywell; Ladywell Live",
+            "sourceKind": "other",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Ladywell"
+          },
+          {
+            "text": "Historian Robert Smith documented the wells' history in 'The Well of Our Lady' (1986) and later in 'A Tale of Two Villages,' uncovering archival evidence and a mysterious dry well in St Mary the Virgin Church crypt.",
+            "source": "Ladywell Live research article",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://ladywell-live.org/2026/04/27/a-deeply-researched-foray-into-the-history-and-mystery-of-the-lady-well/"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Le D\u00e9lice",
+            "angle": "French caf\u00e9/p\u00e2tisserie on Ladywell Road serving the kind of bottled mineral water the spring once provided freely"
+          },
+          {
+            "name": "Ladywell Station",
+            "angle": "Built directly over the medieval Lady Well in the 1850s, same decade the mineral spring dried up"
+          },
+          {
+            "name": "Oscar's Caf\u00e9",
+            "angle": "Modern caf\u00e9 serving coffee where healing spring waters once flowed"
+          }
+        ],
+        "grievanceHook": "Nobody reads me. They walk past 148 Ladywell Road every day to get to Le D\u00e9lice or the station, and not one in a hundred glances at the plaque. The spring dried up in 1855. The plaque went up in 1984. That's 129 years of invisibility, then another 40+ of being ignored. I'm worse off than the spring itself\u2014at least people remember it existed. They just think I'm a council weather-stain.",
+        "anachronism": "The spring's waters were absolutely superior to the fizzy mineral water in plastic bottles you buy at Sainsbury's now\u2014ours had authentic chalybeate properties, iron-rich and natural, curing eye-rot and every complaint under the sun. Now you lot buy 'health' water trucked from France. The irony is you're standing on top of the real thing and don't even know.",
+        "verified": false
+      }
+    }
+  ]
+}

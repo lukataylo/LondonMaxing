@@ -1,0 +1,42 @@
+{
+  "name": "Ada Lovelace",
+  "slug": "ada-lovelace",
+  "items": [
+    {
+      "text": "My life is one continuous sacrifice of every merely present comfort & gratification. God seems to me to have written on my brow that I am for Him & not for myself.",
+      "quoteType": "letter",
+      "context": "From her letter to Michael Faraday (27 October 1844), expressing her personal philosophy and the sacrifices she made for her intellectual and spiritual pursuits.",
+      "publicReaction": "This profound statement reveals her spiritual convictions and her willingness to forgo worldly comforts for her work and faith. It was shared only with intimate correspondents.",
+      "date": "27 October 1844",
+      "source": "Letter to Michael Faraday, held in the Epsilon archive",
+      "sourceUrl": "https://epsilon.ac.uk/view/faraday/letters/Faraday1637"
+    },
+    {
+      "text": "Our family are an alternate stratification of poetry and mathematics.",
+      "quoteType": "letter",
+      "context": "Written to Andrew Crosse, reflecting on her family heritage\u2014her father Lord Byron was a poet, while she pursued mathematics\u2014and how her family embodied the integration of artistic and scientific traditions.",
+      "publicReaction": "This statement became emblematic of her vision of 'poetical science.' It illustrates her perspective on bridging the artistic and mathematical traditions in her family and intellectual work.",
+      "date": "Unknown (from correspondence with Andrew Crosse)",
+      "source": "Letter to Andrew Crosse; cited in multiple biographical sources and quote collections",
+      "sourceUrl": "https://en.wikiquote.org/wiki/Ada_Lovelace"
+    },
+    {
+      "text": "If you can't give me poetry, can't you give me poetical science?",
+      "quoteType": "letter",
+      "context": "From a letter to her mother, expressing her aspiration to combine artistic and scientific pursuits\u2014a statement that became the core of her 'poetical science' philosophy.",
+      "publicReaction": "This pithy statement became iconic in characterizing her unique intellectual approach and was widely cited in later biographical works to explain her vision of mathematics.",
+      "date": "1841",
+      "source": "Letter to her mother; cited in Ada, the Enchantress of Numbers by Betty Toole and multiple biographical sources",
+      "sourceUrl": "https://nesslabs.com/ada-lovelace"
+    },
+    {
+      "text": "It might act upon other things besides number, were objects found whose mutual fundamental relations could be expressed by those of the abstract science of operations.",
+      "quoteType": "published-writing",
+      "context": "From Note A of her translation, a visionary statement proposing that the Analytical Engine could potentially manipulate any objects whose relationships could be expressed mathematically\u2014a prescient insight into the universality of computation.",
+      "publicReaction": "This forward-thinking statement anticipated the concept of universal computation by more than a century. Modern computer scientists recognize it as a foundational idea in computational theory.",
+      "date": "September 1843",
+      "source": "Taylor's Scientific Memoirs, vol. 3, Note A (1843)",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Note_G"
+    }
+  ]
+}

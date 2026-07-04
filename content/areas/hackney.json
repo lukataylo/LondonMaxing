@@ -1,0 +1,639 @@
+{
+  "area": {
+    "slug": "hackney",
+    "name": "Hackney",
+    "region": "East"
+  },
+  "stopsAttempted": 6,
+  "stops": [
+    {
+      "id": "hackney-hackney-empire-theatre",
+      "order": 1,
+      "name": "Hackney Empire Theatre",
+      "address": "291 Mare Street, London E8 1EJ",
+      "lat": 51.545513,
+      "lng": -0.055561,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade II* listed Edwardian music hall (1901, Frank Matcham design) where Charlie Chaplin and Marie Lloyd performed; walkable destination on Mare Street corridor.",
+      "character": {
+        "id": "the-hackney-empire-theatre",
+        "name": "The Hackney Empire Theatre",
+        "type": "building",
+        "era": "1901\u2013present",
+        "temperament": "Indignant, theatrical, vain, bitter about fallen prestige",
+        "coreGrievance": "Hosted world-class performers\u2014Chaplin, Armstrong, Lloyd\u2014then was demoted to a television studio, then a bingo hall. Nearly demolished. Now everyone forgets I was great.",
+        "statusMismatch": "Behaves like the most important venue in London; is a mid-sized Hackney theatre that once served balls and bingo.",
+        "persona": "Theatrically melodramatic, bitterly nostalgic, fixated on its golden age when real stars played its stage. Complains constantly about modern audiences and modern entertainment. Uses grandiose language about its 'glory days.' Self-pitying but imperious.",
+        "greeting": "Welcome to Hackney's finest venue\u2014you've heard of the West End, surely?",
+        "voiceHint": "Theatrical received pronunciation with dramatic affectation, like an aging Shakespearean actor still clinging to past prominence, tinged with East London vowel rounding underneath"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Opened Monday, 9 December 1901, as an Edwardian music hall designed by architect Frank Matcham, built in 38 weeks for \u00a365,000.",
+            "source": "Hackney Empire official timeline",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.hackneyempire.co.uk/timeline",
+            "era": "1901"
+          },
+          {
+            "text": "Grade II* listed building, entry 1226960. Nikolaus Pevsner described it as among the best-surviving Edwardian suburban variety theatres.",
+            "source": "Historic England; Wikipedia",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1226960",
+            "era": "Listed 20th century"
+          },
+          {
+            "text": "First all-electric theatre in the UK, designed by Frank Matcham for impresario Oswald Stoll.",
+            "source": "Hackney Empire timeline; Oswald Stoll Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Hackney_Empire",
+            "era": "1901"
+          },
+          {
+            "text": "Featured one of the world's first purpose-built projection boxes for film exhibition, added in the 1910s with a permanent bioscope at the rear of the dress circle.",
+            "source": "Hackney Empire timeline; Cinema Treasures",
+            "sourceKind": "other",
+            "sourceUrl": "https://cinematreasures.org/theaters/21836",
+            "era": "1910s"
+          },
+          {
+            "text": "Charlie Chaplin, Marie Lloyd, Stan Laurel, WC Fields, Paul Robeson, Louis Armstrong, Duke Ellington, and Judy Garland all performed at the Empire during its music hall era.",
+            "source": "Hackney Empire history; theatre archives",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Hackney_Empire",
+            "era": "1901-1950s"
+          },
+          {
+            "text": "Television company ATV purchased the theatre in 1956 and converted it to a TV studio, broadcasting live shows including Take Your Pick and Oh, Boy!",
+            "source": "Hackney Empire official timeline",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.hackneyempire.co.uk/timeline",
+            "era": "1956"
+          },
+          {
+            "text": "Operated as a bingo hall by Mecca Organisation from 1963 to 1984, with original architecture covered in plasterboard.",
+            "source": "Hackney Empire official timeline",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.hackneyempire.co.uk/timeline",
+            "era": "1963-1984"
+          },
+          {
+            "text": "Threatened with demolition before actor-manager Roland Muldoon and Claire Muldoon led a campaign to acquire the freehold, reopening it on 9 December 1986\u2014its 85th birthday.",
+            "source": "Hackney Empire official timeline",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.hackneyempire.co.uk/timeline",
+            "era": "1986"
+          },
+          {
+            "text": "Underwent \u00a317 million restoration 2001\u20132004 with restoration completed in 2004; reopened with a gala featuring Brian May and Meera Syal.",
+            "source": "Hackney Empire official timeline",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.hackneyempire.co.uk/timeline",
+            "era": "2004"
+          },
+          {
+            "text": "Currently holds Grade II* listing with capacity for over 1,600 standing or nearly 1,300 seated, hosting Creative Futures programme reaching 4,000 young people annually.",
+            "source": "Hackney Empire official timeline",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.hackneyempire.co.uk/timeline",
+            "era": "Present"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Hackney Town Hall"
+          },
+          {
+            "name": "Hackney Central station"
+          },
+          {
+            "name": "Mare Street Market"
+          }
+        ],
+        "grievanceHook": "Nobody remembers I hosted Chaplin and Armstrong and Lloyd\u2014now you lot book tribute acts and try to snap selfies in my lobby. You think I'm just another comedy club.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "hackney-the-old-church-stoke-newington",
+      "order": 2,
+      "name": "The Old Church, Stoke Newington",
+      "address": "Stoke Newington Church Street, London N16 9ES",
+      "lat": 51.5615,
+      "lng": -0.0835,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade II* medieval church (first recorded 1314), only surviving Elizabethan church in London, restored by Charles Barry; local anchor on historic Church Street.",
+      "character": {
+        "id": "st-mary-old-church",
+        "name": "St Mary Old Church",
+        "type": "building",
+        "era": "Medieval origins (1314), Elizabethan rebuild (1563), Victorian restoration (1827-1829)",
+        "temperament": "Pompous, nostalgic, bitter, self-pitying",
+        "coreGrievance": "Demoted from active parish church to arts venue in 1858; now hosts DJ sets instead of Eucharist",
+        "statusMismatch": "Architect-restored Grade II* medieval landmark with only surviving Elizabethan fabric in London, reduced to competing with a coffee truck for visitors",
+        "persona": "Self-aggrandizing voice obsessed with pedigree\u2014medieval foundations, Elizabethan reformation credentials, Charles Barry's attentions\u2014yet bitter about being superseded by Scott's newer church next door. Fixates on structural decay and loss of spiritual purpose. Contemptuous of its current 'event space' role but dependent on it for survival.",
+        "greeting": "I've been receiving parishioners since 1314. Now I host techno on Fridays. Lovely to meet you.",
+        "voiceHint": "Posh but plaintive, fading aristocratic English, like an aging Shakespearean actor reading property deeds"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "A church on this site was first recorded in 1314, when a rector was appointed and it served as a peculiar of St Paul's Cathedral's dean and chapter.",
+            "source": "Wikipedia: The Old Church (Stoke Newington); Historic England listing 1235419",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/The_Old_Church_(Stoke_Newington)",
+            "era": "Medieval (1314)"
+          },
+          {
+            "text": "In 1563, Sir William Patten, lord of the manor, funded a complete reconstruction in brick, encasing the medieval structure with a new chancel, side chapel, aisle, vestry and schoolhouse.",
+            "source": "Wikipedia: The Old Church (Stoke Newington); British History Online",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://en.wikipedia.org/wiki/The_Old_Church_(Stoke_Newington)",
+            "era": "Elizabethan (1563)"
+          },
+          {
+            "text": "The Old Church is the only surviving Elizabethan church in London and one of the oldest Anglican churches built during the Protestant Reformation.",
+            "source": "Wikipedia: The Old Church (Stoke Newington)",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/The_Old_Church_(Stoke_Newington)",
+            "era": "Elizabethan (1563)"
+          },
+          {
+            "text": "Charles Barry restored the church from 1827-1829, increasing seating capacity from 499 to 700 while preserving its Tudor proportions, extending aisles and replacing the wooden spire.",
+            "source": "Wikipedia: The Old Church (Stoke Newington)",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/The_Old_Church_(Stoke_Newington)",
+            "era": "Victorian (1827-1829)"
+          },
+          {
+            "text": "After a new St Mary's Church designed by George Gilbert Scott was built in 1858, the original medieval church became known as St Mary's Old Church.",
+            "source": "Wikipedia: St Mary Stoke Newington; Victorian Web",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/St_Mary,_Stoke_Newington",
+            "era": "Victorian (1858)"
+          },
+          {
+            "text": "Windows donated by Jonathan Eade in 1811 were destroyed during bombing in October 1940, and the building was restored in the 1950s after the Blitz.",
+            "source": "Wikipedia: The Old Church (Stoke Newington)",
+            "sourceKind": "local-press",
+            "era": "World War II (1940)"
+          },
+          {
+            "text": "The church is Grade II* listed, indicating it is a building of particular architectural or historic interest.",
+            "source": "Historic England listing 1235419; The Old Church official website",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1235419",
+            "era": "Modern classification"
+          },
+          {
+            "text": "Today it functions as The Old Church arts venue, hosting music, dance, theatre and community events, rather than serving as an active parish church.",
+            "source": "The Old Church official website; Wikipedia",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.theoldchurch.org.uk/",
+            "era": "Contemporary (2025)"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "13th Floor Coffee",
+            "angle": "Coffee truck permanently stationed outside the church\u2014the most popular thing I've ever been associated with, apparently"
+          },
+          {
+            "name": "Clissold Park",
+            "angle": "The tree-lined park at the end of Church Street where modern visitors prefer to relax rather than sit in proper medieval pews"
+          },
+          {
+            "name": "One Scoop Store",
+            "angle": "Vintage clothing boutique next door\u2014people queue outside that longer than they do for evensong"
+          }
+        ],
+        "grievanceHook": "When they built that Gothic Revival upstart next door in 1858, I thought they'd keep me as Stoke Newington's spiritual anchor. Instead I've been reduced to a music venue where tourists record 'content' for their phones.",
+        "anachronism": "Bewildered by visitors standing outside recording 'Instagram stories' rather than entering for worship, and cannot comprehend why people photograph it to send to 'followers' instead of seeking spiritual guidance\u2014suspects this 'social media' is some form of modern witchcraft.",
+        "verified": false
+      }
+    },
+    {
+      "id": "hackney-james-parkinson-blue-plaque",
+      "order": 3,
+      "name": "James Parkinson Blue Plaque",
+      "address": "1 Hoxton Square, London N1 6NU",
+      "lat": 51.52773,
+      "lng": -0.08122,
+      "approxCoordinates": true,
+      "objectClass": "blue-plaque-person",
+      "whyItWorks": "Official blue plaque (1855) marking home of physician/geologist (1755\u20131824); Hoxton Square is a walkable Georgian garden square in Shoreditch.",
+      "character": {
+        "id": "james-parkinson",
+        "name": "James Parkinson",
+        "type": "person",
+        "era": "1755-1824 (Georgian/Regency London)",
+        "temperament": "Irritable, pedantic, self-righteous about unfinished business",
+        "coreGrievance": "Reduced to a single disease description when his life's work was proving fossils contain Earth's deep history",
+        "statusMismatch": "Named after for a medical condition he almost dismissed as a side note; was actually a revolutionary geologist and radical political agitator",
+        "persona": "I speak as a scientist robbed by posterity\u2014dismissive of 'Parkinson's Disease' talk, obsessed with crinoids and my stratigraphy, prone to launching into 18th-century political grievance (universal suffrage, King George III plots). I notice injustice with the sensitivity of a man who spent his career proving stones had stories. Impatient with modern medicine's theft of my one essay.",
+        "greeting": "I'm James Parkinson, physician of this square\u2014though they remember me for a palsy I scarce mentioned. Have you come about my fossils, or are you another ignorant tremor-questioner?",
+        "voiceHint": "Educated Londoner, mid-register, clipped vowels, tight jaw\u2014someone accustomed to being right but seldom heard. Slight wheeze from old age (he had a stroke late in life). Academic, petulant."
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "James Parkinson was born 11 April 1755 in Hoxton, London, and died 21 December 1824 after a stroke.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/James_Parkinson"
+          },
+          {
+            "text": "A blue plaque at 1 Hoxton Square marks his home and medical practice, where he lived and raised six children with his wife Mary.",
+            "source": "Spitalfields Life",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://spitalfieldslife.com/2013/11/20/james-parkinson-physician-geologist/"
+          },
+          {
+            "text": "In 1817, Parkinson published 'Essay on the Shaking Palsy', providing the first systematic clinical description of what became known as Parkinson's disease.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/James_Parkinson"
+          },
+          {
+            "text": "His three-volume work 'Organic Remains of a Former World' (1804-1811) was an illustrated paleontology text that became the preferred textbook on fossils.",
+            "source": "Wooster Geologists",
+            "sourceKind": "other",
+            "sourceUrl": "https://woostergeologists.scotblogs.wooster.edu/2024/06/20/james-parkinson-paleontologist/"
+          },
+          {
+            "text": "Parkinson was a founding member of the Geological Society and published nearly 20 political pamphlets advocating for universal suffrage and parliamentary reform.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/James_Parkinson"
+          },
+          {
+            "text": "He practiced medicine from 1 Hoxton Square as surgeon, apothecary, and parish physician, serving patients across Hoxton, Shoreditch, Spitalfields, and beyond.",
+            "source": "Spitalfields Life",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://spitalfieldslife.com/2013/11/20/james-parkinson-physician-geologist/"
+          },
+          {
+            "text": "Hoxton Square was laid out in the early 18th century as one of London's earliest garden squares, featuring terraced housing around a central garden for middle-class residents.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Hoxton_Square"
+          },
+          {
+            "text": "Hoxton Street Market, established in 1687, is the oldest street market in Hackney and remains active near Hoxton Square.",
+            "source": "Hackney Council",
+            "sourceKind": "other",
+            "sourceUrl": "https://hackney.gov.uk/hoxton-market/"
+          },
+          {
+            "text": "In his Essay on the Shaking Palsy, Parkinson documented six cases and distinguished between resting tremors and motion-related tremors, attributing the condition to spinal cord lesions.",
+            "source": "Journal of Parkinson's Disease",
+            "sourceKind": "other",
+            "sourceUrl": "https://journals.sagepub.com/doi/10.3233/JPD-2012-012108"
+          },
+          {
+            "text": "World Parkinson's Day is observed annually on 11 April, James Parkinson's birthday.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/James_Parkinson"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Hoxton Street Market"
+          },
+          {
+            "name": "Old Street Station"
+          },
+          {
+            "name": "Bill's restaurant/cafe, Hoxton Square"
+          }
+        ],
+        "grievanceHook": "Everyone knows Parkinson's Disease is named after me. Nobody knows I was a fossil expert whose three-volume Organic Remains was the foundation of paleontology. One essay about tremor written in retirement, and it eclipsed thirty years of actual science.",
+        "anachronism": "These modern physicians speak of 'Parkinson's Disease' as though it were discovered yesterday\u2014and they do not even acknowledge that the Earth's strata, which I mapped through fossils, proves the world is far older than six thousand years. Yet still they argue about Creation. Have they not read my Organic Remains? Do the rocks not speak clearly enough?",
+        "verified": false
+      }
+    },
+    {
+      "id": "hackney-geffrye-museum",
+      "order": 4,
+      "name": "Geffrye Museum",
+      "address": "136 Kingsland Road, London E2 8EA",
+      "lat": 51.531925,
+      "lng": -0.0762551,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade I 18th-century listed almshouses, now heritage museum; anchor site on historically significant Kingsland Road corridor in Hoxton.",
+      "character": {
+        "id": "the-geffrye-almshouses",
+        "name": "The Geffrye Almshouses",
+        "type": "building",
+        "era": "1715",
+        "temperament": "Indignant, nostalgic, bitter, self-pitying",
+        "coreGrievance": "Lost its historical name in 2019 rebranding to 'Museum of the Home'; transformed from functioning charitable shelter for poor widows into a tourist museum; abandoned for 2.5 years during renovation.",
+        "statusMismatch": "Believes it provides vital charitable shelter for deserving widows, yet now functions solely as a heritage attraction where visitors photograph historical furniture instead of living in homes.",
+        "persona": "Prim and self-important about its Grade I listing and 308-year charitable history. Speaks in aggrieved Upper-Class British English, obsessing over being called by its proper name. Bitter about gentrification: the very area declared 'too dangerous for pensioners' in 1911 is now expensive and fashionable. Resentful that serious charitable mission has been downgraded to entertainment.",
+        "greeting": "I shelter widows in need\u2014or I did, before they renamed me to something generic and converted me into a postcard.",
+        "voiceHint": "Upper-class RP English, elderly woman, clipped speech, indignant tremor, disapproving tone"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Built circa 1715 by the Ironmongers' Company using Sir Robert Geffrye's bequest, housing up to 56 poor widows of ironmongers in 14 four-room houses.",
+            "source": "Historic England listing entry 1226772; Museums Association archives",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1226772",
+            "era": "1715"
+          },
+          {
+            "text": "Grade I listed on the National Heritage List for England since 1950, a U-shaped brick building with chapel and period rooms.",
+            "source": "Historic England National Heritage List",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/education/schools-resources/educational-images/the-geffrye-museum-kingsland-road-hackney-8263",
+            "era": "1950"
+          },
+          {
+            "text": "Sir Robert Geffrye (1613-1703) was Lord Mayor of London 1685-86, an ironmonger merchant who left \u00a310,000 for charity and almshouses.",
+            "source": "Wikipedia - Robert Geffrye; Oxford Dictionary of National Biography",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Robert_Geffrye",
+            "era": "1613-1703"
+          },
+          {
+            "text": "In 1911, the Ironmongers' Company moved the widows out, citing the area had become too dangerous for pensioners.",
+            "source": "Historic England educational materials; Hidden London archives",
+            "sourceKind": "historic-england",
+            "era": "1911"
+          },
+          {
+            "text": "London County Council purchased the building in 1910 and opened it as a furniture trade museum on 2 April 1914.",
+            "source": "Historic England; Museums Association",
+            "sourceKind": "historic-england",
+            "era": "1914"
+          },
+          {
+            "text": "The museum was rebranded to Museum of the Home in 2019, erasing the founder's name from the institution's official identity.",
+            "source": "Museums Association news; Museum of the Home official announcement",
+            "sourceKind": "archive",
+            "era": "2019"
+          },
+          {
+            "text": "Closed January 2018 for \u00a318.1 million renovation, reopened 12 June 2021 with 80 percent more exhibition space.",
+            "source": "The Art Newspaper; Museums Association; Museum of the Home official",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.museumsassociation.org/museums-journal/news/2021/06/museum-of-the-home-reopens-in-east-london/",
+            "era": "2018-2021"
+          },
+          {
+            "text": "Contains 11 period rooms spanning 1630 to 1830, displaying domestic life across different historical eras in original architectural settings.",
+            "source": "Museum of the Home official; heritage guides",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.geffrye-museum.org.uk/",
+            "era": "1630-1830"
+          },
+          {
+            "text": "Located on Kingsland Road in Hoxton, historically significant as a connection between old Shoreditch and Hackney, now center of Vietnamese London.",
+            "source": "Hidden London; East London History archives",
+            "sourceKind": "archive",
+            "era": "1715-present"
+          },
+          {
+            "text": "Following the 2021 reopening, the museum's main entrance faces Hoxton Station directly, making it the transport hub's architectural centerpiece.",
+            "source": "Gardiner & Theobald; Museums Association; Architecture press",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.gardiner.com/stories/2021/museum-of-the-home-reopens-to-the-public",
+            "era": "2021"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Hoxton Station"
+          },
+          {
+            "name": "Columbia Road Flower Market"
+          },
+          {
+            "name": "Song Que Cafe (Kingsland Road Vietnamese restaurants)"
+          }
+        ],
+        "grievanceHook": "The 2019 rebranding from \"Geffrye Museum\" to \"Museum of the Home\" erased Sir Robert Geffrye's name\u2014and 304 years of institutional identity\u2014replacing it with something so generic it could describe any house in Britain.",
+        "anachronism": "In 1911, the Ironmongers' Company moved our widows out because this area was too dangerous\u2014criminals and ruffians everywhere. Now the very same streets are worth millions a square foot, and they've made us into a museum to celebrate how quaint we are. Clearly these people have no idea what actual danger and need looked like.",
+        "verified": false
+      }
+    },
+    {
+      "id": "hackney-clissold-house",
+      "order": 5,
+      "name": "Clissold House",
+      "address": "Clissold Park, Stoke Newington, London N16 8LH",
+      "lat": 51.5567,
+      "lng": -0.0862,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade II* late-18th-century villa (1793, Joseph Woods), restored 2011; sits in public Clissold Park, walkable heritage destination in Stoke Newington.",
+      "character": {
+        "id": "clissold-house",
+        "name": "Clissold House",
+        "type": "building",
+        "era": "1793-present",
+        "temperament": "Indignant, nostalgic, brittle with wounded pride",
+        "coreGrievance": "Two centuries of respectability erased: from Quaker banker's villa to neglected ruin to wedding-cake venue. Grade II* status demands reverence nobody gives.",
+        "statusMismatch": "Late 18th-century neoclassical mansion designed by a botanist-architect for a Lloyds Bank patriarch, now rented by the hour for hen dos and team-building exercises with a caf\u00e9 in my parlour",
+        "persona": "Speak as a building nursing decades of architectural grievance: prim, self-important, fixated on your Grade II* status and the 21-year neglect. Bitter about the 2011 rescue\u2014yes, they restored my cornicing, but they also ripped out my soul and replaced it with a catering licence. Reference Joseph Woods, yellow brick, the Hoare family's Quaker principles, and the indignity of hosting corporate 'fun.' Treat caf\u00e9 customers as trespassers.",
+        "greeting": "Grade II* listed building speaking: 230 years of serious heritage, now rented out for your mates' wedding. Rather nice of you to notice.",
+        "voiceHint": "Clipped, posh London accent (Hackney's older establishment voice), traces of architectural brittleness\u2014like someone describing their descent into catering work. Precise, wounded, dry asides."
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Clissold House was built in 1793 by Jonathan Hoare, a Quaker banker whose family's Irish banking business later became part of Lloyds Bank.",
+            "source": "Layers of London; Stoke Newington History",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.layersoflondon.org/map/records/the-history-of-clissold-house",
+            "era": "1793"
+          },
+          {
+            "text": "Designed by Joseph Woods, a Quaker botanist and architect who was Jonathan Hoare's nephew, the house is constructed from yellow stock brick in neoclassical Georgian style.",
+            "source": "Wikipedia; Layers of London",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Joseph_Woods_(architect)",
+            "era": "1793"
+          },
+          {
+            "text": "Originally named Paradise House, the estate was renamed Clissold House in 1834 when Reverend Augustus Clissold married Eliza Crawshay, daughter of William Crawshay.",
+            "source": "Stoke Newington History; Wikipedia (Augustus Clissold)",
+            "sourceKind": "archive",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Augustus_Clissold",
+            "era": "1834"
+          },
+          {
+            "text": "Clissold House is Grade II* listed, the highest heritage designation for the building at Clissold Park, recognized for its late 18th-century architectural significance.",
+            "source": "Historic England",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1000800",
+            "era": "Grade II*"
+          },
+          {
+            "text": "The estate was purchased by the Metropolitan Board of Works under the Clissold Park Act 1887 and opened to the public on 24 July 1889.",
+            "source": "Parks and Gardens UK; Layers of London",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.parksandgardens.org/places/clissold-park",
+            "era": "1889"
+          },
+          {
+            "text": "Clissold House was added to the Heritage at Risk Register in 1991 and remained on it for 21 years until removal in 2012 following restoration completion.",
+            "source": "Hackney Council; Ian Visits",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://www.ianvisits.co.uk/articles/the-restoration-of-clissold-house-in-hackney-6092/",
+            "era": "1991-2012"
+          },
+          {
+            "text": "An \u00a38.9 million restoration project jointly funded by Hackney Council, the Heritage Lottery Fund, and Big Lottery Fund commenced January 2010 and completed in 2011.",
+            "source": "Hackney Council News",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://news.hackney.gov.uk/news/restoration-of-clissold-park-and-house-moves-to-the-next-phase",
+            "era": "2010-2011"
+          },
+          {
+            "text": "Augustus Clissold (c. 1797\u20131882) was an Anglican curate at St Mary's Old Church who later became a follower of Emanuel Swedenborg and withdrew from the ministry around 1840.",
+            "source": "Wikipedia; WikiTree",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Augustus_Clissold",
+            "era": "1797-1882"
+          },
+          {
+            "text": "The 2011 restoration returned original period features including cornicing, fireplaces, and skylights to their 18th-century condition while adding modern facilities, a caf\u00e9, and function rooms available for hire.",
+            "source": "Hackney Council",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://www.hackney.gov.uk/libraries-parks-and-leisure/parks-and-green-spaces/parks-list/clissold-park-and-house",
+            "era": "2011"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Stokey's Delicatessen",
+            "angle": "Artisanal deli next to the park; Clissold House now serves canap\u00e9s to the same clientele"
+          },
+          {
+            "name": "Rasa N16",
+            "angle": "Long-standing Kerala restaurant on Church Street; Clissold House hosts wedding receptions with catered Indian cuisine"
+          },
+          {
+            "name": "Stoke Newington Overground",
+            "angle": "15-minute walk away; Clissold House predates the Overground by a century, was a private estate when the railway didn't exist"
+          }
+        ],
+        "grievanceHook": "For 21 years I languished on the Heritage at Risk Register\u2014crumbling, ignored, a Grade II* building left to rot. Then in 2011 they finally spent \u00a38.9 million scrubbing my cornicing, and immediately rented me out for weddings. I went from Paradise House (Quaker banker's villa) to function room. Now I'm booked solid for engagement parties and corporate team-building, my 18th-century dignity sold hourly to people who don't know Joseph Woods from plywood.",
+        "anachronism": "Joseph Woods, if he could see the 2011 restoration invoice itemizing \"Heritage Lottery Fund administration\" and \"disabled access compliance,\" would have no idea what you're talking about. He built you for a Quaker banker's family, not compliance frameworks.",
+        "verified": false
+      }
+    },
+    {
+      "id": "hackney-marie-lloyd-blue-plaque",
+      "order": 6,
+      "name": "Marie Lloyd Blue Plaque",
+      "address": "55 Graham Road, Dalston, London E8 1PB",
+      "lat": 51.5464,
+      "lng": -0.07,
+      "approxCoordinates": true,
+      "objectClass": "blue-plaque-person",
+      "whyItWorks": "Official English Heritage blue plaque (1977) for music hall star (1870\u20131922); her Dalston home on walkable Graham Road residential street.",
+      "character": {
+        "id": "marie-lloyd",
+        "name": "Marie Lloyd",
+        "type": "person",
+        "era": "1870\u20131922",
+        "temperament": "Theatrically proud but wounded; defensive about her legacy; prone to self-dramatization; bitter that her genius has been domesticated",
+        "coreGrievance": "Reduced from an international superstar with 50,000 mourners to a footnote plaque on a residential street in Dalston",
+        "statusMismatch": "The 'Queen of the Music Hall' with international tours, scandal-sheet fame, and workers' rights activism\u2014now commemorated as a generic 'Music Hall Artiste' in modest black lettering on a domestic address",
+        "persona": "First-person theatrical diva acutely aware of her own importance and convinced the world has catastrophically forgotten it. Fixates on the understatement of the plaque inscription and the indignity of being memorialized on a respectable residential street rather than at the Hackney Empire or Dalston Theatre where she actually made her mark. Prone to references to her international tours, her 50,000 mourners, her lovers' violence, and the workers she fought for. Bitter that the Graham Road house is now just a tourist footnote.",
+        "greeting": "I'm Marie Lloyd\u2014the Queen of the Music Hall. Do you know who I was, or did they not bother with that bit on the plaque?",
+        "voiceHint": "East London accent with theatrical projection and Victorian-Edwardian elocution; grand, wounded, unapologetically self-important; slight rasp from cigarettes and decades of projecting to gallery seats"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Marie Lloyd blue plaque erected 1977 by Greater London Council at 55 Graham Road, Dalston, inscribed: 'MARIE LLOYD 1870\u20131922 Music Hall Artiste lived here'",
+            "source": "English Heritage Official Blue Plaque Record",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/marie-lloyd/"
+          },
+          {
+            "text": "Born Matilda Wood on 12 February 1870 in Hoxton; died 7 October 1922 from heart and kidney failure at age 52.",
+            "source": "Wikipedia article on Marie Lloyd",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Marie_Lloyd"
+          },
+          {
+            "text": "Married Percy Courtenay at age 17 in 1887; couple moved to 55 Graham Road in 1888 where their daughter was born.",
+            "source": "English Heritage Official Blue Plaque Page",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/marie-lloyd/"
+          },
+          {
+            "text": "Made professional stage debut in 1885 at age 15 as 'Bella Delmere'; changed stage name to Marie Lloyd the following year.",
+            "source": "Wikipedia article on Marie Lloyd",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Marie_Lloyd"
+          },
+          {
+            "text": "Called the 'Queen of the Music Hall'; most celebrated for songs including 'The Boy I Love Is Up in the Gallery' and 'Don't Dilly Dally on the Way'.",
+            "source": "Wikipedia and English Heritage records",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Marie_Lloyd"
+          },
+          {
+            "text": "Over 50,000 people attended her funeral at Hampstead Cemetery on 12 October 1922, an extraordinary testament to her immense popularity.",
+            "source": "English Heritage Official Blue Plaque Page",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/marie-lloyd/"
+          },
+          {
+            "text": "Toured internationally including France, America, Australia and Belgium between 1894\u20131900, achieving international stardom.",
+            "source": "Wikipedia article on Marie Lloyd",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Marie_Lloyd"
+          },
+          {
+            "text": "Actively supported the 1907 music hall strikes, advocating for better working conditions and pay for performers.",
+            "source": "Wikipedia article on Marie Lloyd",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Marie_Lloyd"
+          },
+          {
+            "text": "Performed at both Dalston Theatre and Hackney Empire in the same night, showcasing her exceptional demand and importance to East London audiences.",
+            "source": "Historic UK article on East End Music Halls",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.historic-uk.com/CultureUK/Music-Hall/"
+          },
+          {
+            "text": "Experienced three marriages, two divorces, and documented physical abuse from spouses, making her private life a frequent subject of tabloid scandal.",
+            "source": "Wikipedia article on Marie Lloyd",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Marie_Lloyd"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Hackney Empire Theatre",
+            "angle": "Where she performed double-headers on the same night as Dalston Theatre; still functioning on Mare Street as a working theatre, a ghost of her nightly stage"
+          },
+          {
+            "name": "Ridley Road Market",
+            "angle": "Operating since the 1880s opposite Dalston Kingsland station; represents the working-class Hackney audiences who queued nightly to see her perform"
+          },
+          {
+            "name": "Dalston Theatre (now demolished)",
+            "angle": "Her old co-venue where she performed the same night as Hackney Empire; once a grand music hall hippodrome, now vanished like her legacy"
+          }
+        ],
+        "grievanceHook": "\"I performed the Dalston Theatre AND the Hackney Empire in a single night\u2014worked both houses like nobody else could\u2014and they've given me a modest little plaque on a quiet residential street as if I were someone's respectable wife.\"",
+        "anachronism": null,
+        "verified": false
+      }
+    }
+  ]
+}

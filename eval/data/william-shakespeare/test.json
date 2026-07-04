@@ -1,0 +1,42 @@
+{
+  "name": "William Shakespeare",
+  "slug": "william-shakespeare",
+  "items": [
+    {
+      "text": "I give to my sister Joan... the sum of twenty pounds and all my wearing apparel and the house wherein she now dwelleth during her natural life",
+      "quoteType": "published-writing",
+      "context": "Bequest to his sister Joan Hart in Shakespeare's will, providing both money, personal items, and housing security",
+      "publicReaction": "The bequest secured his sister's financial security and demonstrates family care in Shakespeare's estate planning",
+      "date": "25 March 1616",
+      "source": "Shakespeare's Last Will and Testament, National Archives and Shakespeare Documented",
+      "sourceUrl": "https://shakespearedocumented.folger.edu/resource/document/william-shakespeares-last-will-and-testament-original-copy-including-three"
+    },
+    {
+      "text": "I give my sword to Mr Thomas Combe",
+      "quoteType": "published-writing",
+      "context": "Personal bequest in Shakespeare's will of his sword to Thomas Combe of Warwickshire",
+      "publicReaction": "This specific bequest of a personal item suggests a valued relationship or particular respect for Combe",
+      "date": "25 March 1616",
+      "source": "Shakespeare's Last Will and Testament, National Archives and Shakespeare Documented",
+      "sourceUrl": "https://shakespearedocumented.folger.edu/resource/document/william-shakespeares-last-will-and-testament-original-copy-including-three"
+    },
+    {
+      "text": "my broad silver gilt bowl to my daughter Judith",
+      "quoteType": "published-writing",
+      "context": "Specific bequest in Shakespeare's will of a valuable silver bowl to his daughter Judith",
+      "publicReaction": "The bequest of this precious object alongside financial settlements provided Judith with both movable wealth and heirlooms",
+      "date": "25 March 1616",
+      "source": "Shakespeare's Last Will and Testament, National Archives and Shakespeare Documented",
+      "sourceUrl": "https://shakespearedocumented.folger.edu/resource/document/william-shakespeares-last-will-and-testament-original-copy-including-three"
+    },
+    {
+      "text": "TO THE ONLIE BEGETTER OF THESE INSUING SONNETS MR W H ALL HAPPINESSE AND THAT ETERNITIE PROMISED BY OUR EVER-LIVING POET WISHETH THE WELL-WISHING ADVENTURER IN SETTING FORTH T T",
+      "quoteType": "published-writing",
+      "context": "Dedication by Thomas Thorpe in the 1609 first edition of Shakespeare's sonnets, addressing the mysterious 'Mr W.H.' and crediting Shakespeare as the 'ever-living poet'",
+      "publicReaction": "The mysterious dedication sparked centuries of scholarly debate about whether Shakespeare authorized publication and who 'Mr. W.H.' was",
+      "date": "1609",
+      "source": "Shakespeare's Sonnets, first edition published by Thomas Thorpe, Shakespeare Documented",
+      "sourceUrl": "https://shakespearedocumented.folger.edu/resource/document/sonnets-first-edition"
+    }
+  ]
+}

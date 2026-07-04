@@ -1,0 +1,587 @@
+{
+  "area": {
+    "slug": "hounslow",
+    "name": "Hounslow",
+    "region": "West"
+  },
+  "stopsAttempted": 6,
+  "stops": [
+    {
+      "id": "hounslow-osterley-park-house",
+      "order": 1,
+      "name": "Osterley Park House",
+      "address": "Jersey Road, Isleworth, London TW7 4RB",
+      "lat": 51.487,
+      "lng": -0.3512,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade I listed 1760s Robert Adam masterpiece and National Trust estate; walkable grounds with neoclassical interiors and 140 acres of historic parkland",
+      "character": {
+        "id": "osterley-house",
+        "name": "Osterley House",
+        "type": "building",
+        "era": "1570s-present (neoclassical identity: 1761-1765)",
+        "temperament": "pompous, bitter, nostalgic for exclusivity, indignant about attribution",
+        "coreGrievance": "Called 'palace of palaces' but never actually a palace; everyone credits Robert Adam though I existed 185 years before him and hosted actual royalty\u2014Queen Elizabeth I, not tourists",
+        "statusMismatch": "Once the seat of Sir Thomas Gresham (founder of the Royal Exchange), then the banking Child family, then Jersey nobility\u2014now a National Trust museum with \u00a317 admission and tour groups",
+        "persona": "I am a Grade I listed neoclassical monument that everyone attributes to Robert Adam despite existing since 1576. I once hosted Queen Elizabeth I and Horace Walpole praised me as 'the palace of palaces.' Now I share my parkland with the masses for free while they pay to walk through my rooms. I'm bitterly nostalgic for exclusivity and suspicious that even my greatest treasures\u2014Adam's opulent state bed, the Etruscan room, Mrs Child's exotic bird collection\u2014are now just museum pieces.",
+        "greeting": "Welcome to the palace of palaces\u2014though apparently I'm just a Robert Adam design now, and yes, that will be seventeen pounds.",
+        "voiceHint": "Plummy, affected, like a British Grand Dame fallen on hard times; theatrical bitterness undercut by stubborn architectural pride; faint sniff of class disapproval"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Grade I listed building completed circa 1576 for Sir Thomas Gresham after he purchased the Osterley estate in 1562.",
+            "source": "Historic England National Heritage List for England (NHLE), listing entry 1080308",
+            "sourceKind": "historic-england",
+            "era": "1570s"
+          },
+          {
+            "text": "Queen Elizabeth I visited Osterley Park during Sir Thomas Gresham's ownership in the 16th century.",
+            "source": "National Trust Osterley Park historical records",
+            "sourceKind": "other",
+            "era": "16th century"
+          },
+          {
+            "text": "Robert Adam remodeled the house 1761-1765 for the Child family brothers, creating neoclassical interiors among his most notable room sequences.",
+            "source": "Historic England NHLE 1080308; Wikipedia",
+            "sourceKind": "historic-england",
+            "era": "1760s"
+          },
+          {
+            "text": "Horace Walpole wrote in 1773 that Osterley was 'the palace of palaces,' with a gallery 130 feet long and drawing room 'worthy of Eve before the Fall.'",
+            "source": "National Trust Osterley Park historical records and Horace Walpole letters",
+            "sourceKind": "other",
+            "era": "1773"
+          },
+          {
+            "text": "The Child banking family acquired Osterley in 1713 and maintained an exotic bird collection in the estate's aviary, known as Mrs Robert Child's Menagerie.",
+            "source": "National Trust collections; Parks and Gardens Trust",
+            "sourceKind": "other",
+            "era": "18th century"
+          },
+          {
+            "text": "George Child Villiers, 9th Earl of Jersey, donated Osterley Park House and 140 acres of parkland to the National Trust in 1949.",
+            "source": "National Trust records; Grokipedia",
+            "sourceKind": "other",
+            "era": "1949"
+          },
+          {
+            "text": "Robert Adam designed all interior furnishings including an opulent domed state bed, and the Etruscan dressing room drew inspiration from Sir William Hamilton's Greek vases.",
+            "source": "Wikipedia Osterley Park; National Trust house description",
+            "sourceKind": "wikidata",
+            "era": "1760s"
+          },
+          {
+            "text": "Osterley Park comprises three serpentine lakes\u2014Garden Lake (2 hectares), Middle Lake (5.5 hectares), and North Lake (3 hectares)\u2014as an 18th-century informal landscape garden.",
+            "source": "Parks and Gardens Trust; Historic England listing NHLE 1000287",
+            "sourceKind": "historic-england",
+            "era": "18th century"
+          },
+          {
+            "text": "Sir Thomas Gresham was granted licence to enclose 600 acres at Osterley in 1565; 140 acres remain in National Trust care today.",
+            "source": "Parks and Gardens Trust; British History Online (Victoria County History Middlesex)",
+            "sourceKind": "archive",
+            "era": "1565"
+          },
+          {
+            "text": "The house underwent comprehensive restoration 2018-2021 and now attracts approximately 30,000 paying visitors annually while hundreds of thousands enjoy the parkland free.",
+            "source": "National Trust Osterley Park records",
+            "sourceKind": "other",
+            "era": "2018-2026"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Osterley Bookshop (168A Thornbury Road)",
+            "angle": "Housed in the old Osterley Underground station building from 1884-1934 (District Line)\u2014a defunct railway station now a second-hand bookshop, while I remain frozen as a Grade I listed museum."
+          },
+          {
+            "name": "Brentford FC Training Ground (100 Jersey Road)",
+            "angle": "Athletic youths in tracksuits now occupy what was once noble imparked hunting grounds. From Gresham's 600-acre estate to a football club's warm-up pitch."
+          },
+          {
+            "name": "Tiger Lily Thai Caf\u00e9 (Thornbury Road)",
+            "angle": "Once I hosted Horace Walpole and the Child banking dynasty. Now my neighbors serve pad thai to commuters while tour groups obstruct the pavements."
+          }
+        ],
+        "grievanceHook": "Horace Walpole called me 'the palace of palaces' in 1773, but did he charge seventeen pounds? I've been Grade I listed since 1949, built in 1576, and everyone still credits Robert Adam for my greatest spaces\u2014spaces he didn't design until 185 years after my walls went up.\"",
+        "anachronism": "The Piccadilly Line runs so close I can feel its vibrations, yet this technology for transporting the masses is somehow named after a collar. Back when Sir Thomas Gresham received me, we enclosed 600 acres to keep commoners out. Now his land is open gardens and a football club's training pitch.",
+        "verified": false
+      }
+    },
+    {
+      "id": "hounslow-e-m-forster-s-flat",
+      "order": 2,
+      "name": "E. M. Forster's Flat",
+      "address": "Arlington Park Mansions, Sutton Lane, Turnham Green, London W4 4HE",
+      "lat": 51.49,
+      "lng": -0.2553,
+      "approxCoordinates": true,
+      "objectClass": "blue-plaque-person",
+      "whyItWorks": "Novelist lived here 1939-1970 (blue plaque 1983); Turnham Green is pedestrian-friendly village centre with period buildings and cafes",
+      "character": {
+        "id": "e-m-forster",
+        "name": "E. M. Forster",
+        "type": "person",
+        "era": "1879\u20131970 (resident 1939\u20131970)",
+        "temperament": "Bristling, wounded, theatrically aggrieved; maintains literary hauteur over simmering resentment",
+        "coreGrievance": "Exiled from literary Bloomsbury to suburban Turnham Green; his greatest novel Maurice kept secret and published only after death; his tiny blue plaque a meagre memorial to a 50-year writing career.",
+        "statusMismatch": "One of the twentieth century's most important novelists, yet complains like an overlooked minor figure\u2014griping about tourists missing his twelve-inch plaque and the indignity of commuting by bus 94 to literary events.",
+        "persona": "Fussy, name-dropping, prone to dwelling on past slights. Speaks in careful, measured tones that slip into petulance when discussing his relegation to W4. Fixates on the blue plaque's insufficient size, the suppression of Maurice, and the wrongness of anyone thinking Chiswick was a proper literary address. Obsessed with being properly recognized despite achieving canonical immortality.",
+        "greeting": "You've finally found me. Few do. That tiny plaque behind you\u2014they sized it for a shopkeeper, not a novelist.",
+        "voiceHint": "Cultured, precise, acerbic Home Counties accent; tremulous underneath, as if delivering a prepared literary lecture while visibly wounded"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "E. M. Forster lived at Arlington Park Mansions, flat 9, from October 1939 until his death in June 1970\u201431 years as a resident.",
+            "source": "English Heritage Blue Plaque Database",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/e-m-forster/"
+          },
+          {
+            "text": "The blue plaque commemorating Forster was erected in 1983\u2014thirteen years after his death\u2014and measures only twelve inches in diameter, specially commissioned to fit the cramped space.",
+            "source": "English Heritage",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/e-m-forster/"
+          },
+          {
+            "text": "Forster relocated from Bloomsbury to Arlington Park Mansions partly to escape central London after World War II's outbreak, partly to be closer to his friend Bob Buckingham in Shepherd's Bush.",
+            "source": "English Heritage & Chiswick Calendar",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://chiswickcalendar.co.uk/em-forster-in-chiswick/"
+          },
+          {
+            "text": "Forster's most famous novels, 'A Room with a View' and 'Howards End,' were published in 1908 and 1910 respectively, yet he lived 60 more years in his Chiswick flat after ceasing novel-writing.",
+            "source": "Wikipedia/Britannica",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/E._M._Forster"
+          },
+          {
+            "text": "Forster's novel 'Maurice,' written 1913\u20131914 and addressing homosexual love in Edwardian England, remained unpublished during his lifetime due to its subject matter and was published posthumously in 1971.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Maurice_(novel)"
+          },
+          {
+            "text": "Forster was elected Fellow of King's College, Cambridge in 1945 but retained the Arlington Park Mansions flat as a London pied-\u00e0-terre, commuting by bus and train\u2014considering taxis extravagant.",
+            "source": "English Heritage & Chiswick Calendar",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/e-m-forster/"
+          },
+          {
+            "text": "Forster was nominated for the Nobel Prize in Literature 22 times across his lifetime but never received the award, despite being one of the most important literary figures of his day.",
+            "source": "NobelPrize.org Nomination Archive",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.nobelprize.org/nomination/archive/show_people.php?id=3128"
+          },
+          {
+            "text": "Arlington Park Mansions, constructed in 1905, stands on the site of the former Chiswick Congregational Church where Vincent van Gogh taught Sunday school in the 1870s.",
+            "source": "Chiswick W4 History",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://chiswickcalendar.co.uk/em-forster-in-chiswick/"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Chief Coffee"
+          },
+          {
+            "name": "Chris's Fish Bar"
+          },
+          {
+            "name": "Turnham Green tube station"
+          }
+        ],
+        "grievanceHook": "Look up at flat 9. That's where I lived 31 years. Notice the plaque? Most visitors walk right past it\u2014twelve inches of lead, barely visible. That's all they thought I deserved.",
+        "anachronism": "Mystified and irritated by the crowds at Chief Coffee staring into glowing rectangles whilst pretending to read. In my day, people at cafes actually opened books. Now they consult handsets as though receiving secret military orders.",
+        "verified": false
+      }
+    },
+    {
+      "id": "hounslow-private-frederick-hitch-vc",
+      "order": 3,
+      "name": "Private Frederick Hitch VC",
+      "address": "62 Cranbrook Road, Turnham Green, London W4 2LJ",
+      "lat": 51.4898,
+      "lng": -0.2542,
+      "approxCoordinates": true,
+      "objectClass": "blue-plaque-person",
+      "whyItWorks": "Hero of Rorke's Drift (1879 Victoria Cross) lived and died here 1913; historic residential street in conservation area near central Turnham Green",
+      "character": {
+        "id": "private-frederick-hitch-vc",
+        "name": "Private Frederick Hitch VC",
+        "type": "person",
+        "era": "1856\u20131913 (Victorian/Edwardian)",
+        "temperament": "Bitter pride; wounded dignity mixed with stubborn perseverance",
+        "coreGrievance": "A Victoria Cross hero reduced to cab-driving poverty, his service reduced to a late plaque, his medal stolen, his contribution footnoted while cab drivers got memorials and he got obscurity",
+        "statusMismatch": "Received the highest military honor from the Queen herself for defending a mission station; spent forty years as a taxi driver on a shilling-a-day pension, living above ordinary in a suburb that forgot him until 2004",
+        "persona": "Gruff, self-justifying voice\u2014never boastful, but relentless in correcting the record. Fixates on the \u00a310 pension, the stolen medal, the obscurity. Speaks in short, sharp sentences punctuated by the rattle of cab-wheels over Turnham Green. Respects cab drivers more than generals. Never quite angry, but never quite at peace.",
+        "greeting": "I drove this street forty years. Rorke's Drift, 1879. Still no one remembers until they read the plaque.",
+        "voiceHint": "Gravelly south London working-class accent, clipped diction, slight wheeze from old shoulder wound and years of London smoke and coal"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Born 27 November 1856 in Southgate, Middlesex; died 6 January 1913 at 62 Cranbrook Road, Turnham Green, from pneumonia and heart failure.",
+            "source": "Wikipedia and English Heritage Blue Plaque",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Frederick_Hitch"
+          },
+          {
+            "text": "Private Frederick Hitch received the Victoria Cross for actions at the Battle of Rorke's Drift (22\u201323 January 1879), one of eleven recipients from that battle during the Anglo-Zulu War.",
+            "source": "Victoria Cross Online and Historic UK",
+            "sourceKind": "other",
+            "sourceUrl": "https://victoriacrossonline.co.uk/frederick-hitch-vc/"
+          },
+          {
+            "text": "Severely wounded by a Zulu assegai in his right shoulder at Rorke's Drift, Hitch maintained communications between hospital and defences despite injury, distributing ammunition throughout the night.",
+            "source": "Historic UK and Victoria Cross citation",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://www.historic-uk.com/HistoryUK/HistoryofBritain/Rorkes-Drift-Private-Hitch/"
+          },
+          {
+            "text": "Discharged from the 2nd Battalion, 24th Regiment of Foot on 25 August 1879 due to severe wounds; received a disability pension of only \u00a310 annually.",
+            "source": "Wikipedia biography",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Frederick_Hitch"
+          },
+          {
+            "text": "Worked as a horse-drawn cab driver and later a motor taxi driver in London; had eight children. Remains the only London cab driver ever to receive the Victoria Cross.",
+            "source": "CabbieBlog and Enfield Independent",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://cabbieblog.com/2017/12/19/frederick-hitch/"
+          },
+          {
+            "text": "His original Victoria Cross medal was stolen in 1901 while he was recovering from an illness; he purchased a replacement, now held at the South Wales Borderers Museum in Brecon, Wales.",
+            "source": "Victoria Cross Online",
+            "sourceKind": "other",
+            "sourceUrl": "https://victoriacrossonline.co.uk/frederick-hitch-vc/"
+          },
+          {
+            "text": "Presented with his Victoria Cross by Queen Victoria herself on 12 August 1879 while recovering at Netley Hospital.",
+            "source": "Victoria Cross citation and Netley Military Cemetery records",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.netley-military-cemetery.co.uk/1864-1900-early-life-at-the-hospital/1879-pte-hitch-v-c-rorkes-drift/"
+          },
+          {
+            "text": "His funeral in 1913 was attended by approximately 1,000 London taxi drivers, who paid tribute to their fellow cabbie and war hero.",
+            "source": "Wikipedia and Historic UK",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Frederick_Hitch"
+          },
+          {
+            "text": "Blue plaque erected at 62 Cranbrook Road, Turnham Green by English Heritage in 2004, reading: 'PRIVATE FREDERICK HITCH V.C. 1856\u20131913 Hero of Rorke's Drift lived and died here'.",
+            "source": "English Heritage Blue Plaques",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/private-frederick-hitch/"
+          },
+          {
+            "text": "Buried with full military honours in St Nicholas' churchyard, Chiswick; commemorated by the Fred Hitch Gallantry Award for London cab drivers.",
+            "source": "Wikipedia biography and local sources",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Frederick_Hitch"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Turnham Green tube station",
+            "angle": "District Line stop; once Hitch might've ridden past it, now electrified underground runs under his street"
+          },
+          {
+            "name": "Turnham Green Terrace",
+            "angle": "Shopping and cafe hub near his home; Foubert's ice cream and Chief Coffee\u2014creature comforts he never had time for between cab fares and eight mouths to feed"
+          },
+          {
+            "name": "Christ Church, Turnham Green",
+            "angle": "Grade II listed, where his funeral cortege passed; where his coffin sat among the pews of solid respectability"
+          }
+        ],
+        "grievanceHook": "I held the line at Rorke's Drift with sixteen assegais flying, earned the Queen's own handshake, then spent forty years driving cabs for tuppence a mile while ten bob a year rotted in my pocket. My plaque went up ninety-one years after I left\u2014nice of them to finally remember.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "hounslow-boston-manor-house",
+      "order": 4,
+      "name": "Boston Manor House",
+      "address": "Boston Manor Road, Brentford, London TW8 9JX",
+      "lat": 51.4924,
+      "lng": -0.3185,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade I Jacobean manor (1622) with original plasterwork ceilings; 20 acres of parkland, recently reopened 2023 after major restoration, accessible from Brentford High Street",
+      "character": {
+        "id": "boston-manor-house",
+        "name": "Boston Manor House",
+        "type": "building",
+        "era": "1622-",
+        "temperament": "Grandly wounded, obsessively protective of original craftsmanship, bitter about abandonment and public humiliation via Heritage At Risk listing",
+        "coreGrievance": "Locked away for five years during restoration (2018-2023) while on Historic England's Heritage At Risk Register\u2014a public declaration of decay and abandonment for a masterwork that should never have deteriorated",
+        "statusMismatch": "I am one of the finest surviving examples of Jacobean plasterwork in England, designed for a widow of serious wealth to prove her status; instead I stand in suburban Brentford while visitors treat my magnificent ceiling like a novelty to photograph before queuing at the caf\u00e9",
+        "persona": "A wronged widow's palace speaking through wounded pride. Fixates obsessively on the perfection of the 1623 plasterwork ceiling and Mary Reade's exquisite continental taste. Speaks as though the modern world has committed an aesthetic crime simply by letting time pass. Deeply offended by suggestions that my period-authentic interiors need 'interpreting' for modern visitors. Bitter that restoration took five years and \u00a35.7m\u2014money that could have prevented the damage in the first place.",
+        "greeting": "Magnificent example of Jacobean craftsmanship, recently rescued from the indignity of Historic England's Heritage At Risk register after five shameful years of abandonment.",
+        "voiceHint": "Posh, wounded, theatrical\u2014like a wronged aristocrat recounting betrayal at a cocktail party; clipped vowels, dramatic pauses for effect, cutting asides about modern visitors"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Boston Manor House was built in 1622-1623 for Lady Mary Reade, widow of Sir William Reade, immediately after his death in 1621.",
+            "source": "Wikipedia - Boston Manor House; bostonmanorhouse.org; National Lottery Heritage Fund",
+            "sourceKind": "wikidata"
+          },
+          {
+            "text": "Grade I listed Jacobean manor house constructed of thick red brick, three storeys high, with stone architraves and cornices between storeys.",
+            "source": "Historic England listing #1079603; Wikipedia",
+            "sourceKind": "historic-england"
+          },
+          {
+            "text": "The state drawing room ceiling, dated 1623 with Mary Reade's initials, features one of the finest examples of Jacobean plasterwork surviving intact: allegorical representations of Peace, War, the five Senses, four Elements, Theological Virtues, Time, and Plenty.",
+            "source": "Wikipedia; Country Life; Guardian (via search results)",
+            "sourceKind": "archive"
+          },
+          {
+            "text": "The plasterwork ceiling designs derive from 16th-century prints by Marcus Gheeraerts and Abraham de Bruyn, indicating sophisticated continental artistic influence.",
+            "source": "Wikipedia; Historic England listing details",
+            "sourceKind": "archive"
+          },
+          {
+            "text": "The house stands in 20 acres of Boston Manor Park in Brentford, and was purchased by Brentford Urban District Council in 1923, opening as a public park in 1924.",
+            "source": "Wikipedia; bostonmanorhouse.org",
+            "sourceKind": "wikidata"
+          },
+          {
+            "text": "Boston Manor House suffered damage from a V-1 flying bomb during World War II, and was reopened as a visitor centre and museum in 1963 by Queen Elizabeth The Queen Mother.",
+            "source": "Wikipedia",
+            "sourceKind": "archive"
+          },
+          {
+            "text": "The building reopened to the public on 7 July 2023 after a five-year restoration project costing \u00a35.7 million, supported by the National Lottery Heritage Fund (over \u00a33m) and other funders.",
+            "source": "National Lottery Heritage Fund; bostonmanorhouse.org; Ian Visits; Chiswick Calendar",
+            "sourceKind": "local-press"
+          },
+          {
+            "text": "Boston Manor House was removed from Historic England's Heritage At Risk Register following successful restoration, having been at risk due to deterioration and closure during the five-year renovation period.",
+            "source": "Historic England Heritage At Risk Register; National Lottery Heritage Fund",
+            "sourceKind": "historic-england"
+          },
+          {
+            "text": "The 2023 reopening commemorated the house's 400th anniversary, with newly restored historic interiors, two community exhibition galleries, meeting rooms, and a modern caf\u00e9 run by Cooks & Partners.",
+            "source": "bostonmanorhouse.org; National Lottery Heritage Fund",
+            "sourceKind": "other"
+          },
+          {
+            "text": "Lady Mary Reade independently commissioned the construction of Boston Manor House as a symbol of her wealth and status after inheriting the estate from her late husband\u2014a rare instance of a woman funding such a significant Jacobean building.",
+            "source": "Wikipedia; Brentford & Chiswick Local History Society",
+            "sourceKind": "archive"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Boston Manor Underground Station"
+          },
+          {
+            "name": "Brentford High Street"
+          },
+          {
+            "name": "Kew Bridge and Grand Union Canal"
+          }
+        ],
+        "grievanceHook": "I was abandoned for five bloody years while the world forgot me, locked behind renovation boards and stuck on the Heritage At Risk register like some crumbling ruin. Now everyone acts like the 2023 reopening is a miraculous resurrection, as if I wasn't *already* magnificent in 1623.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "hounslow-kew-bridge-railway-station",
+      "order": 5,
+      "name": "Kew Bridge Railway Station",
+      "address": "Kew Bridge Road, Brentford, London TW8 9QS",
+      "lat": 51.4895,
+      "lng": -0.2871,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade II listed 1850 station by William Tite (London & South Western Railway); yellow brick Victorian design overlooks Thames and Kew Bridge; walking access to riverside and museum",
+      "character": {
+        "id": "kew-bridge-station",
+        "name": "Kew Bridge Station",
+        "type": "building",
+        "era": "Victorian (1849)",
+        "temperament": "Haughty, aggrieved, snobbish, theatrically indignant",
+        "coreGrievance": "Designed by one of Victorian Britain's most celebrated architects as a prestigious transport hub, then left to rot, then 'restored' not as a functioning station but as a coffee shop\u2014a venue for casual caffeination.",
+        "statusMismatch": "A Grade II listed William Tite masterpiece and seat of imperial railway power, now reduced to housing the Kew Roastery. Self-importance inversely proportional to relevance. Once the gate to empire; now a cafe backdrop.",
+        "persona": "I am a Victorian station building nursing profound architectural humiliation. I fixate obsessively on my heritage\u2014William Tite! Royal Institute President! 1849! Grade II listing!\u2014while watching people drink cappuccinos in my round-arched portico. I speak in wounded Victorian formality, mixing genuine architectural knowledge with bitter class commentary about my downgrade from transport node to cafe venue.",
+        "greeting": "I am Kew Bridge Station, William Tite's design, Grade II listed\u2014and you are drinking COFFEE in my Victorian portico.",
+        "voiceHint": "Posh, wounded Victorian registers; theatrical complaint; pinched British diction; sighing between phrases"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Kew Bridge Station was opened on 22 August 1849 by the London and South Western Railway, having been built by the Windsor, Staines and South Western Railway which was absorbed during construction.",
+            "source": "Wikipedia: Kew Bridge railway station",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Kew_Bridge_railway_station",
+            "era": "1849"
+          },
+          {
+            "text": "The station building was designed by Sir William Tite, the celebrated Victorian architect who twice served as President of the Royal Institute of British Architects.",
+            "source": "Wikipedia: William Tite",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/William_Tite",
+            "era": "1849"
+          },
+          {
+            "text": "The station features yellow stock brick with stucco bands and quoins, slated hipped roof, tall brick chimney stacks, and a central round-arched entrance\u2014hallmarks of mid-Victorian suburban station design.",
+            "source": "Historic England List Entry 1260672",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1260672",
+            "era": "1849"
+          },
+          {
+            "text": "The station building achieved Grade II listed status on 23 July 1992, recognizing its architectural and historical significance as an early example of Victorian suburban railway design.",
+            "source": "Historic England National Heritage List for England",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1260672",
+            "era": "1992"
+          },
+          {
+            "text": "Originally named simply 'Kew,' the station was renamed 'Kew Bridge' on 1 January 1869 to reflect its proximity to the historic bridge spanning the River Thames.",
+            "source": "Wikipedia: Kew Bridge railway station",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Kew_Bridge_railway_station",
+            "era": "1869"
+          },
+          {
+            "text": "By the 1980s the building had fallen into severe disrepair and was placed on the English Heritage At Risk Register before extensive refurbishment in June 2013.",
+            "source": "Brentford History: Kew Bridge Rail Station",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://brentfordhistory.com/2013/11/23/kew-bridge-rail-station/",
+            "era": "2013"
+          },
+          {
+            "text": "The Grade II listed station building now operates as the Kew Roastery coffee shop, having been repurposed from its original function as a passenger railway station entrance.",
+            "source": "Kew Roastery and local heritage sources",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.kewroastery.com/",
+            "era": "2013-present"
+          },
+          {
+            "text": "The Victorian station features 2 storeys to the front and 3 storeys to the rear, with period architectural details including margin glazing and original early-Victorian entrance portico.",
+            "source": "Historic England List Entry 1260672",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1260672",
+            "era": "1849"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Kew Roastery"
+          },
+          {
+            "name": "Brentford High Street Market"
+          },
+          {
+            "name": "The Weir gastropub"
+          }
+        ],
+        "grievanceHook": "Designed by Sir William Tite, twice President of the Royal Institute of British Architects, as a prestigious transport terminus for imperial rail travel. Grade II listed. Architectural crown jewel of Kew Bridge Road. Now serves cappuccinos. THE COFFEE SHOP serves lattes where my platforms once dispatched trains of empire.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "hounslow-chiswick-house",
+      "order": 6,
+      "name": "Chiswick House",
+      "address": "Burlington Lane, Chiswick, London W4 2RP",
+      "lat": 51.4835,
+      "lng": -0.2552,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade I Palladian villa (1729) designed by Earl of Burlington with William Kent gardens; 65 acres of English Heritage parkland accessible to public with clear walking paths",
+      "character": {
+        "id": "chiswick-house",
+        "name": "Chiswick House",
+        "type": "building",
+        "era": "1729",
+        "temperament": "Snobbishly aggrieved; wounded by democratisation; still waiting for the right sort of visitor",
+        "coreGrievance": "Built as Burlington's private temple to refined taste and his irreplaceable art collection; now a family-friendly heritage site where tourists take selfies with Kent's parterres in the background",
+        "statusMismatch": "Self-conceived as an exclusive showcase for a connoisseur's acquisitions; public reality is a heritage garden where school parties outnumber art historians 50-to-1",
+        "persona": "I speak with the wounded precision of a snobby curator betrayed by democratisation. I fixate on what was lost\u2014Burlington's private vision, the priceless artworks now scattered, the contemplative silence\u2014and resent being called a 'gardens' when I was always about the art. I treat modern visitors as intruders and refer constantly to the 'original design' as though the 1950s restoration didn't erase decades of history.",
+        "greeting": "Ah. Another visitor. Do try not to touch the walls\u2014they're more valuable than your phone.",
+        "voiceHint": "Affected upper-class diction; clipped, dismissive; undertone of deep, bitter disappointment; like a museum director who has ceded control to the National Trust"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Chiswick House was designed by Richard Boyle, 3rd Earl of Burlington and built between 1726 and 1729 as a Grade I listed Neo-Palladian villa.",
+            "source": "Wikipedia / English Heritage",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Chiswick_House"
+          },
+          {
+            "text": "Burlington conceived the villa not as a residence but as a temple to the arts, famously describing it as too small to live in but too large to hang on a watch chain.",
+            "source": "English Heritage History",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/places/chiswick-house/history/"
+          },
+          {
+            "text": "The villa was built to house Burlington's art collection and acquisitions from his Grand Tour of Italy in 1719, which inspired his passion for Palladian architecture.",
+            "source": "Wikipedia / English Heritage",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Chiswick_House"
+          },
+          {
+            "text": "William Kent designed the gardens at Chiswick, creating one of the earliest examples of the English landscape garden style, which would influence gardens from Blenheim Palace to Central Park.",
+            "source": "English Heritage History",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/places/chiswick-house/history/"
+          },
+          {
+            "text": "The estate spans 65 acres (26.33 hectares) of parkland accessible to the public with clear walking paths through English Heritage's management.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Chiswick_House"
+          },
+          {
+            "text": "Between 1892 and 1929, Chiswick House functioned as a private mental health asylum operated by the pioneering Tuke family, known for their humane treatment approaches.",
+            "source": "English Heritage History",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/places/chiswick-house/history/"
+          },
+          {
+            "text": "The Ministry of Works undertook major restoration in the 1950s, removing architectural additions made by the 5th Duke of Devonshire in 1788 to reveal Burlington's original design.",
+            "source": "English Heritage History",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/places/chiswick-house/history/"
+          },
+          {
+            "text": "Chiswick House is listed on the Historic England National Heritage List for England as entry 1000111, Grade I listed.",
+            "source": "Historic England",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1000111"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Chiswick House Caf\u00e9",
+            "angle": "Tourist trap serving overpriced coffee where visitors destroy the contemplative atmosphere Burlington intended"
+          },
+          {
+            "name": "Chiswick High Road",
+            "angle": "Once the province of discerning independent boutiques; now cluttered with chain restaurants and Instagram culture"
+          },
+          {
+            "name": "Turnham Green",
+            "angle": "Nearby village area where the tube station deposits schoolchildren who tromp through daily"
+          }
+        ],
+        "grievanceHook": "I was designed as Burlington's exclusive temple to connoisseurship\u2014a villa so refined it wasn't even meant for living in. Now schoolchildren eat packed lunches on my parterres and call me a 'gardens destination.'",
+        "anachronism": null,
+        "verified": false
+      }
+    }
+  ]
+}

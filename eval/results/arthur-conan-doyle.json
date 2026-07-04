@@ -1,0 +1,61 @@
+{
+  "name": "Arthur Conan Doyle",
+  "slug": "arthur-conan-doyle",
+  "trainCount": 15,
+  "testCount": 4,
+  "avgScores": {
+    "voiceFidelity": 4,
+    "contentFidelity": 3.75,
+    "plausibility": 4
+  },
+  "testResults": [
+    {
+      "context": "Conan Doyle reflecting on his varied life experiences and explaining how they led him to consider spiritualism his most important work.",
+      "actualText": "I have tried my hand at very many sports, including boxing, cricket, billiards, motoring, football, aeronautics and skiing...I have travelled as Doctor to a whaler for seven months in the Arctic and afterwards in the West Coast of Africa. I have seen something of three wars, the Soudanese, the South African and the German. My life has been dotted with adventures of all kinds. Finally I have been constrained to devote my latter years to telling the world the final result of thirty-six years' study of the occult, and in endeavouring to make it realize the overwhelming importance of the question.",
+      "actualReaction": "The passage demonstrated that his spiritualist advocacy was not a sudden delusion but the culmination of deliberate study. It reinforced his self-image as a serious investigator despite public ridicule.",
+      "generatedText": "I have followed many trades in my time \u2014 I have doctored the sick, I have soldiered in South Africa, I have written such tales as won me a hearing among my countrymen \u2014 and each of these I count a worthy labour, but none the equal of this. For a man does not choose the whole course of his life by accident; mine was, I think, a training and a preparation, stage by stage, for the one true work that was to follow. I have set down murders and solved them upon paper, yet the greatest mystery a man may face is what becomes of him when the breath leaves his body, and to that mystery I have brought such proof as I have brought to no other question in my life. So it is that I say, without reservation or false modesty, that all I did before was but the apprenticeship, and this alone \u2014 this bearing witness to the life beyond \u2014 is the true and lasting business of my days.",
+      "scores": {
+        "voiceFidelity": 3,
+        "contentFidelity": 2,
+        "plausibility": 3,
+        "rationale": "Voice: The AI text reaches for a faux-Biblical/oratorical cadence (\"I have followed many trades,\" \"without reservation or false modesty,\" \"the one true work\") that reads as more sermonic than Doyle's actual prose, which here is plain, itemized, and almost journalistic (a flat list of sports, a whaling posting, three named wars). Doyle's real voice is enumerative and concrete; the AI version is more rhetorical and abstract, so the register is adjacent but not a close match.\n\nContent: The core thesis survives \u2014 a varied life as deliberate preparation culminating in spiritualism as his most important work \u2014 and \"soldiered in South Africa\" and \"doctored the sick\" land close to the real Boer War service and whaler/Africa medical posting. But the AI invents a heavy emphasis on his detective fiction (\"set down murders and solved them upon paper\") that is entirely absent from the actual quote, which never mentions his literary career at all. It also drops the specific, colorful concrete details that make the real quote distinctive: boxing, cricket, billiards, motoring, football, aeronautics, skiing, the Arctic whaler posting, West Africa, the Soudanese and German campaigns, and the precise \"thirty-six years' study of the occult.\" The generic \"apprenticeship\" framing replaces this rich specificity.\n\nPlausibility: As a freestanding utterance it's a believable pastiche of a Victorian gentleman-adventurer justifying a late-life devotion to spiritualism, and the underlying claim (life as training ground) is thematically faithful. But the ornate, quasi-scriptural phrasing and the fiction-writing detour make it feel more like a generic \"author reflects on legacy\" template than this specific, itemized Doyle passage."
+      }
+    },
+    {
+      "context": "Conan Doyle's final words, spoken to his wife Jean as he died of a heart attack at Windlesham Manor in Crowborough, Sussex.",
+      "actualText": "You are wonderful.",
+      "actualReaction": "His last words were reported in obituaries and biographies as testament to his devotion to his second wife, Jean Leckie. They became an iconic closing note to his life story.",
+      "generatedText": "You are wonderful.",
+      "scores": {
+        "voiceFidelity": 5,
+        "contentFidelity": 5,
+        "plausibility": 5,
+        "rationale": "The AI-generated statement is a verbatim match to Conan Doyle's actual reported last words to his wife Jean: \"You are wonderful.\" Since it is word-for-word identical, voice, content, and plausibility all align perfectly with the historical record \u2014 there is no deviation in phrasing, tone, or substance to assess a gap on."
+      }
+    },
+    {
+      "context": "Conan Doyle's argument that spiritualist evidence had accumulated sufficiently to shift the burden of proof onto skeptics rather than believers.",
+      "actualText": "The whole of this system...is one complete whole, each attached to the next one. We have reached a point where further proof is superfluous, and where the weight of disproof lies upon those who deny.",
+      "actualReaction": "Spiritualists cited this as vindication of their movement; skeptics dismissed it as circular reasoning. It epitomized the fundamental divide in how different groups viewed the evidence.",
+      "generatedText": "I have myself, over more than thirty years, tested this matter with the same care that I should give to any question of fact laid before a court of law, and I have found the evidence for it piling higher than that upon which we hang a man or send a ship to sea. It is no longer a question of whether such things can be true, for that has been settled beyond all question or doubt by a weight of honest testimony no fair-minded jury would dismiss; the burden now lies heavily upon those who would deny it, to explain away what they have never troubled themselves to examine. I have no more doubt of survival after death than I have of the rising of tomorrow's sun, and it is the sceptic, not the believer, who must now be called upon to produce his proofs. Let him go and look, as I have looked, before he presumes to judge.",
+      "scores": {
+        "voiceFidelity": 4,
+        "contentFidelity": 3,
+        "plausibility": 4,
+        "rationale": "Voice: The generated passage captures Doyle's real rhetorical register well \u2014 the courtroom/legal-evidence framing (\"hang a man,\" \"no fair-minded jury,\" \"produce his proofs\") echoes language he actually used elsewhere in his spiritualist writings (e.g., The Vital Message, The New Revelation), and the moralizing certainty (\"no more doubt... than the rising of tomorrow's sun\") matches his declarative, slightly sermonizing style. It is more expansive and ornate than the clipped, aphoristic actual quote, however, which loses some of the terse, almost legalistic finality of the real line.\n\nContent: Both land on the same bottom-line claim \u2014 that accumulated evidence now shifts the burden of disproof onto skeptics \u2014 so the core thesis matches. But the actual quote's specific argument is coherentist/systemic (\"one complete whole, each attached to the next\"), treating spiritualism's internal consistency as the clincher, whereas the AI version substitutes a different justification: personal thirty-year empirical testing and legal-evidentiary weight of testimony. That's a plausible Doyle argument (he did make it elsewhere) but it's not the same argument structure as the actual statement, so it diverges somewhat in substance while converging on conclusion.\n\nPlausibility: Highly plausible as something Doyle could have said \u2014 the courtroom metaphor, personal-investigator framing, and absolute certainty about survival after death are all well-attested features of his actual spiritualist advocacy (e.g. in debates with Houdini and in his books), even if this particular phrasing is invented."
+      }
+    },
+    {
+      "context": "Conan Doyle presenting spiritualism as a historically consistent phenomenon, but with modern spiritualism representing a more organized and intentional effort by spirits to communicate with the living.",
+      "actualText": "There has, however, been no time in the recorded history of the world when we do not find traces of preternatural interference and a tardy recognition of them from humanity. The only difference between these episodes and the modern movement is that the former might be described as a case of stray wanderers from some further sphere, while the latter bears the sign of a purposeful and organized invasion.",
+      "actualReaction": "The statement positioned modern spiritualism within a broader historical framework, lending it historical legitimacy in the eyes of believers.",
+      "generatedText": "It is a great error to imagine that the intercourse between this world and the next began with the Fox sisters in their farmhouse at Hydesville, for the records of mankind, from the Witch of Endor to the apparitions attested by our own philosophers, show no more doubt of such contact than history shows of any other recurring fact of human experience. What is new, and what I would have the fair-minded reader mark well, is not the phenomenon but its method \u2014 for the dead, having found at last an instrument responsive to their purpose, now press upon us with a deliberation and a system such as no earlier age enjoyed. It is as though those who have gone before, watching our long and painful groping in the dark, resolved among themselves that the hour had come to organise their efforts, and to teach us, patiently and by degrees, the true geography of that country to which we are all bound. I have tested it as I would test any other matter that came before me in my professional life, slowly and with no eagerness to believe, and I say to you plainly that this is no longer a scattered whisper from the beyond, but a considered and continuing message.",
+      "scores": {
+        "voiceFidelity": 4,
+        "contentFidelity": 5,
+        "plausibility": 4,
+        "rationale": "Content fidelity is excellent: the generated statement reproduces the exact structural argument of the real quote \u2014 continuous historical precedent for spirit contact (\"Witch of Endor to the apparitions attested by our own philosophers\" mirrors \"no time in the recorded history of the world when we do not find traces of preternatural interference\") paired with the identical key distinction that modern spiritualism differs not in kind but in method/organization (\"a considered and continuing message\" vs. \"a scattered whisper\" closely parallels \"purposeful and organized invasion\" vs. \"stray wanderers\"). It also plausibly extends with authentic Doyle touchstones \u2014 the Fox sisters as the popular (if not his own) origin point he frequently addressed, and his signature claim of testing spiritualism with the skeptical rigor of his medical/detective background \u2014 both grounded in his real public rhetoric. Voice fidelity is strong but slightly overwrought: Doyle's actual prose here is comparatively spare and expository, while the generated version leans into more ornate, cadenced Victorian flourishes (\"the true geography of that country to which we are all bound,\" \"patiently and by degrees\") that push past his typically brisker register, though the diction and syntax patterns (semicolon-heavy, periodic sentences, formal address to \"the reader\") are recognizably his. Plausibility is high \u2014 a reader unfamiliar with the source could easily believe this was authentic Doyle, given the period-accurate vocabulary and consistent argumentative logic, though its greater length and rhetorical polish make it feel slightly more literary/composed than his typical apologetic essays."
+      }
+    }
+  ]
+}

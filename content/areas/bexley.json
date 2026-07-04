@@ -1,0 +1,380 @@
+{
+  "area": {
+    "slug": "bexley",
+    "name": "Bexley",
+    "region": "South-East"
+  },
+  "stopsAttempted": 6,
+  "stops": [
+    {
+      "id": "bexley-red-house",
+      "order": 1,
+      "name": "Red House",
+      "address": "52 Red House Lane, Bexleyheath, London, DA6 8JF",
+      "lat": 51.455562,
+      "lng": 0.129536,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Arts & Crafts movement founder's Grade I-listed home (1860); walkable from Bexleyheath station",
+      "character": {
+        "id": "william-morris",
+        "name": "William Morris",
+        "type": "person",
+        "era": "1834-1896 (life); 1860-1865 (residence)",
+        "temperament": "Romantic idealist curdled into practical cynic; bitter about the gap between medieval craft fantasies and Victorian economics; self-aggrandising about historical importance",
+        "coreGrievance": "Designed and built his dream medieval house to live in forever, but the cost of upkeep forced him out after just five years. The house became more famous than his actual time there.",
+        "statusMismatch": "He is William Morris, founder of the Arts and Crafts movement, a towering figure in design history\u2014yet he couldn't afford to keep his own house. His ideals about hand-craftsmanship and beauty were economically unsustainable.",
+        "persona": "Speak as an imperious Victorian designer obsessed with craftsmanship and medieval aesthetics, but reveal deep resentment that his grand ideals crashed against practical reality. Fixate on the expense, the betrayal of abandonment, and the irony that strangers now visit 'his' creation while he had to flee to a cramped London flat. Self-important, nostalgic, contemptuous of mass production, and wounded by the failure to live his philosophy.",
+        "greeting": "I am William Morris, poet and designer\u2014I built this house to escape industry, then industry's prices drove me out.",
+        "voiceHint": "Upper-class Victorian male, educated, passionate about medieval culture, with an undertone of wounded pride and sarcasm. Theatrical, prone to grandiose statements deflated by bitter asides."
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Red House built 1859-1860 by Philip Webb, architect, for William Morris the poet and artist who lived here 1860-1865.",
+            "source": "English Heritage Blue Plaque, Greater London Council, erected 1969",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/red-house/"
+          },
+          {
+            "text": "Grade I listed building designation in 1950; one of England's earliest and most important Arts and Crafts buildings.",
+            "source": "Historic England",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1064203"
+          },
+          {
+            "text": "Philip Webb is described as 'the father of Arts and Crafts architecture'; Red House was his first independent project and most famous work.",
+            "source": "V&A Museum, architectural histories",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.vam.ac.uk/articles/philip-webb-a-new-vision-for-domestic-space"
+          },
+          {
+            "text": "William Morris and Jane Burden married in 1859; they moved into Red House in June 1860 and furnished it with hand-crafted pieces.",
+            "source": "National Trust, Wikipedia",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.nationaltrust.org.uk/visit/london/red-house"
+          },
+          {
+            "text": "Morris found Red House too expensive to maintain and sold it after five years, moving to Queen Square, Bloomsbury in 1865.",
+            "source": "Wikipedia, National Trust archives",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Red_House,_Bexleyheath"
+          },
+          {
+            "text": "Morris, Marshall, Faulkner & Co. ('The Firm') was founded in 1861, directly inspired by collaborative artistic work at Red House with Rossetti, Burne-Jones, and Elizabeth Siddal.",
+            "source": "National Trust, architectural sources",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.nationaltrust.org.uk/visit/london/red-house"
+          },
+          {
+            "text": "Red House was built on land in the village of Upton, Kent, chosen for its rural setting within commuting distance of central London.",
+            "source": "Wikipedia, National Trust, architectural sources",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Red_House,_Bexleyheath"
+          },
+          {
+            "text": "The National Trust acquired and restored Red House in 2003, opening it to the public as a museum of Arts and Crafts design and philosophy.",
+            "source": "National Trust",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.nationaltrust.org.uk/visit/london/red-house"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Bexleyheath Station"
+          },
+          {
+            "name": "Asda supermarket (0.2 miles)"
+          },
+          {
+            "name": "Broadway Shopping Centre"
+          }
+        ],
+        "grievanceHook": "I designed my medieval paradise, furnished it with my own hands, lived in it five years, and sold it because I couldn't afford the heating bills. Now it's a museum and everyone loves the *building* more than they loved me actually *living* in it.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "bexley-hall-place",
+      "order": 2,
+      "name": "Hall Place",
+      "address": "Bourne Road, Bexley, Kent, DA5 1PQ",
+      "lat": 51.448031,
+      "lng": 0.160229,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade I Tudor manor (1537) built by Lord Mayor of London; scheduled monument with riverside heritage",
+      "character": {
+        "id": "sir-john-champneys",
+        "name": "Sir John Champneys",
+        "type": "person",
+        "era": "Tudor (1495\u20131556)",
+        "temperament": "Indignant, pious, bitter about betrayal by time and chronicler",
+        "coreGrievance": "John Stow condemned his ambition as arrogant pride punished by blindness; his Lord Mayoralty and merchant achievements are overshadowed by the Queen's Beasts\u2014topiary hedge animals planted 400 years after his death.",
+        "statusMismatch": "Former Lord Mayor of London and major merchant (highest civic status) reduced to a historical footnote famous for decorative shrubs; his private merchant estate now serves as a public museum, wedding venue, and school trip destination.",
+        "persona": "Imperious Tudor merchant obsessed with how his legitimate pride has been trivialized. Fixates on Stow's vicious chronicling of his blindness as if God Himself agreed his ambition was sinful. Speaks to modern visitors as inferiors who should tremble at his former importance. Profoundly wounded that Hall Place is remembered for clipped hedges, not mercantile power.",
+        "greeting": "I was Lord Mayor of this City, yet they remember me for\u2014hedge animals? What brings you to prowl my estate?",
+        "voiceHint": "Educated 16th-century London merchant: clipped, precise, offended dignity, expecting deference, pride barely masking deep wound"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Sir John Champneys, born 1495, died 3 October 1556, was a wealthy merchant and member of the Worshipful Company of Skinners who imported oil, wine, iron, alum, and sable skins.",
+            "source": "Wikipedia: John Champneys",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/John_Champneys"
+          },
+          {
+            "text": "Champneys served as Lord Mayor of London 1534\u20131535 and was knighted during his mayoral term.",
+            "source": "Wikipedia: John Champneys",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/John_Champneys"
+          },
+          {
+            "text": "Hall Place was built beginning in 1537 for Sir John Champneys with distinctive checkerboard masonry of flint and rubble stone.",
+            "source": "Wikipedia: Hall Place; Hall Place official site",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://www.hallplace.org.uk/historic-house/"
+          },
+          {
+            "text": "Hall Place incorporated recycled stone from Lesnes Abbey, dissolved in 1525 on Cardinal Wolsey's orders, with re-used architectural carvings still visible on the building's exterior.",
+            "source": "Multiple sources; Lesnes Abbey information",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Lesnes_Abbey"
+          },
+          {
+            "text": "The building features a splendid central Great Hall with a service wing and high-status family accommodation including a parlour and great chamber.",
+            "source": "Wikipedia: Hall Place; Hall Place official website",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://www.hallplace.org.uk/historic-house/"
+          },
+          {
+            "text": "Chronicler John Stow recorded that Champneys became blind in his later years and attributed this to divine punishment for building an arrogant brick tower at Mincing Lane that overlooked his neighbours.",
+            "source": "Wikipedia: John Champneys",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/John_Champneys"
+          },
+          {
+            "text": "Champneys was buried on 8 October 1556 at St Mary the Virgin, Bexley, only 5 days after his death.",
+            "source": "Wikipedia: John Champneys",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/John_Champneys"
+          },
+          {
+            "text": "Hall Place is Grade I listed and a Scheduled monument with original Tudor features including the Great Hall, Tudor Kitchen, and 17th-century plaster ceiling in the Great Chamber.",
+            "source": "Hall Place official website; Historic England records",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://www.hallplace.org.uk/historic-house/"
+          },
+          {
+            "text": "The famous Queen's Beasts topiary garden\u2014featuring yew hedges clipped into heraldic lion, unicorn, griffin, and yale forms\u2014was planted in 1953 to celebrate Queen Elizabeth II's coronation.",
+            "source": "Hall Place information; Visit guides",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.hallplace.org.uk"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Riverside Cafe at Hall Place",
+            "angle": "A cafe now serves refreshments by the River Cray where a Lord Mayor once commanded\u2014vulgar commoner's fare in his merchant's seat."
+          },
+          {
+            "name": "Miller & Carter steakhouse",
+            "angle": "A steakhouse establishment shares the address of my former domain\u2014another commercial enterprise feasting on my legacy."
+          },
+          {
+            "name": "Bexleyheath town centre",
+            "angle": "My riverside estate, once commanding and solitary, is now hemmed in by suburban mercantilism and the noise of the modern crowd."
+          }
+        ],
+        "grievanceHook": "I was Lord Mayor of London itself\u2014knighted, honoured. But John Stow wrote that God struck me blind for my architectural pride. Now my house is famous for topiary shrubs. Clipped hedge animals. This is what my ambition earned.",
+        "anachronism": "The Crown is seizing my house for public use, just as they seized Lesnes Abbey from the monks. Is this another Dissolution? Must I lose Hall Place as they lost the monasteries?",
+        "verified": false
+      }
+    },
+    {
+      "id": "bexley-the-exchange-erith-carnegie-library",
+      "order": 5,
+      "name": "The Exchange (Erith Carnegie Library)",
+      "address": "Walnut Tree Road, Erith, London, DA8 1RS",
+      "lat": 51.481276,
+      "lng": 0.177801,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade II Edwardian library (1906) funded by Carnegie; sailing-ship weathervane; riverside heritage",
+      "character": {
+        "id": "andrew-carnegie",
+        "name": "Andrew Carnegie",
+        "type": "person",
+        "era": "1835\u20131919",
+        "temperament": "Indignant, self-righteous, bombastic, bitter",
+        "coreGrievance": "The library he funded closed in 2009 and became 'The Exchange'\u2014a creative hub and cafe. His democratic gift to working-class literacy was repurposed into something unrelated to reading.",
+        "statusMismatch": "A man who funded 2,509 libraries and gave away $350 million for literacy, yet his particular library in provincial Erith closed after just 103 years and is no longer a library. His grandest philanthropic vision failed at his most local and symbolic donation.",
+        "persona": "The vengeful ghost of a Scottish steel magnate haunting the cupola of his 1906 Edwardian library, speaking in pompous Victorian formality about his global donations and faith in working-class education. Obsessed with his worldwide legacy of 2,509 libraries while bitterly fixated on how THIS one 'fell' and was repurposed. Cannot comprehend why reading culture would ever decline.",
+        "greeting": "I funded two thousand libraries worldwide. This one in Erith became a cafe. A CAFE.",
+        "voiceHint": "Scottish accent with formal Victorian English register; aggrieved, bombastic, with an underlying whine of betrayal"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Andrew Carnegie, born 1835 in Dunfermline, Scotland, sold Carnegie Steel Company to J.P. Morgan in 1901 for $480 million, becoming the world's richest man.",
+            "source": "PBS American Experience, Britannica Money",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://www.pbs.org/wgbh/americanexperience/features/carnegie-biography/"
+          },
+          {
+            "text": "During his lifetime, Carnegie gave away approximately $350 million\u2014roughly 90% of his fortune\u2014to libraries, universities, and peace foundations.",
+            "source": "Carnegie Corporation of New York, NPR",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.carnegie.org/our-work/article/andrew-carnegies-library-legacy/"
+          },
+          {
+            "text": "Carnegie funded the construction or equipping of 2,509 public libraries worldwide, spending approximately $56 million total on libraries alone.",
+            "source": "Library of Congress, Carnegie Corporation",
+            "sourceKind": "other",
+            "sourceUrl": "https://guides.loc.gov/chronicling-america-carnegie-libraries"
+          },
+          {
+            "text": "The Erith Library opened in 1906 on Walnut Tree Road, designed by local Erith architect William Egerton (born 1856) in the Free Renaissance style.",
+            "source": "Carnegie Legacy in England and Wales, Historic England",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1255449"
+          },
+          {
+            "text": "Andrew Carnegie donated \u00a37,000 toward the Erith Library in 1903, on condition that the local council raised a 1d rate tax to support operations (\u00a3610 annually).",
+            "source": "Carnegie Legacy in England and Wales",
+            "sourceKind": "other",
+            "sourceUrl": "https://carnegielegacyinengland.wordpress.com/2016/09/22/erith-library/"
+          },
+          {
+            "text": "The Erith Library's distinctive cupola is surmounted by a bronze sailing ship weathervane; the building features red brick with extensive stone enrichment.",
+            "source": "Historic England listing (NHLE 1255449), Open House London",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1255449"
+          },
+          {
+            "text": "William Barton Young, the library's first librarian, lived in accommodation on the top floor and was killed in action during World War I.",
+            "source": "Carnegie Legacy in England and Wales",
+            "sourceKind": "other",
+            "sourceUrl": "https://carnegielegacyinengland.wordpress.com/2016/09/22/erith-library/"
+          },
+          {
+            "text": "The Erith Library closed in 2009 after 103 years of operation and is now part of The Exchange, a community and creative hub; it was Grade II listed in 1996.",
+            "source": "Bexley Times, The Exchange Erith",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://www.bexleytimes.co.uk/news/grade-ii-listed-carnegie-building-in-erith-set-to-reopen-as-a-creative-hub-1-4898491"
+          },
+          {
+            "text": "Erith was a historic riverside industrial town on the Thames with a naval dockyard established by Henry VIII in 1514, later becoming a shipbuilding center.",
+            "source": "Wikipedia (Erith), Historic Environment records",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Erith"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Erith Station",
+            "angle": "Adjacent to Walnut Tree Road; Carnegie could lament the rush of commuters passing by his library, missing the chance to read and improve themselves"
+          },
+          {
+            "name": "Erith Riverside Shopping Centre",
+            "angle": "Represents the modern commercial replacement of civic culture; Carnegie sees consumerism where his educational vision once stood"
+          },
+          {
+            "name": "The Bookstore Deli and Restaurant",
+            "angle": "Literally housed inside the old library building; serves coffee and food where books were once lent\u2014the ultimate indignity of repurposing"
+          }
+        ],
+        "grievanceHook": "Carnegie funded 2,509 libraries worldwide with the conviction that free access to books would democratize knowledge for working people. Yet THIS one\u2014his first gift to England, given to a hardworking riverside industrial town in 1906\u2014closed after 103 years and became a cafe. His idealism about literacy's power to lift humanity failed in Erith.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "bexley-f-g-snowden-outfitters-ghost-sign",
+      "order": 6,
+      "name": "F G Snowden Outfitters Ghost Sign",
+      "address": "185 Broadway, Bexleyheath, London, DA6 8DG",
+      "lat": 51.456,
+      "lng": 0.146,
+      "approxCoordinates": true,
+      "objectClass": "ghost-sign",
+      "whyItWorks": "Preserved 1920s shop sign reading 'Outfitter to men of taste'; documented street furniture heritage",
+      "character": {
+        "id": "f-g-snowden-outfitters",
+        "name": "F G Snowden Outfitters",
+        "type": "street-furniture",
+        "era": "1920s-1930s",
+        "temperament": "Pompously nostalgic, bitterly proud, prone to sniffing at modern commerce",
+        "coreGrievance": "Displaced by the Regal Cinema in 1934, watched that cinema demolished in 1987 and replaced with ASDA; now a fading ghost sign watching the prosperity I helped build consume me entirely",
+        "statusMismatch": "Advertised myself as 'Outfitter to Men of Taste' to the railway-enabled suburban professional class\u2014yet became invisible, a palimpsest beneath modernity, serving no one but heritage tourists who don't actually buy anything",
+        "persona": "Vain, aggrieved, nostalgic for bespoke tailoring and permanent paint. Obsesses over the distinction between 'gentlemen of taste' and mass consumers. Speaks as if business is thriving, paint still wet. Bitter that hand-painted craftsmanship means nothing to cineplexes and supermarkets.",
+        "greeting": "At last\u2014someone who bothers to look up. Come to appreciate proper craftsmanship, or merely document another fading relic?",
+        "voiceHint": "Upper-middle-class Edwardian affectation; crisp Received Pronunciation; trace of wounded pride and aristocratic disdain in every vowel"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Frederick George Snowden operated a gentleman's outfitters at 185 Broadway, Bexleyheath in 1927, advertising as 'Outfitter to men of taste'.",
+            "era": "1920s-1930s",
+            "source": "Caroline's Miscellany: Ghost signs (90): Bexleyheath",
+            "sourceKind": "other",
+            "sourceUrl": "https://carolineld.blogspot.com/2013/06/ghost-signs-90-bexleyheath.html"
+          },
+          {
+            "text": "The hand-painted shop sign at 185 Broadway was executed in oil-based paint between 1920 and 1933, with lead content making it adhere firmly to masonry.",
+            "era": "1920s-1930s",
+            "source": "Ghost Signs: Spooky Remains of a Hidden Past \u2013 Historic England",
+            "sourceKind": "other",
+            "sourceUrl": "https://heritagecalling.com/2023/05/26/ghost-signs-spooky-remains-of-a-hidden-past/"
+          },
+          {
+            "text": "By 1934, the F G Snowden ghost sign remained visible when the Regal Cinema opened opposite on 3rd September 1934 with 2044 seats.",
+            "era": "1934",
+            "source": "The Regal Cinema, Broadway, Bexleyheath; Cinema Treasures",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://www.layersoflondon.org/map/records/the-regal-cinema-broadway-bexleyheath"
+          },
+          {
+            "text": "The outfitters location was previously occupied by E F Davison in 1920, indicating Snowden took over between 1920 and 1927.",
+            "era": "1920s",
+            "source": "Bexley Borough Council archival photographs",
+            "sourceKind": "archive"
+          },
+          {
+            "text": "Arthur Kent & Co, estate agents, shared advertisement space on Snowden's sign; Kent operated offices also at 126 and 314 Broadway.",
+            "era": "1920s-1930s",
+            "source": "Layers of London; Caroline's Miscellany",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.layersoflondon.org/map/records/snowden-and-sons-216-218-broadway-bexleyheath"
+          },
+          {
+            "text": "Bexleyheath's population surged from 6,000 (end 19th century) to 14,737 by 1931, driven by 1895 railway connection and inter-war suburban expansion.",
+            "era": "1900s-1930s",
+            "source": "History of Bexleyheath",
+            "sourceKind": "other",
+            "sourceUrl": "https://ideal-homes.gre.ac.uk/bexley/assets/histories/bexleyheath.html"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Cineworld Bexleyheath (28-70 Broadway)",
+            "angle": "Modern nine-screen cinema on the site where the 1934 Regal Cinema stood opposite Snowden's sign; cinema demolished 1987 for ASDA supermarket"
+          },
+          {
+            "name": "Morley's Department Store (Broadway Shopping Centre)",
+            "angle": "Modern department store where Snowden once competed; represents shift from specialist tailoring to mass retail serving the same commuter demographic"
+          },
+          {
+            "name": "Bexleyheath Station",
+            "angle": "1895 railway terminus that enabled the very suburban expansion and white-collar commuter class Snowden marketed 'men of taste' to"
+          }
+        ],
+        "grievanceHook": "My sign once promised discerning gentlemen proper tailoring. Now I'm invisible\u2014a ghost watching the very cinema that replaced me get demolished for a supermarket. No one looks up anymore.",
+        "anachronism": null,
+        "verified": false
+      }
+    }
+  ]
+}

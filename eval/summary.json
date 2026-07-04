@@ -1,0 +1,317 @@
+{
+  "characters": [
+    {
+      "name": "William Shakespeare",
+      "slug": "william-shakespeare",
+      "trainCount": 12,
+      "testCount": 4,
+      "judgedCount": 4,
+      "avgScores": {
+        "voiceFidelity": 3.75,
+        "contentFidelity": 3.75,
+        "plausibility": 3.75
+      }
+    },
+    {
+      "name": "Samuel Pepys",
+      "slug": "samuel-pepys",
+      "trainCount": 13,
+      "testCount": 4,
+      "judgedCount": 4,
+      "avgScores": {
+        "voiceFidelity": 4.5,
+        "contentFidelity": 3.75,
+        "plausibility": 4.5
+      }
+    },
+    {
+      "name": "Samuel Johnson",
+      "slug": "samuel-johnson",
+      "trainCount": 14,
+      "testCount": 4,
+      "judgedCount": 4,
+      "avgScores": {
+        "voiceFidelity": 4.75,
+        "contentFidelity": 3,
+        "plausibility": 4.5
+      }
+    },
+    {
+      "name": "Benjamin Franklin",
+      "slug": "benjamin-franklin",
+      "trainCount": 16,
+      "testCount": 4,
+      "judgedCount": 4,
+      "avgScores": {
+        "voiceFidelity": 4.5,
+        "contentFidelity": 4.5,
+        "plausibility": 4.25
+      }
+    },
+    {
+      "name": "Ada Lovelace",
+      "slug": "ada-lovelace",
+      "trainCount": 14,
+      "testCount": 4,
+      "judgedCount": 4,
+      "avgScores": {
+        "voiceFidelity": 3.75,
+        "contentFidelity": 3.75,
+        "plausibility": 3.75
+      }
+    },
+    {
+      "name": "Charles Dickens",
+      "slug": "charles-dickens",
+      "trainCount": 16,
+      "testCount": 4,
+      "judgedCount": 4,
+      "avgScores": {
+        "voiceFidelity": 4.5,
+        "contentFidelity": 3.75,
+        "plausibility": 4.25
+      }
+    },
+    {
+      "name": "Karl Marx",
+      "slug": "karl-marx",
+      "trainCount": 12,
+      "testCount": 4,
+      "judgedCount": 4,
+      "avgScores": {
+        "voiceFidelity": 4.5,
+        "contentFidelity": 3.75,
+        "plausibility": 4.25
+      }
+    },
+    {
+      "name": "Mary Seacole",
+      "slug": "mary-seacole",
+      "trainCount": 11,
+      "testCount": 4,
+      "judgedCount": 4,
+      "avgScores": {
+        "voiceFidelity": 4,
+        "contentFidelity": 2.75,
+        "plausibility": 4.5
+      }
+    },
+    {
+      "name": "Noor Inayat Khan",
+      "slug": "noor-inayat-khan",
+      "trainCount": 12,
+      "testCount": 4,
+      "judgedCount": 4,
+      "avgScores": {
+        "voiceFidelity": 2.75,
+        "contentFidelity": 2.5,
+        "plausibility": 3.25
+      }
+    },
+    {
+      "name": "Jimi Hendrix",
+      "slug": "jimi-hendrix",
+      "trainCount": 14,
+      "testCount": 4,
+      "judgedCount": 4,
+      "avgScores": {
+        "voiceFidelity": 3.75,
+        "contentFidelity": 3,
+        "plausibility": 3.75
+      }
+    },
+    {
+      "name": "Oscar Wilde",
+      "slug": "oscar-wilde",
+      "trainCount": 16,
+      "testCount": 4,
+      "judgedCount": 4,
+      "avgScores": {
+        "voiceFidelity": 5,
+        "contentFidelity": 4.75,
+        "plausibility": 4.25
+      }
+    },
+    {
+      "name": "Bob Marley",
+      "slug": "bob-marley",
+      "trainCount": 9,
+      "testCount": 4,
+      "judgedCount": 3,
+      "avgScores": {
+        "voiceFidelity": 3.6666666666666665,
+        "contentFidelity": 2.6666666666666665,
+        "plausibility": 3.3333333333333335
+      }
+    },
+    {
+      "name": "Mahatma Gandhi",
+      "slug": "mahatma-gandhi",
+      "trainCount": 13,
+      "testCount": 4,
+      "judgedCount": 4,
+      "avgScores": {
+        "voiceFidelity": 4.5,
+        "contentFidelity": 3.5,
+        "plausibility": 4.25
+      }
+    },
+    {
+      "name": "Ellen and William Craft",
+      "slug": "ellen-and-william-craft",
+      "trainCount": 11,
+      "testCount": 4,
+      "judgedCount": 4,
+      "avgScores": {
+        "voiceFidelity": 3.25,
+        "contentFidelity": 3,
+        "plausibility": 3.5
+      }
+    },
+    {
+      "name": "Sophia Duleep Singh",
+      "slug": "sophia-duleep-singh",
+      "trainCount": 7,
+      "testCount": 3,
+      "judgedCount": 3,
+      "avgScores": {
+        "voiceFidelity": 2.3333333333333335,
+        "contentFidelity": 2.6666666666666665,
+        "plausibility": 2.6666666666666665
+      }
+    },
+    {
+      "name": "Charlie Chaplin",
+      "slug": "charlie-chaplin",
+      "trainCount": 14,
+      "testCount": 4,
+      "judgedCount": 4,
+      "avgScores": {
+        "voiceFidelity": 2.5,
+        "contentFidelity": 2.5,
+        "plausibility": 2.25
+      }
+    },
+    {
+      "name": "Olive Morris",
+      "slug": "olive-morris",
+      "trainCount": 14,
+      "testCount": 4,
+      "judgedCount": 4,
+      "avgScores": {
+        "voiceFidelity": 3,
+        "contentFidelity": 4.25,
+        "plausibility": 3.5
+      }
+    },
+    {
+      "name": "Joan Clarke",
+      "slug": "joan-clarke",
+      "trainCount": 6,
+      "testCount": 3,
+      "judgedCount": 3,
+      "avgScores": {
+        "voiceFidelity": 3.3333333333333335,
+        "contentFidelity": 2.6666666666666665,
+        "plausibility": 3.3333333333333335
+      }
+    },
+    {
+      "name": "Derek Jarman",
+      "slug": "derek-jarman",
+      "trainCount": 16,
+      "testCount": 4,
+      "judgedCount": 4,
+      "avgScores": {
+        "voiceFidelity": 2.75,
+        "contentFidelity": 3.5,
+        "plausibility": 3
+      }
+    },
+    {
+      "name": "Arthur Conan Doyle",
+      "slug": "arthur-conan-doyle",
+      "trainCount": 15,
+      "testCount": 4,
+      "judgedCount": 4,
+      "avgScores": {
+        "voiceFidelity": 4,
+        "contentFidelity": 3.75,
+        "plausibility": 4
+      }
+    },
+    {
+      "name": "Harry Beck",
+      "slug": "harry-beck",
+      "trainCount": 5,
+      "testCount": 2,
+      "judgedCount": 2,
+      "avgScores": {
+        "voiceFidelity": 3,
+        "contentFidelity": 3.5,
+        "plausibility": 3
+      }
+    },
+    {
+      "name": "Alfred Hitchcock",
+      "slug": "alfred-hitchcock",
+      "trainCount": 15,
+      "testCount": 4,
+      "judgedCount": 4,
+      "avgScores": {
+        "voiceFidelity": 3.75,
+        "contentFidelity": 2.5,
+        "plausibility": 3.5
+      }
+    },
+    {
+      "name": "Bobby Moore",
+      "slug": "bobby-moore",
+      "trainCount": 10,
+      "testCount": 4,
+      "judgedCount": 4,
+      "avgScores": {
+        "voiceFidelity": 3.5,
+        "contentFidelity": 2.75,
+        "plausibility": 3.5
+      }
+    },
+    {
+      "name": "George Orwell",
+      "slug": "george-orwell",
+      "trainCount": 14,
+      "testCount": 4,
+      "judgedCount": 4,
+      "avgScores": {
+        "voiceFidelity": 5,
+        "contentFidelity": 3.75,
+        "plausibility": 5
+      }
+    },
+    {
+      "name": "John Keats",
+      "slug": "john-keats",
+      "trainCount": 13,
+      "testCount": 4,
+      "judgedCount": 4,
+      "avgScores": {
+        "voiceFidelity": 4.75,
+        "contentFidelity": 4.75,
+        "plausibility": 4.5
+      }
+    },
+    {
+      "name": "Sigmund Freud",
+      "slug": "sigmund-freud",
+      "trainCount": 14,
+      "testCount": 4,
+      "judgedCount": 4,
+      "avgScores": {
+        "voiceFidelity": 5,
+        "contentFidelity": 5,
+        "plausibility": 5
+      }
+    }
+  ],
+  "skipped": []
+}

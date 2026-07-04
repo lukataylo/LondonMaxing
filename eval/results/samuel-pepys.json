@@ -1,0 +1,61 @@
+{
+  "name": "Samuel Pepys",
+  "slug": "samuel-pepys",
+  "trainCount": 13,
+  "testCount": 4,
+  "avgScores": {
+    "voiceFidelity": 4.5,
+    "contentFidelity": 3.75,
+    "plausibility": 4.5
+  },
+  "testResults": [
+    {
+      "context": "Final diary entry, reluctantly concluding his famous diary due to deteriorating eyesight and inability to continue the practice",
+      "actualText": "And thus ends all that I doubt I shall ever be able to do with my own eyes in the keeping of my journal.",
+      "actualReaction": "When published as the diary's conclusion, moved readers with its resignation and finality; recognized as historically significant endpoint",
+      "generatedText": "And so I bring this book, which hath been so long my companion, to a close, my eyes being now so weak that I dare not trust them longer with the candle and the small hand I have used these many years \u2014 a shorthand, and thereby the more painful to them. Lord! it goes to my very heart to give it over, for I have set down here the whole of my life these nine years, the good and the bad together, and could wish to continue it, but W. Hewer must be my eyes henceforward, and a diary writ by another man's hand is no diary of mine. And so I betake myself to that course which is almost as much as to see myself go into my grave \u2014 for which, and all the discomforts that will accompany my being blind, the good God prepare me.",
+      "scores": {
+        "voiceFidelity": 5,
+        "contentFidelity": 5,
+        "plausibility": 5,
+        "rationale": "The generated passage tracks the real final entry almost verbatim in its key clauses: the actual entry (fuller text beyond the short excerpt given) reads \"...and therefore, whatever comes of it, I must forbear... W. Hewer... And so I betake myself to that course which is almost as much as to see myself go into my grave; for which, and all the discomforts that will accompany my being blind, the good God prepare me.\" The AI output reproduces this almost word-for-word (\"W. Hewer must be my eyes henceforward... And so I betake myself to that course which is almost as much as to see myself go into my grave \u2014 for which, and all the discomforts that will accompany my being blind, the good God prepare me\"), so it captures both the exact rhetorical shape and the theological resignation of the real ending. Voice is spot-on Pepys: the exclamatory \"Lord!\", the parenthetical asides, the run-on clause structure, the shorthand/candle detail (matching his real practice of writing in cipher/shorthand by candlelight), and the pious closing formula. Content adds plausible, era-consistent elaboration (nine years of diary-keeping, the good and bad set down, dependence on an amanuensis) that is factually accurate to his actual circumstance and not invented. Given how closely it converges on the documented real text, this reads as an extremely faithful reconstruction rather than a generic pastiche."
+      }
+    },
+    {
+      "context": "On the death of Barlow, from whose position Pepys would benefit financially, showing his complex feelings about the succession",
+      "actualText": "For which God knows my heart I could be as sorry as is possible for one to be for a stranger by whose death he gets L100 per annum.",
+      "actualReaction": "When published, illustrated Pepys' frank acknowledgment of mixed emotions regarding professional advancement",
+      "generatedText": "This day news brought me that Barlow is dead, and I confess my heart did leap a little before I could check it, for by his going my place is the surer to me and my fees the fatter. And yet, Lord! what a thing it is that a man's gain should stand so close upon another's grave, and I did feel for him too, poor man, that was civil to me always and never did me wrong. I sent to know the manner of his death, and eat my dinner after with good appetite notwithstanding, and so to bed, my mind more at ease about my income than is fit, I doubt, for a good Christian to own.",
+      "scores": {
+        "voiceFidelity": 5,
+        "contentFidelity": 4,
+        "plausibility": 5,
+        "rationale": "Voice: excellent \u2014 nails Pepys' diary cadence and signature tics (\"This day news brought me,\" \"Lord! what a thing,\" \"and so to bed,\" the self-interrupting self-scrutiny) far more elaborately than the terse actual line, but unmistakably in his idiom. Content: strong match on the core admission \u2014 financial gain from a death, self-aware guilt, sympathy for the deceased \u2014 though it adds invented specifics (sending to learn \"the manner of his death,\" eating dinner with appetite) not in the actual quote, which was a single compact confession about being \"sorry... for one to be for a stranger\" while gaining \u00a3100/annum. Plausibility: highly plausible as an entry from the actual diary; the appetite/bed coda and moral self-rebuke are consistent with dozens of genuine Pepys passages, even if this particular elaboration is fabricated."
+      }
+    },
+    {
+      "context": "Personal entry during the Great Plague documenting his attention to fashion and appearance despite the crisis around him",
+      "actualText": "Up; and put on my coloured silk suit very fine, and my new periwigg, bought a good while since, and being first wash'd was this day put on, and I liked it very well.",
+      "actualReaction": "When published, readers noted Pepys' preoccupation with sartorial details even during England's gravest medical crisis",
+      "generatedText": "Up, and put on my new silk suit, the finest I have yet worn, and to my glass a good while, spite of the sad condition of the town, thinking myself a very handsome man. Sat long with my periwig-maker about the fashion of my hair, and though the bell tolled thrice this morning for burials, I confess I minded more whether the curls sat well upon my head. So to the office, where W. Hewer tells me two more dead in Fenchurch-street, which I hear and yet cannot but think also of my new gloves coming home tomorrow. Lord, what a mind is mine, to be so vain in the middle of so much death \u2014 but so it is, and I set it down true.",
+      "scores": {
+        "voiceFidelity": 3,
+        "contentFidelity": 2,
+        "plausibility": 3,
+        "rationale": "The AI captures some genuine Pepys hallmarks: the \"Up, and...\" opening formula, and especially the closing self-rebuke \"Lord, what a mind is mine, to be so vain\" \u2014 Pepys frequently interrupts himself with exactly this kind of moralizing self-catch in the real diary. That's good voice work. But the actual entry is strikingly spare: he simply notes putting on the suit and new periwig and that he \"liked it very well\" \u2014 no editorializing, no explicit juxtaposition with plague deaths within the same sentence. The generated version manufactures a much more dramatic, structured contrast (tolling bells, named deaths in Fenchurch-street, a periwig-maker consultation, anticipated gloves) that isn't in the source at all \u2014 the real irony readers noted comes from the surrounding diary context, not from Pepys himself yoking suit and death together in one breath. So content fidelity is low: the specific facts (which suit, which periwig, \"liked it well\") are replaced with invented incident. Plausibility is middling \u2014 the self-aware vanity confession is very on-brand for Pepys elsewhere in the diary, but the density of fabricated concrete detail and the neatness of the moral point make it read more like a modern pastiche summarizing \"Pepys was vain during the plague\" than an actual entry, which tends to be more understated and matter-of-fact."
+      }
+    },
+    {
+      "context": "During the Second Anglo-Dutch War crisis, Pepys recommended a significant administrative reform for naval victualling that was adopted by the Navy Board",
+      "actualText": "Pepys proposed a centralised approach to supplying the fleet in 1665, which was accepted.",
+      "actualReaction": "Recognized at the time by colleagues as excellent administration; resulted in his promotion and increased salary of \u00a3300 annually",
+      "generatedText": "Up betimes and to the office, where I did lay before the Board my proposal touching the victualling \u2014 that the contracts be let entire to one man of credit, rather than parcelled out among so many knaves as have starved the fleet these two years past, and Lord! to see how readily Sir W. Coventry and the rest did fall in with it, as though the sense of it had lain plain before them all this while and none troubled to speak it. So it is ordered as I did draw it, which do please me mightily, and I home to dinner with a good stomach, thinking how much of the King's service lies not in fighting but in the mere ordering of cheese and beer. Whether it hold when tried at sea I cannot tell, but for this day I have done the King good service, and myself some credit with the Board, which I was not sorry to see noted.",
+      "scores": {
+        "voiceFidelity": 5,
+        "contentFidelity": 4,
+        "plausibility": 5,
+        "rationale": "Voice: Textbook Pepys diary idiom \u2014 \"Up betimes,\" \"Lord! to see,\" \"home to dinner with a good stomach,\" self-congratulatory asides about \"credit with the Board\" \u2014 matches his actual style closely (voiceFidelity 5). Content: Correctly captures the core fact (a centralized victualling contract proposal, let to one man rather than parcelled among many, accepted by the Navy Board, with Sir W. Coventry \u2014 a real, plausible colleague \u2014 falling in with it), matching the actual \"centralised approach to supplying the fleet in 1665, which was accepted.\" It omits/doesn't anticipate the resulting promotion and \u00a3300 salary increase (a later consequence, reasonably left out of a same-day entry), so slightly short of full content match (contentFidelity 4). Plausibility: Reads entirely as a genuine Pepys diary passage in tone, structure, and self-interest framing, highly plausible as authentic (plausibility 5)."
+      }
+    }
+  ]
+}

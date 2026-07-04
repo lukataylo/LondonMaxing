@@ -1,0 +1,17 @@
+node_modules/
+dist/
+build/
+.expo/
+.expo-shared/
+*.log
+.env
+.env.local
+.DS_Store
+.turbo/
+web-build/
+coverage/
+.claude/
+scratchpad/
+
+# Private hackathon prep — do not commit
+JUDGES_RESEARCH.md

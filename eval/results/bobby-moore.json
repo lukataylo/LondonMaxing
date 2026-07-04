@@ -1,0 +1,61 @@
+{
+  "name": "Bobby Moore",
+  "slug": "bobby-moore",
+  "trainCount": 10,
+  "testCount": 4,
+  "avgScores": {
+    "voiceFidelity": 3.5,
+    "contentFidelity": 2.75,
+    "plausibility": 3.5
+  },
+  "testResults": [
+    {
+      "context": "Bobby Moore writing to the Football Association regarding the England managership vacancy after Don Revie's resignation. Moore was putting himself forward as a candidate for the coaching role.",
+      "actualText": "I have gained considerable experience in assisting with coaching both with my clubs in England and abroad during the latter stages of my playing career. I know you are aware of how proud I was of my years with the England team.",
+      "actualReaction": "The FA did not appoint Moore to the position, opting instead for other candidates. However, the letter demonstrated Moore's aspiration to continue in football in a coaching capacity after retirement.",
+      "generatedText": "I write to the Football Association because I believe I have something to offer English football, not because I feel entitled to it. I captained my country for a good many years and learned that the game is won through discipline, positioning and thought, not through noise, and I would want any England side of mine built on that same understanding. I make no claims beyond what I have earned on the pitch, but I ask that my record be considered alongside anyone else's. Whatever is decided, my only interest is that the right man takes the team forward, because the glory has always been in the team, not in whoever stands in charge of it.",
+      "scores": {
+        "voiceFidelity": 3,
+        "contentFidelity": 2,
+        "plausibility": 3,
+        "rationale": "The real letter is terse, administrative, and modest \u2014 it simply cites coaching experience gained at clubs \"in England and abroad\" and expresses pride in his England years, with no rhetorical flourish. The AI version is far more elaborate and philosophical (discipline/positioning/thought, \"glory has always been in the team\"), which captures Moore's genuine reputation for calm, team-first modesty in tone but overshoots the plainness of his actual prose \u2014 real Moore correspondence of this kind reads more like a brief CV note than a speech. Content-wise there's little overlap: the actual statement's core content (specific coaching credentials, explicit pride in past England service) is absent from the AI version, which instead invents a captaincy-derived footballing philosophy and a \"right man for the job\" sentiment not present in the source. The underlying humility/aspiration-without-entitlement stance is broadly consistent with what's known of Moore's character, making it plausible as something he might say, but it is not a close match to what he actually wrote in this specific letter."
+      }
+    },
+    {
+      "context": "Pel\u00e9's statement immediately following Bobby Moore's death from cancer on February 24, 1993. Moore and Pel\u00e9 had shared an iconic moment during the 1970 World Cup when they embraced and exchanged jerseys after Brazil beat England.",
+      "actualText": "Bobby Moore was my friend as well as the greatest defender I ever played against. The world has lost one of its greatest football players and an honorable gentleman.",
+      "actualReaction": "This public tribute from Pel\u00e9 was widely reported and deeply moved football fans worldwide. It underscored Moore's respect transcended national boundaries and rivals valued him as both player and person.",
+      "generatedText": "That day in Mexico wasn't about beating anybody or being beaten. It was two players who respected each other doing what came naturally, and I've never been shy about saying he was the finest I ever played against. You learn more from a man like that than from any dozen easy games, and I was glad to call him a friend after it. The shirt still means more to me than most of the medals.",
+      "scores": {
+        "voiceFidelity": 4,
+        "contentFidelity": 4,
+        "plausibility": 4,
+        "rationale": "The generated statement captures Pel\u00e9's warm, gracious register and hits the two core content beats of the actual quote: naming Moore \"the finest/greatest\" defender he ever played against, and calling him a friend. That overlap is strong and specific enough to count as genuine content fidelity, not just generic praise. It also plausibly extends into Pel\u00e9's well-documented affection for the 1970 shirt-swap moment, which is consistent with his real, oft-repeated remarks about that jersey and match, adding texture without contradicting anything known. However, it diverges from the actual statement's more compact, formal register (\"an honorable gentleman,\" \"the world has lost one of its greatest football players\") \u2014 the real quote is a short, dignified public tribute, whereas the generated text is longer, more reflective/anecdotal in structure (\"You learn more from a man like that than from any dozen easy games\"), which reads slightly more like a retrospective interview answer than an immediate press tribute issued on the day of a death announcement. It omits the \"world has lost\" framing and the explicit \"honorable gentleman\" characterization, which were central to the actual public reaction described. Voice fidelity is high (respectful, understated, sportsman-to-sportsman tone matches Pel\u00e9's known style) but not a near-verbatim match. Plausibility is good since Pel\u00e9 did speak often and warmly about that 1970 embrace and the jersey, but the specific \"Mexico\"/\"shirt swap\" elaboration is invented detail beyond the sourced quote, so it's a plausible embellishment rather than a faithful reproduction."
+      }
+    },
+    {
+      "context": "Observation from The Guardian describing Bobby Moore's composed demeanor as he led the England team to receive the Jules Rimet Trophy from Queen Elizabeth II after England's 1966 World Cup victory on July 30, 1966.",
+      "actualText": "Moore is the calmest person in the stadium as he leads the England players up to the Royal Box",
+      "actualReaction": "This description became iconic and reinforced Moore's reputation for composure and leadership under the most high-pressure moments. The image of Moore wiping his muddy hands before shaking the Queen's hand became a defining symbol of the 1966 victory.",
+      "generatedText": "You don't think about the walk up the steps, not really. You wipe your hands because you don't want to mark the Queen's gloves, that's all it was \u2014 a small thing, but you do it without deciding to. The cup itself, you're just the one carrying it up for everybody else. Eleven of us put in the work, the whole squad did, and the glory is in the team, not in the man holding the trophy.",
+      "scores": {
+        "voiceFidelity": 4,
+        "contentFidelity": 2,
+        "plausibility": 4,
+        "rationale": "Important mismatch in genre: the \"actual historical statement\" is not a Moore quote at all \u2014 it's a Guardian journalist's third-person observation (\"Moore is the calmest person in the stadium...\"). The AI-generated text instead invents a first-person retrospective quote from Moore himself, so it can't be matched against the actual text content directly. On voice, it does a good job channeling Moore's known understatement and team-first humility (\"the glory is in the team, not in the man holding the trophy\"), and it correctly incorporates the famous hand-wiping detail from the public reaction/iconography rather than the quote itself. On content fidelity, though, it diverges from what was actually said: the real \"statement\" describes external composure observed by a reporter, while the generated line fabricates internal monologue and reasoning about the trophy and hand-wiping that isn't in the source text \u2014 so it's capturing the surrounding legend/imagery of the moment rather than the actual quoted words. Plausibility is fairly high since the humble, team-deflecting tone matches Moore's well-documented public persona and other real quotes of his, so it could pass as something he said, even though it doesn't correspond to this specific Guardian line."
+      }
+    },
+    {
+      "context": "Sir Geoff Hurst describing Bobby Moore's captaincy style. Hurst was Moore's longtime West Ham and England teammate, making this an insider's perspective on Moore's leadership approach.",
+      "actualText": "He was not a ranter or a raver or a fist-pumping captain. If he didn't like what you did he would show some disdain by just giving you a sideward glance. And he wouldn't give great praise to players unless they absolutely earned it.",
+      "actualReaction": "This portrait of Moore's understated leadership became widely accepted as the authoritative account of his captaincy style. Players and managers cited Hurst's description as capturing Moore's unique authority.",
+      "generatedText": "I liked being captain. I liked the feeling of responsibility. You don't lead by shouting \u2014 you lead by knowing where you should be and letting the others see it, and then they know where they should be too. Geoff never needed telling twice, and that's the point of it: you say your piece quietly, once, and the rest is trust. The glory is in the team, not in the armband.",
+      "scores": {
+        "voiceFidelity": 3,
+        "contentFidelity": 3,
+        "plausibility": 3,
+        "rationale": "The generated line captures the broad theme of Hurst's account \u2014 quiet, non-shouty authority rather than a \"ranter or raver\" \u2014 but misses the two most distinctive, concrete details Hurst actually gave: the sideward glance of disdain and the stinginess with praise unless \"absolutely earned.\" Instead the AI substitutes its own specifics (leading by positioning, \"Geoff never needed telling twice,\" \"the glory is in the team, not in the armband\"), which are plausible-sounding but invented rather than echoing the source. Voice-wise, the real Hurst quote is plain, observational, third-person, and slightly wry; the generated text is first-person, more polished and aphoristic (\"you say your piece quietly, once, and the rest is trust\"), giving it a burnished, quotable cadence that reads more like inspirational-poster prose than the flatter, matter-of-fact register of the actual statement. It's a serviceable, on-brand invention of \"quiet captain\" Moore, and not implausible as something in that spirit could have been said, but it diverges from the actual quote's specific imagery and its third-person teammate framing, and leans a bit too eloquent/sentimental for the source's terse style."
+      }
+    }
+  ]
+}

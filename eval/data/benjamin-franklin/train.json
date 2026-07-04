@@ -1,0 +1,150 @@
+{
+  "name": "Benjamin Franklin",
+  "slug": "benjamin-franklin",
+  "items": [
+    {
+      "text": "I confess that there are several parts of this constitution which I do not at present approve, but I am not sure I shall never approve them: For having lived long, I have experienced many instances of being obliged by better information, or fuller consideration, to change opinions even on important subjects, which I once thought right, but found to be otherwise.",
+      "quoteType": "speech",
+      "context": "Benjamin Franklin's closing speech at the Constitutional Convention on the final day before delegates signed the Constitution. He was 81 years old and too frail to deliver it himself, so James Wilson read it aloud. Franklin sought to convince delegates who had objections to sign anyway.",
+      "publicReaction": "The speech was influential in encouraging delegates to sign. Franklin's appeal for humility and consensus-building swayed some delegates. However, three prominent figures\u2014George Mason, Elbridge Gerry, and Edmund Randolph\u2014still refused to sign, primarily due to the absence of a Bill of Rights.",
+      "date": "1787-09-17",
+      "source": "Constitution Center; Records of the Federal Convention of 1787",
+      "sourceUrl": "https://constitutioncenter.org/the-constitution/historic-document-library/detail/benjamin-franklin-closing-speech-at-the-constitutional-convention"
+    },
+    {
+      "text": "I have said, often and often in the course of the Session, and the vicissitudes of my hopes and fears as to its issue, looked at that [sun] behind the President without being able to tell whether it was rising or setting: But now at length I have the happiness to know that it is a rising and not a setting Sun.",
+      "quoteType": "reported-speech",
+      "context": "At the close of the Constitutional Convention, Franklin observed the painted sun on the back of George Washington's chair. This remark was made as the final delegates were signing the Constitution.",
+      "publicReaction": "The remark became famous as representing Franklin's optimism about the nation's future and the Constitution. It was widely cited and celebrated as encapsulating the hopeful moment of the Convention's conclusion.",
+      "date": "1787-09-17",
+      "source": "James Madison's notes from the Constitutional Convention",
+      "sourceUrl": "https://avalon.law.yale.edu/18th_century/debates_917.asp"
+    },
+    {
+      "text": "in this world, nothing is certain except death and taxes.",
+      "quoteType": "letter",
+      "context": "Franklin wrote to French scientist Jean-Baptiste Le Roy in November 1789, expressing concern that he had not heard from Le Roy since the start of the French Revolution. The full sentence reads: 'Our new Constitution is now established, everything seems to promise it will be durable; but, in this world, nothing is certain except death and taxes.'",
+      "publicReaction": "This formulation became one of the most famous aphorisms in American culture, widely quoted and adapted for centuries. Franklin's specific wording became the canonical version of this ancient idea about life's certainties.",
+      "date": "1789-11-13",
+      "source": "Letter from Benjamin Franklin to Jean-Baptiste Le Roy",
+      "sourceUrl": "https://constitutioncenter.org/blog/benjamin-franklins-last-great-quote-and-the-constitution"
+    },
+    {
+      "text": "Those who would give up essential Liberty, to purchase a little temporary Safety, deserve neither Liberty nor Safety.",
+      "quoteType": "published-writing",
+      "context": "Part of the Pennsylvania Assembly's official 'Reply to the Governor' during the French and Indian War. Franklin was defending the Assembly's right of self-governance against the governor's actions favoring the Penn family's interests over frontier defense funding.",
+      "publicReaction": "The statement became a foundational principle in American political discourse. It was cited extensively by American patriots during the Revolution and has been continuously quoted in debates over civil liberties and security.",
+      "date": "1755-11-11",
+      "source": "Pennsylvania Assembly: Reply to the Governor",
+      "sourceUrl": "https://founders.archives.gov/documents/Franklin/01-06-02-0107"
+    },
+    {
+      "text": "Remember, that time is money. He that can earn ten shillings a day by his labour, and goes abroad, or sits idle, one half of that day, though he spends but sixpence during his diversion or idleness, ought not to reckon that the only expense; he has really spent, or rather thrown away, five shillings besides.",
+      "quoteType": "published-writing",
+      "context": "From Franklin's 'Advice to a Young Tradesman,' written as practical counsel to a young person entering business, distilling principles of financial success and arguing that industry and frugality are foundations of wealth.",
+      "publicReaction": "The phrase 'time is money' became one of Franklin's most famous and widely-quoted maxims, entering popular culture as a principle of economic wisdom and work ethic.",
+      "date": "1748-07-21",
+      "source": "Advice to a Young Tradesman, published in George Fisher's The American Instructor",
+      "sourceUrl": "https://founders.archives.gov/documents/Franklin/01-03-02-0130"
+    },
+    {
+      "text": "Love your Enemies, for they tell you your Faults.",
+      "quoteType": "published-writing",
+      "context": "A proverb published in Poor Richard's Almanack, part of Franklin's collection of witty sayings and moral advice that counseled practical virtue and self-improvement.",
+      "publicReaction": "The proverb was widely circulated through the popular almanack and became one of Franklin's best-known maxims about virtue and personal development.",
+      "date": "1756",
+      "source": "Poor Richard's Almanack, 1756",
+      "sourceUrl": "https://fi.edu/en/science-and-education/benjamin-franklin/famous-quotes"
+    },
+    {
+      "text": "Early to bed and early to rise, makes a man healthy, wealthy, and wise.",
+      "quoteType": "published-writing",
+      "context": "A proverb published in Poor Richard's Almanack, advising on the virtues of industriousness and regular habits. Note: While Franklin popularized this phrase, it originated in earlier English proverbs.",
+      "publicReaction": "Became one of the most famous proverbs in American culture, widely quoted and used in advice to children and young people about proper living habits.",
+      "date": "1735",
+      "source": "Poor Richard's Almanack, 1735",
+      "sourceUrl": "https://founders.archives.gov/documents/Franklin/01-02-02-0001"
+    },
+    {
+      "text": "There never was a good war or a bad peace.",
+      "quoteType": "letter",
+      "context": "Franklin wrote this to Sir Joseph Banks, president of the Royal Society of London, during the aftermath of the American Revolution, reflecting on the costs and benefits of warfare.",
+      "publicReaction": "The aphorism was widely quoted by peace advocates and philosophers discussing the nature of conflict. It reinforced Franklin's reputation as a rational thinker skeptical of military glory.",
+      "date": "1783-07",
+      "source": "Letter from Benjamin Franklin to Sir Joseph Banks, Royal Society president",
+      "sourceUrl": "https://fi.edu/en/science-and-education/benjamin-franklin/famous-quotes"
+    },
+    {
+      "text": "Well done is better than well said.",
+      "quoteType": "published-writing",
+      "context": "A proverb in Poor Richard's Almanack emphasizing the value of action over mere words, consistent with Franklin's pragmatic philosophy.",
+      "publicReaction": "Became a widely-quoted maxim about the importance of accomplishment and practical results over rhetoric.",
+      "date": "1737",
+      "source": "Poor Richard's Almanack, 1737",
+      "sourceUrl": "https://founders.archives.gov/documents/Franklin/01-02-02-0028"
+    },
+    {
+      "text": "Lost Time is never found again.",
+      "quoteType": "published-writing",
+      "context": "A proverb in Poor Richard's Almanack reflecting Franklin's core philosophy about the preciousness of time and the danger of wasteful habits.",
+      "publicReaction": "Became one of the most enduring proverbs about time management and the irreplaceable nature of human time.",
+      "date": "1747",
+      "source": "Poor Richard's Almanack, 1747",
+      "sourceUrl": "https://en.wikiquote.org/wiki/Poor_Richard's_Almanack"
+    },
+    {
+      "text": "Temperance: Eat not to dullness; drink not to elevation.",
+      "quoteType": "published-writing",
+      "context": "The first of Franklin's 'Thirteen Virtues' outlined in his autobiography, representing his personal system of moral development created around 1726.",
+      "publicReaction": "Franklin's list of virtues became influential in American culture and self-help literature, widely quoted as a model for personal character development.",
+      "date": "1791",
+      "source": "The Autobiography of Benjamin Franklin (published posthumously)",
+      "sourceUrl": "https://www.ushistory.org/franklin/autobiography/page38.htm"
+    },
+    {
+      "text": "Silence: Speak not but what may benefit others or yourself; avoid trifling conversation.",
+      "quoteType": "published-writing",
+      "context": "The second of Franklin's 'Thirteen Virtues' in his autobiography, reflecting his emphasis on purposeful communication.",
+      "publicReaction": "Cited as part of Franklin's influential system of virtues; widely discussed in works on rhetoric and communication.",
+      "date": "1791",
+      "source": "The Autobiography of Benjamin Franklin",
+      "sourceUrl": "https://www.ushistory.org/franklin/autobiography/page38.htm"
+    },
+    {
+      "text": "Order: Let all your things have their places; let each part of your business have its time.",
+      "quoteType": "published-writing",
+      "context": "The third of Franklin's 'Thirteen Virtues,' emphasizing organization and systematic living.",
+      "publicReaction": "Became influential in American culture regarding organization, productivity, and systematic thinking.",
+      "date": "1791",
+      "source": "The Autobiography of Benjamin Franklin",
+      "sourceUrl": "https://www.ushistory.org/franklin/autobiography/page38.htm"
+    },
+    {
+      "text": "In reality, there is, perhaps, no one of our natural passions so hard to subdue as pride.",
+      "quoteType": "published-writing",
+      "context": "From Franklin's autobiography, reflecting on his self-examination and moral development, particularly regarding the virtue of humility.",
+      "publicReaction": "Widely cited in discussions of human nature and the difficulty of achieving moral virtue.",
+      "date": "1791",
+      "source": "The Autobiography of Benjamin Franklin",
+      "sourceUrl": "https://guides.loc.gov/finding-benjamin-franklin/autobiography"
+    },
+    {
+      "text": "It was about this time I conceiv'd the bold and arduous project of arriving at moral perfection.",
+      "quoteType": "published-writing",
+      "context": "From Franklin's autobiography, describing his ambitious personal program of character development through systematic cultivation of virtues.",
+      "publicReaction": "This passage became influential in American self-improvement and personal development literature.",
+      "date": "1791",
+      "source": "The Autobiography of Benjamin Franklin",
+      "sourceUrl": "https://guides.loc.gov/finding-benjamin-franklin/autobiography"
+    },
+    {
+      "text": "I alone am the person who obtained and transmitted to Boston the letters in question.",
+      "quoteType": "published-writing",
+      "context": "Franklin's public declaration on December 25, 1773, taking responsibility for obtaining and sending the Hutchinson-Oliver letters to Massachusetts. These letters had been leaked and caused a major political crisis.",
+      "publicReaction": "Franklin's admission triggered a virulent newspaper campaign against him in England, which led to his appearance before the Privy Council and his removal as Joint Deputy Postmaster.",
+      "date": "1773-12-25",
+      "source": "Franklin's Public Statement about the Hutchinson Letters",
+      "sourceUrl": "https://founders.archives.gov/documents/Franklin/01-20-02-0272"
+    }
+  ]
+}

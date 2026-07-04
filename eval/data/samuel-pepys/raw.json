@@ -1,0 +1,159 @@
+{
+  "name": "Samuel Pepys",
+  "slug": "samuel-pepys",
+  "items": [
+    {
+      "text": "Blessed be God, at the end of the last year I was in very good health, without any sense of my old pain but upon taking of cold.",
+      "quoteType": "diary",
+      "context": "Opening entry of Pepys' diary, reflecting on his personal health and broader state during the Restoration period following Cromwell's death",
+      "publicReaction": "Not publicly known until diary's publication in 1825; modern scholars note it as characteristically detailed and personal observation",
+      "date": "1660-01-01",
+      "source": "The Diary of Samuel Pepys (1660-1669), published and edited by various scholars including Robert Latham and William Matthews",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Diary_of_Samuel_Pepys"
+    },
+    {
+      "text": "The condition of the State was thus. Viz. the Rump, after being disturbed by my Lord Lambert, was lately returned to sit again.",
+      "quoteType": "diary",
+      "context": "Early January 1660 entry documenting the political turmoil following Cromwell's death and the instability of the Rump Parliament",
+      "publicReaction": "Not public during his lifetime; provides historians with contemporary political observations from an official in the transition to the Restoration",
+      "date": "1660-01",
+      "source": "The Diary of Samuel Pepys (1660-1669)",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Samuel_Pepys"
+    },
+    {
+      "text": "I have newly taken a solemn oath about abstaining from plays and wine\u2026",
+      "quoteType": "diary",
+      "context": "New Year's Eve 1661 resolution reflecting his internal conflict between leisure pursuits (plays and wine) and professional dedication",
+      "publicReaction": "Not publicly known until diary publication; reveals character struggle familiar to modern readers",
+      "date": "1661-12-31",
+      "source": "The Diary of Samuel Pepys (1660-1669)",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Samuel_Pepys"
+    },
+    {
+      "text": "Here I drank wine upon necessity, being ill for the want of it.",
+      "quoteType": "diary",
+      "context": "Entry shortly after his New Year's oath, documenting his inability to maintain his resolution and justifying his lapse",
+      "publicReaction": "Not public until diary publication; demonstrates Pepys' candid self-awareness about his weaknesses",
+      "date": "1662-02-17",
+      "source": "The Diary of Samuel Pepys (1660-1669)",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Samuel_Pepys"
+    },
+    {
+      "text": "But, Lord! how sad a sight it is to see the streets empty of people, and very few upon the ['Change].",
+      "quoteType": "diary",
+      "context": "During the Great Plague of 1665, observing the devastating emptiness of London's commercial center and the closure of shops",
+      "publicReaction": "Not public until diary publication; later considered a vivid historical testament to the plague's impact on urban life",
+      "date": "1665-08-16",
+      "source": "The Diary of Samuel Pepys (1660-1669)",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Samuel_Pepys"
+    },
+    {
+      "text": "I have never lived so merrily (besides that I never got so much) as I have done this plague time.",
+      "quoteType": "diary",
+      "context": "Year-end reflection for 1665 documenting how his personal prosperity actually increased during the plague despite the tragedy affecting London",
+      "publicReaction": "When published, struck readers as characteristically frank and somewhat callous, revealing Pepys' ambition and pleasure in his rising fortunes",
+      "date": "1665-12-31",
+      "source": "The Diary of Samuel Pepys (1660-1669)",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Samuel_Pepys"
+    },
+    {
+      "text": "In all things, in wisdom, courage, force and success, the Dutch have the best of us and do end the war with victory on their side.",
+      "quoteType": "diary",
+      "context": "Assessment during or after the Second Anglo-Dutch War (1665-1667), candidly evaluating England's naval defeat",
+      "publicReaction": "When published, showed Pepys' professional realism about military outcomes; confirms historical records of English naval struggles",
+      "date": "1666",
+      "source": "The Diary of Samuel Pepys (1660-1669)",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Samuel_Pepys"
+    },
+    {
+      "text": "I down to the water-side, and there got a boat and through bridge, and there saw a lamentable fire.",
+      "quoteType": "diary",
+      "context": "Eyewitness account of the Great Fire of London beginning, documenting his journey from his home to observe the disaster",
+      "publicReaction": "When published, recognized as one of the most important firsthand accounts of the Great Fire; widely cited by historians",
+      "date": "1666-09-02",
+      "source": "The Diary of Samuel Pepys (1660-1669)",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Samuel_Pepys"
+    },
+    {
+      "text": "it made me weep to see it.",
+      "quoteType": "diary",
+      "context": "Emotional response while witnessing the Great Fire of London from Bankside, observing the destruction of his city",
+      "publicReaction": "When published, struck readers as genuine human emotion during catastrophe; often cited as evidence of Pepys' sensitivity",
+      "date": "1666-09-02",
+      "source": "The Diary of Samuel Pepys (1660-1669)",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Samuel_Pepys"
+    },
+    {
+      "text": "the fire running further, that in a very little time it got as far as the Steeleyard, while I was there.",
+      "quoteType": "diary",
+      "context": "Continuing eyewitness account of the Great Fire's rapid spread across London during the first day",
+      "publicReaction": "Part of his detailed fire account; published version recognized as invaluable historical documentation of the fire's progression",
+      "date": "1666-09-02",
+      "source": "The Diary of Samuel Pepys (1660-1669)",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Samuel_Pepys"
+    },
+    {
+      "text": "Sir W. Pen and I did dig another, and put our wine in it; and I my Parmazan cheese, as well as my wine and some other things.",
+      "quoteType": "diary",
+      "context": "Describing his personal protective measures during the Great Fire, burying valuables in a pit to save them from the advancing flames",
+      "publicReaction": "When published, provided readers with domestic details of how Londoners responded to the crisis",
+      "date": "1666-09-04",
+      "source": "The Diary of Samuel Pepys (1660-1669)",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Samuel_Pepys"
+    },
+    {
+      "text": "my wife, after the absence of her terms for seven weeks, gave me hopes of her being with child, but on the last day of the year she hath them again.",
+      "quoteType": "diary",
+      "context": "Intimate domestic observation about his wife's reproductive health, reflecting his hopes for an heir and subsequent disappointment",
+      "publicReaction": "When published, readers found this candid medical detail characteristic of Pepys' detailed personal documentation",
+      "date": "1660s",
+      "source": "The Diary of Samuel Pepys (1660-1669)",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Samuel_Pepys"
+    },
+    {
+      "text": "So home to supper, and to bed, it being my wedding night, but how many years I cannot tell; but my wife says ten.",
+      "quoteType": "diary",
+      "context": "Marking a wedding anniversary with characteristic Pepysian irony about his forgetfulness of the specific date",
+      "publicReaction": "When published, struck readers as humorous self-deprecation and marital frankness",
+      "date": "1666-10-10",
+      "source": "The Diary of Samuel Pepys (1660-1669)",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Samuel_Pepys"
+    },
+    {
+      "text": "And thus ends all that I doubt I shall ever be able to do with my own eyes in the keeping of my journal.",
+      "quoteType": "diary",
+      "context": "Final diary entry, reluctantly concluding his famous diary due to deteriorating eyesight and inability to continue the practice",
+      "publicReaction": "When published as the diary's conclusion, moved readers with its resignation and finality; recognized as historically significant endpoint",
+      "date": "1669-05-31",
+      "source": "The Diary of Samuel Pepys (1660-1669)",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Samuel_Pepys"
+    },
+    {
+      "text": "For which God knows my heart I could be as sorry as is possible for one to be for a stranger by whose death he gets L100 per annum.",
+      "quoteType": "diary",
+      "context": "On the death of Barlow, from whose position Pepys would benefit financially, showing his complex feelings about the succession",
+      "publicReaction": "When published, illustrated Pepys' frank acknowledgment of mixed emotions regarding professional advancement",
+      "date": "1664-1665",
+      "source": "The Diary of Samuel Pepys (1660-1669)",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Samuel_Pepys"
+    },
+    {
+      "text": "Up; and put on my coloured silk suit very fine, and my new periwigg, bought a good while since, and being first wash'd was this day put on, and I liked it very well.",
+      "quoteType": "diary",
+      "context": "Personal entry during the Great Plague documenting his attention to fashion and appearance despite the crisis around him",
+      "publicReaction": "When published, readers noted Pepys' preoccupation with sartorial details even during England's gravest medical crisis",
+      "date": "1665-09-03",
+      "source": "The Diary of Samuel Pepys (1660-1669)",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Samuel_Pepys"
+    },
+    {
+      "text": "Pepys proposed a centralised approach to supplying the fleet in 1665, which was accepted.",
+      "quoteType": "reported-speech",
+      "context": "During the Second Anglo-Dutch War crisis, Pepys recommended a significant administrative reform for naval victualling that was adopted by the Navy Board",
+      "publicReaction": "Recognized at the time by colleagues as excellent administration; resulted in his promotion and increased salary of \u00a3300 annually",
+      "date": "1665-10",
+      "source": "The Diary of Samuel Pepys and historical records of the Navy Board",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Samuel_Pepys"
+    }
+  ]
+}

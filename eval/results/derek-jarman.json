@@ -1,0 +1,61 @@
+{
+  "name": "Derek Jarman",
+  "slug": "derek-jarman",
+  "trainCount": 16,
+  "testCount": 4,
+  "avgScores": {
+    "voiceFidelity": 2.75,
+    "contentFidelity": 3.5,
+    "plausibility": 3
+  },
+  "testResults": [
+    {
+      "context": "Jarman's artistic statement about Blue (1993), his final film made while nearly blind from AIDS complications, explaining his radical aesthetic choice of a monochromatic blue screen.",
+      "actualText": "To make a film about illness is dangerous because the parameters of any epidemic change rapidly... Since the virus is essentially invisible, the Blue reflects it more accurately.",
+      "actualReaction": "The statement was widely cited as articulating a new approach to representing AIDS through cinema; critics saw it as a profound artistic innovation.",
+      "generatedText": "I present you with the void. Blue is the horizon of the soul, the last colour my failing eyes surrender to before darkness \u2014 Bon's blue, Yves Klein's blue, the blue of hospital drips and the blue of heaven, all one blue. I've stopped pretending the eye needs a story to prove it's alive; understand that sight is not the only witness, understand that a colour can hold a life the way a screen never could. I'm not cowering behind an image \u2014 I'm going down fighting, in the one colour that will still let you see me when I can't see you.",
+      "scores": {
+        "voiceFidelity": 3,
+        "contentFidelity": 2,
+        "plausibility": 4,
+        "rationale": "The actual statement is essayistic and argumentative: it makes a specific conceptual claim (illness/epidemics are dangerous to depict because their \"parameters change rapidly,\" and blue is chosen because it matches the virus's invisibility \u2014 an epistemological point about representation). The generated statement is instead a lyrical, confessional prose-poem about blindness, mortality, and blue as spiritual/aesthetic totality (Klein, heaven, hospital drips). It captures Jarman's known poetic register (echoing the actual \"Blue\" voiceover and his \"Chroma\" writings) and his defiant personal stance (\"going down fighting\"), which is plausible in tone for Jarman generally \u2014 hence a solid plausibility score. But it misses the actual statement's specific argumentative content entirely: there's no mention of the virus's invisibility as the reason for the choice, nor the point about epidemics' shifting parameters making illness-films \"dangerous.\" Instead it substitutes a more generic meditation on blindness-as-metaphor. So voice is reasonably close (poetic, personal, defiant) but pitched more purely lyrical than the actual quote's semi-clinical argument; content diverges on the specific reasoning while staying in the same thematic neighborhood (blue, illness, invisibility/sight)."
+      }
+    },
+    {
+      "context": "Jarman's final public interview in February 1994 (Art and Understanding), discussing his involvement with the direct action group OutRage! and his rejection of mainstream accommodationist approaches.",
+      "actualText": "Yes, I've been involved with OutRage and we're a nice gang of people... The situation here is very divided between people who feel we should all behave and speak to the government and all that malarkey and other people who are activists. And I'm on the side of the activists... I don't believe in this whole idea of sitting down and having tea with Mr. Major and all. I think it's all ridiculous.",
+      "actualReaction": "The statement became Jarman's final public articulation of his radical activism; it reinforced his reputation as an uncompromising activist engaged in direct action.",
+      "generatedText": "OutRage! is not asking permission, and that's exactly its virtue \u2014 we've had thirty years of polite delegations to the Home Office and here we still are, still queer-bashed, still unequal. I've no interest in being the acceptable homosexual who reassures the vicar and the leader-writer that we're just like them really \u2014 we're not, and why should we be? Kiss-ins outside police stations, zapping bishops mid-sermon: this is the only English tradition worth keeping, the tradition of not shutting up. Understand that respectability was never offered to us in good faith, it was offered as a leash, and I'd rather die disreputable and fighting than accommodated and quiet.",
+      "scores": {
+        "voiceFidelity": 2,
+        "contentFidelity": 4,
+        "plausibility": 3,
+        "rationale": "The actual quote is loose, conversational, almost throwaway interview speech: \"a nice gang of people,\" \"all that malarkey,\" \"I think it's all ridiculous.\" It's understated and casual, with Jarman almost shrugging off the stakes even as he stakes a clear position. The AI version is a dense, aphoristic manifesto \u2014 \"Kiss-ins outside police stations, zapping bishops mid-sermon,\" \"I'd rather die disreputable and fighting than accommodated and quiet\" \u2014 full of rhetorical parallelism and crafted punchlines that read more like polished essay prose (closer to his written diaries/Modern Nature register) than off-the-cuff spoken answer. That's a real register mismatch, hence low voice fidelity.\n\nOn content, however, the AI nails the substantive position: reject respectable/accommodationist politics (tea with Major vs. tea with the vicar/Home Office delegations), side firmly with direct-action activists, treat the \"acceptable homosexual\" framing as a trap (\"a leash\") rather than genuine inclusion \u2014 this is a faithful extension of the same stance, and the added detail (real OutRage! tactics like kiss-ins and zaps on bishops) is historically accurate context rather than invention.\n\nPlausibility is middling: the ideas and factual anchors are right and Jarman's written voice could support this kind of lyrical bitterness, but as a transcribed spoken-interview quote it's too tightly constructed and quotable to pass as verbatim speech \u2014 it reads as considered prose rather than a man talking through a tape recorder."
+      }
+    },
+    {
+      "context": "Jarman's concise statement on the relationship between his personal identity and political engagement, articulating how his queerness fundamentally shaped his artistic and activist work.",
+      "actualText": "Sexuality colors my politics.",
+      "actualReaction": "This became a signature statement characterizing Jarman's integrated approach to art and politics; it was widely quoted in discussions of queer aesthetics and activism.",
+      "generatedText": "I did not choose to make films about my sexuality \u2014 my sexuality made the films, made the garden, made the fight, because there was no separating the man who loved men from the artist who had to say so in public. Understand that a closet is not a private space, it's a political arrangement, built by the church and the state to keep you quiet and ashamed; the moment I refused it, everything I made became an act of politics whether I wanted that or not. I didn't set out to be a spokesman, I set out to survive as myself in daylight, and that turned out to be the same thing. All men are homosexual, some turn straight \u2014 and once you've said a sentence like that out loud, you're not an artist with opinions anymore, you're a target, and you'd better learn to go down fighting.",
+      "scores": {
+        "voiceFidelity": 3,
+        "contentFidelity": 4,
+        "plausibility": 2,
+        "rationale": "The actual statement is a spare, epigrammatic soundbite (\"Sexuality colors my politics\") \u2014 the kind of tight, quotable line that gets repeated in secondary literature. The AI version instead produces a sprawling, multi-clause monologue that reads more like assembled highlights of Jarman's diary prose (Modern Nature, At Your Own Risk) than a single quotable utterance, so it overshoots the register of the actual statement even though Jarman's written voice can be lyrical and discursive. Content-wise it's strong: \"no separating the man who loved men from the artist,\" the closet-as-political-arrangement framing, and the garden/film/fight litany all correctly track Jarman's real biography and stated views on integration of sexuality and politics, so it lands on essentially the same thesis and extends it plausibly. Plausibility is weakened by scale and by the embedded aphorism \"All men are homosexual, some turn straight,\" which is not a line reliably sourced to Jarman (it circulates as a Gore Vidal-type quip) \u2014 inserting it as if spoken by Jarman risks a misattribution a fact-checker would flag. The closing \"target... go down fighting\" beat also feels like generic inspirational framing rather than Jarman's specific diction. Net: thematically faithful but stylistically and factually oversold relative to the terse, verifiable original."
+      }
+    },
+    {
+      "context": "Jarman's ironic statement about his filmmaking practice, challenging conventional distinctions between documentary and fiction by emphasizing the documentary aspects of his work.",
+      "actualText": "People say to me, 'You make fantastic films' and I say, 'No, I make documentaries.'",
+      "actualReaction": "The statement was embraced by film scholars and Jarman advocates as capturing his innovative approach; it challenged traditional genre boundaries.",
+      "generatedText": "Understand that everything I've filmed is documentary \u2014 even the fictions, especially the fictions. A garden growing in the shingle at Dungeness is not a metaphor I invented, it is a fact I planted. Call Caravaggio a costume drama if you like, but the paint was real paint and the desire behind it was my own, filmed straight at the camera. I've never staged an emotion I hadn't already lived through twice \u2014 so if you want the truth, don't go to the news, come to the cinema.",
+      "scores": {
+        "voiceFidelity": 3,
+        "contentFidelity": 4,
+        "plausibility": 3,
+        "rationale": "The generated statement correctly reconstructs Jarman's core claim \u2014 that he regards his own films, fictional trappings included, as documentary \u2014 which matches the actual quote's genre-blurring wit closely (contentFidelity 4). It even grounds this in real biographical touchstones (the Dungeness garden, Caravaggio), which lends plausibility, since these are things he genuinely made and wrote about in a diaristic, personal register akin to Modern Nature. However, the actual statement is a terse, almost throwaway conversational quip (\"People say to me... and I say...\"), while the AI version is a much more elaborate, rhetorically stacked monologue (\"even the fictions, especially the fictions,\" \"filmed straight at the camera,\" \"staged an emotion I hadn't already lived through twice\") \u2014 more essayistic and crafted than the off-the-cuff, aphoristic bite of the real line. That inflates the voice into something closer to polished prose-poetry than the punchy interview retort Jarman actually gave, so voiceFidelity and plausibility land in the middle rather than high."
+      }
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "name": "Oscar Wilde",
+  "slug": "oscar-wilde",
+  "items": [
+    {
+      "text": "There is no such thing as a moral or an immoral book. Books are well written, or badly written. That is all.",
+      "quoteType": "published-writing",
+      "context": "In response to public outrage over the morality of his novel, Wilde wrote this defensive preface to the 1891 expanded edition of The Picture of Dorian Gray, articulating the core tenet of aesthetic philosophy that moral judgment should not apply to art.",
+      "publicReaction": "The preface was controversial; critics and reviewers debated whether art could truly exist separate from morality. Wilde's statement became one of the defining articulations of aesthetic movement principles.",
+      "date": "1891",
+      "source": "The Picture of Dorian Gray, Preface (first published in The Fortnightly Review, March 1, 1891)",
+      "sourceUrl": "https://www.gutenberg.org/files/174/174-h/174-h.htm"
+    },
+    {
+      "text": "The artist is the creator of beautiful things. To reveal art and conceal the artist is art's aim.",
+      "quoteType": "published-writing",
+      "context": "Opening statement of the Preface to The Picture of Dorian Gray, establishing Wilde's artistic philosophy about the relationship between creator and creation.",
+      "publicReaction": "Widely cited as a foundational statement of aesthetic philosophy by supporters of the art-for-art's-sake movement.",
+      "date": "1891",
+      "source": "The Picture of Dorian Gray, Preface",
+      "sourceUrl": "https://www.gutenberg.org/files/174/174-h/174-h.htm"
+    },
+    {
+      "text": "All art is quite useless.",
+      "quoteType": "published-writing",
+      "context": "The concluding statement of the Preface to The Picture of Dorian Gray, paradoxically asserting that art's lack of practical utility is precisely what makes it valuable and autonomous from moral judgment.",
+      "publicReaction": "This paradoxical claim became iconic of the aesthetic movement and was widely referenced, debated, and sometimes mocked by critics who saw it as evidence of art's detachment from social responsibility.",
+      "date": "1891",
+      "source": "The Picture of Dorian Gray, Preface",
+      "sourceUrl": "https://www.gutenberg.org/files/174/174-h/174-h.htm"
+    },
+    {
+      "text": "All art is at once surface and symbol. Those who go beneath the surface do so at their peril.",
+      "quoteType": "published-writing",
+      "context": "From the Preface, asserting that art's meaning exists on multiple levels and that seeking hidden moral messages in art misses the point.",
+      "publicReaction": "Became influential in aesthetic criticism and was frequently referenced by defenders of aestheticism.",
+      "date": "1891",
+      "source": "The Picture of Dorian Gray, Preface",
+      "sourceUrl": "https://www.gutenberg.org/files/174/174-h/174-h.htm"
+    },
+    {
+      "text": "No artist desires to prove anything. Even things that are true can be proved. No artist has ethical sympathies. An ethical sympathy in an artist is an unpardonable mannerism of style.",
+      "quoteType": "published-writing",
+      "context": "From the Preface, defending the artist's right to create without moral or didactic purpose, directly addressing contemporary criticism of Dorian Gray as immoral.",
+      "publicReaction": "Provoked significant debate about the relationship between art and ethics; many Victorian critics saw this as evidence of dangerous amoralism.",
+      "date": "1891",
+      "source": "The Picture of Dorian Gray, Preface",
+      "sourceUrl": "https://www.gutenberg.org/files/174/174-h/174-h.htm"
+    },
+    {
+      "text": "Art never expresses anything but itself.",
+      "quoteType": "published-writing",
+      "context": "Central thesis from The Decay of Lying, where Vivian argues that art possesses an independent existence separate from representation of reality or social conditions.",
+      "publicReaction": "Widely cited by aesthetes and modernists as support for autonomous art; condemned by realists and social critics.",
+      "date": "1891",
+      "source": "The Decay of Lying: A Dialogue, published in Intentions",
+      "sourceUrl": "https://americanliterature.com/author/oscar-wilde/essay/the-decay-of-lying"
+    },
+    {
+      "text": "Life imitates Art far more than Art imitates Life.",
+      "quoteType": "published-writing",
+      "context": "Vivian's paradoxical claim in The Decay of Lying, challenging conventional assumptions about art's relationship to reality and asserting that human perception and behavior conform to artistic representation.",
+      "publicReaction": "Became one of Wilde's most famous and debated aphorisms; challenged 19th-century realist assumptions about art's purpose.",
+      "date": "1891",
+      "source": "The Decay of Lying: A Dialogue, published in Intentions",
+      "sourceUrl": "https://americanliterature.com/author/oscar-wilde/essay/the-decay-of-lying"
+    },
+    {
+      "text": "Criticism is, in fact, both creative and independent.",
+      "quoteType": "published-writing",
+      "context": "Gilbert's central argument in The Critic as Artist, positioning criticism as an art form equal to or superior to creative work, challenging Matthew Arnold's hierarchy of art forms.",
+      "publicReaction": "Provoked debate among critics about the nature of critical practice; influenced modernist literary criticism.",
+      "date": "1891",
+      "source": "The Critic as Artist, published in Intentions",
+      "sourceUrl": "https://celt.ucc.ie/published/E800003-007/text001.html"
+    },
+    {
+      "text": "The truth is rarely pure and never simple. Modern life would be very tedious if it were either, and modern literature a complete impossibility.",
+      "quoteType": "speech",
+      "context": "Algernon's opening line in Act I of The Importance of Being Earnest, establishing the play's philosophical stance on truth and social reality as the characters navigate deception and identity.",
+      "publicReaction": "Became one of Wilde's most quoted and celebrated witticism upon the play's success; audiences and critics alike recognized its clever inversion of conventional morality.",
+      "date": "1895",
+      "source": "The Importance of Being Earnest, Act I, premiere at St. James's Theatre, London, February 3, 1895",
+      "sourceUrl": "https://www.gutenberg.org/files/844/844-h/844-h.htm"
+    },
+    {
+      "text": "I can resist everything except temptation.",
+      "quoteType": "speech",
+      "context": "Lord Darlington's witty observation in Act I of Lady Windermere's Fan, expressing the paradox of human weakness and the universal appeal of forbidden things.",
+      "publicReaction": "Became widely known after the play's successful London run; audiences found the paradoxical humor sophisticated and quotable.",
+      "date": "1892",
+      "source": "Lady Windermere's Fan, Act I, premiere at St. James's Theatre, London, February 20, 1892",
+      "sourceUrl": "https://en.wikiquote.org/wiki/Lady_Windermere's_Fan"
+    },
+    {
+      "text": "Oh, I love London Society! It is entirely composed now of beautiful idiots and brilliant lunatics. Just what society should be.",
+      "quoteType": "speech",
+      "context": "Mabel Chiltern's characterization of London high society in Act I of An Ideal Husband, delivered with satirical affection that exemplifies Wilde's critique of aristocratic absurdity.",
+      "publicReaction": "The line became famous for its witty inversion, praising society for possessing the very qualities that would normally be criticized.",
+      "date": "1895",
+      "source": "An Ideal Husband, Act I, premiere at the Haymarket Theatre, London, January 3, 1895",
+      "sourceUrl": "https://www.goodreads.com/work/quotes/130598-an-ideal-husband"
+    },
+    {
+      "text": "Fashion is what one wears oneself. What is unfashionable is what other people wear. Just as vulgarity is simply the conduct of other people.",
+      "quoteType": "speech",
+      "context": "A character's observation in An Ideal Husband, exemplifying Wilde's technique of inverting social norms to expose their arbitrariness and subjective nature.",
+      "publicReaction": "Widely quoted as an example of Wilde's paradoxical wit applied to social criticism.",
+      "date": "1895",
+      "source": "An Ideal Husband",
+      "sourceUrl": "https://www.goodreads.com/work/quotes/130598-an-ideal-husband"
+    },
+    {
+      "text": "The Love that dare not speak its name in this century is such a great affection of an elder for a younger man as there was between David and Jonathan, such as Plato made the very basis of his philosophy, and such as you find in the sonnets of Michelangelo and Shakespeare. It is that deep, spiritual affection that is as pure as it is perfect. It dictates and pervades great works of art like those of Shakespeare and Michelangelo, and those two letters of mine, such as they are. It is in this century misunderstood, so much misunderstood that it may be described as the Love that dare not speak its name, and on account of it I am placed where I am now.",
+      "quoteType": "trial-testimony",
+      "context": "Wilde's response to prosecutor Charles Gill's question about the meaning of 'the love that dare not speak its name' (a phrase from Lord Alfred Douglas's poem published in The Chameleon, December 1894). Wilde answered with great emphasis and visible emotion.",
+      "publicReaction": "Contemporary accounts note Wilde's speech was powerful and moving, but it sealed his conviction. The press reported the testimony extensively; many in the courtroom found it eloquent while others saw it as shameless. The speech became historically significant as one of the earliest public defenses of same-sex affection.",
+      "date": "April 1895",
+      "source": "Testimony of Oscar Wilde during cross-examination in the trial of Wilde v. Queensberry, Old Bailey, April 3, 1895; transcript documented in The Real Trial of Oscar Wilde by Merlin Holland (2003)",
+      "sourceUrl": "https://famous-trials.com/wilde/342-wildetestimony"
+    },
+    {
+      "text": "Yes, if it were well written so as to produce a sense of beauty, which is the highest sense of which a human being can be capable.",
+      "quoteType": "trial-testimony",
+      "context": "Wilde's response during cross-examination when prosecutor Carson asked whether a well-written immoral book could be good. Wilde affirmed that beauty, not morality, is the highest human faculty.",
+      "publicReaction": "The exchange demonstrated Wilde's consistent aesthetic philosophy under pressure; the answer reinforced prosecution's case that Wilde prioritized beauty over morality.",
+      "date": "April 1895",
+      "source": "Trial testimony of Oscar Wilde, cross-examination by Edward Carson, April 3, 1895, Old Bailey",
+      "sourceUrl": "https://famous-trials.com/wilde/346-literarypart"
+    },
+    {
+      "text": "Yet each man kills the thing he loves, By each let this be heard, Some do it with a bitter look, Some with a flattering word, The coward does it with a kiss, The brave man with a sword!",
+      "quoteType": "published-writing",
+      "context": "The famous refrain from The Ballad of Reading Gaol, Wilde's narrative poem about sin, punishment, and love written after his release from prison. The poem was dedicated to Charles Thomas Woolridge, a fellow prisoner executed for murdering his wife.",
+      "publicReaction": "Published under the pseudonym 'C. 3. 3.' (Wilde's prison number), the poem was widely reviewed; critics recognized it as a powerful work emerging from genuine suffering. Many saw it as Wilde's redemption through art.",
+      "date": "1898",
+      "source": "The Ballad of Reading Gaol, published 1898; written during Wilde's imprisonment and after his release",
+      "sourceUrl": "https://poets.org/poem/ballad-reading-gaol"
+    },
+    {
+      "text": "Dear, dear boy\u2014you are more to me than any one of them has any idea\u2014You are the atmosphere of beauty through which I see life\u2014you are the incarnation of all lovely things\u2014When we are out of tune\u2014all colour goes from things for me\u2014but we are never really out of tune.",
+      "quoteType": "letter",
+      "context": "Letter from Wilde to Lord Alfred Douglas, written in summer 1894 before their public scandal. The letter expresses Wilde's deep emotional dependence on Douglas and aesthetic philosophy intertwined with personal feeling.",
+      "publicReaction": "The letters were read aloud in open court during the libel trial (causing scandal), and later published in various editions. They became evidence of Wilde's relationship with Douglas.",
+      "date": "Summer 1894",
+      "source": "Letter from Oscar Wilde to Lord Alfred Douglas; published in The Complete Letters of Oscar Wilde, edited by Merlin Holland and Rupert Hart-Davis (2000)",
+      "sourceUrl": "https://famous-trials.com/wilde/323-letters"
+    },
+    {
+      "text": "High above the city, on a tall column, stood the statue of the Happy Prince. He was gilded all over with thin leaves of fine gold, for eyes he had two bright sapphires, and a large red ruby glowed on his sword-hilt.",
+      "quoteType": "published-writing",
+      "context": "The opening of Wilde's fairy tale 'The Happy Prince,' introducing the central image and setting for a story about compassion and sacrifice. Published as the first tale in The Happy Prince and Other Tales.",
+      "publicReaction": "The story became one of Wilde's most beloved works, praised for its poetic language and moral beauty despite\u2014or because of\u2014its tragic ending.",
+      "date": "1888",
+      "source": "The Happy Prince and Other Tales, published 1888",
+      "sourceUrl": "https://www.eastoftheweb.com/short-stories/UBooks/HapPri.shtml"
+    },
+    {
+      "text": "Education is an admirable thing, but it is well to remember from time to time that nothing that is worth knowing can be taught.",
+      "quoteType": "published-writing",
+      "context": "Statement from The Critic as Artist, expressing Wilde's conviction that true knowledge and understanding come from individual experience and contemplation rather than instruction.",
+      "publicReaction": "Became influential in aesthetic and modernist education theory; challenged Victorian assumptions about pedagogy.",
+      "date": "1891",
+      "source": "The Critic as Artist, published in Intentions",
+      "sourceUrl": "https://celt.ucc.ie/published/E800003-007/text001.html"
+    },
+    {
+      "text": "Life is terribly deficient in form. Its catastrophes happen in the wrong way and to the wrong people.",
+      "quoteType": "published-writing",
+      "context": "Gilbert's observation in The Critic as Artist contrasting art's perfection with life's chaotic imperfection, demonstrating Wilde's philosophical position on the superiority of aesthetic form.",
+      "publicReaction": "Became a famous articulation of the aesthetic movement's critique of everyday reality.",
+      "date": "1891",
+      "source": "The Critic as Artist, published in Intentions",
+      "sourceUrl": "https://celt.ucc.ie/published/E800003-007/text001.html"
+    },
+    {
+      "text": "The proper aim of Art is the telling of beautiful untrue things.",
+      "quoteType": "published-writing",
+      "context": "Vivian's assertion in The Decay of Lying that aesthetic beauty supersedes factual accuracy as the goal of artistic creation.",
+      "publicReaction": "Became a cornerstone statement of aesthetic philosophy; cited by both supporters and critics of the movement.",
+      "date": "1891",
+      "source": "The Decay of Lying: A Dialogue, published in Intentions",
+      "sourceUrl": "https://americanliterature.com/author/oscar-wilde/essay/the-decay-of-lying"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+build/
+**/build/
+.vite/
+**/.vite/
+.turbo/
+coverage/
+.expo/
+.expo-shared/
+*.log
+.env
+.env.local
+.DS_Store
+web-build/

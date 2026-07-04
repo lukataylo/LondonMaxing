@@ -1,0 +1,49 @@
+{
+  "name": "Joan Clarke",
+  "slug": "joan-clarke",
+  "trainCount": 6,
+  "testCount": 3,
+  "avgScores": {
+    "voiceFidelity": 3.3333333333333335,
+    "contentFidelity": 2.6666666666666665,
+    "plausibility": 3.3333333333333335
+  },
+  "testResults": [
+    {
+      "context": "Clarke's reason for declining to watch or attend performances of Hugh Whitmore's 1987 play 'Breaking the Code,' which featured a character based on her and dramatized her relationship with Alan Turing",
+      "actualText": "It would have been too painful.",
+      "actualReaction": "This statement was cited in multiple sources as evidence of how deeply the personal relationship with Turing affected her, even decades after the war and their broken engagement",
+      "generatedText": "I have not seen the play, and I don't think I shall. I understand it is well done, and I have no quarrel with Mr Whitmore for writing it, but I prefer to keep my own recollection of those years rather than have someone else's version set alongside it. It was a private matter, most of it, and I should rather it stayed that way. I have quite enough of my own account without needing the theatre's.",
+      "scores": {
+        "voiceFidelity": 3,
+        "contentFidelity": 2,
+        "plausibility": 3,
+        "rationale": "The actual quote is a single terse, raw admission of emotional pain \u2014 \"It would have been too painful\" \u2014 consistent with Clarke's famous extreme reticence in interviews. The generated statement is stylistically plausible (restrained, formal British diction, \"I should rather,\" \"no quarrel with Mr Whitmore\") but is far more elaborate and intellectualized than anything she is known to have said on the subject. Content-wise it reframes her reason as a preference to guard her own private narrative/recollection rather than someone else's dramatized version, which is a reasonable adjacent motive but misses the core disclosed reason: sheer emotional pain about Turing. It doesn't contradict the actual statement, but it substitutes a \"privacy/narrative control\" rationale for the \"too painful\" one, understating the emotional rawness that made the real quote notable. Plausible as a period-appropriate, reserved voice, but longer and more discursive than her documented terseness would suggest."
+      }
+    },
+    {
+      "context": "Clarke's written chapter contribution to the edited volume 'Codebreakers: The Inside Story of Bletchley Park,' discussing her work on the naval Enigma cipher",
+      "actualText": "Hut 8 and naval Enigma, Part 1",
+      "actualReaction": "Published contribution was well-received by historians and cryptography scholars as a first-hand account from one of the key personnel involved in breaking the naval Enigma",
+      "generatedText": "I joined Hut 8 in 1940, one of very few women doing what was then called \"men's work,\" though I was still graded and paid as a linguist despite speaking not a word of German. The naval Enigma was a rather more obstinate problem than the others, on account of the extra complexity the Germans had built into it, and progress came in fits and starts \u2014 a good deal of routine checking punctuated, now and then, by a genuine breakthrough. Turing was, I think, the only person who quite believed we would solve it before we did; the rest of us simply carried on with the work in front of us. It is odd, looking back, how ordinary it all felt from the inside \u2014 one did not think of it as history, only as the next batch of intercepts to get through.",
+      "scores": {
+        "voiceFidelity": 3,
+        "contentFidelity": 2,
+        "plausibility": 3,
+        "rationale": "The actual artifact here is only a chapter title (\"Hut 8 and naval Enigma, Part 1\") from the edited volume Codebreakers, so direct comparison of content is limited \u2014 but what's known about that chapter (and about Clarke's other technical writings) is that it was a procedural, technical account of cryptanalytic method (Banburismus, the workings of Hut 8, the naval Enigma problem) rather than a personal memoir. The AI-generated passage instead produces a reflective, first-person narrative heavy on personal recollection and mild literary flourish (\"It is odd, looking back, how ordinary it all felt,\" \"fits and starts\"), which is a different register from what a technical chapter contribution would contain \u2014 this pulls down contentFidelity. On the positive side, it does correctly incorporate a real, well-documented biographical detail: Clarke was indeed graded and paid as a linguist despite not knowing German, and she was one of very few women doing analytical \"men's work\" in Hut 8, recruited into Turing's circle. Voice-wise, Clarke was known (from interviews and colleagues' accounts) as notably reserved, modest, and terse rather than expansive or given to reflective aphorisms, so the AI's more literary, mildly sentimental tone (\"only as the next batch of intercepts to get through\") is plausible-sounding for a memoir voice in general but likely more expressive than Clarke's actual documented manner. It could pass as generic Bletchley-veteran reminiscence to a general reader, but a scholar familiar with the real technical, understated character of Clarke's actual contribution would notice the mismatch in genre and tone."
+      }
+    },
+    {
+      "context": "Clarke co-authored an appendix with Sir Harry Hinsley correcting the historical record about the respective contributions of British, French, and Polish cryptanalysts to breaking the Enigma, addressing inaccuracies in earlier accounts",
+      "actualText": "Appendix 30: The Polish, French and British contributions to the solution of the Enigma",
+      "actualReaction": "This scholarly contribution was important for historical accuracy and recognized Clarke's role in reassessing the Polish contribution to cryptanalysis during the war",
+      "generatedText": "I think it was important to set down, as plainly as possible, what the Poles had actually achieved before the war \u2014 their work with the bomba and the theoretical reconstruction of the machine was considerable, and it seemed to me the French contribution in supplying material had been rather understated too. Harry had the historian's eye for the documents, and I could speak to what we ourselves did at Bletchley, so between us the record could be made accurate rather than merely convenient. There was no great mystery to it; certain published accounts had simply got the sequence wrong, giving Britain rather more of the credit than was warranted at the earliest stages. It seemed only fair to correct that.",
+      "scores": {
+        "voiceFidelity": 4,
+        "contentFidelity": 4,
+        "plausibility": 4,
+        "rationale": "The actual \"statement\" is only the appendix title, so there is no direct quote to match against \u2014 scoring relies on known facts about the appendix and Clarke's documented persona. Content fidelity is strong: the generated text correctly identifies the appendix's real substance (reassessing Polish pre-war achievements like the bomba and machine reconstruction, the understated French contribution, and correcting British accounts that overstated their own early credit) \u2014 this matches the actual historical purpose of Hinsley/Clarke's Appendix 30. Voice fidelity is good: Clarke was known for precise, modest, unshowy language, and lines like \"There was no great mystery to it\" and \"It seemed only fair to correct that\" fit that understated register well; crediting Hinsley's \"historian's eye\" while she speaks to \"what we ourselves did at Bletchley\" plausibly reflects the real division of labor between a historian and a cryptanalyst-participant. Plausibility is solid \u2014 nothing anachronistic or out of character, and the reasoning given (fairness, accuracy over convenience) aligns with her reputation for quiet rigor \u2014 though it is necessarily a reconstruction rather than a verifiable echo of her actual words, capping full marks."
+      }
+    }
+  ]
+}

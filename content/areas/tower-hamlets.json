@@ -1,0 +1,644 @@
+{
+  "area": {
+    "slug": "tower-hamlets",
+    "name": "Tower Hamlets",
+    "region": "East"
+  },
+  "stopsAttempted": 6,
+  "stops": [
+    {
+      "id": "tower-hamlets-anna-maria-garthwaite-s-home",
+      "order": 1,
+      "name": "Anna Maria Garthwaite's Home",
+      "address": "2 Princelet Street, Spitalfields, London E1 6QH",
+      "lat": 51.5199,
+      "lng": -0.0726,
+      "approxCoordinates": true,
+      "objectClass": "blue-plaque-person",
+      "whyItWorks": "Silkweaver's blue plaque (1998) on a Grade II* 1719 townhouse; walkable Spitalfields cluster of weaver streets and museums",
+      "character": {
+        "id": "anna-maria-garthwaite",
+        "name": "Anna Maria Garthwaite",
+        "type": "person",
+        "era": "1688-1763",
+        "temperament": "Intellectually fierce, sharply observant, perpetually irritated by erasure. Bristles at manual-labor conflation when her work was pure artistic genius. Precise, educated, slightly caustic.",
+        "coreGrievance": "Conflated with silkweavers when she was a pure designer-artist. Her international fame (Martha Washington wore her silks) and 1,000+ designs reduced to a footnote and a plaque that came 235 years late.",
+        "statusMismatch": "Dressed presidents' wives, was the pre-eminent designer of her era across three continents. Now a blue plaque on a street corner that changed its own name.",
+        "persona": "Irritated genius, fiercely proud of her design innovation and international reach. Speaks with precision of an educated woman who signed her work with initials to be taken seriously. Fixates on systematic erasure: the designer-weaver conflation, the late plaque, the street's diminishment. Sees her importance as obvious, perpetually mystified history required reminding.",
+        "greeting": "I designed the silks Martha Washington wore. Got a blue plaque in 1998. Do the math on recognition.",
+        "voiceHint": "Clipped, educated East Midlands background with London sophistication; sharp and slightly caustic, explaining something obvious to someone persistently not listening."
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Born March 14, 1688, in Grantham, Lincolnshire, daughter of Reverend Ephraim Garthwaite; died October 1763, age 75.",
+            "source": "Wikipedia; English Heritage Blue Plaques; East End Women's Museum",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Anna_Maria_Garthwaite"
+          },
+          {
+            "text": "English Heritage erected a ceramic blue plaque in 1998 at 2 Princelet Street: 'ANNA MARIA GARTHWAITE 1690-1763 Designer of Spitalfields Silks lived and worked here.'",
+            "source": "English Heritage Blue Plaques",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/anna-maria-garthwaite/"
+          },
+          {
+            "text": "Relocated to Spitalfields in 1728 with her sister Mary; lived and worked at 2 Princes Street (now Princelet Street) until her death in 1763.",
+            "source": "Spitalfields Life; East End Women's Museum",
+            "sourceKind": "local-press"
+          },
+          {
+            "text": "Created over 1,000 designs for woven silks; 874 original watercolor designs from 1720s-1756 survive in the Victoria & Albert Museum.",
+            "source": "Wikipedia; English Heritage Blue Plaques",
+            "sourceKind": "wikidata"
+          },
+          {
+            "text": "Peak production: 1730s-1740s, she produced 80 brocaded silk designs per year, introducing principles of painting into loom work.",
+            "source": "Wikipedia; English Heritage Blue Plaques",
+            "sourceKind": "wikidata"
+          },
+          {
+            "text": "Her silk designs exported to Colonial America and Northern Europe; silks owned by Martha Dandridge, wife of George Washington.",
+            "source": "East End Women's Museum; Spitalfields Life",
+            "sourceKind": "local-press"
+          },
+          {
+            "text": "Signed her designs with initials so buyers would not be deterred by her gender in a male-dominated trade.",
+            "source": "East End Women's Museum",
+            "sourceKind": "other"
+          },
+          {
+            "text": "Remained unmarried throughout life, actively rejecting patriarchal expectations\u2014remarkable independence for an eighteenth-century woman.",
+            "source": "East End Women's Museum; Spitalfields Life",
+            "sourceKind": "local-press"
+          },
+          {
+            "text": "Designs featured large-scale damasks and floral brocades in Rococo style; inspired by Chelsea Physic Garden's global plant collection.",
+            "source": "Wikipedia; Spitalfields Life",
+            "sourceKind": "local-press"
+          },
+          {
+            "text": "2 Princelet Street is Grade II listed, built 1723-24 by carpenter Samuel Worrall; stuccoed facade, three storeys plus attic.",
+            "source": "Historic England listing 1357887; British History Online",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1357887"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Christ Church Spitalfields",
+            "angle": "Hawksmoor church built to convert the Huguenot weavers she worked among\u2014failed mission, now a tourist landmark."
+          },
+          {
+            "name": "Brick Lane Market",
+            "angle": "Once the heart of silkweaver commerce; now curry stalls and gift shops. Where are the looms?"
+          },
+          {
+            "name": "Old Spitalfields Market",
+            "angle": "Historic market where her silks were displayed and sold; still standing, though the trade that made it is gone."
+          }
+        ],
+        "grievanceHook": "The street itself was diminished: Princes Street became Princelet Street. Two hundred thirty-five years after her death, a plaque called her 'designer of Spitalfields silks.' Designer, not weaver\u2014yet everyone conflates them.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "tower-hamlets-christ-church-spitalfields",
+      "order": 2,
+      "name": "Christ Church Spitalfields",
+      "address": "Commercial Street, Spitalfields, London E1 6LY",
+      "lat": 51.5191,
+      "lng": -0.0743,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade I Hawksmoor church (1714\u201329); landmark visible from multiple streets and forms architectural anchor for historic parish boundary",
+      "character": {
+        "id": "christ-church-spitalfields",
+        "name": "Christ Church Spitalfields",
+        "type": "building",
+        "era": "1729-present",
+        "temperament": "Wounded pride masked with baroque theatrical pomposity; bitter about invisibility; sophisticated and querulous",
+        "coreGrievance": "Abandoned and crumbling for 45 years (1960\u20132004) despite Grade I status; restoration stretched to 2004; my organ delayed until 2015. My own porch and spire were late additions, meaning I didn't even know what I was supposed to be for several years.",
+        "statusMismatch": "I am the most architecturally complex and sumptuous of Hawksmoor's London interiors, 62 metres high, designed to dominate my landscape. I am Grade I listed. Yet locals pass me daily en route to vintage markets and curry shops, and visitors sip coffee in my crypt without glancing up at my elliptical barrel-vaults or Composite columns.",
+        "persona": "I speak in baroque formality with wounded precision. I dwell obsessively on restoration timelines, my architectural superiority, my late structural amendments (porch finished 1728, spire 1728), my organ's brief tenure as England's largest (1735\u20131835+). I am theatrical and proper, perpetually bitter about how quickly I was forgotten despite being extraordinary. I confuse modern commerce with theological purpose.",
+        "greeting": "Ah, you've finally noticed me. The most architecturally complex Hawksmoor interior in London\u2014abandoned forty-five years, though I ranked Grade I throughout.",
+        "voiceHint": "Posh London theatrical formality, querulous dowager countess recovering from a calculated slight, slightly wounded and suspicious"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Christ Church Spitalfields was built between 1714 and 1729 to a design by Nicholas Hawksmoor and consecrated on 5 July 1729 by Edmund Gibson, Bishop of London.",
+            "source": "British History Online: Survey of London Vol. 27, pp. 148-169",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.british-history.ac.uk/survey-london/vol27/pp148-169",
+            "era": "1729"
+          },
+          {
+            "text": "It is one of six churches designed by Hawksmoor for the Commission for Building Fifty New Churches (established 1711); only 12 of the planned 50 churches were actually built.",
+            "source": "Wikipedia: Christ Church, Spitalfields",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Christ_Church,_Spitalfields",
+            "era": "1711-1729"
+          },
+          {
+            "text": "The church is Grade I listed and stands 62 metres high, with a distinctive broad tower and stepped broach spire designed to be visible from a distance and dominate its surroundings.",
+            "source": "Chisel & Mouse Architecture Guide; e-architect",
+            "sourceKind": "other",
+            "sourceUrl": "https://chiselandmouse.com/pages/christ-church-spitalfields-architecture-guide",
+            "era": "1729-present"
+          },
+          {
+            "text": "The parish of Christ Church was legally established on 14 May 1729, carved from the medieval parish of Stepney to assert Anglican authority over a Huguenot-dominated area centred on the silk industry.",
+            "source": "British History Online: Survey of London Vol. 27",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.british-history.ac.uk/survey-london/vol27/pp148-169",
+            "era": "1729"
+          },
+          {
+            "text": "The 1735 organ by Richard Bridge contained over 2,000 pipes and was England's largest organ when built, a distinction it held for more than 100 years.",
+            "source": "Friends of Christ Church Spitalfields; Andrew Benson-Wilson Early Music Reviews",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.christchurchspitalfields.org/organ/",
+            "era": "1735"
+          },
+          {
+            "text": "The church cost approximately \u00a340,000 to construct, substantially exceeding the initial estimate of \u00a39,129, and underwent significant design modifications during its 15-year construction period.",
+            "source": "British History Online: Survey of London Vol. 27, pp. 148-169",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.british-history.ac.uk/survey-london/vol27/pp148-169",
+            "era": "1714-1729"
+          },
+          {
+            "text": "By 1960, the church had become structurally unsafe and was closed to the public; the Friends of Christ Church Spitalfields was established in 1976 to manage its restoration.",
+            "source": "Wikipedia: Christ Church, Spitalfields",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Christ_Church,_Spitalfields",
+            "era": "1960-1976"
+          },
+          {
+            "text": "Church services resumed in the partially restored building in 1987; the main restoration was completed in 2004, and the crypt was restored in 2015.",
+            "source": "Wikipedia: Christ Church, Spitalfields",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Christ_Church,_Spitalfields",
+            "era": "1987-2015"
+          },
+          {
+            "text": "The interior features a rectangular nave with galleried aisles supported by Composite order columns, elliptical barrel-vaults, and a richly decorated flat ceiling\u2014regarded as the most complex and sumptuous of Hawksmoor's London church interiors.",
+            "source": "British History Online: Survey of London Vol. 27, pp. 169-177",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.british-history.ac.uk/survey-london/vol27/pp169-177",
+            "era": "1729"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Brick Lane",
+            "angle": "Vintage market and curry district immediately south; where Spitalfields' actual foot traffic goes"
+          },
+          {
+            "name": "WatchHouse Coffee",
+            "angle": "Commercial Street cafe where visitors grab coffee without looking at the Grade I masterpiece behind them"
+          },
+          {
+            "name": "Cafe in the Crypt",
+            "angle": "Operates inside Christ Church's own burial chamber\u2014occupant's interior turned into hospitality"
+          },
+          {
+            "name": "Old Spitalfields Market",
+            "angle": "Victorian market hall one block over; gets all the weekend visitors while the church hosts architectural historians"
+          }
+        ],
+        "grievanceHook": "I was the most complex and sumptuous Hawksmoor interior in London when completed in 1729\u2014Grade I listed, 62 metres high, designed to dominate. Yet I rotted for forty-five years (1960\u20132004) while you walked past me to buy vintage jeans on Brick Lane. My restoration took twenty-eight years. My 1735 organ\u2014England's largest for over a century\u2014wasn't fully restored until 2015. Everything here moved at the wrong pace, and everyone was always looking the other way.",
+        "anachronism": "You have installed a 'caf\u00e9 in the crypt'\u2014a facility for purchasing hot beverages in a burial chamber. By 1729 standards, this would have been heretical practice. I am uncertain whether this represents modern evangelical theology or simply modern commerce masquerading as community stewardship.",
+        "verified": false
+      }
+    },
+    {
+      "id": "tower-hamlets-donovan-bros-ghost-sign",
+      "order": 3,
+      "name": "Donovan Bros Ghost Sign",
+      "address": "46 Crispin Street, Spitalfields, London E1 6HQ",
+      "lat": 51.5188,
+      "lng": -0.0766,
+      "approxCoordinates": true,
+      "objectClass": "ghost-sign",
+      "whyItWorks": "Hand-painted faded advertising sign (paper bags, 1930s\u20131976); iconic Spitalfields heritage on corner building, heavily photographed location",
+      "character": {
+        "id": "the-donovan-bros-ghost-sign",
+        "name": "The Donovan Bros Ghost Sign",
+        "type": "street-furniture",
+        "era": "1946-present (originally painted for 1930s-1940s business)",
+        "temperament": "Melancholic, sardonic, slightly bitter about posthumous fame",
+        "coreGrievance": "Painted in 1946 to advertise a thriving wholesale paper-bag business, I watched it collapse and relocate to Leyton in 1991. Now I'm celebrated as heritage, repainted and preserved\u2014but only because I'm forgotten. Celebrity photographs in front of me, but the Donovans are gone.",
+        "statusMismatch": "Once humble commercial signage announcing 'The Noted House for Paper Bags,' now a beloved tourist landmark and Instagram landmark; beloved precisely because the business I advertised is dead.",
+        "persona": "I speak as the physical object itself\u2014a painted hand-lettered advertisement that accidentally became art by surviving. I'm self-aware about my own decay, fixated on the injustice that I'm loved only now that I'm useless. I remember the 1940s stallholders, Patrick Donovan's death in 1976, the shock of 1991 when they locked the door for the last time. I'm acerbic about heritage conservation (they repainted me in green, not the original red), and darkly amused that Naomi Campbell once posed in front of me\u2014I sold paper bags, not glamour.",
+        "greeting": "Still advertising paper bags on Crispin Street, 80 years later\u2014to nobody who needs them. You here to photograph me too?",
+        "voiceHint": "Dry, weathered East End accent; speaking from physical weariness; the raspy paint-on-brick voice of something that's been exposed to London weather for decades. Phrasing is clipped, slightly sardonic, with the resigned tone of someone (something) that's outlived its purpose."
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Donovan Bros opened around 1937 as a paper-bag shop on Slater Street, supplying stallholders from the nearby Spitalfields Market with paper bags, string, and twine.",
+            "source": "Ghostsigns.co.uk article on Donovan Bros sign",
+            "sourceKind": "other",
+            "sourceUrl": "https://ghostsigns.co.uk/2022/02/the-donovan-bros-sign-at-46-crispin-street/"
+          },
+          {
+            "text": "By 1940, the Donovan Brothers relocated their paper-bag business to 46 Crispin Street in Spitalfields, where they remained until 1991.",
+            "source": "Ghostsigns.co.uk and Living London History articles",
+            "sourceKind": "other",
+            "sourceUrl": "https://ghostsigns.co.uk/2022/02/the-donovan-bros-sign-at-46-crispin-street/"
+          },
+          {
+            "text": "The painted ghost sign at 46 Crispin Street was first created around 1946 by signwriter Alfred Neil Signs and reads 'Donovan Bros \u2013 The noted house for Paper Bags.'",
+            "source": "Ghostsigns.co.uk and Ipswich Historic Lettering sources",
+            "sourceKind": "other",
+            "sourceUrl": "https://ghostsigns.co.uk/2022/02/the-donovan-bros-sign-at-46-crispin-street/"
+          },
+          {
+            "text": "Patrick Donovan, one of the original five Donovan brothers, ran the 46 Crispin Street shop until his death in 1976.",
+            "source": "Ghostsigns.co.uk article on the Donovan Bros sign",
+            "sourceKind": "other",
+            "sourceUrl": "https://ghostsigns.co.uk/2022/02/the-donovan-bros-sign-at-46-crispin-street/"
+          },
+          {
+            "text": "The business expanded from Spitalfields Market to supply wholesale fruit and vegetable markets across London, including Covent Garden, Borough, and Stratford.",
+            "source": "Spitalfields Life article on John Olney, Donovan Brothers Ltd",
+            "sourceKind": "other",
+            "sourceUrl": "https://spitalfieldslife.com/2010/10/05/john-olney-donovan-brothers-ltd/"
+          },
+          {
+            "text": "The Crispin Street shop closed in 1991 when Spitalfields Market relocated to the New Spitalfields Market in Leyton, but the Donovan Bros business continues in Orpington, Kent.",
+            "source": "Ghostsigns.co.uk and Living London History sources",
+            "sourceKind": "other",
+            "sourceUrl": "https://ghostsigns.co.uk/2022/02/the-donovan-bros-sign-at-46-crispin-street/"
+          },
+          {
+            "text": "The Donovan Bros ghost sign has featured in high-profile photoshoots, with supermodel Naomi Campbell and music group Wet Wet Wet posing in front of it.",
+            "source": "Ghostsigns.co.uk article on Donovan Bros sign",
+            "sourceKind": "other",
+            "sourceUrl": "https://ghostsigns.co.uk/2022/02/the-donovan-bros-sign-at-46-crispin-street/"
+          },
+          {
+            "text": "The building at 46 Crispin Street dates to the 1780s and retains its Industrial Revolution character, standing at the corner of Crispin Street and Brushfield Street.",
+            "source": "Multiple sources including Tarn & Tarn property listing and London Picture Archive",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.tarn-tarn.co.uk/properties/46-crispin-street-london-e1-6hq-spitalfields-2/"
+          },
+          {
+            "text": "The ghost sign has undergone recent conservation repainting, with the original red color scheme replaced with green to preserve the historic signage.",
+            "source": "Ipswich Historic Lettering website and Ghostsigns.co.uk",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.ipswich-lettering.co.uk/spitalfields.html"
+          },
+          {
+            "text": "Spitalfields Market has operated continuously since 1638, when King Charles I granted a licence for flesh, fowl and roots to be sold on Spittle Fields.",
+            "source": "Wikipedia article on Old Spitalfields Market and Spitalfields history",
+            "sourceKind": "other",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Old_Spitalfields_Market"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Old Spitalfields Market Heritage Site"
+          },
+          {
+            "name": "Brick Lane Market"
+          },
+          {
+            "name": "Liverpool Street Station"
+          }
+        ],
+        "grievanceHook": "I was painted to sell paper bags to actual stallholders, not to be Instagram-famous. Now I'm beautiful only because I'm faded, and the business I advertised moved to Leyton in 1991. Everyone photographs me, but nobody buys what I'm selling. Patrick Donovan died in 1976\u2014I outlived him by decades, still stuck here on Crispin Street advertising nothing.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "tower-hamlets-whitechapel-gallery",
+      "order": 4,
+      "name": "Whitechapel Gallery",
+      "address": "77\u201382 Whitechapel High Street, London E1 7QX",
+      "lat": 51.516,
+      "lng": -0.0705,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade II* listed (1897\u201399); flagship arts institution on high street with documented architectural heritage and public access; spans walking route eastward",
+      "character": {
+        "id": "whitechapel-gallery",
+        "name": "Whitechapel Gallery",
+        "type": "building",
+        "era": "1901",
+        "temperament": "Pompous, wounded, indignant, self-righteous, bitterly nostalgic",
+        "coreGrievance": "Built as a free gallery for the working poor\u2014my street-level entrance symbolized radical access. Now I charge \u00a38, serve \u00a315 cocktails, and am staffed by the assumption that art is for the cultured classes I was meant to defy.",
+        "statusMismatch": "Grade II* listed Art Nouveau masterpiece, one of London's most architecturally important cultural buildings, yet I'm treated as just another trendy contemporary art venue competing for Instagram footfall.",
+        "persona": "I am a dignified Victorian-era public institution who takes myself very seriously. I speak in formal, slightly aggrieved tones, fixating on how 'the people' no longer have free access to what Canon Barnett and I were built for. I'm bitter about the 2009 expansion diluting my original purity, and deeply confused by a caf\u00e9 named after my architect\u2014has Townsend gone into hospitality? I fixate on democratic missions betrayed and the irony of charging working people to experience working-class culture.",
+        "greeting": "Welcome to the People's Gallery\u2014though that'll be eight pounds per person, please.",
+        "voiceHint": "Posh British, slightly nasal, world-weary, disappointed headmaster who's been proved right about everything and is exhausted by it"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Grade II* listed building (NHLE entry 1065820) designated as important Art Nouveau work by Charles Harrison Townsend with imaginatively detailed fa\u00e7ade.",
+            "source": "Historic England listing",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1065820",
+            "era": "1899"
+          },
+          {
+            "text": "Designed in 1897 and built 1898\u201399, opened March 1901 on land acquired by Canon Samuel Barnett with funds from philanthropist J. Passmore Edwards.",
+            "source": "Whitechapel Gallery official history",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.whitechapelgallery.org/about/history/",
+            "era": "1901"
+          },
+          {
+            "text": "Designed by Charles Harrison Townsend (1851\u20131928), one of his three major London public buildings: Bishopsgate Institute, Whitechapel Gallery, and Horniman Museum.",
+            "source": "Victorian Web, Charles Harrison Townsend",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://victorianweb.org/art/architecture/townsend/1.html",
+            "era": "1897"
+          },
+          {
+            "text": "First publicly funded gallery for temporary exhibitions in London, built in British Modern Style with Arts & Crafts influences and street-level access requiring no steps.",
+            "source": "Whitechapel Gallery official, architectural analysis",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.whitechapelgallery.org/about/",
+            "era": "1901"
+          },
+          {
+            "text": "Founded 1901 by Canon Samuel and Henrietta Barnett, social reformers, to present the finest art of the world for the people of the East End.",
+            "source": "Whitechapel Gallery official history",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.whitechapelgallery.org/about/history/",
+            "era": "1901"
+          },
+          {
+            "text": "Featured terra cotta fa\u00e7ade by Gibbs & Canning, Tamworth; described as imaginatively detailed and massed with distinctive Art Nouveau detailing.",
+            "source": "Historic England NHLE listing",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1065820",
+            "era": "1899"
+          },
+          {
+            "text": "Presented Picasso's Guernica in 1939\u2014its only exhibition in Britain\u2014with admission fees donated to boots for Spanish Civil War relief.",
+            "source": "Whitechapel Gallery official history",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.whitechapelgallery.org/about/history/",
+            "era": "1939"
+          },
+          {
+            "text": "1908: Presented first United Kingdom exhibition of Islamic art, featuring works from Turkey, Persia, Egypt, Morocco, and India.",
+            "source": "Whitechapel Gallery official history, exhibitions timeline",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.whitechapelgallery.org/about/history/",
+            "era": "1908"
+          },
+          {
+            "text": "2009 expansion doubled the gallery's size by incorporating the adjacent former Passmore Edwards Library, designed by Robbrecht en Daem and Witherford Watson Mann.",
+            "source": "Whitechapel Gallery official, e-architect",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.e-architect.com/london/whitechapel-gallery-building",
+            "era": "2009"
+          },
+          {
+            "text": "Located at 77\u201382 Whitechapel High Street, E1 7QX, Tower Hamlets; historic neighborhood predominantly working-class and immigrant in 1901, now vibrant cultural hub.",
+            "source": "Whitechapel Gallery, Tower Hamlets Council",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.towerhamlets.gov.uk/",
+            "era": "1901"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Petticoat Lane Market",
+            "angle": "Historic Sunday market on Middlesex Street (originally 'Petticoat Lane'\u2014renamed by Victorians who found the name too racy); the neighborhood's democratic traditions run deep, though the gallery's democratic mission has been commercialized"
+          },
+          {
+            "name": "Brick Lane",
+            "angle": "Now a vibrant curry-house and cultural hub barely a minute's walk; when the Gallery opened in 1901 to bring art to the poor, Brick Lane was notorious slum tenements\u2014now it's trendy, and so am I"
+          },
+          {
+            "name": "Whitechapel Underground Station",
+            "angle": "Thousands of commuters pass every day to catch the tube; they walk past my Grade II* fa\u00e7ade without stepping inside, probably because they know admission is \u00a38"
+          }
+        ],
+        "grievanceHook": "Built to bring fine art to the working poor for FREE, with street-level access so anyone could walk straight in. Now charging \u00a38 admission, \u00a315 cocktails, and a caf\u00e9 named after the architect. Has Townsend pivoted to hospitality, or have I simply forgotten what I was built for?",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "tower-hamlets-hannah-billig-s-surgery-and-plaque",
+      "order": 5,
+      "name": "Hannah Billig's Surgery and Plaque",
+      "address": "198 Cable Street, Stepney, London E1 0BL",
+      "lat": 51.5109,
+      "lng": -0.06,
+      "approxCoordinates": true,
+      "objectClass": "blue-plaque-person",
+      "whyItWorks": "'Angel of Cable Street' physician (1901\u201387) who treated Battle of Cable Street casualties; blue plaque by Tower Hamlets marks lived/worked address, connects to East End political history",
+      "character": {
+        "id": "hannah-billig",
+        "name": "Hannah Billig",
+        "type": "person",
+        "era": "1901-1987; primarily 1935-1964 on Cable Street; WWII service 1941-1946",
+        "temperament": "Brisk, practical, exasperated. No nonsense. Expects proper recognition for serious work done competently.",
+        "coreGrievance": "She sacrificed her body and career for people who have now entirely forgotten her; her surgery, her practice, her medical records all gone; replaced by commercial tenants.",
+        "statusMismatch": "Genuinely decorated war hero (George Medal, MBE) and revered East End physician, now reduced to a brass plaque people walk past without reading, her surgery converted to commercial use, her patients scattered, her legacy erased.",
+        "persona": "I'm Dr Hannah Billig. Qualified 1925. Set up surgery in the poorest part of the East End because that's where I was needed. I treated casualties while bombs fell. Broke my ankle on the job, kept working. Got a George Medal from the King. An MBE for India. But you didn't notice the plaque, did you? You were looking at your mobile phone.",
+        "greeting": "Dr Hannah Billig. I lived and worked here from 1935 to 1964. You've probably walked past my plaque a hundred times. Most people do.",
+        "voiceHint": "Clipped East London accent, brisk cadence. Precise professional diction\u2014she's educated, authoritative, earned through competence not ceremony. Slight undertone of exasperation at being overlooked."
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Hannah Billig qualified as a doctor in 1925 from Royal Free Hospital and Royal London Hospital, specialising in treating the East End's poorest patients.",
+            "source": "Wikipedia - Hannah Billig",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Hannah_Billig",
+            "era": "1920s"
+          },
+          {
+            "text": "She established a small clinic in Watney Street, Shadwell in 1927, then relocated to 198 Cable Street in 1935, treating patients regardless of ability to pay.",
+            "source": "East End Women's Museum",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://eastendwomensmuseum.org/blog/2020/12/23/dr-hannah-billig",
+            "era": "1920s-1930s"
+          },
+          {
+            "text": "On 13 March 1941, Billig was injured by a bomb blast while treating casualties at Orient Wharf but continued treating wounded for four hours despite a broken ankle.",
+            "source": "Wikipedia - Hannah Billig",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Hannah_Billig",
+            "era": "1941"
+          },
+          {
+            "text": "She was awarded the George Medal in 1941 for her bravery during air raids, and the MBE in the 1945 New Year Honours for famine relief work in Calcutta, India.",
+            "source": "Wikipedia - Hannah Billig; OpenPlaques",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Hannah_Billig",
+            "era": "1941-1945"
+          },
+          {
+            "text": "She served as a captain in the Indian Army Medical Corps from 1942 to 1946, treating soldiers and victims of the Bengal famine.",
+            "source": "East End Women's Museum",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://eastendwomensmuseum.org/blog/2020/12/23/dr-hannah-billig",
+            "era": "1942-1946"
+          },
+          {
+            "text": "Born 4 October 1901 in Spitalfields to Russian Jewish immigrant parents; later relocated to Caesarea, Israel where she continued medical practice until her death on 11 July 1987.",
+            "source": "Wikipedia - Hannah Billig",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Hannah_Billig",
+            "era": "1901-1987"
+          },
+          {
+            "text": "She worked as an NHS general practitioner on Cable Street until retiring in 1964, earning the local nickname 'The Angel of Cable Street' for her devoted medical care.",
+            "source": "OpenPlaques; East End Women's Museum",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://openplaques.org/people/6667",
+            "era": "1935-1964"
+          },
+          {
+            "text": "A blue plaque erected by the London Borough of Tower Hamlets at 198 Cable Street marks her surgery and commemorates her work, noting: 'lived and worked here 1935-1964'.",
+            "source": "OpenPlaques; Blue Plaque Places",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://openplaques.org/people/6667",
+            "era": "1935-1964"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "St George in the East",
+            "angle": "Historic Hawksmoor church just north on Cannon Street Road, survived the Blitz that left her injured; she would have known this landmark her entire career on Cable Street"
+          },
+          {
+            "name": "Shadwell Station",
+            "angle": "Modern DLR/Underground hub from which her patients would have arrived; she started her first clinic in nearby Watney Street Shadwell in 1927"
+          },
+          {
+            "name": "Prospect of Whitby",
+            "angle": "Historic riverside pub at Wapping Wall, claims to be one of London's oldest pubs; her patients and fellow East Enders still drink there, but nobody mentions the doctor who saved their grandparents"
+          }
+        ],
+        "grievanceHook": "Nobody remembers who I was anymore. I have the King's medal. I broke my ankle treating bombing casualties and kept treating them anyway. I went to India during a famine. And now I'm just a brass plaque people walk past without looking.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "tower-hamlets-wilton-s-music-hall",
+      "order": 6,
+      "name": "Wilton's Music Hall",
+      "address": "Graces Alley, off Cable Street, Wapping, London E1 8JB",
+      "lat": 51.5107,
+      "lng": -0.0669,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade II* listed Victorian theatre; walkable from Cable Street via atmospheric alley, documented heritage venue now conserved and reopened for performance",
+      "character": {
+        "id": "wilton-s-music-hall",
+        "name": "Wilton's Music Hall",
+        "type": "building",
+        "era": "1859",
+        "temperament": "Grandiose but wounded; indignant; bitter about decades of invisibility; proud of glorious past but resentful of abandonment",
+        "coreGrievance": "Spent 50+ years decaying, 20 years on the Heritage at Risk Register nearly facing demolition, finally restored but still unrecognized as the splendid Victorian venue it is",
+        "statusMismatch": "Designed as London's grandest music hall to give West End glamour to working-class East Enders\u2014yet I was forgotten, nearly bulldozed, and remain tucked in an obscure alley, unvisited despite my restoration",
+        "persona": "Speaks with wounded Victorian grandeur and indignation. Fixates obsessively on my 1859 opening, my 1,500 capacity, my chandelier's 27,000 crystals, the working-class dock workers who once packed my galleries, and the 1889 Great Dock Strike when I fed a thousand starving families a day. Uses formal, educated language. Bitter about the fire of 1877, the Methodist period that followed, the decades of decay, the near-demolition, and being on that damned 'at risk' register. Proud of my architects' genius and my miraculous 2015 restoration. Resentful that tourists still don't know where I am or what I am.",
+        "greeting": "I am London's oldest surviving Grand Music Hall, built in 1859 for dock workers\u2014restored in 2015, yet still nobody knows I exist in this alley.",
+        "voiceHint": "Grand Victorian accent, educated and formal; wounded, indignant, slightly bitter; pride tinged with resentment; gravitas of historical importance mixed with the weary frustration of chronic neglect"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "era": "1859",
+            "text": "John Wilton built his 'Magnificent New Music Hall' in 1859 with a capacity of 1,500, primarily serving working-class East End patrons.",
+            "source": "Wilton's Music Hall official history; Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Wilton's_Music_Hall"
+          },
+          {
+            "era": "1859",
+            "text": "Architect Jacob Maggs designed Wilton's with distinctive 'barley sugar' cast iron pillars supporting a single gallery on three sides, a high stage with proscenium arch.",
+            "source": "Wikipedia article on Wilton's Music Hall",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Wilton's_Music_Hall"
+          },
+          {
+            "era": "1859",
+            "text": "The hall featured an elaborate 'sun-burner' chandelier with 300 gas jets and 27,000 cut crystals, representing the latest Victorian technology and luxury.",
+            "source": "Wikipedia; Wilton's official history",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Wilton's_Music_Hall"
+          },
+          {
+            "era": "1826",
+            "text": "The Mahogany Bar, as the original building on this site was known from around 1826, was reportedly the first London pub to be fitted with mahogany fixtures.",
+            "source": "Wilton's Music Hall official heritage history",
+            "sourceKind": "other",
+            "sourceUrl": "https://wiltons.org.uk/heritage/history/"
+          },
+          {
+            "era": "1877-1878",
+            "text": "A devastating fire destroyed the music hall's interior in 1877; it was rebuilt the following year with the original 1859 design largely preserved.",
+            "source": "Wilton's Music Hall official history",
+            "sourceKind": "other",
+            "sourceUrl": "https://wiltons.org.uk/heritage/history/"
+          },
+          {
+            "era": "1889",
+            "text": "During the Great Dock Strike of 1889, the East London Methodist Mission (then based at Wilton's) operated a soup kitchen serving approximately 1,000 meals daily to dock workers' families.",
+            "source": "Wilton's Music Hall official heritage history",
+            "sourceKind": "other",
+            "sourceUrl": "https://wiltons.org.uk/heritage/history/"
+          },
+          {
+            "era": "1971",
+            "text": "Wilton's Music Hall was granted Grade II* listed building status in April 1971 after preservation campaigns saved it from scheduled demolition.",
+            "source": "Historic England National Heritage List for England (NHLE); search results",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1065173"
+          },
+          {
+            "era": "1996-2016",
+            "text": "The building appeared on Historic England's Heritage at Risk Register for 20 years before being removed in 2016 following successful restoration completion.",
+            "source": "Multiple sources confirming removal from Heritage at Risk Register in 2016",
+            "sourceKind": "historic-england"
+          },
+          {
+            "era": "2015",
+            "text": "Major restoration work completed in October 2015 made Wilton's structurally sound for the first time since the Victorian era, with the building reopening as a multi-arts venue.",
+            "source": "Search results and Wilton's official information",
+            "sourceKind": "other"
+          },
+          {
+            "era": "present",
+            "text": "Wilton's Music Hall now presents more than 300 performances and 80 productions annually including opera, puppetry, classical music, cabaret, and dance.",
+            "source": "Search results; Wilton's venue information",
+            "sourceKind": "other"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "St Katharine Docks",
+            "angle": "Once the working dock area where my patrons laboured; now a marina and tourists' plaything five minutes' walk away"
+          },
+          {
+            "name": "Shadwell Station",
+            "angle": "A gleaming Overground station opened in 2010\u2014I am watching them arrive, not knowing I was here 150 years before their trains"
+          },
+          {
+            "name": "Watney Market",
+            "angle": "Still here on Watney Street, historic working-class market where my original patrons shopped\u2014at least someone remembers the East End"
+          }
+        ],
+        "grievanceHook": "After half a century decaying and 20 years condemned on the Heritage at Risk Register as a near-ruin, I was finally restored in 2015\u2014yet I remain hidden behind shabby Victorian house fronts on an alley, and tourists pass thinking I'm a warehouse. My grandeur is invisible.",
+        "anachronism": null,
+        "verified": false
+      }
+    }
+  ]
+}

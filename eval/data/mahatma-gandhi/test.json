@@ -1,0 +1,42 @@
+{
+  "name": "Mahatma Gandhi",
+  "slug": "mahatma-gandhi",
+  "items": [
+    {
+      "text": "My life is my message.",
+      "quoteType": "reported-speech",
+      "context": "Statement made in response to requests for messages to foreign audiences. Documented in interviews from 1942 onwards. In 1942, Karl Quimby recorded Gandhi saying this when asked for a message to Americans. In 1945, journalist Deton J. Brooks of 'The Chicago Defender' interviewed Gandhi in India, and Gandhi wrote on a note pad: 'My life is its own message.'",
+      "publicReaction": "The phrase became widely quoted in Gandhi's lifetime and has become one of his most recognized statements, used to encapsulate his philosophy that actions speak louder than words. However, scholars note the phrase appears in earlier sources (Charles E. Garst, 1898).",
+      "date": "1942-1945 (documented interviews)",
+      "source": "Quote Investigator archive; Karl Quimby 1942; Deton J. Brooks Chicago Defender interview 1945; Press Information Bureau of India",
+      "sourceUrl": "https://quoteinvestigator.com/2021/07/31/life-message/"
+    },
+    {
+      "text": "The draft resolution of the Working Committee is based on Ahimsa. I wanted to avoid violence. Non-violence is the first article of my faith. I do not ask for mercy. I do not plead any extenuating act.",
+      "quoteType": "trial-testimony",
+      "context": "From Gandhi's oral statement at the opening of the Great Trial of 1922. He acknowledged responsibility for violence that erupted during the independence movement, including the Chauri Chaura incident, while reaffirming his core commitment to non-violence.",
+      "publicReaction": "His willingness to accept responsibility while maintaining moral consistency impressed observers internationally and reinforced his image as a principled leader.",
+      "date": "March 18, 1922",
+      "source": "Great Trial of 1922; The Selected Works of Mahatma Gandhi; mkgandhi.org",
+      "sourceUrl": "https://www.mkgandhi.org/voiceoftruth/greattrial.php"
+    },
+    {
+      "text": "He Ram. (Oh Rama / Oh God)",
+      "quoteType": "reported-speech",
+      "context": "Gandhi's last words spoken on January 30, 1948, at approximately 5:13 PM, as he emerged from Birla House to walk to the evening prayer meeting in the garden. He was shot three times at point-blank range by Nathuram Godse.",
+      "publicReaction": "The words resonated globally as Gandhi's final testimony to his lifelong commitment to divine faith and non-violence, even in his moment of death. His assassination shocked the world and elevated his status as a martyr for peace.",
+      "date": "January 30, 1948",
+      "source": "Eyewitness accounts; biographies by Lou Fischer, Ramachandra Guha, and others; UCLA MANAS South Asia archives",
+      "sourceUrl": "https://southasia.ucla.edu/history-politics/gandhi/hey-ram/"
+    },
+    {
+      "text": "Because he was an 'Untouchable by adoption', he was 'more of an Untouchable in mind' than Ambedkar. However, in the course of that very conversation, Gandhi referred to the Untouchables as 'your community', and made a strong plea to Ambedkar on behalf of 'my Caste Hindu brethren'. Most of my time goes in reading Gandhiji's untouchability-eradication statements. Gandhiji should now be called 'our man', because he is now speaking our language and our thoughts.",
+      "quoteType": "reported-speech",
+      "context": "From the negotiations leading to the Poona Pact on September 24, 1932. Gandhi met with B.R. Ambedkar to negotiate representation for depressed classes (Scheduled Castes) in the legislature. The quote mixes Gandhi's statements from September 22 and Ambedkar's written assessment from November 14, 1932, to Janata readers.",
+      "publicReaction": "The Pact increased reserved seats from 71 to 148 for depressed classes. While praised by some, it remained controversial because it did not grant separate electorates (which Ambedkar demanded). Gandhi broke his fast on September 26, 1932, following the agreement.",
+      "date": "September 22-24, 1932",
+      "source": "Poona Pact documentation; Constitution of India archives; B.R. Ambedkar writings in Janata",
+      "sourceUrl": "https://www.constitutionofindia.net/historical-constitution/poona-pact-1932-b-r-ambedkar-and-m-k-gandhi/"
+    }
+  ]
+}

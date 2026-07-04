@@ -1,0 +1,42 @@
+{
+  "name": "Noor Inayat Khan",
+  "slug": "noor-inayat-khan",
+  "items": [
+    {
+      "text": "I have never come across someone like her... admired her courage, bravery and kindness.",
+      "quoteType": "reported-speech",
+      "context": "Ernst Vogt, Noor's primary Gestapo interrogator, testified after the war to Jean Overton Fuller about his respect for her character despite being her captor",
+      "publicReaction": "Widely cited in historical sources as remarkable testimony from her interrogator about her exceptional character and strength of spirit",
+      "date": "Post-war (late 1940s); published 1952",
+      "source": "Jean Overton Fuller, Madeleine (1952); referenced in Al Jazeera and multiple historical sources",
+      "sourceUrl": "https://www.aljazeera.com/features/2020/10/28/noor-inayat-khan"
+    },
+    {
+      "text": "Assistant Section Officer Inayat-Khan displayed the most conspicuous courage, both moral and physical over a period of more than 12 months.",
+      "quoteType": "published-writing",
+      "context": "Official George Cross citation recognizing her posthumous award, the highest civilian decoration for gallantry in the United Kingdom",
+      "publicReaction": "Publicly celebrated as official recognition of her heroism and exceptional character",
+      "date": "April 5, 1949 (London Gazette announcement)",
+      "source": "London Gazette, April 5, 1949; cited in Victoria Cross Canada and multiple official sources",
+      "sourceUrl": "https://vcgca.org/our-people/profile/167/Noor-un-Nisa--INAYAT-KHAN"
+    },
+    {
+      "text": "However, she refused to abandon what had become the principal and most dangerous post in France, even though she had been given the opportunity to return to England.",
+      "quoteType": "published-writing",
+      "context": "Statement in her George Cross citation describing her decision to remain as the sole radio operator in occupied France despite mortal danger",
+      "publicReaction": "Widely celebrated and cited in historical accounts as exemplary of her commitment to her mission",
+      "date": "April 5, 1949 (George Cross citation)",
+      "source": "London Gazette; Victoria Cross Canada official citation",
+      "sourceUrl": "https://vcgca.org/our-people/profile/167/Noor-un-Nisa--INAYAT-KHAN"
+    },
+    {
+      "text": "She encoded twice as many messages as he asked for and made no mistakes at all.",
+      "quoteType": "reported-speech",
+      "context": "Leo Marks, the SOE codemaster, documented her exceptional performance during her final coding examination before deployment, setting impossible tests she exceeded",
+      "publicReaction": "Documented in historical sources as evidence of her exceptional technical skill despite being underestimated by her training officers",
+      "date": "June 1943 (pre-deployment coding test)",
+      "source": "Multiple biographical sources; referenced in SWWEC article on SOE agents",
+      "sourceUrl": "https://war-experience.org/lives/noor-inayat-khan-soe/"
+    }
+  ]
+}

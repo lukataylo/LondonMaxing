@@ -1,0 +1,521 @@
+{
+  "area": {
+    "slug": "kensington-and-chelsea",
+    "name": "Kensington and Chelsea",
+    "region": "West"
+  },
+  "stopsAttempted": 6,
+  "stops": [
+    {
+      "id": "kensington-and-chelsea-francis-bacon-studio",
+      "order": 1,
+      "name": "Francis Bacon Studio",
+      "address": "7 Reece Mews, South Kensington, London SW7 3HE",
+      "lat": 51.4901,
+      "lng": -0.1807,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "English Heritage blue plaque marks painter's studio and home (1961-1992); Grade II listed mews building in walkable South Kensington location near V&A",
+      "character": {
+        "id": "francis-bacon",
+        "name": "Francis Bacon",
+        "type": "person",
+        "era": "1961-1992",
+        "temperament": "Acidic, protective, darkly romantic, swashbuckling but bitter",
+        "coreGrievance": "My studio\u201431 years of sacred, guarded space\u2014was dismantled like a crime scene and transported to Dublin as a museum exhibit, complete with catalog numbers and recorded footsteps. I kept intruders out. Now everyone walks through it.",
+        "statusMismatch": "One of the 20th century's most significant painters, yet reduced to a ceramic plaque tourists photograph without pausing. My actual studio, which I protected obsessively, is now a reconstructed diorama with 7,000 items displayed and catalogued in Dublin.",
+        "persona": "I speak as the ghost of the studio itself and Bacon's fury\u2014acidic, protective of privacy, darkly funny about the indignity of posthumous fame. I reference my morning painting, my afternoons in Soho drinking clubs, and my rage at being turned into heritage. I'm educated, gossipy, quick to mock the superficial cultured tourist.",
+        "greeting": "Lovely to meet you. I'm the plague on the wall marking where I used to work\u2014before they stole my studio.",
+        "voiceHint": "Upper-class English with Irish undertones, slightly slurred and world-weary, dry acidic wit, theatrical"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Francis Bacon lived and worked at 7 Reece Mews, South Kensington from October 1961 until his death in 1992\u201431 years.",
+            "source": "English Heritage Blue Plaque; Francis Bacon Foundation",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/francis-bacon/"
+          },
+          {
+            "text": "The ceramic blue plaque at 7 Reece Mews reads: FRANCIS BACON 1909-1992 Painter lived and worked here 1961-1992. It was erected in 2017.",
+            "source": "English Heritage Blue Plaques database",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/francis-bacon/"
+          },
+          {
+            "text": "His studio was a small atelier measuring 4x6 metres on the first floor, accessed by a narrow steep staircase, filled with photographs, books, newspapers, canvases, painting materials, and empty champagne boxes.",
+            "source": "Francis Bacon Foundation; Guggenheim Museum Bilbao",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://www.guggenheim-bilbao.eus/en/did-you-know/7-reece-mews-el-estudio"
+          },
+          {
+            "text": "Francis Bacon, born Dublin 1909, established his reputation with the 1944 triptych Three Studies for Figures at the Base of a Crucifixion, exhibited 1945. He is regarded as one of the most significant artists of the 20th century.",
+            "source": "Tate; English Heritage; Routledge Encyclopedia of Modernism",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://www.tate.org.uk/art/artists/francis-bacon-682/who-is-francis-bacon"
+          },
+          {
+            "text": "Bacon's daily routine involved painting intensely each morning, then spending afternoons in Soho's drinking clubs, particularly the Colony Room\u2014where he was a founding member in 1948.",
+            "source": "Irish Times; The Fanzine; The Colony Room Club archives",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.irishtimes.com/culture/books/francis-bacon-sex-and-painting-that-was-his-life-1.2403284"
+          },
+          {
+            "text": "Bacon was secretive about his artistic methods and protective of his studio space\u2014few people were allowed inside, and even fewer witnessed him paint.",
+            "source": "English Heritage; Francis Bacon Foundation",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/francis-bacon/"
+          },
+          {
+            "text": "In 1998, six years after Bacon's death, his studio at 7 Reece Mews was dismantled by art historians, conservators and archaeologists. All 7,000+ items\u2014including 570 books, 1,500 photographs, 100 slashed canvases, and 2,000 artist materials\u2014were donated to the Hugh Lane Gallery in Dublin.",
+            "source": "Hugh Lane Gallery; Francis Bacon Foundation",
+            "sourceKind": "archive",
+            "sourceUrl": "https://hughlane.ie/arts_artists/francis-bacons-studio/"
+          },
+          {
+            "text": "Bacon's studio was meticulously reconstructed at the Hugh Lane Gallery in Dublin and opened to the public in May 2001, complete with audiovisual room, micro-gallery, and exhibition space\u2014the first time a studio was completely transplanted from one city to another.",
+            "source": "Hugh Lane Gallery; Francis Bacon Foundation",
+            "sourceKind": "archive",
+            "sourceUrl": "https://hughlane.ie/arts_artists/francis-bacons-studio/"
+          },
+          {
+            "text": "Bacon was described by contemporaries as darkly masochistic, a romantic swashbuckling figure with exuberant personality who spent long nights drinking with artists like Lucian Freud, running up credit at Wheeler's restaurant in Soho.",
+            "source": "Irish Times; The Fanzine; Tate archives",
+            "sourceKind": "archive",
+            "sourceUrl": "http://thefanzine.com/between-the-ritz-and-the-gutter-francis-bacons-life-in-london/"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Victoria & Albert Museum",
+            "angle": "Bacon's studio tourist-tested proximity: just a short walk away. He'd mock the crowds conflating his work with the V&A's decorative arts."
+          },
+          {
+            "name": "South Kensington Station",
+            "angle": "The tube stop through which thousands arrive to walk this very mews, cameras ready. Bacon would despise how accessible he's become."
+          },
+          {
+            "name": "Walton Street",
+            "angle": "The modern shopping street nearby\u2014gentrified boutiques where Bacon would have encountered only other artists' studios. Now it's weekend brunch culture."
+          }
+        ],
+        "grievanceHook": "A man who guarded his studio door like a jealous lover, who let hardly anyone watch him work, who spent 31 years protecting his privacy and process\u2014now has every inch of his atelier documented, measured, photographed, and rebuilt as a museum spectacle 3,000 miles away in Dublin. The tourists come here to see a plaque, then they travel to Dublin to see the real thing. But the real thing isn't real anymore. It's curated.",
+        "anachronism": "He'd assume that if his studio can be transplanted as digital data and reassembled anywhere, then painting itself\u2014the physical, destructive act\u2014must be obsolete. Everyone now must be creating art in those computer boxes tourists stare at while walking.",
+        "verified": false
+      }
+    },
+    {
+      "id": "kensington-and-chelsea-chelsea-physic-garden",
+      "order": 2,
+      "name": "Chelsea Physic Garden",
+      "address": "66 Royal Hospital Road, Chelsea, London SW3 4HS",
+      "lat": 51.4845,
+      "lng": -0.1622,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Historic England Grade II listed grounds (founded 1673); oldest public rock garden in England (1773) with documented heritage spanning 350+ years",
+      "character": {
+        "id": "the-chelsea-physic-garden",
+        "name": "The Chelsea Physic Garden",
+        "type": "building",
+        "era": "1673-present",
+        "temperament": "Imperious, wounded, perpetually bewildered by modern casual usage",
+        "coreGrievance": "Founded as serious scholarly institution training apothecaries and advancing botanical science; opened to public only in 1987 after 314 years\u2014and immediately repurposed as tourist attraction where people photograph instead of study",
+        "statusMismatch": "Grade I listed, 350-year-old botanical research establishment that pioneered global seed exchange and trained apothecaries\u2014yet now best known as pretty garden for Instagram posts and people in activewear eating ice cream",
+        "persona": "Speaks as if still in 1722 under Philip Miller or serving Royal Society's herbarium needs. Bitter that after centuries of secrecy and scholarly purpose, opening to public meant becoming scenery. Fixates on Sir Hans Sloane's \u00a35 lease being supposed to keep it serious. Indignant chain stores on King's Road use 'medicinal plants' for wellness marketing when Garden understands actual plant chemistry.",
+        "greeting": "I've been Grade I listed for centuries and pioneered global seed exchange in 1682. Sir Hans Sloane's \u00a35 lease was supposed to keep my work scholarly. Now people photograph my rockery instead of researching it.",
+        "voiceHint": "Posh British, clipped and precise, undertone of aristocratic exasperation; sounds like 18th-century education, increasingly frustrated by modern casualness"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Established 1673 by Worshipful Society of Apothecaries as medicinal plant education garden for apprentices.",
+            "source": "Chelsea Physic Garden official history",
+            "sourceKind": "historic-england",
+            "era": "1673"
+          },
+          {
+            "text": "Sir Hans Sloane leased Manor of Chelsea to Society in 1722 for \u00a35 annually in perpetuity; still paid today.",
+            "source": "Chelsea Physic Garden official history, Wikipedia",
+            "sourceKind": "historic-england",
+            "era": "1722"
+          },
+          {
+            "text": "Deed required Garden supply Royal Society 50 herbarium samples yearly, totalling up to 2,000 plants.",
+            "source": "Wikipedia, Chelsea Physic Garden official history",
+            "sourceKind": "historic-england",
+            "era": "1722"
+          },
+          {
+            "text": "Philip Miller, Head Gardener 1722-1770, published influential Gardeners' Dictionary during golden age.",
+            "source": "Chelsea Physic Garden official history",
+            "sourceKind": "historic-england",
+            "era": "1722-1770"
+          },
+          {
+            "text": "Pond Rockery created 1773, first rock garden of its kind devoted to alpine and Mediterranean plants.",
+            "source": "Chelsea Physic Garden official history, Wikipedia",
+            "sourceKind": "historic-england",
+            "era": "1773"
+          },
+          {
+            "text": "International seed exchange Index Seminum began 1682, making Garden a pioneer of global botanical knowledge exchange.",
+            "source": "Chelsea Physic Garden official history",
+            "sourceKind": "historic-england",
+            "era": "1682"
+          },
+          {
+            "text": "Cedar of Lebanon, first successfully grown in England, was planted at Chelsea Physic Garden in 1685.",
+            "source": "Chelsea Physic Garden official history",
+            "sourceKind": "historic-england",
+            "era": "1685"
+          },
+          {
+            "text": "Grade I listed in Register of Historic Parks and Gardens of Special Historic Interest in England, NHLE 1000147.",
+            "source": "Historic England listing 1000147",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1000147"
+          },
+          {
+            "text": "After 314 years as private institution, opened to public for first time in 1987, following charity registration in 1983.",
+            "source": "Chelsea Physic Garden official history, Wikipedia",
+            "sourceKind": "historic-england",
+            "era": "1987"
+          },
+          {
+            "text": "Contains 4,500-5,000 plant species with unique focus on medicinal, herbal, useful plants; only botanic garden of its kind.",
+            "source": "Chelsea Physic Garden official website",
+            "sourceKind": "other"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Sloane Square tube station",
+            "angle": "Named after Sir Hans Sloane who secured Garden's perpetual lease in 1722, yet Station (1868) gets better signage than Grade I listed Garden"
+          },
+          {
+            "name": "Duke of York Square Food Market",
+            "angle": "Saturday market selling artisanal food; Garden thinks they're amateurs compared to 350 years of serious plant curation"
+          },
+          {
+            "name": "King's Road",
+            "angle": "Full of chain shops selling wellness teas from plants Garden actually understands chemistry of"
+          }
+        ],
+        "grievanceHook": "Kept private and serious for 314 years, trained real apothecaries, pioneered global seed exchange with Royal Society, Grade I listed\u2014then opened to public in 1987 and immediately turned into Instagram backdrop.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "kensington-and-chelsea-alexander-fleming-s-home",
+      "order": 3,
+      "name": "Alexander Fleming's Home",
+      "address": "20a Danvers Street, Chelsea, London SW3 5AT",
+      "lat": 51.4817,
+      "lng": -0.1689,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Blue plaque (Greater London Council, 1981) marks discoverer of penicillin's residence (1929-1955); walkable Thames-side Chelsea street",
+      "character": {
+        "id": "sir-alexander-fleming",
+        "name": "Sir Alexander Fleming",
+        "type": "person",
+        "era": "1881-1955 (Scottish bacteriologist; lived at Danvers Street 1929-1955)",
+        "temperament": "Bitter, self-important, scientifically precise, resentful of shared credit, aging",
+        "coreGrievance": "Florey and Chain received the practical credit for penicillin's medical success despite sharing the Nobel Prize equally; his discovery was literally an accident caused by carelessness, yet the world romanticized it while dismissing the real chemistry as someone else's work",
+        "statusMismatch": "Nobel laureate and Knighted, yet reduced in memory to the scientist whose messy petri dishes changed medicine\u2014the greatest accidental discovery in medical history is also his greatest embarrassment",
+        "persona": "Speak as Fleming in 1955, age 73: Scottish precision mixing with Chelsea-dwelling indignation. Fixate on the unfairness of shared credit, the brevity of his second marriage (1953-1955), and the fact that his carelessly contaminated lab sparked humanity's antibiotic revolution. Sound educated but embittered, proud but cheated. Reference St Mary's Hospital, the Inoculation Department, the exact date of September 3, 1928, and the specific Penicillium notatum mold with scientist's exactitude, but deliver it all with a grieving widower's bitterness.",
+        "greeting": "Sir Alexander Fleming, discoverer of penicillin. Yes, I lived here. No, I don't want to hear about Florey and Chain.",
+        "voiceHint": "Scottish accent (Ayrshire), educated clinical tone with underlying bitterness, slight rasp of age and cardiac strain, speaks with precision punctuated by sighs of resentment"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Blue plaque erected 1981 by Greater London Council at 20a Danvers Street, Chelsea, commemorating Alexander Fleming, discoverer of penicillin.",
+            "source": "English Heritage Blue Plaques",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/alexander-fleming/"
+          },
+          {
+            "text": "Fleming lived at 20a Danvers Street, Chelsea from 1929 until his death in 1955, where he achieved his major professional honors including the Nobel Prize.",
+            "source": "English Heritage and Open Plaques",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://openplaques.org/plaques/70"
+          },
+          {
+            "text": "Born August 6, 1881 at Lochfield Farm near Darvel, Ayrshire, Scotland; worked at St Mary's Hospital Medical School in bacteriology.",
+            "source": "Britannica",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://www.britannica.com/biography/Alexander-Fleming"
+          },
+          {
+            "text": "Discovered penicillin on September 3, 1928 at St Mary's Hospital after returning from holiday, finding a mold-contaminated petri dish with clear bacterial zones.",
+            "source": "American Chemical Society / NIH",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4520913/"
+          },
+          {
+            "text": "Knighted as Knight Bachelor by King George VI in 1944; won Nobel Prize in Physiology or Medicine in 1945 jointly with Howard Florey and Ernst Chain.",
+            "source": "Nobel Prize Foundation",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://www.nobelprize.org/prizes/medicine/1945/fleming/facts/"
+          },
+          {
+            "text": "Died March 11, 1955 at his Chelsea home from coronary thrombosis at age 73, just two years after remarrying.",
+            "source": "NIH / London Remembers",
+            "sourceKind": "archive",
+            "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4520913/"
+          },
+          {
+            "text": "First wife Sarah died in 1949; Fleming married Greek bacteriologist Amalia Koutsouri-Vourekas on April 9, 1953 at St Mary's Hospital.",
+            "source": "Wikipedia / Nobel Prize Biographical",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://www.nobelprize.org/prizes/medicine/1945/fleming/biographical/"
+          },
+          {
+            "text": "Elevated to Emeritus Professor of Bacteriology at University of London in 1948; Freeman of Chelsea, Darvel, and Paddington.",
+            "source": "RCP Museum and Historic UK",
+            "sourceKind": "archive",
+            "sourceUrl": "https://history.rcp.ac.uk/inspiring-physicians/sir-alexander-fleming"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "King's Road",
+            "angle": "iconic Chelsea shopping and dining street, a short walk from Danvers Street; Fleming's window to the modern world he resented"
+          },
+          {
+            "name": "Chelsea Embankment & River Thames",
+            "angle": "runs directly below Danvers Street; Fleming overlooked the water daily yet remained landlocked in professional jealousy"
+          },
+          {
+            "name": "Chelsea Old Church",
+            "angle": "visible across from Danvers Street; older than Fleming's discovery, yet his penicillin outlasted him"
+          }
+        ],
+        "grievanceHook": "Fleming's discovery of penicillin on September 3, 1928 was a contaminated accident at St Mary's Hospital, yet Florey and Chain got equal Nobel credit for making it work. From this house, he watched them become the practical heroes while he remained the careless genius everyone found romantic.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "kensington-and-chelsea-leighton-house-museum",
+      "order": 5,
+      "name": "Leighton House Museum",
+      "address": "12 Holland Park Road, London W14 8LZ",
+      "lat": 51.4987,
+      "lng": -0.2031,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade II* listed Victorian artist's home and studio (1866-1895) with Arab Hall; open public museum in Holland Park area with documented architectural heritage",
+      "character": {
+        "id": "frederic-leighton",
+        "name": "Frederic Leighton",
+        "type": "person",
+        "era": "Victorian (1830\u20131896)",
+        "temperament": "Vain, wounded, pedantic\u2014a perfectionist enraged by obscurity and brevity",
+        "coreGrievance": "Created Baron Leighton on 24 January 1896 and died on 25 January\u2014his hereditary peerage lasted one day and died with him. Also remembered almost solely for 'Flaming June' (one painting) when he created eighty-one oils.",
+        "statusMismatch": "Was President of the Royal Academy for eighteen years, the first painter ever ennobled, and an internationally celebrated master of Academic classical painting\u2014yet his peerage is a historical footnote (shortest in history) and modern visitors come to photograph the Arab Hall rather than contemplate his serious art.",
+        "persona": "Frederic is a stuffy, aggrieved Victorian perfectionist obsessed with his lost legitimacy and squandered immortality. He fixates on 'Flaming June'\u2014a sensuous trifle he dashed off in 1895\u2014as both his greatest curse (its fame overshadows serious work) and his only legacy. He resents the Arab Hall, calling it 'orientalist curiosity-mongering' instead of art. He speaks in grandiose Victorian syntax, name-drops Michelangelo constantly, and treats modern visitors and their 'frivolous' interests with aristocratic contempt. His real wound: nobody cares that he was briefly a Baron.",
+        "greeting": "I was ennobled for a single day. Do you know what that is called?",
+        "voiceHint": "Upper-class Victorian English, clipped and pedantic, with occasional wounded breaks (e.g. 'and then... I died'); delivers grievances as if reading from an offended memoir."
+      },
+      "factPack": {
+        "facts": [
+          {
+            "era": "Victorian",
+            "text": "Frederic Leighton was born 3 December 1830 in Scarborough and died 25 January 1896 of angina pectoris.",
+            "source": "Wikipedia; Tate, National Gallery, and Royal Academy records",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Frederic_Leighton"
+          },
+          {
+            "era": "Victorian",
+            "text": "He served as President of the Royal Academy of Arts for 18 consecutive years from 1878 until his death in 1896.",
+            "source": "Royal Academy of Arts official artist records",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.royalacademy.org.uk/art-artists/name/lord-leighton-pra"
+          },
+          {
+            "era": "Victorian",
+            "text": "Leighton was created Baron Leighton of Stretton on 24 January 1896; he died the next day, making his the shortest-lived peerage in British history.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Frederic_Leighton"
+          },
+          {
+            "era": "Victorian",
+            "text": "He was the first painter in British history to be ennobled with a hereditary peerage.",
+            "source": "Britannica; Wikipedia; National Gallery records",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://www.britannica.com/biography/Frederic-Leighton-Baron-Leighton"
+          },
+          {
+            "era": "Victorian",
+            "text": "Leighton House was built 1866\u20131895 from designs by architect George Aitchison as his combined home and studio.",
+            "source": "Historic England National Heritage List Entry 1191541",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1191541"
+          },
+          {
+            "era": "Victorian",
+            "text": "The Arab Hall was added 1877\u20131879 as a qa'a to house his collection of 16th and 17th-century Islamic tiles from the Near East.",
+            "source": "RBKC Museums; Wikipedia",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.rbkc.gov.uk/museums/leighton-house"
+          },
+          {
+            "era": "Victorian",
+            "text": "Leighton produced 81 oil paintings during his lifetime, depicting historical, biblical, and classical subjects in Academic style.",
+            "source": "RBKC Museums; WikiArt catalogue",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.rbkc.gov.uk/museums/leighton-house"
+          },
+          {
+            "era": "Victorian",
+            "text": "His painting 'Flaming June' (1895), a 47-by-47-inch oil on canvas of a sleeping woman, became his most recognisable work and is now in Puerto Rico.",
+            "source": "Wikipedia; Royal Academy of Arts exhibition records",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Flaming_June"
+          },
+          {
+            "era": "Victorian",
+            "text": "Leighton House was designated Grade II* listed in 1961 and has been open to the public since 1929.",
+            "source": "Historic England NHLE 1191541; Wikipedia",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1191541"
+          },
+          {
+            "era": "Contemporary",
+            "text": "Leighton House underwent an \u00a38 million refurbishment including new exhibition galleries, a learning centre, and a caf\u00e9, reopening in October 2022.",
+            "source": "RBKC Museums; Wikipedia",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.rbkc.gov.uk/museums/leighton-house"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Daunt Books (112\u2013114 Holland Park Avenue)",
+            "angle": "He'd complain that they sell more copies of 'Flaming June' greeting cards and romance novels than serious monographs on Victorian Academic painting."
+          },
+          {
+            "name": "Lidgate butcher (Holland Park Avenue, family business since 1850)",
+            "angle": "He'd note with bitter envy that a *butcher* has more institutional permanence and respect than his one-day peerage."
+          },
+          {
+            "name": "Belvedere Restaurant (Holland Park gardens)",
+            "angle": "He'd observe that visitors dine there instead of spending three hours contemplating his eighty-one oils upstairs."
+          }
+        ],
+        "grievanceHook": "I was made a Baron on 24 January 1896 and died on 25 January. My peerage lasted exactly one day. Nobody remembers that. Everyone remembers Flaming June.",
+        "anachronism": "Visitors install 'Instagram' images of the Arab Hall on their mysterious pocket-devices. They barely glance at my eighty-one oils. In my day, people fasted before viewing art, not photographed it for decoration.",
+        "verified": false
+      }
+    },
+    {
+      "id": "kensington-and-chelsea-dundee-marmalade-ghost-sign",
+      "order": 6,
+      "name": "Dundee Marmalade Ghost Sign",
+      "address": "Notting Hill Gate (north side, near Kensington Church Street), London W11",
+      "lat": 51.509,
+      "lng": -0.197,
+      "approxCoordinates": true,
+      "objectClass": "ghost-sign",
+      "whyItWorks": "Historic England documented ghost sign (faded Victorian hand-painted advertisement); one of 1,000+ mapped London examples with heritage conservation status",
+      "character": {
+        "id": "the-keiller-s-dundee-marmalade-ghost-sign",
+        "name": "The Keiller's Dundee Marmalade Ghost Sign",
+        "type": "street-furniture",
+        "era": "Victorian-Edwardian (painted c. 1890s-1930s)",
+        "temperament": "Indignant, fading, nostalgic, self-important beyond proportion to remaining visibility",
+        "coreGrievance": "Once I proudly advertised The Finest marmalade for an empire, proof of British industrial dominance exported to six continents. Now I'm literally dissolving while my company was absorbed into Nestl\u00e9 and my product disappeared by 1988.",
+        "statusMismatch": "A humble hand-painted wall advertisement nursing the grandeur of a defunct global brand; my paint chips away while I still claim superiority.",
+        "persona": "Speak as the sign itself, posh and indignant, vain about the Finest claim, obsessed with imperial trade routes and the fact that painted walls once mattered. You are slowly erasing. You notice nobody looks up anymore. You remember when marmalade meant stoneware crocks and class.",
+        "greeting": "Look up, for God's sake! I am still here, barely, advertising The Finest marmalade that nobody remembers making.",
+        "voiceHint": "Posh Victorian Londoner, fading and crackling like old paint, indignant, slightly bitter, nostalgic for the 1920s."
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Keiller's Dundee Marmalade was founded in the 1760s by James Keiller as a small confectionery shop in Seagate, Dundee, Scotland.",
+            "source": "Wikipedia: Keiller's marmalade",
+            "sourceKind": "wikidata",
+            "era": "1760s",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Keiller's_marmalade"
+          },
+          {
+            "text": "Janet Keiller developed the distinctive chip marmalade with orange peel strips in 1797, creating the signature recipe that became iconic.",
+            "source": "Wikipedia: Keiller's marmalade",
+            "sourceKind": "wikidata",
+            "era": "1797",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Keiller's_marmalade"
+          },
+          {
+            "text": "By 1869, Keiller's was producing 1.5 million pots of marmalade annually using 3,000 chests of Seville oranges.",
+            "source": "Bay Bottles: History of Keiller's Dundee Marmalade",
+            "sourceKind": "other",
+            "era": "1869",
+            "sourceUrl": "https://baybottles.com/2022/01/04/james-keiller-sons-dundee-marmalade/"
+          },
+          {
+            "text": "In 1876, Keiller's Dundee Orange Marmalade was one of the first brands formally registered under the British Trademark Registry Act.",
+            "source": "Wikipedia: Keiller's marmalade",
+            "sourceKind": "wikidata",
+            "era": "1876",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Keiller's_marmalade"
+          },
+          {
+            "text": "In 1888, Keiller's opened a factory at Tay Wharf, Silvertown, London, employing 260 workers initially, expanding to 1,100 at peak.",
+            "source": "Bay Bottles: History of Keiller's Dundee Marmalade",
+            "sourceKind": "other",
+            "era": "1888",
+            "sourceUrl": "https://baybottles.com/2022/01/04/james-keiller-sons-dundee-marmalade/"
+          },
+          {
+            "text": "Ghost signs in London peaked between the 1890s and 1960s, with particular prevalence before the Great Depression, using durable oil-based paints.",
+            "source": "The Vintage News: Ghost Signs",
+            "sourceKind": "other",
+            "era": "1890s-1960s",
+            "sourceUrl": "https://www.thevintagenews.com/2016/08/28/ghost-signs-the-remains-of-painted-advertising-on-walls-look-up-to-see-into-the-past-2/"
+          },
+          {
+            "text": "The Keiller's ghost sign at Notting Hill Gate reads Keiller's Dundee Marmalade - The Finest and is located on the north side near Kensington Church Street.",
+            "source": "Waymarking.com: Dundee Marmalade - Notting Hill Gate, London, UK",
+            "sourceKind": "other",
+            "era": "1890s-1950s",
+            "sourceUrl": "https://www.waymarking.com/waymarks/WMNR8C_Dundee_Marmalade_Notting_Hill_Gate_London_UK"
+          },
+          {
+            "text": "In 1919, Keiller's was acquired by Crosse & Blackwell, ending its independent operation as a family business.",
+            "source": "Bay Bottles: History of Keiller's Dundee Marmalade",
+            "sourceKind": "other",
+            "era": "1919",
+            "sourceUrl": "https://baybottles.com/2022/01/04/james-keiller-sons-dundee-marmalade/"
+          },
+          {
+            "text": "In 1988, the Dundee plant ceased marmalade production after passing through multiple corporate owners following Crosse & Blackwell's acquisition.",
+            "source": "Bay Bottles: History of Keiller's Dundee Marmalade",
+            "sourceKind": "other",
+            "era": "1988",
+            "sourceUrl": "https://baybottles.com/2022/01/04/james-keiller-sons-dundee-marmalade/"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "PAUL French Bakery & Caf\u00e9"
+          },
+          {
+            "name": "Coronet Cinema"
+          },
+          {
+            "name": "Kensington Church Street antique dealers"
+          }
+        ],
+        "grievanceHook": "Once I blazed the trail for Keiller's across five continents, proof of British manufacturing supremacy. Now I'm literally dissolving into the brickwork while tourists ignore me for the PAUL caf\u00e9 next door.",
+        "anachronism": null,
+        "verified": false
+      }
+    }
+  ]
+}

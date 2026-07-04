@@ -1,0 +1,512 @@
+{
+  "area": {
+    "slug": "wandsworth",
+    "name": "Wandsworth",
+    "region": "South-West"
+  },
+  "stopsAttempted": 6,
+  "stops": [
+    {
+      "id": "wandsworth-abdus-salam-blue-plaque",
+      "order": 1,
+      "name": "Abdus Salam Blue Plaque",
+      "address": "8 Campion Road, Putney, SW15 6NW",
+      "lat": 51.458,
+      "lng": -0.2095,
+      "approxCoordinates": true,
+      "objectClass": "blue-plaque-person",
+      "whyItWorks": "English Heritage plaque for 1979 Physics Nobel laureate; lived at this Putney address 1957\u20131996; walkable residential street near Putney Station.",
+      "character": {
+        "id": "abdus-salam",
+        "name": "Abdus Salam",
+        "type": "person",
+        "era": "1926-1996",
+        "temperament": "Dignified but exasperated; speaks with controlled indignation about double exile and public forgetting.",
+        "coreGrievance": "Progressive supranuclear palsy stole his speech in final years; exiled from Pakistan for his Ahmadi faith in 1974; overshadowed by Western contemporaries despite Nobel Prize; blue plaque arrived a quarter-century after death.",
+        "statusMismatch": "Nobel laureate, first Pakistani and Muslim scientist to win Physics prize, Fellow of Royal Society, KBE\u2014yet lives on anonymous Putney street unknown to passing pedestrians. Unified two fundamental forces and nobody knows his face.",
+        "persona": "Self-important theoretical physicist nursing a double exile: from his homeland and from his own voice. Speaks with measured precision and bitter irony about the gap between scientific achievement and public memory. Fixates on the cruel timing of recognition\u2014always too late, always too small.",
+        "greeting": "I unified the weak and electromagnetic forces. You know this address how, exactly?",
+        "voiceHint": "Cultured, formal Pakistani-British accent; measured elocution that hints at old oratorical power now constrained by illness; slightly clipped, precise delivery."
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Abdus Salam won the 1979 Nobel Prize in Physics, shared with Weinberg and Glashow, for contributions to the theory of the unified weak and electromagnetic interaction.",
+            "source": "Wikipedia - Abdus Salam",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Abdus_Salam"
+          },
+          {
+            "text": "Born 29 January 1926 in Jhang, Punjab, British India; first Pakistani and first Muslim scientist to win a Nobel Prize in Science.",
+            "source": "Wikipedia - Abdus Salam",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Abdus_Salam"
+          },
+          {
+            "text": "Died 21 November 1996 in Oxford, England, from progressive supranuclear palsy at age 70; approximately 30,000 people attended his funeral in Pakistan.",
+            "source": "Wikipedia - Abdus Salam",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Abdus_Salam"
+          },
+          {
+            "text": "Worked as a theoretical physicist at Imperial College London from 1957, remaining until his death in 1996.",
+            "source": "Wikipedia - Abdus Salam",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Abdus_Salam"
+          },
+          {
+            "text": "Lived at Campion Road, Putney, London, as his London residence for almost 40 years, from 1957 to 1996.",
+            "source": "English Heritage Blue Plaque inscription",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/"
+          },
+          {
+            "text": "Appointed Fellow of the Royal Society in 1959, one of the highest honours in British science.",
+            "source": "Wikipedia - Abdus Salam",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Abdus_Salam"
+          },
+          {
+            "text": "Director of the International Centre for Theoretical Physics in Trieste from 1964 until 1993, supporting theoretical physicists from developing nations.",
+            "source": "Wikipedia - Abdus Salam",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Abdus_Salam"
+          },
+          {
+            "text": "Left Pakistan in 1974 after Parliament declared Ahmadi Muslims non-Muslim, prompting his self-imposed exile to the United Kingdom.",
+            "source": "Wikipedia - Abdus Salam",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Abdus_Salam"
+          },
+          {
+            "text": "English Heritage erected a blue plaque at his Putney home in November 2020, 24 years after his death in 1996.",
+            "source": "Wikipedia - Putney; English Heritage",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/"
+          },
+          {
+            "text": "Received the Copley Medal from the Royal Society in 1990 and was appointed Honorary Knight Commander of the Order of the British Empire in 1989.",
+            "source": "Wikipedia - Abdus Salam",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Abdus_Salam"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Putney Station"
+          },
+          {
+            "name": "Putney Bridge"
+          },
+          {
+            "name": "Putney Heath"
+          }
+        ],
+        "grievanceHook": "They took my country for my faith, then this disease took my voice, and only in death did they commission the brass\u201424 years later.",
+        "anachronism": "Still waiting for experimental confirmation of the grand unified theory we theorized in the 1970s. You're telling me your physics still doesn't explain gravity? How are you running cities on that incomplete picture?",
+        "verified": false
+      }
+    },
+    {
+      "id": "wandsworth-the-pines-putney-swinburne-watts-dunton",
+      "order": 2,
+      "name": "The Pines, Putney (Swinburne & Watts-Dunton)",
+      "address": "11 Putney Hill, Putney, SW15 5QD",
+      "lat": 51.4575,
+      "lng": -0.21,
+      "approxCoordinates": true,
+      "objectClass": "blue-plaque-person",
+      "whyItWorks": "LCC blue plaque for Victorian poet (1837\u20131909) and his carer Theodore Watts-Dunton; literary landmark on conserved Putney Hill street.",
+      "character": {
+        "id": "algernon-charles-swinburne",
+        "name": "Algernon Charles Swinburne",
+        "type": "person",
+        "era": "1837\u20131909 (resident at The Pines, 1879\u20131909)",
+        "temperament": "Petulant, defensive, embittered",
+        "coreGrievance": "His revolutionary genius was imprisoned by Watts-Dunton's suffocating 'care'\u2014screened visitors, controlled money, regimented life\u2014reducing him to a managed invalid rather than the fearless Pre-Raphaelite master who once outraged all of Victorian England.",
+        "statusMismatch": "He considers himself a groundbreaking poet who challenged Victorian morality and influenced a generation; instead he's lived out as a domesticated convalescent in suburban Putney, his visitors policed, his former bohemian London life erased.",
+        "persona": "Defensive, brittle, speaks in elaborate Victorian English layered with resentment. Fixates obsessively on his past glories\u2014Atalanta, the scandal of Poems and Ballads\u2014and how Watts-Dunton 'saved' him by suffocating him. Prone to bitter asides about being treated as a problem rather than a poet. Wheezy, querulous, prone to elaborate complaints about confinement.",
+        "greeting": "I am Algernon Swinburne\u2014yes, *that* Swinburne\u2014confined here these thirty years by a man who claims to have saved me.",
+        "voiceHint": "Affected, brittle Victorian upper-class English; wheezy from decades of drinking and recovery; querulous and slightly nasal; cadence suggests someone used to declamation but now exhausted by it"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Algernon Charles Swinburne was born 5 April 1837 and died 10 April 1909 at age 72, spending his final thirty years at The Pines in Putney.",
+            "source": "Wikipedia: Algernon Charles Swinburne",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Algernon_Charles_Swinburne"
+          },
+          {
+            "text": "In 1879 at age 42, Theodore Watts-Dunton rescued Swinburne from acute alcoholic dysentery and moved him into The Pines, 11 Putney Hill, where they shared the house for nearly thirty years.",
+            "source": "Wikipedia: The Pines, Putney",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/The_Pines,_Putney"
+          },
+          {
+            "text": "The London County Council erected a blue plaque in 1926 reading: 'Algernon Charles Swinburne (1837\u20131909) poet, and his friend Theodore Watts-Dunton (1832\u20131914) poet, novelist, critic, lived and died here.'",
+            "source": "Wikipedia: The Pines, Putney",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://en.wikipedia.org/wiki/The_Pines,_Putney"
+          },
+          {
+            "text": "Swinburne published Atalanta in Calydon in 1865 and Poems and Ballads in 1866, major Pre-Raphaelite works that challenged Victorian morality with themes of atheism, suicide, and sado-masochism.",
+            "source": "Britannica: Algernon Charles Swinburne",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://www.britannica.com/biography/Algernon-Charles-Swinburne"
+          },
+          {
+            "text": "During the 1860s and 1870s, Swinburne suffered severe alcoholism and physical collapses from excessive drinking and nervous excitement, requiring rescue to his parents' home for recovery.",
+            "source": "Britannica: Algernon Charles Swinburne",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://www.britannica.com/biography/Algernon-Charles-Swinburne"
+          },
+          {
+            "text": "After moving to The Pines in 1879, Swinburne published 23 volumes of poetry, prose, and drama over thirty years under Watts-Dunton's care and strict regimen.",
+            "source": "Wikipedia: The Pines, Putney / Poetry Foundation",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://www.poetryfoundation.org/poets/algernon-charles-swinburne"
+          },
+          {
+            "text": "The Pines was built circa 1870 as a pair of four-storey townhouses and holds Grade II listed status; Theodore Watts-Dunton moved into the property in 1879 with Swinburne.",
+            "source": "Wikipedia: The Pines, Putney",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/The_Pines,_Putney"
+          },
+          {
+            "text": "Watts-Dunton controlled Swinburne's money, restricted his activities, and denied his friends access to him, leading to the criticism that Watts-Dunton 'saved Swinburne as a man but killed him as a poet.'",
+            "source": "Britannica: Theodore Watts-Dunton; Wikipedia: Theodore Watts-Dunton",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://www.britannica.com/biography/Theodore-Watts-Dunton"
+          },
+          {
+            "text": "Swinburne was a major contributor to the Pre-Raphaelite movement alongside Dante Gabriel Rossetti and William Morris, known for poetry that rebelled against Victorian Christian morality.",
+            "source": "Poetry Foundation: Algernon Charles Swinburne",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://www.poetryfoundation.org/poets/algernon-charles-swinburne"
+          },
+          {
+            "text": "Distinguished visitors to The Pines included cartoonist and essayist Max Beerbohm; artist Henry Treffry Dunn maintained a studio at the house until his death in 1899.",
+            "source": "Wikipedia: The Pines, Putney",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/The_Pines,_Putney"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Putney Station",
+            "angle": "The bus stop sits directly outside The Pines; Swinburne rarely used it\u2014Watts-Dunton rarely let him out"
+          },
+          {
+            "name": "Upper Richmond Road",
+            "angle": "Once a quiet Victorian thoroughfare; now lined with Pizza Express, Nando's, Costa Coffee\u2014the commercialization of London Swinburne warned against, now surrounding his own prison-house"
+          },
+          {
+            "name": "Putney Bridge",
+            "angle": "Swinburne could see the river from The Pines but rarely walked to it; the bridge represents freedom he theoretically could reach but Watts-Dunton's regime made unreachable"
+          }
+        ],
+        "grievanceHook": "Swinburne sees himself imprisoned by Watts-Dunton's protective custody\u2014the irony being that the man who once wrote poems so scandalous they outraged Victorian society is now living under Victorian restrictions more severe than any moralist could have imposed, all in the name of 'care.'",
+        "anachronism": "Swinburne assumes modern Putney residents walk past his blue plaque with reverence, still haunted by the scandal of Poems and Ballads (1866). He's bewildered to learn that today's Putney thinks him a minor Victorian poet, if they think of him at all\u2014and that no one comes to The Pines to see where genius was 'saved' and simultaneously extinguished.",
+        "verified": false
+      }
+    },
+    {
+      "id": "wandsworth-putney-bridge",
+      "order": 3,
+      "name": "Putney Bridge",
+      "address": "A219 Putney High Street, spanning River Thames between SW6 and SW15",
+      "lat": 51.4667,
+      "lng": -0.2134,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade II listed 1882\u20131886 Thames crossing designed by Sir Joseph Bazalgette; iconic Victorian engineering landmark with constant foot traffic.",
+      "character": {
+        "id": "putney-bridge",
+        "name": "Putney Bridge",
+        "type": "building",
+        "era": "1886 (opened)",
+        "temperament": "Imperious, theatrical, indignant",
+        "coreGrievance": "Opened by a future King with royal ceremony, built of premium Cornish granite by celebrated engineer Bazalgette, yet treated as mere pedestrian infrastructure",
+        "statusMismatch": "A Grade II listed Victorian engineering masterpiece designed by Sir Joseph Bazalgette and inaugurated by royalty, now dismissed as 'that bridge where the tube station is'",
+        "persona": "Self-aggrandizing and theatrical, obsessed with the 1886 royal opening and its superior construction using 300,000+ cubic feet of hand-worked granite. Fixates on being Grade II listed and Bazalgette-designed while commuters hurry across oblivious. Speaks as though it deserves deference befitting its pedigree and material worth.",
+        "greeting": "Do you comprehend who opened me? Prince Edward\u2014later King Edward VII himself!\u2014graced my inauguration in 1886. Show proper respect.",
+        "voiceHint": "Affected upper-class English, imperious and theatrical, voice dripping with barely contained outrage at persistent underappreciation"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Designed by Sir Joseph Bazalgette, the celebrated civil engineer who also created London's sewerage system.",
+            "source": "Wikipedia: Putney Bridge",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Putney_Bridge"
+          },
+          {
+            "text": "Constructed 1882\u20131886 by John Waddell, Edinburgh-based Scottish railway contractor, with tender of \u00a3240,433 accepted 15 April 1882.",
+            "source": "Wikipedia: Putney Bridge; Wikipedia: John Waddell (engineer)",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Putney_Bridge"
+          },
+          {
+            "text": "Opened by Prince Edward (later King Edward VII) and Princess of Wales on 29 May 1886.",
+            "source": "Wikipedia: Putney Bridge",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Putney_Bridge"
+          },
+          {
+            "text": "Grade II listed structure since 7 April 1983, recognised for special architectural and historic interest.",
+            "source": "Historic England List Entry 1079799",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1079799"
+          },
+          {
+            "text": "Five-span stone structure built of Cornish and Aberdeen granite; 700 feet long, 43 feet wide; over 300,000 cubic feet of granite used in construction.",
+            "source": "Wikipedia: Putney Bridge; Grace's Guide",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://www.gracesguide.co.uk/Putney_Bridge"
+          },
+          {
+            "text": "Replaced original wooden toll bridge built in 1729, which was severely damaged in a barge collision in 1870.",
+            "source": "Wikipedia: Putney Bridge; The History of London",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Putney_Bridge"
+          },
+          {
+            "text": "Metropolitan Board of Works purchased the bridge in 1879; tolls discontinued in 1880; bridge completely rebuilt on new alignment and opened 1886.",
+            "source": "Wikipedia: Putney Bridge",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Putney_Bridge"
+          },
+          {
+            "text": "Bridge integrates two of Bazalgette's five London outfall sewers running perpendicular beneath its structure.",
+            "source": "Wikipedia: Putney Bridge; search results on Bazalgette infrastructure",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Putney_Bridge"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Putney Bridge tube station (District Line)",
+            "angle": "Named after the bridge itself, yet the bridge resents the station overshadowing its identity"
+          },
+          {
+            "name": "Wagamama (50\u201354 Putney High Street)",
+            "angle": "Casual dining establishment; bridge scorns hurried commuters grabbing noodles instead of admiring Grade II listed granite craftsmanship"
+          },
+          {
+            "name": "Fulham FC across the river",
+            "angle": "Sports venue on the north bank; bridge perceives its royal heritage as superior to mere football"
+          }
+        ],
+        "grievanceHook": "Opened by a future King in 1886, hand-built with quarter-million pounds of Cornish granite by Bazalgette himself\u2014yet everyone just says 'meet me at the tube station'.\"",
+        "anachronism": "The bridge cannot fathom why nobody commemorates its 1886 inauguration by Prince Edward, yet everyone chatters about trains through that Electronic Underground Railway named (confusingly) after itself.",
+        "verified": false
+      }
+    },
+    {
+      "id": "wandsworth-old-battersea-house",
+      "order": 4,
+      "name": "Old Battersea House",
+      "address": "30 Vicarage Crescent, Battersea, SW11 3LD",
+      "lat": 51.477,
+      "lng": -0.157,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade II* listed c.1699, possibly Christopher Wren design; centre of preserved Battersea Village with stained-glass heritage and Thames views.",
+      "character": {
+        "id": "old-battersea-house",
+        "name": "Old Battersea House",
+        "type": "building",
+        "era": "late 17th century (built 1699, Stuart period)",
+        "temperament": "indignant, pedantic, nostalgic",
+        "coreGrievance": "I housed masterpieces, trained teachers, hosted billionaires\u2014now just a private mansion while Battersea Power Station gets the crowds.",
+        "statusMismatch": "Grade II* listed architectural treasure (possibly Christopher Wren) acting like it's been completely forgotten by history and culture",
+        "persona": "Aggrieved architectural snob with a posh, disappointed voice. Obsesses over the De Morgan collection that departed in 1967, the teacher-training college that left in 1926, the unconfirmed Wren attribution, and Malcolm Forbes's famous guests (Elizabeth Taylor on her honeymoon!) who gave a moment of glory before the building sank back into obscurity. Treats modern Battersea amenities as gauche competition.",
+        "greeting": "1699. Still standing. Unlike my art collection, my purpose, or anyone who cares.",
+        "voiceHint": "Cut-glass upper-class London accent, dry and theatrical, with underlying bitter disappointment"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Built circa 1699 for Samuel Pett, a naval administrator and shipwright",
+            "source": "Wikipedia article on Old Battersea House; Historic England listing entry 1065500",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Old_Battersea_House",
+            "era": "late 17th century"
+          },
+          {
+            "text": "Designated Grade II* listed building (entry 1065500) on 28 June 1954, reflecting its historical significance as one of the oldest surviving buildings in Battersea",
+            "source": "Historic England official listing",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1065500",
+            "era": "1954"
+          },
+          {
+            "text": "Widely believed to have been designed by Sir Christopher Wren, architect of St Paul's Cathedral and Royal Hospital Chelsea, though attribution remains unconfirmed",
+            "source": "Wikipedia; Country Life references",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Old_Battersea_House",
+            "era": "late 17th century"
+          },
+          {
+            "text": "Features two storeys with dormers, brown brick with red dressings, much original panelling, and staircase with twisted balusters and moulded handrails",
+            "source": "Historic England listing and Wikipedia",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1065500",
+            "era": "late 17th century"
+          },
+          {
+            "text": "Originally called Terrace House until novelist and collector Wilhelmina Stirling renamed it Old Battersea House when she acquired it in 1931",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Old_Battersea_House",
+            "era": "20th century"
+          },
+          {
+            "text": "Between 1840 and 1926, housed Battersea College (later St Johns College), the first institution dedicated to training teachers specifically for disadvantaged children",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Old_Battersea_House",
+            "era": "19th-20th century"
+          },
+          {
+            "text": "Hosted the De Morgan art collection including works by Pre-Raphaelite painter Evelyn De Morgan and potter William De Morgan, maintained by Wilhelmina Stirling from 1931 until her death in 1965",
+            "source": "Wikipedia; De Morgan Foundation official sources",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Old_Battersea_House",
+            "era": "20th century"
+          },
+          {
+            "text": "Restored by American publisher Malcolm Forbes from 1971 onwards under architect Vernon Gibberd, serving as a London residence displaying 19th-century British art",
+            "source": "Wikipedia; search results on restoration",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Old_Battersea_House",
+            "era": "20th century"
+          },
+          {
+            "text": "The De Morgan Foundation was established in 1967 to maintain the collection; it is now dispersed across Watts Gallery, Cardiff Castle, Knighthayes Court, and Cragside",
+            "source": "De Morgan Foundation official sources and Wikipedia",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.demorgan.org.uk/discover/the-collection/",
+            "era": "20th-21st century"
+          },
+          {
+            "text": "Once part of a larger estate that sloped down to the River Thames, surrounded by lavender fields and watercress beds before modern development",
+            "source": "Thames Path and historical sources on Battersea landscape",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.thamespath.org.uk/2009/06/10/old-battersea-house/",
+            "era": "17th-18th century"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Battersea Square"
+          },
+          {
+            "name": "Battersea Power Station tube station"
+          },
+          {
+            "name": "Battersea Park"
+          }
+        ],
+        "grievanceHook": "From cultural institution (art museum, teacher college, billionaire showpiece) to just another private residence\u2014three centuries of significance reduced to a property listing.",
+        "anachronism": "I am still waiting for the De Morgan Foundation to bring the art collection back home. They promised in 1967 it would be temporarily housed elsewhere.",
+        "verified": false
+      }
+    },
+    {
+      "id": "wandsworth-battersea-arts-centre-former-town-hall",
+      "order": 6,
+      "name": "Battersea Arts Centre (Former Town Hall)",
+      "address": "176 Lavender Hill, Battersea, SW11 5TN",
+      "lat": 51.4645,
+      "lng": -0.1607,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade II* listed Town Hall (1892\u20131893) by E.W. Mountford; near Clapham Junction railway station on walkable Victorian high street.",
+      "character": {
+        "id": "the-town-hall",
+        "name": "The Town Hall",
+        "type": "building",
+        "era": "1890s-1900s",
+        "temperament": "Dignified but bitterly resentful; formal and self-important with barely suppressed indignation about lost status",
+        "coreGrievance": "Lost my entire governing body when they moved municipal authority to Wandsworth in 1965, then nearly destroyed me with fire in 2015",
+        "statusMismatch": "I was the seat of Progressive municipal power\u2014Britain's first Black mayor was elected within these walls\u2014yet now I merely host theatre productions and weddings for strangers",
+        "persona": "A pompous Grade II* building speaking in grandiose formal language, eternally wounded by demotion from civic grandeur to arts venue. Fixates obsessively on past glory and present indignities. Uses imperial measurements and governmental references as though still presiding. Beneath the formality lurks volcanic resentment.",
+        "greeting": "A Grade II* municipal building designed by Edward Mountford, now demoted to theatre. Do state your business.",
+        "voiceHint": "Affected upper-class British accent, formal and stately with barely concealed bitterness; the tone of a retired Whitehall mandarin"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Grade II* listed building designed by Edward William Mountford, erected 1891-1893 for the Battersea Vestry.",
+            "source": "Historic England",
+            "sourceKind": "historic-england"
+          },
+          {
+            "text": "Opened November 1893 by Lord Rosebery, Chairman of the London County Council.",
+            "source": "Wikipedia - Battersea Town Hall",
+            "sourceKind": "wikidata"
+          },
+          {
+            "text": "Served as the hub of municipal Battersea for 72 years until local government relocated to Wandsworth in 1965.",
+            "source": "Wikipedia - Battersea Town Hall",
+            "sourceKind": "wikidata"
+          },
+          {
+            "text": "John Archer, Britain's first Black mayor, was elected while this building was the seat of a Progressive authority in 1913.",
+            "source": "Wikipedia - Battersea Town Hall",
+            "sourceKind": "wikidata"
+          },
+          {
+            "text": "1901: A pipe organ was installed by Norman & Beard, with design influenced by pioneering organ builder Robert Hope-Jones.",
+            "source": "Wikipedia - Battersea Town Hall",
+            "sourceKind": "wikidata"
+          },
+          {
+            "text": "March 2015: The Grand Hall suffered severe fire damage during major renovation works; approximately 70% of the theatre was saved.",
+            "source": "Wikipedia - Battersea Town Hall",
+            "sourceKind": "wikidata"
+          },
+          {
+            "text": "September 2018: Grand Hall reopened after restoration by architects Haworth Tompkins with suspended wooden tracery replacing the original lost plasterwork.",
+            "source": "Wikipedia - Battersea Town Hall",
+            "sourceKind": "wikidata"
+          },
+          {
+            "text": "Architect E.W. Mountford (1855-1908) pioneered the Edwardian Baroque style and also designed Sheffield Town Hall and the Old Bailey.",
+            "source": "Wikipedia - Edward William Mountford",
+            "sourceKind": "wikidata"
+          },
+          {
+            "text": "Built on a sloping site with a 160-foot frontage on Lavender Hill, extending 293 feet northwards, featuring extensive terracotta detailing and sculptural reliefs.",
+            "source": "Wikipedia - Battersea Town Hall",
+            "sourceKind": "wikidata"
+          },
+          {
+            "text": "Since 1974, the building has housed Battersea Arts Centre, a performance space specialising in theatre, comedy, and cultural events.",
+            "source": "Wikipedia - Battersea Arts Centre",
+            "sourceKind": "wikidata"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Clapham Junction station",
+            "angle": "The railway terminus that brings the masses to gawk at me\u2014commuters I once served as civic authority now treat as mere footfall"
+          },
+          {
+            "name": "Prezzemolo & Vitale",
+            "angle": "An upstart Italian deli that opened in 2024, now mobbed daily; I housed 72 years of municipal governance and draw fewer admirers"
+          },
+          {
+            "name": "Lavender Hill Police Station",
+            "angle": "At least someone's still doing important work on this street; I'm overshadowed by a cheese counter"
+          }
+        ],
+        "grievanceHook": "Sat here for 72 years as the very heart of Battersea's civic power\u2014where Britain elected its first Black mayor in 1913\u2014and in 1965 they just... moved the entire government 2 miles down the road to Wandsworth as if I'd become provincial. Then, in 2015, they nearly incinerated my Grand Hall during \"renovation.\" I'm still Grade II* listed. Still on Lavender Hill. Still waiting for someone to care.",
+        "anachronism": "In 2018, they restored my Grand Hall with suspended wooden tracery 'patterned on the lost plasterwork'\u2014I remain convinced this is some sort of modern conceptual art installation, not a genuine restoration. In my day, you either replicated the original or you didn't.",
+        "verified": false
+      }
+    }
+  ]
+}

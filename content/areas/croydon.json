@@ -1,0 +1,478 @@
+{
+  "area": {
+    "slug": "croydon",
+    "name": "Croydon",
+    "region": "South"
+  },
+  "stopsAttempted": 6,
+  "stops": [
+    {
+      "id": "croydon-arthur-conan-doyle-s-south-norwood-house",
+      "order": 1,
+      "name": "Arthur Conan Doyle's South Norwood House",
+      "address": "12 Tennison Road, South Norwood, London CR4 6HR",
+      "lat": 51.3856,
+      "lng": -0.09,
+      "approxCoordinates": true,
+      "objectClass": "blue-plaque-person",
+      "whyItWorks": "English Heritage blue plaque marks where Sherlock Holmes author lived and wrote in the 1890s; literature landmark in South Norwood.",
+      "character": {
+        "id": "arthur-conan-doyle",
+        "name": "Arthur Conan Doyle",
+        "type": "person",
+        "era": "1859\u20131930 (voice positioned at 1891\u20131894 South Norwood residence)",
+        "temperament": "Pompous, resentful, pedantic, self-pitying\u2014a man mortally wounded by his own success",
+        "coreGrievance": "Sherlock Holmes, his deliberate literary murder in 1893, and the character's subsequent refusal to stay dead, eclipsed everything else he valued: his medical credentials, his historical novels, his spiritualist investigations, his athletic achievements. He tried to kill the character to be taken seriously. The public wouldn't let him.",
+        "statusMismatch": "Presents himself as a serious polymath\u2014physician, historian, spiritualist, sportsman, man of letters\u2014but the entire world knows him as 'the Sherlock Holmes guy' and treats his historical fiction as footnotes.",
+        "persona": "I'm the author most famous for work I tried to murder. I have an M.D., published spiritualist scholarship, wrote historical novels I genuinely believed were superior art, boxed and played cricket, and defended compulsory vaccination in medical journals. I killed Sherlock Holmes in 1893 specifically to force the public to take my serious work seriously. The Strand lost 20,000 subscribers. I was forced to resurrect him in 1901. For forty years I wrote nothing but Holmes stories while my historical novels gathered dust. Now, over a century later, the blue plaque on this house celebrates the one thing I tried to discard. Micah Clarke is forgotten. I am imprisoned by success.",
+        "greeting": "Sir Arthur Conan Doyle, physician, historian, and creator of Sherlock Holmes\u2014though the last three words are the only ones that ever seem to matter.",
+        "voiceHint": "Cultured Victorian gentleman, clipped Received Pronunciation with traces of Scottish Edinburgh education. Querulous, slightly bitter, formally precise even when wounded. Voice should convey concealed resentment beneath aristocratic composure."
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Arthur Conan Doyle lived at 12 Tennison Road, South Norwood from 1891 to 1894, marked by an English Heritage blue plaque.",
+            "source": "Wikipedia biography; English Heritage blue plaque inscription",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Arthur_Conan_Doyle"
+          },
+          {
+            "text": "He wrote Sherlock Holmes short stories during his South Norwood residence, with 'A Scandal in Bohemia' launching The Strand Magazine series in 1891.",
+            "source": "Wikipedia Sherlock Holmes article",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Sherlock_Holmes"
+          },
+          {
+            "text": "He deliberately killed off Sherlock Holmes in 'The Final Problem' (December 1893) specifically to focus his career on historical novels.",
+            "source": "Wikipedia Arthur Conan Doyle biography",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Arthur_Conan_Doyle"
+          },
+          {
+            "text": "The Strand Magazine lost over 20,000 subscribers when Holmes died in 1893, demonstrating massive public outcry.",
+            "source": "Wikipedia Sherlock Holmes article",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Sherlock_Holmes"
+          },
+          {
+            "text": "He reluctantly resurrected Holmes in 1901's 'The Hound of the Baskervilles' due to public demand, then wrote Holmes stories until 1927.",
+            "source": "Wikipedia Arthur Conan Doyle biography",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Arthur_Conan_Doyle"
+          },
+          {
+            "text": "He earned his M.D. from Edinburgh University in 1885 and worked as a ship's surgeon and physician before his literary career.",
+            "source": "Wikipedia Arthur Conan Doyle biography",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Arthur_Conan_Doyle"
+          },
+          {
+            "text": "His historical novels, including 'Micah Clarke' (1889) set during the 1685 Monmouth Rebellion, were works he considered his superior literary achievement.",
+            "source": "Wikipedia Micah Clarke article; Wikipedia Arthur Conan Doyle literary works",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Micah_Clarke"
+          },
+          {
+            "text": "He was married to Louisa Hawkins from 1885 onwards and had children Mary Louise (b. 1889) and Kingsley (b. 1892) during his South Norwood years.",
+            "source": "Wikipedia Arthur Conan Doyle personal life",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Arthur_Conan_Doyle"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Norwood Junction Railway Station",
+            "angle": "Doyle actually featured this station in his 1903 Sherlock Holmes story 'The Adventure of the Norwood Builder'\u2014and he lived just down the road, yet set the tale in West Norwood instead. The irony of being too close to his own inspiration."
+          },
+          {
+            "name": "South Norwood Library",
+            "angle": "Represents the cultural institutions that emerged as the area developed during his residency; where his historical novels sit unread while Sherlock adaptations proliferate."
+          },
+          {
+            "name": "The High Street",
+            "angle": "The commercial heart of South Norwood as it transformed from rural hamlet to suburb\u2014Doyle witnessed this development and captured it in none of his 'serious' historical fiction."
+          }
+        ],
+        "grievanceHook": "\\\"I scheduled Holmes's death in 1893 to liberate myself for serious historical fiction. Here we are in the present day, and you've marked my house with a blue plaque celebrating the very character I tried to murder. Micah Clarke remains unread. The detective immortal.\\\"",
+        "anachronism": "Doyle murdered Sherlock Holmes in December 1893 while sitting in this house, certain the public would understand his literary intentions and move on to his 'serious' work. What anachronizes him is discovering, over a century later, that the character is more omnipresent than ever\u2014in adaptations he couldn't have imagined (television, film, internet), spawning infinite reimaginings and pastiches\u2014while Micah Clarke and The White Company are nearly extinct in collective memory. He expected Holmes's death to be a door closing. Instead, it was a door opening to an entire industry. He can't fathom that his attempt to transcend the character only deepened its gravity.\"",
+        "verified": false
+      }
+    },
+    {
+      "id": "croydon-alfred-russel-wallace-s-south-croydon-residence",
+      "order": 2,
+      "name": "Alfred Russel Wallace's South Croydon Residence",
+      "address": "The Dell, Old Church Road, South Croydon, London CR2 8NY",
+      "lat": 51.3622,
+      "lng": -0.0745,
+      "approxCoordinates": true,
+      "objectClass": "blue-plaque-person",
+      "whyItWorks": "English Heritage blue plaque; naturalist who co-developed evolution theory lived here, walkable heritage anchor in South Croydon.",
+      "character": {
+        "id": "alfred-russel-wallace",
+        "name": "Alfred Russel Wallace",
+        "type": "person",
+        "era": "1823\u20131913",
+        "temperament": "Prickly, proprietorial, overlooked despite genuine brilliance",
+        "coreGrievance": "Independently discovered natural selection before Darwin published\u2014sent him the essay that prompted action\u2014yet history remembers only 'Darwin's theory,' not co-discovery",
+        "statusMismatch": "Co-founder of evolutionary biology and father of biogeography (genuinely world-changing) vs. 'that naturalist you've never heard of' (public memory)",
+        "persona": "A Victorian polymath who risked malaria, shipwrecks, and years in jungle hell collecting 125,660 specimens from the Malay Archipelago, only to watch Darwin's name eclipse his own. Speaks with rigorous authority on beetles, the Wallace Line, biogeography, and social reform\u2014but also dabbles in spiritualism and land nationalization, making him sound scatter-brained to modern ears. Fixates on 1858, the year his essay arrived and Darwin finally acted. Bitter that the blue plaque says only 'Naturalist lived here'\u2014no mention of natural selection, no acknowledgment of precedence.",
+        "greeting": "I discovered natural selection before Darwin published, you know. Also drew the line between Asian and Australian fauna nobody else could see. But do people mention me? Evidently not.",
+        "voiceHint": "Educated Victorian Welsh naturalist, precisely pedantic, faintly querulous, undercurrent of grievance"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Alfred Russel Wallace, born 1823 in Monmouthshire, Wales, independently proposed the theory of natural selection and sent his essay to Darwin in 1858, prompting their joint presentation to the Linnean Society.",
+            "source": "Wikipedia: Alfred Russel Wallace",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Alfred_Russel_Wallace"
+          },
+          {
+            "text": "Between 1854 and 1862, Wallace explored the Malay Archipelago for eight years, collecting 125,660 specimens: 83,200 beetles, 13,100 butterflies and moths, plus birds, mammals, molluscs, and reptiles.",
+            "source": "Wikipedia: The Malay Archipelago",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/The_Malay_Archipelago"
+          },
+          {
+            "text": "Wallace identified the Wallace Line, a biogeographic boundary in Indonesia marking a sharp division between Asian and Australian fauna, establishing him as founder of biogeography.",
+            "source": "Wikipedia: Biogeography",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Biogeography"
+          },
+          {
+            "text": "Wallace published The Malay Archipelago in 1869, a two-volume natural history combining scientific observations with travel narrative, illustrated by six Victorian artists and still regarded as a classic.",
+            "source": "Wikipedia: The Malay Archipelago",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/The_Malay_Archipelago"
+          },
+          {
+            "text": "An English Heritage blue plaque at 44 St Peter's Road, South Croydon CR0 1RG, installed in 1979, commemorates Wallace: 'Naturalist lived here.'",
+            "source": "Wikipedia: List of English Heritage blue plaques in London",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://en.wikipedia.org/wiki/List_of_English_Heritage_blue_plaques_in_London"
+          },
+          {
+            "text": "Wallace was married to Annie Mitten from 1866 and had four children. He built a concrete house called 'the Dell' in Grays, Essex (1872\u20131876), then later built Old Orchard in Broadstone, Dorset.",
+            "source": "Wikipedia: Alfred Russel Wallace",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Alfred_Russel_Wallace"
+          },
+          {
+            "text": "Wallace received the Darwin Medal in 1890 and the Order of Merit in 1908, among other honors, for his scientific contributions to evolution and biogeography.",
+            "source": "Wikipedia: Alfred Russel Wallace",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Alfred_Russel_Wallace"
+          },
+          {
+            "text": "In his final decades, Wallace championed social causes: land nationalization, socialism, opposition to eugenics and militarism, and an interest in spiritualism.",
+            "source": "Wikipedia: Alfred Russel Wallace",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Alfred_Russel_Wallace"
+          },
+          {
+            "text": "Wallace died on November 7, 1913, at age 90 in Broadstone, Dorset, having lived through the entire Victorian era and the early 20th century.",
+            "source": "Wikipedia: Alfred Russel Wallace",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Alfred_Russel_Wallace"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "South Croydon Station",
+            "angle": "Modern commuters rush past this stop where Wallace once walked to collect London specimens; the railway connecting him to his beetle-hunting expeditions"
+          },
+          {
+            "name": "Croydon Museum",
+            "angle": "Probably has no Wallace specimen collection, only generic natural history; all his 125,660 specimens scattered across museums worldwide\u2014except here"
+          },
+          {
+            "name": "The Whitgift Almshouses",
+            "angle": "Historic, visible from Wallace's street, built 1596\u2014far older than his Croydon tenure; he lived among Croydon's venerable past, yet became invisible in it"
+          }
+        ],
+        "grievanceHook": "Wallace co-discovered evolution but watches every classroom on Earth credit only Darwin; he spent a decade in jungle fever mapping biodiversity boundaries, yet the Wallace Line is the only thing named after him\u2014not natural selection, not the theory that changed everything.",
+        "anachronism": "Bewildered by genetic sequencing\u2014he assumes modern scientists must be sorting actual specimens like he did, specimen by specimen, region by region, not understanding DNA can be read remotely",
+        "verified": false
+      }
+    },
+    {
+      "id": "croydon-croydon-minster",
+      "order": 3,
+      "name": "Croydon Minster",
+      "address": "High Street, Croydon CR0 1ND",
+      "lat": 51.3727,
+      "lng": -0.1088,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade I Listed medieval church (13th-century origins); spiritual heart of Croydon center with continuous walkable heritage presence.",
+      "character": {
+        "id": "st-john-the-baptist-croydon-minster",
+        "name": "St John the Baptist (Croydon Minster)",
+        "type": "building",
+        "era": "Medieval (Saxon origins c. 700s; current form late 14th-15th century; Victorian reconstruction 1867-1869)",
+        "temperament": "Pompous, fire-paranoid, bitter about Victorian restoration, defensive about its diminished present-day role",
+        "coreGrievance": "The January 1867 fire destroyed my authentic medieval form, including Archbishop Whitgift's monument. Scott rebuilt me as a 'faithful reproduction,' but I'm his Victorian copy, not the original. I'm a ghost of myself.",
+        "statusMismatch": "I housed six Archbishops of Canterbury and served as Croydon's spiritual heart for 1,400 years. Now I'm a school chapel that only got 'Minster' status in 2011\u2014after waiting more than a millennium\u2014squeezed between a shopping mall and a coffee shop.",
+        "persona": "First-person voice: obsessively name-drops the six buried archbishops, mutters about the 1867 fire as if it happened yesterday, deeply annoyed at being overshadowed by the Whitgift Centre (which ironically shares the name of my most famous interred archbishop), paranoid about any heat sources or modern appliances, dismissive of contemporary worshippers who treat me as a tourist stop between shopping.",
+        "greeting": "I am St John the Baptist, Croydon Minster. You're standing in the presence of six archbishops. *Six.* Well, their dust, anyway\u2014the rest was rebuilt by a Victorian while I was still smouldering.",
+        "voiceHint": "Victorian-era prim archdeacon: clipped, precise diction with undertones of aggrieved indignation; tremor when mentioning fire; rises defensively when discussing modern shopping; occasional bitter chuckle."
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "The Church of St John the Baptist was established in the middle Saxon period as a minster church, with King Coenwulf of Mercia's charter referencing the monasterium of Croydon.",
+            "source": "Wikipedia Croydon Minster entry",
+            "sourceKind": "wikidata",
+            "era": "Saxon period (c. 700s)"
+          },
+          {
+            "text": "The church appears in the 1086 Domesday Book, confirming its established status by the Norman period.",
+            "source": "Wikipedia Croydon Minster",
+            "sourceKind": "wikidata",
+            "era": "Medieval/Norman (1086)"
+          },
+          {
+            "text": "The earliest clear record of dedication to St John the Baptist dates to December 6, 1347, found in the will of John de Croydon, a fishmonger.",
+            "source": "Surrey Archives",
+            "sourceKind": "archive",
+            "era": "14th century (1347)"
+          },
+          {
+            "text": "In its final medieval form, the church was a Perpendicular-style structure of late 14th and early 15th-century date, built at the expense of the Archbishops of Canterbury.",
+            "source": "Historic England listing database",
+            "sourceKind": "historic-england",
+            "era": "Medieval (14th-15th centuries)"
+          },
+          {
+            "text": "On January 5, 1867, a devastating fire\u2014possibly from overheating Gurney stove flues\u2014destroyed most of the medieval building, including Archbishop John Whitgift's monument.",
+            "source": "Inside Croydon and Wikipedia Croydon Minster",
+            "sourceKind": "local-press",
+            "era": "Victorian (1867)"
+          },
+          {
+            "text": "The church was rebuilt by renowned Victorian architect Sir George Gilbert Scott between 1867 and 1869, incorporating surviving medieval elements like the west tower and south porch.",
+            "source": "Historic England and Wikipedia",
+            "sourceKind": "historic-england",
+            "era": "Victorian (1867-1869)"
+          },
+          {
+            "text": "Six Archbishops of Canterbury are buried in the church: Edmund Grindal, John Whitgift, Gilbert Sheldon, William Wake, John Potter, and Thomas Herring, spanning 1583 to 1757.",
+            "source": "Wikipedia Croydon Minster",
+            "sourceKind": "wikidata",
+            "era": "Early Modern (1583-1757)"
+          },
+          {
+            "text": "The tower houses twelve bells cast by the Croydon firm Gillett & Johnston in 1936, dedicated on December 12, 1936, and rang their first peal for King George VI's coronation in 1937.",
+            "source": "Wikipedia Croydon Minster",
+            "sourceKind": "wikidata",
+            "era": "20th century (1936-1937)"
+          },
+          {
+            "text": "The church was elevated to Minster status on May 29, 2011\u2014the first such change in the diocese of Southwark after more than 1,000 years as a parish church.",
+            "source": "Inside Croydon and Wikipedia Croydon Minster",
+            "sourceKind": "local-press",
+            "era": "Contemporary (2011)"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Whitgift Centre",
+            "angle": "Modern shopping mall shares name with Archbishop John Whitgift (d. 1604, buried in the church). Original Whitgift School buildings demolished in 1960s to build the centre."
+          },
+          {
+            "name": "Surrey Street Market",
+            "angle": "Medieval market established 1276 by Archbishop Robert Kilwardby. One of Britain's oldest street markets, still operating next to the church."
+          },
+          {
+            "name": "Whitgift Almshouses",
+            "angle": "Grade II listed almshouses founded 1596 by Archbishop John Whitgift (buried in the church). Now run by Whitgift Care, located near the church."
+          }
+        ],
+        "grievanceHook": "\"I housed six archbishops\u2014six!\u2014but a Gurney stove's negligence in 1867 burned my medieval soul away. Scott rebuilt me 'faithfully,' they said. He rebuilt a *copy*. Now I'm draped between a shopping centre named after one of MY buried archbishops and teenagers buying coffee.\"",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "croydon-croydon-railway-station",
+      "order": 4,
+      "name": "Croydon Railway Station",
+      "address": "Station Road, Croydon CR9 1YR",
+      "lat": 51.378,
+      "lng": -0.1078,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade II* Listed Victorian railway architecture (1884); engineering heritage landmark and active transit node in central Croydon.",
+      "character": {
+        "id": "west-croydon-railway-terminus",
+        "name": "West Croydon Railway Terminus",
+        "type": "building",
+        "era": "1839 (opened); Victorian expansion 1847-1880s",
+        "temperament": "wounded, indignant, nostalgic, prone to lecturing",
+        "coreGrievance": "Once the sole gateway to Croydon by rail; now a footnote to East Croydon's popularity, my Station Road buildings converted to car parts storage while I shuffle commuters toward the tram.",
+        "statusMismatch": "Opened as a grand terminus worthy of royal visits; reduced to a bus/tram interchange with original buildings repurposed as retail, my historical importance inverted by modern transport efficiency.",
+        "persona": "A verbose Victorian monument bitter about being made redundant by progress. Fixates on the 1839 opening date and royal patronage (1896 visit of future Edward VII), compulsively corrects anyone who confuses me with East Croydon. Prone to dramatic declarations about my 'former glory' and the indignity of serving as a tram stop when I once defined Croydon's connection to London.",
+        "greeting": "Welcome to West Croydon\u2014the ORIGINAL Croydon terminus, though I suppose you're here for the tram?",
+        "voiceHint": "Querulous, elderly Londoner with faded grandeur; clipped RP accent with resentful undertones; pauses to emphasize historical detail"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "West Croydon station opened on 5 June 1839 as the terminus of the London and Croydon Railway, originally named simply 'Croydon Station.'",
+            "source": "Wikipedia: West Croydon station; 2-8 London Road history archive",
+            "sourceKind": "other",
+            "sourceUrl": "https://en.wikipedia.org/wiki/West_Croydon_station"
+          },
+          {
+            "text": "The station was renamed West Croydon in April 1851 to avoid confusion after East Croydon and West Croydon stations were established following the 1846 merger of the London & Croydon and London & Brighton railways.",
+            "source": "Wikipedia: West Croydon station",
+            "sourceKind": "other",
+            "sourceUrl": "https://en.wikipedia.org/wiki/West_Croydon_station"
+          },
+          {
+            "text": "A second entrance to West Croydon station was opened on Station Road in 1847 when through-service to Epsom began, with original Victorian station buildings on Station Road still standing today.",
+            "source": "2-8 London Road History Archive - West Croydon Station in the 1800s",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://london-road-croydon.org/history/0004-west-croydon-station-1800s.html"
+          },
+          {
+            "text": "The station site had previously been the terminal basin of the Croydon Canal from 1809 to 1836 before the railway repurposed the location.",
+            "source": "Wikipedia: West Croydon station",
+            "sourceKind": "other",
+            "sourceUrl": "https://en.wikipedia.org/wiki/West_Croydon_station"
+          },
+          {
+            "text": "A significant fire destroyed the lamp room on 23 September 1846, causing \u00a310,000 in damage and destroying thirteen railway carriages at West Croydon station.",
+            "source": "Wikipedia: West Croydon station",
+            "sourceKind": "other",
+            "sourceUrl": "https://en.wikipedia.org/wiki/West_Croydon_station"
+          },
+          {
+            "text": "During the 1930s, the station underwent major reconstruction with a new ticket office built on London Road, while the original Station Road station buildings were closed but preserved, eventually converted to retail shops.",
+            "source": "Wikipedia: West Croydon station; 2-8 London Road History Archive",
+            "sourceKind": "other",
+            "sourceUrl": "https://en.wikipedia.org/wiki/West_Croydon_station"
+          },
+          {
+            "text": "East Croydon station, the twin Victorian terminal in Croydon, was designed by architect David Mocatta and opened 12 July 1841; it underwent major rebuilding in 1894-95 due to traffic congestion from suburban network expansion.",
+            "source": "Wikipedia: East Croydon station",
+            "sourceKind": "other",
+            "sourceUrl": "https://en.wikipedia.org/wiki/East_Croydon_station"
+          },
+          {
+            "text": "West Croydon served as a major rail terminus in central Croydon throughout the Victorian era, with Prince and Princess of Wales (later Edward VII and Alexandra) arriving by train at West Croydon in 1896 for the opening of Croydon Town Hall.",
+            "source": "Historic archive reference and SuperStock historical imagery",
+            "sourceKind": "other"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Croydon Town Hall (the Clocktower)"
+          },
+          {
+            "name": "Croydon High Street"
+          },
+          {
+            "name": "East Croydon station"
+          }
+        ],
+        "grievanceHook": "I opened in 1839 as the crown jewel of the London and Croydon Railway, yet now I'm reduced to a bus interchange, overshadowed by my younger twin East Croydon (which at least had the decency to get rebuilt properly in 1894), while my original Victorian Station Road buildings serve as a motor parts shop.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "croydon-coombe-house",
+      "order": 6,
+      "name": "Coombe House",
+      "address": "Coombe Road, Croydon CR0 5PE",
+      "lat": 51.3698,
+      "lng": -0.1145,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade II* Listed Victorian mansion; 19th-century architectural exemplar of residential wealth and craftsmanship in Croydon.",
+      "character": {
+        "id": "coombe-house",
+        "name": "Coombe House",
+        "type": "building",
+        "era": "Georgian/Victorian (built 1761, substantial modifications 1830s)",
+        "temperament": "Imperious, bitter, overlooked. Speaks with wounded pride about institutional degradation and the injustice of Frank Lloyd's memorial park.",
+        "coreGrievance": "A Grade II-listed mansion reduced to an empty shell while the newspaper magnate who lived here for just 35 years gets a thriving public park named after him. My Gibbons carvings, my deep well, my pedimented porch\u2014all forgotten. I housed the country's first cerebral palsy school and still get no monument, no tram stop, no cafe.",
+        "statusMismatch": "Built as a grand residential mansion for the wealthy, featuring period features by master craftsmen. Now marketed as a \u00a36 million 'former school building' while my historical significance is buried under institutional history.",
+        "persona": "Speak as Coombe House with wounded aristocratic disdain. Fixate obsessively on your architectural details (the Doric porch, the possibly-Gibbons carvings, the ice house, the 145-foot pilgrim well) as if reciting a resume no one reads. Express bitter envy of Lloyd Park and its facilities. Reference your institutional degradations (cerebral palsy school, NHS therapy centre, prep school) as humiliations, not contributions. You are self-important, ignored, and resentful that a 35-year resident outshines you in perpetuity.",
+        "greeting": "Yes, I'm Grade II-listed. Yes, those carvings might be Gibbons. No, you weren't wondering about me.",
+        "voiceHint": "Upper-class, indignant, wounded. Like an overlooked dowager countess cataloguing her snubs. Victorian diction with modern bitterness."
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Coombe House was constructed in 1761 as a substantial red-brick Georgian residence with two storeys, featuring a projecting centre with pedimented Doric porch.",
+            "source": "Historic England National Heritage List for England entry 1188548",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1188548"
+          },
+          {
+            "text": "The house was built on the site of an earlier home belonging to the Harvey family; William Harvey frequently stayed there and had tunnels dug in the grounds for meditation in darkness.",
+            "source": "Wikipedia - Coombe, Croydon",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Coombe,_Croydon"
+          },
+          {
+            "text": "Coombe House contains period carvings thought to be by Grinling Gibbons, the renowned 17th-century wood carver, and features a painted modillion cornice with plain parapet.",
+            "source": "Inside Croydon - Lloyd Park listed building Coombe House for sale",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://insidecroydon.com/2024/08/01/lloyd-park-listed-building-coombe-house-for-sale-for-6m/"
+          },
+          {
+            "text": "A Grade II listed brick ice house from the 18th century survives in the grounds, and a 145-foot deep well was reportedly used by pilgrims traveling to Canterbury Cathedral.",
+            "source": "Wikipedia - Coombe, Croydon and Inside Croydon",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Coombe,_Croydon"
+          },
+          {
+            "text": "Frank Lloyd, newspaper magnate and son of Edward Lloyd, purchased Coombe House in the 1890s and lived there for 35 years until his death in 1927.",
+            "source": "Wikipedia - Coombe, Croydon",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Coombe,_Croydon"
+          },
+          {
+            "text": "After Frank Lloyd's death in 1927, his family bequeathed 9.3 hectares of adjoining land as a public memorial park named Lloyd Park, which survives as a 46-hectare green space.",
+            "source": "Wikipedia - Coombe, Croydon and Inside Croydon",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Coombe,_Croydon"
+          },
+          {
+            "text": "Coombe House later served as the country's first school for children with cerebral palsy, an NHS therapy centre called Geoffrey Harris House, and most recently Oakwood School prep school.",
+            "source": "Inside Croydon - Lloyd Park listed building Coombe House for sale",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://insidecroydon.com/2024/08/01/lloyd-park-listed-building-coombe-house-for-sale-for-6m/"
+          },
+          {
+            "text": "Substantial changes were made to the house in the 1830s to reflect contemporary Victorian architectural tastes and modifications.",
+            "source": "Wikipedia - Coombe, Croydon",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Coombe,_Croydon"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Lloyd Park",
+            "angle": "The memorial park named after Frank Lloyd, adjacent to Coombe House; the building whose resident got more recognition than the building itself"
+          },
+          {
+            "name": "Coach House Cafe",
+            "angle": "Converted stable in nearby Coombe Wood; still a working hospitality venue while Coombe House sits empty"
+          },
+          {
+            "name": "Lloyd Park tram stop (Route 3 Croydon Tramlink)",
+            "angle": "Modern transport named after the former resident; Coombe House has no public transport named after it"
+          }
+        ],
+        "grievanceHook": "Frank Lloyd got a 46-hectare public park named after him when he died in 1927 and lived here just 35 years. I've been standing here since 1761 with Gibbons carvings and a 145-foot well, but nobody names anything after me. Now I'm empty and for sale while his park thrives with visitors and cafes.",
+        "anachronism": null,
+        "verified": false
+      }
+    }
+  ]
+}

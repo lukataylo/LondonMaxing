@@ -1,0 +1,61 @@
+{
+  "name": "Ellen and William Craft",
+  "slug": "ellen-and-william-craft",
+  "trainCount": 11,
+  "testCount": 4,
+  "avgScores": {
+    "voiceFidelity": 3.25,
+    "contentFidelity": 3,
+    "plausibility": 3.5
+  },
+  "testResults": [
+    {
+      "context": "William Craft describing the hypocrisy of his enslaver who claimed to be morally upright while engaging in the cruelty of separating families.",
+      "actualText": "He had the reputation of being a very humane and Christian man, yet thought nothing of selling my poor old father, and dear aged mother.",
+      "actualReaction": "This contradiction between claimed morality and enslaving actions was widely cited by abolitionists to expose slavery's corrupting effect on supposedly 'Christian' slaveholders.",
+      "generatedText": "It has ever seemed to me a matter deserving of the gravest notice, that many persons who would fain be considered good, and even great Christians, can, notwithstanding, watch every turn of the law, in order to ascertain how far they can go in stripping their fellow-creatures of every right, and reducing them to the most abject and degrading slavery, without violating the laws of the pretended free and enlightened country in which they live. My old master was accounted, among his neighbours, a man of humanity and religion, one who prayed regularly and read his Bible; yet he could, without the least apparent compunction, sell a husband from his wife, or a mother from her babe, whenever the state of his purse required it. This is not humanity, nor is it religion; it is the fundamental cruelty of the institution itself, dressed in the outward forms of piety.",
+      "scores": {
+        "voiceFidelity": 3,
+        "contentFidelity": 4,
+        "plausibility": 4,
+        "rationale": "The generated passage nails the core rhetorical move Craft actually made \u2014 citing the enslaver's reputation for piety/humanity and then puncturing it with the cruelty of family separation (\"sell a husband from his wife, or a mother from her babe\" mirrors \"selling my poor old father, and dear aged mother\" in theme, though it genericizes the very specific, personal detail of his own parents into a general example). Content fidelity is strong: same target (Christian-professing slaveholder), same mechanism of exposure (commercial sale severing family bonds), same abolitionist point about religion as pretense. Voice fidelity is only middling: the actual line is terse, plain, and lands its irony in one clipped sentence, whereas the AI version is far more ornate and discursive \u2014 extra clauses like \"a matter deserving of the gravest notice,\" \"the pretended free and enlightened country,\" and a closing editorial verdict (\"This is not humanity, nor is it religion...\") read more like added authorial commentary than Craft's characteristically restrained, understated delivery. Plausibility is fairly high since the elevated Victorian register and moral argumentation are consistent with slave-narrative prose of the period and with other passages in Craft's actual narrative, even if this particular passage over-elaborates relative to the real quote's economy."
+      }
+    },
+    {
+      "context": "William Craft's vivid description of the emotional and physical relief he experienced when they arrived in Philadelphia and reached free soil.",
+      "actualText": "I...felt that the straps that bound the heavy burden to my back began to pop, and the load to roll off.",
+      "actualReaction": "This poetic passage was cited in antislavery literature as a powerful expression of the liberation felt upon escaping slavery.",
+      "generatedText": "It was not until the train drew into Philadelphia, and I stepped upon the platform a free man in the eye of no law but that which recognizes every human being as such, that I felt the full weight of four-and-twenty years of bondage lifted from me. My limbs, which had been cramped with fear and counterfeit infirmity through days of watching, trembled now only with thankfulness, and I could have fallen upon my knees in that depot to render thanks to God, who had, according to His promise, made a way for us where we could see none. Ellen, my brave wife, who had carried the heavier part of our peril upon her own person, wept quietly beside me, and I have never in all the years since forgotten the mercy of that hour. We had not a friend that we knew of in that great city, nor money beyond a few dollars, yet I would rather have faced want and every hardship as free people than have possessed all the comforts of slavery, and on that morning we possessed both our freedom and, we humbly believed, the favor of Providence besides.",
+      "scores": {
+        "voiceFidelity": 4,
+        "contentFidelity": 2,
+        "plausibility": 3,
+        "rationale": "The AI version nails the general register of Craft's memoir (Running a Thousand Miles for Freedom): formal Victorian-antislavery cadence, biblical/providential framing (\"Providence,\" \"made a way for us where we could see none\"), and the trope of preferring freedom-with-hardship over slavery's comforts, which is authentically Craft-like. But it entirely misses the actual statement's distinctive, oft-quoted content: the concrete, physical metaphor of straps binding a burden to his back popping and the load rolling off. Instead it substitutes generic emancipation-narrative imagery (\"weight of four-and-twenty years of bondage lifted,\" trembling limbs, falling to knees) that is thematically adjacent but not the specific poetic figure that made the real quote famous and anthologized. It also adds invented specifics (Ellen weeping quietly, having no friends and only a few dollars) not present in the source excerpt, which are plausible-sounding period embellishments but not verifiable content matches. Overall: strong voice mimicry, weak match to the actual content/imagery, and moderate plausibility as something Craft could have written, given the invented specifics layered on top."
+      }
+    },
+    {
+      "context": "William Craft describing the desperate measures he and fellow abolitionist Lewis Hayden took in Boston to prepare armed resistance against slave catchers attempting to capture them under the Fugitive Slave Act.",
+      "actualText": "One night\u2026Lewis Hayden and I had a keg of gunpowder under his house in Phillips Street, with a fuse attached ready to light it should any attempt be made to capture us.",
+      "actualReaction": "This statement shocked and impressed readers with the Crafts' determination to defend their freedom by any means necessary, highlighting the urgency of their situation.",
+      "generatedText": "When the slave-hunters came to Boston armed with the warrant of a law we could never in conscience own, my friend Mr. Hayden and I resolved that we would not be taken back into bondage without a struggle, and to that end we laid in a quantity of powder with the design of blowing up the staircase rather than surrender ourselves to their custody. This was not done in any spirit of rashness, but upon calm reflection, for I had much rather die a free man defending my own hearth than be dragged back to a life of chains and stripes. My dear Ellen bore herself throughout with the same quiet resolve, trusting, as we had trusted from the night of our escape, that God who had brought us out of slavery would not now forsake us. We considered the fundamental laws of slavery to be no law upon free soil, and were determined, by whatever lawful and unlawful means Providence left open to us, that our little family should not be sundered.",
+      "scores": {
+        "voiceFidelity": 3,
+        "contentFidelity": 3,
+        "plausibility": 3,
+        "rationale": "The actual quote is terse and factual: a single sentence naming the keg of gunpowder, Phillips Street, and the fuse \"ready to light it.\" The AI version preserves the core facts (Hayden, gunpowder, resistance to slave-catchers, Boston) but buries them in an elaborate, sermon-like register \u2014 extended theological reflection on Providence, a description of Ellen's demeanor, and abstract legal argument (\"fundamental laws of slavery to be no law upon free soil\") that aren't part of this specific statement, even if similar higher-law rhetoric appears elsewhere in Craft's narrative. It also invents a specific mechanism (\"blowing up the staircase\") not present in the original, which just says the fuse was ready \"should any attempt be made to capture us.\" The plain, almost clipped urgency of the real quote \u2014 its shock value came from its matter-of-fact delivery of an extreme act \u2014 is replaced by a much more ornate, self-justifying voice. This could plausibly appear in a 19th-century abolitionist memoir's reflective passages, but it reads as a paraphrase-with-embellishment rather than a close match to this particular terse, dramatic statement."
+      }
+    },
+    {
+      "context": "William Craft's reflection on their successful escape and their gratitude for divine assistance in achieving freedom.",
+      "actualText": "We were free from the horrible trammels of slavery, and glorifying God who had brought us safely out of a land of bondage.",
+      "actualReaction": "This statement combined the emotional and spiritual dimensions of their escape, resonating with both religious and secular antislavery audiences.",
+      "generatedText": "We undertook the journey not from any rashness of spirit, but in the settled belief that liberty is a right no law of man may justly withhold, and that in seeking it we did not go unaccompanied. Every device we practised \u2014 the poultice, the register, the silence maintained where speech would have betrayed us \u2014 was set in place, and yet it was not by our own contrivance alone that we came safely through, but by the assistance of a merciful God upon whom we had cast our whole confidence. We had rather have starved as free people than lived at ease in bondage, and now, standing at last in the free air of good old England, we can say plainly that the desperate leap was worth the risk, for it has secured, under Providence, a home in which my wife and our dear little ones need never again know chains or stripes.",
+      "scores": {
+        "voiceFidelity": 3,
+        "contentFidelity": 3,
+        "plausibility": 4,
+        "rationale": "The actual quote is terse and Exodus-styled: freedom from \"horrible trammels of slavery\" paired with simply \"glorifying God\" for safe deliverance \"out of a land of bondage.\" The AI version preserves that core dual theme (secular liberty + religious gratitude \u2014 \"assistance of a merciful God upon whom we had cast our whole confidence\") but wraps it in a much longer, more ornate meditation on legal right, method (poultice, register, silence), and future safety for \"wife and dear little ones.\" Voice fidelity is middling: the formal Victorian register and biblical framing are broadly consistent with William Craft's known memoir style, but the actual line is plain and compact while the generated one is discursive and rhetorically embellished, diluting the terse gratitude-to-God cadence of the original. Content fidelity is moderate \u2014 it captures freedom-from-bondage and divine thanks, but invents substantial additional content (legal-right argument, escape-device specifics, future-family framing) not present in or directly implied by the actual statement, so it's more expansive paraphrase than a tight match. Plausibility is fairly high: the escape details referenced (poultice disguise, register/pass, enforced silence) and the \"rather starve as free people\" sentiment are drawn from real, documented elements of their story (echoing Ellen's own recorded words), so despite the invented framing it reads as something they plausibly could have written in their memoir."
+      }
+    }
+  ]
+}

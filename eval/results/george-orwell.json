@@ -1,0 +1,61 @@
+{
+  "name": "George Orwell",
+  "slug": "george-orwell",
+  "trainCount": 14,
+  "testCount": 4,
+  "avgScores": {
+    "voiceFidelity": 5,
+    "contentFidelity": 3.75,
+    "plausibility": 5
+  },
+  "testResults": [
+    {
+      "context": "Orwell describing the physical and mental ordeal of writing in his essay on the motivations for prose writing",
+      "actualText": "Writing a book is a horrible, exhausting struggle, like a long bout of some painful illness.",
+      "actualReaction": "Widely quoted by writers and scholars as an honest assessment of the writing process",
+      "generatedText": "Writing a book is a horrible, exhausting struggle, like a long bout of some painful illness. One would never undertake such a thing if one were not driven on by some demon whom one can neither resist nor understand. For all one knows that demon is simply the same instinct that makes a baby squall for attention. And yet it is also true that one can write nothing readable unless one constantly struggles to efface one's own personality.",
+      "scores": {
+        "voiceFidelity": 5,
+        "contentFidelity": 5,
+        "plausibility": 5,
+        "rationale": "The generated statement contains the actual quote verbatim as its opening sentence (\"horrible, exhausting struggle, like a long bout of some painful illness\") and extends it with continuation that closely tracks the real passage from \"Why I Write\" \u2014 the \"demon whom one can neither resist nor understand,\" the analogy to \"a baby squall for attention,\" and the point about needing to \"efface one's own personality\" to write anything readable are all near-verbatim or paraphrased elements of Orwell's actual essay. Voice is dead-on: plain, declarative syntax, dry self-deprecating irony, concrete physical/illness metaphor, and the characteristic move from personal confession to a general aphorism about writing. Content fidelity is essentially perfect since it reproduces and correctly extends the real argument rather than inventing a divergent one. Plausibility is maximal \u2014 this is not just \"in his style\" but actual Orwell text, so it obviously could (and does) pass as something he really said."
+      }
+    },
+    {
+      "context": "Opening of Orwell's essay describing the sensory experience of witnessing an execution in colonial Burma",
+      "actualText": "It was in Burma, a sodden morning of the rains. A sickly light, like yellow tinfoil, was slanting over the high walls into the jail yard.",
+      "actualReaction": "The passage became famous for its vivid imagery and emotional precision in conveying the atmosphere of capital punishment",
+      "generatedText": "It was in Burma, a rainy morning of the cold season, that we set out for the gallows some way from the prison, seven of us, in single file, with a native superintendent and a party of armed warders in front and behind. The prisoner walked between his guards, making no resistance and no attempt to control himself, only he flinched slightly, as one flinches when the earth is wet underfoot, at each step. Once, when they were almost at the gallows, the dog broke free of the warders and ran to him, capering and yelping with what seemed to be pure delight at finding so many people together; and it was curious, but till that moment I had never realized what it means to destroy a healthy, conscious man. This man was not dying, he was alive just as we were alive; all the organs of his body were working, the bowels digesting food, the skin renewing itself, the nails growing, the brain still remembering, foreseeing, reasoning \u2014 reasoning even about puddles. He and we were a party of men walking together, seeing, hearing, feeling, understanding the same world; and in two minutes, with a sudden snap, one of us would be gone \u2014 one mind less, one world less.",
+      "scores": {
+        "voiceFidelity": 5,
+        "contentFidelity": 3,
+        "plausibility": 5,
+        "rationale": "The generated passage is not an imitation but essentially Orwell's actual prose from \"A Hanging,\" reproduced near-verbatim: the walk to the gallows, the dog bounding up to lick the prisoner's face, and the famous \"I had never realized what it means to destroy a healthy, conscious man... one mind less, one world less\" meditation are all genuine (very lightly paraphrased) sentences from the real essay. Voice fidelity is therefore essentially perfect (5) and plausibility is maximal (5), since this could pass as, and largely is, the real text. However, contentFidelity is only moderate (3): the specific quoted \"actual statement\" is the essay's opening sensory image \u2014 the \"sickly light, like yellow tinfoil\" slanting over the jail-yard walls on a \"sodden morning of the rains\" \u2014 and the AI output does not reproduce that imagery at all, instead jumping to a later paragraph about the procession and the dog. It even introduces a factual/textual slip, describing \"a rainy morning of the cold season\" where the actual line specifies \"a sodden morning of the rains\" with no cold-season framing. So while thematically and tonally spot-on (same essay, same event), it doesn't actually match the particular opening passage it was being compared against."
+      }
+    },
+    {
+      "context": "Orwell reflecting on poverty from his personal experience living as a vagrant and in workhouses",
+      "actualText": "Within certain limits, it is actually true that the less money you have, the less you worry.",
+      "actualReaction": "Sociologists and historians cited this as Orwell's paradoxical insight from his time living in poverty",
+      "generatedText": "Poverty, I discovered, annihilates the future. When you have four shillings in the world you are not thinking of a job or a wife or a happy old age; you are thinking of your next meal. It also annihilates the ordinary decencies, for you cannot be polite when your stomach is empty and a man has been shouting at you since dawn. What I most remember is not the hunger but the tedium and the filth, the queueing at spikes and casual wards, and the discovery that the horror of poverty is not tragic but merely squalid and boring, which is worse.",
+      "scores": {
+        "voiceFidelity": 5,
+        "contentFidelity": 2,
+        "plausibility": 5,
+        "rationale": "Voice fidelity is excellent: plain declarative sentences, concrete shillings-and-meals imagery, the \"not X but Y\" rhetorical construction, and references to spikes/casual wards are all hallmarks of Orwell's actual prose in Down and Out in Paris and London (the \"poverty annihilates the future\" line is in fact very close to real Orwell phrasing). Plausibility is very high for the same reason \u2014 this reads as authentically Orwellian and matches known documented themes from his tramping experience. However, content fidelity to the specific actual quote is weak: the real statement makes a paradoxical claim that less money brings less worry (freedom from anxiety once you accept destitution), while the generated statement asserts nearly the opposite \u2014 that poverty produces constant anxious fixation on the next meal and \"annihilates\" thought about the future. The generated text captures adjacent, genuine Orwell themes (squalor, tedium, indignity) but misses or contradicts the specific paradox that made the actual quote notable to sociologists and historians."
+      }
+    },
+    {
+      "context": "Orwell's metaphor for clear writing\u2014prose should be transparent and not call attention to itself",
+      "actualText": "good prose is like a windowpane",
+      "actualReaction": "Became a foundational principle in writing education and literary criticism",
+      "generatedText": "Good prose is like a windowpane. You should be able to look straight through it and see the thing it shows you, not the glass itself. The moment a reader stops to admire a phrase, or puzzles over what you meant, the pane has grown cloudy and the writer has failed. I would rather write badly and clearly than well and obscurely; the aim is never to be noticed at all.",
+      "scores": {
+        "voiceFidelity": 5,
+        "contentFidelity": 5,
+        "plausibility": 5,
+        "rationale": "The generated statement reproduces Orwell's actual phrase verbatim (\"good prose is like a windowpane\") and extends it in a way that is fully consistent with his documented views from \"Why I Write\" and \"Politics and the English Language\"\u2014emphasizing transparency, the writer's self-effacement, and preferring clarity over ornamentation. The added lines (\"I would rather write badly and clearly than well and obscurely\") closely mirror Orwell's actual stated preference for plainness over stylistic show, and the diction (short declaratives, plain Anglo-Saxon vocabulage, aphoristic construction, moral framing of prose as a duty) matches his essayistic voice precisely. Content-wise it captures the exact metaphor and its implication (the writer should not be noticed) without introducing any anachronism or contradiction. Plausibility is very high since this reads as something Orwell could have written almost unchanged in his essays on language and style\u2014it doesn't overreach into invented specifics or false attributions."
+      }
+    }
+  ]
+}

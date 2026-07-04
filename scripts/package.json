@@ -1,0 +1,15 @@
+{
+  "name": "grudgemap-gen-pins",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "One-off script: generate character bust-sticker map pins via Gemini image gen",
+  "scripts": {
+    "gen": "node gen-pins.mjs"
+  },
+  "dependencies": {
+    "@google/genai": "^1.0.0",
+    "@imgly/background-removal-node": "^1.4.5",
+    "pngjs": "^7.0.0"
+  }
+}

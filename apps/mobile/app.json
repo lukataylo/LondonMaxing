@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Grudge Map",
+    "slug": "grudge-map",
+    "scheme": "grudgemap",
+    "version": "0.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#f7f6ef",
+    "assetBundlePatterns": ["**/*"],
+    "plugins": [
+      [
+        "react-native-maps",
+        {
+          "enableGoogleMaps": false
+        }
+      ]
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Grudge Map uses your location to wake nearby talking objects as you walk.",
+        "NSCameraUsageDescription": "Grudge Map uses your camera so you can point at an object to wake it.",
+        "NSMicrophoneUsageDescription": "Grudge Map uses your microphone so you can talk back to the characters.",
+        "NSPhotoLibraryUsageDescription": "Grudge Map lets you pick a photo of an object to wake it."
+      }
+    },
+    "android": {
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "CAMERA",
+        "RECORD_AUDIO"
+      ]
+    }
+  }
+}

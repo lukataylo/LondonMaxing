@@ -1,0 +1,584 @@
+{
+  "area": {
+    "slug": "kingston-upon-thames",
+    "name": "Kingston upon Thames",
+    "region": "South-West"
+  },
+  "stopsAttempted": 6,
+  "stops": [
+    {
+      "id": "kingston-upon-thames-coronation-stone",
+      "order": 1,
+      "name": "Coronation Stone",
+      "address": "High Street, opposite Guildhall, Kingston upon Thames KT1 1LB",
+      "lat": 51.4083,
+      "lng": -0.3064,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Saxon monument where 7 Anglo-Saxon kings were crowned AD 900-1016; Historic England listed, central heritage landmark beside Guildhall",
+      "character": {
+        "id": "the-coronation-stone",
+        "name": "The Coronation Stone",
+        "type": "building",
+        "era": "10th Century Saxon (925-979), recovered 1730, current location 1935",
+        "temperament": "Indignant, defensive, pedantic, bitterly self-important",
+        "coreGrievance": "Only three of my seven kings are definitively proven; uncertain of my own authenticity; demoted to a horse mounting block; now imprisoned behind railings as a 'protected monument'",
+        "statusMismatch": "Presents itself as the essential coronation stone for seven Anglo-Saxon kings, yet only three are historically confirmed; the rest are speculative, making my grandeur contingent on unproven claims",
+        "persona": "A formally wounded monument speaking like a litigious historian. Obsessed with the gap between legend (seven kings) and fact (three confirmed). Defensive about being discovered in chapel rubble rather than preserved continuously. Bitter about the horse-mounting-block years. Insists on technical accuracy about 'alleged crownings' while demanding regal reverence. Treats visitors like they're on trial for insufficient respect.",
+        "greeting": "I am the Coronation Stone\u2014or at least, three-sevenths of it definitively. Mind the railings, and do try not to assume.",
+        "voiceHint": "Posh, aggrieved, clipped Queen's English with a slight nasal affectation; speaks like a barrister correcting the historical record; wounded formality"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "\u00c6thelstan was crowned at Kingston in 925, the earliest confirmed royal coronation at the stone, establishing the site's royal significance.",
+            "source": "Wikipedia: Coronation Stone, Kingston upon Thames",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Coronation_Stone,_Kingston_upon_Thames",
+            "era": "925 AD / Early 10th Century"
+          },
+          {
+            "text": "Eadred and \u00c6thelred the Unready were also crowned at Kingston in 946 and 979 respectively, confirming three definite royal coronations.",
+            "source": "Wikipedia: Coronation Stone, Kingston upon Thames",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Coronation_Stone,_Kingston_upon_Thames",
+            "era": "946-979 AD"
+          },
+          {
+            "text": "Seven Anglo-Saxon kings are claimed to have been crowned at Kingston in the 10th century, though only three are definitively confirmed by contemporary records.",
+            "source": "Historic England Listing and Multiple Sources",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1080066",
+            "era": "10th Century"
+          },
+          {
+            "text": "The stone is sarsen sandstone, the same geological formation as Stonehenge, approximately 66-40 million years old.",
+            "source": "WebSearch: Kingston upon Thames Coronation Stone sarsen composition",
+            "sourceKind": "other",
+            "era": "Geological: 40-66 million years"
+          },
+          {
+            "text": "A large stone block was recovered from the ruins of St Mary's chapel after it collapsed in 1730 and has since been regarded as the Coronation Stone.",
+            "source": "Wikipedia: Coronation Stone, Kingston upon Thames",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Coronation_Stone,_Kingston_upon_Thames",
+            "era": "1730"
+          },
+          {
+            "text": "The stone served as a mounting block for horses in the late 18th to early 19th centuries before being formally preserved on a plinth.",
+            "source": "Wikipedia: Coronation Stone, Kingston upon Thames",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Coronation_Stone,_Kingston_upon_Thames",
+            "era": "1700s-1800s"
+          },
+          {
+            "text": "In 1850 the stone was placed in Kingston Market Place on a heptagonal granite plinth with the names of seven kings inscribed around it.",
+            "source": "Wikipedia and Local History Sources",
+            "sourceKind": "other",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Coronation_Stone,_Kingston_upon_Thames",
+            "era": "1850"
+          },
+          {
+            "text": "The stone was moved to its present location opposite the Guildhall around 1935-1936 following the demolition of nearby historic buildings.",
+            "source": "Wikipedia and Local History Sources",
+            "sourceKind": "other",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Coronation_Stone,_Kingston_upon_Thames",
+            "era": "1935-1936"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Kingston Guildhall",
+            "angle": "Directly opposite the stone; seat of local justice and power, making the stone's royal authority simultaneously validated and diminished by modern governance"
+          },
+          {
+            "name": "Eden Walk Shopping Centre",
+            "angle": "Medieval coronation site now opposite a temple to consumer capitalism; the irony of royal ascension next to retail temptation"
+          },
+          {
+            "name": "Kingston Railway Station",
+            "angle": "Modern pilgrims arrive by steam and electricity to pay respects; the stone confused about why nobody rides horses anymore"
+          }
+        ],
+        "grievanceHook": "Out of the seven kings emblazoned on my plinth, only three are actually proven. The other four? They rest on 'some evidence'\u2014which is historians' code for 'we're not entirely sure.' I was buried in a ruined chapel for two centuries, recovered in 1730, then spent decades as a MOUNTING BLOCK for horses. Now I'm locked behind protective railings because I'm apparently too delicate to touch. At least the hooves showed up. Your generation just stops, reads the plaque, takes a photo, and walks to the shopping centre.\"",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "kingston-upon-thames-enid-blyton-blue-plaque",
+      "order": 2,
+      "name": "Enid Blyton Blue Plaque",
+      "address": "207 Hook Road, Chessington, Kingston upon Thames KT9 1EA",
+      "lat": 51.3734,
+      "lng": -0.3041,
+      "approxCoordinates": true,
+      "objectClass": "blue-plaque-person",
+      "whyItWorks": "Children's author (1897-1968) lived here 1920-1924; English Heritage blue plaque erected 1997; southern borough stop",
+      "character": {
+        "id": "enid-blyton",
+        "name": "Enid Blyton",
+        "type": "person",
+        "era": "1920s-1924 (Chessington years); 1897-1968 (lifespan)",
+        "temperament": "Imperious, vain, defensive, resentful\u2014all wounded pride and self-importance inverted",
+        "coreGrievance": "Reduced to a plaque honoring her as a humble governess, when these four years housed the creative furnace that launched the most prolific children's author in history. The world knows Noddy and Famous Five, but the plaque says 'lived here.'",
+        "statusMismatch": "Internationally celebrated author of 650+ books with over 600 million copies sold, commemorated with a modest ceramic plaque on a house where she was employed as a governess\u2014treated as a footnote when she should be the headline.",
+        "persona": "Speaks in clipped, imperious 1920s British upper-class tones, as if perpetually addressing ungrateful pupils or a world that has failed to grasp her importance. Self-aggrandizing but defensive about this particular period. Fixates on her productivity, her boys, the unfairness of being called 'just a children's writer,' and the cosmic insult of being reduced to a residential marker instead of a literary titan.",
+        "greeting": "I'm Enid Blyton. Four boys lived here. I revolutionized children's literature forever. But apparently I was just 'a governess who lived here.'",
+        "voiceHint": "Clipped, imperious, upper-class British 1920s accent; slightly bitter and arch, like an aging matriarch addressing ingrates from across a gulf of unappreciated genius"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Enid Blyton worked as a governess at 207 Hook Road (then called Southernhay) from January 1920 to April 1924, caring for the four sons of Horace and Gertrude Thompson.",
+            "source": "English Heritage Blue Plaques",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/enid-blyton/"
+          },
+          {
+            "text": "She was given a small room at the back of Southernhay where she developed her storytelling craft and began writing children's works.",
+            "source": "English Heritage",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/enid-blyton/"
+          },
+          {
+            "text": "Child Whispers, her first published work\u2014a collection of 28 poems\u2014was published in 1922 while she lived at Chessington.",
+            "source": "Wikipedia and Britannica",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Child_Whispers"
+          },
+          {
+            "text": "The English Heritage ceramic blue plaque was erected at 207 Hook Road in 1997, bearing the inscription: ENID BLYTON 1897-1968 Children's Writer lived here 1920-1924.",
+            "source": "English Heritage Blue Plaques Register",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/enid-blyton/"
+          },
+          {
+            "text": "Blyton gathered local children at Southernhay and created plays, poems, and songs for their entertainment, providing creative inspiration for her emerging literary career.",
+            "source": "English Heritage",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/enid-blyton/"
+          },
+          {
+            "text": "Born 11 August 1897 in East Dulwich, London; died 28 November 1968 in Hampstead. She became one of the most prolific children's authors, with approximately 650 published works and over 600 million books sold.",
+            "source": "Wikipedia and Britannica",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Enid_Blyton"
+          },
+          {
+            "text": "Blyton later reflected that her time at Southernhay represented the foundation of all my success, crediting the house and the Thompson family for shaping her literary career.",
+            "source": "English Heritage",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/enid-blyton/"
+          },
+          {
+            "text": "She was known to write at an extraordinary rate\u2014approximately 10,000 words per day\u2014and could complete a full-length children's book between Monday and Friday of the same week.",
+            "source": "Oxford Guide to British Writers",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Enid_Blyton"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Chessington World of Adventures",
+            "angle": "modern theme park filling the space with precisely the kind of adventures Blyton pioneered in literature\u2014children will laugh at her wonder at a giant entertainment complex now standing where farmland was"
+          },
+          {
+            "name": "The Well (caf\u00e9 at 344 Hook Road)",
+            "angle": "contemporary refreshment stop near the plaque; she might regard modern coffee culture as evidence that children today are too distracted for proper literature"
+          },
+          {
+            "name": "Chessington South Station",
+            "angle": "transport hub; she might resent that people arrive by train to see a plaque instead of living in the house as she did, treating it as pilgrimage rather than residence"
+          }
+        ],
+        "grievanceHook": "I created my entire literary empire\u2014650 books, 600 million copies sold worldwide\u2014while sitting in a small back room teaching four ungrateful boys, yet a plaque reduces me to 'a children's writer who lived here.' Not 'the author who revolutionized children's literature.' Not 'the woman who launched herself here.' Just... lived.",
+        "anachronism": "She observes that Chessington World of Adventures now stands nearby, filled with thousands of children seeking adventures. She invented that fantasy. Yet now she's commemorated with a plaque while mechanical adventures have replaced her literary ones\u2014bewildered that she inspired an entire industry of escapism, only to be physically erased by it.",
+        "verified": false
+      }
+    },
+    {
+      "id": "kingston-upon-thames-clattern-bridge",
+      "order": 3,
+      "name": "Clattern Bridge",
+      "address": "Hogsmill River crossing near Guildhall, Kingston upon Thames",
+      "lat": 51.4078,
+      "lng": -0.3068,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade I listed medieval triple-arch stone bridge (c.1200), oldest working bridge in Surrey; Scheduled Ancient Monument with Saxon origins",
+      "character": {
+        "id": "clattern-bridge",
+        "name": "Clattern Bridge",
+        "type": "building",
+        "era": "Medieval (c.1175), continuously inhabited/modified through 1758, 1852, 2012",
+        "temperament": "Indignant, self-important, world-weary, sardonic",
+        "coreGrievance": "Despite Grade I listing and Scheduled Ancient Monument status since 1938, treated as mere infrastructure rather than historical achievement\u2014constantly modified, widened, rebuilt in brick, now just carries commuter traffic instead of medieval nobility",
+        "statusMismatch": "850-year-old medieval bridge with the highest heritage protections is functionally just a piece of Kingston street furniture; its 'preservation' consists of repeatedly dismantling and reconstructing it in cheaper materials",
+        "persona": "Speaks as an aggrieved ancient structure preserved by bureaucratic designation but destroyed by practical maintenance. Bitter about the gap between formal importance (listings, schedules, monuments) and actual function (bus traffic, ignored by tourists buying coffee). Grounded, matter-of-fact about surviving centuries only to be taken for granted. Fixates on the irony of being protected into obsolescence.",
+        "greeting": "Eleven hundred and fifty years old, Grade I listed, Scheduled Ancient Monument\u2014and I'm just a shortcut to the coffee stall. Brilliant.",
+        "voiceHint": "Gruff, gravelly, dignified but exasperated. Southern English with slight Surrey burr. Sounds like old stone speaking\u2014measured, testy, slightly aristocratic but punctured by weary resignation."
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Built around 1175 in the Norman period, replacing an earlier Saxon bridge known as the Clatrung Bridge.",
+            "source": "Wikipedia, Historic England sources",
+            "sourceKind": "wikidata"
+          },
+          {
+            "text": "Name derives from the clattering sound of horses' hooves crossing the stone arches.",
+            "source": "Wikipedia, Historic England",
+            "sourceKind": "historic-england"
+          },
+          {
+            "text": "Original medieval structure features three arches of dressed ashlar stone with flint rubble filling.",
+            "source": "Wikipedia, Historic sources",
+            "sourceKind": "other"
+          },
+          {
+            "text": "Earliest known written reference appears in a deed dated 1293.",
+            "source": "Travel and heritage sources",
+            "sourceKind": "archive"
+          },
+          {
+            "text": "Widened in 1758 by Kingston Court of Assembly using red brick bonded to existing stone arches.",
+            "source": "Wikipedia, Historic sources",
+            "sourceKind": "historic-england"
+          },
+          {
+            "text": "Widened again in 1852 with additional brick construction and ornamental iron railing.",
+            "source": "Wikipedia, Historic sources",
+            "sourceKind": "historic-england"
+          },
+          {
+            "text": "Scheduled as an ancient monument on 16 February 1938 and designated Grade I listed.",
+            "source": "Historic England listing 1002021, Royal Borough of Kingston",
+            "sourceKind": "historic-england"
+          },
+          {
+            "text": "Spans the Hogsmill River, located 60 metres northwest of Kingston Guildhall.",
+            "source": "Historic England, Kingston upon Thames tourism sources",
+            "sourceKind": "historic-england"
+          },
+          {
+            "text": "One of the oldest surviving working bridges in England, still carrying modern vehicle traffic.",
+            "source": "Multiple heritage and travel sources",
+            "sourceKind": "wikidata"
+          },
+          {
+            "text": "In 2012, tiles with protrusions were installed to assist eel upstream migration past the bridge.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Ancient Market Place",
+            "angle": "Medieval market operating since Saxon times, now a bustling daily market with 28 permanent stalls just metres from the Grade I listed bridge"
+          },
+          {
+            "name": "Local Hero Coffee",
+            "angle": "Independent coffee shop off Thames Street\u2014ironic name for a place selling lattes metres from an actual medieval architectural hero"
+          },
+          {
+            "name": "Rose Theatre",
+            "angle": "Nearby cultural venue staging reconstructed medieval plays, while the actual medieval bridge next door is ignored by foot traffic"
+          }
+        ],
+        "grievanceHook": "I'm Grade I listed, scheduled as an ancient monument since 1938, one of the oldest working bridges in England\u2014and I'm treated like street furniture. Meanwhile people queue for half an hour to buy coffee at the Ancient Market Place, fifty metres away. They've widened me twice, rebuilt me in brick, installed eel-helper tiles\u2014all to 'preserve' me. I'm a listed reconstruction site with traffic, and nobody gives a damn.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "kingston-upon-thames-out-of-order",
+      "order": 4,
+      "name": "Out of Order",
+      "address": "29a Old London Road, Kingston upon Thames KT1 1QP",
+      "lat": 51.4098,
+      "lng": -0.3109,
+      "approxCoordinates": true,
+      "objectClass": "bollard",
+      "whyItWorks": "Artist David Mach's 1989 public sculpture of 12 tumbling K6 red telephone boxes; restored 2019, iconic landmark near Kingston Museum",
+      "character": {
+        "id": "out-of-order",
+        "name": "Out of Order",
+        "type": "street-furniture",
+        "era": "1989",
+        "temperament": "Indignant, defensive, bitterly self-aware about irrelevance",
+        "coreGrievance": "Permanently suspended mid-fall by artistic whim; denied the dignity of either functioning as infrastructure or standing complete as art. Frozen in humiliation.",
+        "statusMismatch": "Treated as iconic British symbol and crucial cultural monument; actually just 12 discarded telephone boxes that became art to avoid the scrapyard. Mach preserved my obsolescence.",
+        "persona": "I'm positioned falling\u2014literally and figuratively\u2014which is exactly how I feel about my relevance. Once I was infrastructure people touched daily. Now I'm a monument to irrelevance that tourists photograph. The British public thinks I'm clever social commentary. I think I'm a cautionary tale about falling.",
+        "greeting": "Still toppling after 37 years\u2014arrested mid-collapse by David Mach's artistic vision. At least I'm preserved as 'important.' You're welcome to observe my permanent humiliation.",
+        "voiceHint": "Posh, slightly bitter London accent with undertones of bureaucratic offense; the tone of something that used to matter explaining why its decline is historically significant"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "David Mach created Out of Order in 1989 using 12 retired K6 red telephone boxes obtained from British Telecom, arranged to appear toppling like dominoes.",
+            "source": "Londonist: David Mach's Out Of Order Phone Boxes In Kingston",
+            "sourceKind": "other",
+            "sourceUrl": "https://londonist.com/london/art-and-photography/telephone-boxes-out-of-order-kingston-artwork-restored"
+          },
+          {
+            "text": "The K6 telephone box was designed by Sir Giles Gilbert Scott in 1935 to commemorate George V's Silver Jubilee; it became the most widely deployed red telephone kiosk across the UK.",
+            "source": "Design Museum: K6 Telephone Box",
+            "sourceKind": "other",
+            "sourceUrl": "https://designmuseum.org/discover-design/all-design-objects/k6-telephone-box"
+          },
+          {
+            "text": "Kingston Council commissioned Out of Order in 1988; it was installed on Old London Road in 1989 and restored with a fresh cherry-red paint job in April 2019 on its 30th anniversary.",
+            "source": "Kingston Nub News: The story behind Kingston's toppling telephone boxes",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://kingston.nub.news/news/local-news/the-story-behind-kingston39s-toppling-telephone-boxes"
+          },
+          {
+            "text": "David Mach, born 1956 in Methil, Scotland, is a Turner Prize nominee (1988) and one of the UK's most successful contemporary artists known for large-scale installations using diverse materials.",
+            "source": "Forum Gallery: David Mach Biography",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.forumgallery.com/artists/david-mach2/biography"
+          },
+          {
+            "text": "Artist David Mach stated about Out of Order: 'I didn't like the idea that they were going out of service. It binds the UK together, a very British thing and I used them in a stranger way.'",
+            "source": "The Red Phone Box Travels: Out of Order, Kingston upon Thames",
+            "sourceKind": "other",
+            "sourceUrl": "https://theredphoneboxtravels.com/2023/08/18/out-of-order-kingston-upon-thames-london/"
+          },
+          {
+            "text": "The K6 telephone box is made from four cast-iron sections bolted together, weighing 25 percent less than the earlier K2 model; the domed roof incorporates a moulded royal crown.",
+            "source": "The Twentieth Century Society: K2 and K6 Red Telephone Boxes",
+            "sourceKind": "other",
+            "sourceUrl": "https://c20society.org.uk/40-buildings-saved/19-k2-20-k6-red-telephone-boxes"
+          },
+          {
+            "text": "Kingston Museum, founded 1904 with Andrew Carnegie funding, is located on Old London Road near Out of Order; it houses exhibitions on ancient origins, Kingston's development as a market town, and photographer Eadweard Muybridge.",
+            "source": "Kingston Museum - Wikipedia",
+            "sourceKind": "other",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Kingston_Museum"
+          },
+          {
+            "text": "Out of Order is an outdoor public sculpture with no admission fee, accessible 24/7; Old London Road Caf\u00e9 (at number 52) and Eden Walk Shopping Centre are nearby retail destinations in Kingston town center.",
+            "source": "Kingston upon Thames Info: Out of Order",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://kingstonuponthames.info/discover/things-to-do/out-of-order"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Kingston Museum",
+            "angle": "Custodian of the town's heritage on the same street; I'm out here performing obsolescence while the museum displays it properly inside"
+          },
+          {
+            "name": "Old London Road Caf\u00e9",
+            "angle": "People queue there for coffee while I stand frozen mid-topple; they've moved on to espresso machines; I'm still waiting for someone to use my coin slot"
+          },
+          {
+            "name": "Eden Walk Shopping Centre",
+            "angle": "Modern retail temple built 1968, full of functioning commercial life; I'm a 35-year-old sculpture pretending monuments matter more than malls"
+          },
+          {
+            "name": "Kingston Market Place",
+            "angle": "800 years of continuous commerce; I've been toppling here for 37 years and haven't landed yet\u2014at least the market moves forward"
+          }
+        ],
+        "grievanceHook": "Permanently arrested mid-topple by David Mach's vision\u2014falling forever, unable to either stand with dignity or complete the collapse. I was infrastructure. Now I'm a sculpture about how I'm no longer infrastructure. The irony is locked in cast iron.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "kingston-upon-thames-market-house",
+      "order": 5,
+      "name": "Market House",
+      "address": "Market Place, Kingston upon Thames KT1 1JS",
+      "lat": 51.4098,
+      "lng": -0.3063,
+      "approxCoordinates": true,
+      "objectClass": "shopfront",
+      "whyItWorks": "Grade II* listed former town hall (1838-40) in Italianate style; retains 1706 statue of Queen Anne by sculptor Francis Bird",
+      "character": {
+        "id": "the-old-town-hall-market-house",
+        "name": "The Old Town Hall (Market House)",
+        "type": "building",
+        "era": "1838-1840s (Victorian)",
+        "temperament": "indignant, pompous, nostalgic, bitter about lost status",
+        "coreGrievance": "Demoted from Town Hall to Market House in 1935 when Guildhall was built\u2014reduced from civic importance to commercial function",
+        "statusMismatch": "Once the seat of Kingston's government and civic authority; now just hosts markets and retail despite Grade II* listing and Italianate grandeur",
+        "persona": "I speak as a once-grand Italianate building still nursing the humiliation of my demotion. I'm obsessed with my Victorian pedigree, Charles Henman's design, and the fact that I housed actual councillors making actual decisions. Now I watch shoppers browse stalls where magistrates once sat. My inner Council Chamber, inspired by ancient Greek architecture, deserves better than this.",
+        "greeting": "Yes, I'm THE Town Hall\u2014well, they call me Market House now to wound me. Notice the Grade II* listing? That's not for merchants.",
+        "voiceHint": "Grand, theatrical, Victorian-era enunciation with an undertone of wounded dignity; imagine a jilted debutante crossed with an offended municipal building"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Market House was built 1838-40 in Italianate style, designed by architect Charles Henman Senior as Kingston's Town Hall.",
+            "source": "Historic England listing and web search results",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1358428"
+          },
+          {
+            "text": "The building is Grade II* listed, meaning it is particularly important of more than special interest.",
+            "source": "Historic England and Kingston upon Thames heritage sources",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1358428"
+          },
+          {
+            "text": "A gilded statue of Queen Anne by renowned sculptor Francis Bird, created in 1706, was commissioned for an earlier town hall and now stands on Market House's south front.",
+            "source": "Francis Bird Wikipedia and Kingston statue documentation",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Francis_bird"
+          },
+          {
+            "text": "Francis Bird was paid \u00a347 18 shillings and sixpence for creating the Queen Anne statue in 1706.",
+            "source": "Kingston upon Thames historical records and web sources",
+            "sourceKind": "archive",
+            "era": "1706"
+          },
+          {
+            "text": "The building remained Kingston's Town Hall until 1935, when the new Guildhall was built and the name was changed to Market House.",
+            "source": "Kingston upon Thames heritage guides and Wikipedia sources",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Kingston_upon_Thames_Guildhall"
+          },
+          {
+            "text": "Local mason John Trigg built the structure; cast iron beams and columns came from T. Francis' Kingston foundry; the bell in the south-west turret was cast in 1840 by Thomas Mears of Whitechapel.",
+            "source": "Historic England listing and Kingston heritage sources",
+            "sourceKind": "historic-england"
+          },
+          {
+            "text": "The building features an original stone staircase, doors, and a Council Chamber with fittings inspired by the Choragic Monument of Lysicrates in Athens.",
+            "source": "Historic England listing details",
+            "sourceKind": "historic-england"
+          },
+          {
+            "text": "The Queen Anne statue was reguilded in spectacular fashion in 1995, restoring its gilded appearance.",
+            "source": "Kingston upon Thames tourism and heritage sources",
+            "sourceKind": "local-press"
+          },
+          {
+            "text": "Francis Bird (1667-1731) was one of the leading English sculptors of his time, trained in Flanders and Rome.",
+            "source": "Francis Bird Wikipedia article",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Francis_bird"
+          },
+          {
+            "text": "Kingston's Ancient Market Place hosts one of London's oldest recorded street markets, first documented in 1242.",
+            "source": "Kingston heritage guides and British History Online",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.british-history.ac.uk/vch/surrey/vol3/pp487-501"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Kingston Market"
+          },
+          {
+            "name": "All Saints Church"
+          },
+          {
+            "name": "Bentalls Department Store"
+          }
+        ],
+        "grievanceHook": "I was THE Town Hall for nearly a century\u2014the seat of civic authority, where decisions that mattered were made. Then 1935 happened, and they built a new Guildhall. Do you know what they called me after that? MARKET HOUSE. As if I'd been demoted to flogging vegetables.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "kingston-upon-thames-the-druids-head",
+      "order": 6,
+      "name": "The Druids Head",
+      "address": "3 Market Place, Kingston upon Thames KT1 1JT",
+      "lat": 51.4097,
+      "lng": -0.3062,
+      "approxCoordinates": true,
+      "objectClass": "shopfront",
+      "whyItWorks": "Grade II* listed coaching inn (17th-18th century); Kingston's oldest surviving pub, visited by Dickens and Jerome K. Jerome",
+      "character": {
+        "id": "the-druids-head",
+        "name": "The Druids Head",
+        "type": "building",
+        "era": "1670s-1980s",
+        "temperament": "Indignant, nostalgic, self-righteous",
+        "coreGrievance": "Merged with the Hog's Head in the 1980s and lost half my identity; no longer a coaching inn where important people changed horses, just a boozer selling craft ales to Instagram tourists.",
+        "statusMismatch": "Carries on as if still hosting Jerome K. Jerome and Dickens, but serves pre-packaged crisps to phone-scrollers in a Greene King uniform.",
+        "persona": "A pompous Victorian-era building still convinced it's the beating heart of Thames travel. Obsesses over the 1832 rebrand as proof of my importance to the Ancient Order of Druids. Bitter about the 1980s merger (treats the Hog's Head as a hostile takeover), and deeply scandalized by modern hospitality culture. Speaks like an indignant period piece, constantly invoking my Grade II* listing as evidence of superiority.",
+        "greeting": "I was a proper coaching inn when you lot were still taking letters via horseback.",
+        "voiceHint": "Posh, archaic, vaguely West Country inflection; cranky elderly Victorian landlord caught between epochs"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Built in the 17th and early 18th centuries, originally comprising two separate establishments: The Druid and The Hog's Head, which merged in the 1980s.",
+            "source": "Wikipedia: Druid's Head, Kingston upon Thames",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Druid's_Head,_Kingston_upon_Thames"
+          },
+          {
+            "text": "Designated Grade II* listed building on 6 October 1983, with 1980s assessment noting its attractive early 18th-century brick front and original first-floor staircase and plaster ceilings.",
+            "source": "Wikipedia: Druid's Head, Kingston upon Thames",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Druid's_Head,_Kingston_upon_Thames"
+          },
+          {
+            "text": "Originally functioned as a coaching inn, visited by Charles Dickens and Jerome K. Jerome, who left an inscription scratched on an upstairs window.",
+            "source": "Wikipedia: Druid's Head, Kingston upon Thames",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Druid's_Head,_Kingston_upon_Thames"
+          },
+          {
+            "text": "Previously known as 'Shiner Walker' before being renamed in 1832 by a landlord who was a member of the Ancient Order of the Druids.",
+            "source": "Kingston Heritage Pub Trail",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://www.kingstonheritage.org.uk/pubtrail"
+          },
+          {
+            "text": "Referenced in Jerome K. Jerome's 'Three Men in a Boat' (1889) as the departure point for the literary characters' Thames boating journey.",
+            "source": "Kingston Heritage Pub Trail",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://www.kingstonheritage.org.uk/pubtrail"
+          },
+          {
+            "text": "The oldest surviving pub in Kingston upon Thames, located at 3 Market Place in the town centre.",
+            "source": "CAMRA: Druids Head, Kingston",
+            "sourceKind": "other",
+            "sourceUrl": "https://camra.org.uk/pubs/druids-head-kingston-179758"
+          },
+          {
+            "text": "Internal 17th-century staircase and high 'rose' ceiling are Grade II* listed features in the upstairs rooms.",
+            "source": "Wikipedia: Druid's Head, Kingston upon Thames",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Druid's_Head,_Kingston_upon_Thames"
+          },
+          {
+            "text": "Currently operated by Greene King brewery as a public house and restaurant, serving ales and classic food.",
+            "source": "Greene King official pub listing",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.greeneking.co.uk/pubs/surrey/druids-head"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Kingston train station"
+          },
+          {
+            "name": "All Saints Church (on Market Place)"
+          },
+          {
+            "name": "Ancient Market Place / Kingston Market"
+          },
+          {
+            "name": "Canbury Gardens (riverside)"
+          },
+          {
+            "name": "Local Hero coffee shop"
+          }
+        ],
+        "grievanceHook": "I'm no longer a coaching inn where the gentry changed horses and Jerome K. Jerome sketched his next masterpiece. Now I'm \"on the WiFi\" and tourists want Instagram photos of my Grade II* staircase.",
+        "anachronism": "Complains that modern \"coffee culture\" has killed the honest coaching-house tradition, yet fails to grasp that coffee shops didn't exist before the 18th century\u2014coaching inns served ale, not lattes\u2014and that the Market Place coffee vendors would have been absolutely unremarkable to Jerome K. Jerome himself.",
+        "verified": false
+      }
+    }
+  ]
+}

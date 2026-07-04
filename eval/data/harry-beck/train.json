@@ -1,0 +1,51 @@
+{
+  "name": "Harry Beck",
+  "slug": "harry-beck",
+  "items": [
+    {
+      "text": "Looking at the old map of the Underground railways, it occurred to me that it might be possible to tidy it up by straightening the lines, experimenting with diagonals and evening out the distance between stations. The more I thought about it the more convinced I became that the idea was worth trying, so, selecting the Central London Railway as my horizontal base line I made a rough sketch. I tried to imagine that I was using a convex lens or mirror, so as to present the central area on a larger scale. This, I thought, would give a needed clarity to interchange information.",
+      "quoteType": "interview",
+      "context": "Beck explaining his design process and the inspiration behind creating a simplified, schematic Underground map using geometric principles rather than geographical accuracy.",
+      "publicReaction": "This statement was documented by Ken Garland in his 1994 book and illustrates Beck's revolutionary approach to transit cartography that would later be widely adopted worldwide.",
+      "date": "circa 1931-1933",
+      "source": "Ken Garland, Mr Beck's Underground Map: A History (1994), p. 17; cited in 'When Topology Trumped Topography: Celebrating 90 Years of Beck's Underground Map,' The Cartographic Journal, Vol. 58, No. 1",
+      "sourceUrl": "https://www.tandfonline.com/doi/full/10.1080/00087041.2021.1953765"
+    },
+    {
+      "text": "If you're going underground, why do you need to bother about geography? It's not so important. Connections are the thing.",
+      "quoteType": "reported-speech",
+      "context": "Beck expressing his fundamental design philosophy that Underground passengers needed to understand connections between stations rather than accurate geographical representation.",
+      "publicReaction": "This statement encapsulates the radical innovation that distinguished Beck's design from all previous transit maps and challenged conventional cartographic thinking.",
+      "date": "circa 1931-1933",
+      "source": "HENRY CHARLES BECK, MATERIAL CULTURE AND THE LONDON TUBE MAP OF 1933, Amodern",
+      "sourceUrl": "https://amodern.net/article/henry-c-beck-material-culture-and-the-london-tube-map-of-1933/"
+    },
+    {
+      "text": "The design was duly submitted, but, to my surprise and disappointment the very idea of a 45- and 90-degree schematic treatment was thought to be too 'revolutionary': my Underground map was handed back to me and that, it seemed, was to be the end of it.",
+      "quoteType": "published-writing",
+      "context": "Beck describing his 1931 submission to the London Underground publicity office and its rejection due to the radical nature of his geometric approach.",
+      "publicReaction": "His persistence after this rejection demonstrated unusual determination that would ultimately lead to the map's acceptance in 1932 and publication in 1933 with immediate public success.",
+      "date": "1931",
+      "source": "Multiple biographical sources including Ken Garland's work and Cartographic Journal article",
+      "sourceUrl": "https://www.tandfonline.com/doi/full/10.1080/00087041.2021.1953765"
+    },
+    {
+      "text": "A new design for an old map. We should welcome your comments.",
+      "quoteType": "published-writing",
+      "context": "Beck's message printed on the reverse of the first pocket edition of the London Underground map, inviting user feedback on the innovative design.",
+      "publicReaction": "The Railway Gazette reported receiving 'a very large number' of responses, and 750,000 copies of the first print sold rapidly with a second printing required within one month, validating the design.",
+      "date": "January 1933",
+      "source": "London Transport Museum collection; first pocket edition of the London Underground map",
+      "sourceUrl": "https://www.ltmuseum.co.uk/collections/collections-online/maps/item/1999-321"
+    },
+    {
+      "text": "I did not lose hope and the following year I decided to have one more try.",
+      "quoteType": "reported-speech",
+      "context": "Beck's response to the rejection of his 1931 design submission, expressing his determination to resubmit after the initial dismissal by London Transport.",
+      "publicReaction": "His persistence paid off when the revised design was accepted in 1932, becoming one of the most influential transport maps in the world.",
+      "date": "1932",
+      "source": "Historical biographical sources on Harry Beck's persistence in design process",
+      "sourceUrl": "https://www.astc.org.au/post/harry-beck-s-underground-map"
+    }
+  ]
+}

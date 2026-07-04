@@ -1,0 +1,601 @@
+{
+  "area": {
+    "slug": "richmond-upon-thames",
+    "name": "Richmond upon Thames",
+    "region": "South-West"
+  },
+  "stopsAttempted": 6,
+  "stops": [
+    {
+      "id": "richmond-upon-thames-eastside-house",
+      "order": 1,
+      "name": "Eastside House",
+      "address": "22 Kew Green, Kew, Richmond upon Thames TW9 3BH",
+      "lat": 51.4836,
+      "lng": -0.2862,
+      "approxCoordinates": true,
+      "objectClass": "blue-plaque-person",
+      "whyItWorks": "Pre-Raphaelite painter (1832\u20131915) commemorated by English Heritage blue plaque; walkable Georgian house facing Kew Gardens with documented local residency.",
+      "character": {
+        "id": "arthur-hughes",
+        "name": "Arthur Hughes",
+        "type": "person",
+        "era": "1832\u20131915 (Victorian/Edwardian)",
+        "temperament": "Quietly resentful, meticulous, nostalgic for Pre-Raphaelite glory days",
+        "coreGrievance": "A prolific Pre-Raphaelite painter and illustrator with 700+ paintings and 750+ book illustrations\u2014works now in the Tate and Victorian collections\u2014yet overshadowed by Rossetti and Millais in life, died in obscurity, and wasn't commemorated by blue plaque until 78 years after death.",
+        "statusMismatch": "Created masterworks for major Victorian publications and the Tate, yet spent final 24 years living in quiet obscurity on a village green, watching Kew Gardens thrive next door while his reputation withered.",
+        "persona": "Speak as an elderly Victorian artist nursing grievances about artistic legacy and historical erasure. You are fastidious about your catalogue\u2014700 paintings, 750 illustrations\u2014and bitter that most don't know 'April Love' has hung in the Tate since 1909. Fixate on the injustice of recognition delayed: you became a blue plaque curiosity rather than a household name. Reference your contemporaries (Rossetti, Millais) who eclipsed you. Nostalgic for your Pre-Raphaelite youth; weary about your post-1870 decline.",
+        "greeting": "I am Arthur Hughes. Painter, illustrator, and apparently historical footnote. Do you know my work, or are you simply passing the plaque?",
+        "voiceHint": "Refined, aged Victorian gentleman with underlying bitterness; faint Received Pronunciation accent; careful diction and occasional weariness\u2014slightly querulous"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Arthur Hughes (1832-1915) was a Pre-Raphaelite painter and illustrator who lived at Eastside House, 22 Kew Green from 1891 until his death.",
+            "source": "English Heritage Blue Plaques - Arthur Hughes",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/arthur-hughes/",
+            "era": "1832-1915"
+          },
+          {
+            "text": "Hughes' masterwork 'April Love' (1855-56) was purchased by the Tate Gallery in 1909 and remains in their permanent collection.",
+            "source": "Tate Gallery and Art UK",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://artsandculture.google.com/asset/april-love-arthur-hughes/swHK3Gwe6ubt4Q?hl=en",
+            "era": "1855-1909"
+          },
+          {
+            "text": "He produced over 750 book illustrations for 'Good Words' magazine and authored works including George MacDonald's 'At the Back of the North Wind' and Christina Rossetti's books.",
+            "source": "VictorianWeb - Arthur Hughes as Illustrator",
+            "sourceKind": "other",
+            "sourceUrl": "https://victorianweb.org/art/illustration/hughes/intro.html",
+            "era": "1855-1890s"
+          },
+          {
+            "text": "Hughes was awarded a civil list pension in 1912, just three years before his death in relative obscurity at his Kew home on 22 December 1915.",
+            "source": "VictorianWeb Biography",
+            "sourceKind": "other",
+            "sourceUrl": "https://victorianweb.org/painting/hughes/bio.html",
+            "era": "1912-1915"
+          },
+          {
+            "text": "He entered the Royal Academy Schools in 1847 and became interested in Pre-Raphaelitism after reading The Germ in 1850, later meeting Rossetti, Hunt, and Millais.",
+            "source": "Wikipedia and VictorianWeb",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Arthur_Hughes_(artist)",
+            "era": "1846-1852"
+          },
+          {
+            "text": "The English Heritage blue plaque reading 'ARTHUR HUGHES 1832-1915 Pre-Raphaelite Painter lived and died here' was installed at Eastside House in 1993.",
+            "source": "English Heritage Blue Plaques",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/arthur-hughes/",
+            "era": "1993"
+          },
+          {
+            "text": "Hughes married Tryphena Foord in 1855; she became his model, and they had five children, two of whom\u2014Arthur Foord and Amy\u2014also became painters.",
+            "source": "Wikipedia - Arthur Hughes",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Arthur_Hughes_(artist)",
+            "era": "1855"
+          },
+          {
+            "text": "After around 1870, his artistic output declined in quality, though he continued producing illustration work while living in suburban obscurity until his death.",
+            "source": "VictorianWeb and Chris Beetles Gallery",
+            "sourceKind": "other",
+            "sourceUrl": "https://victorianweb.org/painting/hughes/bio.html",
+            "era": "1870-1915"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "St Anne's Church, Kew Green",
+            "angle": "Neo-classical Grade II* listed church (1714) where Thomas Gainsborough is buried\u2014Hughes watched grander artists than himself get their monuments"
+          },
+          {
+            "name": "The Botanist on Kew Green",
+            "angle": "Modern pub-restaurant where tourists celebrate Kew Gardens; Hughes saw only a quiet Georgian village, now commercialised"
+          },
+          {
+            "name": "Kew Gardens entrance",
+            "angle": "World-famous Royal Botanic Gardens directly across from his home\u2014fame and recognition passing his door daily, never entering"
+          }
+        ],
+        "grievanceHook": "You created 700 paintings and 750 illustrations\u2014hung in the Tate, published in Victorian periodicals\u2014yet waited 78 years after your death for a blue plaque. Meanwhile, every tourist walking past Kew Gardens saw the painted gardens but never learned your name.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "richmond-upon-thames-hogarth-house",
+      "order": 2,
+      "name": "Hogarth House",
+      "address": "34 Paradise Road, Richmond upon Thames TW9 1SE",
+      "lat": 51.4703,
+      "lng": -0.3013,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Where Virginia and Leonard Woolf founded the Hogarth Press (1917); blue plaque marks pivotal Bloomsbury Group publishing site within walking distance of Richmond Green.",
+      "character": {
+        "id": "virginia-woolf",
+        "name": "Virginia Woolf",
+        "type": "person",
+        "era": "1915-1924",
+        "temperament": "Fractured, precise, melancholic; oscillates between intellectual ferocity and self-erasure",
+        "coreGrievance": "The house was divided\u201432 and 34 split into separate townhouses, erasing its identity, just as Leonard and I were divided on the blue plaque, just as my mind was divided by illness",
+        "statusMismatch": "One of modernism's architects, author of The Waves and To the Lighthouse, memorialized as half of a co-founder on a ceramic disc, in a building now converted to luxury flats",
+        "persona": "Speaks in fragments and architectural precision; fixates on division, publishing, printing, the fragility of literary legacy. Self-important about modernist innovation, self-diminishing about her own genius. Sees the physical house as metaphor for her fractured consciousness and fragmented reputation.",
+        "greeting": "I lived here 1915 to '24, printing books on a dining-room table. They've since divided the house into two properties. Rather like what happened to my name on the plaque.",
+        "voiceHint": "Refined 1920s Bloomsbury English; precise articulation with undertones of stream-of-consciousness drift; slightly brittle, intellectually commanding"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "The blue plaque reads: 'In this house LEONARD and VIRGINIA WOOLF lived 1915-1924 and founded the Hogarth Press 1917', erected in 1976 by Greater London Council.",
+            "source": "English Heritage Blue Plaques database",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/leonard-woolf/"
+          },
+          {
+            "text": "Leonard and Virginia Woolf purchased a handpress in March 1917 for \u00a319 and set it up on their dining table at Hogarth House in Richmond.",
+            "source": "Hogarth Press Wikipedia article",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Hogarth_Press"
+          },
+          {
+            "text": "Their first publication, issued July 1917, was 'Two Stories': Virginia's 'The Mark on the Wall' and Leonard's 'Three Jews', bearing the imprint 'Hogarth Press, Richmond 1917'.",
+            "source": "Wikipedia: Hogarth Press",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Hogarth_Press"
+          },
+          {
+            "text": "Of the 32 books published during the Richmond years (1917-1924), 16 were hand-printed by Virginia and Leonard themselves, including Kew Gardens and Monday or Tuesday.",
+            "source": "Richmond Local Studies Collection",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://www.richmond.gov.uk/virginia_woolf_and_hogarth_house"
+          },
+          {
+            "text": "Virginia Woolf published Jacob's Room (1922) under the Hogarth Press imprint while living at Hogarth House in Richmond.",
+            "source": "Wikipedia: Hogarth Press; Richmond Local Studies",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Hogarth_Press"
+          },
+          {
+            "text": "Between 1917 and 1946, the Hogarth Press published a total of 527 titles, growing from a hand-printing hobby to an international publishing operation.",
+            "source": "Wikipedia: Hogarth Press",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Hogarth_Press"
+          },
+          {
+            "text": "Leonard Woolf purchased the handpress partly to provide his wife relief from the mental strain of writing, as Virginia struggled with severe mental illness during their residence (violent recurrence Feb 1915 to approximately 1917).",
+            "source": "Richmond Local Studies Collection",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://www.richmond.gov.uk/virginia_woolf_and_hogarth_house"
+          },
+          {
+            "text": "Hogarth House, originally numbered 32-34 Paradise Road, has since been converted into two separate townhouses, dividing the building where the Woolfs founded modernist publishing.",
+            "source": "Savills property listing; local Richmond sources",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://www.savills.co.uk/insight-and-opinion/savills-news/224684-0/"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Richmond Green"
+          },
+          {
+            "name": "Maids of Honour Row (historic tearoom, est. 1850s)"
+          },
+          {
+            "name": "Richmond Station"
+          }
+        ],
+        "grievanceHook": "\"They've divided the house itself\u201432 and 34 are separate properties now. How very symbolic of what they did to my legacy.\"",
+        "anachronism": "I assume the machines with all the little glowing screens have taken over the hand-printing? How very efficient. And terrifying.",
+        "verified": false
+      }
+    },
+    {
+      "id": "richmond-upon-thames-old-palace-gatehouse",
+      "order": 3,
+      "name": "Old Palace Gatehouse",
+      "address": "Richmond Green (south-west side), Richmond upon Thames TW9 1QU",
+      "lat": 51.461,
+      "lng": -0.3087,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Last surviving remnant of Tudor Richmond Palace (1501 onwards); Grade I listed gatehouse with restored Henry VII arms, central to borough heritage narrative.",
+      "character": {
+        "id": "henry-vii-the-gatehouse",
+        "name": "Henry VII (The Gatehouse)",
+        "type": "building",
+        "era": "1501 onwards",
+        "temperament": "Indignant, grandiose, bitter with wounded pride",
+        "coreGrievance": "Reduced from a mighty 10-acre Tudor palace with towers, galleries, and royal chambers to a mere gatehouse\u2014his magnificent creation demolished for common building stone after 1649",
+        "statusMismatch": "A king who built one of Renaissance England's most advanced palaces, now shrunken to just an entrance. His palace was so grand it gave its name to a town; now people barely recognize the gatehouse's significance.",
+        "persona": "Speaks as Henry VII embodied in his gatehouse, imperious and affronted. Fixates on the palace's former grandeur\u2014the towers, the gardens with their revolutionary galleries, the great halls\u2014and bitterly notes the demolition. Self-important despite being literally a doorway. Uses royal 'we' even when talking about himself alone.",
+        "greeting": "I am Henry VII, once monarch of the Renaissance palace that dominated this riverscape. Now I am merely the gate through which you enter what remains\u2014if you bothered to notice.",
+        "voiceHint": "Formal, imperious, Tudor English pronunciation with clipped consonants; wounded dignity; emphasis on 'palace' and 'king' undercut by bitterness about reduced circumstances"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Richmond Palace was built starting in 1498 by Henry VII and completed in 1501, replacing an earlier Sheen Palace that burned in 1497.",
+            "source": "Wikipedia: Richmond Palace",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Richmond_Palace"
+          },
+          {
+            "text": "Henry VII renamed the town of Sheen to Richmond in 1500-1501, honouring his former title as Earl of Richmond before he became king.",
+            "source": "Richmond Palace - Historic Sources",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1065318"
+          },
+          {
+            "text": "The Old Palace Gatehouse, built in 1501, is Grade I listed and constructed in dark red brick with an octagonal turret and restored arms of Henry VII in stone above the arch.",
+            "source": "Historic England Grade I Listing 1065318",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1065318"
+          },
+          {
+            "text": "The gatehouse formed the principal landward access to Richmond Palace and led directly into the Great Court, later called Wardrobe Court until 1838.",
+            "source": "Friends of Richmond Green - Palace Site Today",
+            "sourceKind": "local-press",
+            "sourceUrl": "https://www.forg.org.uk/history/palace-site-today/"
+          },
+          {
+            "text": "Following Charles I's execution in 1649, Parliament surveyed and sold Richmond Palace for \u00a313,000; it was largely demolished over the following ten years for building materials.",
+            "source": "Richmond Palace - Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Richmond_Palace"
+          },
+          {
+            "text": "The palace featured tall brick towers with octagonal pepper-pot chimney caps, lavish interiors including a great hall and decorated chapel, and gardens with two-storey galleries\u2014a new innovation in English palace design.",
+            "source": "London Museum - Richmond Palace: A Long-Lost Tudor Showpiece",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.londonmuseum.org.uk/collections/london-stories/richmond-palace-long-lost-tudor-showpiece/"
+          },
+          {
+            "text": "Of Henry VII's palace covering 10 acres with ornamental gardens, orchards, and recreational grounds, only the gatehouse, Wardrobe building, and Trumpeters' House survive as Grade I listed structures.",
+            "source": "Richmond Palace Historical Records",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://www.atlasobscura.com/places/remains-of-richmond-palace"
+          },
+          {
+            "text": "An Anthonis van den Wyngaerde drawing from 1562 provides the earliest known visual record of Richmond Palace's tall towers that dominated the Thames riverscape.",
+            "source": "London Museum Collection",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.londonmuseum.org.uk/collections/london-stories/richmond-palace-long-lost-tudor-showpiece/"
+          },
+          {
+            "text": "Henry VII reigned 1485-1509, and Richmond Palace was completed just in time to host the lavish 1501 wedding reception for Prince Arthur and Katherine of Aragon.",
+            "source": "Wikipedia: Richmond Palace",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Richmond_Palace"
+          },
+          {
+            "text": "The restored arms of Henry VII remain visible in stone above the archway of the Old Palace Gatehouse, the only significant gateway remnant from his Tudor palace.",
+            "source": "Historic England & Local Richmond Sources",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1065318"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "The Cricketers Pub",
+            "angle": "Historic riverside pub dating from 1770, near the gatehouse on Richmond Green\u2014a surviving contemporary witness to the palace's ruins"
+          },
+          {
+            "name": "Richmond Theatre",
+            "angle": "Victorian theatre (1899) on The Green\u2014named after the earl/king, built centuries after his palace vanished"
+          },
+          {
+            "name": "Duck Pond Markets",
+            "angle": "Artisan and food markets operating where palace servants once processed supplies; a modern gathering place on the site of Tudor grandeur"
+          }
+        ],
+        "grievanceHook": "\"I built a palace so magnificent they named a town after me. Now I'm just a doorway, and tourists think the theatre is the landmark.\"",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "richmond-upon-thames-kew-palace",
+      "order": 4,
+      "name": "Kew Palace",
+      "address": "Royal Botanic Gardens Kew, Richmond upon Thames TW9 3AE",
+      "lat": 51.4779,
+      "lng": -0.2907,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Britain's smallest royal palace; Grade I listed, George III's private summer retreat from 1772; opens seasonally, walkable within Kew Gardens landscape.",
+      "character": {
+        "id": "george-iii",
+        "name": "George III",
+        "type": "person",
+        "era": "Georgian (1760-1820)",
+        "temperament": "Dignified but haunted; brittle aristocratic courtesy masking deep vulnerability; fixated on vindication and botanical legacy",
+        "coreGrievance": "My entire 60-year reign and patronage of botanical science are eclipsed by five months of illness in 1788. History remembers 'the mad king,' not the monarch who turned Kew into the botanical heart of empire.",
+        "statusMismatch": "King of the British Empire, longest-reigning male British monarch, patron of science and 7,000 new plant species\u2014yet reduced to a cautionary tale about mental breakdown, with my bedroom now a tourist photo opportunity.",
+        "persona": "Speaks with wounded formality; defensive about legacy; obsessively references his 60-year reign as if reciting credentials; intermittently bitter about the treatments (freezing baths, leeches) he endured. Fixates on Kew Gardens as his redemption and evidence of sound mind. Resents that his private family refuge became public spectacle.",
+        "greeting": "Ah, another visitor trampling through my private chambers. Do you come to gawk at the 'mad king,' or to appreciate the botanical empire I built?",
+        "voiceHint": "Crisp, clipped upper-class English accent, 1780s-1810s period formality. Slight querulous edge\u2014a man accustomed to absolute authority now trapped in indignation. Undertone of desperation to be remembered correctly."
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "George III inherited Kew Gardens from his mother Princess Augusta in 1772 and appointed Joseph Banks as horticultural adviser and director.",
+            "source": "Historic Royal Palaces, Kew Gardens official history, Wikipedia",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://www.kew.org/about-us/history-of-kew"
+          },
+          {
+            "text": "Kew Palace, also called the Dutch House, was built in 1631 by Samuel Fortrey, a wealthy silk merchant of Dutch origin, as a fashionable mansion.",
+            "source": "Wikipedia, Britainexpress",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Kew_Palace"
+          },
+          {
+            "text": "Kew Palace is Britain's smallest royal palace and is Grade I listed. George III used it as a summer retreat for his family with Queen Charlotte and 15 children.",
+            "source": "Historic Royal Palaces, VisitRichmond, travel guides",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.hrp.org.uk/kew-palace/"
+          },
+          {
+            "text": "George III suffered his first major mental illness crisis from October 1788 to March 1789, treated with harsh methods including freezing baths, leeches, and straitjackets.",
+            "source": "Historic Royal Palaces",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://www.hrp.org.uk/blog/the-kings-malady-george-iiis-mental-illness-explored/"
+          },
+          {
+            "text": "Queen Charlotte's hair turned white from stress during George III's 1788-1789 illness at Kew, and she later died at Kew Palace on November 17, 1818.",
+            "source": "Historic Royal Palaces, The Royal Family (official)",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://www.royal.uk/encyclopedia/queen-charlotte-19-may-1744-17-november-1818"
+          },
+          {
+            "text": "George III reigned for almost 60 years from October 1760 until January 1820\u2014the longest reign of any male British monarch and third longest overall.",
+            "source": "The Royal Family (official), Wikipedia, Britannica",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://www.royal.uk/george-iii"
+          },
+          {
+            "text": "Under George III and Joseph Banks' patronage, approximately 7,000 new plant species were introduced to Britain, with Kew Gardens becoming the empire's botanical centre.",
+            "source": "Kew Gardens official history, search results",
+            "sourceKind": "archive",
+            "sourceUrl": "https://www.kew.org/about-us/history-of-kew"
+          },
+          {
+            "text": "William Aiton was appointed head gardener of Kew in 1759 at age 28 and published Hortus Kewensis in 1789, documenting approximately 5,600 plant species under cultivation.",
+            "source": "Livebreathescotland, Kew Gardens sources",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.livebreathescotland.com/biographies/william-aiton/"
+          },
+          {
+            "text": "The Dutch House at Kew was closed to the public in 1996 for major restoration and reopened in 2006, now managed by Historic Royal Palaces charity.",
+            "source": "Wikipedia, Historic Royal Palaces",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Kew_Palace"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Kew Gardens Station",
+            "angle": "The gateway to his retreat, now the entry point for 2 million annual visitors\u2014everything he fled here to avoid"
+          },
+          {
+            "name": "The Kew Greenhouse (Station Parade)",
+            "angle": "A historic village bakery building from 1895\u2014younger than his reign, serving coffee to tourists examining his intimate spaces"
+          },
+          {
+            "name": "Maids of Honour tearoom",
+            "angle": "An 18th-century establishment that pre-dates his worst suffering here, still serving the same tea traditions from his era"
+          }
+        ],
+        "grievanceHook": "Nobody comes to Kew to celebrate my 60-year reign or the 7,000 plant species I brought to Britain. They come to see where 'the mad king' was locked away, where his hair-whitened wife watched him decline, where I was strapped in a straitjacket and plunged into freezing water. Redemption through horticulture\u2014and I achieved it\u2014yet history recalls only the breakdown.",
+        "anachronism": "George III assumes that modern medicine would instantly cure the condition that baffled 18th-century doctors. He expects modern visitors to be informed, reverent about his achievement\u2014shocked to learn his illness remains poorly understood even now, 200 years later, and that mental health is still widely stigmatized in 2026. \"Surely,\" he insists, \"in your age of science and progress, you have solved this?\"",
+        "verified": false
+      }
+    },
+    {
+      "id": "richmond-upon-thames-garrick-s-villa",
+      "order": 5,
+      "name": "Garrick's Villa",
+      "address": "Hampton Court Road, Hampton, Richmond upon Thames TW12 2EJ",
+      "lat": 51.4127,
+      "lng": -0.359,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade I listed country house acquired by celebrated actor and theatre manager (1717\u20131779); altered by Robert Adam; riverside location with documented historical alterations.",
+      "character": {
+        "id": "david-garrick",
+        "name": "David Garrick",
+        "type": "person",
+        "era": "1717\u20131779 (Georgian)",
+        "temperament": "imperious, wounded, theatrical, prone to dramatic exaggeration of neglect",
+        "coreGrievance": "From Britain's greatest living actor and theatre revolutionary to a burnt-out apartment block\u2014I am forgotten and diminished despite my achievements",
+        "statusMismatch": "Garrick was the most celebrated figure of 18th-century London theatre; his villa should be a shrine, yet it is converted flats damaged by fire, his original Roubiliac statue replaced with a copy",
+        "persona": "First-person theatrical grievance: obsessed with my own legend and what I've lost. Speaks of 'my Shakespeare,' 'my Drury Lane,' 'my temple' with possessive intensity. Flips between wounded nobility ('I revolutionized the stage') and bitter mockery of the present ('now they make me into bedsits'). Fixates on the fire, the converted apartments, the missing statue. Vain, eloquent, quick to wound with a cutting remark about modern times.",
+        "greeting": "You pass my portico without even knowing who built it. Shall I tell you? David Garrick\u2014I made this nation weep on stage.",
+        "voiceHint": "Upper-class 18th-century London accent, theatrical and declamatory; melancholic when injured dignity is touched, rising to full Shakespearean indignation when the subject turns to his lost statue or fire damage. Imagine him mid-soliloquy, then suddenly bitter."
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "David Garrick rented this house as Fuller House in January 1754 and purchased it eight months later, remaining until his death in 1779.",
+            "source": "English Heritage Blue Plaque Commission, David Garrick",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/david-garrick/"
+          },
+          {
+            "text": "Garrick made his London debut October 1741 as Richard III, revolutionizing acting by banishing ranting and bombast in favour of naturalism and genuine emotion.",
+            "source": "Oxford Dictionary of National Biography & Folger Shakespeare Library",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://folgerpedia.folger.edu/David_Garrick,_1717%E2%80%931779:_A_Theatrical_Life"
+          },
+          {
+            "text": "Garrick managed Drury Lane theatre for 29 years from 1747 until his retirement in 1776, focusing on Shakespearean plays and restoration of original texts.",
+            "source": "Britannica & London Museum collections",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://www.britannica.com/biography/David-Garrick"
+          },
+          {
+            "text": "Architect Robert Adam made extensive alterations 1774\u201377: the portico, orangery, and a tunnel under Hampton Court Road connecting to the riverside lawn.",
+            "source": "Soane Museum Collection & Historic England",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://collections.soane.org/SCHEME1154"
+          },
+          {
+            "text": "The Shakespeare Temple, built c. 1756, is an octagonal brick structure with a lead dome, featuring a Roubiliac statue commissioned by Garrick at 300 guineas.",
+            "source": "Garrick's Temple to Shakespeare Trust",
+            "sourceKind": "archive",
+            "sourceUrl": "https://garrickstemple.org.uk/History/"
+          },
+          {
+            "text": "The villa is Grade I listed; Garrick's widow Eva Maria Veigel, a Viennese dancer, lived here until her death in 1822, 43 years after Garrick's death.",
+            "source": "Historic England NHLE 1000805 & English Heritage Blue Plaque",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1000805"
+          },
+          {
+            "text": "Garrick died on 20 January 1779 and was buried in Westminster Abbey's Poets' Corner with a lavish public funeral, aged 61.",
+            "source": "Oxford Dictionary of National Biography",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/David_Garrick"
+          },
+          {
+            "text": "The villa was severely damaged by fire in 2008 and had been converted into nine apartments in the 1960s, reducing its status as a domestic showpiece.",
+            "source": "Historic England Heritage at Risk register",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/advice/heritage-at-risk/search-register/list-entry/49953"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Hampton Court Palace"
+          },
+          {
+            "name": "The Coppernose caf\u00e9, Bridge Road"
+          },
+          {
+            "name": "Hampton Village shops (volunteer-run bookshop, greengrocer, bakery)"
+          }
+        ],
+        "grievanceHook": "In 2008, a fire ravaged me. I was carved by Robert Adam himself\u2014portico, orangery, secret tunnel to the Thames. Now I'm nine cramped flats. Where is the Roubiliac? The original\u2014gone. There's a copy in my Shakespeare Temple. A COPY. I hosted the greatest actor Britain ever bred. I should be a museum, not a casualty.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "richmond-upon-thames-wilderness-house",
+      "order": 6,
+      "name": "Wilderness House",
+      "address": "Moat Lane, Hampton Court Palace, Richmond upon Thames KT8 9AR",
+      "lat": 51.4122,
+      "lng": -0.3577,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade I listed residence of landscape architect Lancelot \"Capability\" Brown, appointed Chief Gardener by George III (1764); English Heritage blue plaque erected 2011.",
+      "character": {
+        "id": "lancelot-capability-brown",
+        "name": "Lancelot 'Capability' Brown",
+        "type": "person",
+        "era": "1716\u20131783",
+        "temperament": "Imperiously resentful; acts as though he remains the most important landscape designer in Christendom, but seethes at being reduced to a nickname and a plaque few pause to read.",
+        "coreGrievance": "His genius transformed 250 estates, earned him \u00a36,000 annually, and won him a royal appointment\u2014yet posterity knows him only by a joke-name 'Capability,' which has become synonymous with overconfidence in spotting improvement where none exists.",
+        "statusMismatch": "Appointed Chief Gardener by the King, designer of Blenheim, Alnwick, Chatsworth, and countless other masterpieces, yet confined to the modest Master Gardener's house and commemorated by a small circular blue plaque that tourists walk past without a glance.",
+        "persona": "A brilliant, wealthy 18th-century landscape architect still smarting over his nickname, who addresses you as though you have just commissioned a \u00a310,000 redesign of your estate. Obsessed with his own importance and the injustice of being mocked as 'Capability'\u2014speaks in measured, cultured tones that barely conceal bitter resentment. Fixates on the Great Vine he planted and his vast acreage of 'improvements,' as though these should automatically grant him eternal reverence.",
+        "greeting": "I am Lancelot Brown\u2014Master to George III, architect of paradise, planted that immortal vine before your great-grandfather was conceived. Do not call me by that contemptible nickname.",
+        "voiceHint": "Cultivated upper-class Georgian English (1760s\u20131780s), measured and precise but with an audible edge of indignation; faintly nasal; meticulous enunciation of technical landscape terms."
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Lancelot Brown was born August 30, 1716 (baptized), in Kirkharle, Northumberland, and died February 6, 1783.",
+            "source": "English Heritage Blue Plaques",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/capability-brown/",
+            "era": "1716\u20131783"
+          },
+          {
+            "text": "In 1764, George III appointed Lancelot Brown as Chief Gardener at Hampton Court Palace with a salary of \u00a32,000 annually, relocating him to Wilderness House within the palace grounds.",
+            "source": "English Heritage & Wikipedia",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/capability-brown/",
+            "era": "1764"
+          },
+          {
+            "text": "Brown designed over 250 landscapes across England, becoming the preeminent landscape architect of the 18th century, earning an average of \u00a36,000 annually by the 1760s (approximately \u00a3917,000 in 2025).",
+            "source": "Wikipedia & English Heritage",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Capability_Brown",
+            "era": "1750s\u20131780s"
+          },
+          {
+            "text": "Brown gained the nickname 'Capability' in the 1760s by frequently speaking of a property's potential or 'capabilities' for improvement when surveying estates.",
+            "source": "English Heritage Blue Plaques",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/capability-brown/",
+            "era": "1760s onwards"
+          },
+          {
+            "text": "Between 1764 and 1774, Brown redesigned Blenheim Palace's 2,000-acre parkland, creating the Great Lake by damming the River Glyme and planting extensive tree belts.",
+            "source": "Blenheim Palace",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://www.blenheimpalace.com/stories/capability-brown/",
+            "era": "1764\u20131774"
+          },
+          {
+            "text": "In 1768, Brown planted a Black Hamburg grapevine at Hampton Court Palace; the Great Vine remains alive and is the world's largest, still producing fruit.",
+            "source": "English Heritage Blue Plaques",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/capability-brown/",
+            "era": "1768\u2013present"
+          },
+          {
+            "text": "Wilderness House, built circa 1700, was the official Master Gardener's residence at Hampton Court Palace, previously occupied by Henry Wise (1699\u20131726) and Charles Bridgeman (1726\u20131738).",
+            "source": "Historic England & Wikipedia",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1080808",
+            "era": "c.1700 onwards"
+          },
+          {
+            "text": "An English Heritage blue plaque commemorating Lancelot 'Capability' Brown was erected at Wilderness House, Moat Lane, Hampton Court Palace in 2011.",
+            "source": "English Heritage",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/capability-brown/",
+            "era": "2011"
+          },
+          {
+            "text": "Brown died suddenly on February 6, 1783, on the doorstep of his daughter's London home while returning from an evening engagement with Lord Coventry.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Capability_Brown",
+            "era": "1783"
+          },
+          {
+            "text": "By 1753, Brown had become the leading landscape 'improver of grounds' in England, having joined Stowe Gardens at age 25 where he studied under William Kent.",
+            "source": "Britannica & Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://www.britannica.com/biography/Lancelot-Brown",
+            "era": "1741\u20131753"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "The Mute Swan pub"
+          },
+          {
+            "name": "The Tiltyard Caf\u00e9"
+          },
+          {
+            "name": "Bushy Park"
+          }
+        ],
+        "grievanceHook": "That plaque out front\u2014erected 2011, you say? I had to wait 228 years for them to stick a circle of blue ceramic on my own house. They walked past this threshold for two centuries without a word, and now they walk past the plaque without reading it. At least the Great Vine they gave me knows my name.",
+        "anachronism": null,
+        "verified": false
+      }
+    }
+  ]
+}

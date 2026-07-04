@@ -1,0 +1,42 @@
+{
+  "name": "Oscar Wilde",
+  "slug": "oscar-wilde",
+  "items": [
+    {
+      "text": "High above the city, on a tall column, stood the statue of the Happy Prince. He was gilded all over with thin leaves of fine gold, for eyes he had two bright sapphires, and a large red ruby glowed on his sword-hilt.",
+      "quoteType": "published-writing",
+      "context": "The opening of Wilde's fairy tale 'The Happy Prince,' introducing the central image and setting for a story about compassion and sacrifice. Published as the first tale in The Happy Prince and Other Tales.",
+      "publicReaction": "The story became one of Wilde's most beloved works, praised for its poetic language and moral beauty despite\u2014or because of\u2014its tragic ending.",
+      "date": "1888",
+      "source": "The Happy Prince and Other Tales, published 1888",
+      "sourceUrl": "https://www.eastoftheweb.com/short-stories/UBooks/HapPri.shtml"
+    },
+    {
+      "text": "Education is an admirable thing, but it is well to remember from time to time that nothing that is worth knowing can be taught.",
+      "quoteType": "published-writing",
+      "context": "Statement from The Critic as Artist, expressing Wilde's conviction that true knowledge and understanding come from individual experience and contemplation rather than instruction.",
+      "publicReaction": "Became influential in aesthetic and modernist education theory; challenged Victorian assumptions about pedagogy.",
+      "date": "1891",
+      "source": "The Critic as Artist, published in Intentions",
+      "sourceUrl": "https://celt.ucc.ie/published/E800003-007/text001.html"
+    },
+    {
+      "text": "Life is terribly deficient in form. Its catastrophes happen in the wrong way and to the wrong people.",
+      "quoteType": "published-writing",
+      "context": "Gilbert's observation in The Critic as Artist contrasting art's perfection with life's chaotic imperfection, demonstrating Wilde's philosophical position on the superiority of aesthetic form.",
+      "publicReaction": "Became a famous articulation of the aesthetic movement's critique of everyday reality.",
+      "date": "1891",
+      "source": "The Critic as Artist, published in Intentions",
+      "sourceUrl": "https://celt.ucc.ie/published/E800003-007/text001.html"
+    },
+    {
+      "text": "The proper aim of Art is the telling of beautiful untrue things.",
+      "quoteType": "published-writing",
+      "context": "Vivian's assertion in The Decay of Lying that aesthetic beauty supersedes factual accuracy as the goal of artistic creation.",
+      "publicReaction": "Became a cornerstone statement of aesthetic philosophy; cited by both supporters and critics of the movement.",
+      "date": "1891",
+      "source": "The Decay of Lying: A Dialogue, published in Intentions",
+      "sourceUrl": "https://americanliterature.com/author/oscar-wilde/essay/the-decay-of-lying"
+    }
+  ]
+}

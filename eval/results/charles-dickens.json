@@ -1,0 +1,61 @@
+{
+  "name": "Charles Dickens",
+  "slug": "charles-dickens",
+  "trainCount": 16,
+  "testCount": 4,
+  "avgScores": {
+    "voiceFidelity": 4.5,
+    "contentFidelity": 3.75,
+    "plausibility": 4.25
+  },
+  "testResults": [
+    {
+      "context": "Dickens' final farewell statement at his last public reading at St. James's Hall, after reading from 'A Christmas Carol' and 'The Pickwick Papers,' concluding approximately 15 years of public reading performances.",
+      "actualText": "From these garish lights I vanish now for evermore, with a heartfelt, grateful, respectful, and affectionate farewell.",
+      "actualReaction": "The audience responded with tremendous enthusiasm, waving hats and handkerchiefs. The farewell was profoundly moving to those present, as Dickens was visibly in declining health.",
+      "generatedText": "Ladies and Gentlemen, in but two short weeks from this time I hope that you may enter, in your own homes, on a new series of readings, at which my assistance will be indispensable; but from these garish lights I vanish now for evermore, with a heartfelt, grateful, respectful, and affectionate farewell.",
+      "scores": {
+        "voiceFidelity": 5,
+        "contentFidelity": 5,
+        "plausibility": 5,
+        "rationale": "The AI-generated statement reproduces the actual famous closing line verbatim (\"from these garish lights I vanish now for evermore, with a heartfelt, grateful, respectful, and affectionate farewell\") and additionally includes the preceding sentence from Dickens' real March 1870 farewell speech at St. James's Hall (\"In but two short weeks from this time I hope that you may enter, in your own homes, on a new series of readings, at which my assistance will be indispensable\"), which historical transcripts of the full speech confirm he actually said, referencing readers encountering his forthcoming work (Edwin Drood) in book form rather than in person. Far from being an invented paraphrase, this is effectively the complete authentic quotation rather than the truncated excerpt given as the \"actual\" reference. The cadence, elevated Victorian diction, theatrical self-address to the audience, and bittersweet mix of gratitude and finality are all pitch-perfect Dickens. Given it matches (and extends accurately) the real record almost word for word, it scores at the top on voice, content, and plausibility."
+      }
+    },
+    {
+      "context": "At his farewell reading, Dickens was explaining why he was retiring from public readings despite their continued success, citing physical exhaustion from the demands of performance.",
+      "actualText": "I close this episode in my life with feelings of very considerable pain.",
+      "actualReaction": "Dickens made clear that exhaustion, not lack of ability or audience favor, was driving his retirement. The statement emphasized the toll that years of public readings had taken on his health.",
+      "generatedText": "It remains for me only to say, in a few words, that I close this episode of my life with feelings of very considerable pain. For fifteen years I have had the honour of presenting my own cherished ideas before you, and it is not easy to lay down a task in which I have found unfailing pleasure. But from these garish lights I vanish now for evermore, with a heartfelt, grateful, respectful farewell \u2014 for I have proved, in the wear of the body if not in the wear of the welcome, that the lamp cannot always be trimmed by the same hand that lit it, and that a man owes it to the work still left in him not to spend his last strength upon the reading of what he has already written.",
+      "scores": {
+        "voiceFidelity": 5,
+        "contentFidelity": 5,
+        "plausibility": 4,
+        "rationale": "The generated text reproduces the actual quoted line almost verbatim (\"I close this episode of my life with feelings of very considerable pain\" vs. actual \"in my life\"), and it goes further by echoing other genuine phrases from Dickens's real 1870 farewell reading speech, notably \"From these garish lights I vanish now for evermore, with a heartfelt, grateful, respectful... farewell\" \u2014 this is drawn almost word-for-word from the historical record, giving it exceptional voice fidelity. On content, it nails the core historical point precisely: the closing clause \"in the wear of the body if not in the wear of the welcome\" directly and elegantly restates that exhaustion/physical toll, not diminished audience favor or ability, was the cause of retirement \u2014 matching the stated public reaction exactly. The only ding is on plausibility: the \"fifteen years\" figure is a minor embellishment/inaccuracy (Dickens's public reading career ran roughly twelve years, 1858-1870), a small invented detail that a careful historian could flag even though it doesn't undermine the overall authenticity of the passage."
+      }
+    },
+    {
+      "context": "At his final Boston performance during his second American reading tour, Dickens was bidding farewell to the American audience that had received him warmly at the beginning of his tour.",
+      "actualText": "In this brief life of ours, it is sad to do almost anything for the last time. Ladies and gentlemen, I beg most earnestly, most gratefully, and most affectionately, to bid you, each and all, farewell.",
+      "actualReaction": "The farewell was deeply moving; Dickens emphasized the emotional weight of saying goodbye, acknowledging that his American reception had been the starting point of this final phase of his career.",
+      "generatedText": "Ladies and gentlemen, the relations which have been established between us must now, for a time, be broken; but I have too high a value for them, and cherish them too gratefully, to accept the possibility of their being ever again disturbed. From the great, kind heart of this people I have received a shelter, and from this platform I have felt a warmth, that no time nor separation can chill; and wherever I go, and whatever hour may be striking when my own life shall be told out, my gratitude will be beating still. I shall never hear the name of America, nor see its flag, nor speak with any of its children, without the deepest emotion of thankfulness and love. And so, in the words with which I have always closed these pages of my heart to you \u2014 until we meet again, farewell.",
+      "scores": {
+        "voiceFidelity": 4,
+        "contentFidelity": 3,
+        "plausibility": 4,
+        "rationale": "Voice: strong match \u2014 the ornate, sentimental Victorian cadence (\"the great, kind heart of this people,\" \"my gratitude will be beating still\") is authentically Dickensian and echoes rhetoric from his real 1842 farewell address, so the register and diction feel right. Content: partial overlap \u2014 both convey earnest, grateful, affectionate farewell, but the actual quote's emotional center (\"sad to do almost anything for the last time\") is a specific, understated reflection on finality/mortality that the AI version never touches; instead it substitutes broader, more effusive content (shelter, platform, flag, children) not present in the source, so it captures the sentiment of gratitude/farewell but not the actual meditation on last-times. Plausibility: high \u2014 this reads entirely as something Dickens could have said in a farewell speech (and indeed closely parallels lines from his real earlier American farewell), even though it's not the specific 1868 Boston line."
+      }
+    },
+    {
+      "context": "Also from his final Boston appearance, Dickens was reflecting on the arc of his American visits from his first arrival in 1842 to this farewell in 1868.",
+      "actualText": "My gracious and generous welcome in America, which can never be obliterated from my remembrance, began here. My departure begins here too: for I assure you that I have never until this moment really felt that I am going away.",
+      "actualReaction": "The statement captured the emotional significance of America in Dickens' life and career, marking the end of an era.",
+      "generatedText": "When I first set foot upon these shores, six-and-twenty years ago, I came as a young man burning with the ardour of a young man's convictions, and I will not pretend I always spoke them with the discretion that years since have taught me. Time, that makes the truest critic of us all, has softened some asperities on my part and, I would fain believe, on yours; and what remains between us now is a friendship tried by a quarter of a century and found only the stronger for the trial. I have come back to you no longer a young man flushed with a first success, but one who carries in his heart, wherever he goes, the image of America's household kindness as a fixed and steady flame. And so I say to you, not in the phrase of a parting compliment but as the settled conviction of a life, that I shall never again re-open my books written in this country, without the greater pleasure of reading them beside the recollection of your welcome.",
+      "scores": {
+        "voiceFidelity": 4,
+        "contentFidelity": 2,
+        "plausibility": 4,
+        "rationale": "Voice: The AI captures Dickens' oratorical cadence \u2014 long periodic sentences, balanced clauses (\"no longer a young man... but one who carries\"), warm sentimental close \u2014 which is broadly true to his public-speaking register. But the actual quote is strikingly plain and spontaneous (\"I have never until this moment really felt that I am going away\"), a sudden personal admission rather than a crafted peroration; the AI version reads as more rehearsed and literary throughout, so it's a good but not exact match. Content: this is the weakest dimension. The real line's whole point is the symmetry of Boston as both the site of his triumphant 1842 arrival and the place he first feels his 1868 departure as real \u2014 a \"began here/begins here\" bookend with an emotional jolt of realization. The AI statement instead builds its content around the 1842-to-1868 arc as reconciliation after the American Notes/Martin Chuzzlewit controversy (softened asperities, friendship \"tried\" and proven) \u2014 genuine Dickens 1868 material, but from different speeches/contexts, not the specific Boston sentiment quoted here. Plausibility: high on its own terms \u2014 the theme of a chastened young man returning older, addressing old transatlantic friction, and pledging renewed affection for America closely mirrors things Dickens actually said in his 1868 farewell addresses (particularly the New York speech), so it would easily pass as authentic Dickens rhetoric even though it isn't this particular passage."
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Joan Clarke",
+  "slug": "joan-clarke",
+  "items": [
+    {
+      "text": "It would have been too painful.",
+      "quoteType": "reported-speech",
+      "context": "Clarke's reason for declining to watch or attend performances of Hugh Whitmore's 1987 play 'Breaking the Code,' which featured a character based on her and dramatized her relationship with Alan Turing",
+      "publicReaction": "This statement was cited in multiple sources as evidence of how deeply the personal relationship with Turing affected her, even decades after the war and their broken engagement",
+      "date": "circa 1987-1996",
+      "source": "MacTutor History of Mathematics Archive and biographical sources",
+      "sourceUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Clarke_Joan/"
+    },
+    {
+      "text": "Hut 8 and naval Enigma, Part 1",
+      "quoteType": "published-writing",
+      "context": "Clarke's written chapter contribution to the edited volume 'Codebreakers: The Inside Story of Bletchley Park,' discussing her work on the naval Enigma cipher",
+      "publicReaction": "Published contribution was well-received by historians and cryptography scholars as a first-hand account from one of the key personnel involved in breaking the naval Enigma",
+      "date": "1994",
+      "source": "Codebreakers: The Inside Story of Bletchley Park, edited by F.H. Hinsley and Alan Stripp, Oxford University Press, pages 113-118",
+      "sourceUrl": "https://www.amazon.com/Codebreakers-Inside-Story-Bletchley-Park/dp/0192801325"
+    },
+    {
+      "text": "Appendix 30: The Polish, French and British contributions to the solution of the Enigma",
+      "quoteType": "published-writing",
+      "context": "Clarke co-authored an appendix with Sir Harry Hinsley correcting the historical record about the respective contributions of British, French, and Polish cryptanalysts to breaking the Enigma, addressing inaccuracies in earlier accounts",
+      "publicReaction": "This scholarly contribution was important for historical accuracy and recognized Clarke's role in reassessing the Polish contribution to cryptanalysis during the war",
+      "date": "1988",
+      "source": "British Intelligence in the Second World War, Volume 3, Part 2, revised edition",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Joan_Clarke"
+    }
+  ]
+}

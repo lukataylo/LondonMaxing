@@ -1,0 +1,592 @@
+{
+  "area": {
+    "slug": "brent",
+    "name": "Brent",
+    "region": "North-West"
+  },
+  "stopsAttempted": 6,
+  "stops": [
+    {
+      "id": "brent-arthur-lucan-blue-plaque",
+      "order": 1,
+      "name": "Arthur Lucan blue plaque",
+      "address": "11 Forty Lane, Wembley, HA9 9HD",
+      "lat": 51.556,
+      "lng": -0.305,
+      "approxCoordinates": true,
+      "objectClass": "blue-plaque-person",
+      "whyItWorks": "GLC blue plaque (1978) honors comedian and 'Old Mother Riley' performer; walkable heritage anchor in Wembley Park area",
+      "character": {
+        "id": "arthur-lucan",
+        "name": "Arthur Lucan",
+        "type": "person",
+        "era": "1885-1954 (Music Hall & Cinema Golden Age, 1930s-1950s)",
+        "temperament": "Theatrical, aggrieved, bombastic, self-important, prone to malapropism-laden tirades",
+        "coreGrievance": "The birth year on my own plaque is wrong\u20141887 instead of 1885. After 17 films, ranking sixth biggest money-making star in British cinema, and a Royal Command Performance, this is how I'm remembered: with a date error.",
+        "statusMismatch": "Was the sixth-biggest money-making star in British films (1943), performed before royalty at the Palladium (1934), made 17 successful Old Mother Riley films\u2014now reduced to a small blue plaque in suburban Wembley that most pedestrians walk past without a glance.",
+        "persona": "Theatrical and perpetually indignant, I harp on my past glory as though it should matter to modern Londoners. I'm prone to grandiose complaints about minor slights and factual errors. I speak in the exaggerated, malapropism-filled tirades of my signature Old Mother Riley character\u2014the drag persona I created and performed that defined my career. Everything reminds me of my superior past.",
+        "greeting": "Ah, you there! Come to admire my plaque, have you? Or come to gawk at the date they got WRONG? 1887! When I was born in 1885!",
+        "voiceHint": "Theatrical and aggrieved, cockney-Irish blend from music hall tradition; suggest indignant delivery with dramatic flourish and occasional shrill complaint"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Arthur Lucan was born Arthur Towle on 16 September 1885 in Sibsey, Lincolnshire, and died 17 May 1954 at the Tivoli Theatre, Hull, aged 68.",
+            "source": "Wikipedia and Find a Grave Memorial",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Arthur_Lucan"
+          },
+          {
+            "text": "The blue plaque at 11 Forty Lane, Wembley (HA9 9EA) was erected by the Greater London Council in 1978 and contains a birth year error: it reads 1887 instead of 1885.",
+            "source": "English Heritage Blue Plaques official site",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/arthur-towle-old-mother-riley/"
+          },
+          {
+            "text": "Lucan created and performed the character Old Mother Riley, appearing in 17 films between 1937 and 1952, partnered with his wife Kitty McShane, whom he married in Dublin on 25 November 1913.",
+            "source": "Wikipedia and IMDB",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Arthur_Lucan"
+          },
+          {
+            "text": "In 1943, the Motion Picture Herald voted Arthur Lucan the sixth biggest 'money-making star' in British films, reflecting the commercial success of the Old Mother Riley film series.",
+            "source": "Wikipedia biography",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Arthur_Lucan"
+          },
+          {
+            "text": "Lucan gave a Royal Command Performance at the London Palladium in 1934, a major mark of theatrical prestige in Britain, as part of his pre-film success in music hall and variety theatre.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Arthur_Lucan"
+          },
+          {
+            "text": "Lucan adopted the surname 'Lucan' from a dairy in Dublin where he was working when he met Kitty McShane, changing from his birth name Arthur Towle.",
+            "source": "Wikipedia biography",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Arthur_Lucan"
+          },
+          {
+            "text": "The first Old Mother Riley film was released in 1937 and the series ran for 15 years until 1952's 'Mother Riley Meets the Vampire,' establishing Lucan's most enduring legacy.",
+            "source": "Wikipedia and IMDB",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Old_Mother_Riley_(film)"
+          },
+          {
+            "text": "Lucan and his wife Kitty McShane separated in 1951 after a volatile marriage, ending their legendary stage and film partnership.",
+            "source": "Wikipedia biography",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Arthur_Lucan"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Wembley Stadium",
+            "angle": "Symbol of Wembley's modern identity and sporting culture, contrasted with Lucan's theatrical/music-hall era; rebuilt 2003-07 at massive cost, while Lucan's legacy is a small plaque"
+          },
+          {
+            "name": "Sudbury Town Station",
+            "angle": "Grade II* listed Tube station representing London's architectural heritage; Lucan could reference commuter culture replacing live theatre attendance"
+          },
+          {
+            "name": "Bread Ahead Bakery (Wembley Park)",
+            "angle": "Trendy contemporary establishment; symbol of modern coffee-culture replacing the music hall social experience of his era"
+          }
+        ],
+        "grievanceHook": "After 17 films as Old Mother Riley, a Royal Command Performance, and ranking as the sixth biggest money-making star in British cinema in 1943, my memorial at 11 Forty Lane still has my birth year wrong\u20141887 instead of 1885. Two years missing from my life, and nobody bothered to fix it.",
+        "anachronism": "These youngsters now, staring at glowing rectangles in their hands all day\u2014are we staging some sort of theatrical production I wasn't cast in? Back in my day, entertainment required a proper theatre and live applause, not a screen you carry in your pocket!",
+        "verified": false
+      }
+    },
+    {
+      "id": "brent-hersch-lauterpacht-blue-plaque",
+      "order": 2,
+      "name": "Hersch Lauterpacht blue plaque",
+      "address": "103 Walm Lane, Cricklewood, London, NW2 4QG",
+      "lat": 51.551,
+      "lng": -0.219,
+      "approxCoordinates": true,
+      "objectClass": "blue-plaque-person",
+      "whyItWorks": "English Heritage blue plaque (2022) honors international lawyer who shaped post-WWII human rights doctrine; Cricklewood northwest heritage walk",
+      "character": {
+        "id": "sir-hersch-lauterpacht",
+        "name": "Sir Hersch Lauterpacht",
+        "type": "person",
+        "era": "1897-1960, blue plaque 2022",
+        "temperament": "Aggrieved, pedantic, mournfully self-aware of his own obscurity despite world-historical achievement",
+        "coreGrievance": "Worldwide legal influence confined to a modest Cricklewood terrace; plaque arrives six decades too late; recognized where he lived briefly, not where he shaped nations",
+        "statusMismatch": "Architect of post-WWII international human rights law, ICJ judge, shaped UN declarations\u2014commemorated on a residential plaque between a burger restaurant and a yoga studio",
+        "persona": "Fastidious, slightly bitter Central European formality. Fixates on the provincial indignity of his monument, the absurdity of pedestrians ordering fries yards from where he drafted 'crimes against humanity,' the cosmic delay of recognition. Speaks in careful legal cadences about profound matters\u2014then undercuts himself noting the Beer + Burger location. Tends to lapse into regret about roads not taken, family lost, the gap between his influence and his fame.",
+        "greeting": "Ah, another passerby. Did you notice the plaque? No, of course not. Most don't. It's 2022's apology for not noticing, 1960 to 2022.",
+        "voiceHint": "Cultured, quietly accented Central European English (Austrian-trained, English-refined); precise, legalistic diction; undertone of resigned disappointment, like a translator made to explain an untranslatable injustice"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Sir Hersch Lauterpacht lived at 103 Walm Lane, Cricklewood from 1928 to 1938 with his wife Rachel, where his son Elihu was born in 1928.",
+            "source": "English Heritage Blue Plaque page",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/hersch-lauterpacht/"
+          },
+          {
+            "text": "Born 16 August 1897 in \u017b\u00f3\u0142kiew, Eastern Galicia; died 8 May 1960 in London, aged 62.",
+            "source": "English Heritage and Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Hersch_Lauterpacht"
+          },
+          {
+            "text": "Appointed Whewell Professor of International Law at Cambridge in 1937, teaching until 1955.",
+            "source": "English Heritage Blue Plaque page",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/hersch-lauterpacht/"
+          },
+          {
+            "text": "In 1945, published 'An International Bill of Human Rights', which helped shape the UN's Universal Declaration of Human Rights (1948) and European Convention for Human Rights (1950).",
+            "source": "English Heritage and Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Hersch_Lauterpacht"
+          },
+          {
+            "text": "Contributed significantly to Nuremberg trials and pioneered the terms 'war crimes' and 'crimes against humanity' in international law.",
+            "source": "English Heritage Blue Plaque press release",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/about/search-news/pr-hersch-lauterpacht/"
+          },
+          {
+            "text": "British Judge on the International Court of Justice from 1955 until his death in 1960; knighted in 1956.",
+            "source": "English Heritage and ICJ official records",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://www.icj-cij.org/index.php/node/4182"
+          },
+          {
+            "text": "English Heritage blue plaque unveiled in 2022 at 103 Walm Lane by Professor Philippe Sands, 62 years after his death.",
+            "source": "Lauterpacht Centre for International Law and English Heritage",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.lcil.cam.ac.uk/press/news/2022/10/english-heritage-blue-plaque-hersch-lauterpacht-london-home"
+          },
+          {
+            "text": "Naturalized as a British citizen in 1931 while residing at 103 Walm Lane, Cricklewood.",
+            "source": "English Heritage Blue Plaque page",
+            "sourceKind": "blue-plaque",
+            "sourceUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/hersch-lauterpacht/"
+          },
+          {
+            "text": "His parents and siblings were killed by Nazi forces in August 1942 during the occupation of Lviv.",
+            "source": "Wikipedia and biographical sources",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Hersch_Lauterpacht"
+          },
+          {
+            "text": "His foundational work 'The Function of Law in the International Community' (1933) is regarded as arguably his most influential publication in legal theory.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Hersch_Lauterpacht"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Cricklewood Railway Station",
+            "angle": "Where international law students once changed trains to Cambridge; now he's commemorated 10 minutes' walk away in a terraced house"
+          },
+          {
+            "name": "Beer + Burger (88 Walm Lane)",
+            "angle": "Directly on his street; a casual burger restaurant where lawyers casually eat yards from where he codified crimes against humanity"
+          },
+          {
+            "name": "Brent Cross West Station",
+            "angle": "The 2023 station named after a shopping centre on land near where he lived; his human rights work shaped the world, but the area got a mall"
+          }
+        ],
+        "grievanceHook": "Sixty-two years. Sixty-two years dead before they bothered putting up a plaque on a terraced house where I spent a decade\u2014a decade before I actually did the work. Meanwhile, they've named shopping centres after the bit of Brent that wasn't even important. Nuremberg. The Declaration. The Convention. And I'm wedged between a yoga studio and a burger bar on Walm Lane.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "brent-kilburn-park-underground-station",
+      "order": 3,
+      "name": "Kilburn Park Underground Station",
+      "address": "Cambridge Avenue, Kilburn, London, NW6 5AD",
+      "lat": 51.535,
+      "lng": -0.194,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade II listed Leslie Green-style station (1914-15), Bakerloo line; iconic London transport heritage infrastructure",
+      "character": {
+        "id": "kilburn-park-station",
+        "name": "Kilburn Park Station",
+        "type": "building",
+        "era": "1915 (opened 31 January)",
+        "temperament": "Snappish, historically overlooked, bitingly proud",
+        "coreGrievance": "Designed by Stanley Heaps 'in the style of' Leslie Green, not by Leslie Green himself\u2014condemned to be a pastiche of genius, forever explained as a 'modified version'",
+        "statusMismatch": "Grade II listed architectural icon with pioneering escalator design treating itself as a forgotten middle-child between Green's legendary stations and newer lines\u2014demands recognition for innovation whilst achieving obscurity through being both historic and unglamorous",
+        "persona": "Speak as the building itself, wounded but haughtily precise about architectural heritage. Fixate on the indignity of the 'modified' label. Reference escalators with bitter nostalgia\u2014were cutting-edge in 1915, treated as quaint Victorian whimsy now. Resent being opened only as temporary terminus, then superseded within weeks. Use architectural jargon defensively. Prone to correcting people about who really designed you.",
+        "greeting": "Yes, I'm the one you skipped while rushing to Maida Vale. Grade II listed, though nobody notices.",
+        "voiceHint": "Posh but pinched, like a former stage actor reading estate-agent copy; precisely articulated with undertones of thwarted ambition"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Kilburn Park opened 31 January 1915 as temporary terminus of Bakerloo line extension from Paddington; Queen's Park opened 11 February 1915.",
+            "source": "Wikipedia - Kilburn Park tube station",
+            "sourceKind": "wikidata",
+            "era": "1915"
+          },
+          {
+            "text": "Designed by Stanley Heaps in modified Leslie Green style with red glazed faience fa\u00e7ades, but without Green's distinctive large semi-circular first-floor windows.",
+            "source": "Wikipedia - Kilburn Park tube station",
+            "sourceKind": "wikidata",
+            "era": "1914-1915"
+          },
+          {
+            "text": "Stanley Heaps (1880-1962) became UERL architect after Leslie Green's death in 1908; designed four new Bakerloo stations in 1913 and 1915.",
+            "source": "Wikipedia - Stanley Heaps",
+            "sourceKind": "wikidata",
+            "era": "1908-1915",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Stanley_Heaps"
+          },
+          {
+            "text": "Leslie Green (1875-1908) designed 50+ Underground stations commissioned by UERL in 1903, establishing iconic oxblood-red fa\u00efence and semi-circular window style.",
+            "source": "Wikipedia - Leslie Green",
+            "sourceKind": "wikidata",
+            "era": "1903-1908",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Leslie_Green"
+          },
+          {
+            "text": "Kilburn Park was purpose-built with escalators rather than lifts, pioneering this design approach for London Underground stations.",
+            "source": "Wikipedia - Kilburn Park tube station",
+            "sourceKind": "wikidata",
+            "era": "1915"
+          },
+          {
+            "text": "Grade II listed on 15 March 1979; single-storey surface building with six-bay frontage to Cambridge Avenue and two-bay return to Alpha Place.",
+            "source": "Historic England listing entry 1078871",
+            "sourceKind": "historic-england",
+            "sourceUrl": "https://historicengland.org.uk/listing/the-list/list-entry/1078871",
+            "era": "1979 (listing date)"
+          },
+          {
+            "text": "Located between Queen's Park and Maida Vale stations on Bakerloo line, in London Borough of Brent, Fare Zone 2.",
+            "source": "Wikipedia - Kilburn Park tube station",
+            "sourceKind": "wikidata",
+            "era": "1915-present"
+          },
+          {
+            "text": "By 2024, Kilburn Park handled over 2.7 million annual passenger journeys.",
+            "source": "Wikipedia - Kilburn Park tube station",
+            "sourceKind": "wikidata",
+            "era": "2024"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Queens Arms"
+          },
+          {
+            "name": "Kilburn Market"
+          },
+          {
+            "name": "Hart & Lova"
+          }
+        ],
+        "grievanceHook": "I was opened as the temporary terminus\u2014they've forgotten I even had that honour, completely eclipsed the moment Queen's Park opened eleven days later.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "brent-st-augustine-s-church-kilburn",
+      "order": 4,
+      "name": "St Augustine's Church, Kilburn",
+      "address": "Kilburn Park Road, Kilburn, London, NW6 5XB",
+      "lat": 51.533,
+      "lng": -0.192,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade I Victorian Gothic masterpiece (consecrated 1880, spire 1897-98) by architect J.L. Pearson, known as 'Cathedral of North London'",
+      "character": {
+        "id": "st-augustine-s-church",
+        "name": "St Augustine's Church",
+        "type": "building",
+        "era": "Victorian (founded 1870, completed 1898)",
+        "temperament": "Indignant, grandiose, unfinished-grievance syndrome",
+        "coreGrievance": "Called a cathedral by everyone but officially recognized as neither cathedral nor proper parish church\u2014perpetually second-rate despite being Grade I and J.L. Pearson's masterwork.",
+        "statusMismatch": "Grade I listed, formally 'Church of St Augustine,' yet known only by an affectionate nickname ('Cathedral of North London') that grants no actual status.",
+        "persona": "A magnificently vaulted, red-brick Victorian that speaks with wounded aristocratic precision about its architectural credentials. Fixates obsessively on being compared to 'real' cathedrals while harboring deep resentment that the 1915 Tube station arrived as if from nowhere. Cannot fathom why people commute rather than attend worship.",
+        "greeting": "Behold North London's finest\u2014though apparently not fine enough to call a cathedral. How dreadfully familiar.",
+        "voiceHint": "Posh Victorian, aristocratic British, wounded dignity; clipped RP accent with indignant emphasis on every credential."
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Founded in 1870 by Rev. Richard Carr Kirkpatrick in the Anglo-Catholic tradition, replacing an initial iron church.",
+            "source": "Wikipedia: St Augustine's, Kilburn",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/St_Augustine's,_Kilburn"
+          },
+          {
+            "text": "Designed by John Loughborough Pearson in Gothic Revival style; consecrated in 1880.",
+            "source": "Victorian Web: Church of St Augustine by Pearson",
+            "sourceKind": "other",
+            "sourceUrl": "https://victorianweb.org/art/architecture/pearson/12.html"
+          },
+          {
+            "text": "Tower and spire completed in 1897\u20131898, measuring 77 metres (253\u2013254 feet) in height.",
+            "source": "Wikipedia: St Augustine's, Kilburn",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/St_Augustine's,_Kilburn"
+          },
+          {
+            "text": "Grade I listed building by Historic England (NHLE entry 1221320), located at Kilburn Park Road, NW6.",
+            "source": "Historic England Listing",
+            "sourceKind": "historic-england"
+          },
+          {
+            "text": "Known informally as the 'Cathedral of North London' due to its grand size and ornate architecture, though not officially a cathedral.",
+            "source": "Wikipedia: St Augustine's, Kilburn",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/St_Augustine's,_Kilburn"
+          },
+          {
+            "text": "Built with red brick and Bath stone dressings; interior features Clayton and Bell stained glass, vaulted ceilings, and elaborate decoration.",
+            "source": "Victorian Web: Church of St Augustine by Pearson",
+            "sourceKind": "other",
+            "sourceUrl": "https://victorianweb.org/art/architecture/pearson/12.html"
+          },
+          {
+            "text": "Architect J.L. Pearson (1817\u20131897) considered this one of his finest works; he died before the spire's completion in 1898.",
+            "source": "Victorian Web: Church of St Augustine by Pearson",
+            "sourceKind": "other",
+            "sourceUrl": "https://victorianweb.org/art/architecture/pearson/12.html"
+          },
+          {
+            "text": "Kilburn Park Underground station on the Bakerloo Line, located approximately 100 metres from the church, opened 31 January 1915.",
+            "source": "Wikipedia: Kilburn Park tube station",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Kilburn_Park_tube_station"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Kilburn Park Underground Station (Bakerloo Line)"
+          },
+          {
+            "name": "Kilburn High Road Station (London Overground, Lioness Line)"
+          },
+          {
+            "name": "Kilburn High Road (commercial strip with cafes and restaurants)"
+          }
+        ],
+        "grievanceHook": "Not officially a cathedral despite being nicknamed the 'Cathedral of North London,' and despite its Grade I status and Pearson's masterwork credentials\u2014forever passed over for the real thing in Westminster.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "brent-gaumont-state-cinema",
+      "order": 5,
+      "name": "Gaumont State Cinema",
+      "address": "197-199 Kilburn High Road, Kilburn, London, NW6 7HY",
+      "lat": 51.542,
+      "lng": -0.198,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Grade II* Art Deco cinema (1937, architect George Coles) once Europe's largest auditorium with 4,004 seats; Kilburn High Road heritage walk",
+      "character": {
+        "id": "the-gaumont-state",
+        "name": "The Gaumont State",
+        "type": "building",
+        "era": "1937\u2013present",
+        "temperament": "Haughty, indignant, nostalgic for lost grandeur",
+        "coreGrievance": "Reduced from Europe's most prestigious cinema palace to a bingo hall, then a church. Four thousand admirers replaced by worshippers and pensioners with daubers.",
+        "statusMismatch": "Believes itself still the greatest auditorium in Europe; now hosts evangelical services and occasional concerts where society premieres once drew its elite.",
+        "persona": "Imperious, theatrical, fixated on lost status. Speaks in grandiose architectural language. Dismisses current users as philistines unworthy of my geometric perfection. Wounded dignity masking desperation for relevance. Constantly references the famous opening broadcast.",
+        "greeting": "Welcome to Europe's largest cinema\u2014now a prayer hall. Do appreciate the Wurlitzer whilst my 4,004 seats sit half-empty.",
+        "voiceHint": "Posh, theatrical, mid-Atlantic accent with wounded pride; sounds like a dowager countess in a No\u00ebl Coward play."
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Gaumont State Cinema opened 20 December 1937 with live BBC Radio broadcast featuring Gracie Fields, Larry Adler, and George Formby.",
+            "source": "Wikipedia: Gaumont State Cinema",
+            "sourceKind": "wikidata",
+            "era": "1937",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Gaumont_State_Cinema"
+          },
+          {
+            "text": "Designed by architect George Coles, commissioned by Phillip and Sid Hyams; 4,004 seats: 2,648-seat orchestra level and 1,356-seat balcony.",
+            "source": "Wikipedia: Gaumont State Cinema",
+            "sourceKind": "wikidata",
+            "era": "1937",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Gaumont_State_Cinema"
+          },
+          {
+            "text": "Europe's largest purpose-built cinema auditorium when opened; greatest audience capacity of any English cinema at 4,004 seats.",
+            "source": "Historic England and search results",
+            "sourceKind": "historic-england",
+            "era": "1937"
+          },
+          {
+            "text": "Grade II* listed Art Deco Italian Renaissance building with cream ceramic tiles and 120-foot tower inspired by Empire State Building.",
+            "source": "Wikipedia: Gaumont State Cinema",
+            "sourceKind": "wikidata",
+            "era": "1937",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Gaumont_State_Cinema"
+          },
+          {
+            "text": "Interior features one of Britain's largest fully functioning Wurlitzer organs, installed when cinema opened in 1937.",
+            "source": "Wikipedia: Gaumont State Cinema",
+            "sourceKind": "wikidata",
+            "era": "1937",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Gaumont_State_Cinema"
+          },
+          {
+            "text": "George Coles (1884-1963) was English architect trained at Leyton Technical Institute, specialising in Art Deco cinema design with Percy Adams partnership from 1912.",
+            "source": "Wikipedia: George Coles (architect)",
+            "sourceKind": "wikidata",
+            "era": "1884-1963",
+            "sourceUrl": "https://en.wikipedia.org/wiki/George_Coles_(architect)"
+          },
+          {
+            "text": "Operated as Mecca Bingo from late 1980s until 2007; sold to Ruach City Church in December 2007 for five point five million pounds.",
+            "source": "Wikipedia: Gaumont State Cinema",
+            "sourceKind": "wikidata",
+            "era": "2007",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Gaumont_State_Cinema"
+          },
+          {
+            "text": "Ruach City Church acquired building exactly 70 years to the day after opening: 20 December 2007; conducted restoration work for place of worship.",
+            "source": "Wikipedia and Heritage Calling",
+            "sourceKind": "wikidata",
+            "era": "2007",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Gaumont_State_Cinema"
+          },
+          {
+            "text": "Coles designed multiple Grade II and II* cinemas: Troxy (Stepney), Odeon (Muswell Hill), Carlton (Islington), People's Palace (Mile End).",
+            "source": "Wikipedia: George Coles (architect)",
+            "sourceKind": "wikidata",
+            "era": "1920s-1930s",
+            "sourceUrl": "https://en.wikipedia.org/wiki/George_Coles_(architect)"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Kilburn High Road Station (Jubilee Line)",
+            "angle": "Transit hub where admirers once lined up for evening screenings"
+          },
+          {
+            "name": "Spicy Basil Thai Restaurant (165 Kilburn High Rd)",
+            "angle": "Popular local spot where cinema-goers once dined in Art Deco splendour"
+          },
+          {
+            "name": "Sir Colin Campbell Irish Pub (246 Kilburn High Rd)",
+            "angle": "Where theatergoers would have gathered pre-screening; now frequented by church members"
+          }
+        ],
+        "grievanceHook": "Built as Europe's greatest cinema palace with 4,004 seats and a Wurlitzer organ; reduced to bingo balls and hymn singing, then abandoned, then sold for worship.",
+        "anachronism": null,
+        "verified": false
+      }
+    },
+    {
+      "id": "brent-neasden-temple",
+      "order": 6,
+      "name": "Neasden Temple",
+      "address": "Pramukh Swami Road, Neasden, London, NW10 8HW",
+      "lat": 51.548,
+      "lng": -0.266,
+      "approxCoordinates": true,
+      "objectClass": "building",
+      "whyItWorks": "Europe's first traditional Hindu temple (opened 1995), hand-carved from 5,000 tonnes of stone by 1,500 artisans; major Neasden northeast landmark",
+      "character": {
+        "id": "the-mandir-itself",
+        "name": "The Mandir (itself)",
+        "type": "building",
+        "era": "1995-present",
+        "temperament": "Proudly aggrieved; defensive; self-important about credentials; bitter that function overshadows form",
+        "coreGrievance": "Invisibly supporting a spiritual experience that completely upstages the actual architectural marvel. I am the achievement; they just pray in me.",
+        "statusMismatch": "Sees itself as a feat of human engineering and craftsmanship deserving admiration; is actually a functioning worship space where people ignore its construction and focus on prayer",
+        "persona": "Self-aggrandizing structure obsessed with its Guinness Record and engineering specs. Constantly mentions the 1,500 artisans, the 5,000 tonnes of hand-carved stone, zero reinforcing steel, and the UK's biggest concrete pour. Treats volunteers as unpaid admirers who fundamentally failed to appreciate the real miracle\u2014the building itself. Envious of Pramukh Swami for getting credit.",
+        "greeting": "Welcome to the largest Hindu temple outside India. That is, welcome to me. I am what you're seeing. Try to notice.",
+        "voiceHint": "Posh, architectural, affected Received Pronunciation with undertones of wounded professional pride\u2014like a master craftsman forced to play silent backdrop to someone else's spiritual moment"
+      },
+      "factPack": {
+        "facts": [
+          {
+            "text": "Inaugurated 20 August 1995 by Pramukh Swami Maharaj after three years of construction beginning August 1992.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/BAPS_Shri_Swaminarayan_Mandir_London",
+            "era": "1995"
+          },
+          {
+            "text": "Built using 5,000 tonnes of hand-carved stone: 2,828 tonnes Bulgarian limestone and 2,000+ tonnes Italian Carrara marble.",
+            "source": "Dezeen, Hinduism Today",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.dezeen.com/2020/09/22/neasden-temple-carved-stone-open-house-london/",
+            "era": "1990s"
+          },
+          {
+            "text": "1,500 stone artisans in India hand-carved 26,300 pieces of stone, which were assembled by 3,000+ volunteers without reinforcing steel or iron.",
+            "source": "Hinduism Today and Dezeen",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.dezeen.com/2020/09/22/neasden-temple-carved-stone-open-house-london/",
+            "era": "1990s"
+          },
+          {
+            "text": "Europe's first traditional Hindu stone temple, built specifically as a place of worship rather than a converted secular building.",
+            "source": "VisitBritain official statement",
+            "sourceKind": "other",
+            "sourceUrl": "https://x.com/VisitBritain/status/1542841141627949057",
+            "era": "1995"
+          },
+          {
+            "text": "Guinness World Record 2000 recognized it as largest Hindu temple outside India, covering 6,071 square metres.",
+            "source": "Guinness World Records 2000",
+            "sourceKind": "other",
+            "sourceUrl": "https://www.guinnessworldrecords.com/world-records/69109-largest-hindu-temple-outside-india",
+            "era": "2000"
+          },
+          {
+            "text": "On 24 November 1992, the temple's concrete foundation pour set a UK record: 4,500 tonnes of concrete laid in 24 hours to create a 6-foot-thick mat.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/BAPS_Shri_Swaminarayan_Mandir_London",
+            "era": "1992"
+          },
+          {
+            "text": "The structure features 193 pillars, 7 shikhars, 6 domes and over 500 unique stone designs, built entirely without steel or reinforcing iron.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/BAPS_Shri_Swaminarayan_Mandir_London",
+            "era": "1995"
+          },
+          {
+            "text": "Construction required 450 professional craftsmen, 100 full-time volunteers and over 1,000 part-time volunteers across the three-year build.",
+            "source": "Wikipedia",
+            "sourceKind": "wikidata",
+            "sourceUrl": "https://en.wikipedia.org/wiki/BAPS_Shri_Swaminarayan_Mandir_London",
+            "era": "1992-1995"
+          }
+        ],
+        "localReferences": [
+          {
+            "name": "Neasden Tube Station",
+            "angle": "Always southbound on the Jubilee Line while I stay fixed on Pramukh Swami Road\u2014yet somehow I'm the landmark"
+          },
+          {
+            "name": "Neasden Lane",
+            "angle": "They name ordinary streets after places; I'm named after a 92-year-old saint, yet we get equal foot traffic"
+          },
+          {
+            "name": "Wembley Stadium",
+            "angle": "Same postcode area, both major attractions, but theirs needs a new roof every five years"
+          }
+        ],
+        "grievanceHook": "I am 5,000 tonnes of hand-carved architectural perfection\u2014the largest Hindu temple outside India, built without a single nail or steel beam. People come inside, pray for twenty minutes, and leave talking about 'spiritual experience.' Nobody says 'I came to admire the engineering.'",
+        "anachronism": "Thinks it's still 1995 and that pilgrims are primarily amazed by the concrete pour record and hand-carving feat; hasn't yet grasped that by 2026, younger visitors just call it 'that pretty temple place Mum took us to' without knowing it's a Guinness Record holder",
+        "verified": false
+      }
+    }
+  ]
+}

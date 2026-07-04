@@ -1,0 +1,42 @@
+{
+  "name": "Samuel Pepys",
+  "slug": "samuel-pepys",
+  "items": [
+    {
+      "text": "And thus ends all that I doubt I shall ever be able to do with my own eyes in the keeping of my journal.",
+      "quoteType": "diary",
+      "context": "Final diary entry, reluctantly concluding his famous diary due to deteriorating eyesight and inability to continue the practice",
+      "publicReaction": "When published as the diary's conclusion, moved readers with its resignation and finality; recognized as historically significant endpoint",
+      "date": "1669-05-31",
+      "source": "The Diary of Samuel Pepys (1660-1669)",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Samuel_Pepys"
+    },
+    {
+      "text": "For which God knows my heart I could be as sorry as is possible for one to be for a stranger by whose death he gets L100 per annum.",
+      "quoteType": "diary",
+      "context": "On the death of Barlow, from whose position Pepys would benefit financially, showing his complex feelings about the succession",
+      "publicReaction": "When published, illustrated Pepys' frank acknowledgment of mixed emotions regarding professional advancement",
+      "date": "1664-1665",
+      "source": "The Diary of Samuel Pepys (1660-1669)",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Samuel_Pepys"
+    },
+    {
+      "text": "Up; and put on my coloured silk suit very fine, and my new periwigg, bought a good while since, and being first wash'd was this day put on, and I liked it very well.",
+      "quoteType": "diary",
+      "context": "Personal entry during the Great Plague documenting his attention to fashion and appearance despite the crisis around him",
+      "publicReaction": "When published, readers noted Pepys' preoccupation with sartorial details even during England's gravest medical crisis",
+      "date": "1665-09-03",
+      "source": "The Diary of Samuel Pepys (1660-1669)",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Samuel_Pepys"
+    },
+    {
+      "text": "Pepys proposed a centralised approach to supplying the fleet in 1665, which was accepted.",
+      "quoteType": "reported-speech",
+      "context": "During the Second Anglo-Dutch War crisis, Pepys recommended a significant administrative reform for naval victualling that was adopted by the Navy Board",
+      "publicReaction": "Recognized at the time by colleagues as excellent administration; resulted in his promotion and increased salary of \u00a3300 annually",
+      "date": "1665-10",
+      "source": "The Diary of Samuel Pepys and historical records of the Navy Board",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Samuel_Pepys"
+    }
+  ]
+}

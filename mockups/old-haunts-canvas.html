@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Old Haunts — 4 nav directions · infinite canvas</title>
+<style>
+  :root{
+    --bg:#0e0d12; --grid:#17161d;
+    --ink:#1a1622; --paper:#fbf7f1; --paper2:#f2ece2;
+    --accent:#c8452f; --accent2:#9c3322;
+    --muted:rgba(26,22,34,.58); --line:rgba(26,22,34,.12);
+    --night:#161320; --night2:#201b2b; --street:#2a2436;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%;background:var(--bg);color:#eee;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif;overflow:hidden}
+
+  /* ── viewport + infinite world ─────────────────────────────── */
+  #viewport{position:fixed;inset:0;overflow:hidden;cursor:grab;
+    background:
+      radial-gradient(circle at 30% 20%, #191821, var(--bg) 60%),
+      repeating-linear-gradient(0deg, transparent 0 63px, var(--grid) 63px 64px),
+      repeating-linear-gradient(90deg, transparent 0 63px, var(--grid) 63px 64px);}
+  #viewport.grabbing{cursor:grabbing}
+  #world{position:absolute;top:0;left:0;transform-origin:0 0;
+    display:flex;align-items:flex-start;gap:64px;padding:120px 160px;will-change:transform}
+
+  /* ── HUD ───────────────────────────────────────────────────── */
+  #hud{position:fixed;left:18px;top:16px;z-index:50;pointer-events:none}
+  #hud h1{margin:0;font-size:19px;letter-spacing:-.02em}
+  #hud h1 .g{filter:grayscale(.1)}
+  #hud p{margin:3px 0 0;font-size:12.5px;color:#9a95a8;max-width:440px;line-height:1.4}
+  #dock{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);z-index:50;
+    display:flex;gap:6px;background:#1b1a22;border:1px solid #2a2833;border-radius:999px;
+    padding:6px;box-shadow:0 10px 30px rgba(0,0,0,.5)}
+  #dock button{border:0;background:transparent;color:#cfc9db;font:inherit;font-size:12.5px;
+    font-weight:600;padding:7px 12px;border-radius:999px;cursor:pointer}
+  #dock button:hover{background:#26242f}
+  #dock button.jump{color:#f4d9d1}
+  #dock .sep{width:1px;background:#2f2d3a;margin:4px 2px}
+  #zoom{position:fixed;right:18px;bottom:18px;z-index:50;display:flex;flex-direction:column;gap:6px}
+  #zoom button{width:38px;height:38px;border-radius:11px;border:1px solid #2a2833;background:#1b1a22;
+    color:#cfc9db;font-size:19px;cursor:pointer}
+  #zoom button:hover{background:#26242f}
+
+  /* ── column / version ──────────────────────────────────────── */
+  .col{display:flex;flex-direction:column;align-items:center;gap:26px;flex:0 0 auto}
+  .vhead{width:320px;text-align:left}
+  .vtag{display:inline-block;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;
+    color:#fff;background:var(--accent);padding:4px 10px;border-radius:999px}
+  .vhead h2{margin:12px 0 6px;font-size:24px;letter-spacing:-.02em;color:#fff}
+  .vhead .flow{font-size:12.5px;color:#a49fb2;line-height:1.5}
+  .vhead .flow b{color:#e7b9ac;font-weight:700}
+  .tabsdef{margin-top:12px;font-size:12px;color:#8f8aa0}
+  .tabsdef code{background:#211f2a;color:#e7d7d1;padding:2px 7px;border-radius:6px;font-size:11.5px}
+  .row{display:flex;gap:16px;flex-direction:column}
+  .scaption{font-size:11.5px;font-weight:700;letter-spacing:.02em;color:#8b8699;
+    text-transform:uppercase;margin:0 0 8px 4px}
+
+  /* ── phone frame ───────────────────────────────────────────── */
+  .phone{width:300px;height:620px;border-radius:42px;background:#050509;
+    padding:9px;box-shadow:0 26px 60px rgba(0,0,0,.55), 0 0 0 1px #2b2836;position:relative}
+  .screen{position:relative;width:100%;height:100%;border-radius:34px;overflow:hidden;background:var(--paper);color:var(--ink)}
+  .notch{position:absolute;top:8px;left:50%;transform:translateX(-50%);width:104px;height:22px;
+    background:#050509;border-radius:0 0 16px 16px;z-index:30}
+  .stat{position:absolute;top:0;left:0;right:0;height:34px;z-index:20;display:flex;
+    align-items:center;justify-content:space-between;padding:11px 20px 0;font-size:11px;font-weight:700}
+  .stat.on-dark{color:#fff}
+
+  /* map surface */
+  .map{position:absolute;inset:0;background:
+    radial-gradient(circle at 60% 35%, #211d2c, var(--night) 70%);}
+  .map::before{content:"";position:absolute;inset:-40%;
+    background:
+      repeating-linear-gradient(35deg, transparent 0 34px, var(--street) 34px 38px),
+      repeating-linear-gradient(-52deg, transparent 0 46px, rgba(52,44,66,.7) 46px 49px),
+      repeating-linear-gradient(96deg, transparent 0 60px, rgba(52,44,66,.5) 60px 63px);
+    opacity:.9}
+  .map .park{position:absolute;width:120px;height:90px;border-radius:20px;background:rgba(60,90,64,.35);left:20px;top:150px}
+  .map .water{position:absolute;width:70px;height:200px;background:rgba(58,86,120,.3);right:-10px;top:230px;transform:rotate(12deg)}
+
+  /* dot + accuracy ring */
+  .you{position:absolute;width:16px;height:16px;border-radius:50%;background:#3b82f6;
+    border:3px solid #fff;box-shadow:0 0 0 2px rgba(59,130,246,.5);z-index:8}
+  .acc{position:absolute;border-radius:50%;background:rgba(59,130,246,.14);
+    border:1px solid rgba(59,130,246,.35);z-index:7}
+
+  /* pins */
+  .pin{position:absolute;z-index:9;transform:translate(-50%,-50%);display:flex;flex-direction:column;align-items:center;gap:3px}
+  .pin .dot{width:40px;height:40px;border-radius:50%;background:#fff;display:grid;place-items:center;
+    font-size:19px;box-shadow:0 8px 18px rgba(0,0,0,.4);border:2px solid rgba(255,255,255,.7)}
+  .pin.active .dot{border-color:var(--accent);box-shadow:0 8px 22px rgba(200,69,47,.6)}
+  .pin .num{position:absolute;top:-4px;right:-4px;min-width:16px;height:16px;border-radius:9px;background:var(--ink);
+    color:#fff;font-size:10px;font-weight:700;display:grid;place-items:center;padding:0 3px}
+  .pin .lab{font-size:10px;font-weight:700;color:#fff;background:rgba(0,0,0,.5);padding:2px 6px;border-radius:6px;white-space:nowrap}
+
+  /* top brand bar */
+  .topbar{position:absolute;top:44px;left:16px;right:16px;z-index:15;display:flex;align-items:center;justify-content:space-between}
+  .brand{display:flex;align-items:center;gap:7px;background:rgba(251,247,241,.92);backdrop-filter:blur(6px);
+    padding:8px 13px;border-radius:999px;font-weight:800;font-size:13.5px;color:var(--ink);box-shadow:0 6px 16px rgba(0,0,0,.25)}
+  .iconbtn{width:38px;height:38px;border-radius:50%;background:rgba(251,247,241,.92);display:grid;place-items:center;
+    box-shadow:0 6px 16px rgba(0,0,0,.25);font-size:15px}
+
+  /* floating card */
+  .card{position:absolute;left:14px;right:14px;border-radius:22px;background:var(--paper);
+    box-shadow:0 18px 40px rgba(0,0,0,.4);padding:15px 16px;z-index:16}
+  .card .hd{display:flex;align-items:center;gap:11px}
+  .card .av{width:42px;height:42px;border-radius:13px;background:rgba(200,69,47,.12);display:grid;place-items:center;font-size:20px;flex:0 0 auto}
+  .card .ti{flex:1;min-width:0}
+  .card .ti b{display:block;font-size:15.5px;letter-spacing:-.01em}
+  .card .ti span{font-size:11.5px;color:var(--muted)}
+  .card .x{width:26px;height:26px;border-radius:50%;background:rgba(26,22,34,.06);display:grid;place-items:center;color:var(--muted);font-size:14px;flex:0 0 auto}
+  .card .blurb{margin:11px 2px 0;font-size:12.5px;line-height:1.45;color:#3a3442}
+  .card .walk{margin:8px 2px 0;font-size:11px;color:var(--muted);display:flex;gap:5px;align-items:center}
+  .btns{display:flex;gap:8px;margin-top:13px}
+  .btn{flex:1;border:0;border-radius:13px;padding:12px;font:inherit;font-weight:800;font-size:13px;cursor:pointer;
+    background:rgba(26,22,34,.07);color:var(--ink);text-align:center}
+  .btn.primary{background:var(--accent);color:#fff}
+  .btn.ghost{background:transparent;box-shadow:inset 0 0 0 1.6px rgba(26,22,34,.16)}
+  .btn.sm{flex:0 0 auto;padding:12px 14px}
+
+  /* tab bar */
+  .tabbar{position:absolute;left:50%;transform:translateX(-50%);bottom:20px;z-index:18;display:flex;gap:4px;
+    background:#fff;border-radius:999px;padding:6px;box-shadow:0 12px 30px rgba(0,0,0,.45)}
+  .tab{min-width:66px;display:flex;flex-direction:column;align-items:center;gap:3px;border:0;background:transparent;
+    border-radius:999px;padding:8px 12px;font:inherit;font-size:10.5px;font-weight:700;color:var(--muted);cursor:pointer}
+  .tab .ic{font-size:17px}
+  .tab.active{background:rgba(200,69,47,.12);color:var(--accent)}
+  .tab .badge{position:absolute;margin:-6px 0 0 20px;background:var(--accent);color:#fff;font-size:9px;min-width:15px;height:15px;
+    border-radius:8px;display:grid;place-items:center;padding:0 3px}
+
+  /* ── TALK screen ───────────────────────────────────────────── */
+  .talk{position:absolute;inset:0;background:linear-gradient(180deg,#fbf7f1, #f3ede3);display:flex;flex-direction:column}
+  .talk .tnav{display:flex;align-items:center;justify-content:space-between;padding:44px 18px 0;font-size:12px;color:var(--muted)}
+  .talk .who{margin-top:26px;text-align:center}
+  .talk .who .ring{width:104px;height:104px;border-radius:50%;margin:0 auto;display:grid;place-items:center;font-size:46px;
+    background:radial-gradient(circle at 50% 40%, #fff, #f0e7db);box-shadow:0 12px 30px rgba(200,69,47,.22), inset 0 0 0 2px rgba(200,69,47,.25)}
+  .talk .who h3{margin:14px 0 2px;font-size:20px;letter-spacing:-.01em}
+  .talk .who .sub{font-size:12px;color:var(--muted)}
+  .talk .who .dist{display:inline-block;margin-top:8px;font-size:11px;font-weight:800;color:var(--accent);
+    background:rgba(200,69,47,.1);padding:3px 10px;border-radius:999px}
+  .talk .bubble{margin:22px 22px 0;background:#fff;border-radius:18px 18px 18px 6px;padding:14px 16px;
+    font-size:14px;line-height:1.5;color:#2c2735;box-shadow:0 8px 22px rgba(0,0,0,.08)}
+  .talk .cite{margin:8px 24px 0;font-size:10px;color:var(--muted)}
+  .talk .toast{margin:16px 20px 0;background:var(--ink);color:#fff;border-radius:14px;padding:11px 14px;
+    font-size:12.5px;font-weight:700;display:flex;align-items:center;gap:9px;box-shadow:0 10px 24px rgba(0,0,0,.3)}
+  .talk .toast .k{font-size:16px}
+  .talk .spacer{flex:1}
+  .talk .wave{display:flex;gap:3px;justify-content:center;align-items:flex-end;height:26px;margin-bottom:6px}
+  .talk .wave i{width:3px;background:var(--accent);border-radius:2px;opacity:.8}
+  .talk .ptt{margin:0 20px;display:flex;gap:10px;align-items:center;padding-bottom:24px}
+  .talk .hold{flex:1;background:var(--accent);color:#fff;border:0;border-radius:16px;padding:15px;font:inherit;font-weight:800;font-size:14px;
+    box-shadow:0 10px 24px rgba(200,69,47,.4)}
+  .talk .end{width:52px;height:52px;border-radius:16px;border:0;background:rgba(26,22,34,.08);font-size:19px}
+
+  /* ── RADAR screen ─────────────────────────────────────────── */
+  .radar{position:absolute;inset:0;background:radial-gradient(circle at 50% 42%, #221d30, #141020)}
+  .radar .rings{position:absolute;left:50%;top:230px;transform:translate(-50%,-50%)}
+  .radar .rings i{position:absolute;border-radius:50%;border:1px solid rgba(200,120,100,.28);transform:translate(-50%,-50%)}
+  .radar .sweep{position:absolute;left:50%;top:230px;width:130px;height:130px;transform:translate(-50%,-50%);
+    background:conic-gradient(from 0deg, rgba(200,69,47,.35), transparent 70deg);border-radius:50%}
+  .radar .rc{position:absolute;left:50%;top:230px;width:14px;height:14px;transform:translate(-50%,-50%);border-radius:50%;
+    background:#3b82f6;border:3px solid #fff}
+  .radar .blip{position:absolute;transform:translate(-50%,-50%);text-align:center}
+  .radar .blip .b{width:34px;height:34px;border-radius:50%;background:#fff;display:grid;place-items:center;font-size:16px;margin:0 auto;
+    box-shadow:0 0 0 4px rgba(200,69,47,.18)}
+  .radar .blip .l{font-size:9.5px;color:#e9dfe0;margin-top:3px;font-weight:700}
+  .radar .blip .d{font-size:9px;color:#c99;}
+  .radar .hdr{position:absolute;top:52px;left:0;right:0;text-align:center;color:#f3e9ea;font-weight:800;font-size:15px}
+  .radar .hdr span{display:block;font-size:11px;font-weight:600;color:#a08e9a;margin-top:2px}
+
+  /* ── CAMERA / viewfinder ──────────────────────────────────── */
+  .cam{position:absolute;inset:0;background:linear-gradient(160deg,#1c1a24,#0c0b12)}
+  .cam::after{content:"";position:absolute;inset:0;background:
+    repeating-linear-gradient(0deg, rgba(255,255,255,.02) 0 2px, transparent 2px 4px)}
+  .cam .obj{position:absolute;left:50%;top:46%;transform:translate(-50%,-50%);width:78px;height:150px;
+    border-radius:16px 16px 8px 8px;background:linear-gradient(180deg,#3a3346,#211d2c);
+    box-shadow:0 0 0 2px rgba(200,69,47,.9), 0 0 40px rgba(200,69,47,.5)}
+  .cam .reticle{position:absolute;left:50%;top:46%;transform:translate(-50%,-50%);width:150px;height:210px}
+  .cam .reticle i{position:absolute;width:22px;height:22px;border:2px solid #fff}
+  .cam .tag{position:absolute;left:50%;top:24%;transform:translate(-50%,-50%);background:rgba(251,247,241,.95);
+    color:var(--ink);font-size:11px;font-weight:800;padding:6px 11px;border-radius:999px;box-shadow:0 8px 20px rgba(0,0,0,.4)}
+  .cam .hint{position:absolute;bottom:130px;left:0;right:0;text-align:center;color:#fff;font-size:12.5px;opacity:.85}
+  .toggle{position:absolute;left:20px;right:20px;bottom:88px;display:flex;background:rgba(255,255,255,.14);
+    border-radius:999px;padding:4px;backdrop-filter:blur(6px);z-index:18}
+  .toggle button{flex:1;border:0;background:transparent;color:#fff;font:inherit;font-weight:800;font-size:12.5px;
+    padding:11px;border-radius:999px;cursor:pointer}
+  .toggle button.on{background:#fff;color:var(--ink)}
+  .tabbar.dark{background:rgba(20,17,26,.9)}
+  .tabbar.dark .tab{color:rgba(255,255,255,.6)}
+  .tabbar.dark .tab.active{background:rgba(200,69,47,.28);color:#fff}
+
+  /* ── TIME PORTAL / see past ──────────────────────────────── */
+  .portal{position:absolute;inset:0;background:linear-gradient(#241f18,#12100c)}
+  .portal .scene{position:absolute;inset:0;background:
+    linear-gradient(180deg, rgba(180,150,90,.25), rgba(40,30,16,.6)),
+    repeating-linear-gradient(90deg, rgba(120,96,54,.35) 0 40px, rgba(80,60,32,.3) 40px 80px);
+    filter:sepia(.5) contrast(1.05)}
+  .portal .grain{position:absolute;inset:0;background:repeating-linear-gradient(0deg,rgba(0,0,0,.05) 0 2px,transparent 2px 4px);opacity:.5}
+  .portal .cap{position:absolute;top:56px;left:20px;color:#f4e6c9}
+  .portal .cap b{font-size:17px}
+  .portal .cap span{display:block;font-size:11px;color:#c9b998;margin-top:2px}
+  .portal .fig{position:absolute;bottom:150px;left:50%;transform:translateX(-50%);font-size:52px;filter:sepia(.6) contrast(1.1)}
+  .dial{position:absolute;left:0;right:0;bottom:96px;display:flex;gap:8px;justify-content:center;z-index:18}
+  .dial button{border:0;background:rgba(0,0,0,.4);color:#f4e6c9;font:inherit;font-weight:800;font-size:12px;padding:8px 12px;border-radius:999px}
+  .dial button.on{background:#f4e6c9;color:#2a1f10}
+  .portal .save{position:absolute;left:20px;right:20px;bottom:30px;border:0;background:#f4e6c9;color:#2a1f10;
+    font:inherit;font-weight:800;padding:13px;border-radius:14px}
+
+  /* ── GRUDGES ledger ───────────────────────────────────────── */
+  .ledger{position:absolute;inset:0;background:linear-gradient(#fbf7f1,#f1eadf);display:flex;flex-direction:column}
+  .ledger .lh{display:flex;align-items:center;justify-content:space-between;padding:46px 20px 0}
+  .ledger .lh b{font-size:19px}
+  .ledger .lh .x{width:28px;height:28px;border-radius:50%;background:rgba(26,22,34,.06);display:grid;place-items:center;color:var(--muted)}
+  .ledger .prog{margin:14px 20px 0;font-size:11.5px;color:var(--muted);display:flex;align-items:center;gap:8px}
+  .ledger .bar{flex:1;height:6px;border-radius:3px;background:rgba(26,22,34,.1);overflow:hidden}
+  .ledger .bar i{display:block;height:100%;width:50%;background:var(--accent)}
+  .ledger .list{padding:14px 18px;display:flex;flex-direction:column;gap:11px;overflow:auto}
+  .gitem{background:#fff;border-radius:16px;padding:12px 14px;box-shadow:0 6px 16px rgba(0,0,0,.06)}
+  .gitem .gt{display:flex;align-items:center;gap:9px}
+  .gitem .gt .e{font-size:18px}
+  .gitem .gt b{font-size:14px;flex:1}
+  .tier{font-size:9.5px;font-weight:800;text-transform:uppercase;letter-spacing:.04em;padding:3px 8px;border-radius:999px}
+  .tier.nem{background:#4a0f0a;color:#ffd9cf}
+  .tier.grd{background:rgba(200,69,47,.14);color:var(--accent)}
+  .tier.tol{background:rgba(26,22,34,.08);color:var(--muted)}
+  .gitem p{margin:8px 0 0;font-size:12px;color:#4a4452;line-height:1.4}
+  .gitem .rem{margin-top:8px;font-size:10.5px;font-weight:800;color:#2f8f5b;display:flex;align-items:center;gap:5px}
+  .ledger .share{margin:6px 18px 22px;border:0;background:var(--ink);color:#fff;font:inherit;font-weight:800;padding:14px;border-radius:14px}
+
+  /* ── chapters / story ─────────────────────────────────────── */
+  .story{position:absolute;inset:0;background:linear-gradient(#fbf7f1,#efe8dd);display:flex;flex-direction:column}
+  .story .sh{padding:46px 20px 6px;display:flex;align-items:center;gap:8px;font-weight:800;font-size:16px}
+  .story .sub{padding:0 20px;font-size:11.5px;color:var(--muted)}
+  .chaps{padding:14px 16px;display:flex;flex-direction:column;gap:10px;overflow:auto}
+  .chap{display:flex;align-items:center;gap:11px;padding:12px 13px;border-radius:15px;background:rgba(26,22,34,.04)}
+  .chap .st{width:26px;height:26px;border-radius:50%;display:grid;place-items:center;font-size:13px;font-weight:800;flex:0 0 auto}
+  .chap .st.done{background:#2f8f5b;color:#fff}
+  .chap .st.now{background:var(--accent);color:#fff}
+  .chap .st.lock{background:rgba(26,22,34,.1);color:var(--muted)}
+  .chap .cc b{font-size:13.5px}
+  .chap .cc span{font-size:11px;color:var(--muted)}
+  .chap.expand{flex-direction:column;align-items:stretch;background:#fff;box-shadow:0 10px 26px rgba(0,0,0,.1);padding:14px}
+  .chap.expand .top{display:flex;align-items:center;gap:11px}
+  .chap.expand .q{margin:11px 2px 0;font-size:13px;line-height:1.45;color:#3a3442}
+  .chap.expand .begin{margin-top:12px;border:0;background:var(--accent);color:#fff;font:inherit;font-weight:800;padding:12px;border-radius:13px}
+
+  /* sticky note */
+  .sticky{width:230px;background:#fff4cf;color:#5a4a1a;border-radius:6px;padding:13px 15px;font-size:12px;line-height:1.5;
+    box-shadow:0 12px 30px rgba(0,0,0,.35);transform:rotate(-2deg);border:1px solid rgba(0,0,0,.05)}
+  .sticky b{color:#7a5a10}
+  .sticky.notes{align-self:center;transform:rotate(2deg);background:#d9f0ff;color:#123a52}
+  .annob{display:flex;flex-direction:column;gap:22px;padding-top:70px}
+</style>
+</head>
+<body>
+<div id="hud">
+  <h1><span class="g">👻</span> Old Haunts — 4 nav + flow directions</h1>
+  <p>Drag to pan · scroll to zoom · use the dock to jump. All four drop the lens filter, use 3 tabs, and treat the grudge as a UI event (research-backed). Grounded in the real Dalston Junction cast.</p>
+</div>
+
+<div id="viewport">
+  <div id="world">
+
+    <!-- ══════════ VERSION A — THE WALK ══════════ -->
+    <div class="col" id="v-A">
+      <div class="vhead">
+        <span class="vtag">Option A</span>
+        <h2>The Walk</h2>
+        <div class="flow"><b>Map is home.</b> The nearest haunt auto-surfaces one card with a single Talk button; a quiet “next haunt” nudge propels you. Simplest &amp; safest to demo — hardest to get lost in.</div>
+        <div class="tabsdef">Tabs: <code>Walk</code> <code>Camera</code> <code>Grudges</code> · Portal folds into Camera</div>
+      </div>
+      <div class="row">
+        <div><p class="scaption">1 · Walk (home)</p>
+          <div class="phone"><div class="screen">
+            <div class="notch"></div>
+            <div class="stat on-dark"><span>20:14</span><span>◉ ▮▮▮</span></div>
+            <div class="map">
+              <div class="park"></div><div class="water"></div>
+              <div class="acc" style="width:120px;height:120px;left:96px;top:330px;transform:translate(-50%,-50%)"></div>
+              <div class="you" style="left:96px;top:330px;transform:translate(-50%,-50%)"></div>
+              <div class="pin active" style="left:150px;top:150px"><div class="dot">🎞️<span class="num">2</span></div><div class="lab">Rio Cinema</div></div>
+              <div class="pin" style="left:220px;top:250px"><div class="dot">🏛️<span class="num">3</span></div></div>
+              <div class="pin" style="left:60px;top:220px"><div class="dot">🚧<span class="num">1</span></div></div>
+            </div>
+            <div class="topbar"><div class="brand">👻 Old Haunts</div><div class="iconbtn">⚔️</div></div>
+            <div class="card" style="bottom:96px">
+              <div class="hd"><div class="av">🎞️</div><div class="ti"><b>Clara Ludski</b><span>Rio Cinema · Stop 2/6</span></div><div class="x">✕</div></div>
+              <p class="blurb">She turned her auctioneer’s shop into one of London’s first cinemas in 1909 — then watched her name get scrubbed off it.</p>
+              <p class="walk">↳ 60m ahead, past the fried-chicken shop</p>
+              <div class="btns"><button class="btn primary">Wake &amp; talk</button><button class="btn sm">📷</button><button class="btn ghost sm">Next ▸</button></div>
+            </div>
+            <div class="tabbar"><button class="tab active"><span class="ic">🗺️</span>Walk</button><button class="tab"><span class="ic">📷</span>Camera</button><button class="tab"><span class="ic">⚔️</span>Grudges<span class="badge">2</span></button></div>
+          </div></div>
+        </div>
+        <div><p class="scaption">2 · Talk (hold-to-talk)</p>
+          <div class="phone"><div class="screen"><div class="talk">
+            <div class="notch"></div>
+            <div class="tnav"><span>‹ back</span><span>Rio Cinema</span></div>
+            <div class="who"><div class="ring">🎞️</div><h3>Clara Ludski</h3><div class="sub">Rio Cinema · founded 1909</div></div>
+            <div class="bubble">“Six times they renamed my picture-house. Kingsland Palace, Classic, Tatler… not once did anyone keep <i>my</i> name over the door.”</div>
+            <div class="cite">source: Rio Cinema, Dalston — listed 1999</div>
+            <div class="toast"><span class="k">⚔️</span> Clara will remember that you took her side.</div>
+            <div class="spacer"></div>
+            <div class="wave"><i style="height:8px"></i><i style="height:18px"></i><i style="height:26px"></i><i style="height:14px"></i><i style="height:22px"></i><i style="height:10px"></i></div>
+            <div class="ptt"><button class="hold">🎙️ Hold to talk</button><button class="end">✕</button></div>
+          </div></div></div>
+        </div>
+        <div><p class="scaption">3 · Grudges</p>
+          <div class="phone"><div class="screen"><div class="ledger">
+            <div class="notch"></div>
+            <div class="lh"><b>Grudge Ledger</b><div class="x">✕</div></div>
+            <div class="prog">3 of 6 haunts <div class="bar"><i></i></div></div>
+            <div class="list">
+              <div class="gitem"><div class="gt"><span class="e">🏛️</span><b>Newton Dunbar</b><span class="tier nem">Nemesis</span></div><p>They named a tower after him on the ruins of his club — never even asked.</p><div class="rem">✓ Remembers you</div></div>
+              <div class="gitem"><div class="gt"><span class="e">🎞️</span><b>Clara Ludski</b><span class="tier grd">Holds a grudge</span></div><p>A century before anyone put her name back on the cinema.</p><div class="rem">✓ Remembers you</div></div>
+              <div class="gitem"><div class="gt"><span class="e">🚧</span><b>The Bollard</b><span class="tier tol">Tolerates you</span></div><p>You leaned on him. He noted it.</p></div>
+            </div>
+            <button class="share">Share your walk</button>
+          </div></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ══════════ VERSION B — HAUNT RADAR ══════════ -->
+    <div class="col" id="v-B">
+      <div class="vhead">
+        <span class="vtag">Option B</span>
+        <h2>Haunt Radar</h2>
+        <div class="flow"><b>Home is a radar</b> of who’s <b>awake</b> near you, by distance + bearing — no hunting on a map. Best for a crowded room with rough GPS: always answers “who can I talk to right now?”</div>
+        <div class="tabsdef">Tabs: <code>Nearby</code> <code>Camera</code> <code>Grudges</code></div>
+      </div>
+      <div class="row">
+        <div><p class="scaption">1 · Nearby (home)</p>
+          <div class="phone"><div class="screen">
+            <div class="notch"></div>
+            <div class="stat on-dark"><span>20:14</span><span>◉ ▮▮▮</span></div>
+            <div class="radar">
+              <div class="hdr">Who’s awake near you<span>3 haunts within 250m</span></div>
+              <div class="rings"><i style="width:80px;height:80px"></i><i style="width:150px;height:150px"></i><i style="width:220px;height:220px"></i></div>
+              <div class="sweep"></div>
+              <div class="rc"></div>
+              <div class="blip" style="left:180px;top:180px"><div class="b">🏛️</div><div class="l">Newton Dunbar</div><div class="d">↗ 80m</div></div>
+              <div class="blip" style="left:100px;top:150px"><div class="b">🎞️</div><div class="l">Clara Ludski</div><div class="d">↑ 210m</div></div>
+              <div class="blip" style="left:210px;top:290px"><div class="b">✂️</div><div class="l">43 Group</div><div class="d">→ 240m</div></div>
+            </div>
+            <div class="card" style="bottom:96px">
+              <div class="hd"><div class="av">🏛️</div><div class="ti"><b>Newton Dunbar</b><span>Four Aces Club · 80m ↗</span></div></div>
+              <p class="blurb">Ran Dalston’s legendary Four Aces for 30 years. Bob Marley played it. They bulldozed it for the flats you’re standing on.</p>
+              <div class="btns"><button class="btn primary">Wake &amp; talk</button><button class="btn ghost sm">Map</button></div>
+            </div>
+            <div class="tabbar dark"><button class="tab active"><span class="ic">📡</span>Nearby</button><button class="tab"><span class="ic">📷</span>Camera</button><button class="tab"><span class="ic">⚔️</span>Grudges<span class="badge">2</span></button></div>
+          </div></div>
+        </div>
+        <div><p class="scaption">2 · Talk (distance-aware)</p>
+          <div class="phone"><div class="screen"><div class="talk">
+            <div class="notch"></div>
+            <div class="tnav"><span>‹ back</span><span>Four Aces Club</span></div>
+            <div class="who"><div class="ring">🏛️</div><h3>Newton Dunbar</h3><div class="sub">Four Aces / Labyrinth · 1966–2007</div><div class="dist">📍 80m · you’re on the site</div></div>
+            <div class="bubble">“They knocked down my club, built a tower on it, and called it <i>Dunbar Tower</i>. Nobody asked me. My name selling their flats.”</div>
+            <div class="cite">source: Hackney Citizen / VICE interview, 2014</div>
+            <div class="toast"><span class="k">⚔️</span> Newton Dunbar → grudge logged: “the tower”.</div>
+            <div class="spacer"></div>
+            <div class="wave"><i style="height:8px"></i><i style="height:20px"></i><i style="height:26px"></i><i style="height:12px"></i><i style="height:24px"></i><i style="height:9px"></i></div>
+            <div class="ptt"><button class="hold">🎙️ Hold to talk</button><button class="end">✕</button></div>
+          </div></div></div>
+        </div>
+        <div><p class="scaption">3 · Grudges</p>
+          <div class="phone"><div class="screen"><div class="ledger">
+            <div class="notch"></div>
+            <div class="lh"><b>Grudge Ledger</b><div class="x">✕</div></div>
+            <div class="prog">2 met · 4 still awake <div class="bar"><i style="width:33%"></i></div></div>
+            <div class="list">
+              <div class="gitem"><div class="gt"><span class="e">🏛️</span><b>Newton Dunbar</b><span class="tier nem">Nemesis</span></div><p>“The tower.” The single best-documented grudge on the walk.</p><div class="rem">✓ Remembers you</div></div>
+              <div class="gitem"><div class="gt"><span class="e">✂️</span><b>The 43 Group</b><span class="tier grd">Holds a grudge</span></div><p>Fought fascists in Ridley Road market, 1947. Still watching the corner.</p><div class="rem">✓ Remembers you</div></div>
+            </div>
+            <button class="share">Share your walk</button>
+          </div></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- annotations column 1 -->
+    <div class="annob">
+      <div class="sticky"><b>Why kill the lens filter?</b><br>Material + NN/g: filter chips aren’t navigation and shouldn’t sit beside tabs — two nav-ish rows disorient. A 6-stop loop has too few objects to filter.</div>
+      <div class="sticky notes"><b>Grudge = UI event.</b><br>Telltale’s “X will remember that” toast at the trigger + a <i>guaranteed</i> callback at a later stop is what makes memory feel momentous. Named tiers beat a bare number.</div>
+    </div>
+
+    <!-- ══════════ VERSION C — VIEWFINDER ══════════ -->
+    <div class="col" id="v-C">
+      <div class="vhead">
+        <span class="vtag">Option C</span>
+        <h2>Viewfinder</h2>
+        <div class="flow"><b>The camera IS the app.</b> Point at street furniture and it wakes; swipe to “See the past” Time Portal. Most wow / most on-brand — but leans on camera perms and is the riskiest to demo.</div>
+        <div class="tabsdef">Tabs: <code>Look</code> <code>Map</code> <code>Grudges</code> · Portal is a swipe inside Look</div>
+      </div>
+      <div class="row">
+        <div><p class="scaption">1 · Look (home / camera)</p>
+          <div class="phone"><div class="screen">
+            <div class="notch"></div>
+            <div class="stat on-dark"><span>20:14</span><span>◉ ▮▮▮</span></div>
+            <div class="cam">
+              <div class="tag">🚧 The Bollard · 4m</div>
+              <div class="obj"></div>
+              <div class="reticle"><i style="top:0;left:0;border-right:0;border-bottom:0"></i><i style="top:0;right:0;border-left:0;border-bottom:0"></i><i style="bottom:0;left:0;border-right:0;border-top:0"></i><i style="bottom:0;right:0;border-left:0;border-top:0"></i></div>
+              <div class="hint">Point at it — then tap to wake it up</div>
+            </div>
+            <div class="toggle"><button class="on">Wake it up</button><button>See the past ⌛</button></div>
+            <div class="tabbar dark"><button class="tab active"><span class="ic">📷</span>Look</button><button class="tab"><span class="ic">🗺️</span>Map</button><button class="tab"><span class="ic">⚔️</span>Grudges<span class="badge">2</span></button></div>
+          </div></div>
+        </div>
+        <div><p class="scaption">2 · Talk (object glows)</p>
+          <div class="phone"><div class="screen"><div class="talk" style="background:linear-gradient(180deg,#1c1a24,#0c0b12)">
+            <div class="notch"></div>
+            <div class="tnav" style="color:#b3adc0"><span>‹ camera</span><span>Kingsland High St</span></div>
+            <div class="who"><div class="ring" style="background:radial-gradient(circle at 50% 40%,#3a3346,#1c1826);box-shadow:0 0 40px rgba(200,69,47,.5),inset 0 0 0 2px rgba(200,69,47,.5)">🚧</div><h3 style="color:#fff">The Bollard</h3><div class="sub" style="color:#a49fb2">Cast iron · pompous · immovable</div></div>
+            <div class="bubble" style="background:#211d2c;color:#e9e4f0">“Mind where you tread. I have guarded this kerb since before your grandfather was a rumour.”</div>
+            <div class="toast"><span class="k">⚔️</span> The Bollard will remember that.</div>
+            <div class="spacer"></div>
+            <div class="wave"><i style="height:8px"></i><i style="height:18px"></i><i style="height:26px"></i><i style="height:14px"></i><i style="height:22px"></i><i style="height:10px"></i></div>
+            <div class="ptt"><button class="hold">🎙️ Hold to talk</button><button class="end" style="background:rgba(255,255,255,.12);color:#fff">✕</button></div>
+          </div></div></div>
+        </div>
+        <div><p class="scaption">3 · See the past (Portal)</p>
+          <div class="phone"><div class="screen"><div class="portal">
+            <div class="notch"></div>
+            <div class="scene"></div><div class="grain"></div>
+            <div class="cap"><b>Dalston Lane, 1886</b><span>North London Colosseum · Fossett’s Circus</span></div>
+            <div class="fig">🎪</div>
+            <div class="dial"><button class="on">1886</button><button>1943</button><button>1974</button><button>Now</button></div>
+            <button class="save">Save postcard</button>
+          </div></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ══════════ VERSION D — HAUNTED CHAPTERS ══════════ -->
+    <div class="col" id="v-D">
+      <div class="vhead">
+        <span class="vtag">Option D</span>
+        <h2>Haunted Chapters</h2>
+        <div class="flow"><b>A guided 6-stop story.</b> Each haunt is a chapter that unlocks as you arrive. Strongest narrative + onboarding and the clearest sense of progress — most curated, least free-roam.</div>
+        <div class="tabsdef">Tabs: <code>Story</code> <code>Camera</code> <code>Grudges</code></div>
+      </div>
+      <div class="row">
+        <div><p class="scaption">1 · Story (home)</p>
+          <div class="phone"><div class="screen"><div class="story">
+            <div class="notch"></div>
+            <div class="sh">👻 Old Haunts</div>
+            <div class="sub">The Dalston dead · a walk in 6 chapters</div>
+            <div class="chaps">
+              <div class="chap"><div class="st done">✓</div><div class="cc"><b>The Bollard</b><span>Kingsland High St · done</span></div></div>
+              <div class="chap expand">
+                <div class="top"><div class="st now">2</div><div class="cc"><b>Clara Ludski</b><span>Rio Cinema · 120m ahead ↗</span></div></div>
+                <p class="q">“She started it all — one of London’s first cinemas, 1909 — then they scrubbed her name off the building for a century.”</p>
+                <button class="begin">Begin chapter ▸</button>
+              </div>
+              <div class="chap"><div class="st lock">3</div><div class="cc"><b>Newton Dunbar</b><span>Four Aces Club · locked</span></div></div>
+              <div class="chap"><div class="st lock">4</div><div class="cc"><b>The 43 Group</b><span>Ridley Road Market · locked</span></div></div>
+              <div class="chap"><div class="st lock">5</div><div class="cc"><b>James Baldwin</b><span>CLR James Library · locked</span></div></div>
+            </div>
+            <div class="tabbar"><button class="tab active"><span class="ic">📖</span>Story</button><button class="tab"><span class="ic">📷</span>Camera</button><button class="tab"><span class="ic">⚔️</span>Grudges<span class="badge">1</span></button></div>
+          </div></div></div>
+        </div>
+        <div><p class="scaption">2 · Chapter / talk</p>
+          <div class="phone"><div class="screen"><div class="talk">
+            <div class="notch"></div>
+            <div class="tnav"><span>‹ story</span><span>Chapter 2 of 6</span></div>
+            <div class="who"><div class="ring">🎞️</div><h3>Clara Ludski</h3><div class="sub">Rio Cinema · founded 1909</div></div>
+            <div class="bubble">“You found me. Good. Now — sit a moment and I’ll tell you what they did to the name over that door.”</div>
+            <div class="cite">source: Rio Cinema, Dalston — listed 1999</div>
+            <div class="toast"><span class="k">⚔️</span> Clara will remember that.</div>
+            <div class="spacer"></div>
+            <div class="wave"><i style="height:8px"></i><i style="height:18px"></i><i style="height:26px"></i><i style="height:14px"></i><i style="height:22px"></i><i style="height:10px"></i></div>
+            <div class="ptt"><button class="hold">🎙️ Hold to talk</button><button class="end">End ch.</button></div>
+          </div></div></div>
+        </div>
+        <div><p class="scaption">3 · Story so far</p>
+          <div class="phone"><div class="screen"><div class="ledger">
+            <div class="notch"></div>
+            <div class="lh"><b>Your walk</b><div class="x">✕</div></div>
+            <div class="prog">Chapter 3 of 6 <div class="bar"><i></i></div></div>
+            <div class="list">
+              <div class="gitem"><div class="gt"><span class="e">🎞️</span><b>Clara Ludski</b><span class="tier grd">Holds a grudge</span></div><p>You took her side about the name. She won’t forget it two stops on.</p><div class="rem">✓ Remembers you</div></div>
+              <div class="gitem"><div class="gt"><span class="e">🚧</span><b>The Bollard</b><span class="tier tol">Tolerates you</span></div><p>Chapter 1 · you leaned on him.</p></div>
+              <div class="gitem" style="opacity:.5"><div class="gt"><span class="e">🏛️</span><b>Newton Dunbar</b><span class="tier tol">Not yet met</span></div><p>Chapter 3 · unlocks 200m on.</p></div>
+            </div>
+            <button class="share">Share your walk</button>
+          </div></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- annotations column 2 -->
+    <div class="annob">
+      <div class="sticky"><b>Per-stop beat (all options):</b><br>Approach → auto-trigger audio → opinion hook → hold-to-talk (≤4 min) → grudge/memory payoff → in-situ nav + forward hook to the next haunt.</div>
+      <div class="sticky notes"><b>Real Dalston cast</b> (verified, &lt;400m):<br>Newton Dunbar · Four Aces (120m) — the standout grudge. Clara Ludski · Rio Cinema. 43 Group · Ridley Rd. James Baldwin · CLR James Library.</div>
+      <div class="sticky"><b>Event-hardening:</b><br>QR-per-stop walk-up start (&lt;60s to first voice) · prime-then-ask perms in-context · geofenced low-power GPS · pre-cache assets · always show “Next stop ▸”.</div>
+    </div>
+
+  </div>
+</div>
+
+<div id="dock">
+  <button class="jump" data-t="v-A">A · Walk</button>
+  <button class="jump" data-t="v-B">B · Radar</button>
+  <button class="jump" data-t="v-C">C · Viewfinder</button>
+  <button class="jump" data-t="v-D">D · Chapters</button>
+  <div class="sep"></div>
+  <button id="fit">Fit all</button>
+</div>
+<div id="zoom">
+  <button id="zin">+</button>
+  <button id="zout">−</button>
+</div>
+
+<script>
+(function(){
+  const vp=document.getElementById('viewport'), world=document.getElementById('world');
+  let scale=.62, tx=40, ty=-40;
+  function apply(){world.style.transform=`translate(${tx}px,${ty}px) scale(${scale})`}
+  apply();
+
+  // pan
+  let dragging=false, sx=0, sy=0, ox=0, oy=0, moved=false;
+  vp.addEventListener('pointerdown',e=>{dragging=true;moved=false;sx=e.clientX;sy=e.clientY;ox=tx;oy=ty;vp.classList.add('grabbing');vp.setPointerCapture(e.pointerId)});
+  vp.addEventListener('pointermove',e=>{if(!dragging)return;tx=ox+(e.clientX-sx);ty=oy+(e.clientY-sy);if(Math.abs(e.clientX-sx)+Math.abs(e.clientY-sy)>3)moved=true;apply()});
+  vp.addEventListener('pointerup',e=>{dragging=false;vp.classList.remove('grabbing')});
+
+  // zoom to cursor
+  vp.addEventListener('wheel',e=>{e.preventDefault();
+    const r=vp.getBoundingClientRect(), mx=e.clientX-r.left, my=e.clientY-r.top;
+    const wx=(mx-tx)/scale, wy=(my-ty)/scale;
+    const f=Math.exp(-e.deltaY*0.0014); const ns=Math.min(2.2,Math.max(.22,scale*f));
+    scale=ns; tx=mx-wx*scale; ty=my-wy*scale; apply();
+  },{passive:false});
+
+  function focus(el,pad=90){
+    const r=el.getBoundingClientRect(), wr=world.getBoundingClientRect();
+    // element position in world coords
+    const ex=(r.left-wr.left)/scale, ey=(r.top-wr.top)/scale, ew=r.width/scale, eh=r.height/scale;
+    const vw=vp.clientWidth, vh=vp.clientHeight;
+    const ns=Math.min(1.1,Math.min((vw-pad*2)/ew,(vh-pad*2)/eh));
+    scale=ns; tx=(vw-ew*ns)/2 - ex*ns; ty=(vh-eh*ns)/2 - ey*ns; apply();
+  }
+  document.querySelectorAll('.jump').forEach(b=>b.addEventListener('click',()=>focus(document.getElementById(b.dataset.t))));
+  document.getElementById('fit').addEventListener('click',()=>{scale=.5;const wr=world.getBoundingClientRect();tx=(vp.clientWidth-world.scrollWidth*scale)/2;ty=60;apply()});
+  document.getElementById('zin').addEventListener('click',()=>{scale=Math.min(2.2,scale*1.2);apply()});
+  document.getElementById('zout').addEventListener('click',()=>{scale=Math.max(.22,scale/1.2);apply()});
+
+  // initial fit-all
+  setTimeout(()=>{scale=Math.min(.62,(vp.clientWidth-80)/world.scrollWidth);tx=40;ty=20;apply();},60);
+})();
+</script>
+</body>
+</html>
