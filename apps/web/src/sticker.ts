@@ -98,6 +98,81 @@ async function requestServerSticker(
   }
 }
 
+// ── Chroma-key: green background → transparent die-cut ──────────────────────────
+
+/**
+ * gpt-image-2 cannot output a transparent background, so the server renders the
+ * die-cut sticker (white outline) on a solid chroma-key GREEN field. This keys
+ * that green out to transparency: a flood-fill from the four corners removes the
+ * connected green background while preserving any green *inside* the white
+ * outline (foliage, signage), then a light de-spill kills green fringing.
+ *
+ * Returns a transparent PNG data URL, or null when the result looks wrong (no
+ * green found, or almost everything removed) so the caller keeps the reliable
+ * canvas sticker instead of storing a broken image.
+ */
+export async function chromaKeyToTransparent(dataUrl: string): Promise<string | null> {
+  const img = await loadImage(dataUrl);
+  const size = 512;
+  const canvas = document.createElement("canvas");
+  canvas.width = size;
+  canvas.height = size;
+  const ctx = canvas.getContext("2d");
+  if (!ctx) return null;
+  // Fit the (square) sticker into the canvas.
+  drawImageCover(ctx, img, 0, 0, size, size);
+
+  let image: ImageData;
+  try {
+    image = ctx.getImageData(0, 0, size, size);
+  } catch {
+    return null; // tainted canvas — bail rather than risk a bad sticker
+  }
+  const px = image.data;
+  const N = size * size;
+  // Greenness: how much the green channel exceeds the brighter of red/blue.
+  // Chroma green (#00B140) scores ~110; a white outline (r≈g≈b) scores ~0.
+  const greenness = (i: number) => (px[i * 4 + 1] ?? 0) - Math.max(px[i * 4] ?? 0, px[i * 4 + 2] ?? 0);
+  const BG = 42; // clearly the green field
+  const removed = new Uint8Array(N);
+
+  // Flood-fill from any corner that is green.
+  const stack: number[] = [];
+  const corners = [0, size - 1, (size - 1) * size, size * size - 1];
+  for (const c of corners) if (greenness(c) > BG && !removed[c]) { removed[c] = 1; stack.push(c); }
+  while (stack.length) {
+    const p = stack.pop()!;
+    const x = p % size;
+    const y = (p / size) | 0;
+    // 4-neighbours
+    const neigh = [x > 0 ? p - 1 : -1, x < size - 1 ? p + 1 : -1, y > 0 ? p - size : -1, y < size - 1 ? p + size : -1];
+    for (const q of neigh) {
+      if (q < 0 || removed[q]) continue;
+      if (greenness(q) > BG) { removed[q] = 1; stack.push(q); }
+    }
+  }
+
+  let removedCount = 0;
+  for (let i = 0; i < N; i++) {
+    if (removed[i]) {
+      px[i * 4 + 3] = 0; // fully transparent background
+      removedCount++;
+    } else {
+      // De-spill: pull down any residual green fringe on kept pixels.
+      const g = px[i * 4 + 1] ?? 0;
+      const cap = Math.max(px[i * 4] ?? 0, px[i * 4 + 2] ?? 0) + 12;
+      if (g > cap) px[i * 4 + 1] = cap;
+    }
+  }
+
+  const frac = removedCount / N;
+  // No green field found, or nearly the whole frame keyed out → not our format.
+  if (frac < 0.06 || frac > 0.94) return null;
+
+  ctx.putImageData(image, 0, 0);
+  return canvas.toDataURL("image/png");
+}
+
 // ── Client-side fallback ────────────────────────────────────────────────────────
 
 async function renderCanvasSticker(

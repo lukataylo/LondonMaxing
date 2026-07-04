@@ -25,7 +25,7 @@ import type { ClassifySubject } from "@grudgemap/shared";
 import { fetchClassification, fetchDieCutSticker, fetchPortalRender } from "../api";
 import { PORTAL_ASSETS } from "./portalAssets";
 import { addMemory, updateMemorySticker } from "./memoryStore";
-import { makeStickerFromPhoto } from "../sticker";
+import { makeStickerFromPhoto, chromaKeyToTransparent } from "../sticker";
 import "./TimePortal.css";
 
 type Phase = "live" | "capturing" | "revealing" | "done";
@@ -250,13 +250,16 @@ export function TimePortal({ stop, onClose, onTalk }: TimePortalProps) {
         lng: stop.lng,
       });
       savedRef.current = true;
-      // Background upgrade to a real gpt-image-2 die-cut (transparent white outline).
-      // Guard against the mock provider's tiny 1×1 PNG (length check).
+      // Background upgrade to a real gpt-image-2 die-cut. The server renders the
+      // sticker on a chroma-key green field (gpt-image-2 can't do transparency),
+      // so we key the green out to a transparent white-outline die-cut here.
+      // Every step degrades to null → the memory keeps the instant canvas sticker.
       void fetchDieCutSticker(render).then(async (raw) => {
-        if (raw && raw.startsWith("data:image/png") && raw.length > 5000) {
-          const better = await downscaleDataUrl(raw, 512, 1, "image/png");
-          updateMemorySticker(mem.id, better);
-        }
+        if (!raw || !raw.startsWith("data:image/png") || raw.length <= 5000) return;
+        const keyed = await chromaKeyToTransparent(raw).catch(() => null);
+        if (!keyed) return;
+        const better = await downscaleDataUrl(keyed, 512, 1, "image/png");
+        updateMemorySticker(mem.id, better);
       });
     } catch {
       /* memory is best-effort */

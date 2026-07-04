@@ -106,12 +106,15 @@ async function stickerizeOpenAI(apiKey: string, imageBase64: string): Promise<st
   form.append("image", new Blob([bytes], { type: "image/jpeg" }), "frame.jpg");
   form.append(
     "prompt",
-    "Turn this into a die-cut sticker: keep the main subject and scene, add a thick smooth white sticker border (die-cut outline) hugging the edges, a subtle drop shadow, glossy finish, on a plain flat background. Sticker-book style.",
+    // gpt-image-2 does NOT support a transparent background, so we render the
+    // die-cut sticker on a solid chroma-key green field and key it out to
+    // transparency on the client. The thick WHITE border is what survives the
+    // key, giving the authored sticker-sheet look.
+    "Turn the main subject into a single die-cut sticker: bold, clean, illustrated sticker-book style, hugged by a thick smooth WHITE die-cut outline with a subtle drop shadow and glossy finish. Center it on a completely solid flat chroma-key green background (pure #00B140, no gradient, no texture, no other green anywhere in the scene). The only green in the image must be that background.",
   );
   form.append("size", "1024x1024");
   form.append("quality", env.STICKER_OPENAI_QUALITY ?? "low");
   form.append("output_format", "png");
-  form.append("background", "transparent");
   form.append("n", "1");
   const resp = await fetch("https://api.openai.com/v1/images/edits", {
     method: "POST",
