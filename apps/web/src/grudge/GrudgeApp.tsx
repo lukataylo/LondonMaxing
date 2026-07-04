@@ -418,7 +418,10 @@ export function GrudgeApp() {
           memory={session}
           onGrudge={recordGrudge}
           onEvent={recordEvent}
-          onClose={() => setConvoStopId(null)}
+          onClose={() => {
+            setConvoStopId(null);
+            setConvoOverride(null); // clear any ad-hoc persona so re-entry is clean
+          }}
         />
       ) : null}
 

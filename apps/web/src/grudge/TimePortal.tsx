@@ -50,10 +50,16 @@ function tryLoadImage(url: string): Promise<string | null> {
 }
 
 /** A pre-rendered era image in public/portal/. Only requested when the manifest
- *  says it exists (no 404 noise), so it's instant + demo-safe. */
+ *  says it exists (no 404 noise), so it's instant + demo-safe.
+ *
+ *  Falls back to the Dalston Kingsland station image for that era when a stop has
+ *  no authored render (stops 5–6, or a GPS mismatch). This guarantees EVERY
+ *  capture around the venue reveals instantly instead of waiting ~30s on the live
+ *  render and dropping to the era-tint placeholder. */
 function cachedRenderFor(stopId: string, era: EraId): Promise<string | null> {
-  if (!PORTAL_ASSETS.has(`${stopId}-${era}`)) return Promise.resolve(null);
-  return tryLoadImage(`/portal/${stopId}-${era}.jpg`);
+  if (PORTAL_ASSETS.has(`${stopId}-${era}`)) return tryLoadImage(`/portal/${stopId}-${era}.jpg`);
+  if (PORTAL_ASSETS.has(`dalston-station-${era}`)) return tryLoadImage(`/portal/dalston-station-${era}.jpg`);
+  return Promise.resolve(null);
 }
 
 /** Downscale a data/blob URL to a JPEG thumbnail so stored memories stay small

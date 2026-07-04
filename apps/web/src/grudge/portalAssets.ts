@@ -19,4 +19,11 @@ export const PORTAL_ASSETS = new Set<string>([
   "ashwin-street-bollard-1943",
   "ashwin-street-bollard-1974",
   "ashwin-street-bollard-2050",
+  // Dalston Kingsland station — the venue landmark. Wired as the universal
+  // fallback in cachedRenderFor for any stop without an authored render
+  // (stops 5–6 / GPS mismatch), so every snap reveals instantly.
+  "dalston-station-1890s",
+  "dalston-station-1943",
+  "dalston-station-1974",
+  "dalston-station-2050",
 ]);

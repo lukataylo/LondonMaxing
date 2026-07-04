@@ -557,6 +557,18 @@ export function useVoiceConversation(
 
   // ── stop ────────────────────────────────────────────────────────────────────
   const stop = useCallback(async () => {
+    // Silence BOTH directions synchronously first. endSession() is async and the
+    // agent's already-buffered speech would otherwise keep playing (and the mic
+    // keep sending) for a second or two after the user taps End — muting volume +
+    // mic here makes "End" feel instant. Best-effort: ignore if already closed.
+    const silence = (c: ElevenLabsConversation | null) => {
+      if (!c) return;
+      try { c.setVolume({ volume: 0 }); } catch { /* closed */ }
+      try { c.setMicMuted(true); } catch { /* closed */ }
+    };
+    silence(convRef.current);
+    silence(warmConvRef.current);
+
     // Abort any in-flight warmup.
     warmAbortRef.current?.abort();
     warmAbortRef.current = null;
@@ -621,6 +633,14 @@ export function useVoiceConversation(
     mountedRef.current = true;
     return () => {
       mountedRef.current = false;
+      // Mute instantly so no agent audio bleeds past unmount, then tear down.
+      const hush = (c: ElevenLabsConversation | null) => {
+        if (!c) return;
+        try { c.setVolume({ volume: 0 }); } catch { /* closed */ }
+        try { c.setMicMuted(true); } catch { /* closed */ }
+      };
+      hush(convRef.current);
+      hush(warmConvRef.current);
       warmAbortRef.current?.abort();
       void warmConvRef.current?.endSession().catch(() => {});
       warmConvRef.current = null;
